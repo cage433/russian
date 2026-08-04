@@ -3,3 +3,6 @@ __pycache__/
 *.pyc
 .DS_Store
 scratch/
+books
+known_lemmas.txt
+known_vocab.tsv

@@ -36,6 +36,30 @@ Before an edit that would invalidate a card's `[sound:]` recording (changing/cor
 4. Curate the survivors (real thematic vocab + idioms; drop grammar-drill items like prefixed motion verbs, and brand names). Author correct spelling/stress/gloss/example from knowledge.
 5. `a.add_notes(deck, rows)` — one-by-one, skips Front-duplicate collisions.
 
+## Drill / tutoring workflow (using the decks, not building them)
+This repo is also used to **tutor Alex through Точка Ру grammar** with English→Russian
+translation drills. Drill examples should draw **mainly from vocabulary Alex already knows**;
+when a sentence must reach beyond it, **gloss the unfamiliar word inline** (English). Drills
+**never create or modify Anki cards** — gloss only (distinct from the card-building workflow above).
+- **Known set = studied vocab**, i.e. cards that have left the 'new' queue: `deck:Vocab::* -is:new`
+  (~3.3k words). Note this differs from `a.build_known()` (which unions *all* notes to filter
+  already-carded words); here we want words Alex can *recall*.
+- `scripts/build_drill_vocab.py` → regenerates `known_lemmas.txt` (membership set) + `known_vocab.tsv`
+  (ru→en, for gloss lookup) at the repo root. **Run at session start** — the studied set grows.
+- `scripts/check_vocab.py "…russian…"` → prints content lemmas NOT in the known set (pymorphy3
+  lemmatisation + a function-word stoplist). Run the expected Russian answer through it; gloss or
+  swap whatever it flags. Aspect pairs can over-gloss (a sentence's сошлись lemmatises to сойтись
+  while the card stores сходиться) — harmless; it never hides a genuine unknown.
+- **Drill format:** English sentences one at a time → Alex translates → corrections in Russian,
+  explanations in English. «ещё N таких» = mini-drill on the last error pattern. Track as
+  "Sentence N of 20". Correct-or-typos-only → next sentence immediately.
+- Per-lesson grammar notes live in `grammar/tochka ru/<level>/<lesson>.md`. Evolving tutoring
+  state is version-controlled here: `tutoring/progress.md` (unit progress + TODO drills) and
+  `tutoring/error-patterns.md` (Alex's recurring mistakes — turn into «ещё N таких» mini-drills).
+  Read and update both when tutoring.
+- `known_lemmas.txt` / `known_vocab.tsv` are generated caches (gitignored); the `books` symlink
+  (→ Proton Drive PDFs) is also gitignored.
+
 ## Gotchas
 - Interactive shell aliases `gs` → `git status`; use `/opt/homebrew/bin/gs` for Ghostscript.
 - This system's `pdftotext` is the xpdf build and won't display Cyrillic from text layers — verify extraction with PyMuPDF, not pdftotext.
