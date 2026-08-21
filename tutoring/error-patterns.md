@@ -17,3 +17,9 @@ mini-drills («ещё N таких») when they recur. Add to this list as new p
 - **Lexical:** произойти (not получиться) for events; ссора (not аргумент) for a quarrel;
   доволен + Instr rather than счастливый when describing satisfaction.
 - **Yes/no questions** use **ли** after the verb; the question word comes first.
+- **Absence = нет + GENITIVE**, not «не» + place (recurred 2026-08-05): ~~я не дома~~ →
+  **меня́ нет до́ма**; его́ нет · нас не́ было · её не бу́дет. («я не дома» = I'm elsewhere.)
+- **Aspect with habitual adverbs** (всегда́, ка́ждый день, ча́сто) → **imperfective**
+  (~~всегда прочитаю~~ → всегда́ чита́ю); and keep the **object pronoun** (я всегда́ **э́то** чита́ю).
+- **Quantity + GEN PL:** со́тни фотогра́фий, мно́го друзе́й; `-ия` → `-ий`.
+- **Collocation:** де́лать фотогра́фии / фотографи́ровать (снима́ть = to film).

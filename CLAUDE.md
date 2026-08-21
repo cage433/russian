@@ -53,6 +53,13 @@ when a sentence must reach beyond it, **gloss the unfamiliar word inline** (Engl
 - **Drill format:** English sentences one at a time → Alex translates → corrections in Russian,
   explanations in English. «ещё N таких» = mini-drill on the last error pattern. Track as
   "Sentence N of 20". Correct-or-typos-only → next sentence immediately.
+- **Reference pane** — Alex runs `tail -F scratch/drill-pane.md` in an adjacent tmux pane to
+  re-check things without scrolling. During a drill, **append** (`>>`, append-only so `tail -F`
+  stays stable; never rewrite the file) the *look-up-able* material to `scratch/drill-pane.md`:
+  the grammar-point **summary** when a point/drill begins (Alex usually asks for this first),
+  **vocab glosses** (esp. words `check_vocab.py` flags), and standalone **grammar-rule
+  explanations**. Keep the interactive exchange — prompts, Alex's answers, corrections — **in the
+  session**, not the pane. Use short markdown headers per entry; `scratch/` is gitignored.
 - Per-lesson grammar notes live in `grammar/tochka ru/<level>/<lesson>.md`. Evolving tutoring
   state is version-controlled here: `tutoring/progress.md` (unit progress + TODO drills) and
   `tutoring/error-patterns.md` (Alex's recurring mistakes — turn into «ещё N таких» mini-drills).
