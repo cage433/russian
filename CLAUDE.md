@@ -29,6 +29,39 @@ series. Words the textbooks teach that aren't already known get authored as flas
 ## Audio rule
 Before an edit that would invalidate a card's `[sound:]` recording (changing/correcting the Russian word or its stress), **ask the user whether to delete the recording** — don't silently keep a now-wrong one or delete on your own. If deleting, remove only the `[sound:…]` reference; the orphaned media clears via Tools→Check Media.
 
+## Promoting words into today's learning queue
+Tag notes `promote` in the Anki browser, then `scripts/promote_new_cards.py` (`--dry-run` /
+`--clear-limit` / `--clear-tag` / `--restore <snapshot>`). It finds `tag:promote` across **all**
+decks and, per deck, does both halves of the job:
+1. **Positions.** Per note, the lowest-ord available new card → position **0**, its remaining new
+   siblings → position **1**. Untagged new cards start at ≥2 (asserted at runtime; the deck is
+   skipped if not), so a limit of *one per note* gathers exactly the promoted words — no leak, and
+   no two gathered cards are siblings, so **sibling burying never eats into the batch**. The
+   position-1 siblings come up a following day. Old positions snapshot to `scratch/`
+   (**`setSpecificValueOfCard` writes with `skip_undo_entry=True` — Anki's undo will not
+   bring them back**; `--restore` is the only way back).
+2. **Limit.** Sets a **today-only** per-deck limit (`Deck.Normal.new_limit_today`), which
+   self-clears at rollover — nothing to reset, no options preset touched.
+
+The limit needs the companion add-on **`anki_addon/russian_promote/`** (symlinked into
+`~/Library/Application Support/Anki2/addons21/`; restart Anki after changing it). It attaches
+`setNewLimitToday` / `clearNewLimitToday` / `getDeckLimits` onto AnkiConnect's class on the
+`profile_did_open` hook — AnkiConnect finds actions by walking its methods for an `api` attribute,
+so this needs no fork and survives its updates. Writes go through `decks.update_dict`
+(absolute + idempotent), falling back to `extend_limits` (a delta — Custom Study's mechanism).
+Without the add-on the script still repositions and just prints the number to enter by hand.
+- **Never call AnkiConnect's `removeDeckConfigId`.** `decks.remove_config()` is the only function in
+  `anki/decks.py` that calls `mod_schema(check=True)`; it raises a full-sync confirmation modal, and
+  since AnkiConnect serves requests on Anki's GUI thread that **deadlocks Anki** until the dialog is
+  dismissed by hand. (`add_config`/`save`/`update_config` are all prompt-free.)
+- Don't edit the deck's options **preset**: "Paused" is shared with ~50 other decks, and a preset
+  limit is persistent — it keeps letting untagged cards through until manually reset.
+- `newCardsIgnoreReviewLimit` is **not** a way around a 0 limit: it is collection-wide and only
+  decides whether the *review* limit caps new cards.
+- Don't use `setDueDate 0`: it converts new → *review*, skipping the learning steps.
+- Cards already buried/suspended won't appear today whatever their position (burying clears at
+  rollover); the script reports them rather than pretending otherwise.
+
 ## Build workflow (per level / lesson)
 1. Build the known/filter set: `a.build_known([...decks to exclude...])`. For B2.1 the user chose 10K + B1.1 + B1.2 + RLC.
 2. Extract lesson text with `a.page_text(pdf, start, end)` (both textbook + workbook page ranges from the СОДЕРЖАНИЕ/TOC). Tokenise, lemmatise, drop proper nouns (Name/Surn/Patr/Geox), non-dictionary words (`morph().word_is_known`), grammar meta-terms (case names, деепричастие, приставка…), and anything in the known set.
