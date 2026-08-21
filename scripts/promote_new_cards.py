@@ -82,6 +82,22 @@ def set_due(card_id, due):
         raise RuntimeError(f"setSpecificValueOfCard failed for {card_id}: {r!r}")
 
 
+def reap_tag(tag, dry_run):
+    """Drop the tag from notes with no new cards left — every card introduced, so the tag
+    has done its job. A note whose remaining card is only buried or suspended still matches
+    `is:new`, so it keeps the tag (verified: `is:new` includes buried cards)."""
+    done = sorted(set(a.call("findNotes", query=f"tag:{tag}"))
+                  - set(a.call("findNotes", query=f"tag:{tag} is:new")))
+    if not done:
+        return []
+    if dry_run:
+        print(f"would remove tag:{tag} from {len(done)} finished note(s)")
+        return done
+    a.call("removeTags", notes=done, tags=tag)
+    print(f"removed tag:{tag} from {len(done)} finished note(s) (all cards introduced)")
+    return done
+
+
 def plan_deck(cards):
     """-> (primaries, siblings). One primary per note; its other new cards are siblings."""
     bynote = defaultdict(list)
@@ -124,7 +140,9 @@ def set_today_limit(deck, n, addon):
         print(f"    WARNING: expected {n}, add-on reported {lim.get('limit')!r} — check by hand")
 
 
-def promote(tag, dry_run, clear_tag, set_limit):
+def promote(tag, dry_run, clear_tag, set_limit, untag_finished=True):
+    if untag_finished:
+        reap_tag(tag, dry_run)
     ids = a.call("findCards", query=f"tag:{tag}")
     if not ids:
         print(f"Nothing tagged {tag!r}.")
@@ -243,7 +261,9 @@ if __name__ == "__main__":
     p.add_argument("--clear-limit", action="store_true",
                    help="drop the today-only limit override and exit")
     p.add_argument("--clear-tag", action="store_true",
-                   help="remove the tag afterwards (off by default: siblings still need it)")
+                   help="remove the tag from ALL matched notes afterwards, finished or not")
+    p.add_argument("--keep-finished-tags", action="store_true",
+                   help="don't auto-remove the tag from notes whose cards are all introduced")
     p.add_argument("--restore", metavar="SNAPSHOT.json",
                    help="write the original positions back and exit")
     args = p.parse_args()
@@ -253,4 +273,5 @@ if __name__ == "__main__":
     elif args.clear_limit:
         clear_limits(args.deck, args.tag)
     else:
-        promote(args.tag, args.dry_run, args.clear_tag, not args.no_limit)
+        promote(args.tag, args.dry_run, args.clear_tag, not args.no_limit,
+                untag_finished=not args.keep_finished_tags)

@@ -43,13 +43,29 @@ decks and, per deck, does both halves of the job:
 2. **Limit.** Sets a **today-only** per-deck limit (`Deck.Normal.new_limit_today`), which
    self-clears at rollover — nothing to reset, no options preset touched.
 
+3. **Tag reaping.** A note loses the `promote` tag once it has **no `is:new` cards left** — both
+   directions introduced. `is:new` includes buried/suspended cards, so a note whose remaining
+   sibling is merely buried keeps its tag. (`--keep-finished-tags` disables; `--clear-tag` is the
+   blunt version — strips the tag from *all* matched notes, finished or not.)
+
 The limit needs the companion add-on **`anki_addon/russian_promote/`** (symlinked into
 `~/Library/Application Support/Anki2/addons21/`; restart Anki after changing it). It attaches
-`setNewLimitToday` / `clearNewLimitToday` / `getDeckLimits` onto AnkiConnect's class on the
-`profile_did_open` hook — AnkiConnect finds actions by walking its methods for an `api` attribute,
-so this needs no fork and survives its updates. Writes go through `decks.update_dict`
-(absolute + idempotent), falling back to `extend_limits` (a delta — Custom Study's mechanism).
-Without the add-on the script still repositions and just prints the number to enter by hand.
+`setNewLimitToday` / `clearNewLimitToday` / `getDeckLimits` / `autoLimitNow` onto AnkiConnect's
+class on the `profile_did_open` hook — AnkiConnect finds actions by walking its methods for an
+`api` attribute, so this needs no fork and survives its updates. Writes go through
+`decks.update_dict` (absolute + idempotent), falling back to `extend_limits` (a delta — Custom
+Study's mechanism). Without the add-on the script still repositions and just prints the number
+to enter by hand.
+
+**The same hook also sets the limits at every Anki startup**, so a normal day needs no command at
+all: open Anki and the promoted words are there. It only counts promoted cards *already
+repositioned* to positions 0/1 (tagging alone never raises a limit), **skips a deck entirely if
+any untagged new card shares those positions** (the leak guard — tested), and is a no-op when the
+limit is already stamped for `sched.today`. Toggles at the top of the add-on:
+`AUTO_LIMIT_ON_STARTUP`, `AUTO_UNTAG_FINISHED`. `autoLimitNow` triggers the pass on demand.
+Known limit: in a mixed batch (some notes with only a sibling left, plus newly tagged notes with
+both cards at the front) the gather can spend a slot on a primary and its own sibling, so burying
+drops one — it under-delivers, never leaks. Re-running the script re-sorts it.
 - **Never call AnkiConnect's `removeDeckConfigId`.** `decks.remove_config()` is the only function in
   `anki/decks.py` that calls `mod_schema(check=True)`; it raises a full-sync confirmation modal, and
   since AnkiConnect serves requests on Anki's GUI thread that **deadlocks Anki** until the dialog is

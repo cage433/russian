@@ -35,10 +35,16 @@ changing raises at profile open or returns an error to the caller.
 """
 import importlib
 
-from aqt import gui_hooks
+from aqt import gui_hooks, mw
 
 ANKICONNECT_MODULE = "2055492159"
 LIMIT_KEYS = ("newLimitToday", "new_limit_today")   # camel (legacy JSON) / snake
+
+# --- startup auto-limit -----------------------------------------------------
+AUTO_LIMIT_ON_STARTUP = True     # set False to disable the profile_did_open pass
+AUTO_UNTAG_FINISHED = True       # drop `promote` once a note has no new cards left
+PROMOTE_TAG = "promote"
+FRONT_MAX = 1                    # positions 0 (primaries) and 1 (siblings)
 
 
 def _deck_id(col, deck):
@@ -122,10 +128,91 @@ def _patch():
         col.decks.update_dict(d)
         return {"ok": True, "limits": _read_limits(col, deck)}
 
-    for fn in (getDeckLimits, setNewLimitToday, clearNewLimitToday):
+    def autoLimitNow(self):
+        """Run the startup pass on demand (same logic, for testing/scripting)."""
+        auto_limit()
+        return {"ok": True}
+
+    for fn in (getDeckLimits, setNewLimitToday, clearNewLimitToday, autoLimitNow):
         fn.api, fn.versions = True, ()
         setattr(ac.AnkiConnect, fn.__name__, fn)
     print("russian_promote: registered getDeckLimits, setNewLimitToday, clearNewLimitToday")
 
 
-gui_hooks.profile_did_open.append(_patch)
+def _set_today_limit(col, did, n):
+    d = col.decks.get_legacy(did)
+    key, _ = _limit_field(d)
+    d[key or LIMIT_KEYS[0]] = {"limit": n, "today": col.sched.today}
+    col.decks.update_dict(d)
+
+
+def reap_tag(col):
+    """Drop the `promote` tag from notes that have no new cards left — i.e. every card of
+    the note has been introduced, so the tag has done its job. Notes whose remaining card
+    is merely buried or suspended still match `is:new` and keep the tag."""
+    tagged = set(col.find_notes(f"tag:{PROMOTE_TAG}"))
+    unfinished = set(col.find_notes(f"tag:{PROMOTE_TAG} is:new"))
+    done = sorted(tagged - unfinished)
+    if done:
+        col.tags.bulk_remove(done, PROMOTE_TAG)
+        print(f"russian_promote: removed tag:{PROMOTE_TAG} from {len(done)} finished note(s)")
+    return done
+
+
+def auto_limit():
+    """Give every deck holding front-of-queue `promote` cards a today-only limit sized to
+    the promoted words waiting there, so Anki simply opens with them available.
+
+    Only counts promoted new cards already sitting at position <= FRONT_MAX, i.e. ones
+    `promote_new_cards.py` has repositioned — tagging alone never raises a limit. A deck is
+    skipped entirely if any *untagged* new card shares those positions, which is what
+    guarantees the gathered batch can only contain promoted cards: the limit is the distinct
+    note count, which is always <= the number of promoted cards at the front.
+
+    Idempotent: re-running with the limit already stamped for today is a no-op, so it is
+    safe on every profile open.
+    """
+    col = mw.col
+    if col is None:
+        return
+    if AUTO_UNTAG_FINISHED:
+        reap_tag(col)
+    cards = [col.get_card(cid) for cid in col.find_cards(f"tag:{PROMOTE_TAG} is:new")]
+    bydeck = {}
+    for c in cards:
+        if c.type == 0 and c.due <= FRONT_MAX:
+            bydeck.setdefault(c.did, []).append(c)
+
+    for did, cs in sorted(bydeck.items()):
+        name = col.decks.name(did)
+        # Everything new at the front of this deck must be tagged, or we would let
+        # untagged cards through alongside the promoted ones.
+        at_front = col.db.scalar(
+            "select count() from cards where did = ? and type = 0 and due <= ?",
+            did, FRONT_MAX) or 0
+        if at_front != len(cs):
+            print(f"russian_promote: {name}: {at_front - len(cs)} untagged new card(s) at "
+                  f"position <= {FRONT_MAX}; leaving the limit alone")
+            continue
+
+        limit = len({c.nid for c in cs if c.queue == 0})
+        if not limit:
+            continue
+        cur = _limit_field(col.decks.get_legacy(did))[1] or {}
+        if cur.get("limit") == limit and cur.get("today") == col.sched.today:
+            print(f"russian_promote: {name}: today-only limit already {limit}")
+            continue
+        _set_today_limit(col, did, limit)
+        print(f"russian_promote: {name}: today-only new limit -> {limit}")
+
+
+def _on_profile_open():
+    _patch()
+    if AUTO_LIMIT_ON_STARTUP:
+        try:
+            auto_limit()
+        except Exception as e:                       # never block profile loading
+            print(f"russian_promote: auto_limit failed: {e}")
+
+
+gui_hooks.profile_did_open.append(_on_profile_open)
