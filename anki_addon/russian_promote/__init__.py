@@ -147,11 +147,13 @@ def _set_today_limit(col, did, n):
 
 
 def reap_tag(col):
-    """Drop the `promote` tag from notes that have no new cards left — i.e. every card of
-    the note has been introduced, so the tag has done its job. Notes whose remaining card
-    is merely buried or suspended still match `is:new` and keep the tag."""
+    """Drop the `promote` tag from notes whose cards have all reached plain review.
+
+    Checks `is:new or is:learn`, not `is:new` alone: a note part-way through the learning
+    steps has no new cards, so testing `is:new` would strip a tag the moment it was applied
+    to anything already being learned (e.g. a card just unsuspended mid-learning)."""
     tagged = set(col.find_notes(f"tag:{PROMOTE_TAG}"))
-    unfinished = set(col.find_notes(f"tag:{PROMOTE_TAG} is:new"))
+    unfinished = set(col.find_notes(f"tag:{PROMOTE_TAG} (is:new or is:learn)"))
     done = sorted(tagged - unfinished)
     if done:
         col.tags.bulk_remove(done, PROMOTE_TAG)

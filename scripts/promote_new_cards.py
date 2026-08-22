@@ -83,11 +83,16 @@ def set_due(card_id, due):
 
 
 def reap_tag(tag, dry_run):
-    """Drop the tag from notes with no new cards left — every card introduced, so the tag
-    has done its job. A note whose remaining card is only buried or suspended still matches
-    `is:new`, so it keeps the tag (verified: `is:new` includes buried cards)."""
+    """Drop the tag from notes whose cards have all reached plain review — nothing new and
+    nothing still in learning steps, so the tag has done its job.
+
+    Deliberately checks `is:new or is:learn`, not `is:new` alone: a note whose cards are
+    part-way through the learning steps (including one just unsuspended mid-learning) has no
+    new cards, and testing `is:new` alone would silently strip a tag the moment it was
+    applied. `is:learn` is type-based, so it also covers relearning and suspended-mid-learning
+    cards — all cases where the tag is still doing something."""
     done = sorted(set(a.call("findNotes", query=f"tag:{tag}"))
-                  - set(a.call("findNotes", query=f"tag:{tag} is:new")))
+                  - set(a.call("findNotes", query=f"tag:{tag} (is:new or is:learn)")))
     if not done:
         return []
     if dry_run:
@@ -166,7 +171,8 @@ def promote(tag, dry_run, clear_tag, set_limit, untag_finished=True):
               f"   new: {len(primaries)} notes ({len(primaries) + len(siblings)} cards)"
               f"   already studied: {len(done)} cards")
         if not primaries:
-            print("  nothing new to promote here")
+            print("  no new cards here — nothing to reposition (already in learning/review;")
+            print("  learning cards are not gated by the new-card limit, so they surface on their own)")
             continue
 
         for c in sorted(primaries, key=preview):
