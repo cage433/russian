@@ -114,6 +114,19 @@ when a sentence must reach beyond it, **gloss the unfamiliar word inline** (Engl
   `tutoring/error-patterns.md` (Alex's recurring mistakes — turn into «ещё N таких» mini-drills).
   Read and update both when tutoring. `tutoring/suspended-backlog.md` lists cards Alex suspended
   as too painful to learn, to be unsuspended **gradually** — don't bulk-unsuspend them.
+- **Drills isolate one variable (set 2026-08-22):** keep the non-target part of the sentence
+  trivial (vary it — don't reuse an identical clause, that becomes copying); carrier vocab from the studied set
+  (`check_vocab.py` the expected answer *before* sending); no incidental adjective agreement,
+  case-governed prepositions or aspect choices unless that's the point; **score the target
+  separately** from incidental slips. Free-writing tasks are the separate place where everything
+  is live at once. **General drills are level-gated:** 5 sentences at one level, 4+ correct moves up
+  (A2 → B1 → B2), otherwise repeat the level with fresh sentences; typos alone don't fail a
+  sentence. Level definitions in `tutoring/progress.md`.
+- **Level (set 2026-08-22): write at A2, read/study at B2.** Alex's reliable production is short
+  declarative sentences; his reach is B1–B2 and that's where errors cluster. Score **corrections per
+  sentence, not ambition**; push for shorter sentences (Rule 0); and when assessing, **don't count
+  echoes of the prompt as production**. Pre-send checklists in `tutoring/self-check.md`; the working
+  approach is spelled out at the top of `tutoring/progress.md`.
 - `scripts/export_learning_vocab.py` refreshes the Obsidian folder `Anki learning vocab/`
   (one note per POS, near-synonym groups given fuller sense-by-sense tables).
 - `known_lemmas.txt` / `known_vocab.tsv` are generated caches (gitignored); the `books` symlink
