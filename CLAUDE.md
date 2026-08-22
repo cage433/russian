@@ -112,7 +112,10 @@ when a sentence must reach beyond it, **gloss the unfamiliar word inline** (Engl
 - Per-lesson grammar notes live in `grammar/tochka ru/<level>/<lesson>.md`. Evolving tutoring
   state is version-controlled here: `tutoring/progress.md` (unit progress + TODO drills) and
   `tutoring/error-patterns.md` (Alex's recurring mistakes — turn into «ещё N таких» mini-drills).
-  Read and update both when tutoring.
+  Read and update both when tutoring. `tutoring/suspended-backlog.md` lists cards Alex suspended
+  as too painful to learn, to be unsuspended **gradually** — don't bulk-unsuspend them.
+- `scripts/export_learning_vocab.py` refreshes the Obsidian folder `Anki learning vocab/`
+  (one note per POS, near-synonym groups given fuller sense-by-sense tables).
 - `known_lemmas.txt` / `known_vocab.tsv` are generated caches (gitignored); the `books` symlink
   (→ Proton Drive PDFs) is also gitignored.
 
@@ -120,6 +123,10 @@ when a sentence must reach beyond it, **gloss the unfamiliar word inline** (Engl
 - Interactive shell aliases `gs` → `git status`; use `/opt/homebrew/bin/gs` for Ghostscript.
 - This system's `pdftotext` is the xpdf build and won't display Cyrillic from text layers — verify extraction with PyMuPDF, not pdftotext.
 - `addNotes` (plural) is atomic and errors if ANY note is a duplicate — always add one-by-one (`add_notes` does this).
+- **`is:learn` matches a card's TYPE, not its queue.** A card suspended part-way through its
+  learning steps keeps `type=learn` for ever and goes on matching `is:learn`, though it can never
+  appear. Any "what am I currently learning" query needs **`-is:suspended`** (and `-is:review`
+  to drop relearning cards). Bit us once: the list silently filled with the `needs-audio` batch.
 - Normalise Cyrillic by stripping ONLY the stress accent (keep й/ё); NFD-dropping all combining marks corrupts them.
 
 Global background lives in the user memory files `anki_setup.md` and `anki_audio_recordings.md`.
