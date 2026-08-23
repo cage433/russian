@@ -60,3 +60,30 @@ mini-drills («ещё N таких») when they recur. Add to this list as new p
 - **Passive agent = bare INSTRUMENTAL, never «с»** (2026-08-22): ~~заменился с айфонай~~ →
   **бы́ло заменено́ айфо́нами** / **замени́ли айфо́ны**. с + Instr = accompaniment (ко́фе с
   молоко́м), not agency. Also **на сме́ну** + Dat + прийти́ as the idiomatic alternative.
+- **-то vs -нибудь** (2026-08-22): ~~когда-то я хочу изучать~~ → **когда́-нибудь**. `-то` = some
+  specific but unknown one, typically **past** (когда́-то я жил в Ло́ндоне); `-нибудь` = any one at
+  all, typically **future / hypothetical / question** (когда́-нибудь, кто́-нибудь, что́-нибудь).
+- **Negation scope — «не всё», not «не понимаю всё»**: → я **не всё** понима́ю. Put `не`
+  immediately before the word it negates.
+- **по-англи́йски (adverb, -и) for speaking a language** — ~~по-английский~~; but the language as a
+  *system* is **в англи́йском языке́**, not по-англи́йски.
+- **похо́ж на + ACC** (short adjective, not a verb): ~~не похожит английский~~ → **не похо́ж на
+  англи́йский**.
+- **по́льзоваться +INSTR vs испо́льзовать +ACC**: ~~какой вид пользовать~~ → како́й вид
+  **испо́льзовать** / каки́м ви́дом **по́льзоваться**.
+- **В конце́ концо́в ≠ "finally" in a list** (it means eventually/after all) → **И наконе́ц**.
+- **NOT an error: о↔а swaps** (2026-08-23). Keyboard artefact — on ЙЦУКЕН `а` and `о` are the
+  mirrored index-finger home keys (ф ы в а п / р о л д ж), and they are also hard to tell apart on
+  Alex's monitor. Swaps go both ways (магу, Однака, поласа, кокой). **Count as typos, don't
+  correct as knowledge.** Same for п↔р, в↔л, ы↔д, ф↔ж. Exception: an о/а difference in a
+  *grammatical ending* may be a genuine case error — check before dismissing.
+- **Commas — a systematic gap** (3 occurrences in one 7-sentence drill, 2026-08-23). Russian
+  comma rules are grammatical, not stylistic:
+  - **Always before a subordinate clause**: …нра́вится**,** что… · …реши́ть**,** како́й… ·
+    …зна́ю**,** почему́… · …челове́к**,** кото́рый…
+  - **After introductory words/phrases**: Коне́чно**,** · Одна́ко**,** · Кро́ме того́**,** ·
+    Наприме́р**,** · к сожале́нию (both sides)
+  - **NOT after a plain adverb**: ~~Ещё,~~ → Ещё · То́же · Та́кже · Обы́чно · Всегда́
+- **English spelling bleeding into Russian**: ~~Руссия~~ → **Росси́я** (though the adjective *is*
+  ру́сский — that is what makes it treacherous); ~~совиетский~~ → **сове́тский** (from сове́т,
+  no и); ~~концепт~~ → поня́тие.

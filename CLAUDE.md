@@ -122,6 +122,12 @@ when a sentence must reach beyond it, **gloss the unfamiliar word inline** (Engl
   is live at once. **General drills are level-gated:** 5 sentences at one level, 4+ correct moves up
   (A2 → B1 → B2), otherwise repeat the level with fresh sentences; typos alone don't fail a
   sentence. Level definitions in `tutoring/progress.md`.
+- **Weekly homework goal (set 2026-08-23):** each week's written task should be reproducible
+  **flawlessly by week's end**, drilled by back-translation (English → Russian, repeat until
+  correct). The Obsidian homework note holds the final text, an English/Russian table for
+  back-translation, and a «Повторение» table of review dates (+1/+3/+7) with first-attempt scores.
+  **Open a session with the delayed re-run** before new material — same-session repetition mostly
+  tests working memory, and the 2026-08-22 corrections were gone within a day.
 - **Level (set 2026-08-22): write at A2, read/study at B2.** Alex's reliable production is short
   declarative sentences; his reach is B1–B2 and that's where errors cluster. Score **corrections per
   sentence, not ambition**; push for shorter sentences (Rule 0); and when assessing, **don't count

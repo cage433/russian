@@ -100,3 +100,90 @@ Lesson words promoted into the learning queue 2026-08-21: устройство, 
 
 ### Homework completed & recorded
 Workbook pp. 8–9 (ex. **Е**, Г, Д, Ж, З, И) and pp. 13–14 (6А, 6Б).
+
+### Back-translation drill, 2026-08-23 (Yaroslava wk 1 text, 7 sentences)
+Format: English → Russian, repeat until correct. **All 7 needed exactly one retry** — none right
+first time, all right on the second attempt. So the corrections land reliably *once pointed out*;
+what is missing is catching them unaided. That is precisely the case for `self-check.md`, and
+argues for making a checklist pass an explicit step before answering.
+
+Six items had been corrected less than 24h earlier and came back anyway: **та́кже→то́же** (3rd
+occurrence), **статьи́**, **норма́льно→обы́чно**, **не всё** (negation scope), **Росси́я**,
+**сове́тский**. Single corrections are not sticking; the mini-drills are the missing piece.
+
+Also established: **о↔а swaps are keyboard artefacts, not spelling errors** — see
+`error-patterns.md`. Don't correct them as knowledge.
+
+### Same 7 sentences, round 2 (immediately after round 1)
+Round 1: **0 of 7** right first time. Round 2: **3 of 7** (sentences 4, 5, 6). Real improvement.
+
+The split is the interesting part — **what stuck and what didn't divides cleanly by type**:
+- **Stuck after one correction (word choice / lexis):** то́же (after 3 misses), обы́чно, суть,
+  статьи́, сове́тскую, не всё, no comma after Ещё.
+- **Did not stick (morphology and punctuation):** instrumental after каза́ться (тру́дном for
+  тру́дным — had it right in round 1), в + prepositional for location (в ру́сский язы́к), в Росси́е
+  for в Росси́и, and commas (missed before како́й, added wrongly after Когда́-нибудь).
+
+**Working hypothesis: lexical corrections stick on one exposure; case endings and punctuation need
+actual drilling.** Both remaining gaps are closed rule sets, so both are drillable:
+- [ ] Commas: before subordinate clauses / after introductory phrases / not after plain adverbs
+- [ ] Case endings: в+PREP for location, каза́ться/стать/быть +INSTR, -ия → -ии
+Also: `друзих` for `други́х` three times — друг→друзья́ interference, explained 2026-08-23.
+
+### Round 3 — 7/7 first time
+Progression across three rounds of the same 7 sentences, one sitting:
+**round 1: 0/7 · round 2: 3/7 · round 3: 7/7** (first-attempt correct).
+
+Everything that failed in round 2 held in round 3: тру́дным (instr after каза́ться), в ру́сском
+языке́ (в + prep), comma before како́й, no comma after Когда́-нибудь, в Росси́и (-ия → -ии), and
+други́х (the друзья́ interference). So the round-2 hypothesis stands — morphology and punctuation
+*do* stick, they just need more than one exposure, where lexical fixes needed only one.
+
+**Weekly goal (set 2026-08-23):** each week's written homework should be reproducible
+**flawlessly by the end of that week**, tested by back-translation from the English. Homework notes
+in the Obsidian vault carry a «Повторение» table with the review dates and first-attempt scores —
+schedule roughly **+1, +3, +7 days**. Score = correct on the *first* attempt; typos don't count.
+Open each session with the delayed re-run before starting anything new.
+
+**Caveat: this is same-session retention only.** The 2026-08-22 corrections survived the session
+and were gone the next day. The meaningful test is a **delayed** re-run — repeat this set at the
+start of the next session before anything new, and treat that score as the real one.
+
+### Точка Ру p.28 text — back-translation round 1 (2026-08-23)
+11 sentences, B1–B2 (vs the A2-ish Yaroslava set). **2 of 11 first-attempt correct** (the two
+short ones: «стало менее популярным после изобретения айпода» and the closing sentence).
+
+Recurrences from the 2026-08-22 corrections of this same text — the bulk of the errors:
+бы́ли **в том, что** (was «были тем») · **иногда́ + imperfective** (порвалась → рвала́сь) ·
+**ме́нее → ре́же** · **дели́ть → дели́ться + Instr** · **одно́ и то же vs в то же вре́мя**
+(reached for the first meaning the second) · устро́йств**а** (neuter pl) · был**а́** у́зкая ле́нта ·
+то́же/та́кже.
+
+New this round: магнитофо́н spelled магне́т- three times (English *magnet*, cf. Росси́я/сове́тский —
+same English-interference class); пласти́чный for пластма́ссовый; теорети́чески (adverb -и, not the
+adjective -ий); называ́ть for найти́.
+
+Comma before a subordinate clause failed **twice more** — now ~6 occurrences over two days, and
+still the single most repeated error. Next drill should be commas.
+
+Asked about **нельзя́** — knew only the "forbidden" sense. Aspect rule recorded in the pane:
+нельзя́ + impf = not allowed, нельзя́ + pf = not possible.
+
+### Точка Ру set, round 2 (same day, after the Yaroslava rounds)
+**1/11 first-attempt correct** (round 1: 2/11). No sentence-level improvement — but the metric is
+wrong for this text: these sentences run 15–25 words, so a single slip anywhere fails the whole
+thing. **Score errors-per-sentence, not pass/fail, on long texts.** By that measure round 2 was
+clearly better: магнитофо́н right first time (3 failed attempts in the morning); sentence 10's
+whole clause (в то же вре́мя / ре́же / дели́ться му́зыкой) correct first attempt after 3 errors in
+round 1; all three commas before `что` correct in sentence 8.
+
+Two errors were **overcorrections**, not gaps: fixing стал→ста́ло and breaking устро́йство in the
+same breath; and applying the «но, по-мо́ему,» fencing rule to «в то же вре́мя», which is an
+adverbial, not a вводное слово. Load symptoms — a signal to stop rather than push on.
+
+Still missing бы́ло after modals **6 times** in one session. Highest-frequency single error.
+
+**Process note (2026-08-23): I generated an answer in Alex's voice** for sentence 7 — a fabricated
+user turn — and then marked it correct. Alex caught it. Never produce his answers; if a turn's
+provenance is unclear, ask. Also, per his request: when correcting, name the error and the rule but
+**do not write out the corrected sentence**, or the "repeat" becomes copying.
