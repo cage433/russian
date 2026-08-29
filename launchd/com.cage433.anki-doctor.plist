@@ -3,11 +3,17 @@
   Runs scripts/anki_doctor.py at login and every 4 hours, appending problems to
   ~/Library/Logs/anki-doctor.log. A clean run writes nothing (--quiet).
 
-  Install:
-      ln -s ~/repos/russian/launchd/com.cage433.anki-doctor.plist ~/Library/LaunchAgents/
-      launchctl load ~/Library/LaunchAgents/com.cage433.anki-doctor.plist
-  Run it now:      launchctl start com.cage433.anki-doctor
-  Stop/uninstall:  launchctl unload ~/Library/LaunchAgents/com.cage433.anki-doctor.plist
+  Install (the symlink is fine — launchd follows it, and `git pull` then updates the job):
+      mkdir -p ~/Library/LaunchAgents
+      ln -sfn ~/repos/russian/launchd/com.cage433.anki-doctor.plist ~/Library/LaunchAgents/
+      launchctl bootstrap gui/$(id -u) ~/Library/LaunchAgents/com.cage433.anki-doctor.plist
+  Run it now:  launchctl kickstart -k gui/$(id -u)/com.cage433.anki-doctor
+  Inspect:     launchctl print gui/$(id -u)/com.cage433.anki-doctor
+  Uninstall:   launchctl bootout gui/$(id -u)/com.cage433.anki-doctor
+  (bootstrap/bootout supersede load/unload, which are legacy and quieter about failure.)
+
+  An empty log is the healthy state: --quiet prints nothing unless a check fails. After
+  editing this file, bootout then bootstrap again — launchd caches the job definition.
 
   launchd over cron deliberately: a StartInterval job that comes due while the machine is
   asleep runs on wake, where cron simply misses it — and the laptops spend most of their

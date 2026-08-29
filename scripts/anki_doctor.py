@@ -75,13 +75,28 @@ def git(*args, timeout=60):
         return 1, str(e)
 
 
+_anki_error = None
+
+
 def anki(action, **params):
-    """AnkiConnect call, or None if Anki isn't running."""
+    """AnkiConnect call, or None if it didn't answer (reason kept in `_anki_error`)."""
+    global _anki_error
     import anki_utils as a
     try:
         return a.call(action, **params)
-    except Exception:
+    except Exception as e:
+        _anki_error = f"{type(e).__name__}: {e}"
         return None
+
+
+def anki_closed():
+    """True if AnkiConnect is merely absent — as opposed to present and refusing us.
+
+    Worth separating: a scheduled run finding Anki closed is routine and should stay quiet,
+    but one that cannot reach a *running* Anki would otherwise skip every collection check
+    and exit 0, which reads as a clean bill of health.
+    """
+    return _anki_error is not None and "refused" in _anki_error.lower()
 
 
 # --- checks -----------------------------------------------------------------
@@ -158,7 +173,9 @@ def check_addon_link(rep, fix):
 
 def check_addon_running(rep, info, actions):
     if actions is None:
-        return rep.add("addon", SKIP, "Anki not running")
+        if anki_closed():
+            return rep.add("addon", SKIP, "Anki not running")
+        return rep.add("addon", WARN, f"AnkiConnect unreachable — {_anki_error}")
     missing = [a for a in ADDON_ACTIONS if a not in actions]
     if missing:
         return rep.add("addon", WARN, f"{len(missing)} action(s) not registered "
