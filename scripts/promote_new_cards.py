@@ -9,10 +9,17 @@ Positions
 ---------
 Per note, the lowest-ord available new card becomes the note's "primary" and goes to
 position 0; its remaining new siblings go to position 1. Untagged new cards start at
-position >= 2 (asserted at runtime — the run aborts for a deck if that isn't true), so with
-the limit set to the primary count the gathered batch is exactly one card per promoted note:
-no untagged card can leak in, and no two gathered cards are siblings, so sibling burying
-never eats into the batch. The siblings at position 1 come up on a following day.
+position >= 2 (asserted at runtime — the run aborts for a deck if that isn't true), so the
+gathered batch is one card per promoted note and no two gathered cards are siblings. The
+siblings at position 1 come up on a following day.
+
+That holds the batch only if the limit is no larger than the number of primaries Anki can
+actually gather, because a limit with room to spare is filled from position 2 downwards —
+with untagged words. So a primary is left out of the count when it is buried or suspended,
+and when a sibling is already in today's queue: Anki drops a new card whose sibling is
+queued (bury new siblings) at the moment it *builds* the queue, without waiting for the
+sibling to be answered, and the dropped card still reads `queue == 0`. The count therefore
+errs low — the batch can come up short, but it will not contain words you did not choose.
 
 Daily limit
 -----------
@@ -49,6 +56,11 @@ PRIMARY_POS, SIBLING_POS = 0, 1          # untagged new cards must live at >= 2
 
 QUEUE_NAMES = {0: "new", -1: "suspended", -2: "sib-buried", -3: "buried",
                1: "learn", 2: "review", 3: "day-learn"}
+
+# Cards in today's queue, which therefore bury a new sibling out of it. `-is:buried` matters:
+# a buried sibling is not in the queue and so blocks nothing. Kept identical to
+# BLOCKING_SEARCH in anki_addon/russian_promote/__init__.py — change both together.
+BLOCKING_SEARCH = "-is:new -is:suspended -is:buried (is:due or is:learn)"
 
 
 def have_addon():
@@ -118,6 +130,24 @@ def plan_deck(cards):
     return primaries, siblings
 
 
+def blocked_notes(tag):
+    """-> nids of tagged notes with a card in today's queue, whose new sibling Anki will
+    therefore drop when it builds that queue.
+
+    The exclusion happens at gather time, not when the sibling is answered, and it leaves
+    the dropped card at `queue == 0` — so card state alone cannot tell a gatherable primary
+    from one that will never be offered. Counting the latter sizes the limit above what the
+    deck can deliver and Anki backfills with untagged cards."""
+    ids = a.call("findCards", query=f"tag:{tag} {BLOCKING_SEARCH}")
+    return {c["note"] for c in cards_info(ids)} if ids else set()
+
+
+def buries_new_siblings(deck):
+    """The exclusion above only applies if the deck's preset buries new siblings."""
+    conf = a.call("getDeckConfig", deck=deck)
+    return bool((conf.get("new") or {}).get("bury"))
+
+
 def front_is_clear(deck, tag):
     """False if any *untagged* new card already occupies position 0 or 1 in this deck —
     which would let it into today's batch ahead of the promoted cards."""
@@ -160,6 +190,7 @@ def promote(tag, dry_run, clear_tag, set_limit, untag_finished=True):
     bydeck = defaultdict(list)
     for c in all_cards:
         bydeck[c["deckName"]].append(c)
+    blocked_nids = blocked_notes(tag)      # note-scoped: a sibling may live in another deck
 
     snapshot, summary = [], []
     for deck in sorted(bydeck):
@@ -175,8 +206,15 @@ def promote(tag, dry_run, clear_tag, set_limit, untag_finished=True):
             print("  learning cards are not gated by the new-card limit, so they surface on their own)")
             continue
 
+        blocked_ids = ({c["cardId"] for c in primaries if c["note"] in blocked_nids}
+                       if buries_new_siblings(deck) else set())
         for c in sorted(primaries, key=preview):
-            flag = "" if c["queue"] == 0 else f"   << {QUEUE_NAMES.get(c['queue'], c['queue'])}"
+            if c["queue"] != 0:
+                flag = f"   << {QUEUE_NAMES.get(c['queue'], c['queue'])}"
+            elif c["cardId"] in blocked_ids:
+                flag = "   << sibling in today's queue"
+            else:
+                flag = ""
             print(f"    {preview(c)[:34]:36s} ord={c['ord']} pos {c['due']:>8d} -> {PRIMARY_POS}{flag}")
         if siblings:
             print(f"    + {len(siblings)} sibling card(s) -> position {SIBLING_POS} (a later day)")
@@ -184,8 +222,13 @@ def promote(tag, dry_run, clear_tag, set_limit, untag_finished=True):
         if blocked:
             print(f"    NOTE: {len(blocked)} of these are buried/suspended and will not appear")
             print("          today whatever the position (burying clears at rollover).")
+        if blocked_ids:
+            print(f"    NOTE: {len(blocked_ids)} have a sibling due for review or in learning today.")
+            print("          Anki drops a new card whose sibling is already in the queue, so these")
+            print("          are not counted in the limit; they come up on a day the sibling is not due.")
 
-        limit = len([c for c in primaries if c["queue"] == 0])
+        limit = len([c for c in primaries
+                     if c["queue"] == 0 and c["cardId"] not in blocked_ids])
         if dry_run:
             print(f"    would set today-only New cards/day = {limit}")
             continue

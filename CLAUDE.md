@@ -35,8 +35,10 @@ Tag notes `promote` in the Anki browser, then `scripts/promote_new_cards.py` (`-
 decks and, per deck, does both halves of the job:
 1. **Positions.** Per note, the lowest-ord available new card → position **0**, its remaining new
    siblings → position **1**. Untagged new cards start at ≥2 (asserted at runtime; the deck is
-   skipped if not), so a limit of *one per note* gathers exactly the promoted words — no leak, and
-   no two gathered cards are siblings, so **sibling burying never eats into the batch**. The
+   skipped if not), so a limit of *one per note* gathers one card per promoted note and no two
+   gathered cards are siblings. **That only keeps untagged words out if the limit is no bigger
+   than the number of promoted cards Anki can actually gather** — spare room is filled from
+   position 2 downwards. See the gather-time burying rule below. The
    position-1 siblings come up a following day. Old positions snapshot to `scratch/`
    (**`setSpecificValueOfCard` writes with `skip_undo_entry=True` — Anki's undo will not
    bring them back**; `--restore` is the only way back).
@@ -58,22 +60,38 @@ decks and, per deck, does both halves of the job:
 
 The limit needs the companion add-on **`anki_addon/russian_promote/`** (symlinked into
 `~/Library/Application Support/Anki2/addons21/`; restart Anki after changing it). It attaches
-`setNewLimitToday` / `clearNewLimitToday` / `getDeckLimits` / `autoLimitNow` onto AnkiConnect's
+`setNewLimitToday` / `clearNewLimitToday` / `getDeckLimits` / `autoLimitNow` / `peekQueue` onto AnkiConnect's
 class on the `profile_did_open` hook — AnkiConnect finds actions by walking its methods for an
 `api` attribute, so this needs no fork and survives its updates. Writes go through
 `decks.update_dict` (absolute + idempotent), falling back to `extend_limits` (a delta — Custom
 Study's mechanism). Without the add-on the script still repositions and just prints the number
 to enter by hand.
 
-**The same hook also sets the limits at every Anki startup**, so a normal day needs no command at
-all: open Anki and the promoted words are there. It only counts promoted cards *already
-repositioned* to positions 0/1 (tagging alone never raises a limit), **skips a deck entirely if
-any untagged new card shares those positions** (the leak guard — tested), and is a no-op when the
-limit is already stamped for `sched.today`. Toggles at the top of the add-on:
-`AUTO_LIMIT_ON_STARTUP`, `AUTO_UNTAG_FINISHED`. `autoLimitNow` triggers the pass on demand.
-Known limit: in a mixed batch (some notes with only a sibling left, plus newly tagged notes with
-both cards at the front) the gather can spend a slot on a primary and its own sibling, so burying
-drops one — it under-delivers, never leaks. Re-running the script re-sorts it.
+**The same hooks also set the limits without a command being run**, so a normal day needs none:
+`profile_did_open` at startup, **`day_did_change` at the 4am rollover** (Anki's own timer
+reschedules itself for each cutoff, so an instance left running for weeks still re-sizes daily),
+and `state_did_change` → deck list as a catch-up for a rollover the timer slept through (Qt's
+monotonic clock doesn't advance while the machine is asleep). The pass only counts promoted cards
+*already repositioned* to positions 0/1 (tagging alone never raises a limit), **skips a deck
+entirely if any untagged new card shares those positions** (the leak guard — tested), and is a
+no-op when the same limit is already stamped for `sched.today`. Toggles at the top of the add-on:
+`AUTO_LIMIT_ON_STARTUP`, `AUTO_LIMIT_ON_DAY_CHANGE`, `AUTO_UNTAG_FINISHED`. `autoLimitNow`
+triggers the pass on demand; `peekQueue` dumps what the scheduler would hand the reviewer right
+now (same `col.sched.get_queued_cards` call `aqt.reviewer` makes — the way to see the real batch,
+as opposed to what the positions imply).
+- **A promoted card whose sibling is in today's queue will not be gathered, and the limit must not
+  count it** (found 2026-08-30). With "bury new siblings" on, Anki drops a new card whose sibling
+  is already queued **when it builds the queue** — not when the sibling is answered — and the
+  dropped card is left at `queue == 0` in the database, indistinguishable from a gatherable one by
+  card state. So a note whose other direction is a **review due today** or **in learning** cannot
+  contribute a new card today, whatever its position, and counting it puts the limit above what
+  the deck can deliver: Anki fills the gap from the next untagged cards down the list. Both
+  `auto_limit()` (`_blocked_notes`) and the script (`blocked_notes`) subtract them, gated on the
+  preset's `new.bury`, using one shared search string `BLOCKING_SEARCH` — keep the two copies
+  identical. Symptom that led to it: `тесный` (position 15, untagged) appearing in a batch of 10;
+  the queue held 3 promoted + 4 untagged.
+- Sizing therefore **errs low on purpose**: the batch can come up short (a card buried or
+  suspended by hand after the pass runs isn't foreseen), but it does not admit unchosen words.
 - **Never call AnkiConnect's `removeDeckConfigId`.** `decks.remove_config()` is the only function in
   `anki/decks.py` that calls `mod_schema(check=True)`; it raises a full-sync confirmation modal, and
   since AnkiConnect serves requests on Anki's GUI thread that **deadlocks Anki** until the dialog is
