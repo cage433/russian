@@ -15,9 +15,14 @@ series. Words the textbooks teach that aren't already known get authored as flas
   `--quiet` prints just problems; exit 1 if any. Never pushes, commits, or merges non-fast-forward
   — unfinished work on the other laptop is normal, not an error. Repairs limits with
   `autoLimitNow(onlyUnstamped=True)` only, never the full pass (which mid-day would recompute
-  downward and retire words left for later). `launchd/com.cage433.anki-doctor.plist` runs it at
-  login and every 4h → `~/Library/Logs/anki-doctor.log`; launchd rather than cron because a job
-  due while the laptop sleeps runs on wake instead of being missed.
+  downward and retire words left for later). **Exit 2 = it pulled a change to itself and stopped**
+  — re-run it; the pull happens first and alone so the remaining checks are never the superseded
+  copy judging the updated repo. **Run it at session start**, alongside/instead of
+  `build_drill_vocab.py` (it rebuilds stale caches itself).
+  `launchd/com.cage433.anki-doctor.plist` exists but is **deliberately not installed** (tried
+  2026-08-30, backed out): with notifications ruled out, a scheduled run means reading a log,
+  which is no less work than running the thing by hand — and its silent fixes aren't worth a
+  job whose failures you'd only find by looking.
 - **Source PDFs**: `~/Proton Drive/books/Russian/Точка Ру/` → `B1.1/`, `B1.2/`, `B2.1/` each hold `<lvl> учебник.pdf` (textbook) + `<lvl> раб-тет.pdf` (workbook). B1.x textbooks are OCR'd scans (stress letters mangled — use OCR to identify *which* words, author spelling/stress yourself); B2.1 is clean vector text.
 
 ## Decks

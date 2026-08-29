@@ -8,7 +8,12 @@ to fix, and exits non-zero when something needs a person.
 
     ./scripts/anki_doctor.py              # check and apply safe fixes
     ./scripts/anki_doctor.py --check      # report only, change nothing
-    ./scripts/anki_doctor.py --quiet      # print only problems (for a scheduled run)
+    ./scripts/anki_doctor.py --bootstrap  # also build the venv (new machine)
+    ./scripts/anki_doctor.py --quiet      # print only problems
+
+Exit: 0 all well, 1 something needs a person, 2 it pulled a change to itself and stopped —
+run it again. That last case is why the pull happens first and alone: every check after it
+would otherwise be the superseded copy passing judgement on the updated repo.
 
 Stdlib only, and run with *system* python3 on purpose: one of the things it checks is
 whether the project venv is intact, so it cannot depend on it. `anki_utils` is imported for
@@ -40,6 +45,10 @@ CACHES = ("known_lemmas.txt", "known_vocab.tsv")
 CACHE_MAX_AGE_H = 24
 ADDON_ACTIONS = ("getDeckLimits", "setNewLimitToday", "clearNewLimitToday",
                  "autoLimitNow", "peekQueue", "addonInfo")
+# Files this process has already loaded: if a pull updates one, the rest of this run would
+# be the old code reporting on the new repo. Exit 2 and ask for a re-run instead.
+SELF_FILES = {"scripts/anki_doctor.py", "scripts/anki_utils.py"}
+RERUN = 2
 
 OK, FIXED, WARN, FAIL, SKIP = "OK", "FIXED", "WARN", "FAIL", "SKIP"
 BAD = (WARN, FAIL)
@@ -131,10 +140,16 @@ def check_repo(rep, fix):
     if behind:
         if not fix:
             return rep.add("repo", WARN, f"{behind} commit(s) behind {upstream}")
+        before = git("rev-parse", "HEAD")[1]
         rc, out = git("merge", "--ff-only", upstream)
         if rc != 0:
             return rep.add("repo", FAIL, f"fast-forward failed: {out[:80]}")
-        return rep.add("repo", FIXED, f"pulled {behind} commit(s) -> {git('rev-parse', '--short', 'HEAD')[1]}")
+        new = git("rev-parse", "--short", "HEAD")[1]
+        changed = set(git("diff", "--name-only", f"{before}..HEAD")[1].split())
+        rep.add("repo", FIXED, f"pulled {behind} commit(s) -> {new}")
+        # This process is now running code the pull has superseded — including, possibly,
+        # the checks that follow. Stop rather than report conclusions drawn by the old copy.
+        return bool(changed & SELF_FILES)
 
     extra = []
     if ahead:
@@ -318,7 +333,12 @@ def main():
     rep = Report(args.quiet, f"anki doctor — {time.strftime('%Y-%m-%d %H:%M')}"
                              f"{' (check only)' if args.check else ''}")
 
-    check_repo(rep, fix)
+    if check_repo(rep, fix):
+        # Via the report, not a bare print, so a --quiet run still gets its header and the
+        # log shows why the pass stopped early.
+        rep.add("re-run", WARN, "the pull updated anki_doctor itself; this pass was the old "
+                                f"copy — run it again: {' '.join(sys.argv)}")
+        return RERUN
     check_addon_link(rep, fix)
 
     actions = anki("apiReflect", scopes=["actions"])
