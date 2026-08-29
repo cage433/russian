@@ -87,6 +87,17 @@ drops one — it under-delivers, never leaks. Re-running the script re-sorts it.
   **Sync before promoting**, and after any sync from a device that has studied the same deck,
   re-apply with **`autoLimitNow`** — it recomputes from the already-repositioned cards, touches no
   positions, and needs no snapshot. Only decks the other device actually studied are affected.
+- **The limit is an allowance, and it is recomputed from scratch every run.** It does not tick
+  down as cards are studied — Anki shows `limit − introduced_today`, so a deck reads 0 new once
+  today's introductions reach the number. Meanwhile each fresh `auto_limit()` / script run sizes
+  the limit from promoted cards *still in the new queue*, so the figure shrinks as words are
+  learnt (10K went 22 → 5 within one session on 2026-08-29). Both together mean a mid-day re-run
+  can leave a deck showing 0 even though the morning's limit had headroom. Nothing is lost —
+  the cards are repositioned and return at rollover.
+- **The promoted queue is finite and self-draining**, which is the point: once the tagged words
+  are learnt the recomputed limit is 0, `auto_limit()` writes no limit at all, and the deck's
+  preset (0/day) takes over again. It cannot produce an open-ended stream of new cards, so it is
+  not the thing to switch off if a review backlog is growing — that lever is on the review side.
 - **A limit can also be consumed by cards the script never chose.** Anki counts *all* new cards
   introduced in that deck today against the limit, including any the other device let through, so
   the batch can under-deliver by that many. Check `introduced:1` against `tag:promote` before
