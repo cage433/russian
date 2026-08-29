@@ -121,6 +121,21 @@ Once given the two mechanical routes — impf: они́-form minus ending plus -
 
 Remaining on p.27: **упр. А** (fill the gaps with gerunds, 8 items) — not yet done.
 
+### Раб. тетрадь с. 27 — упр. Г и Е, 2026-08-29
+
+- **Упр. Г** (sort 18 words into Технологии / Питание / Отношения): **15/18 first time**. Both
+  misses were *meaning* gaps, not reasoning — расстава́ние read as "discussion", переку́с as
+  technology. The category logic and the six-per-column arithmetic were right throughout, and both
+  words were recovered from the root once pointed at it (рас- = apart, кус- = bite).
+- **Упр. Е** (match 10 adjectives to nouns): **10/10, no errors.**
+
+**The contrast with упр. Б is the finding.** Recognition and collocation work is clean; production
+is where the 16 corrections were. Consistent with the A2-production / B2-comprehension split set
+on 2026-08-22 — comprehension is genuinely not the constraint.
+
+Alex also derived **вкус ← кус-** unprompted while working out переку́с. Etymological reasoning is
+a real strength worth leaning on: рас-, кус-, -род and у́голь→углеро́д→углево́д all landed today.
+
 **Still owed: the comma mini-drill** (~7 occurrences over three days), now the longest-standing
 TODO. Also still owed: the +7 back-translation re-run of the Yaroslava wk 1 / p.28 texts, due
 2026-08-29 and deferred to keep the homework first.
