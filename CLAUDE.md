@@ -7,6 +7,17 @@ series. Words the textbooks teach that aren't already known get authored as flas
 - **Anki** must be running with the **AnkiConnect** add-on (localhost:8765). All deck reads/writes go through it.
 - **Python venv**: `./.venv/bin/python` — has `pymorphy3` (+`pymorphy3-dicts-ru`) for lemmatisation and `PyMuPDF`(`fitz`) for PDF text. Recreate with `python3 -m venv .venv && .venv/bin/pip install pymorphy3 pymorphy3-dicts-ru PyMuPDF`.
 - **Helpers**: `scripts/anki_utils.py` — `call()`, `destress()`, `norm()`, `lemma()`, `build_known()`, `page_text()`, `add_notes()`, `strip_pos_from_front()`. Import with `sys.path.insert(0,'scripts'); import anki_utils as a`.
+- **Machine parity**: `scripts/anki_doctor.py` (system python3, stdlib only — it checks the venv,
+  so it can't use it). Fast-forwards the repo, creates the add-on symlink, and reports what needs
+  a person: unpushed commits, a diverged branch, an add-on whose source changed after Anki loaded
+  it (`addonInfo.stale` — a `git pull` does nothing until Anki restarts), non-default toggles, a
+  broken venv, decks with no limit stamped for today, stale drill caches. `--check` reports only;
+  `--quiet` prints just problems; exit 1 if any. Never pushes, commits, or merges non-fast-forward
+  — unfinished work on the other laptop is normal, not an error. Repairs limits with
+  `autoLimitNow(onlyUnstamped=True)` only, never the full pass (which mid-day would recompute
+  downward and retire words left for later). `launchd/com.cage433.anki-doctor.plist` runs it at
+  login and every 4h → `~/Library/Logs/anki-doctor.log`; launchd rather than cron because a job
+  due while the laptop sleeps runs on wake instead of being missed.
 - **Source PDFs**: `~/Proton Drive/books/Russian/Точка Ру/` → `B1.1/`, `B1.2/`, `B2.1/` each hold `<lvl> учебник.pdf` (textbook) + `<lvl> раб-тет.pdf` (workbook). B1.x textbooks are OCR'd scans (stress letters mangled — use OCR to identify *which* words, author spelling/stress yourself); B2.1 is clean vector text.
 
 ## Decks

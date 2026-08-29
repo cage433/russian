@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Runs scripts/anki_doctor.py at login and every 4 hours, appending problems to
+  ~/Library/Logs/anki-doctor.log. A clean run writes nothing (--quiet).
+
+  Install:
+      ln -s ~/repos/russian/launchd/com.cage433.anki-doctor.plist ~/Library/LaunchAgents/
+      launchctl load ~/Library/LaunchAgents/com.cage433.anki-doctor.plist
+  Run it now:      launchctl start com.cage433.anki-doctor
+  Stop/uninstall:  launchctl unload ~/Library/LaunchAgents/com.cage433.anki-doctor.plist
+
+  launchd over cron deliberately: a StartInterval job that comes due while the machine is
+  asleep runs on wake, where cron simply misses it — and the laptops spend most of their
+  time shut. Paths must be absolute here (launchd expands nothing), so a machine that
+  keeps the repo somewhere other than ~/repos/russian needs them edited.
+-->
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.cage433.anki-doctor</string>
+
+    <key>ProgramArguments</key>
+    <array>
+        <string>/usr/bin/python3</string>
+        <string>/Users/alex/repos/russian/scripts/anki_doctor.py</string>
+        <string>--quiet</string>
+    </array>
+
+    <key>WorkingDirectory</key>
+    <string>/Users/alex/repos/russian</string>
+
+    <key>RunAtLoad</key>
+    <true/>
+
+    <key>StartInterval</key>
+    <integer>14400</integer>
+
+    <key>StandardOutPath</key>
+    <string>/Users/alex/Library/Logs/anki-doctor.log</string>
+    <key>StandardErrorPath</key>
+    <string>/Users/alex/Library/Logs/anki-doctor.log</string>
+</dict>
+</plist>

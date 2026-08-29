@@ -41,8 +41,13 @@ Fragile points, deliberately loud rather than silent: AnkiConnect's folder name
 changing raises at profile open or returns an error to the caller.
 """
 import importlib
+import os
+import time
 
 from aqt import gui_hooks, mw
+
+_LOADED_AT = time.time()
+_SOURCE_MTIME = os.path.getmtime(__file__)   # what the running Anki actually loaded
 
 ANKICONNECT_MODULE = "2055492159"
 LIMIT_KEYS = ("newLimitToday", "new_limit_today")   # camel (legacy JSON) / snake
@@ -140,10 +145,38 @@ def _patch():
         col.decks.update_dict(d)
         return {"ok": True, "limits": _read_limits(col, deck)}
 
-    def autoLimitNow(self):
-        """Run the startup pass on demand (same logic, for testing/scripting)."""
-        auto_limit()
+    def autoLimitNow(self, onlyUnstamped=False):
+        """Run the startup pass on demand (same logic, for testing/scripting).
+
+        `onlyUnstamped=True` is the safe form for automation: it repairs decks with no
+        valid stamp for today and leaves a live stamp alone, so it cannot shrink an
+        allowance that has already been partly spent."""
+        auto_limit(only_unstamped=bool(onlyUnstamped))
         return {"ok": True}
+
+    def addonInfo(self):
+        """Identity of the *running* add-on, for `scripts/anki_doctor.py`.
+
+        `stale` compares the source on disk with the mtime captured at import: a `git pull`
+        that updates this file changes nothing until Anki is restarted, and the resulting
+        divergence between two laptops is invisible from the outside. Reporting the toggles
+        too, since they are what makes one machine behave unlike another.
+        """
+        return {
+            "path": __file__,
+            "loadedAt": _LOADED_AT,
+            "sourceMtime": _SOURCE_MTIME,
+            "currentMtime": os.path.getmtime(__file__),
+            "stale": os.path.getmtime(__file__) > _SOURCE_MTIME,
+            "toggles": {
+                "AUTO_LIMIT_ON_STARTUP": AUTO_LIMIT_ON_STARTUP,
+                "AUTO_LIMIT_ON_DAY_CHANGE": AUTO_LIMIT_ON_DAY_CHANGE,
+                "AUTO_LIMIT_ON_SYNC": AUTO_LIMIT_ON_SYNC,
+                "AUTO_UNTAG_FINISHED": AUTO_UNTAG_FINISHED,
+                "PROMOTE_TAG": PROMOTE_TAG,
+                "FRONT_MAX": FRONT_MAX,
+            },
+        }
 
     def peekQueue(self, fetchLimit=20):
         """Diagnostic: the cards the v3 scheduler would hand the reviewer right now.
@@ -177,11 +210,12 @@ def _patch():
             "cards": cards,
         }
 
-    for fn in (getDeckLimits, setNewLimitToday, clearNewLimitToday, autoLimitNow, peekQueue):
+    actions = (getDeckLimits, setNewLimitToday, clearNewLimitToday, autoLimitNow,
+               peekQueue, addonInfo)
+    for fn in actions:
         fn.api, fn.versions = True, ()
         setattr(ac.AnkiConnect, fn.__name__, fn)
-    print("russian_promote: registered getDeckLimits, setNewLimitToday, clearNewLimitToday, "
-          "autoLimitNow, peekQueue")
+    print("russian_promote: registered " + ", ".join(fn.__name__ for fn in actions))
 
 
 def _set_today_limit(col, did, n):
