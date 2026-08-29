@@ -109,6 +109,10 @@ when a sentence must reach beyond it, **gloss the unfamiliar word inline** (Engl
   already-carded words); here we want words Alex can *recall*.
 - `scripts/build_drill_vocab.py` → regenerates `known_lemmas.txt` (membership set) + `known_vocab.tsv`
   (ru→en, for gloss lookup) at the repo root. **Run at session start** — the studied set grows.
+  Also **offer to re-run it occasionally mid-session** (Alex's request, 2026-08-29) — he'd rather be
+  nudged than have the caches quietly go stale. Natural moments: after cards get promoted or
+  studied, when `check_vocab.py` flags a word he clearly knows, or on a long session. The files are
+  gitignored, so a fresh machine always needs a run.
 - `scripts/check_vocab.py "…russian…"` → prints content lemmas NOT in the known set (pymorphy3
   lemmatisation + a function-word stoplist). Run the expected Russian answer through it; gloss or
   swap whatever it flags. Aspect pairs can over-gloss (a sentence's сошлись lemmatises to сойтись
