@@ -4,7 +4,11 @@ Mistakes Alex makes repeatedly in Точка Ру B2.1 drills. Watch for these a
 mini-drills («ещё N таких») when they recur. Add to this list as new patterns emerge.
 
 - **Reflexive свой** vs его/её/их when the possessive refers back to the clause subject
-  (Он гордится ~~его~~ **своим** блогом).
+  (Он гордится ~~его~~ **своим** блогом). **2026-08-29:** missed once (~~его красоту~~ →
+  **свою́**), then applied correctly three times unprompted in the same exercise — свою́ де́вушку,
+  свой па́спорт, and the reflexive **впереди́ себя́**. One exposure was enough; treat as learned.
+  Extension: **свой is dropped with body parts** — держа́ть **на рука́х** (not «на свои́х рука́х»),
+  подня́л ру́ку, покача́л голово́й.
 - **Compound nouns** — only the second element declines (~~интернетом-знаменитостью~~ →
   интернет-знаменитостью).
 - **Plural agreement in Instrumental** across the whole phrase (одними и теми же книгами).
@@ -77,13 +81,48 @@ mini-drills («ещё N таких») when they recur. Add to this list as new p
   Alex's monitor. Swaps go both ways (магу, Однака, поласа, кокой). **Count as typos, don't
   correct as knowledge.** Same for п↔р, в↔л, ы↔д, ф↔ж. Exception: an о/а difference in a
   *grammatical ending* may be a genuine case error — check before dismissing.
-- **Commas — a systematic gap** (3 occurrences in one 7-sentence drill, 2026-08-23). Russian
-  comma rules are grammatical, not stylistic:
+- **Commas — a systematic gap** (3 occurrences in one 7-sentence drill, 2026-08-23; ~7 across
+  two days). Russian comma rules are grammatical, not stylistic:
   - **Always before a subordinate clause**: …нра́вится**,** что… · …реши́ть**,** како́й… ·
     …зна́ю**,** почему́… · …челове́к**,** кото́рый…
   - **After introductory words/phrases**: Коне́чно**,** · Одна́ко**,** · Кро́ме того́**,** ·
     Наприме́р**,** · к сожале́нию (both sides)
   - **NOT after a plain adverb**: ~~Ещё,~~ → Ещё · То́же · Та́кже · Обы́чно · Всегда́
+  - **Before и: only when the second clause has its own subject.** Она́ обняла́ подру́гу и
+    улыбну́лась (one subject, no comma) · Она́ обняла́ подру́гу**,** и они́ ста́ли танцева́ть
+    (new subject, comma). Same test as the что-comma — a new clause gets fenced off.
+  - **2026-08-29 status:** missed before что once, then correct before что *and* before и later
+    in the same exercise. The mini-drill is still owed but the rule may be closer than the count
+    suggests.
+
+### Added 2026-08-29 (учебник p.27 упр. Б, деепричастия)
+
+- **Phase verbs + infinitive → IMPERFECTIVE, always**: ~~ста́ли потанцева́ть~~ → **ста́ли
+  танцева́ть**. Applies to стать, нача́ть/начина́ть, продолжа́ть, ко́нчить, переста́ть. The phase
+  verb already supplies the boundary, so the infinitive must not carry one. Perfective is fine
+  unaccompanied: они́ потанцева́ли и пошли́ домо́й.
+- **Negated infinitive after a decision verb → IMPERFECTIVE**: ~~реши́ла не пое́хать~~ → реши́ла
+  **не е́хать**. The positive half keeps the perfective (реши́ла **оста́ться** … и не **е́хать**),
+  so one sentence legitimately carries both aspects. Same family as the phase-verb rule above.
+- **Invented prefixes** — a distinct class from spelling slips. ~~протеря́л~~ (→ потеря́л),
+  ~~поехди́ть~~ (→ blend of пое́хать + е́здить). The pattern: reaching for a form he half-knows and
+  assembling it from parts. Related sub-rule: **пое́хать/пойти́ have no по- imperfective** — по- *is*
+  the perfectiviser, so the partner is bare е́хать / идти́.
+- **Animate accusative = genitive** (masc. sg. and all plurals), adjective included:
+  ~~уви́дели злой шпио́н~~ → **зло́го шпио́на**. Inanimates keep the nominative form (уви́дели дом).
+- **The case belongs to the preposition**: ~~впереди́ и́ми~~ — впереди́ takes **GEN** (впереди́ них),
+  the instrumental и́ми belongs to **пе́ред** (пе́ред ни́ми). He picked a real case for the wrong
+  preposition, which is a different failure from not knowing the case.
+- **The н- rule**: 3rd-person pronouns take **н-** after any preposition — у него́, с ним, пе́ред
+  ни́ми, впереди́ них; bare otherwise (я ви́жу его́, я дал им). So «и́ми» can never follow a
+  preposition.
+- **жале́ть/пожале́ть government**: **+ вин.** = pity a person; **+ о + предл.** = regret a thing
+  (~~пожале́л свою́ помо́лвку~~ → **о свое́й помо́лвке**); **+ , что…** = regret that.
+- **держа́ть vs держа́ться**: держа́ть + вин. (hold something); держа́ть**ся за** + вин. (hold on
+  to). The reflexive can never take a direct object.
+- **Russian-internal look-alikes** (distinct from the English-interference class below):
+  ~~крысоту~~ → **красоту́** — кры́са is a rat. Worth a moment's check when a word differs from a
+  known one by a single vowel.
 - **English spelling bleeding into Russian**: ~~Руссия~~ → **Росси́я** (though the adjective *is*
   ру́сский — that is what makes it treacherous); ~~совиетский~~ → **сове́тский** (from сове́т,
   no и); ~~концепт~~ → поня́тие.

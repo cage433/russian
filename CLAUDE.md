@@ -77,6 +77,20 @@ drops one — it under-delivers, never leaks. Re-running the script re-sorts it.
 - Don't use `setDueDate 0`: it converts new → *review*, skipping the learning steps.
 - Cards already buried/suspended won't appear today whatever their position (burying clears at
   rollover); the script reports them rather than pretending otherwise.
+- **The today-limit does not survive a sync from a device holding an older copy of that deck**
+  (hit 2026-08-29). It lives in the **deck object**, not on the cards, so AnkiWeb's
+  last-writer-wins merge can replace `{limit: 22, today: 1681}` with a phone's stale
+  `{limit: 0, today: 1678}` — and with no valid stamp the deck falls back to its preset (0/day),
+  so the promoted cards silently vanish from the front screen. **Card positions are per-card and
+  survive intact**, which is the diagnostic: promoted cards still at 0/1 but nothing showing =
+  clobbered limit, not lost work. No "out of sync" warning appears; nothing is corrupted.
+  **Sync before promoting**, and after any sync from a device that has studied the same deck,
+  re-apply with **`autoLimitNow`** — it recomputes from the already-repositioned cards, touches no
+  positions, and needs no snapshot. Only decks the other device actually studied are affected.
+- **A limit can also be consumed by cards the script never chose.** Anki counts *all* new cards
+  introduced in that deck today against the limit, including any the other device let through, so
+  the batch can under-deliver by that many. Check `introduced:1` against `tag:promote` before
+  concluding the script mis-sorted something.
 
 ## Build workflow (per level / lesson)
 1. Build the known/filter set: `a.build_known([...decks to exclude...])`. For B2.1 the user chose 10K + B1.1 + B1.2 + RLC.

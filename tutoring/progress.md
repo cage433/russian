@@ -67,6 +67,63 @@ move up a level**, otherwise **repeat the same level** with fresh sentences.
 - [ ] Workbook p.28 ex.3 «Устаревшие устройства» — free writing: explain one obsolete device
       (encyclopedia / floppy / rotary phone / film camera / pager / boombox / VCR) to a modern
       child, covering six prompts. Reference material appended to `scratch/drill-pane.md`.
+- [x] **Учебник p.27 упр. Б «Продолжите предложения»** — done 2026-08-29 (below).
+
+### Учебник p.27 упр. Б — деепричастия, 2026-08-29
+
+Eight gerund stems, continuation supplied by Alex — roughly fifty words of production in total.
+**16 first-attempt corrections**, per sentence: **3 · 4 · 1 · 0 · 0 · 5 · 3 · 0**. Every sentence
+that needed a rewrite was clean on the second pass.
+
+(S4 scores 0: the only note was **во́все**, flagged as marked word order — modern Russian almost
+always glues it to the negation, «во́все не е́хать», and prefers вообще́/совсе́м не in that slot.
+Postposed во́все may simply be literary rather than wrong; recorded as a style flag, not verified.)
+
+**Rule 0 confirmed again, hard.** The two longest continuations (S1 ≈11 words, S6 ≈8) carried
+**8 of the 16 corrections**; the four shortest carried 0–1 between them. Length predicts errors
+better than difficulty does.
+
+**Within-session transfer was good** — every named rule landed on the next attempt, and three
+transferred *unprompted* to later sentences:
+- **свой** — missed in S2, then correct three times (свою́ де́вушку, свой па́спорт, впереди́ себя́).
+- **comma before a subordinate clause** — missed before что in S2, then correct before что (S5)
+  and before и (S6).
+- **negated infinitive → impf** — missed in S1 (не пое́хать), correct in S4 (не е́хать).
+
+New patterns, all recorded in `error-patterns.md`: phase verbs + infinitive → impf; animate
+accusative; case-belongs-to-the-preposition (впереди́ + gen vs пе́ред + instr); the н- rule;
+жале́ть government; держа́ть vs держа́ться; **invented prefixes** as a class of their own
+(протеря́л, поехди́ть) distinct from spelling slips.
+
+Asked for and got a full treatment of gerund aspect (in `scratch/drill-pane.md`): the gerund has
+no tense of its own; -я = overlap, -в = prior; plus the three cases the simple rule mispredicts
+(resulting state, consequence-after-the-fact, negation) and the -ти → **придя́/войдя́/принеся́**
+formation gap the textbook table omits.
+
+Also reached for «семь бед — оди́н отве́т» unprompted, correctly used. Deliberate — he wants
+idioms for the evening class, so don't flag repetition of one as copying.
+
+### Учебник p.27 упр. В — трансформа́ция в дееприча́стия, 2026-08-29
+
+Ten verbs → gerunds. **2 errors, both in the first two items**, then eight consecutive correct.
+
+- 1 плани́ровать → ~~планировая~~: built off the **infinitive** stem. The imperfective gerund comes
+  from the **3rd-pers. plural present** — and the book's model (рабо́тать → рабо́тая) hides this,
+  because that stem is identical in both. **-овать/-ировать verbs expose it**: рису́ют → рису́я,
+  плани́руют → плани́руя.
+- 2 размести́ть → ~~разместяв~~: fused both suffixes. **-я and -в are alternatives, never combined.**
+
+Once given the two mechanical routes — impf: они́-form minus ending plus -я · pf: masc. past minus
+-л plus -в — the remaining eight came without hesitation, including all four reflexives
+(встре́тившись, хва́стаясь, разлете́вшись) and the impf/pf reflexive split (-ясь vs -вшись).
+**No stress shifts in this set**; flagged that gerund stress normally follows the base form, with
+смотре́ть → смо́трит → **смотря́** as the classic exception.
+
+Remaining on p.27: **упр. А** (fill the gaps with gerunds, 8 items) — not yet done.
+
+**Still owed: the comma mini-drill** (~7 occurrences over three days), now the longest-standing
+TODO. Also still owed: the +7 back-translation re-run of the Yaroslava wk 1 / p.28 texts, due
+2026-08-29 and deferred to keep the homework first.
 
 ### Vocab
 Suspended-card backlog (too painful to learn, unsuspend a few at a time):
@@ -74,6 +131,18 @@ Suspended-card backlog (too painful to learn, unsuspend a few at a time):
 
 Lesson words promoted into the learning queue 2026-08-21: устройство, данные, записывать,
 выкладывать, поддерживать, доставлять, предоставлять (+ others) — see `tag:promote` workflow.
+
+**2026-08-29** — tagged the раб. тетр. p.27 упр. Г vocab: расстава́ние, переку́с,
+перекусывать/перекусить, экра́н, фастфу́д, приложе́ние, калори́йность, обще́ние, знако́мство,
+сотру́дничество, обрабо́тка, протеи́н, спе́ция, углево́д. Authored one new card,
+**кибербезопа́сность** (`needs-audio`). Merged a duplicate **припра́ва** pair (B1.1-2.3 survived,
+B2.1-1.4 tag carried across, identical audio so nothing orphaned). `promote_new_cards.py` run:
+33 cards queued — 22 in 10K, 7 in B1.1, 4 in B2.1.
+
+The 10K limit was then **lost to a sync** (the phone held an older copy of that deck object) and
+re-applied with `autoLimitNow` — see the new gotcha in `CLAUDE.md`. Positions were never affected.
+Net delivery in 10K is **21, not 22**: испа́нский, an untagged card, was introduced on the phone
+earlier today and consumes one slot; the 22nd promoted card rolls to tomorrow.
 
 ## Unit 1.1 — *Жизнь онлайн: иллюзия или реальность?* (covered)
 
