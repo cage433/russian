@@ -49,7 +49,7 @@ decks and, per deck, does both halves of the job:
    cards left** — i.e. both directions are through the learning steps and into plain review.
    Testing `is:new` alone would strip the tag the moment it was applied to anything already being
    learned; `is:learn` is type-based, so it also covers relearning and suspended-mid-learning
-   cards. Both `scripts/promote_new_cards.py:85` and the add-on's `reap_tag` use this rule.
+   cards. Both `scripts/promote_new_cards.py:97` and the add-on's `reap_tag` use this rule.
    `is:new` includes buried/suspended cards, so a note whose remaining sibling is merely buried
    keeps its tag. (`--keep-finished-tags` disables; `--clear-tag` is the blunt version — strips the
    tag from *all* matched notes, finished or not.)

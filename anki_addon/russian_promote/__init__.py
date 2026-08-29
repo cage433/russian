@@ -208,6 +208,9 @@ def _blocked_notes(col, cards):
 
     Observed 2026-08-30: four promoted cards whose reverse-direction sibling was a review
     due that day were absent from a 7-card queue which had admitted 4 untagged words.
+
+    Errs low, as the caller wants: `is:learn` matches a card's type, so an interday
+    *relearning* sibling due days from now also blocks, though it is not in today's queue.
     """
     blocking = col.find_cards(f"tag:{PROMOTE_TAG} {BLOCKING_SEARCH}")
     return {col.get_card(cid).nid for cid in blocking} & {c.nid for c in cards}
@@ -291,17 +294,21 @@ def auto_limit():
         print(f"russian_promote: {name}: today-only new limit -> {limit}")
 
 
-def _run_auto_limit(why):
+def _run_auto_limit(why, mark_day=True):
     """auto_limit() with its exceptions contained.
 
-    Not merely defensive: `_DayDidChangeHook.__call__` (aqt/hooks.py) *removes* a callback
-    that raises, so an escaping exception would quietly unregister the rollover pass for
-    the rest of the session — the one case where the pass matters most.
+    Not merely defensive: the generated hook classes in aqt/hooks.py *remove* a callback
+    that raises, so an escaping exception would quietly unregister the pass for the rest of
+    the session — and the rollover is the case where it matters most.
+
+    `mark_day=False` leaves the day unrecorded, so the deck-list catch-up will run one more
+    pass. See `_on_day_change` for why the rollover pass alone can't be trusted.
     """
     global _last_limit_day
     try:
         auto_limit()
-        _last_limit_day = mw.col.sched.today if mw.col is not None else None
+        if mark_day:
+            _last_limit_day = mw.col.sched.today if mw.col is not None else None
     except Exception as e:
         print(f"russian_promote: auto_limit ({why}) failed: {e}")
 
@@ -315,19 +322,29 @@ def _on_profile_open():
 def _on_day_change():
     """Anki's own rollover timer (aqt/main.py: refresh_reviewer_on_day_rollover_change)
     reschedules itself for the next cutoff, so this fires at 4am in a long-running Anki —
-    which is when yesterday's today-only limit has just expired and a fresh one is needed."""
+    which is when yesterday's today-only limit has just expired and a fresh one is needed.
+
+    Deliberately does not record the day. Rollover also unburies yesterday's sibling-buried
+    cards, and that happens in the backend when the queues are next built — possibly after
+    this hook. A pass that ran first would count those cards as buried and stamp a limit
+    too small for the day, with the day guard then suppressing any correction. Leaving the
+    day unmarked lets the deck-list catch-up run one further pass, after the queues exist.
+    Both passes are idempotent, so the cost of the extra one is nil.
+    """
     if AUTO_LIMIT_ON_DAY_CHANGE:
         print("russian_promote: day rollover")
-        _run_auto_limit("day change")
+        _run_auto_limit("day change", mark_day=False)
 
 
 def _on_state_change(new_state, old_state):
-    """Catch-up for a rollover that was missed rather than late.
+    """Second pass: corrects the rollover pass above, and covers a rollover that was missed
+    rather than late — Qt's timer runs on a monotonic clock that does not advance while the
+    machine sleeps, so a laptop shut overnight reaches the deck list on a new day with the
+    4am callback still pending.
 
-    Qt's timer runs on a monotonic clock that does not advance while the machine is
-    asleep, so a laptop shut overnight reaches the deck list on a new day with the 4am
-    callback still pending. Re-checking on the way back to the deck list closes that gap;
-    the day guard keeps it to one pass per day, not one per navigation.
+    Fires from `moveToState` *after* the state has rendered (aqt/main.py:782 vs 779), so the
+    deck counts — and any rollover unburying they triggered — are already settled. The day
+    guard then holds it to one pass per day rather than one per navigation.
     """
     if not AUTO_LIMIT_ON_DAY_CHANGE or mw.col is None:
         return
