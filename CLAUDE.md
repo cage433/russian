@@ -43,10 +43,18 @@ decks and, per deck, does both halves of the job:
 2. **Limit.** Sets a **today-only** per-deck limit (`Deck.Normal.new_limit_today`), which
    self-clears at rollover — nothing to reset, no options preset touched.
 
-3. **Tag reaping.** A note loses the `promote` tag once it has **no `is:new` cards left** — both
-   directions introduced. `is:new` includes buried/suspended cards, so a note whose remaining
-   sibling is merely buried keeps its tag. (`--keep-finished-tags` disables; `--clear-tag` is the
-   blunt version — strips the tag from *all* matched notes, finished or not.)
+3. **Tag reaping.** A note loses the `promote` tag once it has **no `is:new` *and* no `is:learn`
+   cards left** — i.e. both directions are through the learning steps and into plain review.
+   Testing `is:new` alone would strip the tag the moment it was applied to anything already being
+   learned; `is:learn` is type-based, so it also covers relearning and suspended-mid-learning
+   cards. Both `scripts/promote_new_cards.py:85` and the add-on's `reap_tag` use this rule.
+   `is:new` includes buried/suspended cards, so a note whose remaining sibling is merely buried
+   keeps its tag. (`--keep-finished-tags` disables; `--clear-tag` is the blunt version — strips the
+   tag from *all* matched notes, finished or not.)
+   **Never strip the tag by hand from words that haven't been studied yet.** It does two kinds of
+   damage: `auto_limit()` then has nothing to count, so those repositioned cards never surface;
+   and they become *untagged* new cards at positions 0–1, which trips the leak guard and makes
+   the add-on skip that deck for every future batch until they're studied or repositioned.
 
 The limit needs the companion add-on **`anki_addon/russian_promote/`** (symlinked into
 `~/Library/Application Support/Anki2/addons21/`; restart Anki after changing it). It attaches
