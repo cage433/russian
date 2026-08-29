@@ -50,11 +50,13 @@ LIMIT_KEYS = ("newLimitToday", "new_limit_today")   # camel (legacy JSON) / snak
 # --- automatic sizing passes ------------------------------------------------
 AUTO_LIMIT_ON_STARTUP = True     # set False to disable the profile_did_open pass
 AUTO_LIMIT_ON_DAY_CHANGE = True  # re-size at the 4am rollover, for an Anki left running
+AUTO_LIMIT_ON_SYNC = True        # repair a limit a sync from another device clobbered
 AUTO_UNTAG_FINISHED = True       # drop `promote` once a note has no new cards left
 PROMOTE_TAG = "promote"
 FRONT_MAX = 1                    # positions 0 (primaries) and 1 (siblings)
 
 _last_limit_day = None           # sched.today at the last auto_limit() pass
+_synced_since_open = False       # has a sync completed in this session yet?
 
 
 def _deck_id(col, deck):
@@ -231,7 +233,7 @@ def reap_tag(col):
     return done
 
 
-def auto_limit():
+def auto_limit(only_unstamped=False):
     """Give every deck holding front-of-queue `promote` cards a today-only limit sized to
     the promoted words waiting there, so Anki simply opens with them available.
 
@@ -251,6 +253,11 @@ def auto_limit():
 
     Idempotent: re-running with the same limit already stamped for today is a no-op, so it
     is safe on every profile open.
+
+    `only_unstamped=True` restricts the pass to decks with no valid stamp for today, for
+    the post-sync repair: a limit already stamped is an allowance partly spent (Anki shows
+    `limit - introduced_today`), and recomputing it from the promoted cards *still* in the
+    new queue would shrink it below what has been used, retiring the day's remaining words.
     """
     col = mw.col
     if col is None:
@@ -275,6 +282,13 @@ def auto_limit():
                   f"position <= {FRONT_MAX}; leaving the limit alone")
             continue
 
+        cur = _limit_field(col.decks.get_legacy(did))[1] or {}
+        stamped_today = cur.get("today") == col.sched.today
+        if only_unstamped and stamped_today:
+            print(f"russian_promote: {name}: limit {cur.get('limit')} still stamped for "
+                  f"today; left alone")
+            continue
+
         conf = col.decks.config_dict_for_deck_id(did)
         blocked = (_blocked_notes(col, cs)
                    if conf.get("new", {}).get("bury") else set())
@@ -283,8 +297,6 @@ def auto_limit():
             print(f"russian_promote: {name}: {len(blocked)} promoted note(s) have a sibling in "
                   f"today's queue; Anki drops their new card at gather, so it is not counted")
 
-        cur = _limit_field(col.decks.get_legacy(did))[1] or {}
-        stamped_today = cur.get("today") == col.sched.today
         if stamped_today and cur.get("limit") == limit:
             print(f"russian_promote: {name}: today-only limit already {limit}")
             continue
@@ -294,7 +306,7 @@ def auto_limit():
         print(f"russian_promote: {name}: today-only new limit -> {limit}")
 
 
-def _run_auto_limit(why, mark_day=True):
+def _run_auto_limit(why, mark_day=True, **kw):
     """auto_limit() with its exceptions contained.
 
     Not merely defensive: the generated hook classes in aqt/hooks.py *remove* a callback
@@ -306,7 +318,7 @@ def _run_auto_limit(why, mark_day=True):
     """
     global _last_limit_day
     try:
-        auto_limit()
+        auto_limit(**kw)
         if mark_day:
             _last_limit_day = mw.col.sched.today if mw.col is not None else None
     except Exception as e:
@@ -314,9 +326,35 @@ def _run_auto_limit(why, mark_day=True):
 
 
 def _on_profile_open():
+    global _synced_since_open
+    _synced_since_open = False
     _patch()
     if AUTO_LIMIT_ON_STARTUP:
         _run_auto_limit("startup")
+
+
+def _on_sync_finish():
+    """Re-size after a sync, which is the only way another device's state arrives.
+
+    Two distinct jobs, hence the `only_unstamped` switch:
+
+    * The **first** sync of a session is the auto-sync at profile open, and it lands *after*
+      the startup pass — `gui_hooks.profile_did_open()` then `maybe_auto_sync_on_open_close`
+      (aqt/main.py:568-569). On a laptop that has not been used for a day, the startup pass
+      therefore sized the limit from a pre-merge collection: stale positions, stale queues.
+      Redo it in full now that the merged collection is in hand.
+    * **Later** syncs only repair. The today-limit lives in the deck object, so AnkiWeb's
+      last-writer-wins merge can replace a valid `{limit, today}` with an older device's
+      stale copy; with no stamp for today the deck falls back to its preset (0/day) and the
+      promoted words vanish from the front screen with no warning. Card positions are
+      per-card and survive, so recomputing is safe — but only for decks whose stamp did not
+      survive, because a live stamp is an allowance already partly spent.
+    """
+    global _synced_since_open
+    first = not _synced_since_open
+    _synced_since_open = True
+    if AUTO_LIMIT_ON_SYNC:
+        _run_auto_limit("post-sync", mark_day=False, only_unstamped=not first)
 
 
 def _on_day_change():
@@ -355,3 +393,4 @@ def _on_state_change(new_state, old_state):
 gui_hooks.profile_did_open.append(_on_profile_open)
 gui_hooks.day_did_change.append(_on_day_change)
 gui_hooks.state_did_change.append(_on_state_change)
+gui_hooks.sync_did_finish.append(_on_sync_finish)

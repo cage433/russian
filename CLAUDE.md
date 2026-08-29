@@ -67,15 +67,26 @@ class on the `profile_did_open` hook — AnkiConnect finds actions by walking it
 Study's mechanism). Without the add-on the script still repositions and just prints the number
 to enter by hand.
 
+**Add-ons do not sync — AnkiWeb syncs the collection only.** Each desktop machine needs the
+symlink separately (clone this repo, `ln -s <repo>/anki_addon/russian_promote
+~/Library/Application\ Support/Anki2/addons21/russian_promote`, restart Anki); `git pull` then
+updates both. **iOS/Android cannot run it at all** — AnkiMobile and AnkiDroid have no Python
+add-on support. The phone still *honours* a limit stamped by a laptop and synced across (it is
+deck data), but it cannot stamp one: on a day no laptop has opened, the phone's deck falls back
+to the preset (0/day) and no promoted words appear. Worse, a phone holding a stale deck copy is
+the classic way the stamp gets clobbered — see the sync note below.
+
 **The same hooks also set the limits without a command being run**, so a normal day needs none:
 `profile_did_open` at startup, **`day_did_change` at the 4am rollover** (Anki's own timer
 reschedules itself for each cutoff, so an instance left running for weeks still re-sizes daily),
-and `state_did_change` → deck list as a catch-up for a rollover the timer slept through (Qt's
-monotonic clock doesn't advance while the machine is asleep). The pass only counts promoted cards
+`state_did_change` → deck list as a catch-up for a rollover the timer slept through (Qt's
+monotonic clock doesn't advance while the machine is asleep), and **`sync_did_finish`** (see the
+clobbered-limit note below). The pass only counts promoted cards
 *already repositioned* to positions 0/1 (tagging alone never raises a limit), **skips a deck
 entirely if any untagged new card shares those positions** (the leak guard — tested), and is a
 no-op when the same limit is already stamped for `sched.today`. Toggles at the top of the add-on:
-`AUTO_LIMIT_ON_STARTUP`, `AUTO_LIMIT_ON_DAY_CHANGE`, `AUTO_UNTAG_FINISHED`. `autoLimitNow`
+`AUTO_LIMIT_ON_STARTUP`, `AUTO_LIMIT_ON_DAY_CHANGE`, `AUTO_LIMIT_ON_SYNC`,
+`AUTO_UNTAG_FINISHED`. `autoLimitNow`
 triggers the pass on demand; `peekQueue` dumps what the scheduler would hand the reviewer right
 now (same `col.sched.get_queued_cards` call `aqt.reviewer` makes — the way to see the real batch,
 as opposed to what the positions imply).
@@ -110,9 +121,14 @@ as opposed to what the positions imply).
   so the promoted cards silently vanish from the front screen. **Card positions are per-card and
   survive intact**, which is the diagnostic: promoted cards still at 0/1 but nothing showing =
   clobbered limit, not lost work. No "out of sync" warning appears; nothing is corrupted.
-  **Sync before promoting**, and after any sync from a device that has studied the same deck,
-  re-apply with **`autoLimitNow`** — it recomputes from the already-repositioned cards, touches no
-  positions, and needs no snapshot. Only decks the other device actually studied are affected.
+  **Sync before promoting.** Repair is now automatic: the add-on's `sync_did_finish` hook
+  re-stamps decks whose stamp didn't survive, and leaves alone any deck still stamped for today
+  (a live stamp is an allowance partly spent — recomputing it would shrink it below what has
+  already been used and retire the day's remaining words). `autoLimitNow` still does it by hand.
+  The **first** sync of a session is treated differently, and deliberately: it is the auto-sync at
+  profile open, which lands *after* the startup pass (`gui_hooks.profile_did_open()` then
+  `maybe_auto_sync_on_open_close`, aqt/main.py:568-569), so on a laptop unused for a day the
+  startup pass sized the limit from a pre-merge collection. That one re-runs in full.
 - **The limit is an allowance, and it is recomputed from scratch every run.** It does not tick
   down as cards are studied — Anki shows `limit − introduced_today`, so a deck reads 0 new once
   today's introductions reach the number. Meanwhile each fresh `auto_limit()` / script run sizes
