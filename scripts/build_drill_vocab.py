@@ -21,6 +21,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "scripts"))
 import anki_utils as a  # noqa: E402
+a.use_venv()
 
 QUERY = "deck:Vocab::* -is:new"  # studied set. Conservative alt: append " prop:ivl>=21".
 TOKEN = re.compile(r"[а-яё]+(?:-[а-яё]+)?")

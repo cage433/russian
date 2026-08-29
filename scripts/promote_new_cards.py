@@ -49,6 +49,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "scripts"))
 import anki_utils as a
+a.use_venv()
 
 TAG = "promote"
 SNAPSHOT_DIR = ROOT / "scratch"          # gitignored

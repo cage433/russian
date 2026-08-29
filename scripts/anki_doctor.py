@@ -185,16 +185,54 @@ def check_toggles(rep, info):
     rep.add("toggles", OK, "all defaults")
 
 
-def check_venv(rep):
+VENV_PKGS = ("pymorphy3", "pymorphy3-dicts-ru", "PyMuPDF")
+
+
+def venv_ok():
     if not VENV_PY.exists():
-        return rep.add("venv", WARN, "missing — python3 -m venv .venv && "
-                                     ".venv/bin/pip install pymorphy3 pymorphy3-dicts-ru PyMuPDF")
-    probe = "import pymorphy3, pymorphy3_dicts_ru, fitz"
-    p = subprocess.run([str(VENV_PY), "-c", probe], capture_output=True, text=True)
+        return False, "missing"
+    p = subprocess.run([str(VENV_PY), "-c", "import pymorphy3, pymorphy3_dicts_ru, fitz"],
+                       capture_output=True, text=True)
     if p.returncode != 0:
-        last = (p.stderr.strip().splitlines() or ["?"])[-1]
-        return rep.add("venv", WARN, f"incomplete: {last[:70]}")
-    rep.add("venv", OK, "pymorphy3 + PyMuPDF present")
+        return False, (p.stderr.strip().splitlines() or ["?"])[-1][:70]
+    return True, "pymorphy3 + PyMuPDF present"
+
+
+def check_venv(rep, bootstrap):
+    ok, detail = venv_ok()
+    if ok:
+        return rep.add("venv", OK, detail)
+    if not bootstrap:
+        # Not part of the default fixes: a scheduled run should not start downloading
+        # packages, and on a fresh laptop this is a once-only step.
+        return rep.add("venv", WARN, f"{detail} — run scripts/anki_doctor.py --bootstrap")
+
+    rep.add("venv", WARN, f"{detail} — building it now, this takes a minute")
+    if not VENV_PY.exists():
+        p = subprocess.run([sys.executable, "-m", "venv", str(ROOT / ".venv")],
+                           capture_output=True, text=True)
+        if p.returncode != 0:
+            return rep.add("venv", FAIL, f"venv creation failed: {p.stderr.strip()[:70]}")
+    p = subprocess.run([str(ROOT / ".venv" / "bin" / "pip"), "install", "--quiet", *VENV_PKGS],
+                       capture_output=True, text=True)
+    if p.returncode != 0:
+        return rep.add("venv", FAIL, f"pip install failed: {p.stderr.strip()[-70:]}")
+    ok, detail = venv_ok()
+    rep.add("venv", FIXED if ok else FAIL, detail)
+
+
+def check_exec_bits(rep):
+    """Git records the mode, so a mismatch means this checkout has drifted from the repo."""
+    bad = []
+    for f in sorted((ROOT / "scripts").glob("*.py")):
+        with open(f, "rb") as fh:
+            shebang = fh.readline().startswith(b"#!")
+        if shebang and not os.access(f, os.X_OK):
+            bad.append(f.name)
+    if bad:
+        return rep.add("exec bits", WARN, f"not executable: {', '.join(bad)} "
+                                          f"(chmod +x scripts/*.py)")
+    rep.add("exec bits", OK, "all shebanged scripts executable")
 
 
 def check_limits(rep, fix, running):
@@ -255,6 +293,8 @@ def main():
     ap = argparse.ArgumentParser(description=__doc__.split("\n")[0])
     ap.add_argument("--check", action="store_true", help="report only; change nothing")
     ap.add_argument("--quiet", action="store_true", help="print only problems")
+    ap.add_argument("--bootstrap", action="store_true",
+                    help="also create/repair the project venv (slow; new machine only)")
     args = ap.parse_args()
     fix = not args.check
 
@@ -269,7 +309,8 @@ def main():
     info = anki("addonInfo") if actions and "addonInfo" in actions else None
     check_addon_running(rep, info, actions)
     check_toggles(rep, info)
-    check_venv(rep)
+    check_venv(rep, args.bootstrap and fix)
+    check_exec_bits(rep)
     check_limits(rep, fix, actions is not None)
     check_caches(rep, fix, actions is not None)
 

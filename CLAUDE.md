@@ -5,7 +5,7 @@ series. Words the textbooks teach that aren't already known get authored as flas
 
 ## Environment
 - **Anki** must be running with the **AnkiConnect** add-on (localhost:8765). All deck reads/writes go through it.
-- **Python venv**: `./.venv/bin/python` — has `pymorphy3` (+`pymorphy3-dicts-ru`) for lemmatisation and `PyMuPDF`(`fitz`) for PDF text. Recreate with `python3 -m venv .venv && .venv/bin/pip install pymorphy3 pymorphy3-dicts-ru PyMuPDF`.
+- **Python venv**: `./.venv/bin/python` — has `pymorphy3` (+`pymorphy3-dicts-ru`) for lemmatisation and `PyMuPDF`(`fitz`) for PDF text. Recreate with `python3 -m venv .venv && .venv/bin/pip install pymorphy3 pymorphy3-dicts-ru PyMuPDF`, or `scripts/anki_doctor.py --bootstrap` (not one of its default fixes — a scheduled run shouldn't start downloading packages). The scripts are executable and call `a.use_venv()` right after importing `anki_utils`, which re-execs them into `.venv`; `./scripts/foo.py` and `./.venv/bin/python scripts/foo.py` are therefore equivalent. `anki_doctor.py` alone doesn't, since it reports on a broken venv.
 - **Helpers**: `scripts/anki_utils.py` — `call()`, `destress()`, `norm()`, `lemma()`, `build_known()`, `page_text()`, `add_notes()`, `strip_pos_from_front()`. Import with `sys.path.insert(0,'scripts'); import anki_utils as a`.
 - **Machine parity**: `scripts/anki_doctor.py` (system python3, stdlib only — it checks the venv,
   so it can't use it). Fast-forwards the repo, creates the add-on symlink, and reports what needs

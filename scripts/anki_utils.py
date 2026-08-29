@@ -3,9 +3,33 @@
 Run with the project venv:  ~/repos/russian-anki/.venv/bin/python
 Needs Anki running with the AnkiConnect add-on (localhost:8765).
 """
-import urllib.request, json, re, unicodedata
+import urllib.request, json, os, re, sys, unicodedata
+from pathlib import Path
 
 ANKI = "http://localhost:8765"
+
+
+def use_venv():
+    """Re-exec under the project venv unless we are already in it.
+
+    The scripts carry `#!/usr/bin/env python3`, which finds the *system* interpreter — one
+    without pymorphy3 or PyMuPDF — so being executable would otherwise make them a trap.
+    Each calls this immediately after importing this module; everything above that point is
+    stdlib, and pymorphy3 is loaded lazily further down, so nothing has been imported yet
+    that the wrong interpreter would fail on.
+
+    Compares `sys.prefix` rather than the interpreter path: `.venv/bin/python` is a symlink
+    to the base install, so comparing resolved binaries would call a system run "already in
+    the venv" whenever the two share a base. A no-op when there is no venv — the resulting
+    ImportError names the missing package, which is more use than a missing-file error.
+
+    `anki_doctor.py` deliberately does not call this: it runs under system python precisely
+    so that it can report on a venv that is missing or broken.
+    """
+    venv = Path(__file__).resolve().parent.parent / ".venv"
+    if venv.is_dir() and Path(sys.prefix).resolve() != venv.resolve():
+        py = venv / "bin" / "python"
+        os.execv(str(py), [str(py), *sys.argv])
 MODEL = "Basic (and reversed card)"          # note type used by all vocab decks
 FIELDS = ("Front", "Back", "Example")
 

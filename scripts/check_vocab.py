@@ -17,6 +17,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "scripts"))
 import anki_utils as a  # noqa: E402
+a.use_venv()
 
 # Function words (grammar, not vocabulary to look up). Destressed forms, ё kept.
 STOP = set("""

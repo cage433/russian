@@ -35,6 +35,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "scripts"))
 import anki_utils as a
+a.use_venv()
 
 QUERY = "deck:Vocab::* is:learn -is:review -is:suspended"
 VAULT = Path("/Users/alex/.obsidian-vaults/Russian")
