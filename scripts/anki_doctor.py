@@ -322,7 +322,11 @@ def check_caches(rep, fix, running):
 
 
 def main():
-    ap = argparse.ArgumentParser(description=__doc__.split("\n")[0])
+    ap = argparse.ArgumentParser(
+        description=__doc__.split("\n")[0],
+        epilog="exit codes: 0 all well; 1 something needs a person; "
+               "2 it pulled a change to itself — run it again",
+        formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--check", action="store_true", help="report only; change nothing")
     ap.add_argument("--quiet", action="store_true", help="print only problems")
     ap.add_argument("--bootstrap", action="store_true",
