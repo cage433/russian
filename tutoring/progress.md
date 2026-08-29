@@ -139,6 +139,18 @@ Lesson words promoted into the learning queue 2026-08-21: устройство, 
 B2.1-1.4 tag carried across, identical audio so nothing orphaned). `promote_new_cards.py` run:
 33 cards queued — 22 in 10K, 7 in B1.1, 4 in B2.1.
 
+**Merge criterion sharpened (2026-08-29):** words count as near-synonyms when their *meanings*
+are similar — not when two distinct meanings happen to share one English translation. Audited all
+391 numbered merge cards against it; 14 failed and were split (usually a noun paired with its
+adjective, or an English homograph like усто́йчивый/коню́шня "stable"). The location/destination
+pairs (где/куда-нибудь, не́где/не́куда, нигде́/никуда́) were deliberately kept — they fail the
+criterion literally but exist to teach that very contrast.
+
+Split the merged **экра́н / за́веса / ши́рма** card: экра́н keeps the original note (it was already
+in learning, 1 rep), за́веса + ши́рма moved to a new numbered note. Both `needs-audio`, audio
+reference removed — run Tools→Check Media to clear the orphan. Fixed three errors in the old
+Example field along the way (в угла́ → **в углу́**, крес́ло → **кре́сло**, стали → **ста́ли**).
+
 The 10K limit was then **lost to a sync** (the phone held an older copy of that deck object) and
 re-applied with `autoLimitNow` — see the new gotcha in `CLAUDE.md`. Positions were never affected.
 Net delivery in 10K is **21, not 22**: испа́нский, an untagged card, was introduced on the phone
