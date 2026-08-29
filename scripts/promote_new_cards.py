@@ -206,7 +206,10 @@ def promote(tag, dry_run, clear_tag, set_limit, untag_finished=True):
             print("  learning cards are not gated by the new-card limit, so they surface on their own)")
             continue
 
-        blocked_ids = ({c["cardId"] for c in primaries if c["note"] in blocked_nids}
+        # queue == 0 keeps this disjoint from the buried/suspended report below: a card that
+        # is already out of the queue is reported once, as buried, not twice.
+        blocked_ids = ({c["cardId"] for c in primaries
+                        if c["queue"] == 0 and c["note"] in blocked_nids}
                        if buries_new_siblings(deck) else set())
         for c in sorted(primaries, key=preview):
             if c["queue"] != 0:
