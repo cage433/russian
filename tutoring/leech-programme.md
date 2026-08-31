@@ -61,7 +61,14 @@ These sync via AnkiWeb, unlike `scratch/` (gitignored) and unlike Claude's memor
 | `tag:leech-fixed is:suspended` | reformulated, **ready** to Forget + promote |
 | `tag:promote` | in flight; `promote_new_cards.py` surfaces these |
 | suspended, 8+ lapses, neither tag | **Alex's own** suspensions — not the programme's, leave alone |
-| `tag:uchit-family` | the eight rebuilt учить verbs, promoted one at a time (see below) |
+| `tag:family::*` | a cluster worked as a unit; promote its members one at a time |
+
+Three clusters are tagged so far — `family::bring`, `family::kaz`, `family::uch`. The tag
+records **the group that competes**, which is not always a root: получа́ться sits in
+`family::kaz` because its "to turn out" gloss collided with оказа́ться, not because of
+its stem. Members already established at long intervals are tagged too, so the tag answers
+"what else is in this family, and what must I not disturb?" — the promotion queue is a
+separate question, answered by `leech-fixed` and `promote`.
 
 As of 2026-08-31: **369 parked, 6 fixed-and-ready, 10 not mine.**
 
@@ -101,7 +108,7 @@ Same imperfective, opposite meanings, a different perfective for each sense. Eve
 therefore names the **argument frame in English** (project convention forbids Russian on the
 Front), so exactly one verb answers each.
 
-Find them all with **`tag:uchit-family`**. Promote in this order, next only when the previous
+Find them all with **`tag:family::uch`**. Promote in this order, next only when the previous
 clears 30 days — the two senses of учи́ть must never be in circulation in the same week:
 
 1. **учи́ть / вы́учить (+a)** — to learn by heart, memorise (words, a poem) *(in flight)*
@@ -129,9 +136,9 @@ your own studies, instruction given to someone, or investigation of a subject.
 
 ## Clusters done
 
-- **bring / lead** (2026-08-31): приноси́ть deduped (10K twin deleted); приводи́ть, вводи́ть,
+- **bring / lead** — `family::bring` (2026-08-31): приноси́ть deduped (10K twin deleted); приводи́ть, вводи́ть,
   своди́ть, проводи́ть, вести́ narrowed. Fixed a stress error — `ве́сти` → `вести́`.
-- **-каз- family** (2026-08-31): six 10K/RLC dedupes; каза́ться, ока́зываться, получа́ться,
+- **-каз- family** — `family::kaz` (2026-08-31): six 10K/RLC dedupes; каза́ться, ока́зываться, получа́ться,
   отка́зываться, прика́зывать, ука́зывать, зака́зывать, дока́зывать narrowed. Separated the two
   "to order" cards (person vs goods) and the two "to turn out" cards (copular vs effort).
   Fixed a Latin-`ot`-for-`от` typo and a получа́ться example that didn't contain the word.
