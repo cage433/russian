@@ -70,6 +70,12 @@ its stem. Members already established at long intervals are tagged too, so the t
 "what else is in this family, and what must I not disturb?" — the promotion queue is a
 separate question, answered by `leech-fixed` and `promote`.
 
+**What `leech-parked` does and does not mean.** It parks the **EN→RU direction**, not the word —
+so browsing the tag and thinking "I know most of these" is correct and expected. Across the 368:
+production averages **12.2 lapses** at a 13-day median interval, while their recognition cards
+average **2.5 lapses** at a **62-day** median, and 31% are past six months. Receptive knowledge
+is intact; what failed 8–31 times is cold production from an English prompt.
+
 As of 2026-08-31: **369 parked, 6 fixed-and-ready, 10 not mine.**
 
 ### Ready queue (serial order)
@@ -214,7 +220,12 @@ aloud by TTS as written.
   (пробы́ть vs проводи́ть вре́мя), **вноси́ть / заноси́ть / подноси́ть** ("bring in", all unseen —
   cheap to fix now), сбыва́ться (suspended, 13 lapses).
 - **The 289 production cards at 5–7 lapses are untouched.** Decide after re-measuring the 8+
-  cohort — 15× cost per card, so the same move may be justified.
+  cohort — 15× cost per card, so the same move may be justified. If it goes ahead, **select on
+  lapse count AND a current-interval ceiling**: the 2026-08-31 sweep used `prop:lapses>=8`
+  alone and caught one card that had already recovered — «за здоро́вье», 10 lapses but sitting
+  at **847 days**, unsuspended once Alex spotted it while browsing `leech-parked`. Median
+  production interval across the other 368 was 13 days (p90: 30; next-highest after 847: 47),
+  so `-prop:ivl>90` would have excluded exactly that one error and nothing else.
 - **Re-measure ~2026-12-01**: interval growth of the recognition-only cohort, and of the
   returned cards. The metric is *interval growth at constant retention*, not lapse count
   (which only ever rises). Baseline to beat: 8d → 13d per six months.
