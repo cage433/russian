@@ -29,9 +29,15 @@ can actually be answered, instead of hammering cards that don't converge.
    patching one card relocates the collision instead of removing it. Fronts must be
    English-only (project convention), so disambiguate by **argument structure described in
    English**, not by Russian prepositions.
-3. **Forget** to clear the pinned FSRS difficulty — but only *after* reformulating, or the
+3. **Index every English content word of a proposed Front against the whole collection before
+   writing it.** Not optional, and not a nicety: on 2026-08-31 проводи́ть was reglossed "to
+   conduct, **carry out** (a meeting…)" straight into a collision with выполня́ть ("to **carry
+   out**, to accomplish", 32 lapses) — then, on the first attempt to repair it, "to conduct,
+   **hold**…" collided with держа́ть. Both caught only by running the index afterwards. The
+   check is one pass over the Fronts; do it first.
+4. **Forget** to clear the pinned FSRS difficulty — but only *after* reformulating, or the
    rebuilt card inherits a difficulty near 10 and a two-week ceiling.
-4. **Promote**, because Forget makes the card **new** and `new/day = 0` parks it forever.
+5. **Promote**, because Forget makes the card **new** and `new/day = 0` parks it forever.
 
 ## Rules learned the hard way
 
