@@ -63,6 +63,59 @@ FRONT_MAX = 1                    # positions 0 (primaries) and 1 (siblings)
 _last_limit_day = None           # sched.today at the last auto_limit() pass
 _synced_since_open = False       # has a sync completed in this session yet?
 
+# --- diagnostics log -------------------------------------------------------
+# The passes below decide, unprompted, whether a promoted word is available today, and
+# Anki launched from Finder discards stdout — so `print` reaches nobody and the only way
+# to answer "why didn't the card I promoted appear?" is revlog archaeology. Done once
+# (2026-08-31, an hour), which was enough. Mirror every decision to a file instead.
+LOG_MAX_BYTES = 512 * 1024
+
+
+def _log_path():
+    """`<repo>/scratch/russian_promote.log` when this folder is the repo symlink, else
+    beside the add-on. `scratch/` is gitignored, which is where a local log belongs."""
+    here = os.path.dirname(os.path.realpath(__file__))
+    scratch = os.path.join(os.path.dirname(os.path.dirname(here)), "scratch")
+    return os.path.join(scratch if os.path.isdir(scratch) else here,
+                        "russian_promote.log")
+
+
+def _log(msg):
+    """Print as before, and append to the log with a timestamp.
+
+    Never raises. A hook that lets an exception escape is *removed* by the generated
+    classes in aqt/hooks.py (see `_run_auto_limit`), so a full disk or a read-only path
+    must not be able to unregister the rollover pass.
+    """
+    print(f"russian_promote: {msg}")
+    try:
+        path = _log_path()
+        if os.path.exists(path) and os.path.getsize(path) > LOG_MAX_BYTES:
+            os.replace(path, path + ".1")        # one generation is plenty
+        with open(path, "a", encoding="utf-8") as fh:
+            fh.write(f"{time.strftime('%Y-%m-%d %H:%M:%S')}  {msg}\n")
+    except Exception:
+        pass
+
+
+def _introduced_today(col, did):
+    """New cards first answered in this deck since the last rollover — the figure Anki
+    subtracts from the limit before deciding what else may through.
+
+    This is the number that made a promoted card vanish on 2026-08-31: the allowance had
+    already been spent, in that case by position-1 siblings of earlier batches, which are
+    untagged by then and so invisible to the count in `auto_limit`. Counts learning-type
+    entries only, so a card that a bulk reschedule pushed straight into the review queue
+    without ever being studied is correctly not counted as an introduction.
+    """
+    try:
+        start = (col.sched.day_cutoff - 86400) * 1000
+        return col.db.scalar(
+            "select count(distinct r.cid) from revlog r join cards c on c.id = r.cid "
+            "where c.did = ? and r.id >= ? and r.type = 0", did, start) or 0
+    except Exception:
+        return -1
+
 
 def _deck_id(col, deck):
     did = col.decks.id_for_name(deck)
@@ -102,7 +155,7 @@ def _patch():
     try:
         ac = importlib.import_module(ANKICONNECT_MODULE)
     except Exception as e:                                  # AnkiConnect absent/disabled
-        print(f"russian_promote: AnkiConnect not importable ({e}); actions not registered")
+        _log(f"AnkiConnect not importable ({e}); actions not registered")
         return
 
     def getDeckLimits(self, deck):
@@ -215,7 +268,7 @@ def _patch():
     for fn in actions:
         fn.api, fn.versions = True, ()
         setattr(ac.AnkiConnect, fn.__name__, fn)
-    print("russian_promote: registered " + ", ".join(fn.__name__ for fn in actions))
+    _log("registered " + ", ".join(fn.__name__ for fn in actions))
 
 
 def _set_today_limit(col, did, n):
@@ -263,7 +316,7 @@ def reap_tag(col):
     done = sorted(tagged - unfinished)
     if done:
         col.tags.bulk_remove(done, PROMOTE_TAG)
-        print(f"russian_promote: removed tag:{PROMOTE_TAG} from {len(done)} finished note(s)")
+        _log(f"removed tag:{PROMOTE_TAG} from {len(done)} finished note(s)")
     return done
 
 
@@ -312,15 +365,14 @@ def auto_limit(only_unstamped=False):
             "select count() from cards where did = ? and type = 0 and due <= ?",
             did, FRONT_MAX) or 0
         if at_front != len(cs):
-            print(f"russian_promote: {name}: {at_front - len(cs)} untagged new card(s) at "
-                  f"position <= {FRONT_MAX}; leaving the limit alone")
+            _log(f"{name}: {at_front - len(cs)} untagged new card(s) at "
+                 f"position <= {FRONT_MAX}; leaving the limit alone")
             continue
 
         cur = _limit_field(col.decks.get_legacy(did))[1] or {}
         stamped_today = cur.get("today") == col.sched.today
         if only_unstamped and stamped_today:
-            print(f"russian_promote: {name}: limit {cur.get('limit')} still stamped for "
-                  f"today; left alone")
+            _log(f"{name}: limit {cur.get('limit')} still stamped for today; left alone")
             continue
 
         conf = col.decks.config_dict_for_deck_id(did)
@@ -328,16 +380,19 @@ def auto_limit(only_unstamped=False):
                    if conf.get("new", {}).get("bury") else set())
         limit = len({c.nid for c in cs if c.queue == 0 and c.nid not in blocked})
         if blocked:
-            print(f"russian_promote: {name}: {len(blocked)} promoted note(s) have a sibling in "
-                  f"today's queue; Anki drops their new card at gather, so it is not counted")
+            _log(f"{name}: {len(blocked)} promoted note(s) have a sibling in today's queue; "
+                 f"Anki drops their new card at gather, so it is not counted")
+        _log(f"{name}: basis promoted_at_front={len(cs)} "
+             f"unavailable={sum(1 for c in cs if c.queue != 0)} blocked={len(blocked)} "
+             f"introduced_today={_introduced_today(col, did)} stamped={cur or None}")
 
         if stamped_today and cur.get("limit") == limit:
-            print(f"russian_promote: {name}: today-only limit already {limit}")
+            _log(f"{name}: today-only limit already {limit}")
             continue
         if not limit and not stamped_today:
             continue          # nothing to let through, and no earlier stamp to correct
         _set_today_limit(col, did, limit)
-        print(f"russian_promote: {name}: today-only new limit -> {limit}")
+        _log(f"{name}: today-only new limit -> {limit}")
 
 
 def _run_auto_limit(why, mark_day=True, **kw):
@@ -352,11 +407,14 @@ def _run_auto_limit(why, mark_day=True, **kw):
     """
     global _last_limit_day
     try:
+        _log(f"--- pass ({why}) day="
+             f"{mw.col.sched.today if mw.col is not None else '?'}"
+             f"{' only_unstamped' if kw.get('only_unstamped') else ''}")
         auto_limit(**kw)
         if mark_day:
             _last_limit_day = mw.col.sched.today if mw.col is not None else None
     except Exception as e:
-        print(f"russian_promote: auto_limit ({why}) failed: {e}")
+        _log(f"auto_limit ({why}) failed: {e}")
 
 
 def _on_profile_open():
@@ -404,7 +462,7 @@ def _on_day_change():
     Both passes are idempotent, so the cost of the extra one is nil.
     """
     if AUTO_LIMIT_ON_DAY_CHANGE:
-        print("russian_promote: day rollover")
+        _log("day rollover")
         _run_auto_limit("day change", mark_day=False)
 
 

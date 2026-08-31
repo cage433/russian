@@ -106,6 +106,17 @@ no-op when the same limit is already stamped for `sched.today`. Toggles at the t
 triggers the pass on demand; `peekQueue` dumps what the scheduler would hand the reviewer right
 now (same `col.sched.get_queued_cards` call `aqt.reviewer` makes — the way to see the real batch,
 as opposed to what the positions imply).
+- **Every pass appends its reasoning to `scratch/russian_promote.log`** (gitignored; rotates to
+  `.log.1` at 512 KB). Anki launched from Finder discards stdout, so this is the only way to
+  answer *"why didn't the word I promoted appear today?"* without revlog archaeology. Each pass
+  logs a `--- pass (why) day=N` header, then per deck a `basis` line:
+  `promoted_at_front / unavailable / blocked / introduced_today / stamped`. **`introduced_today`
+  is usually the answer** — the limit is a whole-day allowance and Anki spends it on whatever it
+  gathers, including **position-1 siblings of earlier batches**, which are untagged by then and
+  so invisible to the sizing. Hit 2026-08-31: экра́н, любова́ться, знако́мство and поздравля́ть
+  (all second-direction cards of words promoted 21–29 Aug) took the day's three slots at 08:14,
+  so каза́ться — promoted at 16:03 — had nowhere to go. Nothing was mis-sorted; the allowance
+  was simply already spent.
 - **A promoted card whose sibling is in today's queue will not be gathered, and the limit must not
   count it** (found 2026-08-30). With "bury new siblings" on, Anki drops a new card whose sibling
   is already queued **when it builds the queue** — not when the sibling is answered — and the
