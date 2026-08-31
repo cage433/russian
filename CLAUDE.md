@@ -39,8 +39,9 @@ series. Words the textbooks teach that aren't already known get authored as flas
   of" overstate it (Alex's call, 2026-08-31). This is the *only* way to separate senses that
   Russian distinguishes by construction alone — учи́ть +a = memorise vs учи́ть +a +d = teach;
   относи́ться к = your attitude vs обраща́ться с = your conduct — since an English-only Front
-  cannot carry the preposition that does the work. Don't add one to a card that is already
-  uniquely answerable; it is reading load for nothing.
+  cannot carry the preposition that does the work. Put the cross-reference **on its own line**
+  — `gloss<br>(cf. …)` — so the gloss reads cleanly and the pointer sits under it. Don't add
+  one to a card that is already uniquely answerable; it is reading load for nothing.
 - **Before writing any Front, index its English content words against every other Front in the
   collection.** Not optional. Reglossing проводи́ть as "to conduct, carry out (a meeting…)" on
   2026-08-31 collided instantly with выполня́ть ("to carry out, to accomplish", 32 lapses), and
