@@ -120,6 +120,11 @@ Same imperfective, opposite meanings, a different perfective for each sense. Eve
 therefore names the **argument frame in English** (project convention forbids Russian on the
 Front), so exactly one verb answers each.
 
+Fronts now carry a **`cf.`** cross-reference naming the rival construction, which is the only
+way to state the contrast at all: учи́ть +a and учи́ть +a +d are the same word, and the Front
+cannot show the case. Backs carry the government — вы́учиться's was corrected to
+`(в +pr; на +a = train as)`, since «вы́учился **на** инжене́ра» is accusative.
+
 Find them all with **`tag:family::uch`**. Promote in this order, next only when the previous
 clears 30 days — the two senses of учи́ть must never be in circulation in the same week:
 
@@ -248,8 +253,13 @@ aloud by TTS as written.
   *"to do without, get by"* (no longer claims "manage", "treat" or "cost").
   **Deliberately no new card for обраща́ться с.** The distinction from относи́ться к is
   attitude-versus-conduct — «он хорошо́ отно́сится к ней» vs «он пло́хо обраща́ется с ней» — and
-  both gloss as "to treat". No English-only Front can separate them, so a third card would
-  guarantee a third leech. It belongs in drills, where the preposition is visible.
+  both gloss as "to treat".
+  **Superseded 2026-09-01.** Once `cf.` cross-references were allowed on Fronts, the contrast
+  became statable, so обраща́ться (i) (с +inst) was created after all — *"to treat, handle — the
+  way you deal with a person or thing (cf. относи́ться к = your opinion of them)"* — and
+  относи́ться points back at it. The four competing notes are tagged **`family::obrashch`** so
+  they travel together. The earlier reasoning was sound given the constraint; the constraint
+  was the thing that turned out to be wrong.
 
 ## Next
 
