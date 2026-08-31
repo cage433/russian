@@ -61,6 +61,7 @@ These sync via AnkiWeb, unlike `scratch/` (gitignored) and unlike Claude's memor
 | `tag:leech-fixed is:suspended` | reformulated, **ready** to Forget + promote |
 | `tag:promote` | in flight; `promote_new_cards.py` surfaces these |
 | suspended, 8+ lapses, neither tag | **Alex's own** suspensions — not the programme's, leave alone |
+| `tag:uchit-family` | the eight rebuilt учить verbs, promoted one at a time (see below) |
 
 As of 2026-08-31: **369 parked, 6 fixed-and-ready, 10 not mine.**
 
@@ -77,7 +78,54 @@ As of 2026-08-31: **369 parked, 6 fixed-and-ready, 10 not mine.**
 
 - **каза́ться / показа́ться** — Forgotten + promoted 2026-08-31. Next in the -каз- family
   waits until this clears 30 days.
+- **учи́ть / вы́учить (+a)** — Forgotten + promoted 2026-08-31, head of the учить family below.
 - проводи́ть, приводи́ть — recognition cards Forgotten + promoted 2026-08-31.
+
+## The учить family — rebuilt 2026-08-31, awaiting serial promotion
+
+Alex's call: *"I'm not convinced I understand those at any deep level… the whole family should
+be forgotten, reformulated, and gradually re-introduced."* So unlike every other cluster, all
+eight cards were reset **in both directions** regardless of interval — a 438-day production
+card is a prediction, not evidence, and the recognition side told the truth (учи́ть's was at
+21 days with 15 lapses).
+
+**Why a bare gloss can never work here.** учи́ть is ambiguous *in Russian*, and the perfective
+is what resolves it:
+
+    учи́ть + acc (a thing)      -> вы́учить    = learn, memorise    учить слова
+    учи́ть + acc (person) + dat -> научи́ть    = teach              учить детей вежливости
+    учи́ться (в/на + place)     -> вы́учиться  = be a student -> qualify
+    учи́ться + infinitive       -> научи́ться  = learn how to do something
+
+Same imperfective, opposite meanings, a different perfective for each sense. Every Front
+therefore names the **argument frame in English** (project convention forbids Russian on the
+Front), so exactly one verb answers each.
+
+Find them all with **`tag:uchit-family`**. Promote in this order, next only when the previous
+clears 30 days — the two senses of учи́ть must never be in circulation in the same week:
+
+1. **учи́ть / вы́учить (+a)** — to learn by heart, memorise (words, a poem) *(in flight)*
+2. **учи́ться / вы́учиться (в/на +pr)** — to be a student, study at (an institution); pf. to qualify
+3. **учи́ть / научи́ть (+a +d)** — to teach (someone something)
+4. **учи́ться / научи́ться (+inf)** — to learn how to (do something)
+5. **изуча́ть / изучи́ть (+a)** — to study, investigate (a subject) in depth
+6. **занима́ться / заня́ться (+inst)** — to occupy oneself with, work on (a subject, a sport)
+7. **преподава́ть (i) (+a)** — to teach (a subject, as a profession)
+8. **обуча́ть / обучи́ть (+a +d)** — to train, instruct (someone in something — formal)
+
+Six duplicates were deleted first: a messy second `учи́ть / научи́ть`, `вы́учить` standing alone,
+and RLC copies of учи́ться, изуча́ть, занима́ться and a `преподава́тель m., учи́тель m.` card that
+put two words on one note.
+
+**Not part of this family, despite the spelling** — do not merge them in:
+- уча́стие / уча́стник / уча́ствовать / уча́сток are from **часть** (part).
+- учи́тывать / уче́сть ("take into account") is from **счита́ть**.
+
+**Still to do here:** the nouns (учи́тель, преподава́тель, учени́к, уча́щийся, учёный, уче́ние,
+учи́лище, уче́бник) only need Front tightening, not resetting — they are not confusing. The one
+exception is the numbered `1: учёба 2: обуче́ние 3: изуче́ние` card (suspended, 5 lapses), which
+overlaps изуча́ть and belongs in this rebuild: the three separate on *whose* activity it is —
+your own studies, instruction given to someone, or investigation of a subject.
 
 ## Clusters done
 
@@ -88,6 +136,23 @@ As of 2026-08-31: **369 parked, 6 fixed-and-ready, 10 not mine.**
   "to order" cards (person vs goods) and the two "to turn out" cards (copular vs effort).
   Fixed a Latin-`ot`-for-`от` typo and a получа́ться example that didn't contain the word.
   Left alone: пока́зывать 589d, расска́зывать 395d, получа́ть 328d, говори́ть 782d.
+
+## A separate bug found on the way, not yet fixed
+
+**At least 38 notes in `Vocab::10000 words` carry the example sentence belonging to the *next*
+note by creation order** — an off-by-one in some batch authoring run. Unbroken chains, e.g.
+воро́та -> дворе́ц -> зо́лото -> откры́тие -> отсю́да -> специали́ст -> длина́. Two were found by
+accident (получа́ться, уча́стие) before the pattern was obvious.
+
+38 is a **lower bound**: a shifted example that happens to share a lemma with its own card's
+headword is not detectable this way. It matters more than it looks, because Card 2's template
+shows the Example as `{{hint:Example}}` — so the hint describes a different word. Candidate
+list in `scratch/bad-examples.json` (contains aspect-alternation false positives: the detector
+strips `(pf. …)` from the headword before comparing, so видеть/увидел reads as a mismatch).
+
+Repair plan: for each verified link `(N, N+1)`, move N's example to N+1, walking each run
+**backwards** so nothing is overwritten before it is read. The head of each run has no source
+for its own sentence and needs one authored by hand.
 
 ## Next
 
