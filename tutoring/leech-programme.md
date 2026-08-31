@@ -238,6 +238,19 @@ aloud by TTS as written.
   *second* collision ("hold" vs держа́ть), and внедря́ть escaped a pass because a prefix match
   failed silently — a loop reporting nothing looks exactly like a loop with nothing to do.
 
+- **обраща́ться** (2026-08-31) — the worst card in the collection at 37 lapses, and unanswerable
+  by construction: it is three verbs sharing a form, separated in Russian **by the preposition**
+  (обрати́ться *к* = turn to; обраща́ться *с* = handle, treat; обрати́ться *в* = turn into).
+  Narrowed to the к +d sense alone — *"to turn to (someone — with a request, for help or
+  advice)"*. "to turn into" dropped outright (превраща́ться owns it); "to handle, manage"
+  dropped (that is the с +inst verb). Neighbours relieved at the same time: относи́ться →
+  *"to regard, have an attitude towards"* (no longer claims "to treat"), обходи́ться →
+  *"to do without, get by"* (no longer claims "manage", "treat" or "cost").
+  **Deliberately no new card for обраща́ться с.** The distinction from относи́ться к is
+  attitude-versus-conduct — «он хорошо́ отно́сится к ней» vs «он пло́хо обраща́ется с ней» — and
+  both gloss as "to treat". No English-only Front can separate them, so a third card would
+  guarantee a third leech. It belongs in drills, where the preposition is visible.
+
 ## Next
 
 - Clusters not yet touched: **«turn»** partially done via -каз-; **«spend»**
