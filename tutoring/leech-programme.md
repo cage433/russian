@@ -220,6 +220,18 @@ cheap to repeat and worth re-running after any bulk authoring — the mixed-scri
 since a Latin homoglyph is invisible to the eye but makes the word unsearchable and gets read
 aloud by TTS as written.
 
+- **carry out / accomplish** (2026-08-31): opened by a collision *this method created* —
+  проводи́ть was reglossed "to conduct, **carry out**", straight into выполня́ть ("to **carry
+  out**, to accomplish", 32 lapses). Six claimants, two studied and four unseen, now partitioned
+  by the kind of object each verb governs: проводи́ть *conduct (a meeting, a survey, a reform)*,
+  выполня́ть *carry out, fulfil (a task, an order, a promise)*, соверша́ть *commit, perpetrate (an
+  act, a mistake, a crime)*, осуществля́ть *implement, bring into effect (a plan)*, исполня́ть
+  *perform (music, a role); discharge (a duty)*, проде́лывать *do, get through (a piece of work)*.
+  The nouns needed the same treatment — осуществле́ние, внедре́ние, реализа́ция and исполни́тель all
+  claimed "implementation" or "implementer". Two lessons: the first repair attempt introduced a
+  *second* collision ("hold" vs держа́ть), and внедря́ть escaped a pass because a prefix match
+  failed silently — a loop reporting nothing looks exactly like a loop with nothing to do.
+
 ## Next
 
 - Clusters not yet touched: **«turn»** partially done via -каз-; **«spend»**
