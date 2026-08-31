@@ -168,7 +168,7 @@ Detector note, if this is ever re-run: build the headword set from the **whole**
 including parentheticals. Stripping `(pf. …)` first hides the aspect partner, and the example
 usually uses it — that alone produced 36 false positives (120 flagged vs 84).
 
-### Mixed Cyrillic/Latin words — **found, not fixed**
+### Mixed Cyrillic/Latin words — **fixed 2026-08-31**
 
 33 tokens across the collection mix the two scripts, i.e. contain a character that cannot be
 typed or searched for. **11 are in the Back field**, so the headword itself is misspelled and
@@ -181,8 +181,29 @@ HyperTTS generated audio from the corrupt text. Two distinct causes:
 * **Keyboard-layout slip** (12): a run of Russian typed with the Latin layout active —
   `желу́dok` (желудок), `упа́dok`, `оса́dok`, `прodúкт`, `Паrikмахер`, `реgióна`, `по́грébе`.
 
-Candidate list in `scratch/mixed-script.json`. Exclude HTML entities when scanning — an
-unescaped `&nbsp;` reads as a mixed-script token and produced 81 false positives.
+**32 of 33 corrected**, each substitution written out and checked individually rather than by a
+blanket homoglyph sweep. Seven recordings dropped, where the Russian word itself had been
+corrupt: ду́шно, кто́-нибу́дь, походи́ть, сгоре́ть, земледе́лец, изгота́вливать, поста́виться.
+The four Back edits confined to an English marker — `(рf)`, `оr`, `/нa` — left the word and
+stress untouched, so those kept their audio. Snapshot:
+`scratch/mixed-script-fix-2026-08-31.json`.
+
+**Deliberately not fixed:** `листо́кe` in листо́к's example. The script error hides a grammar
+error — листо́к loses its vowel in the prepositional, so «на ма́леньком листо́кe» should read
+**«на ма́леньком листке́»**. Correcting only the character would leave a still-wrong sentence.
+
+Also unresolved: `ктó-нибу́дь` was authored with **two** stress marks and now reads
+`кто́-нибу́дь`; кто-нибудь normally carries one, on кто́. Dropping the second is an editorial
+call, not a typo fix.
+
+Exclude HTML entities when scanning — an unescaped `&nbsp;` reads as a mixed-script token and
+produced 81 false positives.
+
+### Soft hyphens — **found, not fixed**
+
+**7 Example fields contain U+00AD**, an invisible character that breaks search and is
+undetectable by eye: `1: пла́та 2: опла́та`, благополу́чно, жите́йский, телегра́фный, фаса́д,
+челове́чность, шов. Purely mechanical to strip; no audio implication, since TTS ignores it.
 
 ## Next
 
