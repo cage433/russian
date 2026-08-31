@@ -32,7 +32,22 @@ series. Words the textbooks teach that aren't already known get authored as flas
 
 ## Card conventions (match exactly)
 - Note type **"Basic (and reversed card)"**, fields **Front / Back / Example**. Tags = POS (`noun`/`adj`/`verb`/`adv`/…) + `claude`; idioms get `claude` only.
-- **Front** = English gloss. NO Russian on the Front. NO POS descriptor `(noun)` unless there's genuine POS ambiguity (then e.g. `chocolate (noun / adj)`). NO `(idiom)`/`(proverb)` markers.
+- **Front** = English gloss. The gloss itself is English — but a trailing
+  **`(cf. <russian> = <gloss>)`** cross-reference naming a competing Russian word is allowed,
+  and is the preferred fix where two words fight over the same English. Use **`cf.`**, not
+  "synonym of": these are near-neighbours, not synonyms, and the older cards saying "synonym
+  of" overstate it (Alex's call, 2026-08-31). This is the *only* way to separate senses that
+  Russian distinguishes by construction alone — учи́ть +a = memorise vs учи́ть +a +d = teach;
+  относи́ться к = your attitude vs обраща́ться с = your conduct — since an English-only Front
+  cannot carry the preposition that does the work. Don't add one to a card that is already
+  uniquely answerable; it is reading load for nothing.
+- **Before writing any Front, index its English content words against every other Front in the
+  collection.** Not optional. Reglossing проводи́ть as "to conduct, carry out (a meeting…)" on
+  2026-08-31 collided instantly with выполня́ть ("to carry out, to accomplish", 32 lapses), and
+  the first repair — "to conduct, hold…" — collided with держа́ть. Both were caught only by
+  running the index afterwards. It also rejected "consult" (сове́товаться) and "manage" (which
+  already had four leeches on it) before those reached a card.
+- NO POS descriptor `(noun)` unless there's genuine POS ambiguity (then e.g. `chocolate (noun / adj)`). NO `(idiom)`/`(proverb)` markers.
 - **Back** = Russian with stress marks (combining U+0301), ending in a trailing `<br><br>` (gap before future audio).
 - **Example** = one Russian sentence with stress.
 - **No audio** is added by us — the user runs a HyperTTS batch later.
