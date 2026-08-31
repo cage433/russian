@@ -144,22 +144,45 @@ your own studies, instruction given to someone, or investigation of a subject.
   Fixed a Latin-`ot`-for-`от` typo and a получа́ться example that didn't contain the word.
   Left alone: пока́зывать 589d, расска́зывать 395d, получа́ть 328d, говори́ть 782d.
 
-## A separate bug found on the way, not yet fixed
+## Example-sentence defects in `Vocab::10000 words`
 
-**At least 38 notes in `Vocab::10000 words` carry the example sentence belonging to the *next*
-note by creation order** — an off-by-one in some batch authoring run. Unbroken chains, e.g.
-воро́та -> дворе́ц -> зо́лото -> откры́тие -> отсю́да -> специали́ст -> длина́. Two were found by
-accident (получа́ться, уча́стие) before the pattern was obvious.
+### The off-by-one shift — **fixed 2026-08-31**
 
-38 is a **lower bound**: a shifted example that happens to share a lemma with its own card's
-headword is not detectable this way. It matters more than it looks, because Card 2's template
-shows the Example as `{{hint:Example}}` — so the hint describes a different word. Candidate
-list in `scratch/bad-examples.json` (contains aspect-alternation false positives: the detector
-strips `(pf. …)` from the headword before comparing, so видеть/увидел reads as a mismatch).
+At least 38 notes carried the example sentence belonging to the **next** note by creation
+order — an off-by-one in a batch authoring run, in unbroken chains:
+воро́та -> дворе́ц -> зо́лото -> откры́тие -> отсю́да -> специали́ст -> длина́.
 
-Repair plan: for each verified link `(N, N+1)`, move N's example to N+1, walking each run
-**backwards** so nothing is overwritten before it is read. The head of each run has no source
-for its own sentence and needs one authored by hand.
+Repaired per link rather than by shifting a run, which is what made it safe: for each pair
+the replacement sentence **provably contains the target's headword**, checked by pymorphy3
+lemma before every write. 38 links, no conflicts, **34 applied**; the other 4 already held a
+correct, fully-stressed example (наблюда́ть, получа́ться, уча́стие, влия́ние) and were skipped.
+Snapshot: `scratch/example-shift-repair-2026-08-31.json`.
+
+**Left over:** the restored sentences are only *partially* stressed, unlike the rest of the
+collection — the shifted batch was authored without full stress marking. Strictly better than
+being about the wrong word, but they don't yet meet the card convention. Adding the marks is
+34 sentences of careful work and a wrong mark actively teaches an error, so it wants doing
+deliberately, not in passing.
+
+Detector note, if this is ever re-run: build the headword set from the **whole** Back
+including parentheticals. Stripping `(pf. …)` first hides the aspect partner, and the example
+usually uses it — that alone produced 36 false positives (120 flagged vs 84).
+
+### Mixed Cyrillic/Latin words — **found, not fixed**
+
+33 tokens across the collection mix the two scripts, i.e. contain a character that cannot be
+typed or searched for. **11 are in the Back field**, so the headword itself is misspelled and
+HyperTTS generated audio from the corrupt text. Two distinct causes:
+
+* **Homoglyph substitution** (21): a Latin letter or precomposed accented vowel standing in
+  for Cyrillic — `ду́шнo`, `пoходи́ть`, `cгоре́ть`, `земледeлец`, `пoста́виться`,
+  `изготáвливать`, `Черéз`, `цéлый`, `улóвом`. Also the reverse: Cyrillic `р` inside `(рf)`,
+  Cyrillic `о` inside `оr`, Cyrillic `а` inside `(+а)`.
+* **Keyboard-layout slip** (12): a run of Russian typed with the Latin layout active —
+  `желу́dok` (желудок), `упа́dok`, `оса́dok`, `прodúкт`, `Паrikмахер`, `реgióна`, `по́грébе`.
+
+Candidate list in `scratch/mixed-script.json`. Exclude HTML entities when scanning — an
+unescaped `&nbsp;` reads as a mixed-script token and produced 81 false positives.
 
 ## Next
 
