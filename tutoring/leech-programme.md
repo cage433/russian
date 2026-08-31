@@ -188,9 +188,8 @@ The four Back edits confined to an English marker — `(рf)`, `оr`, `/нa` —
 stress untouched, so those kept their audio. Snapshot:
 `scratch/mixed-script-fix-2026-08-31.json`.
 
-**Deliberately not fixed:** `листо́кe` in листо́к's example. The script error hides a grammar
-error — листо́к loses its vowel in the prepositional, so «на ма́леньком листо́кe» should read
-**«на ма́леньком листке́»**. Correcting only the character would leave a still-wrong sentence.
+`листо́кe` in листо́к's example needed a grammar fix, not a character swap — листо́к loses its
+vowel in the prepositional — so the sentence now reads «на ма́леньком **листке́**».
 
 Also unresolved: `ктó-нибу́дь` was authored with **two** stress marks and now reads
 `кто́-нибу́дь`; кто-нибудь normally carries one, on кто́. Dropping the second is an editorial
@@ -199,11 +198,15 @@ call, not a typo fix.
 Exclude HTML entities when scanning — an unescaped `&nbsp;` reads as a mixed-script token and
 produced 81 false positives.
 
-### Soft hyphens — **found, not fixed**
+### Soft hyphens — **fixed 2026-08-31**
 
-**7 Example fields contain U+00AD**, an invisible character that breaks search and is
-undetectable by eye: `1: пла́та 2: опла́та`, благополу́чно, жите́йский, телегра́фный, фаса́д,
-челове́чность, шов. Purely mechanical to strip; no audio implication, since TTS ignores it.
+7 Example fields contained U+00AD, invisible and undetectable by eye, breaking search on words
+like при­земли́лся, теле­гра́фную, леп­ни́ной, Порт­но́й. Stripped; no audio implication.
+
+**The collection now scans clean: 0 mixed-script tokens, 0 soft hyphens.** Both checks are
+cheap to repeat and worth re-running after any bulk authoring — the mixed-script one especially,
+since a Latin homoglyph is invisible to the eye but makes the word unsearchable and gets read
+aloud by TTS as written.
 
 ## Next
 
