@@ -44,6 +44,17 @@ series. Words the textbooks teach that aren't already known get authored as flas
 
 ## Audio rule
 Before an edit that would invalidate a card's `[sound:]` recording (changing/correcting the Russian word or its stress), **ask the user whether to delete the recording** — don't silently keep a now-wrong one or delete on your own. If deleting, remove only the `[sound:…]` reference; the orphaned media clears via Tools→Check Media.
+- **Whenever a recording is dropped, tag the note `needs-audio` in the same operation.** A list
+  of affected cards printed to the terminal is not a record — it was lost within the hour on
+  2026-08-31, and the count was wrong (11 reported, 14 actually). The tag is what survives, and
+  it is what the HyperTTS batch selects on.
+- Audit with `"note:Basic (and reversed card)" -Back:*[sound:* -tag:needs-audio` — should be
+  empty. Note the query is **not** a replacement for the tag: it cannot see a *partially*
+  recorded numbered multi-sense card (one `[sound:]` present, other senses silent), which is
+  why some notes are tagged despite having audio.
+- An annotation-only Back edit — `(pf. X)` → `/ X`, a case marker, a Cyrillic/Latin homoglyph
+  inside `(+a)` — leaves the word and its stress untouched, so it does **not** invalidate the
+  recording. Don't drop audio for those.
 
 ## Promoting words into today's learning queue
 Tag notes `promote` in the Anki browser, then `scripts/promote_new_cards.py` (`--dry-run` /
