@@ -210,6 +210,12 @@ call, not a typo fix.
 Exclude HTML entities when scanning — an unescaped `&nbsp;` reads as a mixed-script token and
 produced 81 false positives.
 
+**Scan for *any* foreign script, not just Latin.** The Cyrillic-vs-Latin check missed
+«ко**ما**́ндой» in управля́ть's example — Arabic MEEM and ALEF standing in for м and а (fixed
+2026-08-31). One instance collection-wide, but a Latin-only comparison could never have found
+it. Classify each character by Unicode script name and flag anything outside
+Cyrillic/Latin/Common.
+
 ### Soft hyphens — **fixed 2026-08-31**
 
 7 Example fields contained U+00AD, invisible and undetectable by eye, breaking search on words
