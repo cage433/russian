@@ -274,6 +274,13 @@ when a sentence must reach beyond it, **gloss the unfamiliar word inline** (Engl
 ## Gotchas
 - Interactive shell aliases `gs` → `git status`; use `/opt/homebrew/bin/gs` for Ghostscript.
 - This system's `pdftotext` is the xpdf build and won't display Cyrillic from text layers — verify extraction with PyMuPDF, not pdftotext.
+- **`add_notes(deck, rows)` takes rows as TUPLES in `(back, front, example, tags)` order — Back
+  first.** Passing dicts does not raise: iterating a dict yields its keys, so the note is created
+  with the *field names* as its values (`Front: "Front"`, `Back: "Back"`) and the helper still
+  prints `added 1`. Bit us 2026-09-05. It appends the trailing `<br><br>` to Back itself.
+- **AnkiConnect card-id arguments must be ints, not strings.** `getReviewsOfCards` given string
+  ids returns an empty list per card instead of erroring — indistinguishable from a card with no
+  review history, which is exactly the wrong answer when you are investigating history.
 - `addNotes` (plural) is atomic and errors if ANY note is a duplicate — always add one-by-one (`add_notes` does this).
 - **`is:learn` matches a card's TYPE, not its queue.** A card suspended part-way through its
   learning steps keeps `type=learn` for ever and goes on matching `is:learn`, though it can never
