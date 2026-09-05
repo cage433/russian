@@ -158,6 +158,44 @@ your own studies, instruction given to someone, or investigation of a subject.
 
 ## Clusters done
 
+- **lead / take on foot** — `family::bring`, second pass (2026-09-05). The 08-31 pass left
+  приводи́ть *"to bring, **lead** a person on foot"* colliding with вести́ *"to **lead**
+  (someone, on foot)"* — and вести́ was never suspended, so it was in relearning at 1d with 9
+  production lapses while приводи́ть sat at the head of the ready queue. приводи́ть's `cf.`
+  pointed at приноси́ть, which is not the rival: the person-vs-thing contrast was already
+  carried by both sides, while the one that was actually failing had nothing said about it.
+  Indexing the whole -вод-/вести́ stem turned up **39 notes**, of which only five are live, and
+  a third claimant nobody had noticed — води́ть *"to lead, (p) to lead about"*.
+  Partitioned by **direction and endpoint**, which is what Russian is actually encoding:
+
+  | | |
+  |---|---|
+  | вести́ / повести́ (+a) | to be leading (someone) on foot — unprefixed, under way, no endpoint |
+  | приводи́ть / привести́ | to bring (a person) somewhere on foot — has an endpoint *(cf. приноси́ть)* |
+  | води́ть / поводи́ть (+a) | to take (someone) about on foot — habitually or in various directions |
+  | своди́ть / свести́ | to take (someone) somewhere and back — one round trip |
+
+  The word "lead" is now gone from приводи́ть and води́ть entirely, so no `cf.` is needed
+  between them — an English gloss that names the endpoint does the work a cross-reference
+  would otherwise have to. Re-indexing `\blead\b` afterwards leaves вести́ as the **only live**
+  claimant; the rest are unseen prefixed verbs, plus "lead" the metal and "leading" the
+  adjective. Snapshot `scratch/vod-cluster-2026-09-05.json`.
+
+  Two duplicates and a stress error fell out of the same index:
+  - **подводи́ть** sat on two notes — an aspect pair (+a) and a pf-only `подвести́ (p) (к +d)`,
+    both unseen. Kept the pair, took the pf-only note's better government onto it
+    (`к +d = lead up to; +a = let down`), deleted the other.
+  - **поводи́ть / «по́вести» (+inst)** *"to move, twitch"* — the perfective is **повести́**. The
+    stress was not merely misplaced, it was on the wrong syllable of the wrong form, and
+    HyperTTS had already read it aloud that way. Corrected, recording dropped, `needs-audio`.
+  - **переводи́ть is still on two notes** — 10K *"to take across, to transfer, to translate"*
+    (unseen) and RLC *"to translate"* (o0 25d/7 lapses, o1 604d). Not resolved here because the
+    RLC copy carries real history and the merge convention wants the survivor in 10K, so it
+    needs a `changeDeck` rather than a delete. Left for a decision.
+
+  Not touched, and latent: **заводи́ть**'s sense 1 *"to take / lead (somewhere)"* overlaps
+  приводи́ть, but the note is unseen and numbered, so it is inert at `new/day = 0`.
+
 - **bring / lead** — `family::bring` (2026-08-31): приноси́ть deduped (10K twin deleted); приводи́ть, вводи́ть,
   своди́ть, проводи́ть, вести́ narrowed. Fixed a stress error — `ве́сти` → `вести́`.
 - **-каз- family** — `family::kaz` (2026-08-31): six 10K/RLC dedupes; каза́ться, ока́зываться, получа́ться,
@@ -284,13 +322,6 @@ aloud by TTS as written.
 
 ## Next
 
-- **Repair приводи́ть vs вести́ before starting the `bring` ready queue.** Two Fronts claim
-  the same English: приводи́ть *"to bring, lead a person on foot"* (ready queue #4,
-  suspended) and вести́ *"to lead (someone, on foot)"* — which was **never suspended**, and as
-  of 2026-09-05 is in relearning at 1d with 9 production lapses. приводи́ть's `cf.` points at
-  приноси́ть, which is not the rival. Promoting #4 into that is the documented failure mode.
-  The real contrast is goal-directed delivery (приводи́ть, к +d) vs leading along in progress
-  (вести́).
 - **Next cluster to reformulate: «manage / cope».** The densest unpartitioned space left —
   eleven claimants, found by indexing the Fronts on 2026-09-05:
   удава́ться *"to succeed, manage to"* (27 lapses, parked), уме́ть *"manage to"* (parked),
