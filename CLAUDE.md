@@ -213,6 +213,14 @@ as opposed to what the positions imply).
 3. Dedup across lessons (assign each word to its earliest lesson).
 4. Curate the survivors (real thematic vocab + idioms; drop grammar-drill items like prefixed motion verbs, and brand names). Author correct spelling/stress/gloss/example from knowledge.
 5. `a.add_notes(deck, rows)` — one-by-one, skips Front-duplicate collisions.
+   **The guard is on Front only, so it does not catch a word already carded under a different
+   English gloss** — and the known-set filter in step 1 only sees decks you pass it. Found
+   2026-09-05: of 12 notes in `Vocab::Recent::Nouns`/`::Verbs`, **11 duplicated notes the Точка
+   Ру build had added independently** (руга́ть, забира́ть, изгота́вливать, лечи́ть, предпочита́ть,
+   эконо́мить, зага́дывать, распеча́тывать, навеща́ть, хро́ника, and подчёркивать on *three*
+   notes). None had been studied, so nothing was learned twice, but the collisions were all
+   sitting there waiting. **After any build run, check for duplicate Russian headwords, not just
+   duplicate Fronts** — destress and compare the first token of Back.
 
 ## Drill / tutoring workflow (using the decks, not building them)
 This repo is also used to **tutor Alex through Точка Ру grammar** with English→Russian
