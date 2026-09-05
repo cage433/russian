@@ -63,6 +63,11 @@ series. Words the textbooks teach that aren't already known get authored as flas
 
 ## Merge conventions (consolidating variant forms onto one card)
 - Aspect pair / adj-adv / m-f → slash: `<impf> / <pf>`, `<adj> / <adv>`, `<masc> / <fem>`; single combined gloss; both POS tags. Impf first. Only pair genuine aspect partners (not bi-aspectual, not impf-only, not inceptive pseudo-pairs).
+- **The numbered form is for two distinct WORDS.** One verb with two perfectives is not that —
+  it is the ходи́ть shape, and the second perfective belongs on a third line
+  (`(отпеча́тать = print off a batch)`), not as sense 2. печа́тать was numbered
+  `1: печа́тать / напеча́тать  2: печа́тать / отпеча́тать`, which reads as two verbs and forces a
+  sense split out of what is really an aspect fact (fixed 2026-09-05).
 - Near-synonyms (distinct words, same headword) → numbered: Front `headword<br><br>1: <distinguishing gloss><br>2: …`; Back `1: w1<br>2: w2`. **Do not repeat the headword** in the sense glosses (diet → "1: weight-loss regimen / 2: daily food intake").
 - **Verbs of motion → one note carrying all four forms** (Alex's call, 2026-09-05; he knows the
   abstract/concrete distinction and wants the terms used, not paraphrased as "habitually or in
