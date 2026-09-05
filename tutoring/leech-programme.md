@@ -245,11 +245,31 @@ your own studies, instruction given to someone, or investigation of a subject.
   `(на +a = at sth; +a = watch sth; в +a = into sth)` — and the `&nbsp;` is why a plain string
   replace on it silently did nothing the first time.
 
-  **Left open — needs a decision.** **следи́ть is on two live notes with different glosses**:
-  RLC *"to track, follow"* (o0 1047d, o1 12d/**13 lapses**) and 10K *"to watch closely"*
-  (o0 28d/5, o1 13d/**19 lapses**). Unlike часы́ the glosses differ, so choosing a survivor
-  chooses which history to keep — and both recognition sides are failing badly, which is its own
-  signal.
+  **следи́ть — resolved 2026-09-05, and it is the cleanest evidence in this whole programme.**
+  The word sat on two notes with different glosses, and the outcomes were opposite:
+
+  | gloss | production | recognition |
+  |---|---|---|
+  | *"to track, follow"* (RLC) | **1047d, 0 lapses** | 12d, 13 lapses |
+  | *"to watch closely"* (10K) | 28d, **5 lapses** | 13d, **19 lapses** |
+
+  Same word, same learner, same period — **a controlled experiment nobody meant to run**. Alex
+  produces следи́ть flawlessly from one gloss and fails it from the other, which is пока́зывать's
+  589d-vs-12d case again with the confound removed: nothing differs here *but* the English.
+  When a duplicate offers this, the surviving gloss picks itself. Kept the RLC note, moved it to
+  10K, put the other perfective on a third line — the two notes had **different** perfectives
+  (проследи́ть vs после́дить), which is part of how they drifted apart:
+
+      Front: to keep track of, keep an eye on (за +inst)
+      Back:  следи́ть / проследи́ть (за +inst)
+             (последи́ть = keep an eye on for a while)
+
+  **сле́довать was the reason "follow" had to go.** It is live at 17d with **14 lapses**, and its
+  Front led with a bare *"to follow"* — so следи́ть and сле́довать were splitting the same English
+  while meaning different things. Narrowed to *"to come after, to come next (in a sequence)"*,
+  with the +d "follow a rule or example" sense demoted to a government marker on the Back (an
+  annotation-only edit, so its recording stands). `leech-parked` → `leech-fixed`.
+  Snapshot `scratch/sledit-2026-09-05.json`.
 
   **Left held — the unseen doublets.** The смотр-/гляд- pairs are near-synonymous by
   construction and all unseen, so they are inert at `new/day = 0`, but they will collide the day
