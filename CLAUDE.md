@@ -56,6 +56,20 @@ series. Words the textbooks teach that aren't already known get authored as flas
 ## Merge conventions (consolidating variant forms onto one card)
 - Aspect pair / adj-adv / m-f → slash: `<impf> / <pf>`, `<adj> / <adv>`, `<masc> / <fem>`; single combined gloss; both POS tags. Impf first. Only pair genuine aspect partners (not bi-aspectual, not impf-only, not inceptive pseudo-pairs).
 - Near-synonyms (distinct words, same headword) → numbered: Front `headword<br><br>1: <distinguishing gloss><br>2: …`; Back `1: w1<br>2: w2`. **Do not repeat the headword** in the sense glosses (diet → "1: weight-loss regimen / 2: daily food intake").
+- **Verbs of motion → one note carrying all four forms** (Alex's call, 2026-09-05; he knows the
+  abstract/concrete distinction and wants the terms used, not paraphrased as "habitually or in
+  various directions"):
+  Front `to go (on foot)`, Back `Abs: ходи́ть / походи́ть<br>Conc: идти́ / пойти́`. Where the
+  abstract verb has a **second perfective with its own sense**, it goes on a third line —
+  `(сходи́ть = make one trip there and back)` — because с- forms are commoner than по- ones and
+  showing only one teaches the wrong one. Forms that lead independent lives stay on their own
+  cards (походи́ть на +a = resemble; сбега́ть = run away; носи́ть = wear; везти́ +d = be lucky).
+- **History follows the gloss, not the word.** On a merge that widens or changes the sense, keep
+  the history only where the survivor asks the question that history answered; otherwise delete
+  and let the card start fresh. (Alex's call on переводи́ть, 2026-09-05.)
+- **In a marked/unmarked pair, only the marked member states the contrast.** води́ть carries
+  "habitually or in various directions" for the pair, so adding "one trip, under way" to вести́
+  restates the default and buys nothing.
 - **If a merge involves a `Vocab::10000 words` or `Vocab::RLC` card, the result must end up in `Vocab::10000 words`** (edit that card as the base, or `changeDeck` the survivor into 10K; delete the others).
 
 ## Audio rule
