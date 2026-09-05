@@ -198,6 +198,14 @@ as opposed to what the positions imply).
   introduced in that deck today against the limit, including any the other device let through, so
   the batch can under-deliver by that many. Check `introduced:1` against `tag:promote` before
   concluding the script mis-sorted something.
+  **But `introduced:` over-reports here and cannot be trusted alone** (found 2026-09-05): it keys
+  off the earliest **non-manual** revlog row, and a bulk operation on **2024-12-29 13:44** replaced
+  the real history of **93 cards** with `manual` (type 4) entries. Those cards report as
+  "introduced" the first time they come up for an ordinary review, though they are long-interval
+  review cards that never entered the new queue — four did exactly that on 2026-09-05, at
+  intervals of 293–332 days, which read as a promoted batch losing four slots to cards nobody
+  chose. Tell them apart by `reps` exceeding the revlog row count, or just read
+  **`getDeckStats` → `new_count`**, which reports the real remaining allowance.
 
 ## Build workflow (per level / lesson)
 1. Build the known/filter set: `a.build_known([...decks to exclude...])`. For B2.1 the user chose 10K + B1.1 + B1.2 + RLC.
