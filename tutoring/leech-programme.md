@@ -83,6 +83,7 @@ average **2.5 lapses** at a **62-day** median, and 31% are past six months. Rece
 is intact; what failed 8–31 times is cold production from an English prompt.
 
 As of 2026-08-31: **369 parked, 6 fixed-and-ready, 10 not mine.**
+As of 2026-09-05: **366 parked, 7 fixed-and-ready, 3 in flight.**
 
 ### Ready queue (serial order)
 
@@ -99,6 +100,10 @@ As of 2026-08-31: **369 parked, 6 fixed-and-ready, 10 not mine.**
   waits until this clears 30 days.
 - **учи́ть / вы́учить (+a)** — Forgotten + promoted 2026-08-31, head of the учить family below.
 - проводи́ть, приводи́ть — recognition cards Forgotten + promoted 2026-08-31.
+- **обраща́ться / обрати́ться (к +d)** — Forgotten + promoted **2026-09-05**, head of the
+  obrashch family. Both directions were reset: production was at 22 lapses and recognition,
+  also suspended, at 16 in relearning — the recognition side was no healthier than production,
+  the учи́ть case again. Snapshot `scratch/obrashch-forget-2026-09-05.json`.
 
 ## The учить family — rebuilt 2026-08-31, awaiting serial promotion
 
@@ -260,8 +265,44 @@ aloud by TTS as written.
   относи́ться points back at it. The four competing notes are tagged **`family::obrashch`** so
   they travel together. The earlier reasoning was sound given the constraint; the constraint
   was the thing that turned out to be wrong.
+  **Shipped 2026-09-05.** The 09-01 rewrite never went through Forget + promote and the notes
+  were left tagged `leech-parked`, so the tag state claimed a backlog for work already done —
+  and обраща́ться с sat new and untagged, i.e. unreachable at `new/day = 0`, which made the
+  `cf.` on the other three point at a card Alex would never see. Serial order for the family,
+  next only when the previous clears 30 days:
+
+  1. **обраща́ться / обрати́ться (к +d)** — to turn to, approach someone with a request *(in flight)*
+  2. **обраща́ться (i) (с +inst)** — to treat, handle *(new, untagged, held — needs `promote` when its turn comes)*
+  3. **относи́ться / отнести́сь (к +d)** — to regard, your attitude to *(`leech-fixed`, suspended)*
+  4. **отноше́ние (к +d)** — still `leech-parked`; it is the noun and collides with nothing, so
+     it needs no rewrite, only its turn.
+
+  The two same-word-different-preposition senses (к vs с) must never be in circulation in the
+  same week — the учи́ть +a / учи́ть +a +d hazard exactly.
+  обраща́ться к's example was also fully stressed while it was open («В тру́дной ситуа́ции она́
+  обрати́лась за сове́том к о́пытному юри́сту») — an Example edit, so the Back recording stands.
 
 ## Next
+
+- **Repair приводи́ть vs вести́ before starting the `bring` ready queue.** Two Fronts claim
+  the same English: приводи́ть *"to bring, lead a person on foot"* (ready queue #4,
+  suspended) and вести́ *"to lead (someone, on foot)"* — which was **never suspended**, and as
+  of 2026-09-05 is in relearning at 1d with 9 production lapses. приводи́ть's `cf.` points at
+  приноси́ть, which is not the rival. Promoting #4 into that is the documented failure mode.
+  The real contrast is goal-directed delivery (приводи́ть, к +d) vs leading along in progress
+  (вести́).
+- **Next cluster to reformulate: «manage / cope».** The densest unpartitioned space left —
+  eleven claimants, found by indexing the Fronts on 2026-09-05:
+  удава́ться *"to succeed, manage to"* (27 lapses, parked), уме́ть *"manage to"* (parked),
+  управля́ть *"to manage, control"* (parked), руководи́ть, ве́дать, распоряжа́ться, ухитря́ться —
+  plus **two управля́ться notes** (*"to cope with, get on top of (a task)"* and
+  *"to cope with (coll)"*), which is a dedupe, not a rewrite. **справля́ться / спра́виться**
+  *"to cope (with) / inquire (about)"* is in `tag:promote` and was introduced 2026-09-05, i.e.
+  it is being learned into the collision — worth doing this cluster soon rather than later.
+- **Cluster after that: «look / glance».** взгля́дывать/взгляну́ть (25 lapses, parked) and
+  гляде́ть/погляде́ть (21, parked) fight each other and смотре́ть; гля́нуть *"to glance (at)"* is
+  a near-duplicate of взгляну́ть; and смотре́ть, иска́ть and огля́дываться each sit on **two
+  notes**.
 
 - Clusters not yet touched: **«turn»** partially done via -каз-; **«spend»**
   (пробы́ть vs проводи́ть вре́мя), **вноси́ть / заноси́ть / подноси́ть** ("bring in", all unseen —
