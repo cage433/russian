@@ -188,10 +188,17 @@ your own studies, instruction given to someone, or investigation of a subject.
   - **поводи́ть / «по́вести» (+inst)** *"to move, twitch"* — the perfective is **повести́**. The
     stress was not merely misplaced, it was on the wrong syllable of the wrong form, and
     HyperTTS had already read it aloud that way. Corrected, recording dropped, `needs-audio`.
-  - **переводи́ть is still on two notes** — 10K *"to take across, to transfer, to translate"*
-    (unseen) and RLC *"to translate"* (o0 25d/7 lapses, o1 604d). Not resolved here because the
-    RLC copy carries real history and the merge convention wants the survivor in 10K, so it
-    needs a `changeDeck` rather than a delete. Left for a decision.
+  - **переводи́ть** was on two notes — 10K *"to take across, to transfer, to translate"*
+    (unseen) and RLC *"to translate"* (o0 25d/7 lapses, o1 604d). Alex's call: the 10K gloss
+    is the better card, and **the RLC history should not be preserved** — a 604-day interval
+    earned on the narrow "to translate" gloss is not a prediction about the three-sense card,
+    so carrying it over would import a confidence the new Front hasn't earned. RLC note
+    deleted outright (no `changeDeck`), 10K note tagged `promote`.
+    Snapshot `scratch/perevodit-dedupe-2026-09-05.json`. Its Back also held a hair space
+    (U+200A) — the same invisible-character family as the soft hyphens.
+    **The general rule this settles:** when a dedupe merges senses, history follows the *gloss*,
+    not the word. Preserve it only where the survivor asks the same question the history
+    answered.
 
   Not touched, and latent: **заводи́ть**'s sense 1 *"to take / lead (somewhere)"* overlaps
   приводи́ть, but the note is unseen and numbered, so it is inert at `new/day = 0`.
