@@ -101,7 +101,17 @@ Before an edit that would invalidate a card's `[sound:]` recording (changing/cor
 
 ## Promoting words into today's learning queue
 Tag notes `promote` in the Anki browser, then `scripts/promote_new_cards.py` (`--dry-run` /
-`--clear-limit` / `--clear-tag` / `--restore <snapshot>`). It finds `tag:promote` across **all**
+`--clear-limit` / `--clear-tag` / `--restore <snapshot>` / `--skip-index`).
+0. **Pre-promotion gloss index.** Each Front is indexed when written, but nothing checked it
+   against what is *in flight* until 2026-09-05, when печа́тать (10K) and распеча́тывать (B1.2)
+   were promoted the same day from different decks with both Fronts naming a printer. The run
+   now reports promoted Fronts sharing a **rare** English word (document frequency ≤ `MAX_DF`,
+   default 8) with another promoted note or a card in circulation, plus Backs repeating a
+   Russian headword; same-headword and same-batch hits sort first. It is **advisory** — it
+   prints and never blocks. Two things make the output readable rather than a wall of "make"
+   and "take": the df cut-off (no stoplist to maintain), and indexing the **bare gloss only** —
+   `(…)` and `(cf. …)` are dropped, because on these cards the parentheses hold what *resolves*
+   a clash, so навеща́ть "to visit (a person)" still reports against посеща́ть "to visit (a place)". It finds `tag:promote` across **all**
 decks and, per deck, does both halves of the job:
 1. **Positions.** Per note, the lowest-ord available new card → position **0**, its remaining new
    siblings → position **1**. Untagged new cards start at ≥2 (asserted at runtime; the deck is

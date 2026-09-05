@@ -21,6 +21,15 @@ queued (bury new siblings) at the moment it *builds* the queue, without waiting 
 sibling to be answered, and the dropped card still reads `queue == 0`. The count therefore
 errs low — the batch can come up short, but it will not contain words you did not choose.
 
+Pre-promotion gloss index
+-------------------------
+Every Front is indexed when it is written, but nothing checks it against what is *in flight*:
+печа́тать (10K) and распеча́тывать (B1.2) were promoted the same day from different decks with
+both Fronts pointing at a printer (2026-09-05). So before repositioning anything, the run
+reports promoted Fronts that share a **rare** English word (document frequency <= MAX_DF)
+with another promoted note or a card already in circulation, and Backs repeating a Russian
+headword. Advisory: it prints, it never blocks. `--skip-index` turns it off.
+
 Daily limit
 -----------
 Set as a **today-only** per-deck limit (`Deck.Normal.new_limit_today`), which self-clears at
@@ -42,7 +51,7 @@ Anki until it is dismissed by hand.
     ./.venv/bin/python scripts/promote_new_cards.py --clear-limit
     ./.venv/bin/python scripts/promote_new_cards.py --restore scratch/promote-snapshot-*.json
 """
-import argparse, json, re, sys, time
+import argparse, html, json, re, sys, time
 from collections import defaultdict
 from pathlib import Path
 
@@ -62,6 +71,133 @@ QUEUE_NAMES = {0: "new", -1: "suspended", -2: "sib-buried", -3: "buried",
 # a buried sibling is not in the queue and so blocks nothing. Kept identical to
 # BLOCKING_SEARCH in anki_addon/russian_promote/__init__.py — change both together.
 BLOCKING_SEARCH = "-is:new -is:suspended -is:buried (is:due or is:learn)"
+
+
+# ---------------------------------------------------------------- gloss index
+# A promoted card has to be answerable from its English Front against everything Alex can
+# already recall. Each Front is checked when it is written, but nothing checks it against
+# what is *in flight*: печа́тать (10K) and распеча́тывать (B1.2) were promoted on the same
+# day, from different decks, both Fronts pointing at a printer (2026-09-05).
+#
+# Shared *common* words are meaningless — "make", "take", "away" appear on dozens of Fronts.
+# So a word only counts as a clash when it is rare across the indexed Fronts: document
+# frequency <= MAX_DF. That needs no stoplist to maintain and it is what makes the signal
+# readable ("printer", "cope", "lead" survive; "make" does not).
+#
+# Indexed set = promoted notes + notes already in circulation. Unseen cards are deliberately
+# left out: at new/day = 0 they cannot be confused with anything until they are promoted too,
+# at which point this same check sees them.
+MAX_DF = 8
+
+# Placeholders, not content: every second gloss says "someone" or "something", and the df
+# filter alone does not catch them because they are not *that* common.
+INDEX_STOP = {"someone", "something", "somebody", "oneself", "one's", "sth", "s.o", "o.s",
+              "etc", "e.g", "coll", "colloq", "impf", "pf", "adj", "adv", "noun", "verb"}
+
+def _plain(field):
+    s = re.sub(r"\[sound:[^\]]*\]", " ", field)
+    s = re.sub(r"<br\s*/?>", "\n", s, flags=re.I)
+    s = re.sub(r"<[^>]+>", " ", s)
+    return html.unescape(s)
+
+
+def _content_words(front):
+    """Words from the *bare* gloss only.
+
+    Parentheses and brackets are dropped, because on this collection they hold the material
+    that RESOLVES a clash rather than causing one — навеща́ть "to visit (a person)" against
+    посеща́ть "to visit (a place)" must still be reported as sharing "visit". Indexing the
+    parentheses instead buries that under matches on "goods", "patient" and the like.
+    `(cf. X = …)` goes too: it names a rival on purpose."""
+    s = _plain(front)
+    s = re.sub(r"\(\s*cf\..*?\)", " ", s, flags=re.I | re.S)
+    s = re.sub(r"\([^)]*\)|\[[^\]]*\]", " ", s)
+    return {w for w in re.findall(r"[a-z][a-z'-]{2,}", s.lower()) if w not in INDEX_STOP}
+
+
+def _headwords(back):
+    """Russian headwords on a Back, one per line, skipping 1:/Abs:/Conc: labels and
+    annotation lines. Destressed, so `гля́нуть` and `глянуть` compare equal — a stress mark
+    inside the stem otherwise defeats the match."""
+    out = set()
+    for seg in _plain(back).split("\n"):
+        seg = re.sub(r"^\s*(?:\d+|Abs|Conc|Abstract|Concrete)\s*:\s*", "", seg.strip(),
+                     flags=re.I).strip()
+        if not seg or seg.startswith("("):
+            continue
+        m = re.match(r"[^\s/(,;]+", seg)
+        if m and re.search(r"[а-яё]", m.group(0), re.I):
+            out.add(a.destress(m.group(0)))
+    return out
+
+
+def notes_info(note_ids):
+    out = []
+    for i in range(0, len(note_ids), 500):
+        out += a.call("notesInfo", notes=note_ids[i:i + 500])
+    return out
+
+
+def gloss_index(tag, max_df=MAX_DF):
+    """Report Fronts of promoted notes that share a rare English word with another promoted
+    note or with a card already in circulation, and Backs that repeat a Russian headword.
+    Advisory only — it prints and returns findings, it never blocks the run."""
+    tagged = a.call("findNotes", query=f"tag:{tag}")
+    if not tagged:
+        return []
+    circulating = a.call("findNotes", query=f'"note:{a.MODEL}" -is:new -tag:{tag}')
+    notes = notes_info(sorted(set(tagged) | set(circulating)))
+    tagged = set(tagged)
+
+    df, words, heads = defaultdict(int), {}, {}
+    for n in notes:
+        w = _content_words(n["fields"]["Front"]["value"])
+        words[n["noteId"]] = w
+        heads[n["noteId"]] = _headwords(n["fields"]["Back"]["value"])
+        for t in w:
+            df[t] += 1
+    byhead = defaultdict(list)
+    for nid, hs in heads.items():
+        for h in hs:
+            byhead[h].append(nid)
+    txt = {n["noteId"]: (re.sub(r"\s+", " ", _plain(n["fields"]["Back"]["value"])).strip(),
+                         re.sub(r"\s+", " ", _plain(n["fields"]["Front"]["value"])).strip())
+           for n in notes}
+
+    findings = []
+    for nid in sorted(tagged, key=lambda i: txt[i][0]):
+        hits = []
+        for other in notes:
+            oid = other["noteId"]
+            if oid == nid:
+                continue
+            shared = {t for t in words[nid] & words[oid] if df[t] <= max_df}
+            dup = heads[nid] & heads[oid]
+            if shared or dup:
+                hits.append((oid, shared, dup))
+        if hits:
+            # same headword first, then same-batch clashes, then the rest: a pair both
+            # going out today is the urgent case, and the one nothing else checks.
+            hits.sort(key=lambda h: (not h[2], h[0] not in tagged, txt[h[0]][0]))
+            findings.append((nid, hits))
+
+    if not findings:
+        print(f"gloss index: {len(tagged)} promoted note(s) vs {len(circulating)} "
+              f"in circulation — no clashes")
+        return []
+    print(f"\ngloss index: {len(tagged)} promoted note(s) vs {len(circulating)} in circulation")
+    for nid, hits in findings:
+        back, front = txt[nid]
+        print(f"  ! {back[:38]:<38} {front[:44]!r}")
+        for oid, shared, dup in hits[:4]:
+            oback, ofront = txt[oid]
+            where = "also promoted" if oid in tagged else "in circulation"
+            what = ("SAME HEADWORD " + ", ".join(sorted(dup))) if dup \
+                   else "shares " + ", ".join(f'"{w}"' for w in sorted(shared))
+            print(f"      {what}  [{where}]")
+            print(f"        {oback[:38]:<38} {ofront[:44]!r}")
+    print("  (advisory — nothing is blocked; regloss or untag if a pair is unanswerable)")
+    return findings
 
 
 def have_addon():
@@ -176,13 +312,15 @@ def set_today_limit(deck, n, addon):
         print(f"    WARNING: expected {n}, add-on reported {lim.get('limit')!r} — check by hand")
 
 
-def promote(tag, dry_run, clear_tag, set_limit, untag_finished=True):
+def promote(tag, dry_run, clear_tag, set_limit, untag_finished=True, index=True):
     if untag_finished:
         reap_tag(tag, dry_run)
     ids = a.call("findCards", query=f"tag:{tag}")
     if not ids:
         print(f"Nothing tagged {tag!r}.")
         return
+    if index:
+        gloss_index(tag)
     addon = have_addon() if set_limit and not dry_run else False
     if set_limit and not dry_run and not addon:
         print("NOTE: russian_promote add-on not detected — limits must be set by hand.\n")
@@ -317,6 +455,8 @@ if __name__ == "__main__":
                    help="remove the tag from ALL matched notes afterwards, finished or not")
     p.add_argument("--keep-finished-tags", action="store_true",
                    help="don't auto-remove the tag from notes whose cards are all introduced")
+    p.add_argument("--skip-index", action="store_true",
+                   help="skip the pre-promotion gloss/headword clash report")
     p.add_argument("--restore", metavar="SNAPSHOT.json",
                    help="write the original positions back and exit")
     args = p.parse_args()
@@ -327,4 +467,4 @@ if __name__ == "__main__":
         clear_limits(args.deck, args.tag)
     else:
         promote(args.tag, args.dry_run, args.clear_tag, not args.no_limit,
-                untag_finished=not args.keep_finished_tags)
+                untag_finished=not args.keep_finished_tags, index=not args.skip_index)
