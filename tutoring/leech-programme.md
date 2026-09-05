@@ -294,11 +294,17 @@ aloud by TTS as written.
 - **Next cluster to reformulate: «manage / cope».** The densest unpartitioned space left —
   eleven claimants, found by indexing the Fronts on 2026-09-05:
   удава́ться *"to succeed, manage to"* (27 lapses, parked), уме́ть *"manage to"* (parked),
-  управля́ть *"to manage, control"* (parked), руководи́ть, ве́дать, распоряжа́ться, ухитря́ться —
-  plus **two управля́ться notes** (*"to cope with, get on top of (a task)"* and
-  *"to cope with (coll)"*), which is a dedupe, not a rewrite. **справля́ться / спра́виться**
-  *"to cope (with) / inquire (about)"* is in `tag:promote` and was introduced 2026-09-05, i.e.
-  it is being learned into the collision — worth doing this cluster soon rather than later.
+  управля́ть *"to manage, control"* (parked), руководи́ть, ве́дать, распоряжа́ться, ухитря́ться,
+  and расправля́ться *"to deal with"* — the last on the same с +inst frame.
+  **The «cope» corner was settled on 2026-09-05** when Alex promoted справля́ться off his own
+  homework: its Front was narrowed to *"to cope with (a task, a difficulty)"* (the о +pr
+  "inquire" sense dropped — bookish, and the Back only ever showed с +inst), the duplicate
+  **управля́ться (i)** was deleted (unseen, 0 reps; snapshot
+  `scratch/upravlyatsya-dedupe-2026-09-05.json`), and the surviving aspect pair
+  управля́ться / упра́виться (с +inst) was reglossed *"to get (a job) done (coll)"* so it stops
+  claiming "cope" at all. справля́ться is now the sole claimant, with no `cf.` needed.
+  The rest of the cluster is untouched and inert — everything in it is either unseen or
+  production-suspended, so there is no live collision to race.
 - **Cluster after that: «look / glance».** взгля́дывать/взгляну́ть (25 lapses, parked) and
   гляде́ть/погляде́ть (21, parked) fight each other and смотре́ть; гля́нуть *"to glance (at)"* is
   a near-duplicate of взгляну́ть; and смотре́ть, иска́ть and огля́дываться each sit on **two
