@@ -158,6 +158,56 @@ your own studies, instruction given to someone, or investigation of a subject.
 
 ## Clusters done
 
+- **look / glance / watch** (2026-09-05) — Alex: *"I do find the look/glance verbs confusing."*
+  He is right to: **56 notes** carry a смотр-/сматр-/гляд-/глян- stem, ten of them live, and the
+  live ones were fighting over four English words — "look", "watch", "glance", "appear".
+  The organising fact is that Russian splits this space on **two axes at once**, and no card
+  said so:
+
+  | | neutral | colloquial |
+  |---|---|---|
+  | **durative** — eyes on it for a stretch | смотре́ть / посмотре́ть | гляде́ть / погляде́ть |
+  | **momentary** — one look | взгля́дывать / взгляну́ть | гля́нуть |
+
+  Glossed accordingly: смотре́ть *"to look at, to watch (a film, TV)"*, гляде́ть *"to look at, to
+  watch — colloquial (cf. смотре́ть)"*, взгляну́ть *"to glance at, take one quick look"*. The
+  neighbours that were poaching the same English were relieved at the same time —
+  взгляд → *"a look, a glance (the act of looking)"* (it had **6 lapses in both directions**, and
+  its "view, opinion" sense was competing with мне́ния's), вы́глядеть → *"to look (tired, well,
+  young) — of physical appearance"* (it claimed a bare "to appear" against каза́ться and
+  появля́ться), наблюда́ть → *"to observe, study by watching (a process, a phenomenon)"*.
+  гляде́ть also stopped claiming "to keep an eye on", which присма́тривать (за +inst) already owns.
+  Snapshot `scratch/look-cluster-2026-09-05.json`.
+
+  **Two searches were needed, and the first one lied.** Matching the stem against the raw Back
+  misses every word whose stress mark falls inside the stem — `гля́нуть` is not a match for
+  `глян`, because a combining acute sits between the я and the н. Destressing first took the
+  family from 45 notes to 56. Even then `смотр|гляд` missed **посма́тривать**, which has no
+  `-смотр-` perfective on its Back at all; only widening to `сматр` found it, and it is the
+  direct doublet of погля́дывать. **Always destress before matching a stem, and check the
+  imperfective-only forms separately.**
+
+  Duplicates cleared here: **смотре́ть** was on two notes (RLC *"to watch, look"* 781d/741d and
+  10K, which kept the wider gloss) and **часы́** on two (RLC 837d/254d and 10K), both resolved
+  to the 10K copy by the convention plus the rule that history follows the gloss. смотре́ть's
+  Back also carried a malformed `(на +acc.,&nbsp; +acc.,&nbsp; в +acc.)`, now
+  `(на +a = at sth; +a = watch sth; в +a = into sth)` — and the `&nbsp;` is why a plain string
+  replace on it silently did nothing the first time.
+
+  **Left open — needs a decision.** **следи́ть is on two live notes with different glosses**:
+  RLC *"to track, follow"* (o0 1047d, o1 12d/**13 lapses**) and 10K *"to watch closely"*
+  (o0 28d/5, o1 13d/**19 lapses**). Unlike часы́ the glosses differ, so choosing a survivor
+  chooses which history to keep — and both recognition sides are failing badly, which is its own
+  signal.
+
+  **Left held — the unseen doublets.** The смотр-/гляд- pairs are near-synonymous by
+  construction and all unseen, so they are inert at `new/day = 0`, but they will collide the day
+  they surface: вгля́дываться ≈ всма́триваться, пригля́дываться ≈ присма́триваться,
+  огля́дывать ≈ осма́тривать, огля́дываться ≈ осма́триваться, погля́дывать ≈ посма́тривать,
+  взгляну́ть ≈ гля́нуть. огля́дываться additionally sits on **two** notes (*"to look back"* and
+  the numbered *"1: огля́дываться / огляде́ться 2: озира́ться"*). These want merging rather than
+  distinguishing — the difference inside each pair is register, not sense.
+
 - **lead / take on foot** — `family::bring`, second pass (2026-09-05). The 08-31 pass left
   приводи́ть *"to bring, **lead** a person on foot"* colliding with вести́ *"to **lead**
   (someone, on foot)"* — and вести́ was never suspended, so it was in relearning at 1d with 9
@@ -170,11 +220,17 @@ your own studies, instruction given to someone, or investigation of a subject.
 
   | | |
   |---|---|
-  | вести́ / повести́ (+a) | to be leading (someone) on foot — unprefixed, under way, no endpoint |
+  | вести́ / повести́ (+a) | to lead (someone) on foot — one trip, under way |
   | приводи́ть / привести́ | to bring (a person) somewhere on foot — has an endpoint *(cf. приноси́ть)* |
   | води́ть / поводи́ть (+a) | to take (someone) about on foot — habitually or in various directions |
   | своди́ть / свести́ | to take (someone) somewhere and back — one round trip |
 
+  вести́ first read *"to be leading (someone) on foot"*, using the English progressive to mark
+  the determinate aspect. Alex: *"Would 'to lead' not read better?"* — yes, and by then it was
+  free: once приводи́ть and води́ть stopped claiming "lead", вести́ was the only live card left
+  on it, so the plain infinitive is both better English and still unique. The determinate sense
+  moved into a trailing qualifier instead. **A gloss should not carry a grammatical distinction
+  in its syntax when a plain phrase after a dash can carry it in words.**
   The word "lead" is now gone from приводи́ть and води́ть entirely, so no `cf.` is needed
   between them — an English gloss that names the endpoint does the work a cross-reference
   would otherwise have to. Re-indexing `\blead\b` afterwards leaves вести́ as the **only live**
@@ -343,10 +399,6 @@ aloud by TTS as written.
   claiming "cope" at all. справля́ться is now the sole claimant, with no `cf.` needed.
   The rest of the cluster is untouched and inert — everything in it is either unseen or
   production-suspended, so there is no live collision to race.
-- **Cluster after that: «look / glance».** взгля́дывать/взгляну́ть (25 lapses, parked) and
-  гляде́ть/погляде́ть (21, parked) fight each other and смотре́ть; гля́нуть *"to glance (at)"* is
-  a near-duplicate of взгляну́ть; and смотре́ть, иска́ть and огля́дываться each sit on **two
-  notes**.
 
 - Clusters not yet touched: **«turn»** partially done via -каз-; **«spend»**
   (пробы́ть vs проводи́ть вре́мя), **вноси́ть / заноси́ть / подноси́ть** ("bring in", all unseen —
