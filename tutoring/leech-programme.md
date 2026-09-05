@@ -271,13 +271,38 @@ your own studies, instruction given to someone, or investigation of a subject.
   annotation-only edit, so its recording stands). `leech-parked` → `leech-fixed`.
   Snapshot `scratch/sledit-2026-09-05.json`.
 
-  **Left held — the unseen doublets.** The смотр-/гляд- pairs are near-synonymous by
-  construction and all unseen, so they are inert at `new/day = 0`, but they will collide the day
-  they surface: вгля́дываться ≈ всма́триваться, пригля́дываться ≈ присма́триваться,
-  огля́дывать ≈ осма́тривать, огля́дываться ≈ осма́триваться, погля́дывать ≈ посма́тривать,
-  взгляну́ть ≈ гля́нуть. огля́дываться additionally sits on **two** notes (*"to look back"* and
-  the numbered *"1: огля́дываться / огляде́ться 2: озира́ться"*). These want merging rather than
-  distinguishing — the difference inside each pair is register, not sense.
+  **The unseen doublets — merged 2026-09-05.** The смотр-/гляд- pairs are near-synonymous by
+  construction, so a numbered card would have forced a distinction that is not there. Instead the
+  twin goes on a **second line of the Back**: one answerable English prompt, and the reversed card
+  still shows both words, so recognition of the twin is covered without a second card competing
+  for the same gloss.
+
+  | kept | twin folded in | Front |
+  |---|---|---|
+  | вгля́дываться / вгляде́ться (в +a) | всма́триваться / всмотре́ться | to peer into, look hard at (в +a) |
+  | погля́дывать (i) (на +a) | посма́тривать | to keep glancing at, every now and then (на +a) |
+  | осма́тривать / осмотре́ть (+a) | огля́дывать / огляде́ть | to inspect (a place, a patient, the sights) |
+
+  **Not merged, because they are not actually synonyms** — this was an error in the first survey.
+  огля́дываться / огляну́ться is turning to look *behind* you; осма́триваться / осмотре́ться is
+  looking *around* to orient yourself. They only looked like a pair because both Fronts said
+  "look round". Resolved into three distinct actions, which also cleared the огля́дываться
+  duplicate — it sat on two notes with **different perfectives**, and both are right:
+
+      огля́дываться / огляну́ться    to look back over your shoulder
+      осма́триваться / осмотре́ться   to look around and get your bearings
+                                     (огля́дываться / огляде́ться = the same)
+      озира́ться (i)                  to glance around anxiously        [new card]
+
+  **Deliberately not merged:** присма́триваться ≈ пригля́дываться — присма́триваться к also means
+  *to size up, consider* (a purchase, a candidate), which пригля́дываться does not carry, so that
+  pair wants a real sense split rather than a merge. And взгляну́ть ≈ гля́нуть is already
+  partitioned by the durative/register square above; merging them would undo it.
+
+  Two errors surfaced in the example sentences while merging, both the kind only a careful read
+  finds: вгля́дываться's read «до́лго вгляде́лся» — a perfective under **до́лго** — now
+  «до́лго вгля́дывался»; and озира́ться's read «за ним сле́дят», where следи́ть's 3pl is
+  **следя́т**. Snapshot `scratch/look-doublets-2026-09-05.json`.
 
 - **lead / take on foot** — `family::bring`, second pass (2026-09-05). The 08-31 pass left
   приводи́ть *"to bring, **lead** a person on foot"* colliding with вести́ *"to **lead**
