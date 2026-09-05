@@ -50,13 +50,23 @@ series. Words the textbooks teach that aren't already known get authored as flas
   cannot carry the preposition that does the work. Put the cross-reference **on its own line**
   — `gloss<br>(cf. …)` — so the gloss reads cleanly and the pointer sits under it. Don't add
   one to a card that is already uniquely answerable; it is reading load for nothing.
-  **A `cf.` must not contain the answer.** It may repeat the target word only when the contrast
-  *is* the construction on that same word — учи́ть +a vs учи́ть +a +d, учи́ться в/на vs
-  учи́ться +inf, отка́зываться vs отка́зывать +d — where the repetition is unavoidable and the
-  construction is the thing being tested. A `cf.` pointing at a *different* card that merely
-  happens to contain the target hands the production answer over for free: зага́дывать was
-  glossed `(cf. загада́ть жела́ние = to make a wish)`, which simply gives away загада́ть
-  (Alex's call, 2026-09-05 — the wish sense is its own card and should be learned as one).
+  **A `cf.` must never contain the answer, or anything close to it** (Alex, 2026-09-05).
+  Russian in a `cf.` is fine in general — that is the point of it — but not when it hands the
+  target over:
+  - **Naming a different card that happens to contain the target** is a free answer. зага́дывать
+    glossed `(cf. загада́ть жела́ние = to make a wish)` simply gives away загада́ть; the wish
+    sense is its own card and is learned as one, so the cross-reference went.
+  - **A near-miss counts as close.** каза́ться's `(cf. оказа́ться = to turn out to be)` was
+    dropped: оказа́ться contains каза́ться outright, and the two English glosses already
+    separate them.
+  - **Same verb, different construction → elide the verb:** `(cf. ***** +a +d = to teach)`,
+    `(cf. ***** с +inst = to treat, handle)`, `(cf. ***** +d, without -ся = to refuse someone
+    something)`. The construction is what is being contrasted, so it is what the pointer should
+    show; the asterisks keep the answer off the Front. Used by учи́ть ×2, учи́ться ×2,
+    отка́зываться and обраща́ться к.
+
+  Naming a genuinely different verb stays as it is — приноси́ть ↔ приводи́ть, гляде́ть →
+  смотре́ть, выполня́ть ↔ проводи́ть, занима́ться ↔ изуча́ть — since those give nothing away.
 - **Before writing any Front, index its English content words against every other Front in the
   collection.** Not optional. Reglossing проводи́ть as "to conduct, carry out (a meeting…)" on
   2026-08-31 collided instantly with выполня́ть ("to carry out, to accomplish", 32 lapses), and
