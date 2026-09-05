@@ -59,6 +59,12 @@ series. Words the textbooks teach that aren't already known get authored as flas
 - NO POS descriptor `(noun)` unless there's genuine POS ambiguity (then e.g. `chocolate (noun / adj)`). NO `(idiom)`/`(proverb)` markers.
 - **Back** = Russian with stress marks (combining U+0301), ending in a trailing `<br><br>` (gap before future audio).
 - **Example** = one Russian sentence with stress.
+- **When you narrow a Front, re-read the Example.** Dropping a sense can orphan the sentence
+  that demonstrated it, leaving a card whose example illustrates the one meaning it no longer
+  teaches — зага́дывать kept «Загада́й жела́ние…» after "make a wish" moved to the загада́ть
+  жела́ние phrase card (caught by Alex, 2026-09-05). The Example is part of the edit, not
+  collateral. Where the sense went to another card, that card's `cf.` is also how the learner
+  finds the sense they already knew.
 - **No audio** is added by us — the user runs a HyperTTS batch later.
 
 ## Merge conventions (consolidating variant forms onto one card)
