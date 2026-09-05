@@ -28,6 +28,14 @@ series. Words the textbooks teach that aren't already known get authored as flas
 ## Decks
 - Pre-existing (the user's own): `Vocab::10000 words` (~8.9k, the main frequency deck), `Vocab::RLC`. These have review history — never delete/merge-away their history carelessly.
 - Built here: `Vocab::Tochka Ru::B1.1`, `::B1.2` (each later split into `::Loanwords` + `::Native`), and `Vocab::Tochka Ru::B2.1::1.1 … ::2.2` (6 lesson subdecks).
+- `Vocab::Recent::*` is **Alex's to-promote queue**, not a leftover: words he has met and wants
+  carded soon. Sitting in that deck *is* the reminder, so **don't clear it out to be tidy** —
+  emptying a subdeck is only correct when its notes have actually been promoted (or deduped
+  away). He works through it a batch at a time, roughly weekly, and the constraint is how many
+  new cards he wants in a day, not whether the words are ready. A subdeck that ends up genuinely
+  empty can then be deleted (`Nouns` and `Verbs` went 2026-09-05).
+  Checking a subdeck for duplicates is safe any time and promotes nothing — do that first, since
+  11 of the 12 notes in `::Nouns`/`::Verbs` turned out to duplicate Точка Ру notes.
 - New decks sit on the **Default** preset (0 new/day) until the user sets a study rate — don't change it unprompted.
 
 ## Card conventions (match exactly)
