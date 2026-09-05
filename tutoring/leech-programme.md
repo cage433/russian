@@ -158,6 +158,57 @@ your own studies, instruction given to someone, or investigation of a subject.
 
 ## Clusters done
 
+- **verbs of motion — one note per verb** (2026-09-05). Alex, on being shown
+  води́ть glossed *"habitually or in various directions"*: *"for verbs of motion, I'd prefer
+  abstract/concrete... I understand the distinction"* — then: *"it may be an idea to have a
+  single note including all 4, (im)perfective and abstract/concrete."* His own collection already
+  had the format on two RLC cards (`Abs: е́здить / пое́здить  Conc: е́хать / пое́хать`), and those
+  were the healthy ones; the split cards around them were the duplicates.
+
+  **25 notes collapsed to 9 paradigm cards**, all now in `Vocab::10000 words`:
+
+  | Front | Back |
+  |---|---|
+  | to go (on foot) | Abs: ходи́ть / походи́ть · Conc: идти́ / пойти́ · (сходи́ть = make one trip there and back) |
+  | to go (by transport) | Abs: е́здить / пое́здить · Conc: е́хать / пое́хать · (съе́здить = …) |
+  | to run | Abs: бе́гать / побе́гать · Conc: бежа́ть / побежа́ть · (сбе́гать = run there and back) |
+  | to swim | Abs: пла́вать / попла́вать · Conc: плыть / поплы́ть |
+  | to fly | Abs: лета́ть / полета́ть · Conc: лете́ть / полете́ть |
+  | to climb | Abs: ла́зить / пола́зить · Conc: лезть / поле́зть |
+  | to carry (in the hands) | Abs: носи́ть / поноси́ть · Conc: нести́ / понести́ |
+  | to carry, transport (by vehicle) | Abs: вози́ть / повози́ть · Conc: везти́ / повезти́ |
+  | to lead (someone) on foot | Abs: води́ть / поводи́ть · Conc: вести́ / повести́ |
+
+  идти́/ходи́ть alone had been spread over **six live notes glossed three different ways** —
+  a combined RLC card, `(concrete)`/`(abstract)` markers, and prose like
+  *"(multidirectional/habitual)"* — including `ходи́ть / походи́ть` on **two** notes at 711d and
+  67d. Survivor policy (Alex's choice): keep the RLC combined card, since it already asks the
+  question the merged card asks, and `changeDeck` it into 10K. Every rewritten Back drops its
+  recording and takes `needs-audio` — the word list on the card genuinely changed.
+  Snapshot `scratch/motion-verbs-2026-09-05.json`.
+
+  **The abstract verb has two perfectives, and the card has to say so.** ходи́ть → походи́ть
+  ("walk about a while") *and* сходи́ть ("make one trip there and back"); бе́гать → побе́гать and
+  сбе́гать. The по- form goes in the paradigm slot, the с- form on a third line, because сходи́ть
+  в магази́н is commoner than походи́ть and pretending there is one perfective would teach the
+  wrong one.
+
+  **Forms that look like paradigm members but lead independent lives, kept off the card:**
+  походи́ть (на +a) *"to resemble"* — **8d at 14 lapses**, and it sat alongside two other live
+  `ходи́ть / походи́ть` notes, which is very likely what was failing; сходи́ть (с +g) *"to go
+  down"*; сбега́ть *"to run away"*; везти́ (+d) *"to be lucky"*; носи́ть *"to wear"*, which needed
+  a **new** card since its note became the carry paradigm.
+
+  A stress error fell out of the same pass: **сбежа́ть's imperfective was written `сбе́гать`**,
+  which is not merely mis-stressed but identical to the *other* card's сбе́гать ("run there and
+  back") — two words distinguished in Russian by stress alone. Corrected to `сбега́ть`,
+  recording dropped, `needs-audio`.
+
+  **Left open:** везти́ / повезти́ (+d) *"to be lucky"* (10K, 14d/24d) and `(мне) везёт`
+  *"(I am) lucky"* (RLC, 20d/266d) both live. The Fronts differ enough to answer
+  (infinitive gloss vs first-person phrase) and the collision predates this pass, but it is a
+  dedupe waiting to happen.
+
 - **look / glance / watch** (2026-09-05) — Alex: *"I do find the look/glance verbs confusing."*
   He is right to: **56 notes** carry a смотр-/сматр-/гляд-/глян- stem, ten of them live, and the
   live ones were fighting over four English words — "look", "watch", "glance", "appear".
