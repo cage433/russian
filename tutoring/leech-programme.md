@@ -220,17 +220,22 @@ your own studies, instruction given to someone, or investigation of a subject.
 
   | | |
   |---|---|
-  | вести́ / повести́ (+a) | to lead (someone) on foot — one trip, under way |
+  | вести́ / повести́ (+a) | to lead (someone) on foot |
   | приводи́ть / привести́ | to bring (a person) somewhere on foot — has an endpoint *(cf. приноси́ть)* |
   | води́ть / поводи́ть (+a) | to take (someone) about on foot — habitually or in various directions |
-  | своди́ть / свести́ | to take (someone) somewhere and back — one round trip |
+  | своди́ть / свести́ | to take (someone) somewhere and back |
 
-  вести́ first read *"to be leading (someone) on foot"*, using the English progressive to mark
-  the determinate aspect. Alex: *"Would 'to lead' not read better?"* — yes, and by then it was
-  free: once приводи́ть and води́ть stopped claiming "lead", вести́ was the only live card left
-  on it, so the plain infinitive is both better English and still unique. The determinate sense
-  moved into a trailing qualifier instead. **A gloss should not carry a grammatical distinction
-  in its syntax when a plain phrase after a dash can carry it in words.**
+  вести́ went through two bad glosses before the right one, and both failures were the same
+  mistake. It first read *"to be leading (someone) on foot"*, using the English progressive to
+  encode the determinate aspect — Alex: *"Would 'to lead' not read better?"* It would, and by
+  then it was free, since приводи́ть and води́ть had stopped claiming "lead". The repair was
+  *"to lead (someone) on foot — one trip, under way"*, which he also rejected: *"'one trip' is a
+  natural assumption in any case, and why 'under way'?"* Correct — a bare English infinitive
+  already reads as one trip, and the determinate contrast is carried entirely by води́ть's
+  *"habitually or in various directions"*. **In a marked/unmarked pair, only the marked member
+  states the contrast; qualifying the unmarked one restates the default and buys nothing.**
+  The same trim applied to своди́ть, whose *"— one round trip"* only repeated its own
+  "somewhere and back". Final: вести́ *"to lead (someone) on foot"*.
   The word "lead" is now gone from приводи́ть and води́ть entirely, so no `cf.` is needed
   between them — an English gloss that names the endpoint does the work a cross-reference
   would otherwise have to. Re-indexing `\blead\b` afterwards leaves вести́ as the **only live**
