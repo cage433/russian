@@ -50,6 +50,13 @@ series. Words the textbooks teach that aren't already known get authored as flas
   cannot carry the preposition that does the work. Put the cross-reference **on its own line**
   — `gloss<br>(cf. …)` — so the gloss reads cleanly and the pointer sits under it. Don't add
   one to a card that is already uniquely answerable; it is reading load for nothing.
+  **A `cf.` must not contain the answer.** It may repeat the target word only when the contrast
+  *is* the construction on that same word — учи́ть +a vs учи́ть +a +d, учи́ться в/на vs
+  учи́ться +inf, отка́зываться vs отка́зывать +d — where the repetition is unavoidable and the
+  construction is the thing being tested. A `cf.` pointing at a *different* card that merely
+  happens to contain the target hands the production answer over for free: зага́дывать was
+  glossed `(cf. загада́ть жела́ние = to make a wish)`, which simply gives away загада́ть
+  (Alex's call, 2026-09-05 — the wish sense is its own card and should be learned as one).
 - **Before writing any Front, index its English content words against every other Front in the
   collection.** Not optional. Reglossing проводи́ть as "to conduct, carry out (a meeting…)" on
   2026-08-31 collided instantly with выполня́ть ("to carry out, to accomplish", 32 lapses), and
