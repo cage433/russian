@@ -84,9 +84,19 @@ series. Words the textbooks teach that aren't already known get authored as flas
   finds the sense they already knew.
 - **No audio** is added by us — the user runs a HyperTTS batch later.
 - **HyperTTS text processing is version-controlled in `scripts/hypertts_text_processing.py`.**
-  Add-ons don't sync, so run it once per laptop, **with Anki closed** — HyperTTS caches the
-  config at startup (`hypertts.py:59`) and rewrites the whole dict on any save, so a live edit
-  is clobbered. It backs `meta.json` up to `scratch/hypertts-config-backups/` first.
+  Add-ons don't sync, so it has to be applied once per laptop, **with Anki closed** — HyperTTS
+  caches the config at startup (`hypertts.py:59`) and rewrites the whole dict on any save, so a
+  live edit is clobbered. It backs `meta.json` up to `scratch/hypertts-config-backups/` first.
+  **`anki_doctor.py` watches this** — its `hypertts` row compares the installed preset against
+  the repo. *Checking* never needs Anki closed (it reads `meta.json`, which is the last state
+  written); only applying does, so the doctor applies the change itself when it finds Anki
+  closed and otherwise tells you to quit and run the script. It also warns when the rules were
+  written *after* the running Anki loaded them — the same trap as the add-on's `stale`, keyed
+  on the `last-applied` marker rather than `meta.json`'s mtime, since HyperTTS rewrites that
+  itself whenever a preset is saved.
+  `scripts/hypertts_preview.py` runs HyperTTS's own `process_text` over the whole collection
+  and reports anomalies; `--proposed` diffs pending rule edits before they're written, `--grep`
+  shows what a pattern really matches. Use it instead of reasoning about the rule list.
   **The two durations are settled — don't retune them.** 100 ms on `/` (aspect partners, which
   belong together) against 250 ms on `<br>` (separate lines) is the contrast Alex confirmed
   works, 2026-09-09. Sense-number labels are silent; the line break carries their pause.

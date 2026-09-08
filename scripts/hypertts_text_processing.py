@@ -20,7 +20,9 @@ from pathlib import Path
 
 ADDON = Path.home() / "Library/Application Support/Anki2/addons21/111623432"
 META = ADDON / "meta.json"
+PRESET = "Back"
 BACKUP_DIR = Path(__file__).resolve().parent.parent / "scratch/hypertts-config-backups"
+APPLIED_MARKER = BACKUP_DIR / "last-applied"
 
 CHECKBOXES = {
     "html_to_text_line": False,       # strip_html would eat <br> before the rules see it
@@ -60,29 +62,59 @@ def anki_running():
     return bool(out.stdout.strip())
 
 
-def main():
-    if anki_running():
-        sys.exit("Anki is running — quit it first, or the change will be overwritten.")
+def read_preset():
+    """-> (whole config dict, the 'Back' preset's text_processing dict). Raises if absent.
 
+    Reading is safe with Anki up: meta.json on disk is the last state written. Only
+    *writing* needs it closed.
+    """
     cfg = json.loads(META.read_text())
-    presets = cfg["config"]["presets"]
-    matches = [(k, v) for k, v in presets.items() if v.get("name") == "Back"]
-    assert len(matches) == 1, f"expected one preset named 'Back', got {[v.get('name') for v in presets.values()]}"
-    uuid, preset = matches[0]
+    presets = [p for p in cfg["config"]["presets"].values() if p.get("name") == PRESET]
+    if len(presets) != 1:
+        raise LookupError(f"expected one preset named {PRESET!r}, found {len(presets)}")
+    return cfg, presets[0]["text_processing"]
 
+
+def drift():
+    """-> list of setting names where the installed config differs from this file."""
+    _, tp = read_preset()
+    out = [k for k, v in CHECKBOXES.items() if tp.get(k) != v]
+    if tp.get("text_replacement_rules") != RULES:
+        out.append("text_replacement_rules")
+    return out
+
+
+def apply():
+    """Stamp CHECKBOXES + RULES onto the installed preset. -> the backup path.
+
+    Callers must check `anki_running()` first; this doesn't, so anki_doctor can decide
+    what to do about it.
+    """
+    cfg, tp = read_preset()
     BACKUP_DIR.mkdir(parents=True, exist_ok=True)
     stamp = time.strftime("%Y%m%d-%H%M%S", time.localtime(os.path.getmtime(META)))
     backup = BACKUP_DIR / f"meta.{stamp}.json"
     shutil.copy2(META, backup)
-    print(f"backed up {META} -> {backup}")
-
-    tp = preset["text_processing"]
-    print("before:", json.dumps({k: v for k, v in tp.items() if k != "text_replacement_rules"}))
     tp.update(CHECKBOXES)
     tp["text_replacement_rules"] = RULES
-    print("after :", json.dumps({k: v for k, v in tp.items() if k != "text_replacement_rules"}))
-
     META.write_text(json.dumps(cfg, ensure_ascii=False, indent=1))
+    # Records *our* write specifically. meta.json's own mtime can't stand in: HyperTTS
+    # rewrites it whenever a preset is saved, so anki_doctor would read every ordinary
+    # session as "edited behind Anki's back".
+    APPLIED_MARKER.write_text(f"{time.time()}\n")
+    return backup
+
+
+def main():
+    if anki_running():
+        sys.exit("Anki is running — quit it first, or the change will be overwritten.")
+    changes = drift()
+    if not changes:
+        print(f"already up to date ({len(RULES)} rules)")
+        return
+    print("differs:", ", ".join(changes))
+    backup = apply()
+    print(f"backed up -> {backup}")
     print(f"wrote {META} ({len(RULES)} rules)")
 
 

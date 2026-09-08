@@ -2,9 +2,10 @@
 """Bring this machine's Anki setup into line with the repo, and report what it can't fix.
 
 Two laptops share one AnkiWeb collection but *not* the tooling around it: add-ons don't
-sync, the venv doesn't sync, the generated vocab caches are gitignored, and a `git pull`
-changes nothing in a running Anki. This checks all of that in one pass, fixes what is safe
-to fix, and exits non-zero when something needs a person.
+sync, the venv doesn't sync, HyperTTS's text-processing rules live in its own add-on folder,
+the generated vocab caches are gitignored, and a `git pull` changes nothing in a running
+Anki. This checks all of that in one pass, fixes what is safe to fix, and exits non-zero
+when something needs a person.
 
     ./scripts/anki_doctor.py              # check and apply safe fixes
     ./scripts/anki_doctor.py --check      # report only, change nothing
@@ -29,6 +30,7 @@ you had left for later. It repairs only decks whose stamp is missing or stale
 import argparse
 import json
 import os
+import re
 import subprocess
 import sys
 import time
@@ -230,6 +232,75 @@ def venv_ok():
     return True, "pymorphy3 + PyMuPDF present"
 
 
+def anki_started_at():
+    """Unix time Anki's main process started, or None if it isn't running.
+
+    `ps -o etime=` rather than `lstart=`: elapsed time is `[[dd-]hh:]mm:ss` in every locale,
+    where the date form is not.
+    """
+    pids = subprocess.run(["pgrep", "-f", "aqt.run"], capture_output=True, text=True).stdout.split()
+    if not pids:
+        return None
+    out = subprocess.run(["ps", "-p", pids[0], "-o", "etime="],
+                         capture_output=True, text=True).stdout.strip()
+    m = re.fullmatch(r"(?:(?:(\d+)-)?(\d+):)?(\d+):(\d+)", out)
+    if not m:
+        return None
+    d, h, mi, s = (int(x or 0) for x in m.groups())
+    return time.time() - (((d * 24 + h) * 60 + mi) * 60 + s)
+
+
+def check_hypertts(rep, fix, running):
+    """HyperTTS's text processing is repo state living outside the repo — add-ons don't sync,
+    so each laptop's copy drifts on its own.
+
+    Checking is cheap and needs no closed Anki: meta.json on disk is the last state written.
+    Only *applying* needs Anki closed, because HyperTTS caches the whole config at startup
+    (hypertts.py:59) and rewrites it wholesale on any save, so a live edit is clobbered.
+    """
+    try:
+        import hypertts_text_processing as h
+    except Exception as e:
+        return rep.add("hypertts", FAIL, f"cannot import hypertts_text_processing: {e}")
+    if not h.META.exists():
+        return rep.add("hypertts", SKIP, "HyperTTS not installed")
+    try:
+        changes = h.drift()
+    except Exception as e:
+        return rep.add("hypertts", WARN, f"cannot read its config: {type(e).__name__}: {e}")
+
+    if changes:
+        detail = f"config differs from the repo ({', '.join(changes)})"
+        if running:
+            return rep.add("hypertts", WARN, f"{detail} — quit Anki, then "
+                                             "scripts/hypertts_text_processing.py")
+        if not fix:
+            return rep.add("hypertts", WARN, f"{detail} — run "
+                                             "scripts/hypertts_text_processing.py")
+        try:
+            backup = h.apply()
+        except Exception as e:
+            return rep.add("hypertts", FAIL, f"could not apply: {type(e).__name__}: {e}")
+        return rep.add("hypertts", FIXED, f"{len(h.RULES)} rules written "
+                                          f"(was: {', '.join(changes)}; backup {backup.name})")
+
+    # Same trap as the add-on's `stale`: the file on disk is right, but the running Anki
+    # loaded the old one and will write it back over this. Keyed on *our* last write, not
+    # on meta.json's mtime — HyperTTS rewrites that whenever a preset is saved, which would
+    # make every ordinary session look like an edit behind Anki's back.
+    started = anki_started_at()
+    if started and h.APPLIED_MARKER.exists():
+        try:
+            applied = float(h.APPLIED_MARKER.read_text())
+        except ValueError:
+            applied = h.APPLIED_MARKER.stat().st_mtime
+        if applied > started:
+            return rep.add("hypertts", WARN, "the rules were written after Anki loaded them "
+                                             "— restart Anki, or HyperTTS will write its old "
+                                             "copy back")
+    rep.add("hypertts", OK, f"{len(h.RULES)} rules match the repo")
+
+
 def check_venv(rep, bootstrap):
     ok, detail = venv_ok()
     if ok:
@@ -350,6 +421,7 @@ def main():
     info = anki("addonInfo") if actions and "addonInfo" in actions else None
     check_addon_running(rep, info, actions)
     check_toggles(rep, info)
+    check_hypertts(rep, fix, actions is not None)
     check_venv(rep, args.bootstrap and fix)
     check_exec_bits(rep)
     check_limits(rep, fix, actions is not None)
