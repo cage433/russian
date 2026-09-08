@@ -87,6 +87,9 @@ series. Words the textbooks teach that aren't already known get authored as flas
   Add-ons don't sync, so run it once per laptop, **with Anki closed** — HyperTTS caches the
   config at startup (`hypertts.py:59`) and rewrites the whole dict on any save, so a live edit
   is clobbered. It backs `meta.json` up to `scratch/hypertts-config-backups/` first.
+  **The two durations are settled — don't retune them.** 100 ms on `/` (aspect partners, which
+  belong together) against 250 ms on `<br>` (separate lines) is the contrast Alex confirmed
+  works, 2026-09-09. Sense-number labels are silent; the line break carries their pause.
   What the rules have to respect (all three were got wrong first time, 2026-09-09):
   - **Pipeline order is `strip_sound_tag → strip_brackets → SSML-escape → replacement rules`**
     (`text_utils.py:74-98`, with `run_replace_rules_after` on). `strip_brackets` deletes
