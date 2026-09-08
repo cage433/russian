@@ -83,6 +83,21 @@ series. Words the textbooks teach that aren't already known get authored as flas
   collateral. Where the sense went to another card, that card's `cf.` is also how the learner
   finds the sense they already knew.
 - **No audio** is added by us — the user runs a HyperTTS batch later.
+- **HyperTTS text processing is version-controlled in `scripts/hypertts_text_processing.py`.**
+  Add-ons don't sync, so run it once per laptop, **with Anki closed** — HyperTTS caches the
+  config at startup (`hypertts.py:59`) and rewrites the whole dict on any save, so a live edit
+  is clobbered. It backs `meta.json` up to `scratch/hypertts-config-backups/` first.
+  What the rules have to respect (all three were got wrong first time, 2026-09-09):
+  - **Pipeline order is `strip_sound_tag → strip_brackets → SSML-escape → replacement rules`**
+    (`text_utils.py:74-98`, with `run_replace_rules_after` on). `strip_brackets` deletes
+    `<…>` as well as `(…)`, so a rule keyed on `<br>` **never fires** — that is why every
+    multi-line Back was spoken as one run-on line until now. Bracket-stripping is therefore
+    off and done by a replacement rule instead, and the `<br>` rule matches the escaped
+    `&lt;br&gt;`.
+  - **The `/` rule must stay first.** Every SSML insertion contains a `/`, so a later `/`
+    rule chews it into `<break time="150ms"<break time="100ms"/>>`.
+  - `strip_brackets` is `\([^\)]*\)` — per-bracket, so it cannot swallow the whole Back. But
+    it *does* silence the third-line `(сходи́ть = …)` perfective on the motion cards.
 
 ## Merge conventions (consolidating variant forms onto one card)
 - Aspect pair / adj-adv / m-f → slash: `<impf> / <pf>`, `<adj> / <adv>`, `<masc> / <fem>`; single combined gloss; both POS tags. Impf first. Only pair genuine aspect partners (not bi-aspectual, not impf-only, not inceptive pseudo-pairs).
