@@ -22,6 +22,15 @@ ADDON = Path.home() / "Library/Application Support/Anki2/addons21/111623432"
 META = ADDON / "meta.json"
 BACKUP_DIR = Path(__file__).resolve().parent.parent / "scratch/hypertts-config-backups"
 
+CHECKBOXES = {
+    "html_to_text_line": False,       # strip_html would eat <br> before the rules see it
+    "strip_brackets": False,          # now done by a rule, for the same reason
+    "strip_cloze": False,
+    "ssml_convert_characters": True,  # escapes stray & and <; runs BEFORE the rules
+    "run_replace_rules_after": True,  # so the SSML pass can't escape our own <break/>
+    "ignore_case": False,
+}
+
 # Order matters twice over:
 #  - the `/` rule must be FIRST: every SSML insertion contains a `/`, and a later
 #    `/` rule would chew it into `<break time="150ms"<break time="100ms"/>>`.
@@ -29,8 +38,11 @@ BACKUP_DIR = Path(__file__).resolve().parent.parent / "scratch/hypertts-config-b
 #    runs before the replacement rules.
 RULES = [
     {"rule_type": "Simple", "source": "/", "target": '<break time="100ms"/>'},
-    # sense labels are silent; the line break below supplies the pause
-    *[{"rule_type": "Simple", "source": f"{n}:", "target": ""} for n in range(1, 8)],
+    # Sense labels are silent; the line break below supplies the pause. One regex rather
+    # than a rule per digit — it also covers senses past 7, which the old list didn't.
+    # Safe as an unanchored match: no Back holds a digit-colon that isn't a sense label
+    # (checked over all 10,721), and nothing inserted above this point contains one.
+    {"rule_type": "Regex", "source": r"\d+:\s*", "target": ""},
     # ssml_convert_characters has already turned &nbsp; into &amp;nbsp;
     {"rule_type": "Simple", "source": "&amp;nbsp;", "target": " "},
     {"rule_type": "Regex", "source": r"(&lt;br\s*/?&gt;\s*)+", "target": '<break time="250ms"/>'},
@@ -66,10 +78,7 @@ def main():
 
     tp = preset["text_processing"]
     print("before:", json.dumps({k: v for k, v in tp.items() if k != "text_replacement_rules"}))
-    tp["strip_brackets"] = False          # now done by the last rule
-    tp["html_to_text_line"] = False       # unchanged
-    tp["ssml_convert_characters"] = True  # unchanged
-    tp["run_replace_rules_after"] = True  # unchanged — keeps the SSML pass off our <break/>
+    tp.update(CHECKBOXES)
     tp["text_replacement_rules"] = RULES
     print("after :", json.dumps({k: v for k, v in tp.items() if k != "text_replacement_rules"}))
 
