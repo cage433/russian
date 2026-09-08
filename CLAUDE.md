@@ -95,11 +95,23 @@ series. Words the textbooks teach that aren't already known get authored as flas
 - **Verbs of motion → one note carrying all four forms** (Alex's call, 2026-09-05; he knows the
   abstract/concrete distinction and wants the terms used, not paraphrased as "habitually or in
   various directions"):
-  Front `to go (on foot)`, Back `Abs: ходи́ть / походи́ть<br>Conc: идти́ / пойти́`. Where the
+  Front `<i>Verb of motion</i><br>to go (on foot)`, Back
+  `(Abs) ходи́ть / походи́ть<br>(Conc) идти́ / пойти́`. Where the
   abstract verb has a **second perfective with its own sense**, it goes on a third line —
   `(сходи́ть = make one trip there and back)` — because с- forms are commoner than по- ones and
   showing only one teaches the wrong one. Forms that lead independent lives stay on their own
   cards (походи́ть на +a = resemble; сбега́ть = run away; носи́ть = wear; везти́ +d = be lucky).
+  **The labels are bracketed and the header is italic for specific reasons** (Alex, 2026-09-08):
+  HyperTTS elides bracketed text, so `(Abs)`/`(Conc)` keep the English labels out of the
+  recording — the earlier `Abs:`/`Conc:` form was read aloud, and those nine recordings were
+  deleted and re-tagged `needs-audio`. The header exists because an English-only Front gives no
+  hint that the answer is a four-form set. **Note the elision is indiscriminate**: it will also
+  swallow the third-line `(сходи́ть = …)` perfective, so those go unvoiced.
+  Two consumers strip the header rather than treat it as gloss —
+  `promote_new_cards.py:_content_words()` (else all nine notes share the rare word "motion" and
+  report against each other) and `build_drill_vocab.py:clean_front()` (else it prefixes nine
+  ru→en lookups). `_headwords()` strips `(Abs)`/`(Conc)` **before** its `startswith("(")`
+  annotation test, or all four forms drop out of the duplicate-headword index.
 - **History follows the gloss, not the word.** On a merge that widens or changes the sense, keep
   the history only where the survivor asks the question that history answered; otherwise delete
   and let the card start fresh. (Alex's call on переводи́ть, 2026-09-05.)

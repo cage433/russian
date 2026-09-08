@@ -108,21 +108,28 @@ def _content_words(front):
     that RESOLVES a clash rather than causing one — навеща́ть "to visit (a person)" against
     посеща́ть "to visit (a place)" must still be reported as sharing "visit". Indexing the
     parentheses instead buries that under matches on "goods", "patient" and the like.
-    `(cf. X = …)` goes too: it names a rival on purpose."""
+    `(cf. X = …)` goes too: it names a rival on purpose. So does the `Verb of motion` header:
+    it is card-type metadata shared by all nine motion notes, so indexing it would report
+    every motion verb against every other one."""
     s = _plain(front)
+    s = re.sub(r"^\s*Verb of motion\s*$", " ", s, flags=re.I | re.M)
     s = re.sub(r"\(\s*cf\..*?\)", " ", s, flags=re.I | re.S)
     s = re.sub(r"\([^)]*\)|\[[^\]]*\]", " ", s)
     return {w for w in re.findall(r"[a-z][a-z'-]{2,}", s.lower()) if w not in INDEX_STOP}
 
 
 def _headwords(back):
-    """Russian headwords on a Back, one per line, skipping 1:/Abs:/Conc: labels and
+    """Russian headwords on a Back, one per line, skipping 1:/(Abs)/(Conc) labels and
     annotation lines. Destressed, so `гля́нуть` and `глянуть` compare equal — a stress mark
-    inside the stem otherwise defeats the match."""
+    inside the stem otherwise defeats the match.
+
+    The label strip must run *before* the `startswith("(")` annotation test and must eat the
+    brackets: motion labels are written `(Abs) ходи́ть`, so an unbracketed strip would leave
+    the line starting with `(` and drop all four forms from the index."""
     out = set()
     for seg in _plain(back).split("\n"):
-        seg = re.sub(r"^\s*(?:\d+|Abs|Conc|Abstract|Concrete)\s*:\s*", "", seg.strip(),
-                     flags=re.I).strip()
+        seg = re.sub(r"^\s*\(?\s*(?:\d+|Abs|Conc|Abstract|Concrete)\s*\)?\s*:?\s*", "",
+                     seg.strip(), flags=re.I).strip()
         if not seg or seg.startswith("("):
             continue
         m = re.match(r"[^\s/(,;]+", seg)

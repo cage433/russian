@@ -29,6 +29,9 @@ TOKEN = re.compile(r"[а-яё]+(?:-[а-яё]+)?")
 
 def clean_front(html):
     s = re.sub(r"\[sound:[^\]]*\]", "", html)
+    # `<i>Verb of motion</i><br>` heads the nine motion cards — card-type metadata, not gloss,
+    # and this flattens to one line, so it would otherwise prefix nine ru->en lookups.
+    s = re.sub(r"^\s*<i>Verb of motion</i>\s*<br\s*/?>", "", s, flags=re.I)
     s = re.sub(r"<[^>]+>", " ", s)
     s = s.replace("&nbsp;", " ")
     return re.sub(r"\s+", " ", s).strip()
