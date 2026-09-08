@@ -97,6 +97,11 @@ def fetch(query):
         for n in a.call("notesInfo", notes=nids[i:i + 500]):
             f = n["fields"]
             en, ru = clean(f["Front"]["value"]), clean(f["Back"]["value"])
+            # The motion cards' `Verb of motion` header is card-type metadata, not gloss.
+            # Left in, it sorts all nine under "V" and — worse — `briefly()` takes the first
+            # <br>-line, so the English cell would read "Verb of motion" and lose the gloss.
+            # The Back's (Abs)/(Conc) lines already carry the signal.
+            en = re.sub(r"^Verb of motion<br>", "", en, flags=re.I)
             if en or ru:
                 out.append((en, ru, set(n["tags"])))
     return sorted(out, key=lambda r: r[0].casefold())
