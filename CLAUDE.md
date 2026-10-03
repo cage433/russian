@@ -381,6 +381,16 @@ when a sentence must reach beyond it, **gloss the unfamiliar word inline** (Engl
 
 ## Gotchas
 - Interactive shell aliases `gs` → `git status`; use `/opt/homebrew/bin/gs` for Ghostscript.
+- **Don't compress the B2.1 PDFs with Ghostscript's `-dPDFSETTINGS` presets.** They convert
+  colour, which can't be applied to a page-level CMYK transparency group, so Ghostscript drops
+  that page's content and keeps only the watermark. That blanked 50 of the 128 textbook pages
+  on 1 Jul 2026, and the B2.1 build read the damaged copy. The source PDFs in
+  `Точка Ру/Originals/` are intact. The 3 Oct replacement used
+  `-sColorConversionStrategy=LeaveColorUnchanged -dPassThroughJPEGImages=false` with 150 dpi
+  downsampling, followed by a PyMuPDF `save(garbage=4, deflate=True)`, because Ghostscript
+  writes mesh shadings uncompressed. After compressing any PDF, compare it with the original
+  page by page, both text and a low-dpi render; a blanked page is still a page, so the page
+  count stays the same.
 - This system's `pdftotext` is the xpdf build and won't display Cyrillic from text layers — verify extraction with PyMuPDF, not pdftotext.
 - **`add_notes(deck, rows)` takes rows as TUPLES in `(back, front, example, tags)` order — Back
   first.** Passing dicts does not raise: iterating a dict yields its keys, so the note is created
