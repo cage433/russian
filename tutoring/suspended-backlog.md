@@ -7,6 +7,17 @@ them back in together is what made them unmanageable before.
 **36 notes** (72 cards) as of 2026-08-22.
 `deck:Vocab::* is:suspended`
 
+**September 2026 bulk suspension.** About **408 further cards** were suspended together in
+September 2026 after an analysis showed those leeches were taking an unjustifiable share of
+review time. That set is **not itemised here** — the lists below are still the 2026-08-22 set.
+It is deliberate, not Anki's leech action (only a few dozen suspended cards show the
+suspend-on-fail pattern). As of 2026-10-05, `deck:Vocab::* is:suspended` = 443 cards / 390 notes.
+
+**2026-10-05:** the root-family Cloze trial (`Vocab::Roots`) retired 90 Basic notes, 46 of
+them with a suspended card — those words are back in rotation as Cloze cards, at 5 new/day.
+Some entries below may therefore no longer exist as Basic notes. Backups of every retired note,
+with card state and review history, are in `tutoring/retired/`.
+
 Audio: all of these have recordings — the stale `needs-audio` tags were cleared 2026-08-22
 (HyperTTS writes **one** file per card covering every merged sense, so a single `[sound:]` on a
 5-sense card is normal, not evidence of a stale recording).

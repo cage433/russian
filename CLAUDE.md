@@ -36,6 +36,16 @@ series. Words the textbooks teach that aren't already known get authored as flas
   empty can then be deleted (`Nouns` and `Verbs` went 2026-09-05).
   Checking a subdeck for duplicates is safe any time and promotes nothing — do that first, since
   11 of the 12 notes in `::Nouns`/`::Verbs` turned out to duplicate Точка Ру notes.
+- `Vocab::Roots` is a **trial** (started 2026-10-05) of root-family **Cloze** notes: one note per
+  root (глас-, каз-, -ста-, -стой-, -став-, -вод-, -мен-, зна-, -лож-, -ход-, -пуск-, -бир-), one card
+  per word, the rest of the family visible as cues. Each note **replaced** the Basic notes for its
+  leeches and struggling words (90 retired; backups with review history in `tutoring/retired/`);
+  healthy anchors were kept as Basic cards. **Don't re-add the retired Basic cards** — if the trial
+  works they come back later as *fresh* cards, by Alex's choice. Own preset "Roots", 5 new/day.
+  Card layout: header = root + its sense(s); table columns prefix | prefix meaning | word | English,
+  left-aligned; prefix and word hidden together; meaning column is a standard prefix meaning,
+  «(plain)» or «(idiomatic)» only; verbs "to …", adjectives "(adj.)". The gloss index,
+  duplicate-headword check and `build_drill_vocab.py` all assume Basic notes and don't see these.
 - New decks sit on the **Default** preset (0 new/day) until the user sets a study rate — don't change it unprompted.
 
 ## Card conventions (match exactly)
