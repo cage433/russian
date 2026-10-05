@@ -23,7 +23,7 @@ series. Words the textbooks teach that aren't already known get authored as flas
   2026-08-30, backed out): with notifications ruled out, a scheduled run means reading a log,
   which is no less work than running the thing by hand — and its silent fixes aren't worth a
   job whose failures you'd only find by looking.
-- **Source PDFs**: `~/Proton Drive/books/Russian/Точка Ру/` → `B1.1/`, `B1.2/`, `B2.1/` each hold `<lvl> учебник.pdf` (textbook) + `<lvl> раб-тет.pdf` (workbook). B1.x textbooks are OCR'd scans (stress letters mangled — use OCR to identify *which* words, author spelling/stress yourself); B2.1 is clean vector text.
+- **Source PDFs**: `~/Proton Drive/books/russian/courses/Точка Ру/` (originals in `Originals/`; mirrored to `~/Dropbox/books/russian/courses/Точка Ру/` without them) → `B1.1/`, `B1.2/`, `B2.1/` each hold `<lvl> учебник.pdf` (textbook) + `<lvl> раб-тет.pdf` (workbook). B1.x textbooks are OCR'd scans (stress letters mangled — use OCR to identify *which* words, author spelling/stress yourself); B2.1 is clean vector text.
 
 ## Decks
 - Pre-existing (the user's own): `Vocab::10000 words` (~8.9k, the main frequency deck), `Vocab::RLC`. These have review history — never delete/merge-away their history carelessly.
