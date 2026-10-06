@@ -76,10 +76,22 @@ def build_known(decks):
     known = set()
     for d in decks:
         for n in call("notesInfo", notes=call("findNotes", query=f'deck:"{d}"')):
-            for w in re.findall(r"[а-яё]+(?:-[а-яё]+)?", norm(n["fields"]["Back"]["value"])):
+            for w in re.findall(r"[а-яё]+(?:-[а-яё]+)?", norm(_russian_field(n))):
                 if len(w) >= 2:
                     known.add(w); known.add(lemma(w))
     return known
+
+
+def _russian_field(n):
+    """The field holding a note's Russian: Back on Basic notes; on Cloze notes (root families,
+    near-synonym groups) the Russian lives only inside the {{cN::…}} deletions of Text, so read
+    those — reading Back alone made build_known blind to every Cloze note."""
+    f = n["fields"]
+    if "Back" in f:
+        return f["Back"]["value"]
+    if "Text" in f:
+        return " ".join(re.findall(r"\{\{c\d+::(.*?)(?:::[^}]*)?\}\}", f["Text"]["value"], re.S))
+    return ""
 
 # --- PDF text ---------------------------------------------------------------
 def page_text(pdf_path, start, end):
