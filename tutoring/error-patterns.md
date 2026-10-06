@@ -126,3 +126,14 @@ mini-drills («ещё N таких») when they recur. Add to this list as new p
 - **English spelling bleeding into Russian**: ~~Руссия~~ → **Росси́я** (though the adjective *is*
   ру́сский — that is what makes it treacherous); ~~совиетский~~ → **сове́тский** (from сове́т,
   no и); ~~концепт~~ → поня́тие.
+
+### Added 2026-10-06 (раб-тет p.31 задание 4Д — выполнить / совершить / повысить)
+- **что́бы + infinitive of purpose → perfective for a one-off result** (missed twice in one
+  exercise): ~~чтобы повышать интерес / уровень адреналина~~ → **повы́сить**. Imperfective only
+  for an ongoing/repeated aim (что́бы повыша́ть квалифика́цию, он ка́ждый год…). Got the
+  imperfective *right* after обожа́ть / мо́жет … одновре́менно, so it's specific to purpose
+  clauses, not a general imperfective habit.
+- **выполнить vs совершить** — decide by the verb's own object: set beforehand (зада́ние,
+  обеща́ние, упражне́ние, **трюк**) → вы́полнить; an act/event you make (путеше́ствие, поку́пка,
+  оши́бка, преступле́ние, посту́пок) → соверши́ть. Missed путеше́ствие → ~~вы́полнить~~, pulled by a
+  nearby «плани́рование». (Same distinction as the 10K "to carry out" cloze card.)
