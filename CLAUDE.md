@@ -124,12 +124,28 @@ series. Words the textbooks teach that aren't already known get authored as flas
 
 ## Merge conventions (consolidating variant forms onto one card)
 - Aspect pair / adj-adv / m-f → slash: `<impf> / <pf>`, `<adj> / <adv>`, `<masc> / <fem>`; single combined gloss; both POS tags. Impf first. Only pair genuine aspect partners (not bi-aspectual, not impf-only, not inceptive pseudo-pairs).
-- **The numbered form is for two distinct WORDS.** One verb with two perfectives is not that —
+- **The numbered (now Cloze) form is for two distinct WORDS.** One verb with two perfectives is not that —
   it is the ходи́ть shape, and the second perfective belongs on a third line
   (`(отпеча́тать = print off a batch)`), not as sense 2. печа́тать was numbered
   `1: печа́тать / напеча́тать  2: печа́тать / отпеча́тать`, which reads as two verbs and forces a
   sense split out of what is really an aspect fact (fixed 2026-09-05).
-- Near-synonyms (distinct words, same headword) → numbered: Front `headword<br><br>1: <distinguishing gloss><br>2: …`; Back `1: w1<br>2: w2`. **Do not repeat the headword** in the sense glosses (diet → "1: weight-loss regimen / 2: daily food intake").
+- Near-synonyms (distinct words, same headword) → **one Cloze note, one card per sense**, tag
+  `numbered` (since 2026-10-06; the old numbered Basic form is gone). Text: the English headword in
+  bold, then a left-aligned table `N: | <i>distinguishing gloss</i> | {{cN::word (+gov)}}`; Back
+  Extra = the Example. Each card hides one word with the other senses visible as cues — a numbered
+  Basic card asked for every word at once and failed if any slipped, which is why the big
+  near-synonym groups were the painful ones. **Do not repeat the headword** in the sense glosses
+  (diet → "1: weight-loss regimen / 2: daily food intake"), and **a gloss must not contain its own
+  answer**: no Cyrillic or accented-transliteration parenthetical like «sadly (гру́стно)» or
+  «(negrámotny)» — harmless on an English-only Basic Front, a giveaway on a visible cloze row.
+  All 368 numbered 10K notes were converted on 2026-10-06 (799 cards; review history not kept;
+  new ones kept their queue position, studied ones went to the front of the 10K new queue,
+  suspended ones stayed suspended; recordings dropped, Alex's call — cheap to redo). Backup:
+  `tutoring/retired/numbered-to-cloze-*.json`. The converter is `scripts/numbered_to_cloze.py`.
+  **Tooling gap:** the gloss index and `_headwords()` in `promote_new_cards.py`,
+  `build_drill_vocab.py` and `export_learning_vocab.py` all read Basic Front/Back and do not see
+  Cloze notes (the export's per-sense tables for near-synonym groups relied on the numbered
+  form); HyperTTS has no Cloze preset and the `needs-audio` audit query covers Basic only.
 - **Verbs of motion → one note carrying all four forms** (Alex's call, 2026-09-05; he knows the
   abstract/concrete distinction and wants the terms used, not paraphrased as "habitually or in
   various directions"):
