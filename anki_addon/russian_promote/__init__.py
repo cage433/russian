@@ -263,8 +263,14 @@ def _patch():
             "cards": cards,
         }
 
+    def generateClozeAudio(self, noteIds, force=False, dryRun=False):
+        """Per-cloze recordings into a Cloze note's Audio field; see cloze_audio.py.
+        Blocks the GUI thread while HyperTTS fetches audio, so call it in small batches."""
+        from . import cloze_audio
+        return cloze_audio.generate(self.collection(), noteIds, bool(force), bool(dryRun))
+
     actions = (getDeckLimits, setNewLimitToday, clearNewLimitToday, autoLimitNow,
-               peekQueue, addonInfo)
+               peekQueue, addonInfo, generateClozeAudio)
     for fn in actions:
         fn.api, fn.versions = True, ()
         setattr(ac.AnkiConnect, fn.__name__, fn)
