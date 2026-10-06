@@ -42,8 +42,11 @@ series. Words the textbooks teach that aren't already known get authored as flas
   leeches and struggling words (90 retired; backups with review history in `tutoring/retired/`);
   healthy anchors were kept as Basic cards. **Don't re-add the retired Basic cards** — if the trial
   works they come back later as *fresh* cards, by Alex's choice. Own preset "Roots", 5 new/day.
-  Card layout: header = root + its sense(s); table columns prefix | prefix meaning | word | English,
-  left-aligned; prefix and word hidden together; meaning column is a standard prefix meaning,
+  Card layout: header = root + its sense(s); table columns English | prefix | Russian | prefix
+  meaning, left-aligned; the prefix and prefix-meaning cells carry classes `pc` / `pm`, hidden by
+  the Cloze styling and revealed by "prefixes" / "prefix meanings" links that a script in the
+  Cloze template adds (Alex, 2026-10-06 — the four columns were too wide on the phone); prefix
+  and word hidden together; meaning column is a standard prefix meaning,
   «(plain)» or «(idiomatic)» only; verbs "to …", adjectives "(adj.)". The gloss index,
   duplicate-headword check and `build_drill_vocab.py` all assume Basic notes and don't see these.
 - New decks sit on the **Default** preset (0 new/day) until the user sets a study rate — don't change it unprompted.
@@ -145,7 +148,7 @@ series. Words the textbooks teach that aren't already known get authored as flas
   **Tooling gap:** the gloss index and `_headwords()` in `promote_new_cards.py`,
   `build_drill_vocab.py` and `export_learning_vocab.py` all read Basic Front/Back and do not see
   Cloze notes (the export's per-sense tables for near-synonym groups relied on the numbered
-  form); HyperTTS has no Cloze preset and the `needs-audio` audit query covers Basic only.
+  form). Cloze audio is generated differently — see the Audio rule section.
 - **Verbs of motion → one note carrying all four forms** (Alex's call, 2026-09-05; he knows the
   abstract/concrete distinction and wants the terms used, not paraphrased as "habitually or in
   various directions"):
@@ -187,6 +190,19 @@ Before an edit that would invalidate a card's `[sound:]` recording (changing/cor
 - An annotation-only Back edit — `(pf. X)` → `/ X`, a case marker, a Cyrillic/Latin homoglyph
   inside `(+a)` — leaves the word and its stress untouched, so it does **not** invalidate the
   recording. Don't drop audio for those.
+- **Cloze notes have their own audio mechanism** (set up 2026-10-06). The Cloze note type has an
+  `Audio` field holding one recording per cloze number, each wrapped in its own cloze —
+  `{{c1::[sound:a.mp3]}} {{c2::[sound:b.mp3]}}` — and the answer template ends with
+  `{{cloze-only:Audio}}`, which renders only the current card's deletion, so exactly one
+  recording plays on Show Answer, on every client (ordinary synced media). Generate with the
+  add-on action **`generateClozeAudio(noteIds, force=False, dryRun=False)`**
+  (`anki_addon/russian_promote/cloze_audio.py`): it speaks each card's hidden text minus the
+  prefix cell, through HyperTTS's own objects with the **Back** preset's voice and text
+  processing (so it matches the Basic audio), and skips notes that already have audio. It blocks
+  Anki's GUI thread while fetching (~2.5 s/note), so call it in batches of ~10 with a client-side
+  timeout, and **not while syncing**. Audit: `note:Cloze Audio:` should be empty — a new root or
+  near-synonym note needs a `generateClozeAudio` call, not a `needs-audio` tag. Changing a cloze
+  word or its stress → clear that note's Audio and regenerate (same ask-first rule as above).
 
 ## Promoting words into today's learning queue
 Tag notes `promote` in the Anki browser, then `scripts/promote_new_cards.py` (`--dry-run` /
