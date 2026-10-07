@@ -37,13 +37,21 @@ def irregular_3p(verb):
     return v == "создать" or (v.endswith("дать") and v[:-4] in DAT_PREFIXES)
 
 
+# Verbs with no 1st-person singular in standard use (dictionaries mark it as absent/avoided;
+# speakers paraphrase: «я смогу́ убеди́ть», «я одержу́ побе́ду»). The verbs deck still lists a
+# form (убежу́), which shouldn't be taught. Alex's call, 2026-10-07.
+DEFECTIVE_1SG = {"убедить", "убедиться", "переубедить", "разубедить", "победить", "очутиться",
+                 "дерзить", "чудить"}
+
+
 def tidy(word):
     """Drop a stress mark on a one-syllable word (дать, дам, шить)."""
     return word.replace("́", "") if len(VOWELS.findall(word)) == 1 else word
 
 
 def row(verb, s1, s2, p3, gov):
-    txt = f"{tidy(verb)} — {tidy(s1)}, {tidy(s2)}"
+    first = "(1sg not used)" if a.destress(verb) in DEFECTIVE_1SG else tidy(s1)
+    txt = f"{tidy(verb)} — {first}, {tidy(s2)}"
     if irregular_3p(verb) and p3:
         txt += f" … {tidy(p3)}"
     return txt + (f" {gov}" if gov else "")
