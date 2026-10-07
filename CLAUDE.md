@@ -64,8 +64,13 @@ series. Words the textbooks teach that aren't already known get authored as flas
 ## Card conventions (match exactly)
 - Note type **"Basic (and reversed card)"**, fields **Front / Back / Example**. Tags = POS (`noun`/`adj`/`verb`/`adv`/…) + `claude`; idioms get `claude` only.
 - **Front** = English gloss. The gloss itself is English — but a trailing
-  **`(cf. <russian> = <gloss>)`** cross-reference naming a competing Russian word is allowed,
-  and is the preferred fix where two words fight over the same English. Use **`cf.`**, not
+  **`(cf. <russian> = <gloss>)`** cross-reference naming a competing Russian word is allowed —
+  **but it is now the fallback, not the preferred fix** (Alex, 2026-10-07: "the cf.s are a pale
+  imitation of a cloze family"). Where words fight over the same English, put them on one Cloze card:
+  a root-family card if they share a root (уч- I/II split learn vs teach; -мен- I/II), else a
+  near-synonym card. Keep a `cf.` only where the rival already lives on a family/aspect card and
+  folding it in would break that card's etymology, or where the gloss is specific enough on its own
+  (преподава́ть lost its cf.). Use **`cf.`**, not
   "synonym of": these are near-neighbours, not synonyms, and the older cards saying "synonym
   of" overstate it (Alex's call, 2026-08-31). This is the *only* way to separate senses that
   Russian distinguishes by construction alone — учи́ть +a = memorise vs учи́ть +a +d = teach;
