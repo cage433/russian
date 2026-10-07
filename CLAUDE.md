@@ -26,7 +26,12 @@ series. Words the textbooks teach that aren't already known get authored as flas
 - **Source PDFs**: `~/Proton Drive/books/russian/courses/Точка Ру/` (originals in `Originals/`; mirrored to `~/Dropbox/books/russian/courses/Точка Ру/` without them) → `B1.1/`, `B1.2/`, `B2.1/` each hold `<lvl> учебник.pdf` (textbook) + `<lvl> раб-тет.pdf` (workbook). B1.x textbooks are OCR'd scans (stress letters mangled — use OCR to identify *which* words, author spelling/stress yourself); B2.1 is clean vector text.
 
 ## Decks
-- Pre-existing (the user's own): `Vocab::10000 words` (~8.9k, the main frequency deck), `Vocab::RLC`. These have review history — never delete/merge-away their history carelessly.
+- Pre-existing (the user's own): `Vocab::10000 words` (the main frequency deck). It has review history — never delete/merge-away history carelessly.
+  **`Vocab::RLC` no longer exists** (folded into 10K, 2026-10-07, Alex's call — it was built for one
+  textbook and its words were mostly known): duplicates merged with the stronger history and the
+  better definition kept on the 10K note (several RLC plurals had wrong stress: гла́за, цве́та,
+  го́лоса); RLC words that were rows of 10K near-synonym cloze cards gave those cards their history;
+  everything else moved across unchanged. Backups: `tutoring/retired/rlc-*.json`.
 - Built here: `Vocab::Tochka Ru::B1.1`, `::B1.2` (each later split into `::Loanwords` + `::Native`), and `Vocab::Tochka Ru::B2.1::1.1 … ::2.2` (6 lesson subdecks).
 - `Vocab::Recent::*` is **Alex's to-promote queue**, not a leftover: words he has met and wants
   carded soon. Sitting in that deck *is* the reminder, so **don't clear it out to be tidy** —
@@ -180,7 +185,7 @@ series. Words the textbooks teach that aren't already known get authored as flas
 - **In a marked/unmarked pair, only the marked member states the contrast.** води́ть carries
   "habitually or in various directions" for the pair, so adding "one trip, under way" to вести́
   restates the default and buys nothing.
-- **If a merge involves a `Vocab::10000 words` or `Vocab::RLC` card, the result must end up in `Vocab::10000 words`** (edit that card as the base, or `changeDeck` the survivor into 10K; delete the others).
+- **If a merge involves a `Vocab::10000 words` card, the result must end up in `Vocab::10000 words`** (edit that card as the base, or `changeDeck` the survivor into 10K; delete the others).
 
 ## Audio rule
 Before an edit that would invalidate a card's `[sound:]` recording (changing/correcting the Russian word or its stress), **ask the user whether to delete the recording** — don't silently keep a now-wrong one or delete on your own. If deleting, remove only the `[sound:…]` reference; the orphaned media clears via Tools→Check Media.
@@ -355,7 +360,7 @@ as opposed to what the positions imply).
   **`getDeckStats` → `new_count`**, which reports the real remaining allowance.
 
 ## Build workflow (per level / lesson)
-1. Build the known/filter set: `a.build_known([...decks to exclude...])`. For B2.1 the user chose 10K + B1.1 + B1.2 + RLC.
+1. Build the known/filter set: `a.build_known([...decks to exclude...])`. For B2.1 the user chose 10K + B1.1 + B1.2 + RLC (RLC has since been folded into 10K).
 2. Extract lesson text with `a.page_text(pdf, start, end)` (both textbook + workbook page ranges from the СОДЕРЖАНИЕ/TOC). Tokenise, lemmatise, drop proper nouns (Name/Surn/Patr/Geox), non-dictionary words (`morph().word_is_known`), grammar meta-terms (case names, деепричастие, приставка…), and anything in the known set.
 3. Dedup across lessons (assign each word to its earliest lesson).
 4. Curate the survivors (real thematic vocab + idioms; drop grammar-drill items like prefixed motion verbs, and brand names). Author correct spelling/stress/gloss/example from knowledge.
