@@ -269,8 +269,13 @@ def _patch():
         from . import cloze_audio
         return cloze_audio.generate(self.collection(), noteIds, bool(force), bool(dryRun))
 
+    def generateBasicAudio(self, noteIds, field="Back", dryRun=False):
+        """Re-record a Basic note's Back with the Back preset; see cloze_audio.generate_basic."""
+        from . import cloze_audio
+        return cloze_audio.generate_basic(self.collection(), noteIds, field, bool(dryRun))
+
     actions = (getDeckLimits, setNewLimitToday, clearNewLimitToday, autoLimitNow,
-               peekQueue, addonInfo, generateClozeAudio)
+               peekQueue, addonInfo, generateClozeAudio, generateBasicAudio)
     for fn in actions:
         fn.api, fn.versions = True, ()
         setattr(ac.AnkiConnect, fn.__name__, fn)

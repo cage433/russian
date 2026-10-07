@@ -116,3 +116,36 @@ def generate(col, note_ids, force=False, dry_run=False):
         col.update_note(note)
         results.append({"noteId": nid, "clozes": len(tags)})
     return results
+
+
+SOUND_RE = re.compile(r"\s*\[sound:[^\]]*\]")
+
+
+def generate_basic(col, note_ids, field="Back", dry_run=False):
+    """Re-record a Basic note's Back: speak the field without its old [sound:] (the Back preset's
+    text processing strips brackets and turns <br> into pauses, exactly as the HyperTTS batch
+    did), then put the new tag where the old one was — after the trailing <br><br>."""
+    h = _hypertts() if not dry_run else None
+    batch = _preset() if not dry_run else None
+    ctx_mod = _hmod("context") if not dry_run else None
+    consts = _hmod("constants") if not dry_run else None
+    results = []
+    for nid in note_ids:
+        note = col.get_note(int(nid))
+        if field not in note.keys():
+            results.append({"noteId": nid, "skipped": f"no {field} field"})
+            continue
+        text = SOUND_RE.sub("", note[field]).rstrip()
+        if dry_run:
+            results.append({"noteId": nid, "text": text})
+            continue
+        processed = h.process_text(text, batch.text_processing)
+        full, fname = h.get_audio_file(processed, batch.voice_selection,
+                                       ctx_mod.AudioRequestContext(consts.AudioRequestReason.batch))
+        tag, _ = h.get_collection_sound_tag(full, fname)
+        if not text.endswith("<br><br>"):
+            text += "<br><br>"
+        note[field] = f"{text} {tag}"
+        col.update_note(note)
+        results.append({"noteId": nid, "sound": tag})
+    return results
