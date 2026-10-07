@@ -37,9 +37,14 @@ series. Words the textbooks teach that aren't already known get authored as flas
   Checking a subdeck for duplicates is safe any time and promotes nothing — do that first, since
   11 of the 12 notes in `::Nouns`/`::Verbs` turned out to duplicate Точка Ру notes.
 - `Vocab::Roots` is a **trial** (started 2026-10-05) of root-family **Cloze** notes: one note per
-  root (глас-, каз-, -ста-, -стой-, -став-, -вод-, -мен-, зна-, -лож-, -ход-, -пуск-, -бир-), one card
-  per word, the rest of the family visible as cues. Each note **replaced** the Basic notes for its
-  leeches and struggling words (90 retired; backups with review history in `tutoring/retired/`);
+  root family, one card per word, the rest of the family visible as cues. 2026-10-07: 39 notes /
+  205 cards over 24 roots (глас-, каз-, -ста-, -стой-, -став-, -вод-, -мен-, зна-, -лож-, -ход-,
+  -пуск-, -бир-, -польз-, -яв-, -говор-, -раз-/-раж-, -блюд-, -част-, -ним-, -держ-, -нос-, -счёт-,
+  -след-, -туп-). **Families over 7 rows are split by sense into I / II, every part keeping the
+  root's full original sense in its header** (Alex: the etymological link matters even where a sense
+  doesn't fit a part). Family cards teach *which word*; conjugation is the Cloze Aspect job, and
+  family verbs don't get aspect cards for now. Each note **replaced** the Basic notes for its
+  new / leech / suspended members (155 retired; backups with review history in `tutoring/retired/`);
   healthy anchors were kept as Basic cards. **Don't re-add the retired Basic cards** — if the trial
   works they come back later as *fresh* cards, by Alex's choice. Own preset "Roots", 5 new/day.
   Card layout: header = root + its sense(s); table columns English | prefix | Russian | prefix
