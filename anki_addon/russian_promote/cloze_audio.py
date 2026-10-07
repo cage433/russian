@@ -76,7 +76,10 @@ def answers(text):
     ans = {n: " ".join(v) for n, v in out.items()}
     pair = RU_PAIR_RE.search(text)
     for n, t in list(ans.items()):
-        if not CYRILLIC.search(t):
+        # "English" = more Latin letters than Cyrillic — not "no Cyrillic at all": a gloss's
+        # `(cf. ***** в/на = …)` line carries a little Russian, and the bare test let учи́ться's
+        # card 3 read its English gloss in the Russian voice.
+        if len(re.findall(r"[a-z]", t, re.I)) > len(CYRILLIC.findall(t)):
             if pair:
                 ans[n] = re.sub(r"<[^>]+>", " ", pair.group(1)).strip()
             else:
