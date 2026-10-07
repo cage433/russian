@@ -25,7 +25,16 @@ import anki_utils as a  # noqa: E402
 
 TD = '<td style="padding: 2px 10px; vertical-align: top;">'
 VOWELS = re.compile(r"[аеёиоуыэюяАЕЁИОУЫЭЮЯ]")
-IRREG_3P = ("дать",)   # suffix match: дать, продать, передать, создать …
+# дать and its prefixed compounds (+ созда́ть, same conjugation): дам, дашь … даду́т. Matched by
+# prefix, not by suffix — a bare "-дать" ending also catches убежда́ть and опозда́ть, which are
+# regular (found in the 2026-10-07 trial).
+DAT_PREFIXES = ("", "про", "пере", "раз", "рас", "за", "вы", "от", "по", "из", "при", "пре", "об",
+                "на", "у", "под", "до", "вос", "воз", "пред", "недо")
+
+
+def irregular_3p(verb):
+    v = a.destress(verb)
+    return v == "создать" or (v.endswith("дать") and v[:-4] in DAT_PREFIXES)
 
 
 def tidy(word):
@@ -35,7 +44,7 @@ def tidy(word):
 
 def row(verb, s1, s2, p3, gov):
     txt = f"{tidy(verb)} — {tidy(s1)}, {tidy(s2)}"
-    if a.destress(verb).endswith(IRREG_3P) and p3:
+    if irregular_3p(verb) and p3:
         txt += f" … {tidy(p3)}"
     return txt + (f" {gov}" if gov else "")
 
