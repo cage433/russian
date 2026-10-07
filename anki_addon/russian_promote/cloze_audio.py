@@ -57,15 +57,31 @@ def _is_prefix_cell(t):
     return t.startswith("—") or t.endswith("-") or t.endswith("-ся")
 
 
+CYRILLIC = re.compile(r"[а-яё]", re.I)
+RU_PAIR_RE = re.compile(r'<div class="ru-pair">(.*?)</div>', re.S)
+
+
 def answers(text):
-    """{cloze number: text to speak} for a Cloze note's Text field."""
+    """{cloze number: text to speak} for a Cloze note's Text field.
+
+    A cloze whose hidden text has no Russian in it — the English header that Cloze Aspect's
+    card 3 (Russian → English) hides — is spoken from the note's `ru-pair` line instead, i.e.
+    the two infinitives, so the Russian voice never reads English."""
     out = {}
     for m in CLOZE_RE.finditer(text):
         n, t = int(m.group(1)), re.sub(r"<[^>]+>", " ", m.group(2))
         if _is_prefix_cell(t):
             continue
         out.setdefault(n, []).append(t.strip())
-    return {n: " ".join(v) for n, v in out.items()}
+    ans = {n: " ".join(v) for n, v in out.items()}
+    pair = RU_PAIR_RE.search(text)
+    for n, t in list(ans.items()):
+        if not CYRILLIC.search(t):
+            if pair:
+                ans[n] = re.sub(r"<[^>]+>", " ", pair.group(1)).strip()
+            else:
+                del ans[n]
+    return ans
 
 
 def generate(col, note_ids, force=False, dry_run=False):
