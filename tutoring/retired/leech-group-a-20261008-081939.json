@@ -1,0 +1,935 @@
+{
+ "basic": [
+  {
+   "noteId": 1726634605034,
+   "profile": "User 1",
+   "tags": [
+    "adj",
+    "leech",
+    "leech-parked"
+   ],
+   "fields": {
+    "Front": {
+     "value": "other (adj.)",
+     "order": 0
+    },
+    "Back": {
+     "value": "про́чий<br><br> [sound:hypertts-b70771169569d7fab4719b71fbaec2eb23156a4c0de2a4122eeef61f.mp3]",
+     "order": 1
+    },
+    "Example": {
+     "value": "Кроме рабо́ты, он увлека́ется спо́ртом, му́зыкой и про́чими де́лами.",
+     "order": 2
+    }
+   },
+   "modelName": "Basic (and reversed card)",
+   "mod": 1788163644,
+   "cards": [
+    1726634605868,
+    1726634605869
+   ]
+  },
+  {
+   "noteId": 1726634612757,
+   "profile": "User 1",
+   "tags": [
+    "claude",
+    "leech",
+    "noun"
+   ],
+   "fields": {
+    "Front": {
+     "value": "for good, for ever (coll)",
+     "order": 0
+    },
+    "Back": {
+     "value": "насовсе́м<br><br> [sound:hypertts-514f6517e18a27453351660b13e23bfcae511e5316b48940429b590c.mp3]",
+     "order": 1
+    },
+    "Example": {
+     "value": "Он уехал из этого города насовсе́м и не собирался возвращаться.",
+     "order": 2
+    }
+   },
+   "modelName": "Basic (and reversed card)",
+   "mod": 1787376872,
+   "cards": [
+    1726634621314,
+    1726634621315
+   ]
+  },
+  {
+   "noteId": 1726634609005,
+   "profile": "User 1",
+   "tags": [
+    "claude",
+    "leech",
+    "leech-parked",
+    "noun"
+   ],
+   "fields": {
+    "Front": {
+     "value": "entrance (of an apartment building); stairwell entrance",
+     "order": 0
+    },
+    "Back": {
+     "value": "подъе́зд<br><br> [sound:hypertts-710284cbdfc1a3997ed24c742f15de75715d3c4790b44d9e850da103.mp3]",
+     "order": 1
+    },
+    "Example": {
+     "value": "Они встре́тились у подъе́зда и вме́сте подня́лись на тре́тий эта́ж.",
+     "order": 2
+    }
+   },
+   "modelName": "Basic (and reversed card)",
+   "mod": 1788163644,
+   "cards": [
+    1726634613810,
+    1726634613811
+   ]
+  },
+  {
+   "noteId": 1726634605797,
+   "profile": "User 1",
+   "tags": [
+    "leech",
+    "noun"
+   ],
+   "fields": {
+    "Front": {
+     "value": "entrance steps / porch",
+     "order": 0
+    },
+    "Back": {
+     "value": "крыльцо́<br><br> [sound:hypertts-b9450f9ce221c48c6fe8a45a2f1142eec3bdcf14253fc6d364133dcc.mp3]",
+     "order": 1
+    },
+    "Example": {
+     "value": "Дети сидели на крыльце́ и ждали, пока вернётся мама.",
+     "order": 2
+    }
+   },
+   "modelName": "Basic (and reversed card)",
+   "mod": 1787376872,
+   "cards": [
+    1726634607394,
+    1726634607395
+   ]
+  },
+  {
+   "noteId": 1726634606793,
+   "profile": "User 1",
+   "tags": [
+    "claude",
+    "noun"
+   ],
+   "fields": {
+    "Front": {
+     "value": "entrance",
+     "order": 0
+    },
+    "Back": {
+     "value": "вход<br><br> [sound:hypertts-e6d67ea4a4e8ef13790a6b9d50c620253a8262b60dad57808d1a0279.mp3]",
+     "order": 1
+    },
+    "Example": {
+     "value": "У вхо́да в музе́й стоя́ла небольша́я о́чередь из туристов.",
+     "order": 2
+    }
+   },
+   "modelName": "Basic (and reversed card)",
+   "mod": 1787376872,
+   "cards": [
+    1726634609386,
+    1726634609387
+   ]
+  }
+ ],
+ "cloze_before": [
+  {
+   "noteId": 1791237524598,
+   "profile": "User 1",
+   "tags": [
+    "adj",
+    "claude",
+    "numbered"
+   ],
+   "fields": {
+    "Text": {
+     "value": "<b>other, different</b><br><br><table style=\"margin: 0 auto; text-align: left; border-collapse: collapse;\"><tr><td style=\"padding: 2px 10px; vertical-align: top;\">1:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>other, another (neutral, everyday)</i></td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c1::друго́й}}</td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">2:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>different, of another kind (literary/bookish)</i></td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c2::ино́й}}</td></tr></table>",
+     "order": 0
+    },
+    "Back Extra": {
+     "value": "1: Мне ну́жен друго́й подхо́д к э́той пробле́ме.<br><br>2: У него́ был ино́й взгляд на э́ту пробле́му.",
+     "order": 1
+    },
+    "Audio": {
+     "value": "{{c1::[sound:hypertts-6366ad47ea1f0ae7d338be41a593592dd407d1ea886ba624747a49fc.mp3]}} {{c2::[sound:hypertts-cae12039052557638cba0dee0af924fd559a4e4e00a19b829bf77f57.mp3]}}",
+     "order": 2
+    }
+   },
+   "modelName": "Cloze",
+   "mod": 1791254549,
+   "cards": [
+    1791237524599,
+    1791237524598
+   ]
+  },
+  {
+   "noteId": 1791237533476,
+   "profile": "User 1",
+   "tags": [
+    "det",
+    "numbered"
+   ],
+   "fields": {
+    "Text": {
+     "value": "<b>for ever</b><br><br><table style=\"margin: 0 auto; text-align: left; border-collapse: collapse;\"><tr><td style=\"padding: 2px 10px; vertical-align: top;\">1:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>for good</i></td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c1::навсегда́}}</td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">2:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>for ever / colloquial–neutral</i></td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c2::наве́чно}}</td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">3:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>for ever (poetic / solemn)</i></td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c3::наве́ки}}</td></tr></table>",
+     "order": 0
+    },
+    "Back Extra": {
+     "value": "1: Он навсегда́ уе́хал из го́рода, в кото́ром вы́рос.<br><br>2: Э́та фотогра́фия наве́чно останется в нашей па́мяти.<br><br>3: Его́ и́мя наве́ки вписа́но в исто́рию этой страны́.",
+     "order": 1
+    },
+    "Audio": {
+     "value": "{{c1::[sound:hypertts-0d5a93d4d5357dccf64baf14cb5643eef6cf4806d4e57ec12678d3d2.mp3]}} {{c2::[sound:hypertts-ebc6610682b763e998527a95fcd3b45ba83f1c152b6c5decddaf0b2b.mp3]}} {{c3::[sound:hypertts-df5a62835f0daea55b285595fe10e5ce15763ff83e6206ea3168d980.mp3]}}",
+     "order": 2
+    }
+   },
+   "modelName": "Cloze",
+   "mod": 1791255498,
+   "cards": [
+    1791237533476,
+    1791237533477,
+    1791237533478
+   ]
+  },
+  {
+   "noteId": 1791237529722,
+   "profile": "User 1",
+   "tags": [
+    "noun",
+    "numbered"
+   ],
+   "fields": {
+    "Text": {
+     "value": "<b>entrance hall</b><br><br><table style=\"margin: 0 auto; text-align: left; border-collapse: collapse;\"><tr><td style=\"padding: 2px 10px; vertical-align: top;\">1:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>modern</i></td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c1::прихо́жая}}</td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">2:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>archaic / literary</i></td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c2::пере́дняя}}</td></tr></table>",
+     "order": 0
+    },
+    "Back Extra": {
+     "value": "1: Гости оставили пальто в прихо́жей и прошли в гостиную.<br><br>2: Барин принял слугу в пере́дней и велел ждать.",
+     "order": 1
+    },
+    "Audio": {
+     "value": "{{c1::[sound:hypertts-51d24dba6e07bceed6e4e4ad57032dfffea1338591c50e0ecab28b2c.mp3]}} {{c2::[sound:hypertts-0705bb5ef1c1ceb783b69b04447864d049d0536b620992285541166e.mp3]}}",
+     "order": 2
+    }
+   },
+   "modelName": "Cloze",
+   "mod": 1791255419,
+   "cards": [
+    1791237529722,
+    1791237529723
+   ]
+  }
+ ],
+ "cards": [
+  {
+   "cardId": 1726634605868,
+   "fields": {
+    "Front": {
+     "value": "other (adj.)",
+     "order": 0
+    },
+    "Back": {
+     "value": "про́чий<br><br> [sound:hypertts-b70771169569d7fab4719b71fbaec2eb23156a4c0de2a4122eeef61f.mp3]",
+     "order": 1
+    },
+    "Example": {
+     "value": "Кроме рабо́ты, он увлека́ется спо́ртом, му́зыкой и про́чими де́лами.",
+     "order": 2
+    }
+   },
+   "fieldOrder": 0,
+   "question": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>other (adj.)",
+   "answer": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>other (adj.)\n\n<hr id=answer>\n\nпро́чий<br><br> [anki:play:a:0]\n<br><br><i>Кроме рабо́ты, он увлека́ется спо́ртом, му́зыкой и про́чими де́лами.</i>",
+   "modelName": "Basic (and reversed card)",
+   "ord": 0,
+   "deckName": "Vocab::10000 words",
+   "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
+   "factor": 1300,
+   "interval": 5,
+   "note": 1726634605034,
+   "type": 2,
+   "queue": -1,
+   "due": 1689,
+   "reps": 110,
+   "lapses": 23,
+   "left": 0,
+   "mod": 1789426317,
+   "nextReviews": [
+    "⁨30⁩m",
+    "⁨7⁩d",
+    "⁨10⁩d",
+    "⁨17⁩d"
+   ],
+   "flags": 0
+  },
+  {
+   "cardId": 1726634605869,
+   "fields": {
+    "Front": {
+     "value": "other (adj.)",
+     "order": 0
+    },
+    "Back": {
+     "value": "про́чий<br><br> [sound:hypertts-b70771169569d7fab4719b71fbaec2eb23156a4c0de2a4122eeef61f.mp3]",
+     "order": 1
+    },
+    "Example": {
+     "value": "Кроме рабо́ты, он увлека́ется спо́ртом, му́зыкой и про́чими де́лами.",
+     "order": 2
+    }
+   },
+   "fieldOrder": 1,
+   "question": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>про́чий<br><br> [anki:play:q:0]\n<br><br>\n<a class=hint href=\"#\"\nonclick=\"this.style.display='none';\ndocument.getElementById('hinte174388eb382d0c3').style.display='block';\nreturn false;\" draggable=false>\nExample</a>\n<div id=\"hinte174388eb382d0c3\" class=hint style=\"display: none\">Кроме рабо́ты, он увлека́ется спо́ртом, му́зыкой и про́чими де́лами.</div>\n",
+   "answer": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>про́чий<br><br> [anki:play:q:0]\n<br><br>\n<a class=hint href=\"#\"\nonclick=\"this.style.display='none';\ndocument.getElementById('hinte174388eb382d0c3').style.display='block';\nreturn false;\" draggable=false>\nExample</a>\n<div id=\"hinte174388eb382d0c3\" class=hint style=\"display: none\">Кроме рабо́ты, он увлека́ется спо́ртом, му́зыкой и про́чими де́лами.</div>\n\n\n<hr id=answer>\n\nother (adj.)",
+   "modelName": "Basic (and reversed card)",
+   "ord": 1,
+   "deckName": "Vocab::10000 words",
+   "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
+   "factor": 2500,
+   "interval": 347,
+   "note": 1726634605034,
+   "type": 2,
+   "queue": 2,
+   "due": 1859,
+   "reps": 9,
+   "lapses": 0,
+   "left": 0,
+   "mod": 1789426317,
+   "nextReviews": [
+    "⁨30⁩m",
+    "⁨6.6⁩mo",
+    "⁨11.9⁩mo",
+    "⁨1.8⁩y"
+   ],
+   "flags": 0
+  },
+  {
+   "cardId": 1726634621314,
+   "fields": {
+    "Front": {
+     "value": "for good, for ever (coll)",
+     "order": 0
+    },
+    "Back": {
+     "value": "насовсе́м<br><br> [sound:hypertts-514f6517e18a27453351660b13e23bfcae511e5316b48940429b590c.mp3]",
+     "order": 1
+    },
+    "Example": {
+     "value": "Он уехал из этого города насовсе́м и не собирался возвращаться.",
+     "order": 2
+    }
+   },
+   "fieldOrder": 0,
+   "question": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>for good, for ever (coll)",
+   "answer": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>for good, for ever (coll)\n\n<hr id=answer>\n\nнасовсе́м<br><br> [anki:play:a:0]\n<br><br><i>Он уехал из этого города насовсе́м и не собирался возвращаться.</i>",
+   "modelName": "Basic (and reversed card)",
+   "ord": 0,
+   "deckName": "Vocab::10000 words",
+   "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
+   "factor": 1700,
+   "interval": 4,
+   "note": 1726634612757,
+   "type": 2,
+   "queue": 2,
+   "due": 1724,
+   "reps": 54,
+   "lapses": 7,
+   "left": 0,
+   "mod": 1791345533,
+   "nextReviews": [
+    "⁨30⁩m",
+    "⁨2⁩d",
+    "⁨4⁩d",
+    "⁨6⁩d"
+   ],
+   "flags": 0
+  },
+  {
+   "cardId": 1726634621315,
+   "fields": {
+    "Front": {
+     "value": "for good, for ever (coll)",
+     "order": 0
+    },
+    "Back": {
+     "value": "насовсе́м<br><br> [sound:hypertts-514f6517e18a27453351660b13e23bfcae511e5316b48940429b590c.mp3]",
+     "order": 1
+    },
+    "Example": {
+     "value": "Он уехал из этого города насовсе́м и не собирался возвращаться.",
+     "order": 2
+    }
+   },
+   "fieldOrder": 1,
+   "question": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>насовсе́м<br><br> [anki:play:q:0]\n<br><br>\n<a class=hint href=\"#\"\nonclick=\"this.style.display='none';\ndocument.getElementById('hint24f55e97a31e11be').style.display='block';\nreturn false;\" draggable=false>\nExample</a>\n<div id=\"hint24f55e97a31e11be\" class=hint style=\"display: none\">Он уехал из этого города насовсе́м и не собирался возвращаться.</div>\n",
+   "answer": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>насовсе́м<br><br> [anki:play:q:0]\n<br><br>\n<a class=hint href=\"#\"\nonclick=\"this.style.display='none';\ndocument.getElementById('hint24f55e97a31e11be').style.display='block';\nreturn false;\" draggable=false>\nExample</a>\n<div id=\"hint24f55e97a31e11be\" class=hint style=\"display: none\">Он уехал из этого города насовсе́м и не собирался возвращаться.</div>\n\n\n<hr id=answer>\n\nfor good, for ever (coll)",
+   "modelName": "Basic (and reversed card)",
+   "ord": 1,
+   "deckName": "Vocab::10000 words",
+   "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
+   "factor": 2650,
+   "interval": 319,
+   "note": 1726634612757,
+   "type": 2,
+   "queue": 2,
+   "due": 1782,
+   "reps": 9,
+   "lapses": 0,
+   "left": 0,
+   "mod": 1791345533,
+   "nextReviews": [
+    "⁨30⁩m",
+    "⁨10.7⁩mo",
+    "⁨10.8⁩mo",
+    "⁨11.5⁩mo"
+   ],
+   "flags": 0
+  },
+  {
+   "cardId": 1726634613810,
+   "fields": {
+    "Front": {
+     "value": "entrance (of an apartment building); stairwell entrance",
+     "order": 0
+    },
+    "Back": {
+     "value": "подъе́зд<br><br> [sound:hypertts-710284cbdfc1a3997ed24c742f15de75715d3c4790b44d9e850da103.mp3]",
+     "order": 1
+    },
+    "Example": {
+     "value": "Они встре́тились у подъе́зда и вме́сте подня́лись на тре́тий эта́ж.",
+     "order": 2
+    }
+   },
+   "fieldOrder": 0,
+   "question": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>entrance (of an apartment building); stairwell entrance",
+   "answer": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>entrance (of an apartment building); stairwell entrance\n\n<hr id=answer>\n\nподъе́зд<br><br> [anki:play:a:0]\n<br><br><i>Они встре́тились у подъе́зда и вме́сте подня́лись на тре́тий эта́ж.</i>",
+   "modelName": "Basic (and reversed card)",
+   "ord": 0,
+   "deckName": "Vocab::10000 words",
+   "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
+   "factor": 1300,
+   "interval": 11,
+   "note": 1726634609005,
+   "type": 2,
+   "queue": -1,
+   "due": 1694,
+   "reps": 85,
+   "lapses": 14,
+   "left": 0,
+   "mod": 1789426317,
+   "nextReviews": [
+    "⁨30⁩m",
+    "⁨9⁩d",
+    "⁨15⁩d",
+    "⁨24⁩d"
+   ],
+   "flags": 0
+  },
+  {
+   "cardId": 1726634613811,
+   "fields": {
+    "Front": {
+     "value": "entrance (of an apartment building); stairwell entrance",
+     "order": 0
+    },
+    "Back": {
+     "value": "подъе́зд<br><br> [sound:hypertts-710284cbdfc1a3997ed24c742f15de75715d3c4790b44d9e850da103.mp3]",
+     "order": 1
+    },
+    "Example": {
+     "value": "Они встре́тились у подъе́зда и вме́сте подня́лись на тре́тий эта́ж.",
+     "order": 2
+    }
+   },
+   "fieldOrder": 1,
+   "question": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>подъе́зд<br><br> [anki:play:q:0]\n<br><br>\n<a class=hint href=\"#\"\nonclick=\"this.style.display='none';\ndocument.getElementById('hint1d49f03f1762ba1c').style.display='block';\nreturn false;\" draggable=false>\nExample</a>\n<div id=\"hint1d49f03f1762ba1c\" class=hint style=\"display: none\">Они встре́тились у подъе́зда и вме́сте подня́лись на тре́тий эта́ж.</div>\n",
+   "answer": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>подъе́зд<br><br> [anki:play:q:0]\n<br><br>\n<a class=hint href=\"#\"\nonclick=\"this.style.display='none';\ndocument.getElementById('hint1d49f03f1762ba1c').style.display='block';\nreturn false;\" draggable=false>\nExample</a>\n<div id=\"hint1d49f03f1762ba1c\" class=hint style=\"display: none\">Они встре́тились у подъе́зда и вме́сте подня́лись на тре́тий эта́ж.</div>\n\n\n<hr id=answer>\n\nentrance (of an apartment building); stairwell entrance",
+   "modelName": "Basic (and reversed card)",
+   "ord": 1,
+   "deckName": "Vocab::10000 words",
+   "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
+   "factor": 2050,
+   "interval": 162,
+   "note": 1726634609005,
+   "type": 2,
+   "queue": 2,
+   "due": 1836,
+   "reps": 11,
+   "lapses": 0,
+   "left": 0,
+   "mod": 1789426317,
+   "nextReviews": [
+    "⁨30⁩m",
+    "⁨5.3⁩mo",
+    "⁨6.6⁩mo",
+    "⁨10.1⁩mo"
+   ],
+   "flags": 0
+  },
+  {
+   "cardId": 1726634607394,
+   "fields": {
+    "Front": {
+     "value": "entrance steps / porch",
+     "order": 0
+    },
+    "Back": {
+     "value": "крыльцо́<br><br> [sound:hypertts-b9450f9ce221c48c6fe8a45a2f1142eec3bdcf14253fc6d364133dcc.mp3]",
+     "order": 1
+    },
+    "Example": {
+     "value": "Дети сидели на крыльце́ и ждали, пока вернётся мама.",
+     "order": 2
+    }
+   },
+   "fieldOrder": 0,
+   "question": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>entrance steps / porch",
+   "answer": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>entrance steps / porch\n\n<hr id=answer>\n\nкрыльцо́<br><br> [anki:play:a:0]\n<br><br><i>Дети сидели на крыльце́ и ждали, пока вернётся мама.</i>",
+   "modelName": "Basic (and reversed card)",
+   "ord": 0,
+   "deckName": "Vocab::10000 words",
+   "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
+   "factor": 1300,
+   "interval": 1,
+   "note": 1726634605797,
+   "type": 2,
+   "queue": -2,
+   "due": 1721,
+   "reps": 67,
+   "lapses": 7,
+   "left": 0,
+   "mod": 1791418511,
+   "nextReviews": [
+    "⁨30⁩m",
+    "⁨1⁩d",
+    "⁨2⁩d",
+    "⁨4⁩d"
+   ],
+   "flags": 0
+  },
+  {
+   "cardId": 1726634607395,
+   "fields": {
+    "Front": {
+     "value": "entrance steps / porch",
+     "order": 0
+    },
+    "Back": {
+     "value": "крыльцо́<br><br> [sound:hypertts-b9450f9ce221c48c6fe8a45a2f1142eec3bdcf14253fc6d364133dcc.mp3]",
+     "order": 1
+    },
+    "Example": {
+     "value": "Дети сидели на крыльце́ и ждали, пока вернётся мама.",
+     "order": 2
+    }
+   },
+   "fieldOrder": 1,
+   "question": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>крыльцо́<br><br> [anki:play:q:0]\n<br><br>\n<a class=hint href=\"#\"\nonclick=\"this.style.display='none';\ndocument.getElementById('hint8cbf84264aed65bd').style.display='block';\nreturn false;\" draggable=false>\nExample</a>\n<div id=\"hint8cbf84264aed65bd\" class=hint style=\"display: none\">Дети сидели на крыльце́ и ждали, пока вернётся мама.</div>\n",
+   "answer": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>крыльцо́<br><br> [anki:play:q:0]\n<br><br>\n<a class=hint href=\"#\"\nonclick=\"this.style.display='none';\ndocument.getElementById('hint8cbf84264aed65bd').style.display='block';\nreturn false;\" draggable=false>\nExample</a>\n<div id=\"hint8cbf84264aed65bd\" class=hint style=\"display: none\">Дети сидели на крыльце́ и ждали, пока вернётся мама.</div>\n\n\n<hr id=answer>\n\nentrance steps / porch",
+   "modelName": "Basic (and reversed card)",
+   "ord": 1,
+   "deckName": "Vocab::10000 words",
+   "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
+   "factor": 2500,
+   "interval": 201,
+   "note": 1726634605797,
+   "type": 2,
+   "queue": 2,
+   "due": 1922,
+   "reps": 7,
+   "lapses": 0,
+   "left": 0,
+   "mod": 1791418511,
+   "nextReviews": [
+    "⁨30⁩m",
+    "⁨7.2⁩mo",
+    "⁨7.6⁩mo",
+    "⁨8.6⁩mo"
+   ],
+   "flags": 0
+  },
+  {
+   "cardId": 1726634609386,
+   "fields": {
+    "Front": {
+     "value": "entrance",
+     "order": 0
+    },
+    "Back": {
+     "value": "вход<br><br> [sound:hypertts-e6d67ea4a4e8ef13790a6b9d50c620253a8262b60dad57808d1a0279.mp3]",
+     "order": 1
+    },
+    "Example": {
+     "value": "У вхо́да в музе́й стоя́ла небольша́я о́чередь из туристов.",
+     "order": 2
+    }
+   },
+   "fieldOrder": 0,
+   "question": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>entrance",
+   "answer": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>entrance\n\n<hr id=answer>\n\nвход<br><br> [anki:play:a:0]\n<br><br><i>У вхо́да в музе́й стоя́ла небольша́я о́чередь из туристов.</i>",
+   "modelName": "Basic (and reversed card)",
+   "ord": 0,
+   "deckName": "Vocab::10000 words",
+   "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
+   "factor": 2300,
+   "interval": 43,
+   "note": 1726634606793,
+   "type": 2,
+   "queue": 2,
+   "due": 1739,
+   "reps": 9,
+   "lapses": 1,
+   "left": 0,
+   "mod": 1789426317,
+   "nextReviews": [
+    "⁨30⁩m",
+    "⁨1.6⁩mo",
+    "⁨2⁩mo",
+    "⁨2.9⁩mo"
+   ],
+   "flags": 0
+  },
+  {
+   "cardId": 1726634609387,
+   "fields": {
+    "Front": {
+     "value": "entrance",
+     "order": 0
+    },
+    "Back": {
+     "value": "вход<br><br> [sound:hypertts-e6d67ea4a4e8ef13790a6b9d50c620253a8262b60dad57808d1a0279.mp3]",
+     "order": 1
+    },
+    "Example": {
+     "value": "У вхо́да в музе́й стоя́ла небольша́я о́чередь из туристов.",
+     "order": 2
+    }
+   },
+   "fieldOrder": 1,
+   "question": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>вход<br><br> [anki:play:q:0]\n<br><br>\n<a class=hint href=\"#\"\nonclick=\"this.style.display='none';\ndocument.getElementById('hintb3f8f38da842e75b').style.display='block';\nreturn false;\" draggable=false>\nExample</a>\n<div id=\"hintb3f8f38da842e75b\" class=hint style=\"display: none\">У вхо́да в музе́й стоя́ла небольша́я о́чередь из туристов.</div>\n",
+   "answer": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>вход<br><br> [anki:play:q:0]\n<br><br>\n<a class=hint href=\"#\"\nonclick=\"this.style.display='none';\ndocument.getElementById('hintb3f8f38da842e75b').style.display='block';\nreturn false;\" draggable=false>\nExample</a>\n<div id=\"hintb3f8f38da842e75b\" class=hint style=\"display: none\">У вхо́да в музе́й стоя́ла небольша́я о́чередь из туристов.</div>\n\n\n<hr id=answer>\n\nentrance",
+   "modelName": "Basic (and reversed card)",
+   "ord": 1,
+   "deckName": "Vocab::10000 words",
+   "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
+   "factor": 2650,
+   "interval": 272,
+   "note": 1726634606793,
+   "type": 2,
+   "queue": 2,
+   "due": 1931,
+   "reps": 6,
+   "lapses": 0,
+   "left": 0,
+   "mod": 1789426317,
+   "nextReviews": [
+    "⁨30⁩m",
+    "⁨9⁩mo",
+    "⁨11.9⁩mo",
+    "⁨1.5⁩y"
+   ],
+   "flags": 0
+  },
+  {
+   "cardId": 1791237524599,
+   "fields": {
+    "Text": {
+     "value": "<b>other, different</b><br><br><table style=\"margin: 0 auto; text-align: left; border-collapse: collapse;\"><tr><td style=\"padding: 2px 10px; vertical-align: top;\">1:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>other, another (neutral, everyday)</i></td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c1::друго́й}}</td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">2:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>different, of another kind (literary/bookish)</i></td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c2::ино́й}}</td></tr></table>",
+     "order": 0
+    },
+    "Back Extra": {
+     "value": "1: Мне ну́жен друго́й подхо́д к э́той пробле́ме.<br><br>2: У него́ был ино́й взгляд на э́ту пробле́му.",
+     "order": 1
+    },
+    "Audio": {
+     "value": "{{c1::[sound:hypertts-6366ad47ea1f0ae7d338be41a593592dd407d1ea886ba624747a49fc.mp3]}} {{c2::[sound:hypertts-cae12039052557638cba0dee0af924fd559a4e4e00a19b829bf77f57.mp3]}}",
+     "order": 2
+    }
+   },
+   "fieldOrder": 0,
+   "question": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n\n.cloze {\n font-weight: bold;\n color: blue;\n}\n.nightMode .cloze {\n color: lightblue;\n}\n\ntd.pm, td.pc { display: none; }\ntd.pm.show, td.pc.show { display: table-cell; }\n.pm-toggle { font-size: 0.8em; color: #888; text-decoration: underline; cursor: pointer; display: inline-block; margin: 0 8px 6px; }\n\n.audio-row { text-align: center; margin: 10px 0 1.2em; }\n.example { margin-top: 4px; }\n</style><b>other, different</b><br><br><table style=\"margin: 0 auto; text-align: left; border-collapse: collapse;\"><tr><td style=\"padding: 2px 10px; vertical-align: top;\">1:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>other, another (neutral, everyday)</i></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze\" data-cloze=\"друго́й\" data-ordinal=\"1\">[...]</span></td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">2:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>different, of another kind (literary/bookish)</i></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"2\">ино́й</span></td></tr></table>\n<script>(function(){if(document.querySelector(\".pm-toggle\"))return;var first=document.querySelector(\"td.pc, td.pm\");if(!first)return;var tb=first.closest(\"table\"),bar=document.createElement(\"div\");[[\"pc\",\"prefixes\"],[\"pm\",\"prefix meanings\"]].forEach(function(p){var cells=document.querySelectorAll(\"td.\"+p[0]);if(!cells.length)return;var t=document.createElement(\"span\");t.className=\"pm-toggle\";t.textContent=p[1];t.onclick=function(){cells.forEach(function(e){e.classList.toggle(\"show\")});};bar.appendChild(t);});tb.parentNode.insertBefore(bar,tb);})();</script>",
+   "answer": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n\n.cloze {\n font-weight: bold;\n color: blue;\n}\n.nightMode .cloze {\n color: lightblue;\n}\n\ntd.pm, td.pc { display: none; }\ntd.pm.show, td.pc.show { display: table-cell; }\n.pm-toggle { font-size: 0.8em; color: #888; text-decoration: underline; cursor: pointer; display: inline-block; margin: 0 8px 6px; }\n\n.audio-row { text-align: center; margin: 10px 0 1.2em; }\n.example { margin-top: 4px; }\n</style><b>other, different</b><br><br><table style=\"margin: 0 auto; text-align: left; border-collapse: collapse;\"><tr><td style=\"padding: 2px 10px; vertical-align: top;\">1:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>other, another (neutral, everyday)</i></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze\" data-ordinal=\"1\">друго́й</span></td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">2:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>different, of another kind (literary/bookish)</i></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"2\">ино́й</span></td></tr></table>\n<div class=\"audio-row\">[anki:play:a:0]</div>\n<div class=\"example\">1: Мне ну́жен друго́й подхо́д к э́той пробле́ме.<br><br>2: У него́ был ино́й взгляд на э́ту пробле́му.</div>\n<script>(function(){if(document.querySelector(\".pm-toggle\"))return;var first=document.querySelector(\"td.pc, td.pm\");if(!first)return;var tb=first.closest(\"table\"),bar=document.createElement(\"div\");[[\"pc\",\"prefixes\"],[\"pm\",\"prefix meanings\"]].forEach(function(p){var cells=document.querySelectorAll(\"td.\"+p[0]);if(!cells.length)return;var t=document.createElement(\"span\");t.className=\"pm-toggle\";t.textContent=p[1];t.onclick=function(){cells.forEach(function(e){e.classList.toggle(\"show\")});};bar.appendChild(t);});tb.parentNode.insertBefore(bar,tb);})();</script>",
+   "modelName": "Cloze",
+   "ord": 0,
+   "deckName": "Vocab::10000 words",
+   "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n\n.cloze {\n font-weight: bold;\n color: blue;\n}\n.nightMode .cloze {\n color: lightblue;\n}\n\ntd.pm, td.pc { display: none; }\ntd.pm.show, td.pc.show { display: table-cell; }\n.pm-toggle { font-size: 0.8em; color: #888; text-decoration: underline; cursor: pointer; display: inline-block; margin: 0 8px 6px; }\n\n.audio-row { text-align: center; margin: 10px 0 1.2em; }\n.example { margin-top: 4px; }\n",
+   "factor": 2500,
+   "interval": 2,
+   "note": 1791237524598,
+   "type": 2,
+   "queue": 2,
+   "due": 1722,
+   "reps": 2,
+   "lapses": 0,
+   "left": 0,
+   "mod": 1791351768,
+   "nextReviews": [
+    "⁨30⁩m",
+    "⁨2⁩d",
+    "⁨4⁩d",
+    "⁨7⁩d"
+   ],
+   "flags": 0
+  },
+  {
+   "cardId": 1791237524598,
+   "fields": {
+    "Text": {
+     "value": "<b>other, different</b><br><br><table style=\"margin: 0 auto; text-align: left; border-collapse: collapse;\"><tr><td style=\"padding: 2px 10px; vertical-align: top;\">1:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>other, another (neutral, everyday)</i></td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c1::друго́й}}</td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">2:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>different, of another kind (literary/bookish)</i></td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c2::ино́й}}</td></tr></table>",
+     "order": 0
+    },
+    "Back Extra": {
+     "value": "1: Мне ну́жен друго́й подхо́д к э́той пробле́ме.<br><br>2: У него́ был ино́й взгляд на э́ту пробле́му.",
+     "order": 1
+    },
+    "Audio": {
+     "value": "{{c1::[sound:hypertts-6366ad47ea1f0ae7d338be41a593592dd407d1ea886ba624747a49fc.mp3]}} {{c2::[sound:hypertts-cae12039052557638cba0dee0af924fd559a4e4e00a19b829bf77f57.mp3]}}",
+     "order": 2
+    }
+   },
+   "fieldOrder": 1,
+   "question": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n\n.cloze {\n font-weight: bold;\n color: blue;\n}\n.nightMode .cloze {\n color: lightblue;\n}\n\ntd.pm, td.pc { display: none; }\ntd.pm.show, td.pc.show { display: table-cell; }\n.pm-toggle { font-size: 0.8em; color: #888; text-decoration: underline; cursor: pointer; display: inline-block; margin: 0 8px 6px; }\n\n.audio-row { text-align: center; margin: 10px 0 1.2em; }\n.example { margin-top: 4px; }\n</style><b>other, different</b><br><br><table style=\"margin: 0 auto; text-align: left; border-collapse: collapse;\"><tr><td style=\"padding: 2px 10px; vertical-align: top;\">1:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>other, another (neutral, everyday)</i></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"1\">друго́й</span></td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">2:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>different, of another kind (literary/bookish)</i></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze\" data-cloze=\"ино́й\" data-ordinal=\"2\">[...]</span></td></tr></table>\n<script>(function(){if(document.querySelector(\".pm-toggle\"))return;var first=document.querySelector(\"td.pc, td.pm\");if(!first)return;var tb=first.closest(\"table\"),bar=document.createElement(\"div\");[[\"pc\",\"prefixes\"],[\"pm\",\"prefix meanings\"]].forEach(function(p){var cells=document.querySelectorAll(\"td.\"+p[0]);if(!cells.length)return;var t=document.createElement(\"span\");t.className=\"pm-toggle\";t.textContent=p[1];t.onclick=function(){cells.forEach(function(e){e.classList.toggle(\"show\")});};bar.appendChild(t);});tb.parentNode.insertBefore(bar,tb);})();</script>",
+   "answer": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n\n.cloze {\n font-weight: bold;\n color: blue;\n}\n.nightMode .cloze {\n color: lightblue;\n}\n\ntd.pm, td.pc { display: none; }\ntd.pm.show, td.pc.show { display: table-cell; }\n.pm-toggle { font-size: 0.8em; color: #888; text-decoration: underline; cursor: pointer; display: inline-block; margin: 0 8px 6px; }\n\n.audio-row { text-align: center; margin: 10px 0 1.2em; }\n.example { margin-top: 4px; }\n</style><b>other, different</b><br><br><table style=\"margin: 0 auto; text-align: left; border-collapse: collapse;\"><tr><td style=\"padding: 2px 10px; vertical-align: top;\">1:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>other, another (neutral, everyday)</i></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"1\">друго́й</span></td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">2:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>different, of another kind (literary/bookish)</i></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze\" data-ordinal=\"2\">ино́й</span></td></tr></table>\n<div class=\"audio-row\">[anki:play:a:0]</div>\n<div class=\"example\">1: Мне ну́жен друго́й подхо́д к э́той пробле́ме.<br><br>2: У него́ был ино́й взгляд на э́ту пробле́му.</div>\n<script>(function(){if(document.querySelector(\".pm-toggle\"))return;var first=document.querySelector(\"td.pc, td.pm\");if(!first)return;var tb=first.closest(\"table\"),bar=document.createElement(\"div\");[[\"pc\",\"prefixes\"],[\"pm\",\"prefix meanings\"]].forEach(function(p){var cells=document.querySelectorAll(\"td.\"+p[0]);if(!cells.length)return;var t=document.createElement(\"span\");t.className=\"pm-toggle\";t.textContent=p[1];t.onclick=function(){cells.forEach(function(e){e.classList.toggle(\"show\")});};bar.appendChild(t);});tb.parentNode.insertBefore(bar,tb);})();</script>",
+   "modelName": "Cloze",
+   "ord": 1,
+   "deckName": "Vocab::10000 words",
+   "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n\n.cloze {\n font-weight: bold;\n color: blue;\n}\n.nightMode .cloze {\n color: lightblue;\n}\n\ntd.pm, td.pc { display: none; }\ntd.pm.show, td.pc.show { display: table-cell; }\n.pm-toggle { font-size: 0.8em; color: #888; text-decoration: underline; cursor: pointer; display: inline-block; margin: 0 8px 6px; }\n\n.audio-row { text-align: center; margin: 10px 0 1.2em; }\n.example { margin-top: 4px; }\n",
+   "factor": 0,
+   "interval": 0,
+   "note": 1791237524598,
+   "type": 0,
+   "queue": 0,
+   "due": 10,
+   "reps": 0,
+   "lapses": 0,
+   "left": 0,
+   "mod": 1791345004,
+   "nextReviews": [
+    "⁨20⁩m",
+    "⁨40⁩m",
+    "⁨1⁩h",
+    "⁨22⁩d"
+   ],
+   "flags": 0
+  },
+  {
+   "cardId": 1791237533476,
+   "fields": {
+    "Text": {
+     "value": "<b>for ever</b><br><br><table style=\"margin: 0 auto; text-align: left; border-collapse: collapse;\"><tr><td style=\"padding: 2px 10px; vertical-align: top;\">1:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>for good</i></td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c1::навсегда́}}</td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">2:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>for ever / colloquial–neutral</i></td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c2::наве́чно}}</td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">3:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>for ever (poetic / solemn)</i></td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c3::наве́ки}}</td></tr></table>",
+     "order": 0
+    },
+    "Back Extra": {
+     "value": "1: Он навсегда́ уе́хал из го́рода, в кото́ром вы́рос.<br><br>2: Э́та фотогра́фия наве́чно останется в нашей па́мяти.<br><br>3: Его́ и́мя наве́ки вписа́но в исто́рию этой страны́.",
+     "order": 1
+    },
+    "Audio": {
+     "value": "{{c1::[sound:hypertts-0d5a93d4d5357dccf64baf14cb5643eef6cf4806d4e57ec12678d3d2.mp3]}} {{c2::[sound:hypertts-ebc6610682b763e998527a95fcd3b45ba83f1c152b6c5decddaf0b2b.mp3]}} {{c3::[sound:hypertts-df5a62835f0daea55b285595fe10e5ce15763ff83e6206ea3168d980.mp3]}}",
+     "order": 2
+    }
+   },
+   "fieldOrder": 0,
+   "question": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n\n.cloze {\n font-weight: bold;\n color: blue;\n}\n.nightMode .cloze {\n color: lightblue;\n}\n\ntd.pm, td.pc { display: none; }\ntd.pm.show, td.pc.show { display: table-cell; }\n.pm-toggle { font-size: 0.8em; color: #888; text-decoration: underline; cursor: pointer; display: inline-block; margin: 0 8px 6px; }\n\n.audio-row { text-align: center; margin: 10px 0 1.2em; }\n.example { margin-top: 4px; }\n</style><b>for ever</b><br><br><table style=\"margin: 0 auto; text-align: left; border-collapse: collapse;\"><tr><td style=\"padding: 2px 10px; vertical-align: top;\">1:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>for good</i></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze\" data-cloze=\"навсегда́\" data-ordinal=\"1\">[...]</span></td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">2:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>for ever / colloquial–neutral</i></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"2\">наве́чно</span></td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">3:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>for ever (poetic / solemn)</i></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"3\">наве́ки</span></td></tr></table>\n<script>(function(){if(document.querySelector(\".pm-toggle\"))return;var first=document.querySelector(\"td.pc, td.pm\");if(!first)return;var tb=first.closest(\"table\"),bar=document.createElement(\"div\");[[\"pc\",\"prefixes\"],[\"pm\",\"prefix meanings\"]].forEach(function(p){var cells=document.querySelectorAll(\"td.\"+p[0]);if(!cells.length)return;var t=document.createElement(\"span\");t.className=\"pm-toggle\";t.textContent=p[1];t.onclick=function(){cells.forEach(function(e){e.classList.toggle(\"show\")});};bar.appendChild(t);});tb.parentNode.insertBefore(bar,tb);})();</script>",
+   "answer": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n\n.cloze {\n font-weight: bold;\n color: blue;\n}\n.nightMode .cloze {\n color: lightblue;\n}\n\ntd.pm, td.pc { display: none; }\ntd.pm.show, td.pc.show { display: table-cell; }\n.pm-toggle { font-size: 0.8em; color: #888; text-decoration: underline; cursor: pointer; display: inline-block; margin: 0 8px 6px; }\n\n.audio-row { text-align: center; margin: 10px 0 1.2em; }\n.example { margin-top: 4px; }\n</style><b>for ever</b><br><br><table style=\"margin: 0 auto; text-align: left; border-collapse: collapse;\"><tr><td style=\"padding: 2px 10px; vertical-align: top;\">1:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>for good</i></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze\" data-ordinal=\"1\">навсегда́</span></td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">2:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>for ever / colloquial–neutral</i></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"2\">наве́чно</span></td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">3:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>for ever (poetic / solemn)</i></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"3\">наве́ки</span></td></tr></table>\n<div class=\"audio-row\">[anki:play:a:0]</div>\n<div class=\"example\">1: Он навсегда́ уе́хал из го́рода, в кото́ром вы́рос.<br><br>2: Э́та фотогра́фия наве́чно останется в нашей па́мяти.<br><br>3: Его́ и́мя наве́ки вписа́но в исто́рию этой страны́.</div>\n<script>(function(){if(document.querySelector(\".pm-toggle\"))return;var first=document.querySelector(\"td.pc, td.pm\");if(!first)return;var tb=first.closest(\"table\"),bar=document.createElement(\"div\");[[\"pc\",\"prefixes\"],[\"pm\",\"prefix meanings\"]].forEach(function(p){var cells=document.querySelectorAll(\"td.\"+p[0]);if(!cells.length)return;var t=document.createElement(\"span\");t.className=\"pm-toggle\";t.textContent=p[1];t.onclick=function(){cells.forEach(function(e){e.classList.toggle(\"show\")});};bar.appendChild(t);});tb.parentNode.insertBefore(bar,tb);})();</script>",
+   "modelName": "Cloze",
+   "ord": 0,
+   "deckName": "Vocab::10000 words",
+   "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n\n.cloze {\n font-weight: bold;\n color: blue;\n}\n.nightMode .cloze {\n color: lightblue;\n}\n\ntd.pm, td.pc { display: none; }\ntd.pm.show, td.pc.show { display: table-cell; }\n.pm-toggle { font-size: 0.8em; color: #888; text-decoration: underline; cursor: pointer; display: inline-block; margin: 0 8px 6px; }\n\n.audio-row { text-align: center; margin: 10px 0 1.2em; }\n.example { margin-top: 4px; }\n",
+   "factor": 2650,
+   "interval": 833,
+   "note": 1791237533476,
+   "type": 2,
+   "queue": 2,
+   "due": 2483,
+   "reps": 5,
+   "lapses": 0,
+   "left": 0,
+   "mod": 1791365163,
+   "nextReviews": [
+    "⁨30⁩m",
+    "⁨2.3⁩y",
+    "⁨2.3⁩y",
+    "⁨2.3⁩y"
+   ],
+   "flags": 0
+  },
+  {
+   "cardId": 1791237533477,
+   "fields": {
+    "Text": {
+     "value": "<b>for ever</b><br><br><table style=\"margin: 0 auto; text-align: left; border-collapse: collapse;\"><tr><td style=\"padding: 2px 10px; vertical-align: top;\">1:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>for good</i></td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c1::навсегда́}}</td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">2:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>for ever / colloquial–neutral</i></td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c2::наве́чно}}</td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">3:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>for ever (poetic / solemn)</i></td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c3::наве́ки}}</td></tr></table>",
+     "order": 0
+    },
+    "Back Extra": {
+     "value": "1: Он навсегда́ уе́хал из го́рода, в кото́ром вы́рос.<br><br>2: Э́та фотогра́фия наве́чно останется в нашей па́мяти.<br><br>3: Его́ и́мя наве́ки вписа́но в исто́рию этой страны́.",
+     "order": 1
+    },
+    "Audio": {
+     "value": "{{c1::[sound:hypertts-0d5a93d4d5357dccf64baf14cb5643eef6cf4806d4e57ec12678d3d2.mp3]}} {{c2::[sound:hypertts-ebc6610682b763e998527a95fcd3b45ba83f1c152b6c5decddaf0b2b.mp3]}} {{c3::[sound:hypertts-df5a62835f0daea55b285595fe10e5ce15763ff83e6206ea3168d980.mp3]}}",
+     "order": 2
+    }
+   },
+   "fieldOrder": 1,
+   "question": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n\n.cloze {\n font-weight: bold;\n color: blue;\n}\n.nightMode .cloze {\n color: lightblue;\n}\n\ntd.pm, td.pc { display: none; }\ntd.pm.show, td.pc.show { display: table-cell; }\n.pm-toggle { font-size: 0.8em; color: #888; text-decoration: underline; cursor: pointer; display: inline-block; margin: 0 8px 6px; }\n\n.audio-row { text-align: center; margin: 10px 0 1.2em; }\n.example { margin-top: 4px; }\n</style><b>for ever</b><br><br><table style=\"margin: 0 auto; text-align: left; border-collapse: collapse;\"><tr><td style=\"padding: 2px 10px; vertical-align: top;\">1:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>for good</i></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"1\">навсегда́</span></td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">2:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>for ever / colloquial–neutral</i></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze\" data-cloze=\"наве́чно\" data-ordinal=\"2\">[...]</span></td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">3:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>for ever (poetic / solemn)</i></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"3\">наве́ки</span></td></tr></table>\n<script>(function(){if(document.querySelector(\".pm-toggle\"))return;var first=document.querySelector(\"td.pc, td.pm\");if(!first)return;var tb=first.closest(\"table\"),bar=document.createElement(\"div\");[[\"pc\",\"prefixes\"],[\"pm\",\"prefix meanings\"]].forEach(function(p){var cells=document.querySelectorAll(\"td.\"+p[0]);if(!cells.length)return;var t=document.createElement(\"span\");t.className=\"pm-toggle\";t.textContent=p[1];t.onclick=function(){cells.forEach(function(e){e.classList.toggle(\"show\")});};bar.appendChild(t);});tb.parentNode.insertBefore(bar,tb);})();</script>",
+   "answer": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n\n.cloze {\n font-weight: bold;\n color: blue;\n}\n.nightMode .cloze {\n color: lightblue;\n}\n\ntd.pm, td.pc { display: none; }\ntd.pm.show, td.pc.show { display: table-cell; }\n.pm-toggle { font-size: 0.8em; color: #888; text-decoration: underline; cursor: pointer; display: inline-block; margin: 0 8px 6px; }\n\n.audio-row { text-align: center; margin: 10px 0 1.2em; }\n.example { margin-top: 4px; }\n</style><b>for ever</b><br><br><table style=\"margin: 0 auto; text-align: left; border-collapse: collapse;\"><tr><td style=\"padding: 2px 10px; vertical-align: top;\">1:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>for good</i></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"1\">навсегда́</span></td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">2:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>for ever / colloquial–neutral</i></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze\" data-ordinal=\"2\">наве́чно</span></td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">3:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>for ever (poetic / solemn)</i></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"3\">наве́ки</span></td></tr></table>\n<div class=\"audio-row\">[anki:play:a:0]</div>\n<div class=\"example\">1: Он навсегда́ уе́хал из го́рода, в кото́ром вы́рос.<br><br>2: Э́та фотогра́фия наве́чно останется в нашей па́мяти.<br><br>3: Его́ и́мя наве́ки вписа́но в исто́рию этой страны́.</div>\n<script>(function(){if(document.querySelector(\".pm-toggle\"))return;var first=document.querySelector(\"td.pc, td.pm\");if(!first)return;var tb=first.closest(\"table\"),bar=document.createElement(\"div\");[[\"pc\",\"prefixes\"],[\"pm\",\"prefix meanings\"]].forEach(function(p){var cells=document.querySelectorAll(\"td.\"+p[0]);if(!cells.length)return;var t=document.createElement(\"span\");t.className=\"pm-toggle\";t.textContent=p[1];t.onclick=function(){cells.forEach(function(e){e.classList.toggle(\"show\")});};bar.appendChild(t);});tb.parentNode.insertBefore(bar,tb);})();</script>",
+   "modelName": "Cloze",
+   "ord": 1,
+   "deckName": "Vocab::10000 words",
+   "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n\n.cloze {\n font-weight: bold;\n color: blue;\n}\n.nightMode .cloze {\n color: lightblue;\n}\n\ntd.pm, td.pc { display: none; }\ntd.pm.show, td.pc.show { display: table-cell; }\n.pm-toggle { font-size: 0.8em; color: #888; text-decoration: underline; cursor: pointer; display: inline-block; margin: 0 8px 6px; }\n\n.audio-row { text-align: center; margin: 10px 0 1.2em; }\n.example { margin-top: 4px; }\n",
+   "factor": 0,
+   "interval": 0,
+   "note": 1791237533476,
+   "type": 0,
+   "queue": 0,
+   "due": 531,
+   "reps": 0,
+   "lapses": 0,
+   "left": 0,
+   "mod": 1791237533,
+   "nextReviews": [
+    "⁨20⁩m",
+    "⁨40⁩m",
+    "⁨1⁩h",
+    "⁨28⁩d"
+   ],
+   "flags": 0
+  },
+  {
+   "cardId": 1791237533478,
+   "fields": {
+    "Text": {
+     "value": "<b>for ever</b><br><br><table style=\"margin: 0 auto; text-align: left; border-collapse: collapse;\"><tr><td style=\"padding: 2px 10px; vertical-align: top;\">1:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>for good</i></td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c1::навсегда́}}</td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">2:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>for ever / colloquial–neutral</i></td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c2::наве́чно}}</td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">3:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>for ever (poetic / solemn)</i></td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c3::наве́ки}}</td></tr></table>",
+     "order": 0
+    },
+    "Back Extra": {
+     "value": "1: Он навсегда́ уе́хал из го́рода, в кото́ром вы́рос.<br><br>2: Э́та фотогра́фия наве́чно останется в нашей па́мяти.<br><br>3: Его́ и́мя наве́ки вписа́но в исто́рию этой страны́.",
+     "order": 1
+    },
+    "Audio": {
+     "value": "{{c1::[sound:hypertts-0d5a93d4d5357dccf64baf14cb5643eef6cf4806d4e57ec12678d3d2.mp3]}} {{c2::[sound:hypertts-ebc6610682b763e998527a95fcd3b45ba83f1c152b6c5decddaf0b2b.mp3]}} {{c3::[sound:hypertts-df5a62835f0daea55b285595fe10e5ce15763ff83e6206ea3168d980.mp3]}}",
+     "order": 2
+    }
+   },
+   "fieldOrder": 2,
+   "question": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n\n.cloze {\n font-weight: bold;\n color: blue;\n}\n.nightMode .cloze {\n color: lightblue;\n}\n\ntd.pm, td.pc { display: none; }\ntd.pm.show, td.pc.show { display: table-cell; }\n.pm-toggle { font-size: 0.8em; color: #888; text-decoration: underline; cursor: pointer; display: inline-block; margin: 0 8px 6px; }\n\n.audio-row { text-align: center; margin: 10px 0 1.2em; }\n.example { margin-top: 4px; }\n</style><b>for ever</b><br><br><table style=\"margin: 0 auto; text-align: left; border-collapse: collapse;\"><tr><td style=\"padding: 2px 10px; vertical-align: top;\">1:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>for good</i></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"1\">навсегда́</span></td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">2:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>for ever / colloquial–neutral</i></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"2\">наве́чно</span></td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">3:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>for ever (poetic / solemn)</i></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze\" data-cloze=\"наве́ки\" data-ordinal=\"3\">[...]</span></td></tr></table>\n<script>(function(){if(document.querySelector(\".pm-toggle\"))return;var first=document.querySelector(\"td.pc, td.pm\");if(!first)return;var tb=first.closest(\"table\"),bar=document.createElement(\"div\");[[\"pc\",\"prefixes\"],[\"pm\",\"prefix meanings\"]].forEach(function(p){var cells=document.querySelectorAll(\"td.\"+p[0]);if(!cells.length)return;var t=document.createElement(\"span\");t.className=\"pm-toggle\";t.textContent=p[1];t.onclick=function(){cells.forEach(function(e){e.classList.toggle(\"show\")});};bar.appendChild(t);});tb.parentNode.insertBefore(bar,tb);})();</script>",
+   "answer": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n\n.cloze {\n font-weight: bold;\n color: blue;\n}\n.nightMode .cloze {\n color: lightblue;\n}\n\ntd.pm, td.pc { display: none; }\ntd.pm.show, td.pc.show { display: table-cell; }\n.pm-toggle { font-size: 0.8em; color: #888; text-decoration: underline; cursor: pointer; display: inline-block; margin: 0 8px 6px; }\n\n.audio-row { text-align: center; margin: 10px 0 1.2em; }\n.example { margin-top: 4px; }\n</style><b>for ever</b><br><br><table style=\"margin: 0 auto; text-align: left; border-collapse: collapse;\"><tr><td style=\"padding: 2px 10px; vertical-align: top;\">1:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>for good</i></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"1\">навсегда́</span></td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">2:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>for ever / colloquial–neutral</i></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"2\">наве́чно</span></td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">3:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>for ever (poetic / solemn)</i></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze\" data-ordinal=\"3\">наве́ки</span></td></tr></table>\n<div class=\"audio-row\">[anki:play:a:0]</div>\n<div class=\"example\">1: Он навсегда́ уе́хал из го́рода, в кото́ром вы́рос.<br><br>2: Э́та фотогра́фия наве́чно останется в нашей па́мяти.<br><br>3: Его́ и́мя наве́ки вписа́но в исто́рию этой страны́.</div>\n<script>(function(){if(document.querySelector(\".pm-toggle\"))return;var first=document.querySelector(\"td.pc, td.pm\");if(!first)return;var tb=first.closest(\"table\"),bar=document.createElement(\"div\");[[\"pc\",\"prefixes\"],[\"pm\",\"prefix meanings\"]].forEach(function(p){var cells=document.querySelectorAll(\"td.\"+p[0]);if(!cells.length)return;var t=document.createElement(\"span\");t.className=\"pm-toggle\";t.textContent=p[1];t.onclick=function(){cells.forEach(function(e){e.classList.toggle(\"show\")});};bar.appendChild(t);});tb.parentNode.insertBefore(bar,tb);})();</script>",
+   "modelName": "Cloze",
+   "ord": 2,
+   "deckName": "Vocab::10000 words",
+   "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n\n.cloze {\n font-weight: bold;\n color: blue;\n}\n.nightMode .cloze {\n color: lightblue;\n}\n\ntd.pm, td.pc { display: none; }\ntd.pm.show, td.pc.show { display: table-cell; }\n.pm-toggle { font-size: 0.8em; color: #888; text-decoration: underline; cursor: pointer; display: inline-block; margin: 0 8px 6px; }\n\n.audio-row { text-align: center; margin: 10px 0 1.2em; }\n.example { margin-top: 4px; }\n",
+   "factor": 0,
+   "interval": 0,
+   "note": 1791237533476,
+   "type": 0,
+   "queue": 0,
+   "due": 531,
+   "reps": 0,
+   "lapses": 0,
+   "left": 0,
+   "mod": 1791237533,
+   "nextReviews": [
+    "⁨20⁩m",
+    "⁨40⁩m",
+    "⁨1⁩h",
+    "⁨26⁩d"
+   ],
+   "flags": 0
+  },
+  {
+   "cardId": 1791237529722,
+   "fields": {
+    "Text": {
+     "value": "<b>entrance hall</b><br><br><table style=\"margin: 0 auto; text-align: left; border-collapse: collapse;\"><tr><td style=\"padding: 2px 10px; vertical-align: top;\">1:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>modern</i></td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c1::прихо́жая}}</td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">2:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>archaic / literary</i></td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c2::пере́дняя}}</td></tr></table>",
+     "order": 0
+    },
+    "Back Extra": {
+     "value": "1: Гости оставили пальто в прихо́жей и прошли в гостиную.<br><br>2: Барин принял слугу в пере́дней и велел ждать.",
+     "order": 1
+    },
+    "Audio": {
+     "value": "{{c1::[sound:hypertts-51d24dba6e07bceed6e4e4ad57032dfffea1338591c50e0ecab28b2c.mp3]}} {{c2::[sound:hypertts-0705bb5ef1c1ceb783b69b04447864d049d0536b620992285541166e.mp3]}}",
+     "order": 2
+    }
+   },
+   "fieldOrder": 0,
+   "question": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n\n.cloze {\n font-weight: bold;\n color: blue;\n}\n.nightMode .cloze {\n color: lightblue;\n}\n\ntd.pm, td.pc { display: none; }\ntd.pm.show, td.pc.show { display: table-cell; }\n.pm-toggle { font-size: 0.8em; color: #888; text-decoration: underline; cursor: pointer; display: inline-block; margin: 0 8px 6px; }\n\n.audio-row { text-align: center; margin: 10px 0 1.2em; }\n.example { margin-top: 4px; }\n</style><b>entrance hall</b><br><br><table style=\"margin: 0 auto; text-align: left; border-collapse: collapse;\"><tr><td style=\"padding: 2px 10px; vertical-align: top;\">1:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>modern</i></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze\" data-cloze=\"прихо́жая\" data-ordinal=\"1\">[...]</span></td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">2:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>archaic / literary</i></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"2\">пере́дняя</span></td></tr></table>\n<script>(function(){if(document.querySelector(\".pm-toggle\"))return;var first=document.querySelector(\"td.pc, td.pm\");if(!first)return;var tb=first.closest(\"table\"),bar=document.createElement(\"div\");[[\"pc\",\"prefixes\"],[\"pm\",\"prefix meanings\"]].forEach(function(p){var cells=document.querySelectorAll(\"td.\"+p[0]);if(!cells.length)return;var t=document.createElement(\"span\");t.className=\"pm-toggle\";t.textContent=p[1];t.onclick=function(){cells.forEach(function(e){e.classList.toggle(\"show\")});};bar.appendChild(t);});tb.parentNode.insertBefore(bar,tb);})();</script>",
+   "answer": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n\n.cloze {\n font-weight: bold;\n color: blue;\n}\n.nightMode .cloze {\n color: lightblue;\n}\n\ntd.pm, td.pc { display: none; }\ntd.pm.show, td.pc.show { display: table-cell; }\n.pm-toggle { font-size: 0.8em; color: #888; text-decoration: underline; cursor: pointer; display: inline-block; margin: 0 8px 6px; }\n\n.audio-row { text-align: center; margin: 10px 0 1.2em; }\n.example { margin-top: 4px; }\n</style><b>entrance hall</b><br><br><table style=\"margin: 0 auto; text-align: left; border-collapse: collapse;\"><tr><td style=\"padding: 2px 10px; vertical-align: top;\">1:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>modern</i></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze\" data-ordinal=\"1\">прихо́жая</span></td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">2:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>archaic / literary</i></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"2\">пере́дняя</span></td></tr></table>\n<div class=\"audio-row\">[anki:play:a:0]</div>\n<div class=\"example\">1: Гости оставили пальто в прихо́жей и прошли в гостиную.<br><br>2: Барин принял слугу в пере́дней и велел ждать.</div>\n<script>(function(){if(document.querySelector(\".pm-toggle\"))return;var first=document.querySelector(\"td.pc, td.pm\");if(!first)return;var tb=first.closest(\"table\"),bar=document.createElement(\"div\");[[\"pc\",\"prefixes\"],[\"pm\",\"prefix meanings\"]].forEach(function(p){var cells=document.querySelectorAll(\"td.\"+p[0]);if(!cells.length)return;var t=document.createElement(\"span\");t.className=\"pm-toggle\";t.textContent=p[1];t.onclick=function(){cells.forEach(function(e){e.classList.toggle(\"show\")});};bar.appendChild(t);});tb.parentNode.insertBefore(bar,tb);})();</script>",
+   "modelName": "Cloze",
+   "ord": 0,
+   "deckName": "Vocab::10000 words",
+   "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n\n.cloze {\n font-weight: bold;\n color: blue;\n}\n.nightMode .cloze {\n color: lightblue;\n}\n\ntd.pm, td.pc { display: none; }\ntd.pm.show, td.pc.show { display: table-cell; }\n.pm-toggle { font-size: 0.8em; color: #888; text-decoration: underline; cursor: pointer; display: inline-block; margin: 0 8px 6px; }\n\n.audio-row { text-align: center; margin: 10px 0 1.2em; }\n.example { margin-top: 4px; }\n",
+   "factor": 0,
+   "interval": 0,
+   "note": 1791237529722,
+   "type": 0,
+   "queue": 0,
+   "due": 10,
+   "reps": 0,
+   "lapses": 0,
+   "left": 0,
+   "mod": 1791237529,
+   "nextReviews": [
+    "⁨20⁩m",
+    "⁨40⁩m",
+    "⁨1⁩h",
+    "⁨22⁩d"
+   ],
+   "flags": 0
+  },
+  {
+   "cardId": 1791237529723,
+   "fields": {
+    "Text": {
+     "value": "<b>entrance hall</b><br><br><table style=\"margin: 0 auto; text-align: left; border-collapse: collapse;\"><tr><td style=\"padding: 2px 10px; vertical-align: top;\">1:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>modern</i></td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c1::прихо́жая}}</td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">2:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>archaic / literary</i></td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c2::пере́дняя}}</td></tr></table>",
+     "order": 0
+    },
+    "Back Extra": {
+     "value": "1: Гости оставили пальто в прихо́жей и прошли в гостиную.<br><br>2: Барин принял слугу в пере́дней и велел ждать.",
+     "order": 1
+    },
+    "Audio": {
+     "value": "{{c1::[sound:hypertts-51d24dba6e07bceed6e4e4ad57032dfffea1338591c50e0ecab28b2c.mp3]}} {{c2::[sound:hypertts-0705bb5ef1c1ceb783b69b04447864d049d0536b620992285541166e.mp3]}}",
+     "order": 2
+    }
+   },
+   "fieldOrder": 1,
+   "question": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n\n.cloze {\n font-weight: bold;\n color: blue;\n}\n.nightMode .cloze {\n color: lightblue;\n}\n\ntd.pm, td.pc { display: none; }\ntd.pm.show, td.pc.show { display: table-cell; }\n.pm-toggle { font-size: 0.8em; color: #888; text-decoration: underline; cursor: pointer; display: inline-block; margin: 0 8px 6px; }\n\n.audio-row { text-align: center; margin: 10px 0 1.2em; }\n.example { margin-top: 4px; }\n</style><b>entrance hall</b><br><br><table style=\"margin: 0 auto; text-align: left; border-collapse: collapse;\"><tr><td style=\"padding: 2px 10px; vertical-align: top;\">1:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>modern</i></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"1\">прихо́жая</span></td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">2:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>archaic / literary</i></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze\" data-cloze=\"пере́дняя\" data-ordinal=\"2\">[...]</span></td></tr></table>\n<script>(function(){if(document.querySelector(\".pm-toggle\"))return;var first=document.querySelector(\"td.pc, td.pm\");if(!first)return;var tb=first.closest(\"table\"),bar=document.createElement(\"div\");[[\"pc\",\"prefixes\"],[\"pm\",\"prefix meanings\"]].forEach(function(p){var cells=document.querySelectorAll(\"td.\"+p[0]);if(!cells.length)return;var t=document.createElement(\"span\");t.className=\"pm-toggle\";t.textContent=p[1];t.onclick=function(){cells.forEach(function(e){e.classList.toggle(\"show\")});};bar.appendChild(t);});tb.parentNode.insertBefore(bar,tb);})();</script>",
+   "answer": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n\n.cloze {\n font-weight: bold;\n color: blue;\n}\n.nightMode .cloze {\n color: lightblue;\n}\n\ntd.pm, td.pc { display: none; }\ntd.pm.show, td.pc.show { display: table-cell; }\n.pm-toggle { font-size: 0.8em; color: #888; text-decoration: underline; cursor: pointer; display: inline-block; margin: 0 8px 6px; }\n\n.audio-row { text-align: center; margin: 10px 0 1.2em; }\n.example { margin-top: 4px; }\n</style><b>entrance hall</b><br><br><table style=\"margin: 0 auto; text-align: left; border-collapse: collapse;\"><tr><td style=\"padding: 2px 10px; vertical-align: top;\">1:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>modern</i></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"1\">прихо́жая</span></td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">2:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>archaic / literary</i></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze\" data-ordinal=\"2\">пере́дняя</span></td></tr></table>\n<div class=\"audio-row\">[anki:play:a:0]</div>\n<div class=\"example\">1: Гости оставили пальто в прихо́жей и прошли в гостиную.<br><br>2: Барин принял слугу в пере́дней и велел ждать.</div>\n<script>(function(){if(document.querySelector(\".pm-toggle\"))return;var first=document.querySelector(\"td.pc, td.pm\");if(!first)return;var tb=first.closest(\"table\"),bar=document.createElement(\"div\");[[\"pc\",\"prefixes\"],[\"pm\",\"prefix meanings\"]].forEach(function(p){var cells=document.querySelectorAll(\"td.\"+p[0]);if(!cells.length)return;var t=document.createElement(\"span\");t.className=\"pm-toggle\";t.textContent=p[1];t.onclick=function(){cells.forEach(function(e){e.classList.toggle(\"show\")});};bar.appendChild(t);});tb.parentNode.insertBefore(bar,tb);})();</script>",
+   "modelName": "Cloze",
+   "ord": 1,
+   "deckName": "Vocab::10000 words",
+   "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n\n.cloze {\n font-weight: bold;\n color: blue;\n}\n.nightMode .cloze {\n color: lightblue;\n}\n\ntd.pm, td.pc { display: none; }\ntd.pm.show, td.pc.show { display: table-cell; }\n.pm-toggle { font-size: 0.8em; color: #888; text-decoration: underline; cursor: pointer; display: inline-block; margin: 0 8px 6px; }\n\n.audio-row { text-align: center; margin: 10px 0 1.2em; }\n.example { margin-top: 4px; }\n",
+   "factor": 0,
+   "interval": 0,
+   "note": 1791237529722,
+   "type": 0,
+   "queue": 0,
+   "due": 10,
+   "reps": 0,
+   "lapses": 0,
+   "left": 0,
+   "mod": 1791237529,
+   "nextReviews": [
+    "⁨20⁩m",
+    "⁨40⁩m",
+    "⁨1⁩h",
+    "⁨27⁩d"
+   ],
+   "flags": 0
+  }
+ ]
+}
