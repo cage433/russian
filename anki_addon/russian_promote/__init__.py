@@ -281,8 +281,33 @@ def _patch():
         from . import cloze_audio
         return cloze_audio.generate_basic(self.collection(), noteIds, field, bool(dryRun))
 
+    def setFsrsDifficulty(self, cardIds, difficulty, dryRun=False):
+        """Override FSRS difficulty (1–10) on the given cards, keeping their stability.
+
+        For recovered leeches stuck at maximum difficulty after many old lapses: FSRS lowers
+        difficulty only slightly per Good answer, so a card can pass 15+ reviews in a row and
+        still be scheduled as the hardest kind. Returns each card's old and new state so the
+        change can be reversed. Cards without a memory state (never reviewed under FSRS) are
+        skipped."""
+        from anki.cards import FSRSMemoryState
+        col = self.collection()
+        out = []
+        for cid in cardIds:
+            card = col.get_card(int(cid))
+            ms = card.memory_state
+            if ms is None:
+                out.append({"cardId": cid, "skipped": "no FSRS memory state"})
+                continue
+            rec = {"cardId": cid, "stability": ms.stability, "oldDifficulty": ms.difficulty,
+                   "newDifficulty": float(difficulty)}
+            if not dryRun:
+                card.memory_state = FSRSMemoryState(stability=ms.stability, difficulty=float(difficulty))
+                col.update_card(card)
+            out.append(rec)
+        return out
+
     actions = (getDeckLimits, setNewLimitToday, clearNewLimitToday, autoLimitNow,
-               peekQueue, addonInfo, generateClozeAudio, generateBasicAudio)
+               peekQueue, addonInfo, generateClozeAudio, generateBasicAudio, setFsrsDifficulty)
     for fn in actions:
         fn.api, fn.versions = True, ()
         setattr(ac.AnkiConnect, fn.__name__, fn)

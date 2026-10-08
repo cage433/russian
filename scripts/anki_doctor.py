@@ -47,7 +47,7 @@ CACHES = ("known_lemmas.txt", "known_vocab.tsv")
 CACHE_MAX_AGE_H = 24
 ADDON_ACTIONS = ("getDeckLimits", "setNewLimitToday", "clearNewLimitToday",
                  "autoLimitNow", "peekQueue", "addonInfo", "generateClozeAudio",
-                 "generateBasicAudio")
+                 "generateBasicAudio", "setFsrsDifficulty")
 # Files this process has already loaded: if a pull updates one, the rest of this run would
 # be the old code reporting on the new repo. Exit 2 and ask for a re-run instead.
 SELF_FILES = {"scripts/anki_doctor.py", "scripts/anki_utils.py"}
