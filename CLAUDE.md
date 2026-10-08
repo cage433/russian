@@ -227,6 +227,18 @@ Before an edit that would invalidate a card's `[sound:]` recording (changing/cor
   near-synonym note needs a `generateClozeAudio` call, not a `needs-audio` tag. Changing a cloze
   word or its stress → clear that note's Audio and regenerate (same ask-first rule as above).
 
+## Recovered leeches (FSRS "difficulty hell")
+The collection schedules with **FSRS** (revlog `factor` 100–1000 = difficulty ×100; the 1300–2500
+`factor` on cards is a pre-FSRS leftover and means nothing now). A card with many old lapses sits at
+FSRS difficulty ≈10, and Good answers lower that only slightly — so a word Alex now knows can pass
+15+ reviews in a row and still get short intervals. Found 2026-10-08: of 71 unsuspended leech notes,
+**41 had every card on ≥6 consecutive passes with no lapse in ≥30 days** (median difficulty 9.7).
+Treatment, both together: **remove the `leech` tag** (the tag never clears itself) and **lower FSRS
+difficulty to 5** with the add-on action `setFsrsDifficulty(cardIds, difficulty, dryRun)`, which keeps
+stability. Only lower cards currently *above* the target — some were already at 1. Save the dry-run
+output first (old values); a lapse pushes difficulty back up on its own if a card was misjudged.
+Lists: `tutoring/retired/leech-untag-recovered-*.json`, `fsrs-difficulty-reset-*.json`.
+
 ## Promoting words into today's learning queue
 Tag notes `promote` in the Anki browser, then `scripts/promote_new_cards.py` (`--dry-run` /
 `--clear-limit` / `--clear-tag` / `--restore <snapshot>` / `--skip-index`).
