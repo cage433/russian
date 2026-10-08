@@ -311,6 +311,12 @@ def set_today_limit(deck, n, addon):
         print(f"    -> set by hand: Deck Options -> Daily Limits -> scope 'Today only'"
               f" -> New cards/day = {n}")
         return
+    lims = a.call("getDeckLimits", deck=deck)
+    base = lims.get("deckNewLimit")
+    base = int(base if base is not None else (lims.get("presetNewPerDay") or 0))
+    if base:
+        print(f"    + deck's own rate {base}/day (the today-only stamp replaces it, so it is added)")
+        n += base
     r = a.call("setNewLimitToday", deck=deck, newLimit=n)
     lim = (r.get("limits") or {}).get("newLimitToday") or {}
     print(f"    today-only new limit = {lim.get('limit', '?')} "

@@ -58,6 +58,7 @@ _SOURCE_MTIME = _newest_source_mtime()   # what the running Anki actually loaded
 
 ANKICONNECT_MODULE = "2055492159"
 LIMIT_KEYS = ("newLimitToday", "new_limit_today")   # camel (legacy JSON) / snake
+DECK_LIMIT_KEYS = ("newLimit", "new_limit")          # the "This deck" limit, same spelling rule
 
 # --- automatic sizing passes ------------------------------------------------
 AUTO_LIMIT_ON_STARTUP = True     # set False to disable the profile_did_open pass
@@ -131,6 +132,24 @@ def _deck_id(col, deck):
     return did
 
 
+def _deck_limit_key(deck_dict):
+    for k in DECK_LIMIT_KEYS:
+        if k in deck_dict:
+            return k
+    return None
+
+
+def _base_rate(col, did):
+    """The deck's own new-cards/day: its "This deck" limit if set, else its preset's.
+    Since 2026-10-08 every deck shares one preset at 0 and active decks carry a per-deck
+    limit, so this is the rate the deck would introduce with no promotion at all."""
+    d = col.decks.get_legacy(did)
+    k = _deck_limit_key(d)
+    if k and d[k] is not None:
+        return int(d[k])
+    return int(col.decks.config_dict_for_deck_id(did).get("new", {}).get("perDay") or 0)
+
+
 def _limit_field(deck_dict):
     """-> (key, value_dict) for whichever today-limit key this Anki build uses."""
     for k in LIMIT_KEYS:
@@ -150,6 +169,7 @@ def _read_limits(col, deck):
         "deckId": did,
         "presetName": conf.get("name"),
         "presetNewPerDay": conf.get("new", {}).get("perDay"),
+        "deckNewLimit": (lambda d: d.get(_deck_limit_key(d)) if _deck_limit_key(d) else None)(col.decks.get_legacy(_deck_id(col, deck))),
         "deckNewLimit": d.get("newLimit", d.get("new_limit")),
         "newLimitTodayKey": key,
         "newLimitToday": val,
@@ -281,6 +301,20 @@ def _patch():
         from . import cloze_audio
         return cloze_audio.generate_basic(self.collection(), noteIds, field, bool(dryRun))
 
+    def setDeckNewLimit(self, deck, newLimit=None):
+        """Set (or, with None, clear) the deck's own "This deck" new-cards/day limit — the
+        per-deck override that lets every deck share one preset. Absolute and idempotent."""
+        col = self.collection()
+        did = _deck_id(col, deck)
+        d = col.decks.get_legacy(did)
+        key = _deck_limit_key(d) or DECK_LIMIT_KEYS[0]
+        if newLimit is None:
+            d.pop(key, None)
+        else:
+            d[key] = int(newLimit)
+        col.decks.update_dict(d)
+        return {"ok": True, "deckNewLimit": col.decks.get_legacy(did).get(key)}
+
     def setFsrsDifficulty(self, cardIds, difficulty, dryRun=False):
         """Override FSRS difficulty (1–10) on the given cards, keeping their stability.
 
@@ -307,7 +341,8 @@ def _patch():
         return out
 
     actions = (getDeckLimits, setNewLimitToday, clearNewLimitToday, autoLimitNow,
-               peekQueue, addonInfo, generateClozeAudio, generateBasicAudio, setFsrsDifficulty)
+               peekQueue, addonInfo, generateClozeAudio, generateBasicAudio, setFsrsDifficulty,
+               setDeckNewLimit)
     for fn in actions:
         fn.api, fn.versions = True, ()
         setattr(ac.AnkiConnect, fn.__name__, fn)
@@ -421,11 +456,16 @@ def auto_limit(only_unstamped=False):
         conf = col.decks.config_dict_for_deck_id(did)
         blocked = (_blocked_notes(col, cs)
                    if conf.get("new", {}).get("bury") else set())
-        limit = len({c.nid for c in cs if c.queue == 0 and c.nid not in blocked})
+        promoted = len({c.nid for c in cs if c.queue == 0 and c.nid not in blocked})
+        # The today-only stamp overrides the deck's own limit, so it must carry that rate
+        # too — otherwise promoting 3 words into a 15/day deck would cut the day to 3.
+        # Promoted cards sit at the front, so they are gathered first; the base follows.
+        base = _base_rate(col, did)
+        limit = promoted + base if promoted else 0
         if blocked:
             _log(f"{name}: {len(blocked)} promoted note(s) have a sibling in today's queue; "
                  f"Anki drops their new card at gather, so it is not counted")
-        _log(f"{name}: basis promoted_at_front={len(cs)} "
+        _log(f"{name}: basis promoted_at_front={len(cs)} base_rate={base} "
              f"unavailable={sum(1 for c in cs if c.queue != 0)} blocked={len(blocked)} "
              f"introduced_today={_introduced_today(col, did)} stamped={cur or None}")
 
