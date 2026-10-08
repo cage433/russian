@@ -1,0 +1,121 @@
+{
+ "notes": [
+  {
+   "noteId": 1791380842723,
+   "profile": "User 1",
+   "tags": [
+    "claude",
+    "numbered",
+    "verb"
+   ],
+   "fields": {
+    "Text": {
+     "value": "<b>to have</b><br><br><table style=\"margin: 0 auto; text-align: left; border-collapse: collapse;\"><tbody><tr><td style=\"padding: 2px 10px; vertical-align: top;\">1:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>have, possess (formal, abstract objects)</i></td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c1::име́ть (+a)}}</td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">2:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>possess (a quality, property)</i></td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c2::облада́ть (+inst)}}</td></tr></tbody></table>",
+     "order": 0
+    },
+    "Back Extra": {
+     "value": "1: Компа́ния име́ет большо́й о́пыт в о́бласти информацио́нных техноло́гий.<br><br>2: Он облада́ет ре́дким та́лантом убежда́ть люде́й.",
+     "order": 1
+    },
+    "Audio": {
+     "value": "{{c1::[sound:hypertts-21893fedbb6a2d4af812c5d214be06433c4cf65f72b9c072173a39a6.mp3]}} {{c2::[sound:hypertts-f5a1d24d7fa619f5843da1b68c1391a34bbde56e6eda673d1e7010a3.mp3]}}",
+     "order": 2
+    }
+   },
+   "modelName": "Cloze",
+   "mod": 1791444871,
+   "cards": [
+    1791380842723,
+    1791380842724
+   ]
+  }
+ ],
+ "cards": [
+  {
+   "cardId": 1791380842723,
+   "fields": {
+    "Text": {
+     "value": "<b>to have</b><br><br><table style=\"margin: 0 auto; text-align: left; border-collapse: collapse;\"><tbody><tr><td style=\"padding: 2px 10px; vertical-align: top;\">1:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>have, possess (formal, abstract objects)</i></td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c1::име́ть (+a)}}</td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">2:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>possess (a quality, property)</i></td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c2::облада́ть (+inst)}}</td></tr></tbody></table>",
+     "order": 0
+    },
+    "Back Extra": {
+     "value": "1: Компа́ния име́ет большо́й о́пыт в о́бласти информацио́нных техноло́гий.<br><br>2: Он облада́ет ре́дким та́лантом убежда́ть люде́й.",
+     "order": 1
+    },
+    "Audio": {
+     "value": "{{c1::[sound:hypertts-21893fedbb6a2d4af812c5d214be06433c4cf65f72b9c072173a39a6.mp3]}} {{c2::[sound:hypertts-f5a1d24d7fa619f5843da1b68c1391a34bbde56e6eda673d1e7010a3.mp3]}}",
+     "order": 2
+    }
+   },
+   "fieldOrder": 0,
+   "question": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n\n.cloze {\n font-weight: bold;\n color: blue;\n}\n.nightMode .cloze {\n color: lightblue;\n}\n\ntd.pm, td.pc { display: none; }\ntd.pm.show, td.pc.show { display: table-cell; }\n.pm-toggle { font-size: 0.8em; color: #888; text-decoration: underline; cursor: pointer; display: inline-block; margin: 0 8px 6px; }\n\n.audio-row { text-align: center; margin: 10px 0 1.2em; }\n.example { margin-top: 4px; }\n</style><b>to have</b><br><br><table style=\"margin: 0 auto; text-align: left; border-collapse: collapse;\"><tbody><tr><td style=\"padding: 2px 10px; vertical-align: top;\">1:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>have, possess (formal, abstract objects)</i></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze\" data-cloze=\"име́ть&#x20;&#x28;&#x2B;a&#x29;\" data-ordinal=\"1\">[...]</span></td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">2:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>possess (a quality, property)</i></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"2\">облада́ть (+inst)</span></td></tr></tbody></table>\n<script>(function(){if(document.querySelector(\".pm-toggle\"))return;var first=document.querySelector(\"td.pc, td.pm\");if(!first)return;var tb=first.closest(\"table\"),bar=document.createElement(\"div\");[[\"pc\",\"prefixes\"],[\"pm\",\"prefix meanings\"]].forEach(function(p){var cells=document.querySelectorAll(\"td.\"+p[0]);if(!cells.length)return;var t=document.createElement(\"span\");t.className=\"pm-toggle\";t.textContent=p[1];t.onclick=function(){cells.forEach(function(e){e.classList.toggle(\"show\")});};bar.appendChild(t);});tb.parentNode.insertBefore(bar,tb);})();</script>",
+   "answer": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n\n.cloze {\n font-weight: bold;\n color: blue;\n}\n.nightMode .cloze {\n color: lightblue;\n}\n\ntd.pm, td.pc { display: none; }\ntd.pm.show, td.pc.show { display: table-cell; }\n.pm-toggle { font-size: 0.8em; color: #888; text-decoration: underline; cursor: pointer; display: inline-block; margin: 0 8px 6px; }\n\n.audio-row { text-align: center; margin: 10px 0 1.2em; }\n.example { margin-top: 4px; }\n</style><b>to have</b><br><br><table style=\"margin: 0 auto; text-align: left; border-collapse: collapse;\"><tbody><tr><td style=\"padding: 2px 10px; vertical-align: top;\">1:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>have, possess (formal, abstract objects)</i></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze\" data-ordinal=\"1\">име́ть (+a)</span></td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">2:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>possess (a quality, property)</i></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"2\">облада́ть (+inst)</span></td></tr></tbody></table>\n<div class=\"audio-row\">[anki:play:a:0]</div>\n<div class=\"example\">1: Компа́ния име́ет большо́й о́пыт в о́бласти информацио́нных техноло́гий.<br><br>2: Он облада́ет ре́дким та́лантом убежда́ть люде́й.</div>\n<script>(function(){if(document.querySelector(\".pm-toggle\"))return;var first=document.querySelector(\"td.pc, td.pm\");if(!first)return;var tb=first.closest(\"table\"),bar=document.createElement(\"div\");[[\"pc\",\"prefixes\"],[\"pm\",\"prefix meanings\"]].forEach(function(p){var cells=document.querySelectorAll(\"td.\"+p[0]);if(!cells.length)return;var t=document.createElement(\"span\");t.className=\"pm-toggle\";t.textContent=p[1];t.onclick=function(){cells.forEach(function(e){e.classList.toggle(\"show\")});};bar.appendChild(t);});tb.parentNode.insertBefore(bar,tb);})();</script>",
+   "modelName": "Cloze",
+   "ord": 0,
+   "deckName": "Vocab::10000 words",
+   "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n\n.cloze {\n font-weight: bold;\n color: blue;\n}\n.nightMode .cloze {\n color: lightblue;\n}\n\ntd.pm, td.pc { display: none; }\ntd.pm.show, td.pc.show { display: table-cell; }\n.pm-toggle { font-size: 0.8em; color: #888; text-decoration: underline; cursor: pointer; display: inline-block; margin: 0 8px 6px; }\n\n.audio-row { text-align: center; margin: 10px 0 1.2em; }\n.example { margin-top: 4px; }\n",
+   "factor": 2650,
+   "interval": 489,
+   "note": 1791380842723,
+   "type": 2,
+   "queue": 2,
+   "due": 2030,
+   "reps": 6,
+   "lapses": 0,
+   "left": 0,
+   "mod": 1791380842,
+   "nextReviews": [
+    "⁨30⁩m",
+    "⁨1.4⁩y",
+    "⁨1.5⁩y",
+    "⁨1.6⁩y"
+   ],
+   "flags": 0
+  },
+  {
+   "cardId": 1791380842724,
+   "fields": {
+    "Text": {
+     "value": "<b>to have</b><br><br><table style=\"margin: 0 auto; text-align: left; border-collapse: collapse;\"><tbody><tr><td style=\"padding: 2px 10px; vertical-align: top;\">1:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>have, possess (formal, abstract objects)</i></td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c1::име́ть (+a)}}</td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">2:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>possess (a quality, property)</i></td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c2::облада́ть (+inst)}}</td></tr></tbody></table>",
+     "order": 0
+    },
+    "Back Extra": {
+     "value": "1: Компа́ния име́ет большо́й о́пыт в о́бласти информацио́нных техноло́гий.<br><br>2: Он облада́ет ре́дким та́лантом убежда́ть люде́й.",
+     "order": 1
+    },
+    "Audio": {
+     "value": "{{c1::[sound:hypertts-21893fedbb6a2d4af812c5d214be06433c4cf65f72b9c072173a39a6.mp3]}} {{c2::[sound:hypertts-f5a1d24d7fa619f5843da1b68c1391a34bbde56e6eda673d1e7010a3.mp3]}}",
+     "order": 2
+    }
+   },
+   "fieldOrder": 1,
+   "question": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n\n.cloze {\n font-weight: bold;\n color: blue;\n}\n.nightMode .cloze {\n color: lightblue;\n}\n\ntd.pm, td.pc { display: none; }\ntd.pm.show, td.pc.show { display: table-cell; }\n.pm-toggle { font-size: 0.8em; color: #888; text-decoration: underline; cursor: pointer; display: inline-block; margin: 0 8px 6px; }\n\n.audio-row { text-align: center; margin: 10px 0 1.2em; }\n.example { margin-top: 4px; }\n</style><b>to have</b><br><br><table style=\"margin: 0 auto; text-align: left; border-collapse: collapse;\"><tbody><tr><td style=\"padding: 2px 10px; vertical-align: top;\">1:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>have, possess (formal, abstract objects)</i></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"1\">име́ть (+a)</span></td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">2:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>possess (a quality, property)</i></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze\" data-cloze=\"облада́ть&#x20;&#x28;&#x2B;inst&#x29;\" data-ordinal=\"2\">[...]</span></td></tr></tbody></table>\n<script>(function(){if(document.querySelector(\".pm-toggle\"))return;var first=document.querySelector(\"td.pc, td.pm\");if(!first)return;var tb=first.closest(\"table\"),bar=document.createElement(\"div\");[[\"pc\",\"prefixes\"],[\"pm\",\"prefix meanings\"]].forEach(function(p){var cells=document.querySelectorAll(\"td.\"+p[0]);if(!cells.length)return;var t=document.createElement(\"span\");t.className=\"pm-toggle\";t.textContent=p[1];t.onclick=function(){cells.forEach(function(e){e.classList.toggle(\"show\")});};bar.appendChild(t);});tb.parentNode.insertBefore(bar,tb);})();</script>",
+   "answer": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n\n.cloze {\n font-weight: bold;\n color: blue;\n}\n.nightMode .cloze {\n color: lightblue;\n}\n\ntd.pm, td.pc { display: none; }\ntd.pm.show, td.pc.show { display: table-cell; }\n.pm-toggle { font-size: 0.8em; color: #888; text-decoration: underline; cursor: pointer; display: inline-block; margin: 0 8px 6px; }\n\n.audio-row { text-align: center; margin: 10px 0 1.2em; }\n.example { margin-top: 4px; }\n</style><b>to have</b><br><br><table style=\"margin: 0 auto; text-align: left; border-collapse: collapse;\"><tbody><tr><td style=\"padding: 2px 10px; vertical-align: top;\">1:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>have, possess (formal, abstract objects)</i></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"1\">име́ть (+a)</span></td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">2:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>possess (a quality, property)</i></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze\" data-ordinal=\"2\">облада́ть (+inst)</span></td></tr></tbody></table>\n<div class=\"audio-row\">[anki:play:a:0]</div>\n<div class=\"example\">1: Компа́ния име́ет большо́й о́пыт в о́бласти информацио́нных техноло́гий.<br><br>2: Он облада́ет ре́дким та́лантом убежда́ть люде́й.</div>\n<script>(function(){if(document.querySelector(\".pm-toggle\"))return;var first=document.querySelector(\"td.pc, td.pm\");if(!first)return;var tb=first.closest(\"table\"),bar=document.createElement(\"div\");[[\"pc\",\"prefixes\"],[\"pm\",\"prefix meanings\"]].forEach(function(p){var cells=document.querySelectorAll(\"td.\"+p[0]);if(!cells.length)return;var t=document.createElement(\"span\");t.className=\"pm-toggle\";t.textContent=p[1];t.onclick=function(){cells.forEach(function(e){e.classList.toggle(\"show\")});};bar.appendChild(t);});tb.parentNode.insertBefore(bar,tb);})();</script>",
+   "modelName": "Cloze",
+   "ord": 1,
+   "deckName": "Vocab::10000 words",
+   "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n\n.cloze {\n font-weight: bold;\n color: blue;\n}\n.nightMode .cloze {\n color: lightblue;\n}\n\ntd.pm, td.pc { display: none; }\ntd.pm.show, td.pc.show { display: table-cell; }\n.pm-toggle { font-size: 0.8em; color: #888; text-decoration: underline; cursor: pointer; display: inline-block; margin: 0 8px 6px; }\n\n.audio-row { text-align: center; margin: 10px 0 1.2em; }\n.example { margin-top: 4px; }\n",
+   "factor": 0,
+   "interval": 0,
+   "note": 1791380842723,
+   "type": 0,
+   "queue": 0,
+   "due": 10,
+   "reps": 0,
+   "lapses": 0,
+   "left": 0,
+   "mod": 1791380842,
+   "nextReviews": [
+    "⁨20⁩m",
+    "⁨40⁩m",
+    "⁨1⁩h",
+    "⁨27⁩d"
+   ],
+   "flags": 0
+  }
+ ],
+ "reviews": {
+  "1791380842723": [],
+  "1791380842724": []
+ }
+}
