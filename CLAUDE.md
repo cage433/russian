@@ -164,6 +164,14 @@ series. Words the textbooks teach that aren't already known get authored as flas
   `build_drill_vocab.py` and `export_learning_vocab.py` all read Basic Front/Back and do not see
   Cloze notes (the export's per-sense tables for near-synonym groups relied on the numbered
   form). Cloze audio is generated differently — see the Audio rule section.
+- **Function words → "Cloze Sentence" notes** (adopted 2026-10-08 after a trial Alex liked: "a very
+  helpful format"). One note per word, 2–3 sentences covering its uses, each `<div class="sent">` with
+  one `{{cN::word}}` and the English in `<span class="en">`; the note type's CSS shows only the
+  sentence holding the active cloze (`.sent:has(.cloze)`), so the other sentences never give the word
+  away. **One-way by design** — producing во́все from a bare "at all" isn't a useful skill; producing it
+  in context is. Back Extra = a one-line usage note. Audio: `generateClozeAudio` speaks the whole
+  sentence with the word filled in. Capitalise the cloze when it starts the sentence. 34 words so far
+  (во́все, вро́де, ра́зве, столь, вообще́, …, при, ра́ди, всего́), tags `sentence-trial` / `sentence-batch2`.
 - **Verbs of motion → one note carrying all four forms** (Alex's call, 2026-09-05; he knows the
   abstract/concrete distinction and wants the terms used, not paraphrased as "habitually or in
   various directions"):
