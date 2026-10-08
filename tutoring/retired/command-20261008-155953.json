@@ -1,0 +1,1410 @@
+{
+ "notes": [
+  {
+   "noteId": 1726634605778,
+   "profile": "User 1",
+   "tags": [
+    "leech",
+    "verb"
+   ],
+   "fields": {
+    "Front": {
+     "value": "to command (sth)",
+     "order": 0
+    },
+    "Back": {
+     "value": "кома́ндовать /&nbsp;скома́ндовать<b>&nbsp;</b>(+inst)<br><br> [sound:hypertts-64dddc54616d8030b1061ca9455f1f61f4f790ca0b0d7321d40a17c3.mp3]",
+     "order": 1
+    },
+    "Example": {
+     "value": "Генерал кома́ндовал армией на протяжении всей кампании.",
+     "order": 2
+    }
+   },
+   "modelName": "Basic (and reversed card)",
+   "mod": 1787376872,
+   "cards": [
+    1726634607356,
+    1726634607357
+   ]
+  },
+  {
+   "noteId": 1726634606008,
+   "profile": "User 1",
+   "tags": [
+    "claude",
+    "verb"
+   ],
+   "fields": {
+    "Front": {
+     "value": "to order (s.o. to do sth)",
+     "order": 0
+    },
+    "Back": {
+     "value": "веле́ть (i/p) (+d +inf)<br><br> [sound:hypertts-d93b8f96fb81230c6284224f6f13c6bac42191bc04a19c9a528e18e2.mp3]",
+     "order": 1
+    },
+    "Example": {
+     "value": "Оте́ц веле́л де́тям ложи́ться спать в де́сять часо́в.",
+     "order": 2
+    }
+   },
+   "modelName": "Basic (and reversed card)",
+   "mod": 1787376872,
+   "cards": [
+    1726634607816,
+    1726634607817
+   ]
+  },
+  {
+   "noteId": 1726634612958,
+   "profile": "User 1",
+   "tags": [
+    "claude",
+    "verb"
+   ],
+   "fields": {
+    "Front": {
+     "value": "to give orders / (+inst) deal with, manage, be in charge of",
+     "order": 0
+    },
+    "Back": {
+     "value": "распоряжа́ться / распоряди́ться<br><br> [sound:hypertts-e0b79cea7931dba89f8c6225f828a0087062debc4ca4e5ac8836081f.mp3]",
+     "order": 1
+    },
+    "Example": {
+     "value": "Дире́ктор распоряди́лся нача́ть ремо́нт как можно скоре́е.",
+     "order": 2
+    }
+   },
+   "modelName": "Basic (and reversed card)",
+   "mod": 1787376872,
+   "cards": [
+    1726634621716,
+    1726634621717
+   ]
+  },
+  {
+   "noteId": 1726634606677,
+   "profile": "User 1",
+   "tags": [
+    "B1.2-4.2",
+    "claude",
+    "native",
+    "verb"
+   ],
+   "fields": {
+    "Front": {
+     "value": "to manage, supervise",
+     "order": 0
+    },
+    "Back": {
+     "value": "руководи́ть (i) (+inst)<br><br> [sound:hypertts-7741e010ca4a0488aa666b6cb2707938e0e57ffb9dd54646dabde831.mp3]",
+     "order": 1
+    },
+    "Example": {
+     "value": "Она́ руководи́т большо́й кома́ндой специали́стов уже́ пять лет.",
+     "order": 2
+    }
+   },
+   "modelName": "Basic (and reversed card)",
+   "mod": 1788584999,
+   "cards": [
+    1726634609154,
+    1726634609155
+   ]
+  },
+  {
+   "noteId": 1726634610636,
+   "profile": "User 1",
+   "tags": [
+    "claude",
+    "verb"
+   ],
+   "fields": {
+    "Front": {
+     "value": "to rule",
+     "order": 0
+    },
+    "Back": {
+     "value": "пра́вить (i) (+inst)<br><br> [sound:hypertts-d25f5afe84c98861337e9841444d999624b3eba66da7d602d4813a48.mp3]",
+     "order": 1
+    },
+    "Example": {
+     "value": "Царь пра́вил страно́й бо́лее со́рока лет и пользовался уваже́нием.",
+     "order": 2
+    }
+   },
+   "modelName": "Basic (and reversed card)",
+   "mod": 1787376872,
+   "cards": [
+    1726634617072,
+    1726634617073
+   ]
+  }
+ ],
+ "cards": [
+  {
+   "cardId": 1726634607356,
+   "fields": {
+    "Front": {
+     "value": "to command (sth)",
+     "order": 0
+    },
+    "Back": {
+     "value": "кома́ндовать /&nbsp;скома́ндовать<b>&nbsp;</b>(+inst)<br><br> [sound:hypertts-64dddc54616d8030b1061ca9455f1f61f4f790ca0b0d7321d40a17c3.mp3]",
+     "order": 1
+    },
+    "Example": {
+     "value": "Генерал кома́ндовал армией на протяжении всей кампании.",
+     "order": 2
+    }
+   },
+   "fieldOrder": 0,
+   "question": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>to command (sth)",
+   "answer": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>to command (sth)\n\n<hr id=answer>\n\nкома́ндовать /&nbsp;скома́ндовать<b>&nbsp;</b>(+inst)<br><br> [anki:play:a:0]\n<br><br><i>Генерал кома́ндовал армией на протяжении всей кампании.</i>",
+   "modelName": "Basic (and reversed card)",
+   "ord": 0,
+   "deckName": "Vocab::10000 words",
+   "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
+   "factor": 1400,
+   "interval": 6,
+   "note": 1726634605778,
+   "type": 2,
+   "queue": 2,
+   "due": 1723,
+   "reps": 55,
+   "lapses": 7,
+   "left": 0,
+   "mod": 1791110951,
+   "nextReviews": [
+    "⁨30⁩m",
+    "⁨6⁩d",
+    "⁨7⁩d",
+    "⁨8⁩d"
+   ],
+   "flags": 0
+  },
+  {
+   "cardId": 1726634607357,
+   "fields": {
+    "Front": {
+     "value": "to command (sth)",
+     "order": 0
+    },
+    "Back": {
+     "value": "кома́ндовать /&nbsp;скома́ндовать<b>&nbsp;</b>(+inst)<br><br> [sound:hypertts-64dddc54616d8030b1061ca9455f1f61f4f790ca0b0d7321d40a17c3.mp3]",
+     "order": 1
+    },
+    "Example": {
+     "value": "Генерал кома́ндовал армией на протяжении всей кампании.",
+     "order": 2
+    }
+   },
+   "fieldOrder": 1,
+   "question": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>кома́ндовать /&nbsp;скома́ндовать<b>&nbsp;</b>(+inst)<br><br> [anki:play:q:0]\n<br><br>\n<a class=hint href=\"#\"\nonclick=\"this.style.display='none';\ndocument.getElementById('hint50a2a899a043e346').style.display='block';\nreturn false;\" draggable=false>\nExample</a>\n<div id=\"hint50a2a899a043e346\" class=hint style=\"display: none\">Генерал кома́ндовал армией на протяжении всей кампании.</div>\n",
+   "answer": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>кома́ндовать /&nbsp;скома́ндовать<b>&nbsp;</b>(+inst)<br><br> [anki:play:q:0]\n<br><br>\n<a class=hint href=\"#\"\nonclick=\"this.style.display='none';\ndocument.getElementById('hint50a2a899a043e346').style.display='block';\nreturn false;\" draggable=false>\nExample</a>\n<div id=\"hint50a2a899a043e346\" class=hint style=\"display: none\">Генерал кома́ндовал армией на протяжении всей кампании.</div>\n\n\n<hr id=answer>\n\nto command (sth)",
+   "modelName": "Basic (and reversed card)",
+   "ord": 1,
+   "deckName": "Vocab::10000 words",
+   "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
+   "factor": 2500,
+   "interval": 105,
+   "note": 1726634605778,
+   "type": 2,
+   "queue": 2,
+   "due": 1728,
+   "reps": 7,
+   "lapses": 0,
+   "left": 0,
+   "mod": 1791110951,
+   "nextReviews": [
+    "⁨30⁩m",
+    "⁨3.5⁩mo",
+    "⁨7.4⁩mo",
+    "⁨1.2⁩y"
+   ],
+   "flags": 0
+  },
+  {
+   "cardId": 1726634607816,
+   "fields": {
+    "Front": {
+     "value": "to order (s.o. to do sth)",
+     "order": 0
+    },
+    "Back": {
+     "value": "веле́ть (i/p) (+d +inf)<br><br> [sound:hypertts-d93b8f96fb81230c6284224f6f13c6bac42191bc04a19c9a528e18e2.mp3]",
+     "order": 1
+    },
+    "Example": {
+     "value": "Оте́ц веле́л де́тям ложи́ться спать в де́сять часо́в.",
+     "order": 2
+    }
+   },
+   "fieldOrder": 0,
+   "question": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>to order (s.o. to do sth)",
+   "answer": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>to order (s.o. to do sth)\n\n<hr id=answer>\n\nвеле́ть (i/p) (+d +inf)<br><br> [anki:play:a:0]\n<br><br><i>Оте́ц веле́л де́тям ложи́ться спать в де́сять часо́в.</i>",
+   "modelName": "Basic (and reversed card)",
+   "ord": 0,
+   "deckName": "Vocab::10000 words",
+   "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
+   "factor": 0,
+   "interval": 0,
+   "note": 1726634606008,
+   "type": 0,
+   "queue": 0,
+   "due": 227,
+   "reps": 0,
+   "lapses": 0,
+   "left": 0,
+   "mod": 1781060031,
+   "nextReviews": [
+    "⁨20⁩m",
+    "⁨40⁩m",
+    "⁨1⁩h",
+    "⁨24⁩d"
+   ],
+   "flags": 0
+  },
+  {
+   "cardId": 1726634607817,
+   "fields": {
+    "Front": {
+     "value": "to order (s.o. to do sth)",
+     "order": 0
+    },
+    "Back": {
+     "value": "веле́ть (i/p) (+d +inf)<br><br> [sound:hypertts-d93b8f96fb81230c6284224f6f13c6bac42191bc04a19c9a528e18e2.mp3]",
+     "order": 1
+    },
+    "Example": {
+     "value": "Оте́ц веле́л де́тям ложи́ться спать в де́сять часо́в.",
+     "order": 2
+    }
+   },
+   "fieldOrder": 1,
+   "question": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>веле́ть (i/p) (+d +inf)<br><br> [anki:play:q:0]\n<br><br>\n<a class=hint href=\"#\"\nonclick=\"this.style.display='none';\ndocument.getElementById('hint7b3184f4303f72a1').style.display='block';\nreturn false;\" draggable=false>\nExample</a>\n<div id=\"hint7b3184f4303f72a1\" class=hint style=\"display: none\">Оте́ц веле́л де́тям ложи́ться спать в де́сять часо́в.</div>\n",
+   "answer": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>веле́ть (i/p) (+d +inf)<br><br> [anki:play:q:0]\n<br><br>\n<a class=hint href=\"#\"\nonclick=\"this.style.display='none';\ndocument.getElementById('hint7b3184f4303f72a1').style.display='block';\nreturn false;\" draggable=false>\nExample</a>\n<div id=\"hint7b3184f4303f72a1\" class=hint style=\"display: none\">Оте́ц веле́л де́тям ложи́ться спать в де́сять часо́в.</div>\n\n\n<hr id=answer>\n\nto order (s.o. to do sth)",
+   "modelName": "Basic (and reversed card)",
+   "ord": 1,
+   "deckName": "Vocab::10000 words",
+   "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
+   "factor": 0,
+   "interval": 0,
+   "note": 1726634606008,
+   "type": 0,
+   "queue": 0,
+   "due": 228,
+   "reps": 0,
+   "lapses": 0,
+   "left": 0,
+   "mod": 1781060031,
+   "nextReviews": [
+    "⁨20⁩m",
+    "⁨40⁩m",
+    "⁨1⁩h",
+    "⁨25⁩d"
+   ],
+   "flags": 0
+  },
+  {
+   "cardId": 1726634621716,
+   "fields": {
+    "Front": {
+     "value": "to give orders / (+inst) deal with, manage, be in charge of",
+     "order": 0
+    },
+    "Back": {
+     "value": "распоряжа́ться / распоряди́ться<br><br> [sound:hypertts-e0b79cea7931dba89f8c6225f828a0087062debc4ca4e5ac8836081f.mp3]",
+     "order": 1
+    },
+    "Example": {
+     "value": "Дире́ктор распоряди́лся нача́ть ремо́нт как можно скоре́е.",
+     "order": 2
+    }
+   },
+   "fieldOrder": 0,
+   "question": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>to give orders / (+inst) deal with, manage, be in charge of",
+   "answer": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>to give orders / (+inst) deal with, manage, be in charge of\n\n<hr id=answer>\n\nраспоряжа́ться / распоряди́ться<br><br> [anki:play:a:0]\n<br><br><i>Дире́ктор распоряди́лся нача́ть ремо́нт как можно скоре́е.</i>",
+   "modelName": "Basic (and reversed card)",
+   "ord": 0,
+   "deckName": "Vocab::10000 words",
+   "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
+   "factor": 0,
+   "interval": 0,
+   "note": 1726634612958,
+   "type": 0,
+   "queue": 0,
+   "due": 12971,
+   "reps": 0,
+   "lapses": 0,
+   "left": 0,
+   "mod": 1781060350,
+   "nextReviews": [
+    "⁨20⁩m",
+    "⁨40⁩m",
+    "⁨1⁩h",
+    "⁨22⁩d"
+   ],
+   "flags": 0
+  },
+  {
+   "cardId": 1726634621717,
+   "fields": {
+    "Front": {
+     "value": "to give orders / (+inst) deal with, manage, be in charge of",
+     "order": 0
+    },
+    "Back": {
+     "value": "распоряжа́ться / распоряди́ться<br><br> [sound:hypertts-e0b79cea7931dba89f8c6225f828a0087062debc4ca4e5ac8836081f.mp3]",
+     "order": 1
+    },
+    "Example": {
+     "value": "Дире́ктор распоряди́лся нача́ть ремо́нт как можно скоре́е.",
+     "order": 2
+    }
+   },
+   "fieldOrder": 1,
+   "question": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>распоряжа́ться / распоряди́ться<br><br> [anki:play:q:0]\n<br><br>\n<a class=hint href=\"#\"\nonclick=\"this.style.display='none';\ndocument.getElementById('hint305b7b43d3e31d77').style.display='block';\nreturn false;\" draggable=false>\nExample</a>\n<div id=\"hint305b7b43d3e31d77\" class=hint style=\"display: none\">Дире́ктор распоряди́лся нача́ть ремо́нт как можно скоре́е.</div>\n",
+   "answer": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>распоряжа́ться / распоряди́ться<br><br> [anki:play:q:0]\n<br><br>\n<a class=hint href=\"#\"\nonclick=\"this.style.display='none';\ndocument.getElementById('hint305b7b43d3e31d77').style.display='block';\nreturn false;\" draggable=false>\nExample</a>\n<div id=\"hint305b7b43d3e31d77\" class=hint style=\"display: none\">Дире́ктор распоряди́лся нача́ть ремо́нт как можно скоре́е.</div>\n\n\n<hr id=answer>\n\nto give orders / (+inst) deal with, manage, be in charge of",
+   "modelName": "Basic (and reversed card)",
+   "ord": 1,
+   "deckName": "Vocab::10000 words",
+   "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
+   "factor": 0,
+   "interval": 0,
+   "note": 1726634612958,
+   "type": 0,
+   "queue": 0,
+   "due": 12972,
+   "reps": 0,
+   "lapses": 0,
+   "left": 0,
+   "mod": 1781060350,
+   "nextReviews": [
+    "⁨20⁩m",
+    "⁨40⁩m",
+    "⁨1⁩h",
+    "⁨22⁩d"
+   ],
+   "flags": 0
+  },
+  {
+   "cardId": 1726634609154,
+   "fields": {
+    "Front": {
+     "value": "to manage, supervise",
+     "order": 0
+    },
+    "Back": {
+     "value": "руководи́ть (i) (+inst)<br><br> [sound:hypertts-7741e010ca4a0488aa666b6cb2707938e0e57ffb9dd54646dabde831.mp3]",
+     "order": 1
+    },
+    "Example": {
+     "value": "Она́ руководи́т большо́й кома́ндой специали́стов уже́ пять лет.",
+     "order": 2
+    }
+   },
+   "fieldOrder": 0,
+   "question": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>to manage, supervise",
+   "answer": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>to manage, supervise\n\n<hr id=answer>\n\nруководи́ть (i) (+inst)<br><br> [anki:play:a:0]\n<br><br><i>Она́ руководи́т большо́й кома́ндой специали́стов уже́ пять лет.</i>",
+   "modelName": "Basic (and reversed card)",
+   "ord": 0,
+   "deckName": "Vocab::10000 words",
+   "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
+   "factor": 0,
+   "interval": 0,
+   "note": 1726634606677,
+   "type": 0,
+   "queue": 0,
+   "due": 1455,
+   "reps": 0,
+   "lapses": 0,
+   "left": 0,
+   "mod": 1781060062,
+   "nextReviews": [
+    "⁨20⁩m",
+    "⁨40⁩m",
+    "⁨1⁩h",
+    "⁨26⁩d"
+   ],
+   "flags": 0
+  },
+  {
+   "cardId": 1726634609155,
+   "fields": {
+    "Front": {
+     "value": "to manage, supervise",
+     "order": 0
+    },
+    "Back": {
+     "value": "руководи́ть (i) (+inst)<br><br> [sound:hypertts-7741e010ca4a0488aa666b6cb2707938e0e57ffb9dd54646dabde831.mp3]",
+     "order": 1
+    },
+    "Example": {
+     "value": "Она́ руководи́т большо́й кома́ндой специали́стов уже́ пять лет.",
+     "order": 2
+    }
+   },
+   "fieldOrder": 1,
+   "question": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>руководи́ть (i) (+inst)<br><br> [anki:play:q:0]\n<br><br>\n<a class=hint href=\"#\"\nonclick=\"this.style.display='none';\ndocument.getElementById('hint4f75d5e199506a08').style.display='block';\nreturn false;\" draggable=false>\nExample</a>\n<div id=\"hint4f75d5e199506a08\" class=hint style=\"display: none\">Она́ руководи́т большо́й кома́ндой специали́стов уже́ пять лет.</div>\n",
+   "answer": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>руководи́ть (i) (+inst)<br><br> [anki:play:q:0]\n<br><br>\n<a class=hint href=\"#\"\nonclick=\"this.style.display='none';\ndocument.getElementById('hint4f75d5e199506a08').style.display='block';\nreturn false;\" draggable=false>\nExample</a>\n<div id=\"hint4f75d5e199506a08\" class=hint style=\"display: none\">Она́ руководи́т большо́й кома́ндой специали́стов уже́ пять лет.</div>\n\n\n<hr id=answer>\n\nto manage, supervise",
+   "modelName": "Basic (and reversed card)",
+   "ord": 1,
+   "deckName": "Vocab::10000 words",
+   "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
+   "factor": 0,
+   "interval": 0,
+   "note": 1726634606677,
+   "type": 0,
+   "queue": 0,
+   "due": 1456,
+   "reps": 0,
+   "lapses": 0,
+   "left": 0,
+   "mod": 1781060062,
+   "nextReviews": [
+    "⁨20⁩m",
+    "⁨40⁩m",
+    "⁨1⁩h",
+    "⁨25⁩d"
+   ],
+   "flags": 0
+  },
+  {
+   "cardId": 1726634617072,
+   "fields": {
+    "Front": {
+     "value": "to rule",
+     "order": 0
+    },
+    "Back": {
+     "value": "пра́вить (i) (+inst)<br><br> [sound:hypertts-d25f5afe84c98861337e9841444d999624b3eba66da7d602d4813a48.mp3]",
+     "order": 1
+    },
+    "Example": {
+     "value": "Царь пра́вил страно́й бо́лее со́рока лет и пользовался уваже́нием.",
+     "order": 2
+    }
+   },
+   "fieldOrder": 0,
+   "question": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>to rule",
+   "answer": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>to rule\n\n<hr id=answer>\n\nпра́вить (i) (+inst)<br><br> [anki:play:a:0]\n<br><br><i>Царь пра́вил страно́й бо́лее со́рока лет и пользовался уваже́нием.</i>",
+   "modelName": "Basic (and reversed card)",
+   "ord": 0,
+   "deckName": "Vocab::10000 words",
+   "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
+   "factor": 0,
+   "interval": 0,
+   "note": 1726634610636,
+   "type": 0,
+   "queue": 0,
+   "due": 8715,
+   "reps": 0,
+   "lapses": 0,
+   "left": 0,
+   "mod": 1781060243,
+   "nextReviews": [
+    "⁨20⁩m",
+    "⁨40⁩m",
+    "⁨1⁩h",
+    "⁨28⁩d"
+   ],
+   "flags": 0
+  },
+  {
+   "cardId": 1726634617073,
+   "fields": {
+    "Front": {
+     "value": "to rule",
+     "order": 0
+    },
+    "Back": {
+     "value": "пра́вить (i) (+inst)<br><br> [sound:hypertts-d25f5afe84c98861337e9841444d999624b3eba66da7d602d4813a48.mp3]",
+     "order": 1
+    },
+    "Example": {
+     "value": "Царь пра́вил страно́й бо́лее со́рока лет и пользовался уваже́нием.",
+     "order": 2
+    }
+   },
+   "fieldOrder": 1,
+   "question": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>пра́вить (i) (+inst)<br><br> [anki:play:q:0]\n<br><br>\n<a class=hint href=\"#\"\nonclick=\"this.style.display='none';\ndocument.getElementById('hint2a576f7d839c6f6c').style.display='block';\nreturn false;\" draggable=false>\nExample</a>\n<div id=\"hint2a576f7d839c6f6c\" class=hint style=\"display: none\">Царь пра́вил страно́й бо́лее со́рока лет и пользовался уваже́нием.</div>\n",
+   "answer": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>пра́вить (i) (+inst)<br><br> [anki:play:q:0]\n<br><br>\n<a class=hint href=\"#\"\nonclick=\"this.style.display='none';\ndocument.getElementById('hint2a576f7d839c6f6c').style.display='block';\nreturn false;\" draggable=false>\nExample</a>\n<div id=\"hint2a576f7d839c6f6c\" class=hint style=\"display: none\">Царь пра́вил страно́й бо́лее со́рока лет и пользовался уваже́нием.</div>\n\n\n<hr id=answer>\n\nto rule",
+   "modelName": "Basic (and reversed card)",
+   "ord": 1,
+   "deckName": "Vocab::10000 words",
+   "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
+   "factor": 0,
+   "interval": 0,
+   "note": 1726634610636,
+   "type": 0,
+   "queue": 0,
+   "due": 8716,
+   "reps": 0,
+   "lapses": 0,
+   "left": 0,
+   "mod": 1781060243,
+   "nextReviews": [
+    "⁨20⁩m",
+    "⁨40⁩m",
+    "⁨1⁩h",
+    "⁨25⁩d"
+   ],
+   "flags": 0
+  }
+ ],
+ "reviews": {
+  "1726634607356": [
+   {
+    "id": 1735451053081,
+    "usn": 1629,
+    "ease": 0,
+    "ivl": 0,
+    "lastIvl": 0,
+    "factor": 0,
+    "time": 0,
+    "type": 4
+   },
+   {
+    "id": 1735451227746,
+    "usn": 1630,
+    "ease": 0,
+    "ivl": 0,
+    "lastIvl": 0,
+    "factor": 0,
+    "time": 0,
+    "type": 4
+   },
+   {
+    "id": 1772946485000,
+    "usn": 3749,
+    "ease": 1,
+    "ivl": -1200,
+    "lastIvl": 0,
+    "factor": 0,
+    "time": 6000,
+    "type": 0
+   },
+   {
+    "id": 1773010020000,
+    "usn": 3756,
+    "ease": 1,
+    "ivl": -1200,
+    "lastIvl": -1200,
+    "factor": 0,
+    "time": 6000,
+    "type": 0
+   },
+   {
+    "id": 1773011258000,
+    "usn": 3756,
+    "ease": 3,
+    "ivl": -3600,
+    "lastIvl": -1200,
+    "factor": 0,
+    "time": 5000,
+    "type": 0
+   },
+   {
+    "id": 1773063025000,
+    "usn": 3760,
+    "ease": 3,
+    "ivl": 1,
+    "lastIvl": -3600,
+    "factor": 2500,
+    "time": 5000,
+    "type": 0
+   },
+   {
+    "id": 1773170208000,
+    "usn": 3764,
+    "ease": 3,
+    "ivl": 3,
+    "lastIvl": 1,
+    "factor": 2500,
+    "time": 4000,
+    "type": 1
+   },
+   {
+    "id": 1773883482000,
+    "usn": 3803,
+    "ease": 3,
+    "ivl": 6,
+    "lastIvl": 3,
+    "factor": 2500,
+    "time": 5000,
+    "type": 1
+   },
+   {
+    "id": 1774396670000,
+    "usn": 3864,
+    "ease": 3,
+    "ivl": 17,
+    "lastIvl": 6,
+    "factor": 2500,
+    "time": 6000,
+    "type": 1
+   },
+   {
+    "id": 1775879478000,
+    "usn": 3968,
+    "ease": 1,
+    "ivl": -600,
+    "lastIvl": 17,
+    "factor": 2300,
+    "time": 6000,
+    "type": 1
+   },
+   {
+    "id": 1775913269000,
+    "usn": 3970,
+    "ease": 1,
+    "ivl": -600,
+    "lastIvl": -600,
+    "factor": 2300,
+    "time": 4000,
+    "type": 2
+   },
+   {
+    "id": 1775981651000,
+    "usn": 3972,
+    "ease": 3,
+    "ivl": -3600,
+    "lastIvl": -600,
+    "factor": 2300,
+    "time": 8000,
+    "type": 2
+   },
+   {
+    "id": 1776045867000,
+    "usn": 3974,
+    "ease": 3,
+    "ivl": 1,
+    "lastIvl": -3600,
+    "factor": 2300,
+    "time": 6000,
+    "type": 2
+   },
+   {
+    "id": 1776130368000,
+    "usn": 3977,
+    "ease": 4,
+    "ivl": 6,
+    "lastIvl": 1,
+    "factor": 2450,
+    "time": 11000,
+    "type": 1
+   },
+   {
+    "id": 1776652402000,
+    "usn": 3986,
+    "ease": 3,
+    "ivl": 12,
+    "lastIvl": 6,
+    "factor": 2450,
+    "time": 5000,
+    "type": 1
+   },
+   {
+    "id": 1777672603705,
+    "usn": 4054,
+    "ease": 3,
+    "ivl": 26,
+    "lastIvl": 12,
+    "factor": 2450,
+    "time": 4705,
+    "type": 1
+   },
+   {
+    "id": 1779920509072,
+    "usn": 4158,
+    "ease": 1,
+    "ivl": -600,
+    "lastIvl": 26,
+    "factor": 1051,
+    "time": 16096,
+    "type": 1
+   },
+   {
+    "id": 1779921143495,
+    "usn": 4158,
+    "ease": 3,
+    "ivl": -3600,
+    "lastIvl": -600,
+    "factor": 1050,
+    "time": 5025,
+    "type": 2
+   },
+   {
+    "id": 1780009242561,
+    "usn": 4158,
+    "ease": 3,
+    "ivl": 2,
+    "lastIvl": -3600,
+    "factor": 1049,
+    "time": 5141,
+    "type": 2
+   },
+   {
+    "id": 1780238402915,
+    "usn": 4182,
+    "ease": 3,
+    "ivl": 3,
+    "lastIvl": 2,
+    "factor": 1049,
+    "time": 4611,
+    "type": 1
+   },
+   {
+    "id": 1780446506524,
+    "usn": 4205,
+    "ease": 4,
+    "ivl": 5,
+    "lastIvl": 3,
+    "factor": 1038,
+    "time": 10353,
+    "type": 1
+   },
+   {
+    "id": 1780881467856,
+    "usn": 4222,
+    "ease": 1,
+    "ivl": -600,
+    "lastIvl": 5,
+    "factor": 1061,
+    "time": 9756,
+    "type": 1
+   },
+   {
+    "id": 1780882223648,
+    "usn": 4222,
+    "ease": 1,
+    "ivl": -600,
+    "lastIvl": -600,
+    "factor": 1076,
+    "time": 6106,
+    "type": 2
+   },
+   {
+    "id": 1780910685035,
+    "usn": 4222,
+    "ease": 1,
+    "ivl": -600,
+    "lastIvl": -600,
+    "factor": 1084,
+    "time": 11448,
+    "type": 2
+   },
+   {
+    "id": 1780917319173,
+    "usn": 4222,
+    "ease": 3,
+    "ivl": -3600,
+    "lastIvl": -600,
+    "factor": 1084,
+    "time": 24072,
+    "type": 2
+   },
+   {
+    "id": 1780928278995,
+    "usn": 4223,
+    "ease": 3,
+    "ivl": 1,
+    "lastIvl": -3600,
+    "factor": 1083,
+    "time": 5942,
+    "type": 2
+   },
+   {
+    "id": 1780951072801,
+    "usn": 4224,
+    "ease": 3,
+    "ivl": 2,
+    "lastIvl": 1,
+    "factor": 1082,
+    "time": 8183,
+    "type": 1
+   },
+   {
+    "id": 1781141524877,
+    "usn": 4263,
+    "ease": 1,
+    "ivl": -600,
+    "lastIvl": 2,
+    "factor": 1096,
+    "time": 17278,
+    "type": 1
+   },
+   {
+    "id": 1781142271532,
+    "usn": 4263,
+    "ease": 3,
+    "ivl": -3600,
+    "lastIvl": -600,
+    "factor": 1094,
+    "time": 11174,
+    "type": 2
+   },
+   {
+    "id": 1781171749422,
+    "usn": 4267,
+    "ease": 3,
+    "ivl": 1,
+    "lastIvl": -3600,
+    "factor": 1092,
+    "time": 19126,
+    "type": 2
+   },
+   {
+    "id": 1781215954864,
+    "usn": 4268,
+    "ease": 3,
+    "ivl": 2,
+    "lastIvl": 1,
+    "factor": 1091,
+    "time": 7836,
+    "type": 1
+   },
+   {
+    "id": 1781395495689,
+    "usn": 4272,
+    "ease": 3,
+    "ivl": 2,
+    "lastIvl": 2,
+    "factor": 1089,
+    "time": 6319,
+    "type": 1
+   },
+   {
+    "id": 1781568989498,
+    "usn": 4299,
+    "ease": 1,
+    "ivl": -600,
+    "lastIvl": 2,
+    "factor": 1095,
+    "time": 24205,
+    "type": 1
+   },
+   {
+    "id": 1781588225951,
+    "usn": 4302,
+    "ease": 3,
+    "ivl": -3600,
+    "lastIvl": -600,
+    "factor": 1093,
+    "time": 60000,
+    "type": 2
+   },
+   {
+    "id": 1781607018557,
+    "usn": 4301,
+    "ease": 4,
+    "ivl": 2,
+    "lastIvl": -600,
+    "factor": 1091,
+    "time": 7186,
+    "type": 2
+   },
+   {
+    "id": 1781735905154,
+    "usn": 4314,
+    "ease": 3,
+    "ivl": 2,
+    "lastIvl": 2,
+    "factor": 1090,
+    "time": 5091,
+    "type": 1
+   },
+   {
+    "id": 1781908516666,
+    "usn": 4331,
+    "ease": 3,
+    "ivl": 3,
+    "lastIvl": 2,
+    "factor": 1088,
+    "time": 6457,
+    "type": 1
+   },
+   {
+    "id": 1782172926821,
+    "usn": 4353,
+    "ease": 3,
+    "ivl": 3,
+    "lastIvl": 3,
+    "factor": 1087,
+    "time": 12201,
+    "type": 1
+   },
+   {
+    "id": 1782532332314,
+    "usn": 4386,
+    "ease": 3,
+    "ivl": 4,
+    "lastIvl": 3,
+    "factor": 1085,
+    "time": 6225,
+    "type": 1
+   },
+   {
+    "id": 1782863047695,
+    "usn": 4417,
+    "ease": 3,
+    "ivl": 8,
+    "lastIvl": 4,
+    "factor": 1084,
+    "time": 4851,
+    "type": 1
+   },
+   {
+    "id": 1783543459949,
+    "usn": 4491,
+    "ease": 1,
+    "ivl": -600,
+    "lastIvl": 8,
+    "factor": 1093,
+    "time": 6408,
+    "type": 1
+   },
+   {
+    "id": 1783544182456,
+    "usn": 4491,
+    "ease": 3,
+    "ivl": -3600,
+    "lastIvl": -600,
+    "factor": 1091,
+    "time": 4891,
+    "type": 2
+   },
+   {
+    "id": 1783558842232,
+    "usn": 4492,
+    "ease": 3,
+    "ivl": 2,
+    "lastIvl": -3600,
+    "factor": 1090,
+    "time": 10565,
+    "type": 2
+   },
+   {
+    "id": 1783726980929,
+    "usn": 4499,
+    "ease": 3,
+    "ivl": 4,
+    "lastIvl": 2,
+    "factor": 1088,
+    "time": 6242,
+    "type": 1
+   },
+   {
+    "id": 1784066456785,
+    "usn": 4507,
+    "ease": 3,
+    "ivl": 4,
+    "lastIvl": 4,
+    "factor": 1086,
+    "time": 5232,
+    "type": 1
+   },
+   {
+    "id": 1784429956217,
+    "usn": 4513,
+    "ease": 3,
+    "ivl": 4,
+    "lastIvl": 4,
+    "factor": 1085,
+    "time": 9976,
+    "type": 1
+   },
+   {
+    "id": 1784752742097,
+    "usn": 4519,
+    "ease": 3,
+    "ivl": 6,
+    "lastIvl": 4,
+    "factor": 1083,
+    "time": 9251,
+    "type": 1
+   },
+   {
+    "id": 1785308611183,
+    "usn": 4536,
+    "ease": 3,
+    "ivl": 4,
+    "lastIvl": 6,
+    "factor": 1082,
+    "time": 8051,
+    "type": 1
+   },
+   {
+    "id": 1785650530895,
+    "usn": 4554,
+    "ease": 3,
+    "ivl": 6,
+    "lastIvl": 4,
+    "factor": 1080,
+    "time": 4661,
+    "type": 1
+   },
+   {
+    "id": 1786175335208,
+    "usn": 4583,
+    "ease": 3,
+    "ivl": 12,
+    "lastIvl": 6,
+    "factor": 1079,
+    "time": 12779,
+    "type": 1
+   },
+   {
+    "id": 1787188908910,
+    "usn": 4657,
+    "ease": 3,
+    "ivl": 8,
+    "lastIvl": 12,
+    "factor": 1077,
+    "time": 6087,
+    "type": 1
+   },
+   {
+    "id": 1787874917318,
+    "usn": 4721,
+    "ease": 3,
+    "ivl": 15,
+    "lastIvl": 8,
+    "factor": 1076,
+    "time": 5670,
+    "type": 1
+   },
+   {
+    "id": 1789189509895,
+    "usn": 4856,
+    "ease": 1,
+    "ivl": -1800,
+    "lastIvl": 15,
+    "factor": 1090,
+    "time": 9080,
+    "type": 1
+   },
+   {
+    "id": 1789192249422,
+    "usn": 4857,
+    "ease": 3,
+    "ivl": 2,
+    "lastIvl": -1800,
+    "factor": 1088,
+    "time": 12757,
+    "type": 2
+   },
+   {
+    "id": 1789951829731,
+    "usn": 4866,
+    "ease": 3,
+    "ivl": 3,
+    "lastIvl": 2,
+    "factor": 1087,
+    "time": 6153,
+    "type": 1
+   },
+   {
+    "id": 1790218301219,
+    "usn": 4869,
+    "ease": 3,
+    "ivl": 4,
+    "lastIvl": 3,
+    "factor": 1085,
+    "time": 6475,
+    "type": 1
+   },
+   {
+    "id": 1790652725869,
+    "usn": 4876,
+    "ease": 3,
+    "ivl": 5,
+    "lastIvl": 4,
+    "factor": 1084,
+    "time": 3924,
+    "type": 1
+   },
+   {
+    "id": 1791110951673,
+    "usn": 4891,
+    "ease": 3,
+    "ivl": 6,
+    "lastIvl": 5,
+    "factor": 1082,
+    "time": 5252,
+    "type": 1
+   }
+  ],
+  "1726634607357": [
+   {
+    "id": 1735451053082,
+    "usn": 1629,
+    "ease": 0,
+    "ivl": 0,
+    "lastIvl": 0,
+    "factor": 0,
+    "time": 0,
+    "type": 4
+   },
+   {
+    "id": 1735451227747,
+    "usn": 1630,
+    "ease": 0,
+    "ivl": 0,
+    "lastIvl": 0,
+    "factor": 0,
+    "time": 0,
+    "type": 4
+   },
+   {
+    "id": 1776305170000,
+    "usn": 3981,
+    "ease": 3,
+    "ivl": -3600,
+    "lastIvl": 0,
+    "factor": 0,
+    "time": 5000,
+    "type": 0
+   },
+   {
+    "id": 1776331939000,
+    "usn": 3982,
+    "ease": 3,
+    "ivl": 1,
+    "lastIvl": -3600,
+    "factor": 2500,
+    "time": 3000,
+    "type": 0
+   },
+   {
+    "id": 1776395791000,
+    "usn": 3984,
+    "ease": 3,
+    "ivl": 4,
+    "lastIvl": 1,
+    "factor": 2500,
+    "time": 3000,
+    "type": 1
+   },
+   {
+    "id": 1776724780000,
+    "usn": 3990,
+    "ease": 3,
+    "ivl": 9,
+    "lastIvl": 4,
+    "factor": 2500,
+    "time": 3000,
+    "type": 1
+   },
+   {
+    "id": 1777502866000,
+    "usn": 4034,
+    "ease": 3,
+    "ivl": 20,
+    "lastIvl": 9,
+    "factor": 2500,
+    "time": 3000,
+    "type": 1
+   },
+   {
+    "id": 1779253080803,
+    "usn": 4140,
+    "ease": 3,
+    "ivl": 41,
+    "lastIvl": 20,
+    "factor": 587,
+    "time": 3308,
+    "type": 1
+   },
+   {
+    "id": 1782777291300,
+    "usn": 4406,
+    "ease": 3,
+    "ivl": 105,
+    "lastIvl": 41,
+    "factor": 190,
+    "time": 4036,
+    "type": 1
+   }
+  ],
+  "1726634607816": [
+   {
+    "id": 1735451052621,
+    "usn": 1629,
+    "ease": 0,
+    "ivl": 0,
+    "lastIvl": 0,
+    "factor": 0,
+    "time": 0,
+    "type": 4
+   },
+   {
+    "id": 1735451227286,
+    "usn": 1630,
+    "ease": 0,
+    "ivl": 0,
+    "lastIvl": 0,
+    "factor": 0,
+    "time": 0,
+    "type": 4
+   }
+  ],
+  "1726634607817": [
+   {
+    "id": 1735451052622,
+    "usn": 1629,
+    "ease": 0,
+    "ivl": 0,
+    "lastIvl": 0,
+    "factor": 0,
+    "time": 0,
+    "type": 4
+   },
+   {
+    "id": 1735451227287,
+    "usn": 1630,
+    "ease": 0,
+    "ivl": 0,
+    "lastIvl": 0,
+    "factor": 0,
+    "time": 0,
+    "type": 4
+   }
+  ],
+  "1726634621716": [
+   {
+    "id": 1735451038725,
+    "usn": 1629,
+    "ease": 0,
+    "ivl": 0,
+    "lastIvl": 0,
+    "factor": 0,
+    "time": 0,
+    "type": 4
+   },
+   {
+    "id": 1735451213390,
+    "usn": 1630,
+    "ease": 0,
+    "ivl": 0,
+    "lastIvl": 0,
+    "factor": 0,
+    "time": 0,
+    "type": 4
+   }
+  ],
+  "1726634621717": [
+   {
+    "id": 1735451038726,
+    "usn": 1629,
+    "ease": 0,
+    "ivl": 0,
+    "lastIvl": 0,
+    "factor": 0,
+    "time": 0,
+    "type": 4
+   },
+   {
+    "id": 1735451213391,
+    "usn": 1630,
+    "ease": 0,
+    "ivl": 0,
+    "lastIvl": 0,
+    "factor": 0,
+    "time": 0,
+    "type": 4
+   }
+  ],
+  "1726634609154": [
+   {
+    "id": 1735451051283,
+    "usn": 1629,
+    "ease": 0,
+    "ivl": 0,
+    "lastIvl": 0,
+    "factor": 0,
+    "time": 0,
+    "type": 4
+   },
+   {
+    "id": 1735451225948,
+    "usn": 1630,
+    "ease": 0,
+    "ivl": 0,
+    "lastIvl": 0,
+    "factor": 0,
+    "time": 0,
+    "type": 4
+   }
+  ],
+  "1726634609155": [
+   {
+    "id": 1735451051284,
+    "usn": 1629,
+    "ease": 0,
+    "ivl": 0,
+    "lastIvl": 0,
+    "factor": 0,
+    "time": 0,
+    "type": 4
+   },
+   {
+    "id": 1735451225949,
+    "usn": 1630,
+    "ease": 0,
+    "ivl": 0,
+    "lastIvl": 0,
+    "factor": 0,
+    "time": 0,
+    "type": 4
+   }
+  ],
+  "1726634617072": [
+   {
+    "id": 1735451043367,
+    "usn": 1629,
+    "ease": 0,
+    "ivl": 0,
+    "lastIvl": 0,
+    "factor": 0,
+    "time": 0,
+    "type": 4
+   },
+   {
+    "id": 1735451218032,
+    "usn": 1630,
+    "ease": 0,
+    "ivl": 0,
+    "lastIvl": 0,
+    "factor": 0,
+    "time": 0,
+    "type": 4
+   }
+  ],
+  "1726634617073": [
+   {
+    "id": 1735451043368,
+    "usn": 1629,
+    "ease": 0,
+    "ivl": 0,
+    "lastIvl": 0,
+    "factor": 0,
+    "time": 0,
+    "type": 4
+   },
+   {
+    "id": 1735451218033,
+    "usn": 1630,
+    "ease": 0,
+    "ivl": 0,
+    "lastIvl": 0,
+    "factor": 0,
+    "time": 0,
+    "type": 4
+   }
+  ]
+ }
+}

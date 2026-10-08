@@ -248,25 +248,6 @@
     }
    ]
   },
-  "1726634605778": {
-   "front": "to command (sth)",
-   "back": "кома́ндовать /&nbsp;скома́ндовать &nbsp; (+inst)",
-   "deck": "Vocab::10000 words",
-   "cards": [
-    {
-     "state": "6d",
-     "lapses": 7,
-     "streak": 4,
-     "last_fail": "2026-09-12"
-    },
-    {
-     "state": "105d",
-     "lapses": 0,
-     "streak": 5,
-     "last_fail": "—"
-    }
-   ]
-  },
   "1726634605878": {
    "front": "wing",
    "back": "крыло́",
