@@ -1,0 +1,692 @@
+{
+ "notes": [
+  {
+   "noteId": 1791445341954,
+   "profile": "User 1",
+   "tags": [
+    "claude",
+    "sentence-batch2"
+   ],
+   "fields": {
+    "Text": {
+     "value": "<div class=\"sent\">{{c1::Хотя́}} бы́ло по́здно, они́ продолжа́ли разгова́ривать.<span class=\"en\">Although it was late, they carried on talking.</span></div><div class=\"sent\">Позвони́ мне {{c2::хотя́ бы}} раз в неде́лю.<span class=\"en\">Call me at least once a week. (neutral)</span></div><div class=\"sent\">{{c3::Хоть бы}} он сего́дня позвони́л!<span class=\"en\">If only he would call today!</span></div><div class=\"sent\">Я гото́в е́хать {{c4::хоть}} сейча́с.<span class=\"en\">I'm ready to go right now, if need be.</span></div><div class=\"sent\">{{c5::Хоть}} убе́й, не по́мню.<span class=\"en\">For the life of me, I can't remember.</span></div>",
+     "order": 0
+    },
+    "Back Extra": {
+     "value": "«хотя́» — although (conj.); «хотя́ бы» — at least (neutral). «хоть» — the colloquial word: at least (= хотя́ бы), «хоть бы…!» if only…!, any … you like («хоть сейча́с»), even («хоть убе́й»); as «although» it is conversational only.",
+     "order": 1
+    },
+    "Audio": {
+     "value": "{{c1::[sound:hypertts-50240932e85fa005d739765bc70d4f0e190b3ef25e204319616ad222.mp3]}} {{c2::[sound:hypertts-bc6d03b7b9ad5d68021f0128e9f6033d6900bbabaf57f83cf2b63a3c.mp3]}} {{c3::[sound:hypertts-4cdb40b61deabcdae469cfed6b427710ef71f9ff889eecf7082ad0ec.mp3]}} {{c4::[sound:hypertts-a64be443bc23317b8fbd52ad44d45970d3681af8d447cf3bc0f3e557.mp3]}} {{c5::[sound:hypertts-65c8c880a30231dccc9154bfe7e85038b77ae22d575b7673cf2e2c4d.mp3]}}",
+     "order": 2
+    }
+   },
+   "modelName": "Cloze Sentence",
+   "mod": 1791445351,
+   "cards": [
+    1791445341958,
+    1791445341955,
+    1791445341954,
+    1791445341956,
+    1791445341957
+   ]
+  },
+  {
+   "noteId": 1726634604475,
+   "profile": "User 1",
+   "tags": [
+    "conj"
+   ],
+   "fields": {
+    "Front": {
+     "value": "although",
+     "order": 0
+    },
+    "Back": {
+     "value": "хотя́<br><br> [sound:hypertts-c3bf72d761ed4c75a11e67dadc40990b2ab5d070da94b5735ca5d844.mp3]",
+     "order": 1
+    },
+    "Example": {
+     "value": "Хотя́ бы́ло по́здно, они́ продолжа́ли разгова́ривать.",
+     "order": 2
+    }
+   },
+   "modelName": "Basic (and reversed card)",
+   "mod": 1791445343,
+   "cards": [
+    1726634604750,
+    1726634604751
+   ]
+  }
+ ],
+ "cards": [
+  {
+   "cardId": 1791445341958,
+   "fields": {
+    "Text": {
+     "value": "<div class=\"sent\">{{c1::Хотя́}} бы́ло по́здно, они́ продолжа́ли разгова́ривать.<span class=\"en\">Although it was late, they carried on talking.</span></div><div class=\"sent\">Позвони́ мне {{c2::хотя́ бы}} раз в неде́лю.<span class=\"en\">Call me at least once a week. (neutral)</span></div><div class=\"sent\">{{c3::Хоть бы}} он сего́дня позвони́л!<span class=\"en\">If only he would call today!</span></div><div class=\"sent\">Я гото́в е́хать {{c4::хоть}} сейча́с.<span class=\"en\">I'm ready to go right now, if need be.</span></div><div class=\"sent\">{{c5::Хоть}} убе́й, не по́мню.<span class=\"en\">For the life of me, I can't remember.</span></div>",
+     "order": 0
+    },
+    "Back Extra": {
+     "value": "«хотя́» — although (conj.); «хотя́ бы» — at least (neutral). «хоть» — the colloquial word: at least (= хотя́ бы), «хоть бы…!» if only…!, any … you like («хоть сейча́с»), even («хоть убе́й»); as «although» it is conversational only.",
+     "order": 1
+    },
+    "Audio": {
+     "value": "{{c1::[sound:hypertts-50240932e85fa005d739765bc70d4f0e190b3ef25e204319616ad222.mp3]}} {{c2::[sound:hypertts-bc6d03b7b9ad5d68021f0128e9f6033d6900bbabaf57f83cf2b63a3c.mp3]}} {{c3::[sound:hypertts-4cdb40b61deabcdae469cfed6b427710ef71f9ff889eecf7082ad0ec.mp3]}} {{c4::[sound:hypertts-a64be443bc23317b8fbd52ad44d45970d3681af8d447cf3bc0f3e557.mp3]}} {{c5::[sound:hypertts-65c8c880a30231dccc9154bfe7e85038b77ae22d575b7673cf2e2c4d.mp3]}}",
+     "order": 2
+    }
+   },
+   "fieldOrder": 0,
+   "question": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n\n.cloze {\n font-weight: bold;\n color: blue;\n}\n.nightMode .cloze {\n color: lightblue;\n}\n\n\n\n.sent { display: none; }\n.sent:has(.cloze) { display: block; }\n.sent .en { display: block; font-size: 0.8em; color: #777; font-style: italic; margin-top: 8px; }\n.audio-row { text-align: center; margin: 10px 0 1.2em; }\n.example { margin-top: 4px; font-size: 0.85em; }\n</style><div class=\"sent\"><span class=\"cloze\" data-cloze=\"Хотя́\" data-ordinal=\"1\">[...]</span> бы́ло по́здно, они́ продолжа́ли разгова́ривать.<span class=\"en\">Although it was late, they carried on talking.</span></div><div class=\"sent\">Позвони́ мне <span class=\"cloze-inactive\" data-ordinal=\"2\">хотя́ бы</span> раз в неде́лю.<span class=\"en\">Call me at least once a week. (neutral)</span></div><div class=\"sent\"><span class=\"cloze-inactive\" data-ordinal=\"3\">Хоть бы</span> он сего́дня позвони́л!<span class=\"en\">If only he would call today!</span></div><div class=\"sent\">Я гото́в е́хать <span class=\"cloze-inactive\" data-ordinal=\"4\">хоть</span> сейча́с.<span class=\"en\">I'm ready to go right now, if need be.</span></div><div class=\"sent\"><span class=\"cloze-inactive\" data-ordinal=\"5\">Хоть</span> убе́й, не по́мню.<span class=\"en\">For the life of me, I can't remember.</span></div>",
+   "answer": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n\n.cloze {\n font-weight: bold;\n color: blue;\n}\n.nightMode .cloze {\n color: lightblue;\n}\n\n\n\n.sent { display: none; }\n.sent:has(.cloze) { display: block; }\n.sent .en { display: block; font-size: 0.8em; color: #777; font-style: italic; margin-top: 8px; }\n.audio-row { text-align: center; margin: 10px 0 1.2em; }\n.example { margin-top: 4px; font-size: 0.85em; }\n</style><div class=\"sent\"><span class=\"cloze\" data-ordinal=\"1\">Хотя́</span> бы́ло по́здно, они́ продолжа́ли разгова́ривать.<span class=\"en\">Although it was late, they carried on talking.</span></div><div class=\"sent\">Позвони́ мне <span class=\"cloze-inactive\" data-ordinal=\"2\">хотя́ бы</span> раз в неде́лю.<span class=\"en\">Call me at least once a week. (neutral)</span></div><div class=\"sent\"><span class=\"cloze-inactive\" data-ordinal=\"3\">Хоть бы</span> он сего́дня позвони́л!<span class=\"en\">If only he would call today!</span></div><div class=\"sent\">Я гото́в е́хать <span class=\"cloze-inactive\" data-ordinal=\"4\">хоть</span> сейча́с.<span class=\"en\">I'm ready to go right now, if need be.</span></div><div class=\"sent\"><span class=\"cloze-inactive\" data-ordinal=\"5\">Хоть</span> убе́й, не по́мню.<span class=\"en\">For the life of me, I can't remember.</span></div>\n<div class=\"audio-row\">[anki:play:a:0]</div>\n<div class=\"example\">«хотя́» — although (conj.); «хотя́ бы» — at least (neutral). «хоть» — the colloquial word: at least (= хотя́ бы), «хоть бы…!» if only…!, any … you like («хоть сейча́с»), even («хоть убе́й»); as «although» it is conversational only.</div>",
+   "modelName": "Cloze Sentence",
+   "ord": 0,
+   "deckName": "Vocab::10000 words",
+   "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n\n.cloze {\n font-weight: bold;\n color: blue;\n}\n.nightMode .cloze {\n color: lightblue;\n}\n\n\n\n.sent { display: none; }\n.sent:has(.cloze) { display: block; }\n.sent .en { display: block; font-size: 0.8em; color: #777; font-style: italic; margin-top: 8px; }\n.audio-row { text-align: center; margin: 10px 0 1.2em; }\n.example { margin-top: 4px; font-size: 0.85em; }\n",
+   "factor": 0,
+   "interval": 0,
+   "note": 1791445341954,
+   "type": 0,
+   "queue": 0,
+   "due": -22,
+   "reps": 0,
+   "lapses": 0,
+   "left": 0,
+   "mod": 1791445343,
+   "nextReviews": [
+    "⁨20⁩m",
+    "⁨40⁩m",
+    "⁨1⁩h",
+    "⁨24⁩d"
+   ],
+   "flags": 0
+  },
+  {
+   "cardId": 1791445341955,
+   "fields": {
+    "Text": {
+     "value": "<div class=\"sent\">{{c1::Хотя́}} бы́ло по́здно, они́ продолжа́ли разгова́ривать.<span class=\"en\">Although it was late, they carried on talking.</span></div><div class=\"sent\">Позвони́ мне {{c2::хотя́ бы}} раз в неде́лю.<span class=\"en\">Call me at least once a week. (neutral)</span></div><div class=\"sent\">{{c3::Хоть бы}} он сего́дня позвони́л!<span class=\"en\">If only he would call today!</span></div><div class=\"sent\">Я гото́в е́хать {{c4::хоть}} сейча́с.<span class=\"en\">I'm ready to go right now, if need be.</span></div><div class=\"sent\">{{c5::Хоть}} убе́й, не по́мню.<span class=\"en\">For the life of me, I can't remember.</span></div>",
+     "order": 0
+    },
+    "Back Extra": {
+     "value": "«хотя́» — although (conj.); «хотя́ бы» — at least (neutral). «хоть» — the colloquial word: at least (= хотя́ бы), «хоть бы…!» if only…!, any … you like («хоть сейча́с»), even («хоть убе́й»); as «although» it is conversational only.",
+     "order": 1
+    },
+    "Audio": {
+     "value": "{{c1::[sound:hypertts-50240932e85fa005d739765bc70d4f0e190b3ef25e204319616ad222.mp3]}} {{c2::[sound:hypertts-bc6d03b7b9ad5d68021f0128e9f6033d6900bbabaf57f83cf2b63a3c.mp3]}} {{c3::[sound:hypertts-4cdb40b61deabcdae469cfed6b427710ef71f9ff889eecf7082ad0ec.mp3]}} {{c4::[sound:hypertts-a64be443bc23317b8fbd52ad44d45970d3681af8d447cf3bc0f3e557.mp3]}} {{c5::[sound:hypertts-65c8c880a30231dccc9154bfe7e85038b77ae22d575b7673cf2e2c4d.mp3]}}",
+     "order": 2
+    }
+   },
+   "fieldOrder": 1,
+   "question": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n\n.cloze {\n font-weight: bold;\n color: blue;\n}\n.nightMode .cloze {\n color: lightblue;\n}\n\n\n\n.sent { display: none; }\n.sent:has(.cloze) { display: block; }\n.sent .en { display: block; font-size: 0.8em; color: #777; font-style: italic; margin-top: 8px; }\n.audio-row { text-align: center; margin: 10px 0 1.2em; }\n.example { margin-top: 4px; font-size: 0.85em; }\n</style><div class=\"sent\"><span class=\"cloze-inactive\" data-ordinal=\"1\">Хотя́</span> бы́ло по́здно, они́ продолжа́ли разгова́ривать.<span class=\"en\">Although it was late, they carried on talking.</span></div><div class=\"sent\">Позвони́ мне <span class=\"cloze\" data-cloze=\"хотя́&#x20;бы\" data-ordinal=\"2\">[...]</span> раз в неде́лю.<span class=\"en\">Call me at least once a week. (neutral)</span></div><div class=\"sent\"><span class=\"cloze-inactive\" data-ordinal=\"3\">Хоть бы</span> он сего́дня позвони́л!<span class=\"en\">If only he would call today!</span></div><div class=\"sent\">Я гото́в е́хать <span class=\"cloze-inactive\" data-ordinal=\"4\">хоть</span> сейча́с.<span class=\"en\">I'm ready to go right now, if need be.</span></div><div class=\"sent\"><span class=\"cloze-inactive\" data-ordinal=\"5\">Хоть</span> убе́й, не по́мню.<span class=\"en\">For the life of me, I can't remember.</span></div>",
+   "answer": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n\n.cloze {\n font-weight: bold;\n color: blue;\n}\n.nightMode .cloze {\n color: lightblue;\n}\n\n\n\n.sent { display: none; }\n.sent:has(.cloze) { display: block; }\n.sent .en { display: block; font-size: 0.8em; color: #777; font-style: italic; margin-top: 8px; }\n.audio-row { text-align: center; margin: 10px 0 1.2em; }\n.example { margin-top: 4px; font-size: 0.85em; }\n</style><div class=\"sent\"><span class=\"cloze-inactive\" data-ordinal=\"1\">Хотя́</span> бы́ло по́здно, они́ продолжа́ли разгова́ривать.<span class=\"en\">Although it was late, they carried on talking.</span></div><div class=\"sent\">Позвони́ мне <span class=\"cloze\" data-ordinal=\"2\">хотя́ бы</span> раз в неде́лю.<span class=\"en\">Call me at least once a week. (neutral)</span></div><div class=\"sent\"><span class=\"cloze-inactive\" data-ordinal=\"3\">Хоть бы</span> он сего́дня позвони́л!<span class=\"en\">If only he would call today!</span></div><div class=\"sent\">Я гото́в е́хать <span class=\"cloze-inactive\" data-ordinal=\"4\">хоть</span> сейча́с.<span class=\"en\">I'm ready to go right now, if need be.</span></div><div class=\"sent\"><span class=\"cloze-inactive\" data-ordinal=\"5\">Хоть</span> убе́й, не по́мню.<span class=\"en\">For the life of me, I can't remember.</span></div>\n<div class=\"audio-row\">[anki:play:a:0]</div>\n<div class=\"example\">«хотя́» — although (conj.); «хотя́ бы» — at least (neutral). «хоть» — the colloquial word: at least (= хотя́ бы), «хоть бы…!» if only…!, any … you like («хоть сейча́с»), even («хоть убе́й»); as «although» it is conversational only.</div>",
+   "modelName": "Cloze Sentence",
+   "ord": 1,
+   "deckName": "Vocab::10000 words",
+   "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n\n.cloze {\n font-weight: bold;\n color: blue;\n}\n.nightMode .cloze {\n color: lightblue;\n}\n\n\n\n.sent { display: none; }\n.sent:has(.cloze) { display: block; }\n.sent .en { display: block; font-size: 0.8em; color: #777; font-style: italic; margin-top: 8px; }\n.audio-row { text-align: center; margin: 10px 0 1.2em; }\n.example { margin-top: 4px; font-size: 0.85em; }\n",
+   "factor": 0,
+   "interval": 0,
+   "note": 1791445341954,
+   "type": 0,
+   "queue": 0,
+   "due": -21,
+   "reps": 0,
+   "lapses": 0,
+   "left": 0,
+   "mod": 1791445343,
+   "nextReviews": [
+    "⁨20⁩m",
+    "⁨40⁩m",
+    "⁨1⁩h",
+    "⁨22⁩d"
+   ],
+   "flags": 0
+  },
+  {
+   "cardId": 1791445341954,
+   "fields": {
+    "Text": {
+     "value": "<div class=\"sent\">{{c1::Хотя́}} бы́ло по́здно, они́ продолжа́ли разгова́ривать.<span class=\"en\">Although it was late, they carried on talking.</span></div><div class=\"sent\">Позвони́ мне {{c2::хотя́ бы}} раз в неде́лю.<span class=\"en\">Call me at least once a week. (neutral)</span></div><div class=\"sent\">{{c3::Хоть бы}} он сего́дня позвони́л!<span class=\"en\">If only he would call today!</span></div><div class=\"sent\">Я гото́в е́хать {{c4::хоть}} сейча́с.<span class=\"en\">I'm ready to go right now, if need be.</span></div><div class=\"sent\">{{c5::Хоть}} убе́й, не по́мню.<span class=\"en\">For the life of me, I can't remember.</span></div>",
+     "order": 0
+    },
+    "Back Extra": {
+     "value": "«хотя́» — although (conj.); «хотя́ бы» — at least (neutral). «хоть» — the colloquial word: at least (= хотя́ бы), «хоть бы…!» if only…!, any … you like («хоть сейча́с»), even («хоть убе́й»); as «although» it is conversational only.",
+     "order": 1
+    },
+    "Audio": {
+     "value": "{{c1::[sound:hypertts-50240932e85fa005d739765bc70d4f0e190b3ef25e204319616ad222.mp3]}} {{c2::[sound:hypertts-bc6d03b7b9ad5d68021f0128e9f6033d6900bbabaf57f83cf2b63a3c.mp3]}} {{c3::[sound:hypertts-4cdb40b61deabcdae469cfed6b427710ef71f9ff889eecf7082ad0ec.mp3]}} {{c4::[sound:hypertts-a64be443bc23317b8fbd52ad44d45970d3681af8d447cf3bc0f3e557.mp3]}} {{c5::[sound:hypertts-65c8c880a30231dccc9154bfe7e85038b77ae22d575b7673cf2e2c4d.mp3]}}",
+     "order": 2
+    }
+   },
+   "fieldOrder": 2,
+   "question": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n\n.cloze {\n font-weight: bold;\n color: blue;\n}\n.nightMode .cloze {\n color: lightblue;\n}\n\n\n\n.sent { display: none; }\n.sent:has(.cloze) { display: block; }\n.sent .en { display: block; font-size: 0.8em; color: #777; font-style: italic; margin-top: 8px; }\n.audio-row { text-align: center; margin: 10px 0 1.2em; }\n.example { margin-top: 4px; font-size: 0.85em; }\n</style><div class=\"sent\"><span class=\"cloze-inactive\" data-ordinal=\"1\">Хотя́</span> бы́ло по́здно, они́ продолжа́ли разгова́ривать.<span class=\"en\">Although it was late, they carried on talking.</span></div><div class=\"sent\">Позвони́ мне <span class=\"cloze-inactive\" data-ordinal=\"2\">хотя́ бы</span> раз в неде́лю.<span class=\"en\">Call me at least once a week. (neutral)</span></div><div class=\"sent\"><span class=\"cloze\" data-cloze=\"Хоть&#x20;бы\" data-ordinal=\"3\">[...]</span> он сего́дня позвони́л!<span class=\"en\">If only he would call today!</span></div><div class=\"sent\">Я гото́в е́хать <span class=\"cloze-inactive\" data-ordinal=\"4\">хоть</span> сейча́с.<span class=\"en\">I'm ready to go right now, if need be.</span></div><div class=\"sent\"><span class=\"cloze-inactive\" data-ordinal=\"5\">Хоть</span> убе́й, не по́мню.<span class=\"en\">For the life of me, I can't remember.</span></div>",
+   "answer": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n\n.cloze {\n font-weight: bold;\n color: blue;\n}\n.nightMode .cloze {\n color: lightblue;\n}\n\n\n\n.sent { display: none; }\n.sent:has(.cloze) { display: block; }\n.sent .en { display: block; font-size: 0.8em; color: #777; font-style: italic; margin-top: 8px; }\n.audio-row { text-align: center; margin: 10px 0 1.2em; }\n.example { margin-top: 4px; font-size: 0.85em; }\n</style><div class=\"sent\"><span class=\"cloze-inactive\" data-ordinal=\"1\">Хотя́</span> бы́ло по́здно, они́ продолжа́ли разгова́ривать.<span class=\"en\">Although it was late, they carried on talking.</span></div><div class=\"sent\">Позвони́ мне <span class=\"cloze-inactive\" data-ordinal=\"2\">хотя́ бы</span> раз в неде́лю.<span class=\"en\">Call me at least once a week. (neutral)</span></div><div class=\"sent\"><span class=\"cloze\" data-ordinal=\"3\">Хоть бы</span> он сего́дня позвони́л!<span class=\"en\">If only he would call today!</span></div><div class=\"sent\">Я гото́в е́хать <span class=\"cloze-inactive\" data-ordinal=\"4\">хоть</span> сейча́с.<span class=\"en\">I'm ready to go right now, if need be.</span></div><div class=\"sent\"><span class=\"cloze-inactive\" data-ordinal=\"5\">Хоть</span> убе́й, не по́мню.<span class=\"en\">For the life of me, I can't remember.</span></div>\n<div class=\"audio-row\">[anki:play:a:0]</div>\n<div class=\"example\">«хотя́» — although (conj.); «хотя́ бы» — at least (neutral). «хоть» — the colloquial word: at least (= хотя́ бы), «хоть бы…!» if only…!, any … you like («хоть сейча́с»), even («хоть убе́й»); as «although» it is conversational only.</div>",
+   "modelName": "Cloze Sentence",
+   "ord": 2,
+   "deckName": "Vocab::10000 words",
+   "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n\n.cloze {\n font-weight: bold;\n color: blue;\n}\n.nightMode .cloze {\n color: lightblue;\n}\n\n\n\n.sent { display: none; }\n.sent:has(.cloze) { display: block; }\n.sent .en { display: block; font-size: 0.8em; color: #777; font-style: italic; margin-top: 8px; }\n.audio-row { text-align: center; margin: 10px 0 1.2em; }\n.example { margin-top: 4px; font-size: 0.85em; }\n",
+   "factor": 0,
+   "interval": 0,
+   "note": 1791445341954,
+   "type": 0,
+   "queue": 0,
+   "due": -20,
+   "reps": 0,
+   "lapses": 0,
+   "left": 0,
+   "mod": 1791445343,
+   "nextReviews": [
+    "⁨20⁩m",
+    "⁨40⁩m",
+    "⁨1⁩h",
+    "⁨23⁩d"
+   ],
+   "flags": 0
+  },
+  {
+   "cardId": 1791445341956,
+   "fields": {
+    "Text": {
+     "value": "<div class=\"sent\">{{c1::Хотя́}} бы́ло по́здно, они́ продолжа́ли разгова́ривать.<span class=\"en\">Although it was late, they carried on talking.</span></div><div class=\"sent\">Позвони́ мне {{c2::хотя́ бы}} раз в неде́лю.<span class=\"en\">Call me at least once a week. (neutral)</span></div><div class=\"sent\">{{c3::Хоть бы}} он сего́дня позвони́л!<span class=\"en\">If only he would call today!</span></div><div class=\"sent\">Я гото́в е́хать {{c4::хоть}} сейча́с.<span class=\"en\">I'm ready to go right now, if need be.</span></div><div class=\"sent\">{{c5::Хоть}} убе́й, не по́мню.<span class=\"en\">For the life of me, I can't remember.</span></div>",
+     "order": 0
+    },
+    "Back Extra": {
+     "value": "«хотя́» — although (conj.); «хотя́ бы» — at least (neutral). «хоть» — the colloquial word: at least (= хотя́ бы), «хоть бы…!» if only…!, any … you like («хоть сейча́с»), even («хоть убе́й»); as «although» it is conversational only.",
+     "order": 1
+    },
+    "Audio": {
+     "value": "{{c1::[sound:hypertts-50240932e85fa005d739765bc70d4f0e190b3ef25e204319616ad222.mp3]}} {{c2::[sound:hypertts-bc6d03b7b9ad5d68021f0128e9f6033d6900bbabaf57f83cf2b63a3c.mp3]}} {{c3::[sound:hypertts-4cdb40b61deabcdae469cfed6b427710ef71f9ff889eecf7082ad0ec.mp3]}} {{c4::[sound:hypertts-a64be443bc23317b8fbd52ad44d45970d3681af8d447cf3bc0f3e557.mp3]}} {{c5::[sound:hypertts-65c8c880a30231dccc9154bfe7e85038b77ae22d575b7673cf2e2c4d.mp3]}}",
+     "order": 2
+    }
+   },
+   "fieldOrder": 3,
+   "question": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n\n.cloze {\n font-weight: bold;\n color: blue;\n}\n.nightMode .cloze {\n color: lightblue;\n}\n\n\n\n.sent { display: none; }\n.sent:has(.cloze) { display: block; }\n.sent .en { display: block; font-size: 0.8em; color: #777; font-style: italic; margin-top: 8px; }\n.audio-row { text-align: center; margin: 10px 0 1.2em; }\n.example { margin-top: 4px; font-size: 0.85em; }\n</style><div class=\"sent\"><span class=\"cloze-inactive\" data-ordinal=\"1\">Хотя́</span> бы́ло по́здно, они́ продолжа́ли разгова́ривать.<span class=\"en\">Although it was late, they carried on talking.</span></div><div class=\"sent\">Позвони́ мне <span class=\"cloze-inactive\" data-ordinal=\"2\">хотя́ бы</span> раз в неде́лю.<span class=\"en\">Call me at least once a week. (neutral)</span></div><div class=\"sent\"><span class=\"cloze-inactive\" data-ordinal=\"3\">Хоть бы</span> он сего́дня позвони́л!<span class=\"en\">If only he would call today!</span></div><div class=\"sent\">Я гото́в е́хать <span class=\"cloze\" data-cloze=\"хоть\" data-ordinal=\"4\">[...]</span> сейча́с.<span class=\"en\">I'm ready to go right now, if need be.</span></div><div class=\"sent\"><span class=\"cloze-inactive\" data-ordinal=\"5\">Хоть</span> убе́й, не по́мню.<span class=\"en\">For the life of me, I can't remember.</span></div>",
+   "answer": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n\n.cloze {\n font-weight: bold;\n color: blue;\n}\n.nightMode .cloze {\n color: lightblue;\n}\n\n\n\n.sent { display: none; }\n.sent:has(.cloze) { display: block; }\n.sent .en { display: block; font-size: 0.8em; color: #777; font-style: italic; margin-top: 8px; }\n.audio-row { text-align: center; margin: 10px 0 1.2em; }\n.example { margin-top: 4px; font-size: 0.85em; }\n</style><div class=\"sent\"><span class=\"cloze-inactive\" data-ordinal=\"1\">Хотя́</span> бы́ло по́здно, они́ продолжа́ли разгова́ривать.<span class=\"en\">Although it was late, they carried on talking.</span></div><div class=\"sent\">Позвони́ мне <span class=\"cloze-inactive\" data-ordinal=\"2\">хотя́ бы</span> раз в неде́лю.<span class=\"en\">Call me at least once a week. (neutral)</span></div><div class=\"sent\"><span class=\"cloze-inactive\" data-ordinal=\"3\">Хоть бы</span> он сего́дня позвони́л!<span class=\"en\">If only he would call today!</span></div><div class=\"sent\">Я гото́в е́хать <span class=\"cloze\" data-ordinal=\"4\">хоть</span> сейча́с.<span class=\"en\">I'm ready to go right now, if need be.</span></div><div class=\"sent\"><span class=\"cloze-inactive\" data-ordinal=\"5\">Хоть</span> убе́й, не по́мню.<span class=\"en\">For the life of me, I can't remember.</span></div>\n<div class=\"audio-row\">[anki:play:a:0]</div>\n<div class=\"example\">«хотя́» — although (conj.); «хотя́ бы» — at least (neutral). «хоть» — the colloquial word: at least (= хотя́ бы), «хоть бы…!» if only…!, any … you like («хоть сейча́с»), even («хоть убе́й»); as «although» it is conversational only.</div>",
+   "modelName": "Cloze Sentence",
+   "ord": 3,
+   "deckName": "Vocab::10000 words",
+   "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n\n.cloze {\n font-weight: bold;\n color: blue;\n}\n.nightMode .cloze {\n color: lightblue;\n}\n\n\n\n.sent { display: none; }\n.sent:has(.cloze) { display: block; }\n.sent .en { display: block; font-size: 0.8em; color: #777; font-style: italic; margin-top: 8px; }\n.audio-row { text-align: center; margin: 10px 0 1.2em; }\n.example { margin-top: 4px; font-size: 0.85em; }\n",
+   "factor": 0,
+   "interval": 0,
+   "note": 1791445341954,
+   "type": 0,
+   "queue": 0,
+   "due": -19,
+   "reps": 0,
+   "lapses": 0,
+   "left": 0,
+   "mod": 1791445343,
+   "nextReviews": [
+    "⁨20⁩m",
+    "⁨40⁩m",
+    "⁨1⁩h",
+    "⁨26⁩d"
+   ],
+   "flags": 0
+  },
+  {
+   "cardId": 1791445341957,
+   "fields": {
+    "Text": {
+     "value": "<div class=\"sent\">{{c1::Хотя́}} бы́ло по́здно, они́ продолжа́ли разгова́ривать.<span class=\"en\">Although it was late, they carried on talking.</span></div><div class=\"sent\">Позвони́ мне {{c2::хотя́ бы}} раз в неде́лю.<span class=\"en\">Call me at least once a week. (neutral)</span></div><div class=\"sent\">{{c3::Хоть бы}} он сего́дня позвони́л!<span class=\"en\">If only he would call today!</span></div><div class=\"sent\">Я гото́в е́хать {{c4::хоть}} сейча́с.<span class=\"en\">I'm ready to go right now, if need be.</span></div><div class=\"sent\">{{c5::Хоть}} убе́й, не по́мню.<span class=\"en\">For the life of me, I can't remember.</span></div>",
+     "order": 0
+    },
+    "Back Extra": {
+     "value": "«хотя́» — although (conj.); «хотя́ бы» — at least (neutral). «хоть» — the colloquial word: at least (= хотя́ бы), «хоть бы…!» if only…!, any … you like («хоть сейча́с»), even («хоть убе́й»); as «although» it is conversational only.",
+     "order": 1
+    },
+    "Audio": {
+     "value": "{{c1::[sound:hypertts-50240932e85fa005d739765bc70d4f0e190b3ef25e204319616ad222.mp3]}} {{c2::[sound:hypertts-bc6d03b7b9ad5d68021f0128e9f6033d6900bbabaf57f83cf2b63a3c.mp3]}} {{c3::[sound:hypertts-4cdb40b61deabcdae469cfed6b427710ef71f9ff889eecf7082ad0ec.mp3]}} {{c4::[sound:hypertts-a64be443bc23317b8fbd52ad44d45970d3681af8d447cf3bc0f3e557.mp3]}} {{c5::[sound:hypertts-65c8c880a30231dccc9154bfe7e85038b77ae22d575b7673cf2e2c4d.mp3]}}",
+     "order": 2
+    }
+   },
+   "fieldOrder": 4,
+   "question": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n\n.cloze {\n font-weight: bold;\n color: blue;\n}\n.nightMode .cloze {\n color: lightblue;\n}\n\n\n\n.sent { display: none; }\n.sent:has(.cloze) { display: block; }\n.sent .en { display: block; font-size: 0.8em; color: #777; font-style: italic; margin-top: 8px; }\n.audio-row { text-align: center; margin: 10px 0 1.2em; }\n.example { margin-top: 4px; font-size: 0.85em; }\n</style><div class=\"sent\"><span class=\"cloze-inactive\" data-ordinal=\"1\">Хотя́</span> бы́ло по́здно, они́ продолжа́ли разгова́ривать.<span class=\"en\">Although it was late, they carried on talking.</span></div><div class=\"sent\">Позвони́ мне <span class=\"cloze-inactive\" data-ordinal=\"2\">хотя́ бы</span> раз в неде́лю.<span class=\"en\">Call me at least once a week. (neutral)</span></div><div class=\"sent\"><span class=\"cloze-inactive\" data-ordinal=\"3\">Хоть бы</span> он сего́дня позвони́л!<span class=\"en\">If only he would call today!</span></div><div class=\"sent\">Я гото́в е́хать <span class=\"cloze-inactive\" data-ordinal=\"4\">хоть</span> сейча́с.<span class=\"en\">I'm ready to go right now, if need be.</span></div><div class=\"sent\"><span class=\"cloze\" data-cloze=\"Хоть\" data-ordinal=\"5\">[...]</span> убе́й, не по́мню.<span class=\"en\">For the life of me, I can't remember.</span></div>",
+   "answer": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n\n.cloze {\n font-weight: bold;\n color: blue;\n}\n.nightMode .cloze {\n color: lightblue;\n}\n\n\n\n.sent { display: none; }\n.sent:has(.cloze) { display: block; }\n.sent .en { display: block; font-size: 0.8em; color: #777; font-style: italic; margin-top: 8px; }\n.audio-row { text-align: center; margin: 10px 0 1.2em; }\n.example { margin-top: 4px; font-size: 0.85em; }\n</style><div class=\"sent\"><span class=\"cloze-inactive\" data-ordinal=\"1\">Хотя́</span> бы́ло по́здно, они́ продолжа́ли разгова́ривать.<span class=\"en\">Although it was late, they carried on talking.</span></div><div class=\"sent\">Позвони́ мне <span class=\"cloze-inactive\" data-ordinal=\"2\">хотя́ бы</span> раз в неде́лю.<span class=\"en\">Call me at least once a week. (neutral)</span></div><div class=\"sent\"><span class=\"cloze-inactive\" data-ordinal=\"3\">Хоть бы</span> он сего́дня позвони́л!<span class=\"en\">If only he would call today!</span></div><div class=\"sent\">Я гото́в е́хать <span class=\"cloze-inactive\" data-ordinal=\"4\">хоть</span> сейча́с.<span class=\"en\">I'm ready to go right now, if need be.</span></div><div class=\"sent\"><span class=\"cloze\" data-ordinal=\"5\">Хоть</span> убе́й, не по́мню.<span class=\"en\">For the life of me, I can't remember.</span></div>\n<div class=\"audio-row\">[anki:play:a:0]</div>\n<div class=\"example\">«хотя́» — although (conj.); «хотя́ бы» — at least (neutral). «хоть» — the colloquial word: at least (= хотя́ бы), «хоть бы…!» if only…!, any … you like («хоть сейча́с»), even («хоть убе́й»); as «although» it is conversational only.</div>",
+   "modelName": "Cloze Sentence",
+   "ord": 4,
+   "deckName": "Vocab::10000 words",
+   "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n\n.cloze {\n font-weight: bold;\n color: blue;\n}\n.nightMode .cloze {\n color: lightblue;\n}\n\n\n\n.sent { display: none; }\n.sent:has(.cloze) { display: block; }\n.sent .en { display: block; font-size: 0.8em; color: #777; font-style: italic; margin-top: 8px; }\n.audio-row { text-align: center; margin: 10px 0 1.2em; }\n.example { margin-top: 4px; font-size: 0.85em; }\n",
+   "factor": 0,
+   "interval": 0,
+   "note": 1791445341954,
+   "type": 0,
+   "queue": 0,
+   "due": -18,
+   "reps": 0,
+   "lapses": 0,
+   "left": 0,
+   "mod": 1791445343,
+   "nextReviews": [
+    "⁨20⁩m",
+    "⁨40⁩m",
+    "⁨1⁩h",
+    "⁨24⁩d"
+   ],
+   "flags": 0
+  },
+  {
+   "cardId": 1726634604750,
+   "fields": {
+    "Front": {
+     "value": "although",
+     "order": 0
+    },
+    "Back": {
+     "value": "хотя́<br><br> [sound:hypertts-c3bf72d761ed4c75a11e67dadc40990b2ab5d070da94b5735ca5d844.mp3]",
+     "order": 1
+    },
+    "Example": {
+     "value": "Хотя́ бы́ло по́здно, они́ продолжа́ли разгова́ривать.",
+     "order": 2
+    }
+   },
+   "fieldOrder": 0,
+   "question": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>although",
+   "answer": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>although\n\n<hr id=answer>\n\nхотя́<br><br> [anki:play:a:0]\n<br><br><i>Хотя́ бы́ло по́здно, они́ продолжа́ли разгова́ривать.</i>",
+   "modelName": "Basic (and reversed card)",
+   "ord": 0,
+   "deckName": "Vocab::10000 words",
+   "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
+   "factor": 2500,
+   "interval": 479,
+   "note": 1726634604475,
+   "type": 2,
+   "queue": 2,
+   "due": 1994,
+   "reps": 7,
+   "lapses": 0,
+   "left": 0,
+   "mod": 1790049920,
+   "nextReviews": [
+    "⁨30⁩m",
+    "⁨1.3⁩y",
+    "⁨1.9⁩y",
+    "⁨3.2⁩y"
+   ],
+   "flags": 0
+  },
+  {
+   "cardId": 1726634604751,
+   "fields": {
+    "Front": {
+     "value": "although",
+     "order": 0
+    },
+    "Back": {
+     "value": "хотя́<br><br> [sound:hypertts-c3bf72d761ed4c75a11e67dadc40990b2ab5d070da94b5735ca5d844.mp3]",
+     "order": 1
+    },
+    "Example": {
+     "value": "Хотя́ бы́ло по́здно, они́ продолжа́ли разгова́ривать.",
+     "order": 2
+    }
+   },
+   "fieldOrder": 1,
+   "question": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>хотя́<br><br> [anki:play:q:0]\n<br><br>\n<a class=hint href=\"#\"\nonclick=\"this.style.display='none';\ndocument.getElementById('hint8ce5fb2478a3dbc7').style.display='block';\nreturn false;\" draggable=false>\nExample</a>\n<div id=\"hint8ce5fb2478a3dbc7\" class=hint style=\"display: none\">Хотя́ бы́ло по́здно, они́ продолжа́ли разгова́ривать.</div>\n",
+   "answer": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>хотя́<br><br> [anki:play:q:0]\n<br><br>\n<a class=hint href=\"#\"\nonclick=\"this.style.display='none';\ndocument.getElementById('hint8ce5fb2478a3dbc7').style.display='block';\nreturn false;\" draggable=false>\nExample</a>\n<div id=\"hint8ce5fb2478a3dbc7\" class=hint style=\"display: none\">Хотя́ бы́ло по́здно, они́ продолжа́ли разгова́ривать.</div>\n\n\n<hr id=answer>\n\nalthough",
+   "modelName": "Basic (and reversed card)",
+   "ord": 1,
+   "deckName": "Vocab::10000 words",
+   "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
+   "factor": 2350,
+   "interval": 537,
+   "note": 1726634604475,
+   "type": 2,
+   "queue": 2,
+   "due": 2242,
+   "reps": 8,
+   "lapses": 0,
+   "left": 0,
+   "mod": 1790049920,
+   "nextReviews": [
+    "⁨30⁩m",
+    "⁨1.6⁩y",
+    "⁨1.7⁩y",
+    "⁨1.8⁩y"
+   ],
+   "flags": 0
+  }
+ ],
+ "reviews": {
+  "1791445341958": [],
+  "1791445341955": [],
+  "1791445341954": [],
+  "1791445341956": [],
+  "1791445341957": [],
+  "1726634604750": [
+   {
+    "id": 1727094368834,
+    "usn": 1206,
+    "ease": 4,
+    "ivl": 9,
+    "lastIvl": 0,
+    "factor": 427,
+    "time": 9691,
+    "type": 0
+   },
+   {
+    "id": 1727865841690,
+    "usn": 1271,
+    "ease": 2,
+    "ivl": 15,
+    "lastIvl": 9,
+    "factor": 524,
+    "time": 14281,
+    "type": 1
+   },
+   {
+    "id": 1729164204144,
+    "usn": 1401,
+    "ease": 1,
+    "ivl": -1800,
+    "lastIvl": 15,
+    "factor": 710,
+    "time": 14521,
+    "type": 1
+   },
+   {
+    "id": 1729166815463,
+    "usn": 1402,
+    "ease": 3,
+    "ivl": 4,
+    "lastIvl": -1800,
+    "factor": 710,
+    "time": 12835,
+    "type": 2
+   },
+   {
+    "id": 1729524557506,
+    "usn": 1447,
+    "ease": 3,
+    "ivl": 14,
+    "lastIvl": 4,
+    "factor": 705,
+    "time": 15176,
+    "type": 1
+   },
+   {
+    "id": 1731299554226,
+    "usn": 1543,
+    "ease": 1,
+    "ivl": -1800,
+    "lastIvl": 14,
+    "factor": 885,
+    "time": 32173,
+    "type": 1
+   },
+   {
+    "id": 1731323023112,
+    "usn": 1544,
+    "ease": 3,
+    "ivl": 3,
+    "lastIvl": -1800,
+    "factor": 885,
+    "time": 60000,
+    "type": 2
+   },
+   {
+    "id": 1731785263000,
+    "usn": 1553,
+    "ease": 3,
+    "ivl": 7,
+    "lastIvl": 3,
+    "factor": 873,
+    "time": 5000,
+    "type": 1
+   },
+   {
+    "id": 1732610044877,
+    "usn": 1572,
+    "ease": 3,
+    "ivl": 21,
+    "lastIvl": 7,
+    "factor": 861,
+    "time": 6450,
+    "type": 1
+   },
+   {
+    "id": 1734878310949,
+    "usn": 1623,
+    "ease": 0,
+    "ivl": 7,
+    "lastIvl": 21,
+    "factor": 854,
+    "time": 0,
+    "type": 5
+   },
+   {
+    "id": 1735451055679,
+    "usn": 1629,
+    "ease": 0,
+    "ivl": 0,
+    "lastIvl": 0,
+    "factor": 0,
+    "time": 0,
+    "type": 4
+   },
+   {
+    "id": 1735451230344,
+    "usn": 1630,
+    "ease": 0,
+    "ivl": 0,
+    "lastIvl": 0,
+    "factor": 0,
+    "time": 0,
+    "type": 4
+   },
+   {
+    "id": 1738825894157,
+    "usn": 1711,
+    "ease": 3,
+    "ivl": 1,
+    "lastIvl": 0,
+    "factor": 2500,
+    "time": 11417,
+    "type": 0
+   },
+   {
+    "id": 1738929965697,
+    "usn": 1716,
+    "ease": 3,
+    "ivl": 4,
+    "lastIvl": 1,
+    "factor": 2500,
+    "time": 7209,
+    "type": 1
+   },
+   {
+    "id": 1739275825764,
+    "usn": 1749,
+    "ease": 3,
+    "ivl": 10,
+    "lastIvl": 4,
+    "factor": 2500,
+    "time": 7626,
+    "type": 1
+   },
+   {
+    "id": 1740136249080,
+    "usn": 1799,
+    "ease": 3,
+    "ivl": 28,
+    "lastIvl": 10,
+    "factor": 2500,
+    "time": 4914,
+    "type": 1
+   },
+   {
+    "id": 1744021260040,
+    "usn": 1966,
+    "ease": 3,
+    "ivl": 75,
+    "lastIvl": 28,
+    "factor": 2500,
+    "time": 9750,
+    "type": 1
+   },
+   {
+    "id": 1751186244000,
+    "usn": 2461,
+    "ease": 3,
+    "ivl": 194,
+    "lastIvl": 75,
+    "factor": 2500,
+    "time": 5000,
+    "type": 1
+   },
+   {
+    "id": 1772940035000,
+    "usn": 3749,
+    "ease": 3,
+    "ivl": 479,
+    "lastIvl": 194,
+    "factor": 2500,
+    "time": 9000,
+    "type": 1
+   }
+  ],
+  "1726634604751": [
+   {
+    "id": 1727261021164,
+    "usn": 1220,
+    "ease": 4,
+    "ivl": 10,
+    "lastIvl": 0,
+    "factor": 427,
+    "time": 8499,
+    "type": 0
+   },
+   {
+    "id": 1728108875066,
+    "usn": 1300,
+    "ease": 3,
+    "ivl": 40,
+    "lastIvl": 10,
+    "factor": 432,
+    "time": 9768,
+    "type": 1
+   },
+   {
+    "id": 1732561110233,
+    "usn": 1571,
+    "ease": 3,
+    "ivl": 152,
+    "lastIvl": 40,
+    "factor": 437,
+    "time": 5180,
+    "type": 1
+   },
+   {
+    "id": 1734878310950,
+    "usn": 1623,
+    "ease": 0,
+    "ivl": 47,
+    "lastIvl": 152,
+    "factor": 295,
+    "time": 0,
+    "type": 5
+   },
+   {
+    "id": 1735451055680,
+    "usn": 1629,
+    "ease": 0,
+    "ivl": 0,
+    "lastIvl": 0,
+    "factor": 0,
+    "time": 0,
+    "type": 4
+   },
+   {
+    "id": 1735451230345,
+    "usn": 1630,
+    "ease": 0,
+    "ivl": 0,
+    "lastIvl": 0,
+    "factor": 0,
+    "time": 0,
+    "type": 4
+   },
+   {
+    "id": 1738826053674,
+    "usn": 1711,
+    "ease": 4,
+    "ivl": 4,
+    "lastIvl": 0,
+    "factor": 2500,
+    "time": 13307,
+    "type": 0
+   },
+   {
+    "id": 1739187139887,
+    "usn": 1743,
+    "ease": 3,
+    "ivl": 10,
+    "lastIvl": 4,
+    "factor": 2500,
+    "time": 3191,
+    "type": 1
+   },
+   {
+    "id": 1740050851374,
+    "usn": 1793,
+    "ease": 3,
+    "ivl": 27,
+    "lastIvl": 10,
+    "factor": 2500,
+    "time": 3125,
+    "type": 1
+   },
+   {
+    "id": 1743856651693,
+    "usn": 1961,
+    "ease": 2,
+    "ivl": 36,
+    "lastIvl": 27,
+    "factor": 2350,
+    "time": 9763,
+    "type": 1
+   },
+   {
+    "id": 1746974031519,
+    "usn": 2219,
+    "ease": 3,
+    "ivl": 89,
+    "lastIvl": 36,
+    "factor": 2350,
+    "time": 3367,
+    "type": 1
+   },
+   {
+    "id": 1756006697000,
+    "usn": 2738,
+    "ease": 3,
+    "ivl": 207,
+    "lastIvl": 89,
+    "factor": 2350,
+    "time": 4000,
+    "type": 1
+   },
+   {
+    "id": 1778705590232,
+    "usn": 4122,
+    "ease": 3,
+    "ivl": 126,
+    "lastIvl": 207,
+    "factor": 462,
+    "time": 3955,
+    "type": 1
+   },
+   {
+    "id": 1790049920829,
+    "usn": 4869,
+    "ease": 3,
+    "ivl": 537,
+    "lastIvl": 126,
+    "factor": 418,
+    "time": 3383,
+    "type": 1
+   }
+  ]
+ }
+}
