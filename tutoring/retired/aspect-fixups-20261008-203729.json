@@ -1,0 +1,1369 @@
+[
+ {
+  "noteId": 1726634607728,
+  "profile": "User 1",
+  "tags": [
+   "aspect",
+   "claude",
+   "verb"
+  ],
+  "fields": {
+   "Text": {
+    "value": "<div class=\"ru-pair\">охраня́ть / охрани́ть (+a)</div><b>{{c3::to guard}}</b><br><br><table class=\"aspect\" style=\"margin: 0 auto; text-align: left; border-collapse: collapse;\"><tr><td style=\"padding: 2px 10px; vertical-align: top;\">impf:</td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c1::охраня́ть — охраня́ю, охраня́ешь (+a)}}</td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">pf:</td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c2::охрани́ть — охраню́, охрани́шь (+a)}}</td></tr></table>",
+    "order": 0
+   },
+   "Back Extra": {
+    "value": "{{c1::Солда́ты охраня́ли грани́цу в любу́ю пого́ду.}} {{c2::Мы должны́ охрани́ть приро́ду для бу́дущих поколе́ний.}} {{c3::Солда́ты охраня́ли грани́цу в любу́ю пого́ду.<br>Мы должны́ охрани́ть приро́ду для бу́дущих поколе́ний.}}",
+    "order": 1
+   },
+   "Audio": {
+    "value": "{{c1::[sound:hypertts-647dd24167ce728a4c731acaa62f48a188272ac289eb989bb099151b.mp3]}} {{c2::[sound:hypertts-f7c86ca7a854e32dde5233b99a383432099892492f1e1162e8c8341d.mp3]}} {{c3::[sound:hypertts-748302cf89f775350e77e60c4561b4fb4219f3478d709181187f5a8d.mp3]}}",
+    "order": 2
+   }
+  },
+  "modelName": "Cloze Aspect",
+  "mod": 1791462709,
+  "cards": [
+   1726634611256,
+   1726634611257,
+   1791462341928
+  ]
+ },
+ {
+  "noteId": 1726634607734,
+  "profile": "User 1",
+  "tags": [
+   "aspect",
+   "claude",
+   "verb"
+  ],
+  "fields": {
+   "Text": {
+    "value": "<div class=\"ru-pair\">порыва́ть / порва́ть (+a)</div><b>{{c3::to tear / break off}}</b><br><br><table class=\"aspect\" style=\"margin: 0 auto; text-align: left; border-collapse: collapse;\"><tr><td style=\"padding: 2px 10px; vertical-align: top;\">impf:</td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c1::порыва́ть — порыва́ю, порыва́ешь (+a)}}</td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">pf:</td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c2::порва́ть — порву́, порвёшь (+a)}}</td></tr></table>",
+    "order": 0
+   },
+   "Back Extra": {
+    "value": "{{c1::Она́ не порыва́ет свя́зи со ста́рыми друзья́ми.}} {{c2::Он порва́л отноше́ния с бы́вшим партнёром.}} {{c3::Она́ не порыва́ет свя́зи со ста́рыми друзья́ми.<br>Он порва́л отноше́ния с бы́вшим партнёром.}}",
+    "order": 1
+   },
+   "Audio": {
+    "value": "{{c1::[sound:hypertts-fda866ad07b02296d6f37ea8a884eafc04300f92e6c50d5c1779582b.mp3]}} {{c2::[sound:hypertts-e9b2474dddbae878e1d6160406519340defc5b1e504ef9f589d42f38.mp3]}} {{c3::[sound:hypertts-1cacd23b63d6ea2f28f93fe75c9639eea2381a8d1242f49d6ba0763d.mp3]}}",
+    "order": 2
+   }
+  },
+  "modelName": "Cloze Aspect",
+  "mod": 1791462713,
+  "cards": [
+   1726634611268,
+   1726634611269,
+   1791462342076
+  ]
+ },
+ {
+  "noteId": 1726634607875,
+  "profile": "User 1",
+  "tags": [
+   "aspect",
+   "claude",
+   "verb"
+  ],
+  "fields": {
+   "Text": {
+    "value": "<div class=\"ru-pair\">реве́ть / зареве́ть</div><b>{{c3::to roar, howl / bawl, cry loudly}}</b><br><br><table class=\"aspect\" style=\"margin: 0 auto; text-align: left; border-collapse: collapse;\"><tr><td style=\"padding: 2px 10px; vertical-align: top;\">impf:</td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c1::реве́ть — реву́, ревёшь}}</td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">pf:</td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c2::зареве́ть — зареву́, заревёшь}}</td></tr></table>",
+    "order": 0
+   },
+   "Back Extra": {
+    "value": "{{c1::Всю ночь за окно́м реве́л ве́тер.}} {{c2::Малы́ш заревёл, когда́ упа́л с велосипе́да.}} {{c3::Всю ночь за окно́м реве́л ве́тер.<br>Малы́ш заревёл, когда́ упа́л с велосипе́да.}}",
+    "order": 1
+   },
+   "Audio": {
+    "value": "{{c1::[sound:hypertts-33dca4a2e09369b1d226ec0178d13f8a95e785fa3bc245e8443541b5.mp3]}} {{c2::[sound:hypertts-4da0370897b8c74a87dd6c6f56e7f707badbdfb46d5e3198e287e911.mp3]}} {{c3::[sound:hypertts-17daea5844713a1639dec8c0d5705e9088a6340217cc0032a6bc938c.mp3]}}",
+    "order": 2
+   }
+  },
+  "modelName": "Cloze Aspect",
+  "mod": 1791462752,
+  "cards": [
+   1726634611550,
+   1726634611551,
+   1791462343579
+  ]
+ },
+ {
+  "noteId": 1726634607908,
+  "profile": "User 1",
+  "tags": [
+   "aspect",
+   "B1.1-1.1",
+   "claude",
+   "native",
+   "verb"
+  ],
+  "fields": {
+   "Text": {
+    "value": "<div class=\"ru-pair\">выть / завы́ть</div><b>{{c3::to howl}}</b><br><br><table class=\"aspect\" style=\"margin: 0 auto; text-align: left; border-collapse: collapse;\"><tr><td style=\"padding: 2px 10px; vertical-align: top;\">impf:</td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c1::выть — во́ю, во́ешь}}</td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">pf:</td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c2::завы́ть — заво́ю, заво́ешь}}</td></tr></table>",
+    "order": 0
+   },
+   "Back Extra": {
+    "value": "{{c1::Соба́ка во́ет, когда́ хозя́ина нет до́ма.}} {{c2::Вдруг за окно́м гро́мко завы́ла соба́ка.}} {{c3::Соба́ка во́ет, когда́ хозя́ина нет до́ма.<br>Вдруг за окно́м гро́мко завы́ла соба́ка.}}",
+    "order": 1
+   },
+   "Audio": {
+    "value": "{{c1::[sound:hypertts-840cd4d4095a695c2621f152dc49c7b24f6260e514bfe8d33d101113.mp3]}} {{c2::[sound:hypertts-0089c3564a014878d10d064feda4d2673ebab6c14295bf9910dd1754.mp3]}} {{c3::[sound:hypertts-1fe6ce43b17a38807a6b31b83f8feb332716c3f98a5ff51bbde375b1.mp3]}}",
+    "order": 2
+   }
+  },
+  "modelName": "Cloze Aspect",
+  "mod": 1791459212,
+  "cards": [
+   1726634611616,
+   1726634611617,
+   1791457151489
+  ]
+ },
+ {
+  "noteId": 1726634608018,
+  "profile": "User 1",
+  "tags": [
+   "aspect",
+   "B2.1-1.4",
+   "claude",
+   "native",
+   "verb"
+  ],
+  "fields": {
+   "Text": {
+    "value": "<div class=\"ru-pair\">завора́чивать / заверну́ть (+а)</div><b>{{c3::to wrap / (за +а) turn (a corner)}}</b><br><br><table class=\"aspect\" style=\"margin: 0 auto; text-align: left; border-collapse: collapse;\"><tr><td style=\"padding: 2px 10px; vertical-align: top;\">impf:</td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c1::завора́чивать — завора́чиваю, завора́чиваешь (+а)}}</td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">pf:</td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c2::заверну́ть — заверну́, завернёшь (+а)}}</td></tr></table>",
+    "order": 0
+   },
+   "Back Extra": {
+    "value": "{{c1::В магази́не нам всегда́ завора́чивают поку́пки.}} {{c2::Она́ заверну́ла пода́рок в краси́вую бума́гу.}} {{c3::В магази́не нам всегда́ завора́чивают поку́пки.<br>Она́ заверну́ла пода́рок в краси́вую бума́гу.}}",
+    "order": 1
+   },
+   "Audio": {
+    "value": "{{c1::[sound:hypertts-791a0cb49e6ea46b0a0613d386aff614e4f3f9b4fb43cda071ee23b4.mp3]}} {{c2::[sound:hypertts-5905c83121fcf5a156caafb7fe45e556b96d0ebbe1328f95b0479c23.mp3]}} {{c3::[sound:hypertts-7985a0aca1b409ca3b04d6c42aaabe7850c99d962c66bd734b1762a2.mp3]}}",
+    "order": 2
+   }
+  },
+  "modelName": "Cloze Aspect",
+  "mod": 1791462764,
+  "cards": [
+   1726634611836,
+   1726634611837,
+   1791462344028
+  ]
+ },
+ {
+  "noteId": 1726634608065,
+  "profile": "User 1",
+  "tags": [
+   "aspect",
+   "claude",
+   "verb"
+  ],
+  "fields": {
+   "Text": {
+    "value": "<div class=\"ru-pair\">протестова́ть / запротестова́ть (про́тив +g)</div><b>{{c3::to protest (against)}}</b><br><br><table class=\"aspect\" style=\"margin: 0 auto; text-align: left; border-collapse: collapse;\"><tr><td style=\"padding: 2px 10px; vertical-align: top;\">impf:</td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c1::протестова́ть — протесту́ю, протесту́ешь (про́тив +g)}}</td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">pf:</td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c2::запротестова́ть — запротесту́ю, запротесту́ешь (про́тив +g)}}</td></tr></table>",
+    "order": 0
+   },
+   "Back Extra": {
+    "value": "{{c1::Студе́нты протесту́ют про́тив но́вых пра́вил.}} {{c2::Жи́тели запротестова́ли про́тив строи́тельства заво́да.}} {{c3::Студе́нты протесту́ют про́тив но́вых пра́вил.<br>Жи́тели запротестова́ли про́тив строи́тельства заво́да.}}",
+    "order": 1
+   },
+   "Audio": {
+    "value": "{{c1::[sound:hypertts-bfb23f8165e7ae2184971ac4ebf001de25f763f7cca9872261d7f907.mp3]}} {{c2::[sound:hypertts-4b8051b380124852a20ff6b6aab048c694927adb1048d4b7556741d7.mp3]}} {{c3::[sound:hypertts-7800289d26c83446d7141950a39e7e691de8b09d56ad129cc6860670.mp3]}}",
+    "order": 2
+   }
+  },
+  "modelName": "Cloze Aspect",
+  "mod": 1791462771,
+  "cards": [
+   1726634611930,
+   1726634611931,
+   1791462344328
+  ]
+ },
+ {
+  "noteId": 1726634608069,
+  "profile": "User 1",
+  "tags": [
+   "aspect",
+   "B2.1-1.4",
+   "claude",
+   "native",
+   "verb"
+  ],
+  "fields": {
+   "Text": {
+    "value": "<div class=\"ru-pair\">размышля́ть / размы́слить (о +pr)</div><b>{{c3::to ponder (on)}}</b><br><br><table class=\"aspect\" style=\"margin: 0 auto; text-align: left; border-collapse: collapse;\"><tr><td style=\"padding: 2px 10px; vertical-align: top;\">impf:</td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c1::размышля́ть — размышля́ю, размышля́ешь (о +pr)}}</td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">pf:</td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c2::размы́слить — размы́слю, размы́слишь (о +pr)}}</td></tr></table>",
+    "order": 0
+   },
+   "Back Extra": {
+    "value": "{{c1::Он до́лго размышля́л о смы́сле своего́ реше́ния.}} {{c2::Он размы́слил и реши́л отказа́ться.}} {{c3::Он до́лго размышля́л о смы́сле своего́ реше́ния.<br>Он размы́слил и реши́л отказа́ться.}}",
+    "order": 1
+   },
+   "Audio": {
+    "value": "{{c1::[sound:hypertts-3262c9ebc5d79c082cbe79b907cd797d7a48ea640697693f5ca6863b.mp3]}} {{c2::[sound:hypertts-e1eb0600083ae418de1272059370f5ce292e33cfe850c8b84fa80757.mp3]}} {{c3::[sound:hypertts-b87dfa99e8f20134d71d26c6d9e1636e5151b2b168cd81cd2d10a102.mp3]}}",
+    "order": 2
+   }
+  },
+  "modelName": "Cloze Aspect",
+  "mod": 1791462775,
+  "cards": [
+   1726634611938,
+   1726634611939,
+   1791462344478
+  ]
+ },
+ {
+  "noteId": 1726634608204,
+  "profile": "User 1",
+  "tags": [
+   "aspect",
+   "claude",
+   "verb"
+  ],
+  "fields": {
+   "Text": {
+    "value": "<div class=\"ru-pair\">производи́ться / произвести́сь</div><b>{{c3::to be carried out; to be performed; to be produced (impf. производи́ться)}}</b><br><br><table class=\"aspect\" style=\"margin: 0 auto; text-align: left; border-collapse: collapse;\"><tr><td style=\"padding: 2px 10px; vertical-align: top;\">impf:</td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c1::производи́ться — произвожу́сь, произво́дишься}}</td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">pf:</td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c2::произвести́сь — произведу́сь, произведёшься}}</td></tr></table>",
+    "order": 0
+   },
+   "Back Extra": {
+    "value": "{{c1::Рабо́ты по строи́тельству моста́ производи́лись круглосу́точно.}} {{c2::Рабо́ты по строи́тельству моста́ производи́лись круглосу́точно.}} {{c3::Рабо́ты по строи́тельству моста́ производи́лись круглосу́точно.<br>Рабо́ты по строи́тельству моста́ производи́лись круглосу́точно.}}",
+    "order": 1
+   },
+   "Audio": {
+    "value": "{{c1::[sound:hypertts-a64dd25f00485b8d2d919d85c9c001e2499f5fda9ca15697722160e0.mp3]}} {{c2::[sound:hypertts-2c4be29793eabc691a4f58dd0bd7febe8aa68de9720d32c66d744511.mp3]}} {{c3::[sound:hypertts-ca6a06503e40b2d85e71079bf306295e2abc7b39f787b7e410b9fec5.mp3]}}",
+    "order": 2
+   }
+  },
+  "modelName": "Cloze Aspect",
+  "mod": 1791462791,
+  "cards": [
+   1726634612208,
+   1726634612209,
+   1791462345078
+  ]
+ },
+ {
+  "noteId": 1726634608242,
+  "profile": "User 1",
+  "tags": [
+   "aspect",
+   "claude",
+   "verb"
+  ],
+  "fields": {
+   "Text": {
+    "value": "<div class=\"ru-pair\">погружа́ть / погрузи́ть</div><b>{{c3::to immerse}}</b><br><br><table class=\"aspect\" style=\"margin: 0 auto; text-align: left; border-collapse: collapse;\"><tr><td style=\"padding: 2px 10px; vertical-align: top;\">impf:</td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c1::погружа́ть — погружа́ю, погружа́ешь}}</td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">pf:</td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c2::погрузи́ть — погружу́, погрузи́шь}}</td></tr></table>",
+    "order": 0
+   },
+   "Back Extra": {
+    "value": "{{c1::Она́ погружа́ла ру́ки в холо́дную во́ду.}} {{c2::Он погрузи́л ло́жку в мёд.}} {{c3::Она́ погружа́ла ру́ки в холо́дную во́ду.<br>Он погрузи́л ло́жку в мёд.}}",
+    "order": 1
+   },
+   "Audio": {
+    "value": "{{c1::[sound:hypertts-4eeb0721dc5b9a1e2582a63934e7c8f74e3643e56dbd935a2109ba21.mp3]}} {{c2::[sound:hypertts-27fa15bfa2f6d93ad80f5e335430951859c1b193811146b136b193e5.mp3]}} {{c3::[sound:hypertts-6550262dff162bf588c5d1d40317ed6f142ec0ea7e525fe5961180ea.mp3]}}",
+    "order": 2
+   }
+  },
+  "modelName": "Cloze Aspect",
+  "mod": 1791462800,
+  "cards": [
+   1726634612284,
+   1726634612285,
+   1791462345379
+  ]
+ },
+ {
+  "noteId": 1726634608348,
+  "profile": "User 1",
+  "tags": [
+   "aspect",
+   "claude",
+   "verb"
+  ],
+  "fields": {
+   "Text": {
+    "value": "<div class=\"ru-pair\">аплоди́ровать / зааплоди́ровать (+d)</div><b>{{c3::to applaud (s.o. or sth)}}</b><br><br><table class=\"aspect\" style=\"margin: 0 auto; text-align: left; border-collapse: collapse;\"><tr><td style=\"padding: 2px 10px; vertical-align: top;\">impf:</td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c1::аплоди́ровать — аплоди́рую, аплоди́руешь (+d)}}</td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">pf:</td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c2::зааплоди́ровать — зааплоди́рую, зааплоди́руешь (+d)}}</td></tr></table>",
+    "order": 0
+   },
+   "Back Extra": {
+    "value": "{{c1::Пу́блика начала́ аплоди́ровать, едва́ арти́ст вы́шел на сце́ну.}} {{c2::Зал зааплоди́ровал, когда́ пе́вица вы́шла на сце́ну.}} {{c3::Пу́блика начала́ аплоди́ровать, едва́ арти́ст вы́шел на сце́ну.<br>Зал зааплоди́ровал, когда́ пе́вица вы́шла на сце́ну.}}",
+    "order": 1
+   },
+   "Audio": {
+    "value": "{{c1::[sound:hypertts-95906e45851545a57b02470b154a66ef763f42cc09ad4714faff42f9.mp3]}} {{c2::[sound:hypertts-e238a351189697fb88fe654f5fe40f2737df5ed5c7b7aa257c2f08e1.mp3]}} {{c3::[sound:hypertts-720e8744d7fa5cb075fc2753c45ef29ed366162872dd4f2946a0cbd6.mp3]}}",
+    "order": 2
+   }
+  },
+  "modelName": "Cloze Aspect",
+  "mod": 1791462810,
+  "cards": [
+   1726634612496,
+   1726634612497,
+   1791462345678
+  ]
+ },
+ {
+  "noteId": 1726634608644,
+  "profile": "User 1",
+  "tags": [
+   "aspect",
+   "claude",
+   "verb"
+  ],
+  "fields": {
+   "Text": {
+    "value": "<div class=\"ru-pair\">дро́гнуть / продро́гнуть</div><b>{{c3::to be chilled}}</b><br><br><table class=\"aspect\" style=\"margin: 0 auto; text-align: left; border-collapse: collapse;\"><tr><td style=\"padding: 2px 10px; vertical-align: top;\">impf:</td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c1::дро́гнуть — дро́гну, дро́гнешь}}</td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">pf:</td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c2::продро́гнуть — продро́гну, продро́гнешь}}</td></tr></table>",
+    "order": 0
+   },
+   "Back Extra": {
+    "value": "{{c1::Мы до́лго дро́гли на остано́вке.}} {{c2::Мы продро́гли на холо́дном ветру́, пока́ жда́ли авто́бус.}} {{c3::Мы до́лго дро́гли на остано́вке.<br>Мы продро́гли на холо́дном ветру́, пока́ жда́ли авто́бус.}}",
+    "order": 1
+   },
+   "Audio": {
+    "value": "{{c1::[sound:hypertts-4caac7322b5f9810f2a64ee7938730bc5fb0ca8c1d8413d8a5299485.mp3]}} {{c2::[sound:hypertts-e530c157a891d92a6edfc639a011e5170b778e988362f3290676b334.mp3]}} {{c3::[sound:hypertts-5c628c1d6345c93bd2a8af1e37dedf38a8bceeea935aa145bd1a81bb.mp3]}}",
+    "order": 2
+   }
+  },
+  "modelName": "Cloze Aspect",
+  "mod": 1791462874,
+  "cards": [
+   1726634613088,
+   1726634613089,
+   1791462348054
+  ]
+ },
+ {
+  "noteId": 1726634608744,
+  "profile": "User 1",
+  "tags": [
+   "aspect",
+   "claude",
+   "verb"
+  ],
+  "fields": {
+   "Text": {
+    "value": "<div class=\"ru-pair\">цепля́ться / зацепля́ться (за +a)</div><b>{{c3::to clutch (at) / catch (on)}}</b><br><br><table class=\"aspect\" style=\"margin: 0 auto; text-align: left; border-collapse: collapse;\"><tr><td style=\"padding: 2px 10px; vertical-align: top;\">impf:</td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c1::цепля́ться — цепля́юсь, цепля́ешься (за +a)}}</td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">pf:</td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c2::зацепля́ться — зацепля́юсь, зацепля́ешься (за +a)}}</td></tr></table>",
+    "order": 0
+   },
+   "Back Extra": {
+    "value": "{{c1::Ребёнок цепля́лся за ру́ку ма́тери, боя́сь потеря́ться в толпе́.}} {{c2::Мой рука́в зацепи́лся за гвоздь.}} {{c3::Ребёнок цепля́лся за ру́ку ма́тери, боя́сь потеря́ться в толпе́.<br>Мой рука́в зацепи́лся за гвоздь.}}",
+    "order": 1
+   },
+   "Audio": {
+    "value": "{{c1::[sound:hypertts-93715e96bbcd9902c6e2743b04bd432eed3f827ec01ff9d8338814cb.mp3]}} {{c2::[sound:hypertts-ac39f5a489fab1491bc5a6c422108cbf2bf8eb4f74ef02ab151afb26.mp3]}} {{c3::[sound:hypertts-9524eb9982bc5fe7a8834c82de2787d8413b856c8c9ac31a82beecbc.mp3]}}",
+    "order": 2
+   }
+  },
+  "modelName": "Cloze Aspect",
+  "mod": 1791462938,
+  "cards": [
+   1726634613288,
+   1726634613289,
+   1791462349678
+  ]
+ },
+ {
+  "noteId": 1726634608761,
+  "profile": "User 1",
+  "tags": [
+   "aspect",
+   "claude",
+   "verb"
+  ],
+  "fields": {
+   "Text": {
+    "value": "<div class=\"ru-pair\">вводи́ться / ввести́сь</div><b>{{c3::to be introduced, brought in}}</b><br><br><table class=\"aspect\" style=\"margin: 0 auto; text-align: left; border-collapse: collapse;\"><tr><td style=\"padding: 2px 10px; vertical-align: top;\">impf:</td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c1::вводи́ться — ввожу́сь, вво́дишься}}</td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">pf:</td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c2::ввести́сь — введу́сь, введёшься}}</td></tr></table>",
+    "order": 0
+   },
+   "Back Extra": {
+    "value": "{{c1::Но́вые пра́вила вводи́лись постепе́нно, что́бы все успе́ли привы́кнуть.}} {{c2::Но́вые пра́вила вводи́лись постепе́нно, что́бы все успе́ли привы́кнуть.}} {{c3::Но́вые пра́вила вводи́лись постепе́нно, что́бы все успе́ли привы́кнуть.<br>Но́вые пра́вила вводи́лись постепе́нно, что́бы все успе́ли привы́кнуть.}}",
+    "order": 1
+   },
+   "Audio": {
+    "value": "{{c1::[sound:hypertts-2a9d4f616b467e94b2ce44cc9c6ba42eba9c17ac7025e878a56e9b1c.mp3]}} {{c2::[sound:hypertts-dc7d4042b316add95174ba712a3187b5977537c989b301b2b43f6f19.mp3]}} {{c3::[sound:hypertts-358e689d231520699892b6513b9d9bbb9259547f624ee804920f94da.mp3]}}",
+    "order": 2
+   }
+  },
+  "modelName": "Cloze Aspect",
+  "mod": 1791462950,
+  "cards": [
+   1726634613322,
+   1726634613323,
+   1791462349978
+  ]
+ },
+ {
+  "noteId": 1726634608775,
+  "profile": "User 1",
+  "tags": [
+   "aspect",
+   "claude",
+   "verb"
+  ],
+  "fields": {
+   "Text": {
+    "value": "<div class=\"ru-pair\">греть / погре́ть (+a)</div><b>{{c3::to heat}}</b><br><br><table class=\"aspect\" style=\"margin: 0 auto; text-align: left; border-collapse: collapse;\"><tr><td style=\"padding: 2px 10px; vertical-align: top;\">impf:</td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c1::греть — гре́ю, гре́ешь (+a)}}</td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">pf:</td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c2::погре́ть — погре́ю, погре́ешь (+a)}}</td></tr></table>",
+    "order": 0
+   },
+   "Back Extra": {
+    "value": "{{c1::Она́ гре́ла ру́ки у ками́на.}} {{c2::Иди́ сюда́, погре́й ру́ки у батаре́и.}} {{c3::Она́ гре́ла ру́ки у ками́на.<br>Иди́ сюда́, погре́й ру́ки у батаре́и.}}",
+    "order": 1
+   },
+   "Audio": {
+    "value": "{{c1::[sound:hypertts-7f6a86002252113136c6e0a2d3a97c20d9869d2e9ef1d16194dfb394.mp3]}} {{c2::[sound:hypertts-56868081d0caadea56377657ae419cfff8606a97ab0c46e8a944d651.mp3]}} {{c3::[sound:hypertts-3ed7f94b4b3bffcf7fa85c6d3a488f66027740fa7eac9bcad6654365.mp3]}}",
+    "order": 2
+   }
+  },
+  "modelName": "Cloze Aspect",
+  "mod": 1791462955,
+  "cards": [
+   1726634613350,
+   1726634613351,
+   1791462350129
+  ]
+ },
+ {
+  "noteId": 1726634609041,
+  "profile": "User 1",
+  "tags": [
+   "aspect",
+   "claude",
+   "verb"
+  ],
+  "fields": {
+   "Text": {
+    "value": "<div class=\"ru-pair\">сообща́ться / сообщи́ться</div><b>{{c3::to connect, lead into (of rooms) / to correspond, be in contact (with s.o.)}}</b><br><br><table class=\"aspect\" style=\"margin: 0 auto; text-align: left; border-collapse: collapse;\"><tr><td style=\"padding: 2px 10px; vertical-align: top;\">impf:</td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c1::сообща́ться — сообща́юсь, сообща́ешься}}</td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">pf:</td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c2::сообщи́ться — (3rd person) сообщи́тся}}</td></tr></table>",
+    "order": 0
+   },
+   "Back Extra": {
+    "value": "{{c1::Э́та ко́мната сообща́ется с ку́хней.}} {{c2::Э́та ко́мната сообща́ется с ку́хней.}} {{c3::Э́та ко́мната сообща́ется с ку́хней.<br>Э́та ко́мната сообща́ется с ку́хней.}}",
+    "order": 1
+   },
+   "Audio": {
+    "value": "{{c1::[sound:hypertts-dc0575a293b9ea7ad0ce99af12c75e9750bb8de8947ce107a8933a86.mp3]}} {{c2::[sound:hypertts-9910ad5c66e75a551b56411de03024efc8f512b5c20f5dafadf55991.mp3]}} {{c3::[sound:hypertts-cd933012512fb3238b83e8346b1ca6ffc10d54e9f76df64d7b16493c.mp3]}}",
+    "order": 2
+   }
+  },
+  "modelName": "Cloze Aspect",
+  "mod": 1791463073,
+  "cards": [
+   1726634613882,
+   1726634613883,
+   1791462352977
+  ]
+ },
+ {
+  "noteId": 1726634609147,
+  "profile": "User 1",
+  "tags": [
+   "aspect",
+   "claude",
+   "verb"
+  ],
+  "fields": {
+   "Text": {
+    "value": "<div class=\"ru-pair\">обсужда́ться / обсуди́ться</div><b>{{c3::to be discussed}}</b><br><br><table class=\"aspect\" style=\"margin: 0 auto; text-align: left; border-collapse: collapse;\"><tr><td style=\"padding: 2px 10px; vertical-align: top;\">impf:</td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c1::обсужда́ться — обсужда́юсь, обсужда́ешься}}</td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">pf:</td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c2::обсуди́ться — обсужу́сь, обсу́дишься}}</td></tr></table>",
+    "order": 0
+   },
+   "Back Extra": {
+    "value": "{{c1::Э́тот вопро́с уже́ обсужда́ется на заседа́нии комите́та.}} {{c2::Все дета́ли бы́ли обсуждены́ ещё вчера́.}} {{c3::Э́тот вопро́с уже́ обсужда́ется на заседа́нии комите́та.<br>Все дета́ли бы́ли обсуждены́ ещё вчера́.}}",
+    "order": 1
+   },
+   "Audio": {
+    "value": "{{c1::[sound:hypertts-5dfc930ea682b376c411b931eb07833d4b74b67ed7e75cac66f83f13.mp3]}} {{c2::[sound:hypertts-ce67456740e0cd5395b4f87bf59db9d0c2f36d152b1948c10ffd2891.mp3]}} {{c3::[sound:hypertts-48e9d17f3ca8e273eaadf95c4b3826dffaac6bcb097e84c3f5f528f5.mp3]}}",
+    "order": 2
+   }
+  },
+  "modelName": "Cloze Aspect",
+  "mod": 1791463112,
+  "cards": [
+   1726634614094,
+   1726634614095,
+   1791462354328
+  ]
+ },
+ {
+  "noteId": 1726634609183,
+  "profile": "User 1",
+  "tags": [
+   "aspect",
+   "claude",
+   "verb"
+  ],
+  "fields": {
+   "Text": {
+    "value": "<div class=\"ru-pair\">предлага́ться / предложи́ться</div><b>{{c3::to be offered}}</b><br><br><table class=\"aspect\" style=\"margin: 0 auto; text-align: left; border-collapse: collapse;\"><tr><td style=\"padding: 2px 10px; vertical-align: top;\">impf:</td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c1::предлага́ться — предлага́юсь, предлага́ешься}}</td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">pf:</td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c2::предложи́ться — предложу́сь, предло́жишься}}</td></tr></table>",
+    "order": 0
+   },
+   "Back Extra": {
+    "value": "{{c1::На э́той рабо́те предлага́ется хоро́шая зарпла́та и соцпаке́т.}} {{c2::Ему́ бы́ло предло́жено но́вое ме́сто в Москве́.}} {{c3::На э́той рабо́те предлага́ется хоро́шая зарпла́та и соцпаке́т.<br>Ему́ бы́ло предло́жено но́вое ме́сто в Москве́.}}",
+    "order": 1
+   },
+   "Audio": {
+    "value": "{{c1::[sound:hypertts-d7901f084f63aa86ee94cde55d96e7142b2aa301bbe858ac4e56dd17.mp3]}} {{c2::[sound:hypertts-2393fdc6fc22c8f0e1b734c1781b06179450469c16e40038cf3dfc3b.mp3]}} {{c3::[sound:hypertts-da921b5f30f84fefadb0eaf357f89927fe1dbd991c1824d5c2d16a84.mp3]}}",
+    "order": 2
+   }
+  },
+  "modelName": "Cloze Aspect",
+  "mod": 1791463137,
+  "cards": [
+   1726634614166,
+   1726634614167,
+   1791462355227
+  ]
+ },
+ {
+  "noteId": 1726634609184,
+  "profile": "User 1",
+  "tags": [
+   "aspect",
+   "claude",
+   "verb"
+  ],
+  "fields": {
+   "Text": {
+    "value": "<div class=\"ru-pair\">предполага́ться / предположи́ться</div><b>{{c3::to be proposed, intended}}</b><br><br><table class=\"aspect\" style=\"margin: 0 auto; text-align: left; border-collapse: collapse;\"><tr><td style=\"padding: 2px 10px; vertical-align: top;\">impf:</td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c1::предполага́ться — предполага́юсь, предполага́ешься}}</td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">pf:</td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c2::предположи́ться — предположу́сь, предполо́жишься}}</td></tr></table>",
+    "order": 0
+   },
+   "Back Extra": {
+    "value": "{{c1::Предполага́лось, что конфере́нция начнётся в де́сять утра́.}} {{c2::Врачи́ предположи́ли, что боле́знь пройдёт за неде́лю.}} {{c3::Предполага́лось, что конфере́нция начнётся в де́сять утра́.<br>Врачи́ предположи́ли, что боле́знь пройдёт за неде́лю.}}",
+    "order": 1
+   },
+   "Audio": {
+    "value": "{{c1::[sound:hypertts-1829d36d9d52d5991fef12af0163782eacabfea15a1e86fa39868a0d.mp3]}} {{c2::[sound:hypertts-aac738c866efd3be1a160196a8b3ffe9a747fc65b608c7860da463c3.mp3]}} {{c3::[sound:hypertts-5bf564164eb51e85f91668e42fd9e96cfbbcc2e40fd87bde90e14056.mp3]}}",
+    "order": 2
+   }
+  },
+  "modelName": "Cloze Aspect",
+  "mod": 1791463141,
+  "cards": [
+   1726634614168,
+   1726634614169,
+   1791462355378
+  ]
+ },
+ {
+  "noteId": 1726634609287,
+  "profile": "User 1",
+  "tags": [
+   "aspect",
+   "claude",
+   "verb"
+  ],
+  "fields": {
+   "Text": {
+    "value": "<div class=\"ru-pair\">гоня́ть / погоня́ть (+a)</div><b>{{c3::to drive, make (s.o.) run}}</b><br><br><table class=\"aspect\" style=\"margin: 0 auto; text-align: left; border-collapse: collapse;\"><tr><td style=\"padding: 2px 10px; vertical-align: top;\">impf:</td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c1::гоня́ть — гоня́ю, гоня́ешь (+a)}}</td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">pf:</td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c2::погоня́ть — погоня́ю, погоня́ешь (+a)}}</td></tr></table>",
+    "order": 0
+   },
+   "Back Extra": {
+    "value": "{{c1::Пасту́х гоня́л коро́в по по́лю до са́мого ве́чера.}} {{c2::Ма́льчики погоня́ли мяч во дворе́ и пошли́ домо́й.}} {{c3::Пасту́х гоня́л коро́в по по́лю до са́мого ве́чера.<br>Ма́льчики погоня́ли мяч во дворе́ и пошли́ домо́й.}}",
+    "order": 1
+   },
+   "Audio": {
+    "value": "{{c1::[sound:hypertts-fa730154149255120a3d7c66a254810f11231f7fa7e39134592af4b1.mp3]}} {{c2::[sound:hypertts-c46ccf11756c62fb7cb8fd351ca4ca6bb05f83c7b4c57cf27ef762cd.mp3]}} {{c3::[sound:hypertts-2573aa2eacfd3586f5bd3b971e7fae1652fe9fa569a021d77f12f79d.mp3]}}",
+    "order": 2
+   }
+  },
+  "modelName": "Cloze Aspect",
+  "mod": 1791463182,
+  "cards": [
+   1726634614374,
+   1726634614375,
+   1791462356853
+  ]
+ },
+ {
+  "noteId": 1726634609323,
+  "profile": "User 1",
+  "tags": [
+   "aspect",
+   "claude",
+   "verb"
+  ],
+  "fields": {
+   "Text": {
+    "value": "<div class=\"ru-pair\">кры́ться / покры́ться (в +pr)</div><b>{{c3::to be hidden, lie concealed (in) (impf. крыться)}}</b><br><br><table class=\"aspect\" style=\"margin: 0 auto; text-align: left; border-collapse: collapse;\"><tr><td style=\"padding: 2px 10px; vertical-align: top;\">impf:</td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c1::кры́ться — кро́юсь, кро́ешься (в +pr)}}</td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">pf:</td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c2::покры́ться — покро́юсь, покро́ешься (в +pr)}}</td></tr></table>",
+    "order": 0
+   },
+   "Back Extra": {
+    "value": "{{c1::Причи́на его́ успе́ха кры́лась в упо́рном труде́ и терпе́нии.}} {{c2::Ли́стья покры́лись и́неем за одну́ ночь.}} {{c3::Причи́на его́ успе́ха кры́лась в упо́рном труде́ и терпе́нии.<br>Ли́стья покры́лись и́неем за одну́ ночь.}}",
+    "order": 1
+   },
+   "Audio": {
+    "value": "{{c1::[sound:hypertts-812600fd8c0c36b3552d35159792421082828886bf59752bee86b69f.mp3]}} {{c2::[sound:hypertts-cb7220f7df4deb9f186c0950b96fae9f03051bc1fcc5fe0980e97e99.mp3]}} {{c3::[sound:hypertts-affe161fc03ec4963b42ab742aab5d534573f616e4b714a751a33eb2.mp3]}}",
+    "order": 2
+   }
+  },
+  "modelName": "Cloze Aspect",
+  "mod": 1791463201,
+  "cards": [
+   1726634614446,
+   1726634614447,
+   1791462357303
+  ]
+ },
+ {
+  "noteId": 1726634609392,
+  "profile": "User 1",
+  "tags": [
+   "aspect",
+   "claude",
+   "verb"
+  ],
+  "fields": {
+   "Text": {
+    "value": "<div class=\"ru-pair\">рыча́ть / зарыча́ть</div><b>{{c3::to growl}}</b><br><br><table class=\"aspect\" style=\"margin: 0 auto; text-align: left; border-collapse: collapse;\"><tr><td style=\"padding: 2px 10px; vertical-align: top;\">impf:</td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c1::рыча́ть — рычу́, рычи́шь}}</td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">pf:</td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c2::зарыча́ть — зарычу́, зарычи́шь}}</td></tr></table>",
+    "order": 0
+   },
+   "Back Extra": {
+    "value": "{{c1::Соба́ка всегда́ рычи́т на почтальо́на.}} {{c2::Пёс зарыча́л, когда́ незнако́мец подошёл сли́шком бли́зко к до́му.}} {{c3::Соба́ка всегда́ рычи́т на почтальо́на.<br>Пёс зарыча́л, когда́ незнако́мец подошёл сли́шком бли́зко к до́му.}}",
+    "order": 1
+   },
+   "Audio": {
+    "value": "{{c1::[sound:hypertts-7731d73eddb0565e2b3c53771e634e17c28abb668e4ae5a9eeb2899b.mp3]}} {{c2::[sound:hypertts-ccfac6986e314c36269dd5cfd32f2f6f040ad09956b0eecb8eb72a6f.mp3]}} {{c3::[sound:hypertts-b00f91978b1b984096190956d78a2ac91fd569597f3b021bc376a416.mp3]}}",
+    "order": 2
+   }
+  },
+  "modelName": "Cloze Aspect",
+  "mod": 1791463257,
+  "cards": [
+   1726634614584,
+   1726634614585,
+   1791462358504
+  ]
+ },
+ {
+  "noteId": 1726634609567,
+  "profile": "User 1",
+  "tags": [
+   "aspect",
+   "claude",
+   "verb"
+  ],
+  "fields": {
+   "Text": {
+    "value": "<div class=\"ru-pair\">пита́ть / напита́ть (+a)</div><b>{{c3::to feed, nourish}}</b><br><br><table class=\"aspect\" style=\"margin: 0 auto; text-align: left; border-collapse: collapse;\"><tr><td style=\"padding: 2px 10px; vertical-align: top;\">impf:</td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c1::пита́ть — пита́ю, пита́ешь (+a)}}</td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">pf:</td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c2::напита́ть — напита́ю, напита́ешь (+a)}}</td></tr></table>",
+    "order": 0
+   },
+   "Back Extra": {
+    "value": "{{c1::Ко́рни пита́ют де́рево водо́й и поле́зными вещества́ми.}} {{c2::Дождь напита́л зе́млю вла́гой.}} {{c3::Ко́рни пита́ют де́рево водо́й и поле́зными вещества́ми.<br>Дождь напита́л зе́млю вла́гой.}}",
+    "order": 1
+   },
+   "Audio": {
+    "value": "{{c1::[sound:hypertts-422f14b51952b7eb4f8a7d45e51950bedc68f7feebcaa501a7bf206f.mp3]}} {{c2::[sound:hypertts-1299c27590d04afe462ebbcb8ebd886f6118bc53c7e371260fe4cb31.mp3]}} {{c3::[sound:hypertts-bda1b27e8462d3d0c2c24946e8d760ee142b7b6746f44473a51e4b21.mp3]}}",
+    "order": 2
+   }
+  },
+  "modelName": "Cloze Aspect",
+  "mod": 1791463336,
+  "cards": [
+   1726634614934,
+   1726634614935,
+   1791462360301
+  ]
+ },
+ {
+  "noteId": 1726634609613,
+  "profile": "User 1",
+  "tags": [
+   "aspect",
+   "claude",
+   "verb"
+  ],
+  "fields": {
+   "Text": {
+    "value": "<div class=\"ru-pair\">скака́ть / поскака́ть</div><b>{{c3::to skip / gallop}}</b><br><br><table class=\"aspect\" style=\"margin: 0 auto; text-align: left; border-collapse: collapse;\"><tr><td style=\"padding: 2px 10px; vertical-align: top;\">impf:</td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c1::скака́ть — скачу́, ска́чешь}}</td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">pf:</td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c2::поскака́ть — поскачу́, поска́чешь}}</td></tr></table>",
+    "order": 0
+   },
+   "Back Extra": {
+    "value": "{{c1::Де́ти ве́село скака́ли по лу́жам по́сле дождя́.}} {{c2::Вса́дник вскочи́л на коня́ и поскака́л к реке́.}} {{c3::Де́ти ве́село скака́ли по лу́жам по́сле дождя́.<br>Вса́дник вскочи́л на коня́ и поскака́л к реке́.}}",
+    "order": 1
+   },
+   "Audio": {
+    "value": "{{c1::[sound:hypertts-1ac424270bb00f92c76f873cba95b0b08783878ccc297966e4b4e4e1.mp3]}} {{c2::[sound:hypertts-e0a73db7754e98c013c9f866f740e104e049138cf709e60e7dc044c6.mp3]}} {{c3::[sound:hypertts-b9b4f06a3f7bde1c55c2c5216c099864f24d6af8fd95dd55fd6f202b.mp3]}}",
+    "order": 2
+   }
+  },
+  "modelName": "Cloze Aspect",
+  "mod": 1791463391,
+  "cards": [
+   1726634615026,
+   1726634615027,
+   1791462361653
+  ]
+ },
+ {
+  "noteId": 1726634609614,
+  "profile": "User 1",
+  "tags": [
+   "aspect",
+   "claude",
+   "verb"
+  ],
+  "fields": {
+   "Text": {
+    "value": "<div class=\"ru-pair\">скрипе́ть / проскрипе́ть</div><b>{{c3::to squeak, creak}}</b><br><br><table class=\"aspect\" style=\"margin: 0 auto; text-align: left; border-collapse: collapse;\"><tr><td style=\"padding: 2px 10px; vertical-align: top;\">impf:</td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c1::скрипе́ть — скриплю́, скрипи́шь}}</td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">pf:</td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c2::проскрипе́ть — проскриплю́, проскрипи́шь}}</td></tr></table>",
+    "order": 0
+   },
+   "Back Extra": {
+    "value": "{{c1::Ста́рая ле́стница скрипе́ла при ка́ждом ша́ге.}} {{c2::Ста́рая теле́га проскрипе́ла ми́мо на́шего до́ма.}} {{c3::Ста́рая ле́стница скрипе́ла при ка́ждом ша́ге.<br>Ста́рая теле́га проскрипе́ла ми́мо на́шего до́ма.}}",
+    "order": 1
+   },
+   "Audio": {
+    "value": "{{c1::[sound:hypertts-2be8b27b1ddae772a726cc1298c17c4d7161516c210852db663b432c.mp3]}} {{c2::[sound:hypertts-85bc81238f263ade9b492f5e2abd7a75a0da1705b0eddfc6bf4b77a8.mp3]}} {{c3::[sound:hypertts-afba441d015310ea2f3fa4d60b4c090e22c66758db52da147e33c588.mp3]}}",
+    "order": 2
+   }
+  },
+  "modelName": "Cloze Aspect",
+  "mod": 1791463397,
+  "cards": [
+   1726634615028,
+   1726634615029,
+   1791462361801
+  ]
+ },
+ {
+  "noteId": 1726634609748,
+  "profile": "User 1",
+  "tags": [
+   "aspect",
+   "claude",
+   "verb"
+  ],
+  "fields": {
+   "Text": {
+    "value": "<div class=\"ru-pair\">му́чаться / заму́чаться</div><b>{{c3::to be tormented / worry, torment oneself}}</b><br><br><table class=\"aspect\" style=\"margin: 0 auto; text-align: left; border-collapse: collapse;\"><tr><td style=\"padding: 2px 10px; vertical-align: top;\">impf:</td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c1::му́чаться — му́чаюсь, му́чаешься}}</td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">pf:</td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c2::заму́чаться — заму́чаюсь, заму́чаешься}}</td></tr></table>",
+    "order": 0
+   },
+   "Back Extra": {
+    "value": "{{c1::Она́ му́чалась от бо́ли всю ночь и не могла́ засну́ть.}} {{c2::Я совсе́м заму́чился с э́тим ста́рым компью́тером.}} {{c3::Она́ му́чалась от бо́ли всю ночь и не могла́ засну́ть.<br>Я совсе́м заму́чился с э́тим ста́рым компью́тером.}}",
+    "order": 1
+   },
+   "Audio": {
+    "value": "{{c1::[sound:hypertts-6d706a9c876fde5506db9cf5d4babf3cca83f33dae151b21d32db142.mp3]}} {{c2::[sound:hypertts-8757133b59814756be2e8ec1a9fd86547c191693f07232ce9f29aa1c.mp3]}} {{c3::[sound:hypertts-630a7c89bbb760a9f9dcaecd6ce5b6586c645de06ca872d85135b0eb.mp3]}}",
+    "order": 2
+   }
+  },
+  "modelName": "Cloze Aspect",
+  "mod": 1791463482,
+  "cards": [
+   1726634615296,
+   1726634615297,
+   1791462363854
+  ]
+ },
+ {
+  "noteId": 1726634609800,
+  "profile": "User 1",
+  "tags": [
+   "aspect",
+   "B1.2-4.3",
+   "claude",
+   "native",
+   "verb"
+  ],
+  "fields": {
+   "Text": {
+    "value": "<div class=\"ru-pair\">по́лзать / попо́лзать</div><b>{{c3::to crawl about}}</b><br><br><table class=\"aspect\" style=\"margin: 0 auto; text-align: left; border-collapse: collapse;\"><tr><td style=\"padding: 2px 10px; vertical-align: top;\">impf:</td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c1::по́лзать — по́лзаю, по́лзаешь}}</td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">pf:</td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c2::попо́лзать — попо́лзаю, попо́лзаешь}}</td></tr></table>",
+    "order": 0
+   },
+   "Back Extra": {
+    "value": "{{c1::Малы́ш по́лзал по ковру́ и пыта́лся добра́ться до игру́шки.}} {{c2::Ребёнок немно́го попо́лзал и усну́л.}} {{c3::Малы́ш по́лзал по ковру́ и пыта́лся добра́ться до игру́шки.<br>Ребёнок немно́го попо́лзал и усну́л.}}",
+    "order": 1
+   },
+   "Audio": {
+    "value": "{{c1::[sound:hypertts-4f898d0da3e8f775366b54701068af286f1912ab14194c86cf4621ee.mp3]}} {{c2::[sound:hypertts-9277684658b1aa0905525d8050c8b65edbc3fe5d6d6647dcb309d94a.mp3]}} {{c3::[sound:hypertts-0557d4a051dd5f789fb971202f6a40c74f88b7287581b6f9f604ebab.mp3]}}",
+    "order": 2
+   }
+  },
+  "modelName": "Cloze Aspect",
+  "mod": 1791463516,
+  "cards": [
+   1726634615400,
+   1726634615401,
+   1791462364453
+  ]
+ },
+ {
+  "noteId": 1726634609867,
+  "profile": "User 1",
+  "tags": [
+   "aspect",
+   "claude",
+   "verb"
+  ],
+  "fields": {
+   "Text": {
+    "value": "<div class=\"ru-pair\">умоля́ть / умоли́ть (+a)</div><b>{{c3::to implore}}</b><br><br><table class=\"aspect\" style=\"margin: 0 auto; text-align: left; border-collapse: collapse;\"><tr><td style=\"padding: 2px 10px; vertical-align: top;\">impf:</td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c1::умоля́ть — умоля́ю, умоля́ешь (+a)}}</td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">pf:</td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c2::умоли́ть — умолю́, умо́лишь (+a)}}</td></tr></table>",
+    "order": 0
+   },
+   "Back Extra": {
+    "value": "{{c1::Она́ умоля́ла его́ не уходи́ть и дать ей ещё оди́н шанс.}} {{c2::Она́ всё-таки умоли́ла отца́ отпусти́ть её на конце́рт.}} {{c3::Она́ умоля́ла его́ не уходи́ть и дать ей ещё оди́н шанс.<br>Она́ всё-таки умоли́ла отца́ отпусти́ть её на конце́рт.}}",
+    "order": 1
+   },
+   "Audio": {
+    "value": "{{c1::[sound:hypertts-f66349b4ad35329300b760327c476f548c9a02d657a91c2c13d063d7.mp3]}} {{c2::[sound:hypertts-ceb1a724c4b90fe7ef4a3be8d193199a92bdf6063099a0e7b65b7176.mp3]}} {{c3::[sound:hypertts-f8b6ff22568e49c74ea66d513821d12bd0b4c558c82a4d419b16b363.mp3]}}",
+    "order": 2
+   }
+  },
+  "modelName": "Cloze Aspect",
+  "mod": 1791463584,
+  "cards": [
+   1726634615534,
+   1726634615535,
+   1791462366378
+  ]
+ },
+ {
+  "noteId": 1726634609942,
+  "profile": "User 1",
+  "tags": [
+   "aspect",
+   "claude",
+   "verb"
+  ],
+  "fields": {
+   "Text": {
+    "value": "<div class=\"ru-pair\">достига́ться / дости́чься</div><b>{{c3::to be achieved}}</b><br><br><table class=\"aspect\" style=\"margin: 0 auto; text-align: left; border-collapse: collapse;\"><tr><td style=\"padding: 2px 10px; vertical-align: top;\">impf:</td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c1::достига́ться — достига́юсь, достига́ешься}}</td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">pf:</td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c2::дости́чься — дости́гнусь, дости́гнешься}}</td></tr></table>",
+    "order": 0
+   },
+   "Back Extra": {
+    "value": "{{c1::Хоро́ший результа́т достига́ется то́лько упо́рным трудо́м.}} {{c2::Цель была́ дости́гнута за два го́да.}} {{c3::Хоро́ший результа́т достига́ется то́лько упо́рным трудо́м.<br>Цель была́ дости́гнута за два го́да.}}",
+    "order": 1
+   },
+   "Audio": {
+    "value": "{{c1::[sound:hypertts-dfc41da7aeb7a8ccaafab9777bc9b215bfbfe6a40acf6eaab94051be.mp3]}} {{c2::[sound:hypertts-7d21ba3214383501ea4f5d213f82e105b2688f4e3a5ea11ee713c4aa.mp3]}} {{c3::[sound:hypertts-86ae93ed664c05c8fef9654d02822ca46fe93e6f750e32ec851a9af0.mp3]}}",
+    "order": 2
+   }
+  },
+  "modelName": "Cloze Aspect",
+  "mod": 1791463612,
+  "cards": [
+   1726634615684,
+   1726634615685,
+   1791462367403
+  ]
+ },
+ {
+  "noteId": 1726634609948,
+  "profile": "User 1",
+  "tags": [
+   "aspect",
+   "claude",
+   "verb"
+  ],
+  "fields": {
+   "Text": {
+    "value": "<div class=\"ru-pair\">ора́ть / заора́ть</div><b>{{c3::to yell, bawl (impf.); to start yelling (pf.)}}</b><br><br><table class=\"aspect\" style=\"margin: 0 auto; text-align: left; border-collapse: collapse;\"><tr><td style=\"padding: 2px 10px; vertical-align: top;\">impf:</td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c1::ора́ть — ору́, орёшь}}</td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">pf:</td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c2::заора́ть — заору́, заорёшь}}</td></tr></table>",
+    "order": 0
+   },
+   "Back Extra": {
+    "value": "{{c1::Сосе́ди опя́ть ору́т друг на дру́га за стено́й.}} {{c2::Он заора́л на весь двор, когда́ уви́дел, что маши́на поцара́пана.}} {{c3::Сосе́ди опя́ть ору́т друг на дру́га за стено́й.<br>Он заора́л на весь двор, когда́ уви́дел, что маши́на поцара́пана.}}",
+    "order": 1
+   },
+   "Audio": {
+    "value": "{{c1::[sound:hypertts-f798b176615f80a513462ed4189fd5e3a2af8050774650aeb921d290.mp3]}} {{c2::[sound:hypertts-b845361b792319351378521d1bed885c0d51f2b344b2650f0916aa4b.mp3]}} {{c3::[sound:hypertts-0d713a3c80e6488a365f572cd0100ba0e3a00378b565eb86fbc3a30e.mp3]}}",
+    "order": 2
+   }
+  },
+  "modelName": "Cloze Aspect",
+  "mod": 1791460320,
+  "cards": [
+   1726634615696,
+   1726634615697,
+   1791457178315
+  ]
+ },
+ {
+  "noteId": 1726634609969,
+  "profile": "User 1",
+  "tags": [
+   "aspect",
+   "claude",
+   "verb"
+  ],
+  "fields": {
+   "Text": {
+    "value": "<div class=\"ru-pair\">коло́ть / заколо́ть (+a)</div><b>{{c3::to chop / stab}}</b><br><br><table class=\"aspect\" style=\"margin: 0 auto; text-align: left; border-collapse: collapse;\"><tr><td style=\"padding: 2px 10px; vertical-align: top;\">impf:</td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c1::коло́ть — колю́, ко́лешь (+a)}}</td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">pf:</td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c2::заколо́ть — заколю́, зако́лешь (+a)}}</td></tr></table>",
+    "order": 0
+   },
+   "Back Extra": {
+    "value": "{{c1::Дед коло́л дрова́ во дворе́, гото́вясь к зиме́.}} {{c2::Охо́тник заколо́л ка́бана ножо́м.}} {{c3::Дед коло́л дрова́ во дворе́, гото́вясь к зиме́.<br>Охо́тник заколо́л ка́бана ножо́м.}}",
+    "order": 1
+   },
+   "Audio": {
+    "value": "{{c1::[sound:hypertts-45a37efaac9511ae113a9a3659dd2af3c51c6dbad5cc763dfefa7f83.mp3]}} {{c2::[sound:hypertts-9cd45f50aa398160cd2544937315b6979c3f547ce0363ec7eb0eaf29.mp3]}} {{c3::[sound:hypertts-5ef3fc68b5d1dabde8c5e276cb09c2815153d4f068ae4834927281ae.mp3]}}",
+    "order": 2
+   }
+  },
+  "modelName": "Cloze Aspect",
+  "mod": 1791463629,
+  "cards": [
+   1726634615738,
+   1726634615739,
+   1791462368002
+  ]
+ },
+ {
+  "noteId": 1726634609976,
+  "profile": "User 1",
+  "tags": [
+   "aspect",
+   "claude",
+   "verb"
+  ],
+  "fields": {
+   "Text": {
+    "value": "<div class=\"ru-pair\">ла́ять / зала́ять</div><b>{{c3::to bark}}</b><br><br><table class=\"aspect\" style=\"margin: 0 auto; text-align: left; border-collapse: collapse;\"><tr><td style=\"padding: 2px 10px; vertical-align: top;\">impf:</td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c1::ла́ять — ла́ю, ла́ешь}}</td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">pf:</td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c2::зала́ять — зала́ю, зала́ешь}}</td></tr></table>",
+    "order": 0
+   },
+   "Back Extra": {
+    "value": "{{c1::Соба́ка сосе́дей ла́ет всю ночь.}} {{c2::Соба́ка гро́мко зала́яла, почу́вствовав незнако́мца у воро́т.}} {{c3::Соба́ка сосе́дей ла́ет всю ночь.<br>Соба́ка гро́мко зала́яла, почу́вствовав незнако́мца у воро́т.}}",
+    "order": 1
+   },
+   "Audio": {
+    "value": "{{c1::[sound:hypertts-862533caee5cabc7694fab6f76be18ab7c26d58891e1666c4a35001b.mp3]}} {{c2::[sound:hypertts-91e9388268c6260a72793f705b89791e35f950d79bc57b6646c92881.mp3]}} {{c3::[sound:hypertts-73778074e835f3b510670a4036d579f614e5d44fc98714c9856cecd7.mp3]}}",
+    "order": 2
+   }
+  },
+  "modelName": "Cloze Aspect",
+  "mod": 1791463632,
+  "cards": [
+   1726634615752,
+   1726634615753,
+   1791462368153
+  ]
+ },
+ {
+  "noteId": 1726634610103,
+  "profile": "User 1",
+  "tags": [
+   "aspect",
+   "B1.2-3.3",
+   "claude",
+   "native",
+   "verb"
+  ],
+  "fields": {
+   "Text": {
+    "value": "<div class=\"ru-pair\">ста́виться / поста́виться</div><b>{{c3::to be placed}}</b><br><br><table class=\"aspect\" style=\"margin: 0 auto; text-align: left; border-collapse: collapse;\"><tr><td style=\"padding: 2px 10px; vertical-align: top;\">impf:</td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c1::ста́виться — ста́влюсь, ста́вишься}}</td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">pf:</td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c2::поста́виться — поста́влюсь, поста́вишься}}</td></tr></table>",
+    "order": 0
+   },
+   "Back Extra": {
+    "value": "{{c1::Но́вый па́мятник ста́вится в це́нтре пло́щади к юбиле́ю.}} {{c2::Па́мятник был поста́влен в про́шлом году́.}} {{c3::Но́вый па́мятник ста́вится в це́нтре пло́щади к юбиле́ю.<br>Па́мятник был поста́влен в про́шлом году́.}}",
+    "order": 1
+   },
+   "Audio": {
+    "value": "{{c1::[sound:hypertts-90dfce31a641ff2b555874ba5085bda28d106a38d71da5938735c320.mp3]}} {{c2::[sound:hypertts-e30d289aa83ad83fdd5e25994a139b805ae9744d7d0e88aa5e22e33a.mp3]}} {{c3::[sound:hypertts-0047420fcc5228c7c4b0c5a998afec2c028e9f2928e35371208c4a99.mp3]}}",
+    "order": 2
+   }
+  },
+  "modelName": "Cloze Aspect",
+  "mod": 1791463714,
+  "cards": [
+   1726634616006,
+   1726634616007,
+   1791462371127
+  ]
+ },
+ {
+  "noteId": 1726634610131,
+  "profile": "User 1",
+  "tags": [
+   "aspect",
+   "claude",
+   "verb"
+  ],
+  "fields": {
+   "Text": {
+    "value": "<div class=\"ru-pair\">уцелева́ть / уцеле́ть</div><b>{{c3::to survive (escape destruction)}}</b><br><br><table class=\"aspect\" style=\"margin: 0 auto; text-align: left; border-collapse: collapse;\"><tr><td style=\"padding: 2px 10px; vertical-align: top;\">impf:</td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c1::уцелева́ть — уцелева́ю, уцелева́ешь}}</td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">pf:</td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c2::уцеле́ть — уцеле́ю, уцеле́ешь}}</td></tr></table>",
+    "order": 0
+   },
+   "Back Extra": {
+    "value": "{{c1::В тако́й войне́ ма́ло что уцелева́ло.}} {{c2::Стари́нная це́рковь уцеле́ла, несмотря́ на мно́гие во́йны.}} {{c3::В тако́й войне́ ма́ло что уцелева́ло.<br>Стари́нная це́рковь уцеле́ла, несмотря́ на мно́гие во́йны.}}",
+    "order": 1
+   },
+   "Audio": {
+    "value": "{{c1::[sound:hypertts-20c96f84fa999845f9afd85f94199632fba23b7df9cfa245904b791f.mp3]}} {{c2::[sound:hypertts-a43595f7be01b732682b6713610bdb2e37d9ed1acddae6d921106c0a.mp3]}} {{c3::[sound:hypertts-a7966bd8f3b7e3ad66aad753ad9d31f387e537d914759c165a0658e7.mp3]}}",
+    "order": 2
+   }
+  },
+  "modelName": "Cloze Aspect",
+  "mod": 1791463725,
+  "cards": [
+   1726634616062,
+   1726634616063,
+   1791462371576
+  ]
+ },
+ {
+  "noteId": 1726634610273,
+  "profile": "User 1",
+  "tags": [
+   "aspect",
+   "aspect-single",
+   "claude",
+   "verb"
+  ],
+  "fields": {
+   "Text": {
+    "value": "<div class=\"ru-pair\">овладева́ть (i) (+inst)</div><b>{{c3::to master / take possession of}}</b><br><br><table class=\"aspect\" style=\"margin: 0 auto; text-align: left; border-collapse: collapse;\"><tr><td style=\"padding: 2px 10px; vertical-align: top;\">impf:</td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c1::овладева́ть — овладева́ю, овладева́ешь (+inst)}}</td></tr></table>",
+    "order": 0
+   },
+   "Back Extra": {
+    "value": "{{c1::Студе́нты постепе́нно овладева́ют но́вой профе́ссией.}} {{c3::Студе́нты постепе́нно овладева́ют но́вой профе́ссией.}}",
+    "order": 1
+   },
+   "Audio": {
+    "value": "{{c1::[sound:hypertts-3214bae437ce1b3047fbf9797f52c15d50ea42f1dcaa8be3e40adeea.mp3]}} {{c3::[sound:hypertts-767b26a0486e36afb7a5e95d61bb2b0bf6bbae75fc4ad397202eac50.mp3]}}",
+    "order": 2
+   }
+  },
+  "modelName": "Cloze Aspect",
+  "mod": 1791463777,
+  "cards": [
+   1726634616346,
+   1726634616347,
+   1791462373528
+  ]
+ },
+ {
+  "noteId": 1726634610822,
+  "profile": "User 1",
+  "tags": [
+   "aspect",
+   "claude",
+   "verb"
+  ],
+  "fields": {
+   "Text": {
+    "value": "<div class=\"ru-pair\">выпуска́ться / вы́пуститься</div><b>{{c3::to be released}}</b><br><br><table class=\"aspect\" style=\"margin: 0 auto; text-align: left; border-collapse: collapse;\"><tr><td style=\"padding: 2px 10px; vertical-align: top;\">impf:</td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c1::выпуска́ться — выпуска́юсь, выпуска́ешься}}</td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">pf:</td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c2::вы́пуститься — вы́пущусь, вы́пустишься}}</td></tr></table>",
+    "order": 0
+   },
+   "Back Extra": {
+    "value": "{{c1::На э́том заво́де выпуска́ются электромоби́ли.}} {{c2::Его́ сын вы́пустился из университе́та в про́шлом году́.}} {{c3::На э́том заво́де выпуска́ются электромоби́ли.<br>Его́ сын вы́пустился из университе́та в про́шлом году́.}}",
+    "order": 1
+   },
+   "Audio": {
+    "value": "{{c1::[sound:hypertts-4a29166492a1aaddd1247aab214953e23066754bd018f6438d47a189.mp3]}} {{c2::[sound:hypertts-461d0d966a9f876607d54b816ff674e3110ab04592b54e2753b6bd59.mp3]}} {{c3::[sound:hypertts-fc9a3d5a8009d307aa250aff13316a25d3a6541819b98ce0c90fdc28.mp3]}}",
+    "order": 2
+   }
+  },
+  "modelName": "Cloze Aspect",
+  "mod": 1791464071,
+  "cards": [
+   1726634617444,
+   1726634617445,
+   1791462384729
+  ]
+ },
+ {
+  "noteId": 1726634610981,
+  "profile": "User 1",
+  "tags": [
+   "aspect",
+   "claude",
+   "verb"
+  ],
+  "fields": {
+   "Text": {
+    "value": "<div class=\"ru-pair\">перехва́тывать / перехвата́ть (+a)</div><b>{{c3::to intercept}}</b><br><br><table class=\"aspect\" style=\"margin: 0 auto; text-align: left; border-collapse: collapse;\"><tr><td style=\"padding: 2px 10px; vertical-align: top;\">impf:</td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c1::перехва́тывать — перехва́тываю, перехва́тываешь (+a)}}</td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">pf:</td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c2::перехвата́ть — перехвата́ю, перехвата́ешь (+a)}}</td></tr></table>",
+    "order": 0
+   },
+   "Back Extra": {
+    "value": "{{c1::Пограни́чники ча́сто перехва́тывают контраба́нду на грани́це.}} {{c2::Охра́на перехвата́ла всех, кто пыта́лся пройти́ без биле́та.}} {{c3::Пограни́чники ча́сто перехва́тывают контраба́нду на грани́це.<br>Охра́на перехвата́ла всех, кто пыта́лся пройти́ без биле́та.}}",
+    "order": 1
+   },
+   "Audio": {
+    "value": "{{c1::[sound:hypertts-5758b65b1f2a37157139bd63fa220a4e05a4857349395795faf38ef9.mp3]}} {{c2::[sound:hypertts-023cec712d21c793c44c026457a2b7f32df0e118e6a5fbbc651d3410.mp3]}} {{c3::[sound:hypertts-e4fe7da7b7c3c75c483a4e21dcbdc141b50b4be52308eb7829e02215.mp3]}}",
+    "order": 2
+   }
+  },
+  "modelName": "Cloze Aspect",
+  "mod": 1791464145,
+  "cards": [
+   1726634617762,
+   1726634617763,
+   1791462387529
+  ]
+ },
+ {
+  "noteId": 1726634611603,
+  "profile": "User 1",
+  "tags": [
+   "aspect",
+   "claude",
+   "verb"
+  ],
+  "fields": {
+   "Text": {
+    "value": "<div class=\"ru-pair\">воспи́тываться / воспита́ться</div><b>{{c3::to be brought up / be fostered}}</b><br><br><table class=\"aspect\" style=\"margin: 0 auto; text-align: left; border-collapse: collapse;\"><tr><td style=\"padding: 2px 10px; vertical-align: top;\">impf:</td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c1::воспи́тываться — воспи́тываюсь, воспи́тываешься}}</td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">pf:</td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c2::воспита́ться — воспита́юсь, воспита́ешься}}</td></tr></table>",
+    "order": 0
+   },
+   "Back Extra": {
+    "value": "{{c1::Он воспи́тывался в семье́, где уваже́ние к ста́ршим бы́ло гла́вной це́нностью.}} {{c2::В тру́дные го́ды у него́ воспита́лось уме́ние терпе́ть.}} {{c3::Он воспи́тывался в семье́, где уваже́ние к ста́ршим бы́ло гла́вной це́нностью.<br>В тру́дные го́ды у него́ воспита́лось уме́ние терпе́ть.}}",
+    "order": 1
+   },
+   "Audio": {
+    "value": "{{c1::[sound:hypertts-706fa11cac8627705199ac2ba5d39ca23a55de34f0ae92cb276d8a05.mp3]}} {{c2::[sound:hypertts-d9e1f9b7a79e86e1232110ef6871cb6379d938beeb674a2e115eb693.mp3]}} {{c3::[sound:hypertts-3641043b73e724c10392e8cbee012619ca9373b17d66117aa0f8f671.mp3]}}",
+    "order": 2
+   }
+  },
+  "modelName": "Cloze Aspect",
+  "mod": 1791464495,
+  "cards": [
+   1726634619006,
+   1726634619007,
+   1791462400753
+  ]
+ },
+ {
+  "noteId": 1726634612316,
+  "profile": "User 1",
+  "tags": [
+   "aspect",
+   "claude",
+   "verb"
+  ],
+  "fields": {
+   "Text": {
+    "value": "<div class=\"ru-pair\">буди́ть / пробуди́ть (+a)</div><b>{{c3::to waken, to rouse}}</b><br><br><table class=\"aspect\" style=\"margin: 0 auto; text-align: left; border-collapse: collapse;\"><tr><td style=\"padding: 2px 10px; vertical-align: top;\">impf:</td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c1::буди́ть — бужу́, бу́дишь (+a)}}</td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">pf:</td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c2::пробуди́ть — пробужу́, пробу́дишь (+a)}}</td></tr></table>",
+    "order": 0
+   },
+   "Back Extra": {
+    "value": "{{c1::Ма́ма бу́дит дете́й ка́ждое у́тро в семь часо́в.}} {{c2::Э́та кни́га пробуди́ла в нём интере́с к исто́рии.}} {{c3::Ма́ма бу́дит дете́й ка́ждое у́тро в семь часо́в.<br>Э́та кни́га пробуди́ла в нём интере́с к исто́рии.}}",
+    "order": 1
+   },
+   "Audio": {
+    "value": "{{c1::[sound:hypertts-b341ad952ba737459b72accc27f47590b6ba09091281bacb315853a3.mp3]}} {{c2::[sound:hypertts-a39a064a6719e9f43f268a7457e446139a11a36f527dcb38c0aef685.mp3]}} {{c3::[sound:hypertts-1773eed584b744428acf666d1ef695f58fb94d5b563d1fd686ce5fc5.mp3]}}",
+    "order": 2
+   }
+  },
+  "modelName": "Cloze Aspect",
+  "mod": 1791464819,
+  "cards": [
+   1726634620432,
+   1726634620433,
+   1791462412477
+  ]
+ },
+ {
+  "noteId": 1726634612438,
+  "profile": "User 1",
+  "tags": [
+   "aspect",
+   "claude",
+   "verb"
+  ],
+  "fields": {
+   "Text": {
+    "value": "<div class=\"ru-pair\">ука́зываться / указа́ться</div><b>{{c3::to be indicated}}</b><br><br><table class=\"aspect\" style=\"margin: 0 auto; text-align: left; border-collapse: collapse;\"><tr><td style=\"padding: 2px 10px; vertical-align: top;\">impf:</td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c1::ука́зываться — (3rd person) ука́зывается}}</td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">pf:</td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c2::указа́ться — (3rd person) ука́жется}}</td></tr></table>",
+    "order": 0
+   },
+   "Back Extra": {
+    "value": "{{c1::На упако́вке всегда́ ука́зывается срок го́дности.}} {{c2::В догово́ре указа́лось, что опла́та бу́дет в рубля́х.}} {{c3::На упако́вке всегда́ ука́зывается срок го́дности.<br>В догово́ре указа́лось, что опла́та бу́дет в рубля́х.}}",
+    "order": 1
+   },
+   "Audio": {
+    "value": "{{c1::[sound:hypertts-90f3ffb39c113e9f19b6f04527a127cc42a69fc24a410b1b3fbb014f.mp3]}} {{c2::[sound:hypertts-7575f3a6789b6ba0447b6196b4598de790efea49143b382e2ea4d0e0.mp3]}} {{c3::[sound:hypertts-9be3dd5c2e17d20a4b28ac8a230b74dca64f0cc632bc0440a232dc60.mp3]}}",
+    "order": 2
+   }
+  },
+  "modelName": "Cloze Aspect",
+  "mod": 1791464898,
+  "cards": [
+   1726634620676,
+   1726634620677,
+   1791462415578
+  ]
+ },
+ {
+  "noteId": 1726634612589,
+  "profile": "User 1",
+  "tags": [
+   "aspect",
+   "claude",
+   "verb"
+  ],
+  "fields": {
+   "Text": {
+    "value": "<div class=\"ru-pair\">добыва́ться / добы́ться</div><b>{{c3::to be obtained}}</b><br><br><table class=\"aspect\" style=\"margin: 0 auto; text-align: left; border-collapse: collapse;\"><tr><td style=\"padding: 2px 10px; vertical-align: top;\">impf:</td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c1::добыва́ться — добыва́юсь, добыва́ешься}}</td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">pf:</td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c2::добы́ться — добу́дусь, добу́дешься}}</td></tr></table>",
+    "order": 0
+   },
+   "Back Extra": {
+    "value": "{{c1::Же́мчуг добыва́ется в тёплых моря́х.}} {{c2::Э́ти све́дения добы́лись с больши́м трудо́м.}} {{c3::Же́мчуг добыва́ется в тёплых моря́х.<br>Э́ти све́дения добы́лись с больши́м трудо́м.}}",
+    "order": 1
+   },
+   "Audio": {
+    "value": "{{c1::[sound:hypertts-07b99bcf022eef402cc604d54a9dd1cf1ea69d3a342bb121c5e6c056.mp3]}} {{c2::[sound:hypertts-2d4e1c0edcdba3d92547782d21eedba970616e3ef7da03e4b88c1ba5.mp3]}} {{c3::[sound:hypertts-d124e11f4ebaa36442b0f32eec055bfd5cfdfc65bff380dc2b2c9744.mp3]}}",
+    "order": 2
+   }
+  },
+  "modelName": "Cloze Aspect",
+  "mod": 1791464985,
+  "cards": [
+   1726634620978,
+   1726634620979,
+   1791462418703
+  ]
+ },
+ {
+  "noteId": 1726634612881,
+  "profile": "User 1",
+  "tags": [
+   "aspect",
+   "B2.1-1.4",
+   "claude",
+   "native",
+   "verb"
+  ],
+  "fields": {
+   "Text": {
+    "value": "<div class=\"ru-pair\">жечь / поже́чь (+a)</div><b>{{c3::to burn, sting (impf.) / to burn up}}</b><br><br><table class=\"aspect\" style=\"margin: 0 auto; text-align: left; border-collapse: collapse;\"><tr><td style=\"padding: 2px 10px; vertical-align: top;\">impf:</td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c1::жечь — жгу, жжёшь (+a)}}</td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">pf:</td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c2::поже́чь — пожгу́, пожжёшь (+a)}}</td></tr></table>",
+    "order": 0
+   },
+   "Back Extra": {
+    "value": "{{c1::Крапи́ва жжёт ко́жу, е́сли тро́нуть её руко́й.}} {{c2::Мы пожгли́ в костре́ все ста́рые бума́ги.}} {{c3::Крапи́ва жжёт ко́жу, е́сли тро́нуть её руко́й.<br>Мы пожгли́ в костре́ все ста́рые бума́ги.}}",
+    "order": 1
+   },
+   "Audio": {
+    "value": "{{c1::[sound:hypertts-f39ac1532d48fa1a20c81c6014e0022b597efcb13dba2fa934b50c01.mp3]}} {{c2::[sound:hypertts-679438cd5685153930a5ac8ade269f2c9224bab85dea2678bc297ac3.mp3]}} {{c3::[sound:hypertts-bee36a662328a8d0760e5ab9fa7b791d52439d57271059ac95a149d8.mp3]}}",
+    "order": 2
+   }
+  },
+  "modelName": "Cloze Aspect",
+  "mod": 1791465182,
+  "cards": [
+   1726634621562,
+   1726634621563,
+   1791462426228
+  ]
+ },
+ {
+  "noteId": 1726634613055,
+  "profile": "User 1",
+  "tags": [
+   "aspect",
+   "verb"
+  ],
+  "fields": {
+   "Text": {
+    "value": "<div class=\"ru-pair\">упомина́ться / упомяну́ться</div><b>{{c3::to be mentioned}}</b><br><br><table class=\"aspect\" style=\"margin: 0 auto; text-align: left; border-collapse: collapse;\"><tr><td style=\"padding: 2px 10px; vertical-align: top;\">impf:</td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c1::упомина́ться — упомина́юсь, упомина́ешься}}</td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">pf:</td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c2::упомяну́ться — (3rd person) упомя́нется}}</td></tr></table>",
+    "order": 0
+   },
+   "Back Extra": {
+    "value": "{{c1::Э́то собы́тие упомина́ется в не́скольких истори́ческих исто́чниках.}} {{c2::В разгово́ре его́ и́мя ни ра́зу не упомяну́лось.}} {{c3::Э́то собы́тие упомина́ется в не́скольких истори́ческих исто́чниках.<br>В разгово́ре его́ и́мя ни ра́зу не упомяну́лось.}}",
+    "order": 1
+   },
+   "Audio": {
+    "value": "{{c1::[sound:hypertts-6dd5c4619fdaa146a87eb00295a5cc0fcbeb2aab757e034d10d3e425.mp3]}} {{c2::[sound:hypertts-23d22d5f3d950c7f0fd61e186ef470664a9e4a8ce5bcf96f9a9509ff.mp3]}} {{c3::[sound:hypertts-8a6e09cab1ca831e3cf68d0a414134f5aa7ba74f1163ea8a54e7478a.mp3]}}",
+    "order": 2
+   }
+  },
+  "modelName": "Cloze Aspect",
+  "mod": 1791465307,
+  "cards": [
+   1726634621910,
+   1726634621911,
+   1791462430954
+  ]
+ },
+ {
+  "noteId": 1782887416716,
+  "profile": "User 1",
+  "tags": [
+   "aspect",
+   "claude",
+   "native",
+   "verb"
+  ],
+  "fields": {
+   "Text": {
+    "value": "<div class=\"ru-pair\">загора́ть / загоре́ть</div><b>{{c3::to sunbathe}}</b><br><br><table class=\"aspect\" style=\"margin: 0 auto; text-align: left; border-collapse: collapse;\"><tr><td style=\"padding: 2px 10px; vertical-align: top;\">impf:</td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c1::загора́ть — загора́ю, загора́ешь}}</td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">pf:</td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c2::загоре́ть — загорю́, загори́шь}}</td></tr></table>",
+    "order": 0
+   },
+   "Back Extra": {
+    "value": "{{c1::Ле́том мы лю́бим загора́ть на пля́же.}} {{c2::За неде́лю на мо́ре она́ хорошо́ загоре́ла.}} {{c3::Ле́том мы лю́бим загора́ть на пля́же.<br>За неде́лю на мо́ре она́ хорошо́ загоре́ла.}}",
+    "order": 1
+   },
+   "Audio": {
+    "value": "{{c1::[sound:hypertts-628b34c58849038c4fc7b95f86cd762bce02473a945e0f2d650b88d3.mp3]}} {{c2::[sound:hypertts-0015024ea0574b1c902dda05666b52c0ed992fbdf42d9104835c2cbf.mp3]}} {{c3::[sound:hypertts-2e535c04b7219f73f107f0f7b56dbad52e92fdb6556eeb1ad3c16393.mp3]}}",
+    "order": 2
+   }
+  },
+  "modelName": "Cloze Aspect",
+  "mod": 1791465566,
+  "cards": [
+   1782887416716,
+   1782887416717,
+   1791462440379
+  ]
+ },
+ {
+  "noteId": 1782914483400,
+  "profile": "User 1",
+  "tags": [
+   "aspect",
+   "B2.1-2.1",
+   "claude",
+   "verb"
+  ],
+  "fields": {
+   "Text": {
+    "value": "<div class=\"ru-pair\">коси́ть / покоси́ть</div><b>{{c3::to mow}}</b><br><br><table class=\"aspect\" style=\"margin: 0 auto; text-align: left; border-collapse: collapse;\"><tr><td style=\"padding: 2px 10px; vertical-align: top;\">impf:</td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c1::коси́ть — кошу́, ко́сишь}}</td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">pf:</td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c2::покоси́ть — покошу́, поко́сишь}}</td></tr></table>",
+    "order": 0
+   },
+   "Back Extra": {
+    "value": "{{c1::Он ко́сит траву́ на да́че.}} {{c2::Вчера́ сосе́д наконе́ц покоси́л траву́ у до́ма.}} {{c3::Он ко́сит траву́ на да́че.<br>Вчера́ сосе́д наконе́ц покоси́л траву́ у до́ма.}}",
+    "order": 1
+   },
+   "Audio": {
+    "value": "{{c1::[sound:hypertts-afe724d0b214f6dd4e2c1b0584a03fa274c15b58fa9a654722254a80.mp3]}} {{c2::[sound:hypertts-7657bce946c183844fab2d50c0e5b2de917bfb70fbd246dfbfcfe7dd.mp3]}} {{c3::[sound:hypertts-2a66374cd4b5b5ba43e526ff0ffb249efd8b3afcb10d2276f705adba.mp3]}}",
+    "order": 2
+   }
+  },
+  "modelName": "Cloze Aspect",
+  "mod": 1791465697,
+  "cards": [
+   1782914483400,
+   1782914483401,
+   1791462445928
+  ]
+ },
+ {
+  "noteId": 1783087403433,
+  "profile": "User 1",
+  "tags": [
+   "aspect",
+   "aspect-single",
+   "B2.1-1.2",
+   "claude",
+   "loanword",
+   "verb"
+  ],
+  "fields": {
+   "Text": {
+    "value": "<div class=\"ru-pair\">трансформи́ровать (impf only)</div><b>{{c3::to transform}}</b><br><br><table class=\"aspect\" style=\"margin: 0 auto; text-align: left; border-collapse: collapse;\"><tr><td style=\"padding: 2px 10px; vertical-align: top;\">impf:</td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c1::трансформи́ровать — трансформи́рую, трансформи́руешь (impf only)}}</td></tr></table>",
+    "order": 0
+   },
+   "Back Extra": {
+    "value": "{{c1::Техноло́гии трансформи́руют о́бщество.}} {{c3::Техноло́гии трансформи́руют о́бщество.}}",
+    "order": 1
+   },
+   "Audio": {
+    "value": "{{c1::[sound:hypertts-056f45b1e64c1aeba70f917951f0a5a15cd1d3e598718828818d027c.mp3]}} {{c3::[sound:hypertts-7bdc1cf4b1fbb4ad1f21818a22af7d4ed5a8756e6ca4304065c1f98d.mp3]}}",
+    "order": 2
+   }
+  },
+  "modelName": "Cloze Aspect",
+  "mod": 1791465845,
+  "cards": [
+   1783087403434,
+   1783087403435,
+   1791462451927
+  ]
+ }
+]
