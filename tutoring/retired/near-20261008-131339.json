@@ -1,0 +1,354 @@
+{
+ "notes": [
+  {
+   "noteId": 1791237523299,
+   "profile": "User 1",
+   "tags": [
+    "adv",
+    "claude",
+    "numbered"
+   ],
+   "fields": {
+    "Text": {
+     "value": "<b>nearby, close by (adv)</b><br><br><table style=\"margin: 0 auto; text-align: left; border-collapse: collapse;\"><tbody><tr><td style=\"padding: 2px 10px; vertical-align: top;\">1:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>right beside, alongside</i></td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c1::ря́дом}}</td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">2:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>near, a short way off</i></td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c2::бли́зко}}</td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">3:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>close by, in the immediate vicinity</i></td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c3::вблизи́}}</td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">4:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>nearby, somewhere around</i></td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c4::побли́зости}}</td></tr></tbody></table>",
+     "order": 0
+    },
+    "Back Extra": {
+     "value": "1: Со мной ря́дом сиде́л незнако́мый челове́к.<br><br>2: Остано́вка метро́ нахо́дится бли́зко — всего́ пять мину́т ходьбы́.<br><br>3: Вблизи́ река́ вы́глядела куда́ грязне́е, чем каза́лась издалека́.<br><br>4: Побли́зости находи́лся небольшо́й магази́н.",
+     "order": 1
+    },
+    "Audio": {
+     "value": "{{c1::[sound:hypertts-2cdd51465eaf1e76315dd14c5c07374d5d89928aed97e4fc8ecfb359.mp3]}} {{c2::[sound:hypertts-b371416ea36870f3ebcce5b1d196b33fb7f0ad0b7cb50154c5653b6b.mp3]}} {{c3::[sound:hypertts-b58580c3e16ffc6b246c653f81eff73a587c4200e9ee734bd096e420.mp3]}} {{c4::[sound:hypertts-26d154571bb3d581c81410213624a339fdc520dfd52392c61131b62e.mp3]}}",
+     "order": 2
+    }
+   },
+   "modelName": "Cloze",
+   "mod": 1791362970,
+   "cards": [
+    1791237523300,
+    1791237523299,
+    1791237523301,
+    1791237523302
+   ]
+  },
+  {
+   "noteId": 1791237526224,
+   "profile": "User 1",
+   "tags": [
+    "claude",
+    "numbered",
+    "prep"
+   ],
+   "fields": {
+    "Text": {
+     "value": "<b>near, by (+gen)</b><br><br><table style=\"margin: 0 auto; text-align: left; border-collapse: collapse;\"><tr><td style=\"padding: 2px 10px; vertical-align: top;\">1:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>around, roundabout</i></td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c1::о́коло (+g)}}</td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">2:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>right beside</i></td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c2::во́зле (+g)}}</td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">3:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>close to (bookish)</i></td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c3::близ (+g)}}</td></tr></table>",
+     "order": 0
+    },
+    "Back Extra": {
+     "value": "1: Апте́ка нахо́дится о́коло ста́нции метро́.<br><br>2: Она́ сиде́ла во́зле окна́ и смотре́ла на у́лицу.<br><br>3: Близ ста́нции метро́ нахо́дится большо́й торго́вый це́нтр.",
+     "order": 1
+    },
+    "Audio": {
+     "value": "{{c1::[sound:hypertts-abc50fc82366b8ce11d580dd6adff49ff51bac69b55b68144ba4339b.mp3]}} {{c2::[sound:hypertts-3dba52e2c5ba776a89881c9014dfc8c99a19f02d52c6398f1b40f35d.mp3]}} {{c3::[sound:hypertts-45b005fe31af9cfde7534d1891358815e05c69a0d0f38915fcccbd9d.mp3]}}",
+     "order": 2
+    }
+   },
+   "modelName": "Cloze",
+   "mod": 1791255341,
+   "cards": [
+    1791237526226,
+    1791237526225,
+    1791237526224
+   ]
+  }
+ ],
+ "cards": [
+  {
+   "cardId": 1791237523300,
+   "fields": {
+    "Text": {
+     "value": "<b>nearby, close by (adv)</b><br><br><table style=\"margin: 0 auto; text-align: left; border-collapse: collapse;\"><tbody><tr><td style=\"padding: 2px 10px; vertical-align: top;\">1:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>right beside, alongside</i></td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c1::ря́дом}}</td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">2:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>near, a short way off</i></td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c2::бли́зко}}</td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">3:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>close by, in the immediate vicinity</i></td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c3::вблизи́}}</td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">4:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>nearby, somewhere around</i></td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c4::побли́зости}}</td></tr></tbody></table>",
+     "order": 0
+    },
+    "Back Extra": {
+     "value": "1: Со мной ря́дом сиде́л незнако́мый челове́к.<br><br>2: Остано́вка метро́ нахо́дится бли́зко — всего́ пять мину́т ходьбы́.<br><br>3: Вблизи́ река́ вы́глядела куда́ грязне́е, чем каза́лась издалека́.<br><br>4: Побли́зости находи́лся небольшо́й магази́н.",
+     "order": 1
+    },
+    "Audio": {
+     "value": "{{c1::[sound:hypertts-2cdd51465eaf1e76315dd14c5c07374d5d89928aed97e4fc8ecfb359.mp3]}} {{c2::[sound:hypertts-b371416ea36870f3ebcce5b1d196b33fb7f0ad0b7cb50154c5653b6b.mp3]}} {{c3::[sound:hypertts-b58580c3e16ffc6b246c653f81eff73a587c4200e9ee734bd096e420.mp3]}} {{c4::[sound:hypertts-26d154571bb3d581c81410213624a339fdc520dfd52392c61131b62e.mp3]}}",
+     "order": 2
+    }
+   },
+   "fieldOrder": 0,
+   "question": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n\n.cloze {\n font-weight: bold;\n color: blue;\n}\n.nightMode .cloze {\n color: lightblue;\n}\n\ntd.pm, td.pc { display: none; }\ntd.pm.show, td.pc.show { display: table-cell; }\n.pm-toggle { font-size: 0.8em; color: #888; text-decoration: underline; cursor: pointer; display: inline-block; margin: 0 8px 6px; }\n\n.audio-row { text-align: center; margin: 10px 0 1.2em; }\n.example { margin-top: 4px; }\n</style><b>nearby, close by (adv)</b><br><br><table style=\"margin: 0 auto; text-align: left; border-collapse: collapse;\"><tbody><tr><td style=\"padding: 2px 10px; vertical-align: top;\">1:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>right beside, alongside</i></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze\" data-cloze=\"ря́дом\" data-ordinal=\"1\">[...]</span></td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">2:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>near, a short way off</i></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"2\">бли́зко</span></td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">3:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>close by, in the immediate vicinity</i></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"3\">вблизи́</span></td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">4:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>nearby, somewhere around</i></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"4\">побли́зости</span></td></tr></tbody></table>\n<script>(function(){if(document.querySelector(\".pm-toggle\"))return;var first=document.querySelector(\"td.pc, td.pm\");if(!first)return;var tb=first.closest(\"table\"),bar=document.createElement(\"div\");[[\"pc\",\"prefixes\"],[\"pm\",\"prefix meanings\"]].forEach(function(p){var cells=document.querySelectorAll(\"td.\"+p[0]);if(!cells.length)return;var t=document.createElement(\"span\");t.className=\"pm-toggle\";t.textContent=p[1];t.onclick=function(){cells.forEach(function(e){e.classList.toggle(\"show\")});};bar.appendChild(t);});tb.parentNode.insertBefore(bar,tb);})();</script>",
+   "answer": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n\n.cloze {\n font-weight: bold;\n color: blue;\n}\n.nightMode .cloze {\n color: lightblue;\n}\n\ntd.pm, td.pc { display: none; }\ntd.pm.show, td.pc.show { display: table-cell; }\n.pm-toggle { font-size: 0.8em; color: #888; text-decoration: underline; cursor: pointer; display: inline-block; margin: 0 8px 6px; }\n\n.audio-row { text-align: center; margin: 10px 0 1.2em; }\n.example { margin-top: 4px; }\n</style><b>nearby, close by (adv)</b><br><br><table style=\"margin: 0 auto; text-align: left; border-collapse: collapse;\"><tbody><tr><td style=\"padding: 2px 10px; vertical-align: top;\">1:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>right beside, alongside</i></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze\" data-ordinal=\"1\">ря́дом</span></td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">2:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>near, a short way off</i></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"2\">бли́зко</span></td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">3:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>close by, in the immediate vicinity</i></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"3\">вблизи́</span></td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">4:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>nearby, somewhere around</i></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"4\">побли́зости</span></td></tr></tbody></table>\n<div class=\"audio-row\">[anki:play:a:0]</div>\n<div class=\"example\">1: Со мной ря́дом сиде́л незнако́мый челове́к.<br><br>2: Остано́вка метро́ нахо́дится бли́зко — всего́ пять мину́т ходьбы́.<br><br>3: Вблизи́ река́ вы́глядела куда́ грязне́е, чем каза́лась издалека́.<br><br>4: Побли́зости находи́лся небольшо́й магази́н.</div>\n<script>(function(){if(document.querySelector(\".pm-toggle\"))return;var first=document.querySelector(\"td.pc, td.pm\");if(!first)return;var tb=first.closest(\"table\"),bar=document.createElement(\"div\");[[\"pc\",\"prefixes\"],[\"pm\",\"prefix meanings\"]].forEach(function(p){var cells=document.querySelectorAll(\"td.\"+p[0]);if(!cells.length)return;var t=document.createElement(\"span\");t.className=\"pm-toggle\";t.textContent=p[1];t.onclick=function(){cells.forEach(function(e){e.classList.toggle(\"show\")});};bar.appendChild(t);});tb.parentNode.insertBefore(bar,tb);})();</script>",
+   "modelName": "Cloze",
+   "ord": 0,
+   "deckName": "Vocab::10000 words",
+   "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n\n.cloze {\n font-weight: bold;\n color: blue;\n}\n.nightMode .cloze {\n color: lightblue;\n}\n\ntd.pm, td.pc { display: none; }\ntd.pm.show, td.pc.show { display: table-cell; }\n.pm-toggle { font-size: 0.8em; color: #888; text-decoration: underline; cursor: pointer; display: inline-block; margin: 0 8px 6px; }\n\n.audio-row { text-align: center; margin: 10px 0 1.2em; }\n.example { margin-top: 4px; }\n",
+   "factor": 0,
+   "interval": 0,
+   "note": 1791237523299,
+   "type": 0,
+   "queue": -1,
+   "due": 10,
+   "reps": 0,
+   "lapses": 0,
+   "left": 0,
+   "mod": 1791237523,
+   "nextReviews": [
+    "⁨20⁩m",
+    "⁨40⁩m",
+    "⁨1⁩h",
+    "⁨25⁩d"
+   ],
+   "flags": 0
+  },
+  {
+   "cardId": 1791237523299,
+   "fields": {
+    "Text": {
+     "value": "<b>nearby, close by (adv)</b><br><br><table style=\"margin: 0 auto; text-align: left; border-collapse: collapse;\"><tbody><tr><td style=\"padding: 2px 10px; vertical-align: top;\">1:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>right beside, alongside</i></td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c1::ря́дом}}</td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">2:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>near, a short way off</i></td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c2::бли́зко}}</td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">3:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>close by, in the immediate vicinity</i></td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c3::вблизи́}}</td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">4:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>nearby, somewhere around</i></td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c4::побли́зости}}</td></tr></tbody></table>",
+     "order": 0
+    },
+    "Back Extra": {
+     "value": "1: Со мной ря́дом сиде́л незнако́мый челове́к.<br><br>2: Остано́вка метро́ нахо́дится бли́зко — всего́ пять мину́т ходьбы́.<br><br>3: Вблизи́ река́ вы́глядела куда́ грязне́е, чем каза́лась издалека́.<br><br>4: Побли́зости находи́лся небольшо́й магази́н.",
+     "order": 1
+    },
+    "Audio": {
+     "value": "{{c1::[sound:hypertts-2cdd51465eaf1e76315dd14c5c07374d5d89928aed97e4fc8ecfb359.mp3]}} {{c2::[sound:hypertts-b371416ea36870f3ebcce5b1d196b33fb7f0ad0b7cb50154c5653b6b.mp3]}} {{c3::[sound:hypertts-b58580c3e16ffc6b246c653f81eff73a587c4200e9ee734bd096e420.mp3]}} {{c4::[sound:hypertts-26d154571bb3d581c81410213624a339fdc520dfd52392c61131b62e.mp3]}}",
+     "order": 2
+    }
+   },
+   "fieldOrder": 1,
+   "question": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n\n.cloze {\n font-weight: bold;\n color: blue;\n}\n.nightMode .cloze {\n color: lightblue;\n}\n\ntd.pm, td.pc { display: none; }\ntd.pm.show, td.pc.show { display: table-cell; }\n.pm-toggle { font-size: 0.8em; color: #888; text-decoration: underline; cursor: pointer; display: inline-block; margin: 0 8px 6px; }\n\n.audio-row { text-align: center; margin: 10px 0 1.2em; }\n.example { margin-top: 4px; }\n</style><b>nearby, close by (adv)</b><br><br><table style=\"margin: 0 auto; text-align: left; border-collapse: collapse;\"><tbody><tr><td style=\"padding: 2px 10px; vertical-align: top;\">1:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>right beside, alongside</i></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"1\">ря́дом</span></td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">2:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>near, a short way off</i></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze\" data-cloze=\"бли́зко\" data-ordinal=\"2\">[...]</span></td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">3:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>close by, in the immediate vicinity</i></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"3\">вблизи́</span></td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">4:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>nearby, somewhere around</i></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"4\">побли́зости</span></td></tr></tbody></table>\n<script>(function(){if(document.querySelector(\".pm-toggle\"))return;var first=document.querySelector(\"td.pc, td.pm\");if(!first)return;var tb=first.closest(\"table\"),bar=document.createElement(\"div\");[[\"pc\",\"prefixes\"],[\"pm\",\"prefix meanings\"]].forEach(function(p){var cells=document.querySelectorAll(\"td.\"+p[0]);if(!cells.length)return;var t=document.createElement(\"span\");t.className=\"pm-toggle\";t.textContent=p[1];t.onclick=function(){cells.forEach(function(e){e.classList.toggle(\"show\")});};bar.appendChild(t);});tb.parentNode.insertBefore(bar,tb);})();</script>",
+   "answer": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n\n.cloze {\n font-weight: bold;\n color: blue;\n}\n.nightMode .cloze {\n color: lightblue;\n}\n\ntd.pm, td.pc { display: none; }\ntd.pm.show, td.pc.show { display: table-cell; }\n.pm-toggle { font-size: 0.8em; color: #888; text-decoration: underline; cursor: pointer; display: inline-block; margin: 0 8px 6px; }\n\n.audio-row { text-align: center; margin: 10px 0 1.2em; }\n.example { margin-top: 4px; }\n</style><b>nearby, close by (adv)</b><br><br><table style=\"margin: 0 auto; text-align: left; border-collapse: collapse;\"><tbody><tr><td style=\"padding: 2px 10px; vertical-align: top;\">1:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>right beside, alongside</i></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"1\">ря́дом</span></td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">2:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>near, a short way off</i></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze\" data-ordinal=\"2\">бли́зко</span></td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">3:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>close by, in the immediate vicinity</i></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"3\">вблизи́</span></td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">4:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>nearby, somewhere around</i></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"4\">побли́зости</span></td></tr></tbody></table>\n<div class=\"audio-row\">[anki:play:a:0]</div>\n<div class=\"example\">1: Со мной ря́дом сиде́л незнако́мый челове́к.<br><br>2: Остано́вка метро́ нахо́дится бли́зко — всего́ пять мину́т ходьбы́.<br><br>3: Вблизи́ река́ вы́глядела куда́ грязне́е, чем каза́лась издалека́.<br><br>4: Побли́зости находи́лся небольшо́й магази́н.</div>\n<script>(function(){if(document.querySelector(\".pm-toggle\"))return;var first=document.querySelector(\"td.pc, td.pm\");if(!first)return;var tb=first.closest(\"table\"),bar=document.createElement(\"div\");[[\"pc\",\"prefixes\"],[\"pm\",\"prefix meanings\"]].forEach(function(p){var cells=document.querySelectorAll(\"td.\"+p[0]);if(!cells.length)return;var t=document.createElement(\"span\");t.className=\"pm-toggle\";t.textContent=p[1];t.onclick=function(){cells.forEach(function(e){e.classList.toggle(\"show\")});};bar.appendChild(t);});tb.parentNode.insertBefore(bar,tb);})();</script>",
+   "modelName": "Cloze",
+   "ord": 1,
+   "deckName": "Vocab::10000 words",
+   "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n\n.cloze {\n font-weight: bold;\n color: blue;\n}\n.nightMode .cloze {\n color: lightblue;\n}\n\ntd.pm, td.pc { display: none; }\ntd.pm.show, td.pc.show { display: table-cell; }\n.pm-toggle { font-size: 0.8em; color: #888; text-decoration: underline; cursor: pointer; display: inline-block; margin: 0 8px 6px; }\n\n.audio-row { text-align: center; margin: 10px 0 1.2em; }\n.example { margin-top: 4px; }\n",
+   "factor": 0,
+   "interval": 0,
+   "note": 1791237523299,
+   "type": 0,
+   "queue": -1,
+   "due": 10,
+   "reps": 0,
+   "lapses": 0,
+   "left": 0,
+   "mod": 1791237523,
+   "nextReviews": [
+    "⁨20⁩m",
+    "⁨40⁩m",
+    "⁨1⁩h",
+    "⁨25⁩d"
+   ],
+   "flags": 0
+  },
+  {
+   "cardId": 1791237523301,
+   "fields": {
+    "Text": {
+     "value": "<b>nearby, close by (adv)</b><br><br><table style=\"margin: 0 auto; text-align: left; border-collapse: collapse;\"><tbody><tr><td style=\"padding: 2px 10px; vertical-align: top;\">1:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>right beside, alongside</i></td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c1::ря́дом}}</td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">2:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>near, a short way off</i></td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c2::бли́зко}}</td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">3:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>close by, in the immediate vicinity</i></td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c3::вблизи́}}</td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">4:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>nearby, somewhere around</i></td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c4::побли́зости}}</td></tr></tbody></table>",
+     "order": 0
+    },
+    "Back Extra": {
+     "value": "1: Со мной ря́дом сиде́л незнако́мый челове́к.<br><br>2: Остано́вка метро́ нахо́дится бли́зко — всего́ пять мину́т ходьбы́.<br><br>3: Вблизи́ река́ вы́глядела куда́ грязне́е, чем каза́лась издалека́.<br><br>4: Побли́зости находи́лся небольшо́й магази́н.",
+     "order": 1
+    },
+    "Audio": {
+     "value": "{{c1::[sound:hypertts-2cdd51465eaf1e76315dd14c5c07374d5d89928aed97e4fc8ecfb359.mp3]}} {{c2::[sound:hypertts-b371416ea36870f3ebcce5b1d196b33fb7f0ad0b7cb50154c5653b6b.mp3]}} {{c3::[sound:hypertts-b58580c3e16ffc6b246c653f81eff73a587c4200e9ee734bd096e420.mp3]}} {{c4::[sound:hypertts-26d154571bb3d581c81410213624a339fdc520dfd52392c61131b62e.mp3]}}",
+     "order": 2
+    }
+   },
+   "fieldOrder": 2,
+   "question": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n\n.cloze {\n font-weight: bold;\n color: blue;\n}\n.nightMode .cloze {\n color: lightblue;\n}\n\ntd.pm, td.pc { display: none; }\ntd.pm.show, td.pc.show { display: table-cell; }\n.pm-toggle { font-size: 0.8em; color: #888; text-decoration: underline; cursor: pointer; display: inline-block; margin: 0 8px 6px; }\n\n.audio-row { text-align: center; margin: 10px 0 1.2em; }\n.example { margin-top: 4px; }\n</style><b>nearby, close by (adv)</b><br><br><table style=\"margin: 0 auto; text-align: left; border-collapse: collapse;\"><tbody><tr><td style=\"padding: 2px 10px; vertical-align: top;\">1:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>right beside, alongside</i></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"1\">ря́дом</span></td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">2:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>near, a short way off</i></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"2\">бли́зко</span></td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">3:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>close by, in the immediate vicinity</i></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze\" data-cloze=\"вблизи́\" data-ordinal=\"3\">[...]</span></td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">4:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>nearby, somewhere around</i></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"4\">побли́зости</span></td></tr></tbody></table>\n<script>(function(){if(document.querySelector(\".pm-toggle\"))return;var first=document.querySelector(\"td.pc, td.pm\");if(!first)return;var tb=first.closest(\"table\"),bar=document.createElement(\"div\");[[\"pc\",\"prefixes\"],[\"pm\",\"prefix meanings\"]].forEach(function(p){var cells=document.querySelectorAll(\"td.\"+p[0]);if(!cells.length)return;var t=document.createElement(\"span\");t.className=\"pm-toggle\";t.textContent=p[1];t.onclick=function(){cells.forEach(function(e){e.classList.toggle(\"show\")});};bar.appendChild(t);});tb.parentNode.insertBefore(bar,tb);})();</script>",
+   "answer": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n\n.cloze {\n font-weight: bold;\n color: blue;\n}\n.nightMode .cloze {\n color: lightblue;\n}\n\ntd.pm, td.pc { display: none; }\ntd.pm.show, td.pc.show { display: table-cell; }\n.pm-toggle { font-size: 0.8em; color: #888; text-decoration: underline; cursor: pointer; display: inline-block; margin: 0 8px 6px; }\n\n.audio-row { text-align: center; margin: 10px 0 1.2em; }\n.example { margin-top: 4px; }\n</style><b>nearby, close by (adv)</b><br><br><table style=\"margin: 0 auto; text-align: left; border-collapse: collapse;\"><tbody><tr><td style=\"padding: 2px 10px; vertical-align: top;\">1:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>right beside, alongside</i></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"1\">ря́дом</span></td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">2:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>near, a short way off</i></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"2\">бли́зко</span></td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">3:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>close by, in the immediate vicinity</i></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze\" data-ordinal=\"3\">вблизи́</span></td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">4:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>nearby, somewhere around</i></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"4\">побли́зости</span></td></tr></tbody></table>\n<div class=\"audio-row\">[anki:play:a:0]</div>\n<div class=\"example\">1: Со мной ря́дом сиде́л незнако́мый челове́к.<br><br>2: Остано́вка метро́ нахо́дится бли́зко — всего́ пять мину́т ходьбы́.<br><br>3: Вблизи́ река́ вы́глядела куда́ грязне́е, чем каза́лась издалека́.<br><br>4: Побли́зости находи́лся небольшо́й магази́н.</div>\n<script>(function(){if(document.querySelector(\".pm-toggle\"))return;var first=document.querySelector(\"td.pc, td.pm\");if(!first)return;var tb=first.closest(\"table\"),bar=document.createElement(\"div\");[[\"pc\",\"prefixes\"],[\"pm\",\"prefix meanings\"]].forEach(function(p){var cells=document.querySelectorAll(\"td.\"+p[0]);if(!cells.length)return;var t=document.createElement(\"span\");t.className=\"pm-toggle\";t.textContent=p[1];t.onclick=function(){cells.forEach(function(e){e.classList.toggle(\"show\")});};bar.appendChild(t);});tb.parentNode.insertBefore(bar,tb);})();</script>",
+   "modelName": "Cloze",
+   "ord": 2,
+   "deckName": "Vocab::10000 words",
+   "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n\n.cloze {\n font-weight: bold;\n color: blue;\n}\n.nightMode .cloze {\n color: lightblue;\n}\n\ntd.pm, td.pc { display: none; }\ntd.pm.show, td.pc.show { display: table-cell; }\n.pm-toggle { font-size: 0.8em; color: #888; text-decoration: underline; cursor: pointer; display: inline-block; margin: 0 8px 6px; }\n\n.audio-row { text-align: center; margin: 10px 0 1.2em; }\n.example { margin-top: 4px; }\n",
+   "factor": 0,
+   "interval": 0,
+   "note": 1791237523299,
+   "type": 0,
+   "queue": -1,
+   "due": 10,
+   "reps": 0,
+   "lapses": 0,
+   "left": 0,
+   "mod": 1791237523,
+   "nextReviews": [
+    "⁨20⁩m",
+    "⁨40⁩m",
+    "⁨1⁩h",
+    "⁨24⁩d"
+   ],
+   "flags": 0
+  },
+  {
+   "cardId": 1791237523302,
+   "fields": {
+    "Text": {
+     "value": "<b>nearby, close by (adv)</b><br><br><table style=\"margin: 0 auto; text-align: left; border-collapse: collapse;\"><tbody><tr><td style=\"padding: 2px 10px; vertical-align: top;\">1:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>right beside, alongside</i></td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c1::ря́дом}}</td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">2:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>near, a short way off</i></td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c2::бли́зко}}</td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">3:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>close by, in the immediate vicinity</i></td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c3::вблизи́}}</td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">4:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>nearby, somewhere around</i></td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c4::побли́зости}}</td></tr></tbody></table>",
+     "order": 0
+    },
+    "Back Extra": {
+     "value": "1: Со мной ря́дом сиде́л незнако́мый челове́к.<br><br>2: Остано́вка метро́ нахо́дится бли́зко — всего́ пять мину́т ходьбы́.<br><br>3: Вблизи́ река́ вы́глядела куда́ грязне́е, чем каза́лась издалека́.<br><br>4: Побли́зости находи́лся небольшо́й магази́н.",
+     "order": 1
+    },
+    "Audio": {
+     "value": "{{c1::[sound:hypertts-2cdd51465eaf1e76315dd14c5c07374d5d89928aed97e4fc8ecfb359.mp3]}} {{c2::[sound:hypertts-b371416ea36870f3ebcce5b1d196b33fb7f0ad0b7cb50154c5653b6b.mp3]}} {{c3::[sound:hypertts-b58580c3e16ffc6b246c653f81eff73a587c4200e9ee734bd096e420.mp3]}} {{c4::[sound:hypertts-26d154571bb3d581c81410213624a339fdc520dfd52392c61131b62e.mp3]}}",
+     "order": 2
+    }
+   },
+   "fieldOrder": 3,
+   "question": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n\n.cloze {\n font-weight: bold;\n color: blue;\n}\n.nightMode .cloze {\n color: lightblue;\n}\n\ntd.pm, td.pc { display: none; }\ntd.pm.show, td.pc.show { display: table-cell; }\n.pm-toggle { font-size: 0.8em; color: #888; text-decoration: underline; cursor: pointer; display: inline-block; margin: 0 8px 6px; }\n\n.audio-row { text-align: center; margin: 10px 0 1.2em; }\n.example { margin-top: 4px; }\n</style><b>nearby, close by (adv)</b><br><br><table style=\"margin: 0 auto; text-align: left; border-collapse: collapse;\"><tbody><tr><td style=\"padding: 2px 10px; vertical-align: top;\">1:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>right beside, alongside</i></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"1\">ря́дом</span></td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">2:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>near, a short way off</i></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"2\">бли́зко</span></td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">3:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>close by, in the immediate vicinity</i></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"3\">вблизи́</span></td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">4:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>nearby, somewhere around</i></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze\" data-cloze=\"побли́зости\" data-ordinal=\"4\">[...]</span></td></tr></tbody></table>\n<script>(function(){if(document.querySelector(\".pm-toggle\"))return;var first=document.querySelector(\"td.pc, td.pm\");if(!first)return;var tb=first.closest(\"table\"),bar=document.createElement(\"div\");[[\"pc\",\"prefixes\"],[\"pm\",\"prefix meanings\"]].forEach(function(p){var cells=document.querySelectorAll(\"td.\"+p[0]);if(!cells.length)return;var t=document.createElement(\"span\");t.className=\"pm-toggle\";t.textContent=p[1];t.onclick=function(){cells.forEach(function(e){e.classList.toggle(\"show\")});};bar.appendChild(t);});tb.parentNode.insertBefore(bar,tb);})();</script>",
+   "answer": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n\n.cloze {\n font-weight: bold;\n color: blue;\n}\n.nightMode .cloze {\n color: lightblue;\n}\n\ntd.pm, td.pc { display: none; }\ntd.pm.show, td.pc.show { display: table-cell; }\n.pm-toggle { font-size: 0.8em; color: #888; text-decoration: underline; cursor: pointer; display: inline-block; margin: 0 8px 6px; }\n\n.audio-row { text-align: center; margin: 10px 0 1.2em; }\n.example { margin-top: 4px; }\n</style><b>nearby, close by (adv)</b><br><br><table style=\"margin: 0 auto; text-align: left; border-collapse: collapse;\"><tbody><tr><td style=\"padding: 2px 10px; vertical-align: top;\">1:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>right beside, alongside</i></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"1\">ря́дом</span></td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">2:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>near, a short way off</i></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"2\">бли́зко</span></td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">3:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>close by, in the immediate vicinity</i></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"3\">вблизи́</span></td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">4:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>nearby, somewhere around</i></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze\" data-ordinal=\"4\">побли́зости</span></td></tr></tbody></table>\n<div class=\"audio-row\">[anki:play:a:0]</div>\n<div class=\"example\">1: Со мной ря́дом сиде́л незнако́мый челове́к.<br><br>2: Остано́вка метро́ нахо́дится бли́зко — всего́ пять мину́т ходьбы́.<br><br>3: Вблизи́ река́ вы́глядела куда́ грязне́е, чем каза́лась издалека́.<br><br>4: Побли́зости находи́лся небольшо́й магази́н.</div>\n<script>(function(){if(document.querySelector(\".pm-toggle\"))return;var first=document.querySelector(\"td.pc, td.pm\");if(!first)return;var tb=first.closest(\"table\"),bar=document.createElement(\"div\");[[\"pc\",\"prefixes\"],[\"pm\",\"prefix meanings\"]].forEach(function(p){var cells=document.querySelectorAll(\"td.\"+p[0]);if(!cells.length)return;var t=document.createElement(\"span\");t.className=\"pm-toggle\";t.textContent=p[1];t.onclick=function(){cells.forEach(function(e){e.classList.toggle(\"show\")});};bar.appendChild(t);});tb.parentNode.insertBefore(bar,tb);})();</script>",
+   "modelName": "Cloze",
+   "ord": 3,
+   "deckName": "Vocab::10000 words",
+   "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n\n.cloze {\n font-weight: bold;\n color: blue;\n}\n.nightMode .cloze {\n color: lightblue;\n}\n\ntd.pm, td.pc { display: none; }\ntd.pm.show, td.pc.show { display: table-cell; }\n.pm-toggle { font-size: 0.8em; color: #888; text-decoration: underline; cursor: pointer; display: inline-block; margin: 0 8px 6px; }\n\n.audio-row { text-align: center; margin: 10px 0 1.2em; }\n.example { margin-top: 4px; }\n",
+   "factor": 0,
+   "interval": 0,
+   "note": 1791237523299,
+   "type": 0,
+   "queue": -1,
+   "due": 10,
+   "reps": 0,
+   "lapses": 0,
+   "left": 0,
+   "mod": 1791237523,
+   "nextReviews": [
+    "⁨20⁩m",
+    "⁨40⁩m",
+    "⁨1⁩h",
+    "⁨22⁩d"
+   ],
+   "flags": 0
+  },
+  {
+   "cardId": 1791237526226,
+   "fields": {
+    "Text": {
+     "value": "<b>near, by (+gen)</b><br><br><table style=\"margin: 0 auto; text-align: left; border-collapse: collapse;\"><tr><td style=\"padding: 2px 10px; vertical-align: top;\">1:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>around, roundabout</i></td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c1::о́коло (+g)}}</td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">2:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>right beside</i></td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c2::во́зле (+g)}}</td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">3:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>close to (bookish)</i></td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c3::близ (+g)}}</td></tr></table>",
+     "order": 0
+    },
+    "Back Extra": {
+     "value": "1: Апте́ка нахо́дится о́коло ста́нции метро́.<br><br>2: Она́ сиде́ла во́зле окна́ и смотре́ла на у́лицу.<br><br>3: Близ ста́нции метро́ нахо́дится большо́й торго́вый це́нтр.",
+     "order": 1
+    },
+    "Audio": {
+     "value": "{{c1::[sound:hypertts-abc50fc82366b8ce11d580dd6adff49ff51bac69b55b68144ba4339b.mp3]}} {{c2::[sound:hypertts-3dba52e2c5ba776a89881c9014dfc8c99a19f02d52c6398f1b40f35d.mp3]}} {{c3::[sound:hypertts-45b005fe31af9cfde7534d1891358815e05c69a0d0f38915fcccbd9d.mp3]}}",
+     "order": 2
+    }
+   },
+   "fieldOrder": 0,
+   "question": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n\n.cloze {\n font-weight: bold;\n color: blue;\n}\n.nightMode .cloze {\n color: lightblue;\n}\n\ntd.pm, td.pc { display: none; }\ntd.pm.show, td.pc.show { display: table-cell; }\n.pm-toggle { font-size: 0.8em; color: #888; text-decoration: underline; cursor: pointer; display: inline-block; margin: 0 8px 6px; }\n\n.audio-row { text-align: center; margin: 10px 0 1.2em; }\n.example { margin-top: 4px; }\n</style><b>near, by (+gen)</b><br><br><table style=\"margin: 0 auto; text-align: left; border-collapse: collapse;\"><tr><td style=\"padding: 2px 10px; vertical-align: top;\">1:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>around, roundabout</i></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze\" data-cloze=\"о́коло&#x20;&#x28;&#x2B;g&#x29;\" data-ordinal=\"1\">[...]</span></td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">2:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>right beside</i></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"2\">во́зле (+g)</span></td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">3:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>close to (bookish)</i></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"3\">близ (+g)</span></td></tr></table>\n<script>(function(){if(document.querySelector(\".pm-toggle\"))return;var first=document.querySelector(\"td.pc, td.pm\");if(!first)return;var tb=first.closest(\"table\"),bar=document.createElement(\"div\");[[\"pc\",\"prefixes\"],[\"pm\",\"prefix meanings\"]].forEach(function(p){var cells=document.querySelectorAll(\"td.\"+p[0]);if(!cells.length)return;var t=document.createElement(\"span\");t.className=\"pm-toggle\";t.textContent=p[1];t.onclick=function(){cells.forEach(function(e){e.classList.toggle(\"show\")});};bar.appendChild(t);});tb.parentNode.insertBefore(bar,tb);})();</script>",
+   "answer": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n\n.cloze {\n font-weight: bold;\n color: blue;\n}\n.nightMode .cloze {\n color: lightblue;\n}\n\ntd.pm, td.pc { display: none; }\ntd.pm.show, td.pc.show { display: table-cell; }\n.pm-toggle { font-size: 0.8em; color: #888; text-decoration: underline; cursor: pointer; display: inline-block; margin: 0 8px 6px; }\n\n.audio-row { text-align: center; margin: 10px 0 1.2em; }\n.example { margin-top: 4px; }\n</style><b>near, by (+gen)</b><br><br><table style=\"margin: 0 auto; text-align: left; border-collapse: collapse;\"><tr><td style=\"padding: 2px 10px; vertical-align: top;\">1:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>around, roundabout</i></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze\" data-ordinal=\"1\">о́коло (+g)</span></td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">2:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>right beside</i></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"2\">во́зле (+g)</span></td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">3:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>close to (bookish)</i></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"3\">близ (+g)</span></td></tr></table>\n<div class=\"audio-row\">[anki:play:a:0]</div>\n<div class=\"example\">1: Апте́ка нахо́дится о́коло ста́нции метро́.<br><br>2: Она́ сиде́ла во́зле окна́ и смотре́ла на у́лицу.<br><br>3: Близ ста́нции метро́ нахо́дится большо́й торго́вый це́нтр.</div>\n<script>(function(){if(document.querySelector(\".pm-toggle\"))return;var first=document.querySelector(\"td.pc, td.pm\");if(!first)return;var tb=first.closest(\"table\"),bar=document.createElement(\"div\");[[\"pc\",\"prefixes\"],[\"pm\",\"prefix meanings\"]].forEach(function(p){var cells=document.querySelectorAll(\"td.\"+p[0]);if(!cells.length)return;var t=document.createElement(\"span\");t.className=\"pm-toggle\";t.textContent=p[1];t.onclick=function(){cells.forEach(function(e){e.classList.toggle(\"show\")});};bar.appendChild(t);});tb.parentNode.insertBefore(bar,tb);})();</script>",
+   "modelName": "Cloze",
+   "ord": 0,
+   "deckName": "Vocab::10000 words",
+   "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n\n.cloze {\n font-weight: bold;\n color: blue;\n}\n.nightMode .cloze {\n color: lightblue;\n}\n\ntd.pm, td.pc { display: none; }\ntd.pm.show, td.pc.show { display: table-cell; }\n.pm-toggle { font-size: 0.8em; color: #888; text-decoration: underline; cursor: pointer; display: inline-block; margin: 0 8px 6px; }\n\n.audio-row { text-align: center; margin: 10px 0 1.2em; }\n.example { margin-top: 4px; }\n",
+   "factor": 0,
+   "interval": 0,
+   "note": 1791237526224,
+   "type": 0,
+   "queue": -1,
+   "due": 10,
+   "reps": 0,
+   "lapses": 0,
+   "left": 0,
+   "mod": 1791237526,
+   "nextReviews": [
+    "⁨20⁩m",
+    "⁨40⁩m",
+    "⁨1⁩h",
+    "⁨27⁩d"
+   ],
+   "flags": 0
+  },
+  {
+   "cardId": 1791237526225,
+   "fields": {
+    "Text": {
+     "value": "<b>near, by (+gen)</b><br><br><table style=\"margin: 0 auto; text-align: left; border-collapse: collapse;\"><tr><td style=\"padding: 2px 10px; vertical-align: top;\">1:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>around, roundabout</i></td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c1::о́коло (+g)}}</td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">2:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>right beside</i></td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c2::во́зле (+g)}}</td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">3:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>close to (bookish)</i></td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c3::близ (+g)}}</td></tr></table>",
+     "order": 0
+    },
+    "Back Extra": {
+     "value": "1: Апте́ка нахо́дится о́коло ста́нции метро́.<br><br>2: Она́ сиде́ла во́зле окна́ и смотре́ла на у́лицу.<br><br>3: Близ ста́нции метро́ нахо́дится большо́й торго́вый це́нтр.",
+     "order": 1
+    },
+    "Audio": {
+     "value": "{{c1::[sound:hypertts-abc50fc82366b8ce11d580dd6adff49ff51bac69b55b68144ba4339b.mp3]}} {{c2::[sound:hypertts-3dba52e2c5ba776a89881c9014dfc8c99a19f02d52c6398f1b40f35d.mp3]}} {{c3::[sound:hypertts-45b005fe31af9cfde7534d1891358815e05c69a0d0f38915fcccbd9d.mp3]}}",
+     "order": 2
+    }
+   },
+   "fieldOrder": 1,
+   "question": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n\n.cloze {\n font-weight: bold;\n color: blue;\n}\n.nightMode .cloze {\n color: lightblue;\n}\n\ntd.pm, td.pc { display: none; }\ntd.pm.show, td.pc.show { display: table-cell; }\n.pm-toggle { font-size: 0.8em; color: #888; text-decoration: underline; cursor: pointer; display: inline-block; margin: 0 8px 6px; }\n\n.audio-row { text-align: center; margin: 10px 0 1.2em; }\n.example { margin-top: 4px; }\n</style><b>near, by (+gen)</b><br><br><table style=\"margin: 0 auto; text-align: left; border-collapse: collapse;\"><tr><td style=\"padding: 2px 10px; vertical-align: top;\">1:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>around, roundabout</i></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"1\">о́коло (+g)</span></td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">2:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>right beside</i></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze\" data-cloze=\"во́зле&#x20;&#x28;&#x2B;g&#x29;\" data-ordinal=\"2\">[...]</span></td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">3:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>close to (bookish)</i></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"3\">близ (+g)</span></td></tr></table>\n<script>(function(){if(document.querySelector(\".pm-toggle\"))return;var first=document.querySelector(\"td.pc, td.pm\");if(!first)return;var tb=first.closest(\"table\"),bar=document.createElement(\"div\");[[\"pc\",\"prefixes\"],[\"pm\",\"prefix meanings\"]].forEach(function(p){var cells=document.querySelectorAll(\"td.\"+p[0]);if(!cells.length)return;var t=document.createElement(\"span\");t.className=\"pm-toggle\";t.textContent=p[1];t.onclick=function(){cells.forEach(function(e){e.classList.toggle(\"show\")});};bar.appendChild(t);});tb.parentNode.insertBefore(bar,tb);})();</script>",
+   "answer": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n\n.cloze {\n font-weight: bold;\n color: blue;\n}\n.nightMode .cloze {\n color: lightblue;\n}\n\ntd.pm, td.pc { display: none; }\ntd.pm.show, td.pc.show { display: table-cell; }\n.pm-toggle { font-size: 0.8em; color: #888; text-decoration: underline; cursor: pointer; display: inline-block; margin: 0 8px 6px; }\n\n.audio-row { text-align: center; margin: 10px 0 1.2em; }\n.example { margin-top: 4px; }\n</style><b>near, by (+gen)</b><br><br><table style=\"margin: 0 auto; text-align: left; border-collapse: collapse;\"><tr><td style=\"padding: 2px 10px; vertical-align: top;\">1:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>around, roundabout</i></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"1\">о́коло (+g)</span></td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">2:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>right beside</i></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze\" data-ordinal=\"2\">во́зле (+g)</span></td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">3:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>close to (bookish)</i></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"3\">близ (+g)</span></td></tr></table>\n<div class=\"audio-row\">[anki:play:a:0]</div>\n<div class=\"example\">1: Апте́ка нахо́дится о́коло ста́нции метро́.<br><br>2: Она́ сиде́ла во́зле окна́ и смотре́ла на у́лицу.<br><br>3: Близ ста́нции метро́ нахо́дится большо́й торго́вый це́нтр.</div>\n<script>(function(){if(document.querySelector(\".pm-toggle\"))return;var first=document.querySelector(\"td.pc, td.pm\");if(!first)return;var tb=first.closest(\"table\"),bar=document.createElement(\"div\");[[\"pc\",\"prefixes\"],[\"pm\",\"prefix meanings\"]].forEach(function(p){var cells=document.querySelectorAll(\"td.\"+p[0]);if(!cells.length)return;var t=document.createElement(\"span\");t.className=\"pm-toggle\";t.textContent=p[1];t.onclick=function(){cells.forEach(function(e){e.classList.toggle(\"show\")});};bar.appendChild(t);});tb.parentNode.insertBefore(bar,tb);})();</script>",
+   "modelName": "Cloze",
+   "ord": 1,
+   "deckName": "Vocab::10000 words",
+   "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n\n.cloze {\n font-weight: bold;\n color: blue;\n}\n.nightMode .cloze {\n color: lightblue;\n}\n\ntd.pm, td.pc { display: none; }\ntd.pm.show, td.pc.show { display: table-cell; }\n.pm-toggle { font-size: 0.8em; color: #888; text-decoration: underline; cursor: pointer; display: inline-block; margin: 0 8px 6px; }\n\n.audio-row { text-align: center; margin: 10px 0 1.2em; }\n.example { margin-top: 4px; }\n",
+   "factor": 0,
+   "interval": 0,
+   "note": 1791237526224,
+   "type": 0,
+   "queue": -1,
+   "due": 10,
+   "reps": 0,
+   "lapses": 0,
+   "left": 0,
+   "mod": 1791237526,
+   "nextReviews": [
+    "⁨20⁩m",
+    "⁨40⁩m",
+    "⁨1⁩h",
+    "⁨23⁩d"
+   ],
+   "flags": 0
+  },
+  {
+   "cardId": 1791237526224,
+   "fields": {
+    "Text": {
+     "value": "<b>near, by (+gen)</b><br><br><table style=\"margin: 0 auto; text-align: left; border-collapse: collapse;\"><tr><td style=\"padding: 2px 10px; vertical-align: top;\">1:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>around, roundabout</i></td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c1::о́коло (+g)}}</td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">2:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>right beside</i></td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c2::во́зле (+g)}}</td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">3:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>close to (bookish)</i></td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c3::близ (+g)}}</td></tr></table>",
+     "order": 0
+    },
+    "Back Extra": {
+     "value": "1: Апте́ка нахо́дится о́коло ста́нции метро́.<br><br>2: Она́ сиде́ла во́зле окна́ и смотре́ла на у́лицу.<br><br>3: Близ ста́нции метро́ нахо́дится большо́й торго́вый це́нтр.",
+     "order": 1
+    },
+    "Audio": {
+     "value": "{{c1::[sound:hypertts-abc50fc82366b8ce11d580dd6adff49ff51bac69b55b68144ba4339b.mp3]}} {{c2::[sound:hypertts-3dba52e2c5ba776a89881c9014dfc8c99a19f02d52c6398f1b40f35d.mp3]}} {{c3::[sound:hypertts-45b005fe31af9cfde7534d1891358815e05c69a0d0f38915fcccbd9d.mp3]}}",
+     "order": 2
+    }
+   },
+   "fieldOrder": 2,
+   "question": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n\n.cloze {\n font-weight: bold;\n color: blue;\n}\n.nightMode .cloze {\n color: lightblue;\n}\n\ntd.pm, td.pc { display: none; }\ntd.pm.show, td.pc.show { display: table-cell; }\n.pm-toggle { font-size: 0.8em; color: #888; text-decoration: underline; cursor: pointer; display: inline-block; margin: 0 8px 6px; }\n\n.audio-row { text-align: center; margin: 10px 0 1.2em; }\n.example { margin-top: 4px; }\n</style><b>near, by (+gen)</b><br><br><table style=\"margin: 0 auto; text-align: left; border-collapse: collapse;\"><tr><td style=\"padding: 2px 10px; vertical-align: top;\">1:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>around, roundabout</i></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"1\">о́коло (+g)</span></td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">2:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>right beside</i></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"2\">во́зле (+g)</span></td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">3:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>close to (bookish)</i></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze\" data-cloze=\"близ&#x20;&#x28;&#x2B;g&#x29;\" data-ordinal=\"3\">[...]</span></td></tr></table>\n<script>(function(){if(document.querySelector(\".pm-toggle\"))return;var first=document.querySelector(\"td.pc, td.pm\");if(!first)return;var tb=first.closest(\"table\"),bar=document.createElement(\"div\");[[\"pc\",\"prefixes\"],[\"pm\",\"prefix meanings\"]].forEach(function(p){var cells=document.querySelectorAll(\"td.\"+p[0]);if(!cells.length)return;var t=document.createElement(\"span\");t.className=\"pm-toggle\";t.textContent=p[1];t.onclick=function(){cells.forEach(function(e){e.classList.toggle(\"show\")});};bar.appendChild(t);});tb.parentNode.insertBefore(bar,tb);})();</script>",
+   "answer": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n\n.cloze {\n font-weight: bold;\n color: blue;\n}\n.nightMode .cloze {\n color: lightblue;\n}\n\ntd.pm, td.pc { display: none; }\ntd.pm.show, td.pc.show { display: table-cell; }\n.pm-toggle { font-size: 0.8em; color: #888; text-decoration: underline; cursor: pointer; display: inline-block; margin: 0 8px 6px; }\n\n.audio-row { text-align: center; margin: 10px 0 1.2em; }\n.example { margin-top: 4px; }\n</style><b>near, by (+gen)</b><br><br><table style=\"margin: 0 auto; text-align: left; border-collapse: collapse;\"><tr><td style=\"padding: 2px 10px; vertical-align: top;\">1:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>around, roundabout</i></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"1\">о́коло (+g)</span></td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">2:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>right beside</i></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"2\">во́зле (+g)</span></td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">3:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>close to (bookish)</i></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze\" data-ordinal=\"3\">близ (+g)</span></td></tr></table>\n<div class=\"audio-row\">[anki:play:a:0]</div>\n<div class=\"example\">1: Апте́ка нахо́дится о́коло ста́нции метро́.<br><br>2: Она́ сиде́ла во́зле окна́ и смотре́ла на у́лицу.<br><br>3: Близ ста́нции метро́ нахо́дится большо́й торго́вый це́нтр.</div>\n<script>(function(){if(document.querySelector(\".pm-toggle\"))return;var first=document.querySelector(\"td.pc, td.pm\");if(!first)return;var tb=first.closest(\"table\"),bar=document.createElement(\"div\");[[\"pc\",\"prefixes\"],[\"pm\",\"prefix meanings\"]].forEach(function(p){var cells=document.querySelectorAll(\"td.\"+p[0]);if(!cells.length)return;var t=document.createElement(\"span\");t.className=\"pm-toggle\";t.textContent=p[1];t.onclick=function(){cells.forEach(function(e){e.classList.toggle(\"show\")});};bar.appendChild(t);});tb.parentNode.insertBefore(bar,tb);})();</script>",
+   "modelName": "Cloze",
+   "ord": 2,
+   "deckName": "Vocab::10000 words",
+   "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n\n.cloze {\n font-weight: bold;\n color: blue;\n}\n.nightMode .cloze {\n color: lightblue;\n}\n\ntd.pm, td.pc { display: none; }\ntd.pm.show, td.pc.show { display: table-cell; }\n.pm-toggle { font-size: 0.8em; color: #888; text-decoration: underline; cursor: pointer; display: inline-block; margin: 0 8px 6px; }\n\n.audio-row { text-align: center; margin: 10px 0 1.2em; }\n.example { margin-top: 4px; }\n",
+   "factor": 0,
+   "interval": 0,
+   "note": 1791237526224,
+   "type": 0,
+   "queue": -1,
+   "due": 10,
+   "reps": 0,
+   "lapses": 0,
+   "left": 0,
+   "mod": 1791237526,
+   "nextReviews": [
+    "⁨20⁩m",
+    "⁨40⁩m",
+    "⁨1⁩h",
+    "⁨23⁩d"
+   ],
+   "flags": 0
+  }
+ ]
+}
