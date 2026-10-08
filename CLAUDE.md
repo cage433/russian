@@ -235,6 +235,13 @@ Before an edit that would invalidate a card's `[sound:]` recording (changing/cor
   near-synonym note needs a `generateClozeAudio` call, not a `needs-audio` tag. Changing a cloze
   word or its stress → clear that note's Audio and regenerate (same ask-first rule as above).
 
+**Cloze cards carry no leech baggage** (Alex, 2026-10-08): they were built as the way to learn
+leeched words, so no Cloze / Cloze Aspect / Cloze Sentence note keeps the `leech` tag, a
+suspension or an inherited lapse count. When copying scheduling onto a cloze card, set
+`lapses` to 0 — a copied 8+ would make Anki re-tag and suspend it on its next lapse.
+(2026-10-08: 9 notes untagged, 81 cards unsuspended, 108 lapse counts zeroed; lists in
+`tutoring/retired/`.)
+
 ## Recovered leeches (FSRS "difficulty hell")
 The collection schedules with **FSRS** (revlog `factor` 100–1000 = difficulty ×100; the 1300–2500
 `factor` on cards is a pre-FSRS leftover and means nothing now). A card with many old lapses sits at
