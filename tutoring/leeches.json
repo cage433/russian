@@ -40,7 +40,7 @@
    ]
   },
   "1726634604595": {
-   "front": "evident, visible (adv. + s.f. adj.)",
+   "front": "(it) can be seen, is visible; apparently",
    "back": "ви́дно",
    "deck": "Vocab::10000 words",
    "cards": [
@@ -59,7 +59,7 @@
    ]
   },
   "1726634604686": {
-   "front": "enterprise, factory",
+   "front": "enterprise, company (as an economic unit: a firm or a plant)",
    "back": "предприя́тие",
    "deck": "Vocab::10000 words",
    "cards": [
@@ -78,7 +78,7 @@
    ]
   },
   "1726634604717": {
-   "front": "large, important",
+   "front": "large-scale, major (city, firm, sum); coarse (grain), big (drops)",
    "back": "кру́пный",
    "deck": "Vocab::10000 words",
    "cards": [
@@ -116,7 +116,7 @@
    ]
   },
   "1726634604977": {
-   "front": "whichever / any kind of",
+   "front": "any, some … or other (no matter which: requests, questions) (cf. како́й-то = some particular one, unknown)",
    "back": "како́й-нибу́дь",
    "deck": "Vocab::10000 words",
    "cards": [
@@ -131,63 +131,6 @@
      "lapses": 6,
      "streak": 4,
      "last_fail": "2026-09-26"
-    }
-   ]
-  },
-  "1726634604994": {
-   "front": "will / freedom, liberty",
-   "back": "во́ля",
-   "deck": "Vocab::10000 words",
-   "cards": [
-    {
-     "state": "suspended",
-     "lapses": 11,
-     "streak": 4,
-     "last_fail": "2026-07-11"
-    },
-    {
-     "state": "suspended",
-     "lapses": 0,
-     "streak": 6,
-     "last_fail": "—"
-    }
-   ]
-  },
-  "1726634605022": {
-   "front": "conversation, discussion",
-   "back": "бесе́да",
-   "deck": "Vocab::10000 words",
-   "cards": [
-    {
-     "state": "suspended",
-     "lapses": 16,
-     "streak": 5,
-     "last_fail": "2026-08-09"
-    },
-    {
-     "state": "39d",
-     "lapses": 3,
-     "streak": 11,
-     "last_fail": "2026-01-12"
-    }
-   ]
-  },
-  "1726634605155": {
-   "front": "to obtain, achieve, attain (through effort)",
-   "back": "добива́ться / доби́ться (+g)",
-   "deck": "Vocab::10000 words",
-   "cards": [
-    {
-     "state": "suspended",
-     "lapses": 18,
-     "streak": 11,
-     "last_fail": "2026-05-17"
-    },
-    {
-     "state": "suspended",
-     "lapses": 12,
-     "streak": 0,
-     "last_fail": "2026-09-29"
     }
    ]
   },
@@ -249,7 +192,7 @@
    ]
   },
   "1726634605400": {
-   "front": "feature, trait / line",
+   "front": "trait (of character); line; (pl.) facial features",
    "back": "черта́",
    "deck": "Vocab::10000 words",
    "cards": [
@@ -264,25 +207,6 @@
      "lapses": 6,
      "streak": 12,
      "last_fail": "2026-06-28"
-    }
-   ]
-  },
-  "1726634605451": {
-   "front": "establishment, institution",
-   "back": "учрежде́ние",
-   "deck": "Vocab::10000 words",
-   "cards": [
-    {
-     "state": "suspended",
-     "lapses": 13,
-     "streak": 11,
-     "last_fail": "2026-04-01"
-    },
-    {
-     "state": "suspended",
-     "lapses": 16,
-     "streak": 0,
-     "last_fail": "2026-09-26"
     }
    ]
   },
@@ -325,7 +249,7 @@
    ]
   },
   "1726634605552": {
-   "front": "iron",
+   "front": "iron (the metal)",
    "back": "желе́зо",
    "deck": "Vocab::10000 words",
    "cards": [
@@ -363,7 +287,7 @@
    ]
   },
   "1726634605573": {
-   "front": "to reveal / discover",
+   "front": "to find, detect (something hidden); to show (feelings)",
    "back": "обнару́живать / обнару́жить (+a)",
    "deck": "Vocab::10000 words",
    "cards": [
@@ -381,27 +305,8 @@
     }
    ]
   },
-  "1726634605593": {
-   "front": "to hurry, be in a hurry",
-   "back": "торопи́ться / поторопи́ться",
-   "deck": "Vocab::10000 words",
-   "cards": [
-    {
-     "state": "suspended",
-     "lapses": 11,
-     "streak": 4,
-     "last_fail": "2026-08-13"
-    },
-    {
-     "state": "231d",
-     "lapses": 0,
-     "streak": 6,
-     "last_fail": "—"
-    }
-   ]
-  },
   "1726634605691": {
-   "front": "installation / directive, aim",
+   "front": "installation, plant (equipment); setting; mindset, guiding aim",
    "back": "устано́вка",
    "deck": "Vocab::10000 words",
    "cards": [
@@ -454,25 +359,6 @@
      "lapses": 8,
      "streak": 0,
      "last_fail": "2026-09-23"
-    }
-   ]
-  },
-  "1726634605747": {
-   "front": "need",
-   "back": "потре́бность (f)",
-   "deck": "Vocab::10000 words",
-   "cards": [
-    {
-     "state": "suspended",
-     "lapses": 9,
-     "streak": 6,
-     "last_fail": "2026-08-02"
-    },
-    {
-     "state": "2d",
-     "lapses": 2,
-     "streak": 0,
-     "last_fail": "2026-10-08"
     }
    ]
   },
@@ -591,7 +477,7 @@
    ]
   },
   "1726634606990": {
-   "front": "to look after, to worry about",
+   "front": "to take care of, provide for (о +pr); to see to it that (cf. уха́живать за = to nurse, tend a person)",
    "back": "забо́титься / позабо́титься&nbsp;(о +pr)",
    "deck": "Vocab::10000 words",
    "cards": [
@@ -648,7 +534,7 @@
    ]
   },
   "1726634608959": {
-   "front": "to bathe",
+   "front": "to bathe, go swimming (for pleasure); to take a bath",
    "back": "купа́ться / искупа́ться",
    "deck": "Vocab::10000 words",
    "cards": [
@@ -800,7 +686,7 @@
    ]
   },
   "1780660539310": {
-   "front": "To live (general), to get on, to get along",
+   "front": "to be getting on (only in 'how are you getting on?')",
    "back": "пожива́ть",
    "deck": "Vocab::10000 words",
    "cards": [

@@ -1,0 +1,365 @@
+[
+ {
+  "noteId": 1726634604595,
+  "profile": "User 1",
+  "tags": [
+   "adv",
+   "leech"
+  ],
+  "fields": {
+   "Front": {
+    "value": "evident, visible (adv. + s.f. adj.)",
+    "order": 0
+   },
+   "Back": {
+    "value": "ви́дно<br><br> [sound:hypertts-42a295bb363fb95e2d7d45c07737d88e17e29bfdeca723f8eeb9f524.mp3]",
+    "order": 1
+   },
+   "Example": {
+    "value": "С горы ви́дно весь город и реку вдали.",
+    "order": 2
+   }
+  },
+  "modelName": "Basic (and reversed card)",
+  "mod": 1791440639,
+  "cards": [
+   1726634604990,
+   1726634604991
+  ]
+ },
+ {
+  "noteId": 1726634604686,
+  "profile": "User 1",
+  "tags": [
+   "leech",
+   "noun"
+  ],
+  "fields": {
+   "Front": {
+    "value": "enterprise, factory",
+    "order": 0
+   },
+   "Back": {
+    "value": "предприя́тие<br><br> [sound:hypertts-6fea392e5a4bab7ff389c59efc48ca010e9c34cc5456b5b72f1b95b7.mp3]",
+    "order": 1
+   },
+   "Example": {
+    "value": "На этом предприя́тии работает около тысячи человек.",
+    "order": 2
+   }
+  },
+  "modelName": "Basic (and reversed card)",
+  "mod": 1791440639,
+  "cards": [
+   1726634605172,
+   1726634605173
+  ]
+ },
+ {
+  "noteId": 1726634604717,
+  "profile": "User 1",
+  "tags": [
+   "adj",
+   "leech"
+  ],
+  "fields": {
+   "Front": {
+    "value": "large, important",
+    "order": 0
+   },
+   "Back": {
+    "value": "кру́пный<br><br> [sound:hypertts-4655d6decac76f2187e8f8027b6332b72a16f0693ff8eeb44986635d.mp3]",
+    "order": 1
+   },
+   "Example": {
+    "value": "Э́то была́ кру́пная побе́да для всей нашей кома́нды.",
+    "order": 2
+   }
+  },
+  "modelName": "Basic (and reversed card)",
+  "mod": 1791440639,
+  "cards": [
+   1726634605234,
+   1726634605235
+  ]
+ },
+ {
+  "noteId": 1726634604977,
+  "profile": "User 1",
+  "tags": [
+   "leech",
+   "noun"
+  ],
+  "fields": {
+   "Front": {
+    "value": "whichever / any kind of",
+    "order": 0
+   },
+   "Back": {
+    "value": "како́й-нибу́дь<br><br> [sound:hypertts-352d6db584fbe34011bee454ec1e7088bfab3bec611be4b8825023ea.mp3]",
+    "order": 1
+   },
+   "Example": {
+    "value": "Вы мо́жете испо́льзовать како́й-нибу́дь ино́й подхо́д к реше́нию.",
+    "order": 2
+   }
+  },
+  "modelName": "Basic (and reversed card)",
+  "mod": 1791440639,
+  "cards": [
+   1726634605754,
+   1726634605755
+  ]
+ },
+ {
+  "noteId": 1726634605343,
+  "profile": "User 1",
+  "tags": [
+   "leech",
+   "verb"
+  ],
+  "fields": {
+   "Front": {
+    "value": "<i>Verb of motion</i><br>to carry (in the hands)",
+    "order": 0
+   },
+   "Back": {
+    "value": "(Abs) носи́ть / поноси́ть<br>(Conc) нести́ / понести́<br><br> [sound:hypertts-788d21f1ce584b89488d3b28d25f954b1674dbffa8e815c2d195915d.mp3]",
+    "order": 1
+   },
+   "Example": {
+    "value": "Она́ всегда́ носи́ла я́ркие пла́тья и привлека́ла внима́ние окружа́ющих.",
+    "order": 2
+   }
+  },
+  "modelName": "Basic (and reversed card)",
+  "mod": 1788903705,
+  "cards": [
+   1726634606486,
+   1726634606487
+  ]
+ },
+ {
+  "noteId": 1726634605392,
+  "profile": "User 1",
+  "tags": [
+   "leech",
+   "noun"
+  ],
+  "fields": {
+   "Front": {
+    "value": "roof",
+    "order": 0
+   },
+   "Back": {
+    "value": "кры́ша<br><br> [sound:hypertts-f4d054ccfccac2777feaaa7427f1b988af7dfcbfb92a41a5f7e930f1.mp3]",
+    "order": 1
+   },
+   "Example": {
+    "value": "По́сле силь́ного до́ждя в кры́ше обнаружи́лась течь, и пришлось вызвать ма́стера.",
+    "order": 2
+   }
+  },
+  "modelName": "Basic (and reversed card)",
+  "mod": 1791440639,
+  "cards": [
+   1726634606584,
+   1726634606585
+  ]
+ },
+ {
+  "noteId": 1726634605400,
+  "profile": "User 1",
+  "tags": [
+   "leech",
+   "noun"
+  ],
+  "fields": {
+   "Front": {
+    "value": "feature, trait / line",
+    "order": 0
+   },
+   "Back": {
+    "value": "черта́ <br><br>[sound:hypertts-14ea36d389fd8afb70f193c591a784dd9cf90bfab136b905276c1b34.mp3]",
+    "order": 1
+   },
+   "Example": {
+    "value": "Честно́сть — главная чёрта его́ хара́ктера, кото́рую все ценят.",
+    "order": 2
+   }
+  },
+  "modelName": "Basic (and reversed card)",
+  "mod": 1791440639,
+  "cards": [
+   1726634606600,
+   1726634606601
+  ]
+ },
+ {
+  "noteId": 1726634605552,
+  "profile": "User 1",
+  "tags": [
+   "leech",
+   "noun"
+  ],
+  "fields": {
+   "Front": {
+    "value": "iron",
+    "order": 0
+   },
+   "Back": {
+    "value": "желе́зо<br><br> [sound:hypertts-7f4fd2e1dbc4a0cef59f4901bb4765ee40e9df00e99bd148c1609007.mp3]",
+    "order": 1
+   },
+   "Example": {
+    "value": "Желе́зо — оди́н из важне́йших материа́лов в промы́шленности.",
+    "order": 2
+   }
+  },
+  "modelName": "Basic (and reversed card)",
+  "mod": 1791440639,
+  "cards": [
+   1726634606904,
+   1726634606905
+  ]
+ },
+ {
+  "noteId": 1726634605573,
+  "profile": "User 1",
+  "tags": [
+   "leech",
+   "verb"
+  ],
+  "fields": {
+   "Front": {
+    "value": "to reveal / discover",
+    "order": 0
+   },
+   "Back": {
+    "value": "обнару́живать / обнару́жить (+a)<br><br> [sound:hypertts-9d2aa2ae48dad5d8e4102eb7e3ba6eae7c41916c9b37f9f771121a0b.mp3]",
+    "order": 1
+   },
+   "Example": {
+    "value": "Учёные обнару́жили но́вый вид расте́ния в тропи́ческом лесу́.",
+    "order": 2
+   }
+  },
+  "modelName": "Basic (and reversed card)",
+  "mod": 1791440639,
+  "cards": [
+   1726634606946,
+   1726634606947
+  ]
+ },
+ {
+  "noteId": 1726634605691,
+  "profile": "User 1",
+  "tags": [
+   "leech",
+   "noun"
+  ],
+  "fields": {
+   "Front": {
+    "value": "installation / directive, aim",
+    "order": 0
+   },
+   "Back": {
+    "value": "устано́вка<br><br> [sound:hypertts-be8eeba7f4f22837ceb489fecd32d1ab7951067e2a4c5ca00c2981f3.mp3]",
+    "order": 1
+   },
+   "Example": {
+    "value": "Главная устано́вка проекта — снизить расходы без потери качества продукции.",
+    "order": 2
+   }
+  },
+  "modelName": "Basic (and reversed card)",
+  "mod": 1791440639,
+  "cards": [
+   1726634607182,
+   1726634607183
+  ]
+ },
+ {
+  "noteId": 1726634606990,
+  "profile": "User 1",
+  "tags": [
+   "leech",
+   "verb"
+  ],
+  "fields": {
+   "Front": {
+    "value": "to look after, to worry about",
+    "order": 0
+   },
+   "Back": {
+    "value": "забо́титься / позабо́титься&nbsp;(о +pr)<br><br> [sound:hypertts-3b7f63804359ff34aaca48045378c215c1060e0a353f7a50eadb7216.mp3]",
+    "order": 1
+   },
+   "Example": {
+    "value": "Она́ всегда́ забо́тится о том, что́бы де́ти хорошо́ пита́лись.",
+    "order": 2
+   }
+  },
+  "modelName": "Basic (and reversed card)",
+  "mod": 1791440639,
+  "cards": [
+   1726634609780,
+   1726634609781
+  ]
+ },
+ {
+  "noteId": 1726634608959,
+  "profile": "User 1",
+  "tags": [
+   "leech",
+   "verb"
+  ],
+  "fields": {
+   "Front": {
+    "value": "to bathe",
+    "order": 0
+   },
+   "Back": {
+    "value": "купа́ться / искупа́ться<br><br> [sound:hypertts-217f5231272ad2662ce4f838b4e4a496a1262ccc8accaebfece96118.mp3]",
+    "order": 1
+   },
+   "Example": {
+    "value": "Дети купа́лись в море до самого вечера.",
+    "order": 2
+   }
+  },
+  "modelName": "Basic (and reversed card)",
+  "mod": 1791440639,
+  "cards": [
+   1726634613718,
+   1726634613719
+  ]
+ },
+ {
+  "noteId": 1780660539310,
+  "profile": "User 1",
+  "tags": [
+   "leech"
+  ],
+  "fields": {
+   "Front": {
+    "value": "To live (general), to get on, to get along",
+    "order": 0
+   },
+   "Back": {
+    "value": "пожива́ть<br><br> [sound:hypertts-8f760947b178179fdd92c666ebb60603c781919259d1a7d8bfb9fa4e.mp3]",
+    "order": 1
+   },
+   "Example": {
+    "value": "как пожива́ешь?",
+    "order": 2
+   }
+  },
+  "modelName": "Basic (and reversed card)",
+  "mod": 1791440639,
+  "cards": [
+   1780660539310,
+   1780660539311
+  ]
+ }
+]
