@@ -1,0 +1,2579 @@
+{
+ "notes": [
+  {
+   "noteId": 1726634605494,
+   "profile": "User 1",
+   "tags": [
+    "family::obrashch",
+    "verb"
+   ],
+   "fields": {
+    "Front": {
+     "value": "to turn to, approach someone with a request<br>(cf. ***** с +inst = to treat, handle)",
+     "order": 0
+    },
+    "Back": {
+     "value": "обраща́ться / обрати́ться (к +d)<br><br> [sound:hypertts-fb34e996ea3f58b4b2ceb78f6e5f897a81a4b1cce8a679ee074dd59c.mp3]",
+     "order": 1
+    },
+    "Example": {
+     "value": "В тру́дной ситуа́ции она́ обрати́лась за сове́том к о́пытному юри́сту.",
+     "order": 2
+    }
+   },
+   "modelName": "Basic (and reversed card)",
+   "mod": 1791438586,
+   "cards": [
+    1726634606788,
+    1726634606789
+   ]
+  },
+  {
+   "noteId": 1788203114145,
+   "profile": "User 1",
+   "tags": [
+    "claude",
+    "family::obrashch",
+    "verb"
+   ],
+   "fields": {
+    "Front": {
+     "value": "to treat, handle — the way you deal with a person or thing<br>(cf. относи́ться к = your opinion of them)",
+     "order": 0
+    },
+    "Back": {
+     "value": "обраща́ться (i) (с +inst)<br><br> [sound:hypertts-1e5689338fa04884a495b6c963bae9081e40b32da46cdf18b8dd18bc.mp3]",
+     "order": 1
+    },
+    "Example": {
+     "value": "С э́тим прибо́ром ну́жно обраща́ться осторо́жно.",
+     "order": 2
+    }
+   },
+   "modelName": "Basic (and reversed card)",
+   "mod": 1788903705,
+   "cards": [
+    1788203114145,
+    1788203114146
+   ]
+  },
+  {
+   "noteId": 1726634606154,
+   "profile": "User 1",
+   "tags": [
+    "claude",
+    "prep"
+   ],
+   "fields": {
+    "Front": {
+     "value": "an appeal, an address (to someone)",
+     "order": 0
+    },
+    "Back": {
+     "value": "обраще́ние (к +d)<br><br> [sound:hypertts-b9dc2d503aa725a00f1d8465c8a909e92e9d3b72adf54a6b0771360b.mp3]",
+     "order": 1
+    },
+    "Example": {
+     "value": "Президе́нт вы́ступил с обраще́нием к гражда́нам стра́ны в прямо́м эфи́ре.",
+     "order": 2
+    }
+   },
+   "modelName": "Basic (and reversed card)",
+   "mod": 1788203114,
+   "cards": [
+    1726634608108,
+    1726634608109
+   ]
+  }
+ ],
+ "cards": [
+  {
+   "cardId": 1726634606788,
+   "fields": {
+    "Front": {
+     "value": "to turn to, approach someone with a request<br>(cf. ***** с +inst = to treat, handle)",
+     "order": 0
+    },
+    "Back": {
+     "value": "обраща́ться / обрати́ться (к +d)<br><br> [sound:hypertts-fb34e996ea3f58b4b2ceb78f6e5f897a81a4b1cce8a679ee074dd59c.mp3]",
+     "order": 1
+    },
+    "Example": {
+     "value": "В тру́дной ситуа́ции она́ обрати́лась за сове́том к о́пытному юри́сту.",
+     "order": 2
+    }
+   },
+   "fieldOrder": 0,
+   "question": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>to turn to, approach someone with a request<br>(cf. ***** с +inst = to treat, handle)",
+   "answer": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>to turn to, approach someone with a request<br>(cf. ***** с +inst = to treat, handle)\n\n<hr id=answer>\n\nобраща́ться / обрати́ться (к +d)<br><br> [anki:play:a:0]\n<br><br><i>В тру́дной ситуа́ции она́ обрати́лась за сове́том к о́пытному юри́сту.</i>",
+   "modelName": "Basic (and reversed card)",
+   "ord": 0,
+   "deckName": "Vocab::10000 words",
+   "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
+   "factor": 2500,
+   "interval": 11,
+   "note": 1726634605494,
+   "type": 2,
+   "queue": -2,
+   "due": 1726,
+   "reps": 112,
+   "lapses": 0,
+   "left": 0,
+   "mod": 1791438590,
+   "nextReviews": [
+    "⁨30⁩m",
+    "⁨12⁩d",
+    "⁨15⁩d",
+    "⁨27⁩d"
+   ],
+   "flags": 0
+  },
+  {
+   "cardId": 1726634606789,
+   "fields": {
+    "Front": {
+     "value": "to turn to, approach someone with a request<br>(cf. ***** с +inst = to treat, handle)",
+     "order": 0
+    },
+    "Back": {
+     "value": "обраща́ться / обрати́ться (к +d)<br><br> [sound:hypertts-fb34e996ea3f58b4b2ceb78f6e5f897a81a4b1cce8a679ee074dd59c.mp3]",
+     "order": 1
+    },
+    "Example": {
+     "value": "В тру́дной ситуа́ции она́ обрати́лась за сове́том к о́пытному юри́сту.",
+     "order": 2
+    }
+   },
+   "fieldOrder": 1,
+   "question": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>обраща́ться / обрати́ться (к +d)<br><br> [anki:play:q:0]\n<br><br>\n<a class=hint href=\"#\"\nonclick=\"this.style.display='none';\ndocument.getElementById('hintaa8093dcc4b8b37d').style.display='block';\nreturn false;\" draggable=false>\nExample</a>\n<div id=\"hintaa8093dcc4b8b37d\" class=hint style=\"display: none\">В тру́дной ситуа́ции она́ обрати́лась за сове́том к о́пытному юри́сту.</div>\n",
+   "answer": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>обраща́ться / обрати́ться (к +d)<br><br> [anki:play:q:0]\n<br><br>\n<a class=hint href=\"#\"\nonclick=\"this.style.display='none';\ndocument.getElementById('hintaa8093dcc4b8b37d').style.display='block';\nreturn false;\" draggable=false>\nExample</a>\n<div id=\"hintaa8093dcc4b8b37d\" class=hint style=\"display: none\">В тру́дной ситуа́ции она́ обрати́лась за сове́том к о́пытному юри́сту.</div>\n\n\n<hr id=answer>\n\nto turn to, approach someone with a request<br>(cf. ***** с +inst = to treat, handle)",
+   "modelName": "Basic (and reversed card)",
+   "ord": 1,
+   "deckName": "Vocab::10000 words",
+   "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
+   "factor": 2500,
+   "interval": 33,
+   "note": 1726634605494,
+   "type": 2,
+   "queue": 2,
+   "due": 1754,
+   "reps": 98,
+   "lapses": 0,
+   "left": 0,
+   "mod": 1791418807,
+   "nextReviews": [
+    "⁨30⁩m",
+    "⁨1.2⁩mo",
+    "⁨1.2⁩mo",
+    "⁨1.7⁩mo"
+   ],
+   "flags": 0
+  },
+  {
+   "cardId": 1788203114145,
+   "fields": {
+    "Front": {
+     "value": "to treat, handle — the way you deal with a person or thing<br>(cf. относи́ться к = your opinion of them)",
+     "order": 0
+    },
+    "Back": {
+     "value": "обраща́ться (i) (с +inst)<br><br> [sound:hypertts-1e5689338fa04884a495b6c963bae9081e40b32da46cdf18b8dd18bc.mp3]",
+     "order": 1
+    },
+    "Example": {
+     "value": "С э́тим прибо́ром ну́жно обраща́ться осторо́жно.",
+     "order": 2
+    }
+   },
+   "fieldOrder": 0,
+   "question": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>to treat, handle — the way you deal with a person or thing<br>(cf. относи́ться к = your opinion of them)",
+   "answer": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>to treat, handle — the way you deal with a person or thing<br>(cf. относи́ться к = your opinion of them)\n\n<hr id=answer>\n\nобраща́ться (i) (с +inst)<br><br> [anki:play:a:0]\n<br><br><i>С э́тим прибо́ром ну́жно обраща́ться осторо́жно.</i>",
+   "modelName": "Basic (and reversed card)",
+   "ord": 0,
+   "deckName": "Vocab::10000 words",
+   "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
+   "factor": 0,
+   "interval": 0,
+   "note": 1788203114145,
+   "type": 0,
+   "queue": 0,
+   "due": 1939157,
+   "reps": 0,
+   "lapses": 0,
+   "left": 0,
+   "mod": 1788203114,
+   "nextReviews": [
+    "⁨20⁩m",
+    "⁨40⁩m",
+    "⁨1⁩h",
+    "⁨23⁩d"
+   ],
+   "flags": 0
+  },
+  {
+   "cardId": 1788203114146,
+   "fields": {
+    "Front": {
+     "value": "to treat, handle — the way you deal with a person or thing<br>(cf. относи́ться к = your opinion of them)",
+     "order": 0
+    },
+    "Back": {
+     "value": "обраща́ться (i) (с +inst)<br><br> [sound:hypertts-1e5689338fa04884a495b6c963bae9081e40b32da46cdf18b8dd18bc.mp3]",
+     "order": 1
+    },
+    "Example": {
+     "value": "С э́тим прибо́ром ну́жно обраща́ться осторо́жно.",
+     "order": 2
+    }
+   },
+   "fieldOrder": 1,
+   "question": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>обраща́ться (i) (с +inst)<br><br> [anki:play:q:0]\n<br><br>\n<a class=hint href=\"#\"\nonclick=\"this.style.display='none';\ndocument.getElementById('hint25203124a45cb9a7').style.display='block';\nreturn false;\" draggable=false>\nExample</a>\n<div id=\"hint25203124a45cb9a7\" class=hint style=\"display: none\">С э́тим прибо́ром ну́жно обраща́ться осторо́жно.</div>\n",
+   "answer": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>обраща́ться (i) (с +inst)<br><br> [anki:play:q:0]\n<br><br>\n<a class=hint href=\"#\"\nonclick=\"this.style.display='none';\ndocument.getElementById('hint25203124a45cb9a7').style.display='block';\nreturn false;\" draggable=false>\nExample</a>\n<div id=\"hint25203124a45cb9a7\" class=hint style=\"display: none\">С э́тим прибо́ром ну́жно обраща́ться осторо́жно.</div>\n\n\n<hr id=answer>\n\nto treat, handle — the way you deal with a person or thing<br>(cf. относи́ться к = your opinion of them)",
+   "modelName": "Basic (and reversed card)",
+   "ord": 1,
+   "deckName": "Vocab::10000 words",
+   "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
+   "factor": 0,
+   "interval": 0,
+   "note": 1788203114145,
+   "type": 0,
+   "queue": 0,
+   "due": 1939157,
+   "reps": 0,
+   "lapses": 0,
+   "left": 0,
+   "mod": 1788203114,
+   "nextReviews": [
+    "⁨20⁩m",
+    "⁨40⁩m",
+    "⁨1⁩h",
+    "⁨22⁩d"
+   ],
+   "flags": 0
+  },
+  {
+   "cardId": 1726634608108,
+   "fields": {
+    "Front": {
+     "value": "an appeal, an address (to someone)",
+     "order": 0
+    },
+    "Back": {
+     "value": "обраще́ние (к +d)<br><br> [sound:hypertts-b9dc2d503aa725a00f1d8465c8a909e92e9d3b72adf54a6b0771360b.mp3]",
+     "order": 1
+    },
+    "Example": {
+     "value": "Президе́нт вы́ступил с обраще́нием к гражда́нам стра́ны в прямо́м эфи́ре.",
+     "order": 2
+    }
+   },
+   "fieldOrder": 0,
+   "question": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>an appeal, an address (to someone)",
+   "answer": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>an appeal, an address (to someone)\n\n<hr id=answer>\n\nобраще́ние (к +d)<br><br> [anki:play:a:0]\n<br><br><i>Президе́нт вы́ступил с обраще́нием к гражда́нам стра́ны в прямо́м эфи́ре.</i>",
+   "modelName": "Basic (and reversed card)",
+   "ord": 0,
+   "deckName": "Vocab::10000 words",
+   "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
+   "factor": 0,
+   "interval": 0,
+   "note": 1726634606154,
+   "type": 0,
+   "queue": 0,
+   "due": 485,
+   "reps": 0,
+   "lapses": 0,
+   "left": 0,
+   "mod": 1781060037,
+   "nextReviews": [
+    "⁨20⁩m",
+    "⁨40⁩m",
+    "⁨1⁩h",
+    "⁨26⁩d"
+   ],
+   "flags": 0
+  },
+  {
+   "cardId": 1726634608109,
+   "fields": {
+    "Front": {
+     "value": "an appeal, an address (to someone)",
+     "order": 0
+    },
+    "Back": {
+     "value": "обраще́ние (к +d)<br><br> [sound:hypertts-b9dc2d503aa725a00f1d8465c8a909e92e9d3b72adf54a6b0771360b.mp3]",
+     "order": 1
+    },
+    "Example": {
+     "value": "Президе́нт вы́ступил с обраще́нием к гражда́нам стра́ны в прямо́м эфи́ре.",
+     "order": 2
+    }
+   },
+   "fieldOrder": 1,
+   "question": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>обраще́ние (к +d)<br><br> [anki:play:q:0]\n<br><br>\n<a class=hint href=\"#\"\nonclick=\"this.style.display='none';\ndocument.getElementById('hint450dfef05d8f9c56').style.display='block';\nreturn false;\" draggable=false>\nExample</a>\n<div id=\"hint450dfef05d8f9c56\" class=hint style=\"display: none\">Президе́нт вы́ступил с обраще́нием к гражда́нам стра́ны в прямо́м эфи́ре.</div>\n",
+   "answer": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>обраще́ние (к +d)<br><br> [anki:play:q:0]\n<br><br>\n<a class=hint href=\"#\"\nonclick=\"this.style.display='none';\ndocument.getElementById('hint450dfef05d8f9c56').style.display='block';\nreturn false;\" draggable=false>\nExample</a>\n<div id=\"hint450dfef05d8f9c56\" class=hint style=\"display: none\">Президе́нт вы́ступил с обраще́нием к гражда́нам стра́ны в прямо́м эфи́ре.</div>\n\n\n<hr id=answer>\n\nan appeal, an address (to someone)",
+   "modelName": "Basic (and reversed card)",
+   "ord": 1,
+   "deckName": "Vocab::10000 words",
+   "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
+   "factor": 0,
+   "interval": 0,
+   "note": 1726634606154,
+   "type": 0,
+   "queue": 0,
+   "due": 486,
+   "reps": 0,
+   "lapses": 0,
+   "left": 0,
+   "mod": 1781060037,
+   "nextReviews": [
+    "⁨20⁩m",
+    "⁨40⁩m",
+    "⁨1⁩h",
+    "⁨23⁩d"
+   ],
+   "flags": 0
+  }
+ ],
+ "reviews": {
+  "1726634606788": [
+   {
+    "id": 1735451053647,
+    "usn": 1629,
+    "ease": 0,
+    "ivl": 0,
+    "lastIvl": 0,
+    "factor": 0,
+    "time": 0,
+    "type": 4
+   },
+   {
+    "id": 1735451228312,
+    "usn": 1630,
+    "ease": 0,
+    "ivl": 0,
+    "lastIvl": 0,
+    "factor": 0,
+    "time": 0,
+    "type": 4
+   },
+   {
+    "id": 1762941005000,
+    "usn": 3094,
+    "ease": 1,
+    "ivl": -1200,
+    "lastIvl": 0,
+    "factor": 0,
+    "time": 27000,
+    "type": 0
+   },
+   {
+    "id": 1763003273000,
+    "usn": 3096,
+    "ease": 1,
+    "ivl": -1200,
+    "lastIvl": -1200,
+    "factor": 0,
+    "time": 11000,
+    "type": 0
+   },
+   {
+    "id": 1763006213000,
+    "usn": 3096,
+    "ease": 1,
+    "ivl": -1200,
+    "lastIvl": -1200,
+    "factor": 0,
+    "time": 10000,
+    "type": 0
+   },
+   {
+    "id": 1763008565000,
+    "usn": 3096,
+    "ease": 3,
+    "ivl": -3600,
+    "lastIvl": -1200,
+    "factor": 0,
+    "time": 3000,
+    "type": 0
+   },
+   {
+    "id": 1763013397000,
+    "usn": 3098,
+    "ease": 3,
+    "ivl": 1,
+    "lastIvl": -3600,
+    "factor": 2500,
+    "time": 3000,
+    "type": 0
+   },
+   {
+    "id": 1763078927000,
+    "usn": 3102,
+    "ease": 3,
+    "ivl": 3,
+    "lastIvl": 1,
+    "factor": 2500,
+    "time": 7000,
+    "type": 1
+   },
+   {
+    "id": 1763591573213,
+    "usn": 3144,
+    "ease": 1,
+    "ivl": -600,
+    "lastIvl": 3,
+    "factor": 2300,
+    "time": 10650,
+    "type": 1
+   },
+   {
+    "id": 1763635270000,
+    "usn": 3153,
+    "ease": 3,
+    "ivl": 1,
+    "lastIvl": -600,
+    "factor": 2300,
+    "time": 9000,
+    "type": 2
+   },
+   {
+    "id": 1763673632000,
+    "usn": 3154,
+    "ease": 3,
+    "ivl": 4,
+    "lastIvl": 1,
+    "factor": 2300,
+    "time": 8000,
+    "type": 1
+   },
+   {
+    "id": 1764023873122,
+    "usn": 3211,
+    "ease": 1,
+    "ivl": -600,
+    "lastIvl": 4,
+    "factor": 2100,
+    "time": 5933,
+    "type": 1
+   },
+   {
+    "id": 1764051625000,
+    "usn": 3206,
+    "ease": 1,
+    "ivl": -600,
+    "lastIvl": 4,
+    "factor": 2100,
+    "time": 18000,
+    "type": 1
+   },
+   {
+    "id": 1764052342000,
+    "usn": 3207,
+    "ease": 1,
+    "ivl": -600,
+    "lastIvl": -600,
+    "factor": 2100,
+    "time": 15000,
+    "type": 2
+   },
+   {
+    "id": 1764052981000,
+    "usn": 3209,
+    "ease": 3,
+    "ivl": 1,
+    "lastIvl": -600,
+    "factor": 2100,
+    "time": 7000,
+    "type": 2
+   },
+   {
+    "id": 1764158396372,
+    "usn": 3212,
+    "ease": 1,
+    "ivl": -600,
+    "lastIvl": 1,
+    "factor": 1900,
+    "time": 60000,
+    "type": 1
+   },
+   {
+    "id": 1764159394397,
+    "usn": 3212,
+    "ease": 1,
+    "ivl": -600,
+    "lastIvl": -600,
+    "factor": 1900,
+    "time": 22258,
+    "type": 2
+   },
+   {
+    "id": 1764171037840,
+    "usn": 3213,
+    "ease": 3,
+    "ivl": 1,
+    "lastIvl": -600,
+    "factor": 1900,
+    "time": 7888,
+    "type": 2
+   },
+   {
+    "id": 1764198002000,
+    "usn": 3216,
+    "ease": 3,
+    "ivl": 3,
+    "lastIvl": 1,
+    "factor": 1900,
+    "time": 14000,
+    "type": 1
+   },
+   {
+    "id": 1764542718000,
+    "usn": 3240,
+    "ease": 1,
+    "ivl": -600,
+    "lastIvl": 3,
+    "factor": 1700,
+    "time": 8000,
+    "type": 1
+   },
+   {
+    "id": 1764543511000,
+    "usn": 3240,
+    "ease": 2,
+    "ivl": -900,
+    "lastIvl": -600,
+    "factor": 1700,
+    "time": 11000,
+    "type": 2
+   },
+   {
+    "id": 1764583487000,
+    "usn": 3242,
+    "ease": 1,
+    "ivl": -600,
+    "lastIvl": -600,
+    "factor": 1700,
+    "time": 14000,
+    "type": 2
+   },
+   {
+    "id": 1764584178000,
+    "usn": 3242,
+    "ease": 1,
+    "ivl": -600,
+    "lastIvl": -600,
+    "factor": 1700,
+    "time": 15000,
+    "type": 2
+   },
+   {
+    "id": 1764587577000,
+    "usn": 3242,
+    "ease": 3,
+    "ivl": 1,
+    "lastIvl": -600,
+    "factor": 1700,
+    "time": 6000,
+    "type": 2
+   },
+   {
+    "id": 1765549354996,
+    "usn": 3247,
+    "ease": 1,
+    "ivl": -600,
+    "lastIvl": 1,
+    "factor": 1500,
+    "time": 28432,
+    "type": 1
+   },
+   {
+    "id": 1765598979486,
+    "usn": 3248,
+    "ease": 1,
+    "ivl": -600,
+    "lastIvl": -600,
+    "factor": 1500,
+    "time": 29696,
+    "type": 2
+   },
+   {
+    "id": 1765599662015,
+    "usn": 3248,
+    "ease": 3,
+    "ivl": 1,
+    "lastIvl": -600,
+    "factor": 1500,
+    "time": 16044,
+    "type": 2
+   },
+   {
+    "id": 1765693563319,
+    "usn": 3254,
+    "ease": 1,
+    "ivl": -600,
+    "lastIvl": 1,
+    "factor": 1300,
+    "time": 25999,
+    "type": 1
+   },
+   {
+    "id": 1765694365838,
+    "usn": 3255,
+    "ease": 3,
+    "ivl": 1,
+    "lastIvl": -600,
+    "factor": 1300,
+    "time": 19661,
+    "type": 2
+   },
+   {
+    "id": 1765786479662,
+    "usn": 3259,
+    "ease": 1,
+    "ivl": -600,
+    "lastIvl": 1,
+    "factor": 1300,
+    "time": 31120,
+    "type": 1
+   },
+   {
+    "id": 1765787542646,
+    "usn": 3261,
+    "ease": 3,
+    "ivl": 1,
+    "lastIvl": -600,
+    "factor": 1300,
+    "time": 60000,
+    "type": 2
+   },
+   {
+    "id": 1765913459000,
+    "usn": 3264,
+    "ease": 1,
+    "ivl": -600,
+    "lastIvl": 1,
+    "factor": 1300,
+    "time": 31000,
+    "type": 1
+   },
+   {
+    "id": 1765962361624,
+    "usn": 3266,
+    "ease": 3,
+    "ivl": 1,
+    "lastIvl": -600,
+    "factor": 1300,
+    "time": 19813,
+    "type": 2
+   },
+   {
+    "id": 1767310977067,
+    "usn": 3272,
+    "ease": 1,
+    "ivl": -600,
+    "lastIvl": 1,
+    "factor": 1300,
+    "time": 37931,
+    "type": 1
+   },
+   {
+    "id": 1767311808669,
+    "usn": 3272,
+    "ease": 1,
+    "ivl": -600,
+    "lastIvl": -600,
+    "factor": 1300,
+    "time": 33176,
+    "type": 2
+   },
+   {
+    "id": 1767312520054,
+    "usn": 3272,
+    "ease": 1,
+    "ivl": -600,
+    "lastIvl": -600,
+    "factor": 1300,
+    "time": 19642,
+    "type": 2
+   },
+   {
+    "id": 1767313256914,
+    "usn": 3272,
+    "ease": 3,
+    "ivl": 1,
+    "lastIvl": -600,
+    "factor": 1300,
+    "time": 18810,
+    "type": 2
+   },
+   {
+    "id": 1767394668929,
+    "usn": 3282,
+    "ease": 1,
+    "ivl": -600,
+    "lastIvl": 1,
+    "factor": 1300,
+    "time": 28491,
+    "type": 1
+   },
+   {
+    "id": 1767395375246,
+    "usn": 3282,
+    "ease": 1,
+    "ivl": -600,
+    "lastIvl": -600,
+    "factor": 1300,
+    "time": 22363,
+    "type": 2
+   },
+   {
+    "id": 1767396672753,
+    "usn": 3285,
+    "ease": 3,
+    "ivl": 1,
+    "lastIvl": -600,
+    "factor": 1300,
+    "time": 21248,
+    "type": 2
+   },
+   {
+    "id": 1767502470715,
+    "usn": 3287,
+    "ease": 1,
+    "ivl": -600,
+    "lastIvl": 1,
+    "factor": 1300,
+    "time": 29671,
+    "type": 1
+   },
+   {
+    "id": 1767503185146,
+    "usn": 3287,
+    "ease": 3,
+    "ivl": 1,
+    "lastIvl": -600,
+    "factor": 1300,
+    "time": 14541,
+    "type": 2
+   },
+   {
+    "id": 1767568821000,
+    "usn": 3296,
+    "ease": 3,
+    "ivl": 3,
+    "lastIvl": 1,
+    "factor": 1300,
+    "time": 13000,
+    "type": 1
+   },
+   {
+    "id": 1767837847000,
+    "usn": 3332,
+    "ease": 1,
+    "ivl": -600,
+    "lastIvl": 3,
+    "factor": 1300,
+    "time": 16000,
+    "type": 1
+   },
+   {
+    "id": 1767838584000,
+    "usn": 3332,
+    "ease": 3,
+    "ivl": 1,
+    "lastIvl": -600,
+    "factor": 1300,
+    "time": 7000,
+    "type": 2
+   },
+   {
+    "id": 1767919732000,
+    "usn": 3341,
+    "ease": 2,
+    "ivl": 2,
+    "lastIvl": 1,
+    "factor": 1300,
+    "time": 42000,
+    "type": 1
+   },
+   {
+    "id": 1768099727000,
+    "usn": 3351,
+    "ease": 1,
+    "ivl": -600,
+    "lastIvl": 2,
+    "factor": 1300,
+    "time": 17000,
+    "type": 1
+   },
+   {
+    "id": 1768100413000,
+    "usn": 3351,
+    "ease": 3,
+    "ivl": 1,
+    "lastIvl": -600,
+    "factor": 1300,
+    "time": 8000,
+    "type": 2
+   },
+   {
+    "id": 1768176337000,
+    "usn": 3357,
+    "ease": 3,
+    "ivl": 3,
+    "lastIvl": 1,
+    "factor": 1300,
+    "time": 7000,
+    "type": 1
+   },
+   {
+    "id": 1768435635000,
+    "usn": 3372,
+    "ease": 1,
+    "ivl": -600,
+    "lastIvl": 3,
+    "factor": 1300,
+    "time": 26000,
+    "type": 1
+   },
+   {
+    "id": 1768436348000,
+    "usn": 3372,
+    "ease": 3,
+    "ivl": 1,
+    "lastIvl": -600,
+    "factor": 1300,
+    "time": 6000,
+    "type": 2
+   },
+   {
+    "id": 1768549096000,
+    "usn": 3378,
+    "ease": 3,
+    "ivl": 4,
+    "lastIvl": 1,
+    "factor": 1300,
+    "time": 8000,
+    "type": 1
+   },
+   {
+    "id": 1768862941000,
+    "usn": 3406,
+    "ease": 1,
+    "ivl": -600,
+    "lastIvl": 4,
+    "factor": 1300,
+    "time": 25000,
+    "type": 1
+   },
+   {
+    "id": 1768863746000,
+    "usn": 3408,
+    "ease": 1,
+    "ivl": -600,
+    "lastIvl": -600,
+    "factor": 1300,
+    "time": 17000,
+    "type": 2
+   },
+   {
+    "id": 1768871547913,
+    "usn": 3410,
+    "ease": 3,
+    "ivl": 1,
+    "lastIvl": -600,
+    "factor": 1300,
+    "time": 6690,
+    "type": 2
+   },
+   {
+    "id": 1768945517302,
+    "usn": 3419,
+    "ease": 3,
+    "ivl": 4,
+    "lastIvl": 1,
+    "factor": 1300,
+    "time": 7416,
+    "type": 1
+   },
+   {
+    "id": 1769305712494,
+    "usn": 3438,
+    "ease": 3,
+    "ivl": 6,
+    "lastIvl": 4,
+    "factor": 1300,
+    "time": 13165,
+    "type": 1
+   },
+   {
+    "id": 1769845297000,
+    "usn": 3506,
+    "ease": 3,
+    "ivl": 10,
+    "lastIvl": 6,
+    "factor": 1300,
+    "time": 11000,
+    "type": 1
+   },
+   {
+    "id": 1770685015950,
+    "usn": 3564,
+    "ease": 1,
+    "ivl": -600,
+    "lastIvl": 10,
+    "factor": 1300,
+    "time": 36312,
+    "type": 1
+   },
+   {
+    "id": 1770691110000,
+    "usn": 3566,
+    "ease": 1,
+    "ivl": -600,
+    "lastIvl": -600,
+    "factor": 1300,
+    "time": 20000,
+    "type": 2
+   },
+   {
+    "id": 1770691811000,
+    "usn": 3566,
+    "ease": 3,
+    "ivl": 1,
+    "lastIvl": -600,
+    "factor": 1300,
+    "time": 10000,
+    "type": 2
+   },
+   {
+    "id": 1770766521000,
+    "usn": 3572,
+    "ease": 2,
+    "ivl": 2,
+    "lastIvl": 1,
+    "factor": 1300,
+    "time": 22000,
+    "type": 1
+   },
+   {
+    "id": 1770936142000,
+    "usn": 3580,
+    "ease": 3,
+    "ivl": 6,
+    "lastIvl": 2,
+    "factor": 1300,
+    "time": 11000,
+    "type": 1
+   },
+   {
+    "id": 1771461453000,
+    "usn": 3623,
+    "ease": 1,
+    "ivl": -600,
+    "lastIvl": 6,
+    "factor": 1300,
+    "time": 7000,
+    "type": 1
+   },
+   {
+    "id": 1771549986976,
+    "usn": 3625,
+    "ease": 3,
+    "ivl": 1,
+    "lastIvl": -600,
+    "factor": 1300,
+    "time": 60000,
+    "type": 2
+   },
+   {
+    "id": 1771665052854,
+    "usn": 3630,
+    "ease": 3,
+    "ivl": 3,
+    "lastIvl": 1,
+    "factor": 1300,
+    "time": 7945,
+    "type": 1
+   },
+   {
+    "id": 1771899323000,
+    "usn": 3648,
+    "ease": 1,
+    "ivl": -600,
+    "lastIvl": 3,
+    "factor": 1300,
+    "time": 8000,
+    "type": 1
+   },
+   {
+    "id": 1771946648000,
+    "usn": 3649,
+    "ease": 3,
+    "ivl": 1,
+    "lastIvl": -600,
+    "factor": 1300,
+    "time": 7000,
+    "type": 2
+   },
+   {
+    "id": 1771969283000,
+    "usn": 3650,
+    "ease": 3,
+    "ivl": 3,
+    "lastIvl": 1,
+    "factor": 1300,
+    "time": 8000,
+    "type": 1
+   },
+   {
+    "id": 1772248629216,
+    "usn": 3682,
+    "ease": 3,
+    "ivl": 6,
+    "lastIvl": 3,
+    "factor": 1300,
+    "time": 6886,
+    "type": 1
+   },
+   {
+    "id": 1772760610000,
+    "usn": 3745,
+    "ease": 3,
+    "ivl": 12,
+    "lastIvl": 6,
+    "factor": 1300,
+    "time": 5000,
+    "type": 1
+   },
+   {
+    "id": 1774397485000,
+    "usn": 3864,
+    "ease": 1,
+    "ivl": -600,
+    "lastIvl": 12,
+    "factor": 1300,
+    "time": 16000,
+    "type": 1
+   },
+   {
+    "id": 1774443176000,
+    "usn": 3867,
+    "ease": 3,
+    "ivl": -3600,
+    "lastIvl": -600,
+    "factor": 1300,
+    "time": 6000,
+    "type": 2
+   },
+   {
+    "id": 1774450466000,
+    "usn": 3869,
+    "ease": 3,
+    "ivl": 1,
+    "lastIvl": -3600,
+    "factor": 1300,
+    "time": 3000,
+    "type": 2
+   },
+   {
+    "id": 1774491584856,
+    "usn": 3872,
+    "ease": 4,
+    "ivl": 4,
+    "lastIvl": 1,
+    "factor": 1450,
+    "time": 9337,
+    "type": 1
+   },
+   {
+    "id": 1774831857000,
+    "usn": 3903,
+    "ease": 3,
+    "ivl": 8,
+    "lastIvl": 4,
+    "factor": 1450,
+    "time": 5000,
+    "type": 1
+   },
+   {
+    "id": 1775526698000,
+    "usn": 3949,
+    "ease": 3,
+    "ivl": 10,
+    "lastIvl": 8,
+    "factor": 1450,
+    "time": 42000,
+    "type": 1
+   },
+   {
+    "id": 1776395219000,
+    "usn": 3984,
+    "ease": 1,
+    "ivl": -600,
+    "lastIvl": 10,
+    "factor": 1300,
+    "time": 16000,
+    "type": 1
+   },
+   {
+    "id": 1776395922000,
+    "usn": 3984,
+    "ease": 3,
+    "ivl": -3600,
+    "lastIvl": -600,
+    "factor": 1300,
+    "time": 12000,
+    "type": 2
+   },
+   {
+    "id": 1776481330000,
+    "usn": 3985,
+    "ease": 3,
+    "ivl": 1,
+    "lastIvl": -3600,
+    "factor": 1300,
+    "time": 5000,
+    "type": 2
+   },
+   {
+    "id": 1776651836000,
+    "usn": 3986,
+    "ease": 3,
+    "ivl": 4,
+    "lastIvl": 1,
+    "factor": 1300,
+    "time": 6000,
+    "type": 1
+   },
+   {
+    "id": 1776981108000,
+    "usn": 4007,
+    "ease": 3,
+    "ivl": 9,
+    "lastIvl": 4,
+    "factor": 1300,
+    "time": 7000,
+    "type": 1
+   },
+   {
+    "id": 1777770121012,
+    "usn": 4077,
+    "ease": 3,
+    "ivl": 3,
+    "lastIvl": 9,
+    "factor": 1089,
+    "time": 6240,
+    "type": 1
+   },
+   {
+    "id": 1778024751785,
+    "usn": 4097,
+    "ease": 4,
+    "ivl": 6,
+    "lastIvl": 3,
+    "factor": 1086,
+    "time": 21110,
+    "type": 1
+   },
+   {
+    "id": 1778547236214,
+    "usn": 4117,
+    "ease": 1,
+    "ivl": -600,
+    "lastIvl": 6,
+    "factor": 1091,
+    "time": 12724,
+    "type": 1
+   },
+   {
+    "id": 1778598873008,
+    "usn": 4118,
+    "ease": 3,
+    "ivl": -3600,
+    "lastIvl": -600,
+    "factor": 1090,
+    "time": 5662,
+    "type": 2
+   },
+   {
+    "id": 1778620287085,
+    "usn": 4119,
+    "ease": 4,
+    "ivl": 2,
+    "lastIvl": -3600,
+    "factor": 1087,
+    "time": 4229,
+    "type": 2
+   },
+   {
+    "id": 1778803718771,
+    "usn": 4125,
+    "ease": 3,
+    "ivl": 4,
+    "lastIvl": 2,
+    "factor": 1086,
+    "time": 7665,
+    "type": 1
+   },
+   {
+    "id": 1779231695564,
+    "usn": 4139,
+    "ease": 3,
+    "ivl": 3,
+    "lastIvl": 4,
+    "factor": 1085,
+    "time": 60000,
+    "type": 1
+   },
+   {
+    "id": 1779597116375,
+    "usn": 4151,
+    "ease": 4,
+    "ivl": 7,
+    "lastIvl": 3,
+    "factor": 1082,
+    "time": 5270,
+    "type": 1
+   },
+   {
+    "id": 1780234894563,
+    "usn": 4177,
+    "ease": 3,
+    "ivl": 4,
+    "lastIvl": 7,
+    "factor": 1081,
+    "time": 9917,
+    "type": 1
+   },
+   {
+    "id": 1780530702836,
+    "usn": 4208,
+    "ease": 3,
+    "ivl": 10,
+    "lastIvl": 4,
+    "factor": 1080,
+    "time": 5210,
+    "type": 1
+   },
+   {
+    "id": 1781480564955,
+    "usn": 4296,
+    "ease": 3,
+    "ivl": 13,
+    "lastIvl": 10,
+    "factor": 1069,
+    "time": 7834,
+    "type": 1
+   },
+   {
+    "id": 1782595236273,
+    "usn": 4390,
+    "ease": 3,
+    "ivl": 15,
+    "lastIvl": 13,
+    "factor": 1068,
+    "time": 5692,
+    "type": 1
+   },
+   {
+    "id": 1783897540149,
+    "usn": 4504,
+    "ease": 3,
+    "ivl": 16,
+    "lastIvl": 15,
+    "factor": 1066,
+    "time": 7098,
+    "type": 1
+   },
+   {
+    "id": 1785307682951,
+    "usn": 4536,
+    "ease": 3,
+    "ivl": 21,
+    "lastIvl": 16,
+    "factor": 1065,
+    "time": 4226,
+    "type": 1
+   },
+   {
+    "id": 1787102828634,
+    "usn": 4649,
+    "ease": 1,
+    "ivl": -600,
+    "lastIvl": 21,
+    "factor": 1086,
+    "time": 17037,
+    "type": 1
+   },
+   {
+    "id": 1787103472729,
+    "usn": 4649,
+    "ease": 3,
+    "ivl": -3600,
+    "lastIvl": -600,
+    "factor": 1084,
+    "time": 6948,
+    "type": 2
+   },
+   {
+    "id": 1787133673878,
+    "usn": 4651,
+    "ease": 1,
+    "ivl": -600,
+    "lastIvl": -3600,
+    "factor": 1093,
+    "time": 23668,
+    "type": 2
+   },
+   {
+    "id": 1787139282454,
+    "usn": 4653,
+    "ease": 3,
+    "ivl": -3600,
+    "lastIvl": -600,
+    "factor": 1091,
+    "time": 10699,
+    "type": 2
+   },
+   {
+    "id": 1787145193486,
+    "usn": 4657,
+    "ease": 3,
+    "ivl": 2,
+    "lastIvl": -3600,
+    "factor": 1090,
+    "time": 4564,
+    "type": 2
+   },
+   {
+    "id": 1787276900497,
+    "usn": 4659,
+    "ease": 3,
+    "ivl": 4,
+    "lastIvl": 2,
+    "factor": 1088,
+    "time": 7590,
+    "type": 1
+   },
+   {
+    "id": 1787621302817,
+    "usn": 4704,
+    "ease": 3,
+    "ivl": 3,
+    "lastIvl": 4,
+    "factor": 1087,
+    "time": 5304,
+    "type": 1
+   },
+   {
+    "id": 1787875082599,
+    "usn": 4721,
+    "ease": 3,
+    "ivl": 5,
+    "lastIvl": 3,
+    "factor": 1085,
+    "time": 13014,
+    "type": 1
+   },
+   {
+    "id": 1788584754841,
+    "usn": 4813,
+    "ease": 0,
+    "ivl": 0,
+    "lastIvl": 5,
+    "factor": 0,
+    "time": 0,
+    "type": 4
+   },
+   {
+    "id": 1788587415541,
+    "usn": 4816,
+    "ease": 2,
+    "ivl": -2400,
+    "lastIvl": 0,
+    "factor": 486,
+    "time": 39218,
+    "type": 0
+   },
+   {
+    "id": 1788590128647,
+    "usn": 4823,
+    "ease": 3,
+    "ivl": -3600,
+    "lastIvl": -1200,
+    "factor": 485,
+    "time": 10531,
+    "type": 0
+   },
+   {
+    "id": 1788590242700,
+    "usn": 4822,
+    "ease": 2,
+    "ivl": -2400,
+    "lastIvl": -1200,
+    "factor": 683,
+    "time": 9435,
+    "type": 0
+   },
+   {
+    "id": 1788675190436,
+    "usn": 4829,
+    "ease": 1,
+    "ivl": -1200,
+    "lastIvl": -1200,
+    "factor": 950,
+    "time": 13056,
+    "type": 0
+   },
+   {
+    "id": 1788677422907,
+    "usn": 4829,
+    "ease": 3,
+    "ivl": -3600,
+    "lastIvl": -1200,
+    "factor": 949,
+    "time": 8481,
+    "type": 0
+   },
+   {
+    "id": 1788681314329,
+    "usn": 4829,
+    "ease": 3,
+    "ivl": 1,
+    "lastIvl": -3600,
+    "factor": 947,
+    "time": 5770,
+    "type": 0
+   },
+   {
+    "id": 1788739622308,
+    "usn": 4830,
+    "ease": 3,
+    "ivl": 2,
+    "lastIvl": 1,
+    "factor": 946,
+    "time": 9902,
+    "type": 1
+   },
+   {
+    "id": 1788950461909,
+    "usn": 4843,
+    "ease": 3,
+    "ivl": 2,
+    "lastIvl": 2,
+    "factor": 944,
+    "time": 9355,
+    "type": 1
+   },
+   {
+    "id": 1789082373304,
+    "usn": 4849,
+    "ease": 3,
+    "ivl": 3,
+    "lastIvl": 2,
+    "factor": 943,
+    "time": 10552,
+    "type": 1
+   },
+   {
+    "id": 1789951507934,
+    "usn": 4866,
+    "ease": 3,
+    "ivl": 5,
+    "lastIvl": 3,
+    "factor": 942,
+    "time": 7146,
+    "type": 1
+   },
+   {
+    "id": 1790395381923,
+    "usn": 4869,
+    "ease": 3,
+    "ivl": 6,
+    "lastIvl": 5,
+    "factor": 940,
+    "time": 7273,
+    "type": 1
+   },
+   {
+    "id": 1790896986155,
+    "usn": 4884,
+    "ease": 3,
+    "ivl": 11,
+    "lastIvl": 6,
+    "factor": 939,
+    "time": 4867,
+    "type": 1
+   }
+  ],
+  "1726634606789": [
+   {
+    "id": 1735451053648,
+    "usn": 1629,
+    "ease": 0,
+    "ivl": 0,
+    "lastIvl": 0,
+    "factor": 0,
+    "time": 0,
+    "type": 4
+   },
+   {
+    "id": 1735451228313,
+    "usn": 1630,
+    "ease": 0,
+    "ivl": 0,
+    "lastIvl": 0,
+    "factor": 0,
+    "time": 0,
+    "type": 4
+   },
+   {
+    "id": 1762941048000,
+    "usn": 3094,
+    "ease": 3,
+    "ivl": -3600,
+    "lastIvl": 0,
+    "factor": 0,
+    "time": 9000,
+    "type": 0
+   },
+   {
+    "id": 1763003368000,
+    "usn": 3096,
+    "ease": 2,
+    "ivl": -3600,
+    "lastIvl": -3600,
+    "factor": 0,
+    "time": 13000,
+    "type": 0
+   },
+   {
+    "id": 1763008559000,
+    "usn": 3096,
+    "ease": 1,
+    "ivl": -1200,
+    "lastIvl": -3600,
+    "factor": 0,
+    "time": 21000,
+    "type": 0
+   },
+   {
+    "id": 1763013394000,
+    "usn": 3098,
+    "ease": 3,
+    "ivl": -3600,
+    "lastIvl": -1200,
+    "factor": 0,
+    "time": 18000,
+    "type": 0
+   },
+   {
+    "id": 1763024033000,
+    "usn": 3099,
+    "ease": 1,
+    "ivl": -1200,
+    "lastIvl": -3600,
+    "factor": 0,
+    "time": 23000,
+    "type": 0
+   },
+   {
+    "id": 1763046406000,
+    "usn": 3100,
+    "ease": 3,
+    "ivl": -3600,
+    "lastIvl": -1200,
+    "factor": 0,
+    "time": 11000,
+    "type": 0
+   },
+   {
+    "id": 1763078843000,
+    "usn": 3102,
+    "ease": 1,
+    "ivl": -1200,
+    "lastIvl": -3600,
+    "factor": 0,
+    "time": 22000,
+    "type": 0
+   },
+   {
+    "id": 1763080706000,
+    "usn": 3102,
+    "ease": 3,
+    "ivl": -3600,
+    "lastIvl": -1200,
+    "factor": 0,
+    "time": 9000,
+    "type": 0
+   },
+   {
+    "id": 1763113240445,
+    "usn": 3106,
+    "ease": 3,
+    "ivl": 1,
+    "lastIvl": -3600,
+    "factor": 2500,
+    "time": 8659,
+    "type": 0
+   },
+   {
+    "id": 1763520513533,
+    "usn": 3128,
+    "ease": 1,
+    "ivl": -600,
+    "lastIvl": 1,
+    "factor": 2300,
+    "time": 60000,
+    "type": 1
+   },
+   {
+    "id": 1763521163841,
+    "usn": 3128,
+    "ease": 1,
+    "ivl": -600,
+    "lastIvl": -600,
+    "factor": 2300,
+    "time": 13346,
+    "type": 2
+   },
+   {
+    "id": 1763521860857,
+    "usn": 3128,
+    "ease": 3,
+    "ivl": 1,
+    "lastIvl": -600,
+    "factor": 2300,
+    "time": 8501,
+    "type": 2
+   },
+   {
+    "id": 1763591523304,
+    "usn": 3144,
+    "ease": 1,
+    "ivl": -600,
+    "lastIvl": 1,
+    "factor": 2100,
+    "time": 26818,
+    "type": 1
+   },
+   {
+    "id": 1763635240000,
+    "usn": 3153,
+    "ease": 3,
+    "ivl": 1,
+    "lastIvl": -600,
+    "factor": 2100,
+    "time": 11000,
+    "type": 2
+   },
+   {
+    "id": 1763673987000,
+    "usn": 3154,
+    "ease": 3,
+    "ivl": 3,
+    "lastIvl": 1,
+    "factor": 2100,
+    "time": 11000,
+    "type": 1
+   },
+   {
+    "id": 1763937484000,
+    "usn": 3198,
+    "ease": 1,
+    "ivl": -600,
+    "lastIvl": 3,
+    "factor": 1900,
+    "time": 8000,
+    "type": 1
+   },
+   {
+    "id": 1763938927898,
+    "usn": 3200,
+    "ease": 1,
+    "ivl": -600,
+    "lastIvl": -600,
+    "factor": 1900,
+    "time": 7121,
+    "type": 2
+   },
+   {
+    "id": 1763939588426,
+    "usn": 3201,
+    "ease": 3,
+    "ivl": 1,
+    "lastIvl": -600,
+    "factor": 1900,
+    "time": 8044,
+    "type": 2
+   },
+   {
+    "id": 1764052673000,
+    "usn": 3207,
+    "ease": 3,
+    "ivl": 3,
+    "lastIvl": 1,
+    "factor": 1900,
+    "time": 4000,
+    "type": 1
+   },
+   {
+    "id": 1764286723000,
+    "usn": 3224,
+    "ease": 3,
+    "ivl": 6,
+    "lastIvl": 3,
+    "factor": 1900,
+    "time": 13000,
+    "type": 1
+   },
+   {
+    "id": 1767569807000,
+    "usn": 3296,
+    "ease": 2,
+    "ivl": 7,
+    "lastIvl": 6,
+    "factor": 1750,
+    "time": 9000,
+    "type": 1
+   },
+   {
+    "id": 1768176469000,
+    "usn": 3357,
+    "ease": 3,
+    "ivl": 11,
+    "lastIvl": 7,
+    "factor": 1750,
+    "time": 10000,
+    "type": 1
+   },
+   {
+    "id": 1769235225916,
+    "usn": 3433,
+    "ease": 1,
+    "ivl": -600,
+    "lastIvl": 11,
+    "factor": 1550,
+    "time": 31060,
+    "type": 1
+   },
+   {
+    "id": 1769235909715,
+    "usn": 3434,
+    "ease": 3,
+    "ivl": 1,
+    "lastIvl": -600,
+    "factor": 1550,
+    "time": 9043,
+    "type": 2
+   },
+   {
+    "id": 1769305951542,
+    "usn": 3438,
+    "ease": 3,
+    "ivl": 4,
+    "lastIvl": 1,
+    "factor": 1550,
+    "time": 9589,
+    "type": 1
+   },
+   {
+    "id": 1769644835000,
+    "usn": 3485,
+    "ease": 2,
+    "ivl": 5,
+    "lastIvl": 4,
+    "factor": 1400,
+    "time": 18000,
+    "type": 1
+   },
+   {
+    "id": 1770079453000,
+    "usn": 3515,
+    "ease": 3,
+    "ivl": 7,
+    "lastIvl": 5,
+    "factor": 1400,
+    "time": 14000,
+    "type": 1
+   },
+   {
+    "id": 1770691460000,
+    "usn": 3566,
+    "ease": 3,
+    "ivl": 9,
+    "lastIvl": 7,
+    "factor": 1400,
+    "time": 7000,
+    "type": 1
+   },
+   {
+    "id": 1771461572000,
+    "usn": 3623,
+    "ease": 1,
+    "ivl": -600,
+    "lastIvl": 9,
+    "factor": 1300,
+    "time": 4000,
+    "type": 1
+   },
+   {
+    "id": 1771555692000,
+    "usn": 3627,
+    "ease": 3,
+    "ivl": 1,
+    "lastIvl": -600,
+    "factor": 1300,
+    "time": 21000,
+    "type": 2
+   },
+   {
+    "id": 1771665172853,
+    "usn": 3630,
+    "ease": 1,
+    "ivl": -600,
+    "lastIvl": 1,
+    "factor": 1300,
+    "time": 14956,
+    "type": 1
+   },
+   {
+    "id": 1771671892000,
+    "usn": 3635,
+    "ease": 3,
+    "ivl": 1,
+    "lastIvl": -600,
+    "factor": 1300,
+    "time": 5000,
+    "type": 2
+   },
+   {
+    "id": 1771736576000,
+    "usn": 3635,
+    "ease": 3,
+    "ivl": 3,
+    "lastIvl": 1,
+    "factor": 1300,
+    "time": 13000,
+    "type": 1
+   },
+   {
+    "id": 1771970385020,
+    "usn": 3652,
+    "ease": 3,
+    "ivl": 7,
+    "lastIvl": 3,
+    "factor": 1300,
+    "time": 13369,
+    "type": 1
+   },
+   {
+    "id": 1772586326000,
+    "usn": 3727,
+    "ease": 3,
+    "ivl": 10,
+    "lastIvl": 7,
+    "factor": 1300,
+    "time": 11000,
+    "type": 1
+   },
+   {
+    "id": 1774059036939,
+    "usn": 3824,
+    "ease": 1,
+    "ivl": -600,
+    "lastIvl": 10,
+    "factor": 1300,
+    "time": 10119,
+    "type": 1
+   },
+   {
+    "id": 1774062844000,
+    "usn": 3826,
+    "ease": 3,
+    "ivl": -3600,
+    "lastIvl": -600,
+    "factor": 1300,
+    "time": 60000,
+    "type": 2
+   },
+   {
+    "id": 1774070639000,
+    "usn": 3826,
+    "ease": 3,
+    "ivl": 1,
+    "lastIvl": -3600,
+    "factor": 1300,
+    "time": 7000,
+    "type": 2
+   },
+   {
+    "id": 1774145696000,
+    "usn": 3837,
+    "ease": 3,
+    "ivl": 4,
+    "lastIvl": 1,
+    "factor": 1300,
+    "time": 13000,
+    "type": 1
+   },
+   {
+    "id": 1774565410000,
+    "usn": 3881,
+    "ease": 3,
+    "ivl": 9,
+    "lastIvl": 4,
+    "factor": 1300,
+    "time": 13000,
+    "type": 1
+   },
+   {
+    "id": 1775351121000,
+    "usn": 3938,
+    "ease": 2,
+    "ivl": 13,
+    "lastIvl": 9,
+    "factor": 1300,
+    "time": 12000,
+    "type": 1
+   },
+   {
+    "id": 1776591097000,
+    "usn": 3986,
+    "ease": 3,
+    "ivl": 15,
+    "lastIvl": 13,
+    "factor": 1300,
+    "time": 6000,
+    "type": 1
+   },
+   {
+    "id": 1777869860074,
+    "usn": 4088,
+    "ease": 3,
+    "ivl": 5,
+    "lastIvl": 15,
+    "factor": 1090,
+    "time": 6585,
+    "type": 1
+   },
+   {
+    "id": 1778322402699,
+    "usn": 4113,
+    "ease": 3,
+    "ivl": 9,
+    "lastIvl": 5,
+    "factor": 1089,
+    "time": 7147,
+    "type": 1
+   },
+   {
+    "id": 1779060149196,
+    "usn": 4133,
+    "ease": 1,
+    "ivl": -600,
+    "lastIvl": 9,
+    "factor": 1093,
+    "time": 26286,
+    "type": 1
+   },
+   {
+    "id": 1779111772689,
+    "usn": 4134,
+    "ease": 3,
+    "ivl": -3600,
+    "lastIvl": -600,
+    "factor": 1092,
+    "time": 11303,
+    "type": 2
+   },
+   {
+    "id": 1779153294356,
+    "usn": 4138,
+    "ease": 1,
+    "ivl": -600,
+    "lastIvl": -3600,
+    "factor": 1094,
+    "time": 6849,
+    "type": 2
+   },
+   {
+    "id": 1779153939385,
+    "usn": 4138,
+    "ease": 3,
+    "ivl": -3600,
+    "lastIvl": -600,
+    "factor": 1094,
+    "time": 8898,
+    "type": 2
+   },
+   {
+    "id": 1779169560622,
+    "usn": 4138,
+    "ease": 3,
+    "ivl": 1,
+    "lastIvl": -3600,
+    "factor": 1093,
+    "time": 7592,
+    "type": 2
+   },
+   {
+    "id": 1779327301576,
+    "usn": 4143,
+    "ease": 3,
+    "ivl": 2,
+    "lastIvl": 1,
+    "factor": 1092,
+    "time": 11289,
+    "type": 1
+   },
+   {
+    "id": 1779496001409,
+    "usn": 4147,
+    "ease": 1,
+    "ivl": -600,
+    "lastIvl": 2,
+    "factor": 1094,
+    "time": 5501,
+    "type": 1
+   },
+   {
+    "id": 1779497443834,
+    "usn": 4147,
+    "ease": 3,
+    "ivl": -3600,
+    "lastIvl": -600,
+    "factor": 1094,
+    "time": 4866,
+    "type": 2
+   },
+   {
+    "id": 1779506422144,
+    "usn": 4148,
+    "ease": 3,
+    "ivl": 1,
+    "lastIvl": -3600,
+    "factor": 1093,
+    "time": 5020,
+    "type": 2
+   },
+   {
+    "id": 1779668044087,
+    "usn": 4154,
+    "ease": 4,
+    "ivl": 3,
+    "lastIvl": 1,
+    "factor": 1091,
+    "time": 6310,
+    "type": 1
+   },
+   {
+    "id": 1779921497191,
+    "usn": 4158,
+    "ease": 3,
+    "ivl": 4,
+    "lastIvl": 3,
+    "factor": 1090,
+    "time": 22047,
+    "type": 1
+   },
+   {
+    "id": 1780278207537,
+    "usn": 4188,
+    "ease": 1,
+    "ivl": -600,
+    "lastIvl": 4,
+    "factor": 1093,
+    "time": 30250,
+    "type": 1
+   },
+   {
+    "id": 1780278904371,
+    "usn": 4188,
+    "ease": 3,
+    "ivl": -3600,
+    "lastIvl": -600,
+    "factor": 1092,
+    "time": 5377,
+    "type": 2
+   },
+   {
+    "id": 1780293482683,
+    "usn": 4196,
+    "ease": 3,
+    "ivl": 1,
+    "lastIvl": -3600,
+    "factor": 1091,
+    "time": 10259,
+    "type": 2
+   },
+   {
+    "id": 1780360367174,
+    "usn": 4202,
+    "ease": 3,
+    "ivl": 2,
+    "lastIvl": 1,
+    "factor": 1091,
+    "time": 6085,
+    "type": 1
+   },
+   {
+    "id": 1780619107111,
+    "usn": 4210,
+    "ease": 3,
+    "ivl": 3,
+    "lastIvl": 2,
+    "factor": 1090,
+    "time": 6160,
+    "type": 1
+   },
+   {
+    "id": 1780881335632,
+    "usn": 4222,
+    "ease": 3,
+    "ivl": 4,
+    "lastIvl": 3,
+    "factor": 1089,
+    "time": 6095,
+    "type": 1
+   },
+   {
+    "id": 1781215984141,
+    "usn": 4268,
+    "ease": 1,
+    "ivl": -600,
+    "lastIvl": 4,
+    "factor": 1093,
+    "time": 14753,
+    "type": 1
+   },
+   {
+    "id": 1781216627294,
+    "usn": 4268,
+    "ease": 3,
+    "ivl": -3600,
+    "lastIvl": -600,
+    "factor": 1092,
+    "time": 9869,
+    "type": 2
+   },
+   {
+    "id": 1781261720676,
+    "usn": 4269,
+    "ease": 3,
+    "ivl": 2,
+    "lastIvl": -3600,
+    "factor": 1090,
+    "time": 6094,
+    "type": 2
+   },
+   {
+    "id": 1781394774584,
+    "usn": 4272,
+    "ease": 1,
+    "ivl": -600,
+    "lastIvl": 2,
+    "factor": 1095,
+    "time": 7553,
+    "type": 1
+   },
+   {
+    "id": 1781395458689,
+    "usn": 4272,
+    "ease": 3,
+    "ivl": -3600,
+    "lastIvl": -600,
+    "factor": 1093,
+    "time": 6509,
+    "type": 2
+   },
+   {
+    "id": 1781400024009,
+    "usn": 4284,
+    "ease": 3,
+    "ivl": 1,
+    "lastIvl": -3600,
+    "factor": 1092,
+    "time": 8929,
+    "type": 2
+   },
+   {
+    "id": 1781560391271,
+    "usn": 4299,
+    "ease": 3,
+    "ivl": 2,
+    "lastIvl": 1,
+    "factor": 1090,
+    "time": 10988,
+    "type": 1
+   },
+   {
+    "id": 1781735913936,
+    "usn": 4314,
+    "ease": 3,
+    "ivl": 4,
+    "lastIvl": 2,
+    "factor": 1089,
+    "time": 5821,
+    "type": 1
+   },
+   {
+    "id": 1782090379414,
+    "usn": 4346,
+    "ease": 3,
+    "ivl": 3,
+    "lastIvl": 4,
+    "factor": 1087,
+    "time": 9015,
+    "type": 1
+   },
+   {
+    "id": 1782343555246,
+    "usn": 4381,
+    "ease": 1,
+    "ivl": -600,
+    "lastIvl": 3,
+    "factor": 1094,
+    "time": 6861,
+    "type": 1
+   },
+   {
+    "id": 1782344233523,
+    "usn": 4381,
+    "ease": 3,
+    "ivl": -3600,
+    "lastIvl": -600,
+    "factor": 1092,
+    "time": 7873,
+    "type": 2
+   },
+   {
+    "id": 1782421306411,
+    "usn": 4386,
+    "ease": 3,
+    "ivl": 1,
+    "lastIvl": -3600,
+    "factor": 1091,
+    "time": 8655,
+    "type": 2
+   },
+   {
+    "id": 1782543450376,
+    "usn": 4386,
+    "ease": 3,
+    "ivl": 2,
+    "lastIvl": 1,
+    "factor": 1089,
+    "time": 9030,
+    "type": 1
+   },
+   {
+    "id": 1782687336601,
+    "usn": 4401,
+    "ease": 3,
+    "ivl": 2,
+    "lastIvl": 2,
+    "factor": 1088,
+    "time": 5526,
+    "type": 1
+   },
+   {
+    "id": 1782863017185,
+    "usn": 4417,
+    "ease": 3,
+    "ivl": 4,
+    "lastIvl": 2,
+    "factor": 1086,
+    "time": 7830,
+    "type": 1
+   },
+   {
+    "id": 1783208625443,
+    "usn": 4443,
+    "ease": 3,
+    "ivl": 4,
+    "lastIvl": 4,
+    "factor": 1085,
+    "time": 6629,
+    "type": 1
+   },
+   {
+    "id": 1783544495803,
+    "usn": 4491,
+    "ease": 1,
+    "ivl": -600,
+    "lastIvl": 4,
+    "factor": 1093,
+    "time": 5450,
+    "type": 1
+   },
+   {
+    "id": 1783558791217,
+    "usn": 4492,
+    "ease": 3,
+    "ivl": -3600,
+    "lastIvl": -600,
+    "factor": 1091,
+    "time": 4811,
+    "type": 2
+   },
+   {
+    "id": 1783597326774,
+    "usn": 4493,
+    "ease": 3,
+    "ivl": 2,
+    "lastIvl": -3600,
+    "factor": 1090,
+    "time": 7852,
+    "type": 2
+   },
+   {
+    "id": 1783726831427,
+    "usn": 4499,
+    "ease": 3,
+    "ivl": 4,
+    "lastIvl": 2,
+    "factor": 1088,
+    "time": 6589,
+    "type": 1
+   },
+   {
+    "id": 1784067137116,
+    "usn": 4507,
+    "ease": 3,
+    "ivl": 3,
+    "lastIvl": 4,
+    "factor": 1087,
+    "time": 6178,
+    "type": 1
+   },
+   {
+    "id": 1784389509163,
+    "usn": 4512,
+    "ease": 4,
+    "ivl": 4,
+    "lastIvl": 3,
+    "factor": 1081,
+    "time": 6720,
+    "type": 1
+   },
+   {
+    "id": 1784694439146,
+    "usn": 4518,
+    "ease": 3,
+    "ivl": 5,
+    "lastIvl": 4,
+    "factor": 1079,
+    "time": 6886,
+    "type": 1
+   },
+   {
+    "id": 1785138713989,
+    "usn": 4533,
+    "ease": 3,
+    "ivl": 6,
+    "lastIvl": 5,
+    "factor": 1078,
+    "time": 5293,
+    "type": 1
+   },
+   {
+    "id": 1785650749537,
+    "usn": 4554,
+    "ease": 3,
+    "ivl": 9,
+    "lastIvl": 6,
+    "factor": 1076,
+    "time": 7788,
+    "type": 1
+   },
+   {
+    "id": 1786426196746,
+    "usn": 4599,
+    "ease": 3,
+    "ivl": 9,
+    "lastIvl": 9,
+    "factor": 1075,
+    "time": 10998,
+    "type": 1
+   },
+   {
+    "id": 1787189428759,
+    "usn": 4657,
+    "ease": 1,
+    "ivl": -600,
+    "lastIvl": 9,
+    "factor": 1089,
+    "time": 6730,
+    "type": 1
+   },
+   {
+    "id": 1787222634466,
+    "usn": 4657,
+    "ease": 3,
+    "ivl": -3600,
+    "lastIvl": -600,
+    "factor": 1088,
+    "time": 10594,
+    "type": 2
+   },
+   {
+    "id": 1787233481504,
+    "usn": 4658,
+    "ease": 3,
+    "ivl": 4,
+    "lastIvl": -3600,
+    "factor": 1086,
+    "time": 4011,
+    "type": 2
+   },
+   {
+    "id": 1787530099737,
+    "usn": 4701,
+    "ease": 3,
+    "ivl": 3,
+    "lastIvl": 4,
+    "factor": 1085,
+    "time": 11390,
+    "type": 1
+   },
+   {
+    "id": 1787785905381,
+    "usn": 4709,
+    "ease": 3,
+    "ivl": 5,
+    "lastIvl": 3,
+    "factor": 1083,
+    "time": 7347,
+    "type": 1
+   },
+   {
+    "id": 1788225109591,
+    "usn": 4789,
+    "ease": 3,
+    "ivl": 4,
+    "lastIvl": 5,
+    "factor": 1082,
+    "time": 7531,
+    "type": 1
+   },
+   {
+    "id": 1788582620274,
+    "usn": 4811,
+    "ease": 1,
+    "ivl": -1800,
+    "lastIvl": 4,
+    "factor": 1092,
+    "time": 19575,
+    "type": 1
+   },
+   {
+    "id": 1788584754842,
+    "usn": 4813,
+    "ease": 0,
+    "ivl": 0,
+    "lastIvl": 1,
+    "factor": 0,
+    "time": 0,
+    "type": 4
+   },
+   {
+    "id": 1789013966164,
+    "usn": 4850,
+    "ease": 3,
+    "ivl": -3600,
+    "lastIvl": 0,
+    "factor": 194,
+    "time": 7965,
+    "type": 0
+   },
+   {
+    "id": 1789427639442,
+    "usn": 4864,
+    "ease": 3,
+    "ivl": -3600,
+    "lastIvl": 0,
+    "factor": 194,
+    "time": 4821,
+    "type": 0
+   },
+   {
+    "id": 1789814873998,
+    "usn": 4866,
+    "ease": 3,
+    "ivl": 5,
+    "lastIvl": -3600,
+    "factor": 193,
+    "time": 8532,
+    "type": 0
+   },
+   {
+    "id": 1790218319897,
+    "usn": 4869,
+    "ease": 3,
+    "ivl": 14,
+    "lastIvl": 5,
+    "factor": 193,
+    "time": 5079,
+    "type": 1
+   },
+   {
+    "id": 1791418807290,
+    "usn": 4921,
+    "ease": 3,
+    "ivl": 33,
+    "lastIvl": 14,
+    "factor": 192,
+    "time": 9032,
+    "type": 1
+   }
+  ],
+  "1788203114145": [],
+  "1788203114146": [],
+  "1726634608108": [
+   {
+    "id": 1735451052329,
+    "usn": 1629,
+    "ease": 0,
+    "ivl": 0,
+    "lastIvl": 0,
+    "factor": 0,
+    "time": 0,
+    "type": 4
+   },
+   {
+    "id": 1735451226994,
+    "usn": 1630,
+    "ease": 0,
+    "ivl": 0,
+    "lastIvl": 0,
+    "factor": 0,
+    "time": 0,
+    "type": 4
+   }
+  ],
+  "1726634608109": [
+   {
+    "id": 1735451052330,
+    "usn": 1629,
+    "ease": 0,
+    "ivl": 0,
+    "lastIvl": 0,
+    "factor": 0,
+    "time": 0,
+    "type": 4
+   },
+   {
+    "id": 1735451226995,
+    "usn": 1630,
+    "ease": 0,
+    "ivl": 0,
+    "lastIvl": 0,
+    "factor": 0,
+    "time": 0,
+    "type": 4
+   }
+  ]
+ }
+}
