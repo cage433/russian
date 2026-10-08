@@ -267,6 +267,13 @@ difficulty to 5** with the add-on action `setFsrsDifficulty(cardIds, difficulty,
 stability. Only lower cards currently *above* the target — some were already at 1. Save the dry-run
 output first (old values); a lapse pushes difficulty back up on its own if a card was misjudged.
 Lists: `tutoring/retired/leech-untag-recovered-*.json`, `fsrs-difficulty-reset-*.json`.
+**The cause is structural** (found 2026-10-08): the Shared preset's optimised FSRS-6 parameters
+have **w7 (mean reversion) = 0.001**, so **Good leaves difficulty unchanged, Again/Hard raise it,
+and only Easy lowers it** — difficulty only ratchets up. Same day, 990 non-leech review cards with
+D ≥ 8 and ≥ 4 straight passes (no fail in 30 d) were lowered to 5
+(`tutoring/retired/fsrs-difficulty-reset-20261008-160735.json`). Alex was advised to press **Easy**
+on effortless cards; don't hand-edit w7 (re-optimising overwrites it). Re-run the same query
+occasionally — the pile rebuilds itself.
 **Judge health, not the lapse total** (Alex, 2026-10-08, prompted by и́ли: 13 lapses, then 11
 straight passes to 43d, then suspended by the 2026-08-31 sweep anyway). Applying the same test to
 *suspended* cards, as of their last review, found **113 of 248 leech notes healthy** — 106 of them
