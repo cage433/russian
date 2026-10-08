@@ -1,0 +1,919 @@
+{
+ "notes": [
+  1726634604595,
+  1726634604686,
+  1726634604717,
+  1726634604977,
+  1726634605400,
+  1726634605552,
+  1726634605573,
+  1726634605691,
+  1726634606990,
+  1726634608959,
+  1780660539310
+ ],
+ "cards": [
+  {
+   "cardId": 1726634604990,
+   "fields": {
+    "Front": {
+     "value": "(it) can be seen, is visible; apparently",
+     "order": 0
+    },
+    "Back": {
+     "value": "ви́дно<br><br> [sound:hypertts-42a295bb363fb95e2d7d45c07737d88e17e29bfdeca723f8eeb9f524.mp3]",
+     "order": 1
+    },
+    "Example": {
+     "value": "С горы ви́дно весь город и реку вдали.",
+     "order": 2
+    }
+   },
+   "fieldOrder": 0,
+   "question": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>(it) can be seen, is visible; apparently",
+   "answer": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>(it) can be seen, is visible; apparently\n\n<hr id=answer>\n\nви́дно<br><br> [anki:play:a:0]\n<br><br><i>С горы ви́дно весь город и реку вдали.</i>",
+   "modelName": "Basic (and reversed card)",
+   "ord": 0,
+   "deckName": "Vocab::10000 words",
+   "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
+   "factor": 1300,
+   "interval": 8,
+   "note": 1726634604595,
+   "type": 2,
+   "queue": -1,
+   "due": 1690,
+   "reps": 78,
+   "lapses": 13,
+   "left": 0,
+   "mod": 1789426317,
+   "nextReviews": [
+    "⁨30⁩m",
+    "⁨8⁩d",
+    "⁨11⁩d",
+    "⁨19⁩d"
+   ],
+   "flags": 0
+  },
+  {
+   "cardId": 1726634604991,
+   "fields": {
+    "Front": {
+     "value": "(it) can be seen, is visible; apparently",
+     "order": 0
+    },
+    "Back": {
+     "value": "ви́дно<br><br> [sound:hypertts-42a295bb363fb95e2d7d45c07737d88e17e29bfdeca723f8eeb9f524.mp3]",
+     "order": 1
+    },
+    "Example": {
+     "value": "С горы ви́дно весь город и реку вдали.",
+     "order": 2
+    }
+   },
+   "fieldOrder": 1,
+   "question": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>ви́дно<br><br> [anki:play:q:0]\n<br><br>\n<a class=hint href=\"#\"\nonclick=\"this.style.display='none';\ndocument.getElementById('hint5b9d3a2449fe382e').style.display='block';\nreturn false;\" draggable=false>\nExample</a>\n<div id=\"hint5b9d3a2449fe382e\" class=hint style=\"display: none\">С горы ви́дно весь город и реку вдали.</div>\n",
+   "answer": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>ви́дно<br><br> [anki:play:q:0]\n<br><br>\n<a class=hint href=\"#\"\nonclick=\"this.style.display='none';\ndocument.getElementById('hint5b9d3a2449fe382e').style.display='block';\nreturn false;\" draggable=false>\nExample</a>\n<div id=\"hint5b9d3a2449fe382e\" class=hint style=\"display: none\">С горы ви́дно весь город и реку вдали.</div>\n\n\n<hr id=answer>\n\n(it) can be seen, is visible; apparently",
+   "modelName": "Basic (and reversed card)",
+   "ord": 1,
+   "deckName": "Vocab::10000 words",
+   "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
+   "factor": 2500,
+   "interval": 700,
+   "note": 1726634604595,
+   "type": 2,
+   "queue": 2,
+   "due": 2412,
+   "reps": 8,
+   "lapses": 0,
+   "left": 0,
+   "mod": 1790651653,
+   "nextReviews": [
+    "⁨30⁩m",
+    "⁨2⁩y",
+    "⁨2.1⁩y",
+    "⁨2.1⁩y"
+   ],
+   "flags": 0
+  },
+  {
+   "cardId": 1726634605172,
+   "fields": {
+    "Front": {
+     "value": "enterprise, company (as an economic unit: a firm or a plant)",
+     "order": 0
+    },
+    "Back": {
+     "value": "предприя́тие<br><br> [sound:hypertts-6fea392e5a4bab7ff389c59efc48ca010e9c34cc5456b5b72f1b95b7.mp3]",
+     "order": 1
+    },
+    "Example": {
+     "value": "На этом предприя́тии работает около тысячи человек.",
+     "order": 2
+    }
+   },
+   "fieldOrder": 0,
+   "question": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>enterprise, company (as an economic unit: a firm or a plant)",
+   "answer": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>enterprise, company (as an economic unit: a firm or a plant)\n\n<hr id=answer>\n\nпредприя́тие<br><br> [anki:play:a:0]\n<br><br><i>На этом предприя́тии работает около тысячи человек.</i>",
+   "modelName": "Basic (and reversed card)",
+   "ord": 0,
+   "deckName": "Vocab::10000 words",
+   "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
+   "factor": 1450,
+   "interval": 38,
+   "note": 1726634604686,
+   "type": 2,
+   "queue": -1,
+   "due": 1692,
+   "reps": 53,
+   "lapses": 8,
+   "left": 0,
+   "mod": 1789426317,
+   "nextReviews": [
+    "⁨30⁩m",
+    "⁨1.3⁩mo",
+    "⁨1.5⁩mo",
+    "⁨2.1⁩mo"
+   ],
+   "flags": 0
+  },
+  {
+   "cardId": 1726634605173,
+   "fields": {
+    "Front": {
+     "value": "enterprise, company (as an economic unit: a firm or a plant)",
+     "order": 0
+    },
+    "Back": {
+     "value": "предприя́тие<br><br> [sound:hypertts-6fea392e5a4bab7ff389c59efc48ca010e9c34cc5456b5b72f1b95b7.mp3]",
+     "order": 1
+    },
+    "Example": {
+     "value": "На этом предприя́тии работает около тысячи человек.",
+     "order": 2
+    }
+   },
+   "fieldOrder": 1,
+   "question": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>предприя́тие<br><br> [anki:play:q:0]\n<br><br>\n<a class=hint href=\"#\"\nonclick=\"this.style.display='none';\ndocument.getElementById('hintc30b2bd3f88383c1').style.display='block';\nreturn false;\" draggable=false>\nExample</a>\n<div id=\"hintc30b2bd3f88383c1\" class=hint style=\"display: none\">На этом предприя́тии работает около тысячи человек.</div>\n",
+   "answer": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>предприя́тие<br><br> [anki:play:q:0]\n<br><br>\n<a class=hint href=\"#\"\nonclick=\"this.style.display='none';\ndocument.getElementById('hintc30b2bd3f88383c1').style.display='block';\nreturn false;\" draggable=false>\nExample</a>\n<div id=\"hintc30b2bd3f88383c1\" class=hint style=\"display: none\">На этом предприя́тии работает около тысячи человек.</div>\n\n\n<hr id=answer>\n\nenterprise, company (as an economic unit: a firm or a plant)",
+   "modelName": "Basic (and reversed card)",
+   "ord": 1,
+   "deckName": "Vocab::10000 words",
+   "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
+   "factor": 1800,
+   "interval": 12,
+   "note": 1726634604686,
+   "type": 2,
+   "queue": 2,
+   "due": 1726,
+   "reps": 17,
+   "lapses": 2,
+   "left": 0,
+   "mod": 1790805894,
+   "nextReviews": [
+    "⁨30⁩m",
+    "⁨12⁩d",
+    "⁨13⁩d",
+    "⁨15⁩d"
+   ],
+   "flags": 0
+  },
+  {
+   "cardId": 1726634605234,
+   "fields": {
+    "Front": {
+     "value": "large-scale, major (city, firm, sum); coarse (grain), big (drops)",
+     "order": 0
+    },
+    "Back": {
+     "value": "кру́пный<br><br> [sound:hypertts-4655d6decac76f2187e8f8027b6332b72a16f0693ff8eeb44986635d.mp3]",
+     "order": 1
+    },
+    "Example": {
+     "value": "Э́то была́ кру́пная побе́да для всей нашей кома́нды.",
+     "order": 2
+    }
+   },
+   "fieldOrder": 0,
+   "question": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>large-scale, major (city, firm, sum); coarse (grain), big (drops)",
+   "answer": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>large-scale, major (city, firm, sum); coarse (grain), big (drops)\n\n<hr id=answer>\n\nкру́пный<br><br> [anki:play:a:0]\n<br><br><i>Э́то была́ кру́пная побе́да для всей нашей кома́нды.</i>",
+   "modelName": "Basic (and reversed card)",
+   "ord": 0,
+   "deckName": "Vocab::10000 words",
+   "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
+   "factor": 1450,
+   "interval": 9,
+   "note": 1726634604717,
+   "type": 2,
+   "queue": -1,
+   "due": 1689,
+   "reps": 87,
+   "lapses": 17,
+   "left": 0,
+   "mod": 1789426317,
+   "nextReviews": [
+    "⁨30⁩m",
+    "⁨10⁩d",
+    "⁨13⁩d",
+    "⁨22⁩d"
+   ],
+   "flags": 0
+  },
+  {
+   "cardId": 1726634605235,
+   "fields": {
+    "Front": {
+     "value": "large-scale, major (city, firm, sum); coarse (grain), big (drops)",
+     "order": 0
+    },
+    "Back": {
+     "value": "кру́пный<br><br> [sound:hypertts-4655d6decac76f2187e8f8027b6332b72a16f0693ff8eeb44986635d.mp3]",
+     "order": 1
+    },
+    "Example": {
+     "value": "Э́то была́ кру́пная побе́да для всей нашей кома́нды.",
+     "order": 2
+    }
+   },
+   "fieldOrder": 1,
+   "question": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>кру́пный<br><br> [anki:play:q:0]\n<br><br>\n<a class=hint href=\"#\"\nonclick=\"this.style.display='none';\ndocument.getElementById('hint707234626f0df157').style.display='block';\nreturn false;\" draggable=false>\nExample</a>\n<div id=\"hint707234626f0df157\" class=hint style=\"display: none\">Э́то была́ кру́пная побе́да для всей нашей кома́нды.</div>\n",
+   "answer": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>кру́пный<br><br> [anki:play:q:0]\n<br><br>\n<a class=hint href=\"#\"\nonclick=\"this.style.display='none';\ndocument.getElementById('hint707234626f0df157').style.display='block';\nreturn false;\" draggable=false>\nExample</a>\n<div id=\"hint707234626f0df157\" class=hint style=\"display: none\">Э́то была́ кру́пная побе́да для всей нашей кома́нды.</div>\n\n\n<hr id=answer>\n\nlarge-scale, major (city, firm, sum); coarse (grain), big (drops)",
+   "modelName": "Basic (and reversed card)",
+   "ord": 1,
+   "deckName": "Vocab::10000 words",
+   "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
+   "factor": 1300,
+   "interval": 16,
+   "note": 1726634604717,
+   "type": 2,
+   "queue": 2,
+   "due": 1723,
+   "reps": 68,
+   "lapses": 8,
+   "left": 0,
+   "mod": 1790218510,
+   "nextReviews": [
+    "⁨30⁩m",
+    "⁨17⁩d",
+    "⁨19⁩d",
+    "⁨23⁩d"
+   ],
+   "flags": 0
+  },
+  {
+   "cardId": 1726634605754,
+   "fields": {
+    "Front": {
+     "value": "any, some … or other (no matter which: requests, questions)<br>(cf. како́й-то = some particular one, unknown)",
+     "order": 0
+    },
+    "Back": {
+     "value": "како́й-нибу́дь<br><br> [sound:hypertts-352d6db584fbe34011bee454ec1e7088bfab3bec611be4b8825023ea.mp3]",
+     "order": 1
+    },
+    "Example": {
+     "value": "Вы мо́жете испо́льзовать како́й-нибу́дь ино́й подхо́д к реше́нию.",
+     "order": 2
+    }
+   },
+   "fieldOrder": 0,
+   "question": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>any, some … or other (no matter which: requests, questions)<br>(cf. како́й-то = some particular one, unknown)",
+   "answer": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>any, some … or other (no matter which: requests, questions)<br>(cf. како́й-то = some particular one, unknown)\n\n<hr id=answer>\n\nкако́й-нибу́дь<br><br> [anki:play:a:0]\n<br><br><i>Вы мо́жете испо́льзовать како́й-нибу́дь ино́й подхо́д к реше́нию.</i>",
+   "modelName": "Basic (and reversed card)",
+   "ord": 0,
+   "deckName": "Vocab::10000 words",
+   "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
+   "factor": 1300,
+   "interval": 37,
+   "note": 1726634604977,
+   "type": 2,
+   "queue": -1,
+   "due": 1688,
+   "reps": 59,
+   "lapses": 13,
+   "left": 0,
+   "mod": 1789426317,
+   "nextReviews": [
+    "⁨30⁩m",
+    "⁨1.3⁩mo",
+    "⁨1.6⁩mo",
+    "⁨2.2⁩mo"
+   ],
+   "flags": 0
+  },
+  {
+   "cardId": 1726634605755,
+   "fields": {
+    "Front": {
+     "value": "any, some … or other (no matter which: requests, questions)<br>(cf. како́й-то = some particular one, unknown)",
+     "order": 0
+    },
+    "Back": {
+     "value": "како́й-нибу́дь<br><br> [sound:hypertts-352d6db584fbe34011bee454ec1e7088bfab3bec611be4b8825023ea.mp3]",
+     "order": 1
+    },
+    "Example": {
+     "value": "Вы мо́жете испо́льзовать како́й-нибу́дь ино́й подхо́д к реше́нию.",
+     "order": 2
+    }
+   },
+   "fieldOrder": 1,
+   "question": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>како́й-нибу́дь<br><br> [anki:play:q:0]\n<br><br>\n<a class=hint href=\"#\"\nonclick=\"this.style.display='none';\ndocument.getElementById('hintd2845e86bebb378b').style.display='block';\nreturn false;\" draggable=false>\nExample</a>\n<div id=\"hintd2845e86bebb378b\" class=hint style=\"display: none\">Вы мо́жете испо́льзовать како́й-нибу́дь ино́й подхо́д к реше́нию.</div>\n",
+   "answer": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>како́й-нибу́дь<br><br> [anki:play:q:0]\n<br><br>\n<a class=hint href=\"#\"\nonclick=\"this.style.display='none';\ndocument.getElementById('hintd2845e86bebb378b').style.display='block';\nreturn false;\" draggable=false>\nExample</a>\n<div id=\"hintd2845e86bebb378b\" class=hint style=\"display: none\">Вы мо́жете испо́льзовать како́й-нибу́дь ино́й подхо́д к реше́нию.</div>\n\n\n<hr id=answer>\n\nany, some … or other (no matter which: requests, questions)<br>(cf. како́й-то = some particular one, unknown)",
+   "modelName": "Basic (and reversed card)",
+   "ord": 1,
+   "deckName": "Vocab::10000 words",
+   "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
+   "factor": 1300,
+   "interval": 4,
+   "note": 1726634604977,
+   "type": 2,
+   "queue": 2,
+   "due": 1723,
+   "reps": 44,
+   "lapses": 6,
+   "left": 0,
+   "mod": 1791256164,
+   "nextReviews": [
+    "⁨30⁩m",
+    "⁨5⁩d",
+    "⁨8⁩d",
+    "⁨11⁩d"
+   ],
+   "flags": 0
+  },
+  {
+   "cardId": 1726634606600,
+   "fields": {
+    "Front": {
+     "value": "trait (of character); line; (pl.) facial features",
+     "order": 0
+    },
+    "Back": {
+     "value": "черта́ <br><br>[sound:hypertts-14ea36d389fd8afb70f193c591a784dd9cf90bfab136b905276c1b34.mp3]",
+     "order": 1
+    },
+    "Example": {
+     "value": "Честно́сть — главная черта́ его́ хара́ктера, кото́рую все ценят.",
+     "order": 2
+    }
+   },
+   "fieldOrder": 0,
+   "question": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>trait (of character); line; (pl.) facial features",
+   "answer": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>trait (of character); line; (pl.) facial features\n\n<hr id=answer>\n\nчерта́ <br><br>[anki:play:a:0]\n<br><br><i>Честно́сть — главная черта́ его́ хара́ктера, кото́рую все ценят.</i>",
+   "modelName": "Basic (and reversed card)",
+   "ord": 0,
+   "deckName": "Vocab::10000 words",
+   "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
+   "factor": 1300,
+   "interval": 5,
+   "note": 1726634605400,
+   "type": 2,
+   "queue": -1,
+   "due": 1687,
+   "reps": 60,
+   "lapses": 9,
+   "left": 0,
+   "mod": 1789426317,
+   "nextReviews": [
+    "⁨30⁩m",
+    "⁨5⁩d",
+    "⁨6⁩d",
+    "⁨10⁩d"
+   ],
+   "flags": 0
+  },
+  {
+   "cardId": 1726634606601,
+   "fields": {
+    "Front": {
+     "value": "trait (of character); line; (pl.) facial features",
+     "order": 0
+    },
+    "Back": {
+     "value": "черта́ <br><br>[sound:hypertts-14ea36d389fd8afb70f193c591a784dd9cf90bfab136b905276c1b34.mp3]",
+     "order": 1
+    },
+    "Example": {
+     "value": "Честно́сть — главная черта́ его́ хара́ктера, кото́рую все ценят.",
+     "order": 2
+    }
+   },
+   "fieldOrder": 1,
+   "question": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>черта́ <br><br>[anki:play:q:0]\n<br><br>\n<a class=hint href=\"#\"\nonclick=\"this.style.display='none';\ndocument.getElementById('hintc3a66eba7df0731e').style.display='block';\nreturn false;\" draggable=false>\nExample</a>\n<div id=\"hintc3a66eba7df0731e\" class=hint style=\"display: none\">Честно́сть — главная черта́ его́ хара́ктера, кото́рую все ценят.</div>\n",
+   "answer": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>черта́ <br><br>[anki:play:q:0]\n<br><br>\n<a class=hint href=\"#\"\nonclick=\"this.style.display='none';\ndocument.getElementById('hintc3a66eba7df0731e').style.display='block';\nreturn false;\" draggable=false>\nExample</a>\n<div id=\"hintc3a66eba7df0731e\" class=hint style=\"display: none\">Честно́сть — главная черта́ его́ хара́ктера, кото́рую все ценят.</div>\n\n\n<hr id=answer>\n\ntrait (of character); line; (pl.) facial features",
+   "modelName": "Basic (and reversed card)",
+   "ord": 1,
+   "deckName": "Vocab::10000 words",
+   "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
+   "factor": 1300,
+   "interval": 22,
+   "note": 1726634605400,
+   "type": 2,
+   "queue": 2,
+   "due": 1733,
+   "reps": 56,
+   "lapses": 6,
+   "left": 0,
+   "mod": 1790573153,
+   "nextReviews": [
+    "⁨30⁩m",
+    "⁨22⁩d",
+    "⁨23⁩d",
+    "⁨24⁩d"
+   ],
+   "flags": 0
+  },
+  {
+   "cardId": 1726634606904,
+   "fields": {
+    "Front": {
+     "value": "iron (the metal)",
+     "order": 0
+    },
+    "Back": {
+     "value": "желе́зо<br><br> [sound:hypertts-7f4fd2e1dbc4a0cef59f4901bb4765ee40e9df00e99bd148c1609007.mp3]",
+     "order": 1
+    },
+    "Example": {
+     "value": "Желе́зо — оди́н из важне́йших материа́лов в промы́шленности.",
+     "order": 2
+    }
+   },
+   "fieldOrder": 0,
+   "question": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>iron (the metal)",
+   "answer": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>iron (the metal)\n\n<hr id=answer>\n\nжеле́зо<br><br> [anki:play:a:0]\n<br><br><i>Желе́зо — оди́н из важне́йших материа́лов в промы́шленности.</i>",
+   "modelName": "Basic (and reversed card)",
+   "ord": 0,
+   "deckName": "Vocab::10000 words",
+   "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
+   "factor": 1300,
+   "interval": 9,
+   "note": 1726634605552,
+   "type": 2,
+   "queue": -1,
+   "due": 1692,
+   "reps": 53,
+   "lapses": 9,
+   "left": 0,
+   "mod": 1789426317,
+   "nextReviews": [
+    "⁨30⁩m",
+    "⁨5⁩d",
+    "⁨10⁩d",
+    "⁨16⁩d"
+   ],
+   "flags": 0
+  },
+  {
+   "cardId": 1726634606905,
+   "fields": {
+    "Front": {
+     "value": "iron (the metal)",
+     "order": 0
+    },
+    "Back": {
+     "value": "желе́зо<br><br> [sound:hypertts-7f4fd2e1dbc4a0cef59f4901bb4765ee40e9df00e99bd148c1609007.mp3]",
+     "order": 1
+    },
+    "Example": {
+     "value": "Желе́зо — оди́н из важне́йших материа́лов в промы́шленности.",
+     "order": 2
+    }
+   },
+   "fieldOrder": 1,
+   "question": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>желе́зо<br><br> [anki:play:q:0]\n<br><br>\n<a class=hint href=\"#\"\nonclick=\"this.style.display='none';\ndocument.getElementById('hinte2f1e2aa2d7da93f').style.display='block';\nreturn false;\" draggable=false>\nExample</a>\n<div id=\"hinte2f1e2aa2d7da93f\" class=hint style=\"display: none\">Желе́зо — оди́н из важне́йших материа́лов в промы́шленности.</div>\n",
+   "answer": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>желе́зо<br><br> [anki:play:q:0]\n<br><br>\n<a class=hint href=\"#\"\nonclick=\"this.style.display='none';\ndocument.getElementById('hinte2f1e2aa2d7da93f').style.display='block';\nreturn false;\" draggable=false>\nExample</a>\n<div id=\"hinte2f1e2aa2d7da93f\" class=hint style=\"display: none\">Желе́зо — оди́н из важне́йших материа́лов в промы́шленности.</div>\n\n\n<hr id=answer>\n\niron (the metal)",
+   "modelName": "Basic (and reversed card)",
+   "ord": 1,
+   "deckName": "Vocab::10000 words",
+   "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
+   "factor": 2650,
+   "interval": 158,
+   "note": 1726634605552,
+   "type": 2,
+   "queue": 2,
+   "due": 1816,
+   "reps": 8,
+   "lapses": 0,
+   "left": 0,
+   "mod": 1789426317,
+   "nextReviews": [
+    "⁨30⁩m",
+    "⁨5.7⁩mo",
+    "⁨7.9⁩mo",
+    "⁨1⁩y"
+   ],
+   "flags": 0
+  },
+  {
+   "cardId": 1726634606946,
+   "fields": {
+    "Front": {
+     "value": "to find, detect (something hidden); to show (feelings)",
+     "order": 0
+    },
+    "Back": {
+     "value": "обнару́живать / обнару́жить (+a)<br><br> [sound:hypertts-9d2aa2ae48dad5d8e4102eb7e3ba6eae7c41916c9b37f9f771121a0b.mp3]",
+     "order": 1
+    },
+    "Example": {
+     "value": "Учёные обнару́жили но́вый вид расте́ния в тропи́ческом лесу́.",
+     "order": 2
+    }
+   },
+   "fieldOrder": 0,
+   "question": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>to find, detect (something hidden); to show (feelings)",
+   "answer": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>to find, detect (something hidden); to show (feelings)\n\n<hr id=answer>\n\nобнару́живать / обнару́жить (+a)<br><br> [anki:play:a:0]\n<br><br><i>Учёные обнару́жили но́вый вид расте́ния в тропи́ческом лесу́.</i>",
+   "modelName": "Basic (and reversed card)",
+   "ord": 0,
+   "deckName": "Vocab::10000 words",
+   "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
+   "factor": 1300,
+   "interval": 14,
+   "note": 1726634605573,
+   "type": 2,
+   "queue": -1,
+   "due": 1692,
+   "reps": 75,
+   "lapses": 10,
+   "left": 0,
+   "mod": 1789426317,
+   "nextReviews": [
+    "⁨30⁩m",
+    "⁨18⁩d",
+    "⁨23⁩d",
+    "⁨1.2⁩mo"
+   ],
+   "flags": 0
+  },
+  {
+   "cardId": 1726634606947,
+   "fields": {
+    "Front": {
+     "value": "to find, detect (something hidden); to show (feelings)",
+     "order": 0
+    },
+    "Back": {
+     "value": "обнару́живать / обнару́жить (+a)<br><br> [sound:hypertts-9d2aa2ae48dad5d8e4102eb7e3ba6eae7c41916c9b37f9f771121a0b.mp3]",
+     "order": 1
+    },
+    "Example": {
+     "value": "Учёные обнару́жили но́вый вид расте́ния в тропи́ческом лесу́.",
+     "order": 2
+    }
+   },
+   "fieldOrder": 1,
+   "question": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>обнару́живать / обнару́жить (+a)<br><br> [anki:play:q:0]\n<br><br>\n<a class=hint href=\"#\"\nonclick=\"this.style.display='none';\ndocument.getElementById('hint583b30fbcbab8775').style.display='block';\nreturn false;\" draggable=false>\nExample</a>\n<div id=\"hint583b30fbcbab8775\" class=hint style=\"display: none\">Учёные обнару́жили но́вый вид расте́ния в тропи́ческом лесу́.</div>\n",
+   "answer": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>обнару́живать / обнару́жить (+a)<br><br> [anki:play:q:0]\n<br><br>\n<a class=hint href=\"#\"\nonclick=\"this.style.display='none';\ndocument.getElementById('hint583b30fbcbab8775').style.display='block';\nreturn false;\" draggable=false>\nExample</a>\n<div id=\"hint583b30fbcbab8775\" class=hint style=\"display: none\">Учёные обнару́жили но́вый вид расте́ния в тропи́ческом лесу́.</div>\n\n\n<hr id=answer>\n\nto find, detect (something hidden); to show (feelings)",
+   "modelName": "Basic (and reversed card)",
+   "ord": 1,
+   "deckName": "Vocab::10000 words",
+   "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
+   "factor": 1300,
+   "interval": 8,
+   "note": 1726634605573,
+   "type": 2,
+   "queue": 2,
+   "due": 1725,
+   "reps": 83,
+   "lapses": 10,
+   "left": 0,
+   "mod": 1791110105,
+   "nextReviews": [
+    "⁨30⁩m",
+    "⁨4⁩d",
+    "⁨5⁩d",
+    "⁨8⁩d"
+   ],
+   "flags": 0
+  },
+  {
+   "cardId": 1726634607182,
+   "fields": {
+    "Front": {
+     "value": "installation, plant (equipment); setting; mindset, guiding aim",
+     "order": 0
+    },
+    "Back": {
+     "value": "устано́вка<br><br> [sound:hypertts-be8eeba7f4f22837ceb489fecd32d1ab7951067e2a4c5ca00c2981f3.mp3]",
+     "order": 1
+    },
+    "Example": {
+     "value": "Главная устано́вка проекта — снизить расходы без потери качества продукции.",
+     "order": 2
+    }
+   },
+   "fieldOrder": 0,
+   "question": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>installation, plant (equipment); setting; mindset, guiding aim",
+   "answer": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>installation, plant (equipment); setting; mindset, guiding aim\n\n<hr id=answer>\n\nустано́вка<br><br> [anki:play:a:0]\n<br><br><i>Главная устано́вка проекта — снизить расходы без потери качества продукции.</i>",
+   "modelName": "Basic (and reversed card)",
+   "ord": 0,
+   "deckName": "Vocab::10000 words",
+   "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
+   "factor": 1600,
+   "interval": 7,
+   "note": 1726634605691,
+   "type": 2,
+   "queue": -1,
+   "due": 1689,
+   "reps": 60,
+   "lapses": 8,
+   "left": 0,
+   "mod": 1789426317,
+   "nextReviews": [
+    "⁨30⁩m",
+    "⁨8⁩d",
+    "⁨13⁩d",
+    "⁨21⁩d"
+   ],
+   "flags": 0
+  },
+  {
+   "cardId": 1726634607183,
+   "fields": {
+    "Front": {
+     "value": "installation, plant (equipment); setting; mindset, guiding aim",
+     "order": 0
+    },
+    "Back": {
+     "value": "устано́вка<br><br> [sound:hypertts-be8eeba7f4f22837ceb489fecd32d1ab7951067e2a4c5ca00c2981f3.mp3]",
+     "order": 1
+    },
+    "Example": {
+     "value": "Главная устано́вка проекта — снизить расходы без потери качества продукции.",
+     "order": 2
+    }
+   },
+   "fieldOrder": 1,
+   "question": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>устано́вка<br><br> [anki:play:q:0]\n<br><br>\n<a class=hint href=\"#\"\nonclick=\"this.style.display='none';\ndocument.getElementById('hint1409f51d5a16ff5b').style.display='block';\nreturn false;\" draggable=false>\nExample</a>\n<div id=\"hint1409f51d5a16ff5b\" class=hint style=\"display: none\">Главная устано́вка проекта — снизить расходы без потери качества продукции.</div>\n",
+   "answer": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>устано́вка<br><br> [anki:play:q:0]\n<br><br>\n<a class=hint href=\"#\"\nonclick=\"this.style.display='none';\ndocument.getElementById('hint1409f51d5a16ff5b').style.display='block';\nreturn false;\" draggable=false>\nExample</a>\n<div id=\"hint1409f51d5a16ff5b\" class=hint style=\"display: none\">Главная устано́вка проекта — снизить расходы без потери качества продукции.</div>\n\n\n<hr id=answer>\n\ninstallation, plant (equipment); setting; mindset, guiding aim",
+   "modelName": "Basic (and reversed card)",
+   "ord": 1,
+   "deckName": "Vocab::10000 words",
+   "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
+   "factor": 1300,
+   "interval": 1,
+   "note": 1726634605691,
+   "type": 3,
+   "queue": -1,
+   "due": 1790167582,
+   "reps": 77,
+   "lapses": 12,
+   "left": 1,
+   "mod": 1790165499,
+   "nextReviews": [
+    "⁨30⁩m",
+    "⁨45⁩m",
+    "⁨1⁩d",
+    "⁨2⁩d"
+   ],
+   "flags": 0
+  },
+  {
+   "cardId": 1726634609780,
+   "fields": {
+    "Front": {
+     "value": "to take care of, provide for (о +pr); to see to it that<br>(cf. уха́живать за = to nurse, tend a person)",
+     "order": 0
+    },
+    "Back": {
+     "value": "забо́титься / позабо́титься&nbsp;(о +pr)<br><br> [sound:hypertts-3b7f63804359ff34aaca48045378c215c1060e0a353f7a50eadb7216.mp3]",
+     "order": 1
+    },
+    "Example": {
+     "value": "Она́ всегда́ забо́тится о том, что́бы де́ти хорошо́ пита́лись.",
+     "order": 2
+    }
+   },
+   "fieldOrder": 0,
+   "question": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>to take care of, provide for (о +pr); to see to it that<br>(cf. уха́живать за = to nurse, tend a person)",
+   "answer": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>to take care of, provide for (о +pr); to see to it that<br>(cf. уха́живать за = to nurse, tend a person)\n\n<hr id=answer>\n\nзабо́титься / позабо́титься&nbsp;(о +pr)<br><br> [anki:play:a:0]\n<br><br><i>Она́ всегда́ забо́тится о том, что́бы де́ти хорошо́ пита́лись.</i>",
+   "modelName": "Basic (and reversed card)",
+   "ord": 0,
+   "deckName": "Vocab::10000 words",
+   "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
+   "factor": 1300,
+   "interval": 3,
+   "note": 1726634606990,
+   "type": 2,
+   "queue": -1,
+   "due": 1688,
+   "reps": 56,
+   "lapses": 9,
+   "left": 0,
+   "mod": 1789426317,
+   "nextReviews": [
+    "⁨30⁩m",
+    "⁨4⁩d",
+    "⁨7⁩d",
+    "⁨11⁩d"
+   ],
+   "flags": 0
+  },
+  {
+   "cardId": 1726634609781,
+   "fields": {
+    "Front": {
+     "value": "to take care of, provide for (о +pr); to see to it that<br>(cf. уха́живать за = to nurse, tend a person)",
+     "order": 0
+    },
+    "Back": {
+     "value": "забо́титься / позабо́титься&nbsp;(о +pr)<br><br> [sound:hypertts-3b7f63804359ff34aaca48045378c215c1060e0a353f7a50eadb7216.mp3]",
+     "order": 1
+    },
+    "Example": {
+     "value": "Она́ всегда́ забо́тится о том, что́бы де́ти хорошо́ пита́лись.",
+     "order": 2
+    }
+   },
+   "fieldOrder": 1,
+   "question": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>забо́титься / позабо́титься&nbsp;(о +pr)<br><br> [anki:play:q:0]\n<br><br>\n<a class=hint href=\"#\"\nonclick=\"this.style.display='none';\ndocument.getElementById('hint52a7a119a49062c2').style.display='block';\nreturn false;\" draggable=false>\nExample</a>\n<div id=\"hint52a7a119a49062c2\" class=hint style=\"display: none\">Она́ всегда́ забо́тится о том, что́бы де́ти хорошо́ пита́лись.</div>\n",
+   "answer": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>забо́титься / позабо́титься&nbsp;(о +pr)<br><br> [anki:play:q:0]\n<br><br>\n<a class=hint href=\"#\"\nonclick=\"this.style.display='none';\ndocument.getElementById('hint52a7a119a49062c2').style.display='block';\nreturn false;\" draggable=false>\nExample</a>\n<div id=\"hint52a7a119a49062c2\" class=hint style=\"display: none\">Она́ всегда́ забо́тится о том, что́бы де́ти хорошо́ пита́лись.</div>\n\n\n<hr id=answer>\n\nto take care of, provide for (о +pr); to see to it that<br>(cf. уха́живать за = to nurse, tend a person)",
+   "modelName": "Basic (and reversed card)",
+   "ord": 1,
+   "deckName": "Vocab::10000 words",
+   "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
+   "factor": 2300,
+   "interval": 23,
+   "note": 1726634606990,
+   "type": 2,
+   "queue": 2,
+   "due": 1740,
+   "reps": 18,
+   "lapses": 1,
+   "left": 0,
+   "mod": 1791110934,
+   "nextReviews": [
+    "⁨30⁩m",
+    "⁨24⁩d",
+    "⁨26⁩d",
+    "⁨28⁩d"
+   ],
+   "flags": 0
+  },
+  {
+   "cardId": 1726634613718,
+   "fields": {
+    "Front": {
+     "value": "to bathe, go swimming (for pleasure); to take a bath",
+     "order": 0
+    },
+    "Back": {
+     "value": "купа́ться / искупа́ться<br><br> [sound:hypertts-217f5231272ad2662ce4f838b4e4a496a1262ccc8accaebfece96118.mp3]",
+     "order": 1
+    },
+    "Example": {
+     "value": "Дети купа́лись в море до самого вечера.",
+     "order": 2
+    }
+   },
+   "fieldOrder": 0,
+   "question": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>to bathe, go swimming (for pleasure); to take a bath",
+   "answer": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>to bathe, go swimming (for pleasure); to take a bath\n\n<hr id=answer>\n\nкупа́ться / искупа́ться<br><br> [anki:play:a:0]\n<br><br><i>Дети купа́лись в море до самого вечера.</i>",
+   "modelName": "Basic (and reversed card)",
+   "ord": 0,
+   "deckName": "Vocab::10000 words",
+   "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
+   "factor": 1300,
+   "interval": 4,
+   "note": 1726634608959,
+   "type": 2,
+   "queue": -1,
+   "due": 1688,
+   "reps": 78,
+   "lapses": 11,
+   "left": 0,
+   "mod": 1789426317,
+   "nextReviews": [
+    "⁨30⁩m",
+    "⁨4⁩d",
+    "⁨5⁩d",
+    "⁨7⁩d"
+   ],
+   "flags": 0
+  },
+  {
+   "cardId": 1726634613719,
+   "fields": {
+    "Front": {
+     "value": "to bathe, go swimming (for pleasure); to take a bath",
+     "order": 0
+    },
+    "Back": {
+     "value": "купа́ться / искупа́ться<br><br> [sound:hypertts-217f5231272ad2662ce4f838b4e4a496a1262ccc8accaebfece96118.mp3]",
+     "order": 1
+    },
+    "Example": {
+     "value": "Дети купа́лись в море до самого вечера.",
+     "order": 2
+    }
+   },
+   "fieldOrder": 1,
+   "question": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>купа́ться / искупа́ться<br><br> [anki:play:q:0]\n<br><br>\n<a class=hint href=\"#\"\nonclick=\"this.style.display='none';\ndocument.getElementById('hint2e735117d061e70c').style.display='block';\nreturn false;\" draggable=false>\nExample</a>\n<div id=\"hint2e735117d061e70c\" class=hint style=\"display: none\">Дети купа́лись в море до самого вечера.</div>\n",
+   "answer": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>купа́ться / искупа́ться<br><br> [anki:play:q:0]\n<br><br>\n<a class=hint href=\"#\"\nonclick=\"this.style.display='none';\ndocument.getElementById('hint2e735117d061e70c').style.display='block';\nreturn false;\" draggable=false>\nExample</a>\n<div id=\"hint2e735117d061e70c\" class=hint style=\"display: none\">Дети купа́лись в море до самого вечера.</div>\n\n\n<hr id=answer>\n\nto bathe, go swimming (for pleasure); to take a bath",
+   "modelName": "Basic (and reversed card)",
+   "ord": 1,
+   "deckName": "Vocab::10000 words",
+   "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
+   "factor": 1850,
+   "interval": 33,
+   "note": 1726634608959,
+   "type": 2,
+   "queue": 2,
+   "due": 1723,
+   "reps": 17,
+   "lapses": 1,
+   "left": 0,
+   "mod": 1789426317,
+   "nextReviews": [
+    "⁨30⁩m",
+    "⁨1.2⁩mo",
+    "⁨1.5⁩mo",
+    "⁨2.1⁩mo"
+   ],
+   "flags": 0
+  },
+  {
+   "cardId": 1780660539310,
+   "fields": {
+    "Front": {
+     "value": "to be getting on (only in 'how are you getting on?')",
+     "order": 0
+    },
+    "Back": {
+     "value": "пожива́ть<br><br> [sound:hypertts-8f760947b178179fdd92c666ebb60603c781919259d1a7d8bfb9fa4e.mp3]",
+     "order": 1
+    },
+    "Example": {
+     "value": "Как пожива́ешь?",
+     "order": 2
+    }
+   },
+   "fieldOrder": 0,
+   "question": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>to be getting on (only in 'how are you getting on?')",
+   "answer": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>to be getting on (only in 'how are you getting on?')\n\n<hr id=answer>\n\nпожива́ть<br><br> [anki:play:a:0]\n<br><br><i>Как пожива́ешь?</i>",
+   "modelName": "Basic (and reversed card)",
+   "ord": 0,
+   "deckName": "Vocab::10000 words",
+   "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
+   "factor": 1300,
+   "interval": 3,
+   "note": 1780660539310,
+   "type": 2,
+   "queue": -1,
+   "due": 1686,
+   "reps": 56,
+   "lapses": 9,
+   "left": 0,
+   "mod": 1789426317,
+   "nextReviews": [
+    "⁨30⁩m",
+    "⁨2⁩d",
+    "⁨4⁩d",
+    "⁨7⁩d"
+   ],
+   "flags": 0
+  },
+  {
+   "cardId": 1780660539311,
+   "fields": {
+    "Front": {
+     "value": "to be getting on (only in 'how are you getting on?')",
+     "order": 0
+    },
+    "Back": {
+     "value": "пожива́ть<br><br> [sound:hypertts-8f760947b178179fdd92c666ebb60603c781919259d1a7d8bfb9fa4e.mp3]",
+     "order": 1
+    },
+    "Example": {
+     "value": "Как пожива́ешь?",
+     "order": 2
+    }
+   },
+   "fieldOrder": 1,
+   "question": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>пожива́ть<br><br> [anki:play:q:0]\n<br><br>\n<a class=hint href=\"#\"\nonclick=\"this.style.display='none';\ndocument.getElementById('hint987b085defba0903').style.display='block';\nreturn false;\" draggable=false>\nExample</a>\n<div id=\"hint987b085defba0903\" class=hint style=\"display: none\">Как пожива́ешь?</div>\n",
+   "answer": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>пожива́ть<br><br> [anki:play:q:0]\n<br><br>\n<a class=hint href=\"#\"\nonclick=\"this.style.display='none';\ndocument.getElementById('hint987b085defba0903').style.display='block';\nreturn false;\" draggable=false>\nExample</a>\n<div id=\"hint987b085defba0903\" class=hint style=\"display: none\">Как пожива́ешь?</div>\n\n\n<hr id=answer>\n\nto be getting on (only in 'how are you getting on?')",
+   "modelName": "Basic (and reversed card)",
+   "ord": 1,
+   "deckName": "Vocab::10000 words",
+   "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
+   "factor": 2500,
+   "interval": 77,
+   "note": 1780660539310,
+   "type": 2,
+   "queue": 2,
+   "due": 1738,
+   "reps": 5,
+   "lapses": 0,
+   "left": 0,
+   "mod": 1789426317,
+   "nextReviews": [
+    "⁨30⁩m",
+    "⁨2.7⁩mo",
+    "⁨5.1⁩mo",
+    "⁨9.6⁩mo"
+   ],
+   "flags": 0
+  }
+ ]
+}

@@ -39,63 +39,6 @@
     }
    ]
   },
-  "1726634604595": {
-   "front": "(it) can be seen, is visible; apparently",
-   "back": "ви́дно",
-   "deck": "Vocab::10000 words",
-   "cards": [
-    {
-     "state": "suspended",
-     "lapses": 13,
-     "streak": 5,
-     "last_fail": "2026-08-01"
-    },
-    {
-     "state": "700d",
-     "lapses": 0,
-     "streak": 9,
-     "last_fail": "—"
-    }
-   ]
-  },
-  "1726634604686": {
-   "front": "enterprise, company (as an economic unit: a firm or a plant)",
-   "back": "предприя́тие",
-   "deck": "Vocab::10000 words",
-   "cards": [
-    {
-     "state": "suspended",
-     "lapses": 8,
-     "streak": 11,
-     "last_fail": "2026-01-06"
-    },
-    {
-     "state": "12d",
-     "lapses": 2,
-     "streak": 3,
-     "last_fail": "2026-09-06"
-    }
-   ]
-  },
-  "1726634604717": {
-   "front": "large-scale, major (city, firm, sum); coarse (grain), big (drops)",
-   "back": "кру́пный",
-   "deck": "Vocab::10000 words",
-   "cards": [
-    {
-     "state": "suspended",
-     "lapses": 17,
-     "streak": 5,
-     "last_fail": "2026-07-24"
-    },
-    {
-     "state": "16d",
-     "lapses": 8,
-     "streak": 8,
-     "last_fail": "2026-07-22"
-    }
-   ]
-  },
   "1726634604911": {
    "front": "majority",
    "back": "большинство́",
@@ -112,25 +55,6 @@
      "lapses": 0,
      "streak": 6,
      "last_fail": "—"
-    }
-   ]
-  },
-  "1726634604977": {
-   "front": "any, some … or other (no matter which: requests, questions) (cf. како́й-то = some particular one, unknown)",
-   "back": "како́й-нибу́дь",
-   "deck": "Vocab::10000 words",
-   "cards": [
-    {
-     "state": "suspended",
-     "lapses": 13,
-     "streak": 10,
-     "last_fail": "2025-11-22"
-    },
-    {
-     "state": "4d",
-     "lapses": 6,
-     "streak": 4,
-     "last_fail": "2026-09-26"
     }
    ]
   },
@@ -191,25 +115,6 @@
     }
    ]
   },
-  "1726634605400": {
-   "front": "trait (of character); line; (pl.) facial features",
-   "back": "черта́",
-   "deck": "Vocab::10000 words",
-   "cards": [
-    {
-     "state": "suspended",
-     "lapses": 9,
-     "streak": 0,
-     "last_fail": "2026-08-28"
-    },
-    {
-     "state": "22d",
-     "lapses": 6,
-     "streak": 12,
-     "last_fail": "2026-06-28"
-    }
-   ]
-  },
   "1726634605476": {
    "front": "generation",
    "back": "поколе́ние",
@@ -248,25 +153,6 @@
     }
    ]
   },
-  "1726634605552": {
-   "front": "iron (the metal)",
-   "back": "желе́зо",
-   "deck": "Vocab::10000 words",
-   "cards": [
-    {
-     "state": "suspended",
-     "lapses": 9,
-     "streak": 3,
-     "last_fail": "2026-08-20"
-    },
-    {
-     "state": "158d",
-     "lapses": 0,
-     "streak": 5,
-     "last_fail": "—"
-    }
-   ]
-  },
   "1726634605570": {
    "front": "to pull, drag",
    "back": "тяну́ть / потяну́ть (+a)",
@@ -283,44 +169,6 @@
      "lapses": 0,
      "streak": 5,
      "last_fail": "—"
-    }
-   ]
-  },
-  "1726634605573": {
-   "front": "to find, detect (something hidden); to show (feelings)",
-   "back": "обнару́живать / обнару́жить (+a)",
-   "deck": "Vocab::10000 words",
-   "cards": [
-    {
-     "state": "suspended",
-     "lapses": 10,
-     "streak": 11,
-     "last_fail": "2026-06-03"
-    },
-    {
-     "state": "8d",
-     "lapses": 10,
-     "streak": 4,
-     "last_fail": "2026-09-11"
-    }
-   ]
-  },
-  "1726634605691": {
-   "front": "installation, plant (equipment); setting; mindset, guiding aim",
-   "back": "устано́вка",
-   "deck": "Vocab::10000 words",
-   "cards": [
-    {
-     "state": "suspended",
-     "lapses": 8,
-     "streak": 6,
-     "last_fail": "2026-08-04"
-    },
-    {
-     "state": "suspended",
-     "lapses": 12,
-     "streak": 0,
-     "last_fail": "2026-09-23"
     }
    ]
   },
@@ -476,25 +324,6 @@
     }
    ]
   },
-  "1726634606990": {
-   "front": "to take care of, provide for (о +pr); to see to it that (cf. уха́живать за = to nurse, tend a person)",
-   "back": "забо́титься / позабо́титься&nbsp;(о +pr)",
-   "deck": "Vocab::10000 words",
-   "cards": [
-    {
-     "state": "suspended",
-     "lapses": 9,
-     "streak": 3,
-     "last_fail": "2026-08-22"
-    },
-    {
-     "state": "23d",
-     "lapses": 1,
-     "streak": 13,
-     "last_fail": "2026-07-01"
-    }
-   ]
-  },
   "1726634607493": {
    "front": "fatherland",
    "back": "оте́чество",
@@ -530,25 +359,6 @@
      "lapses": 1,
      "streak": 4,
      "last_fail": "2026-08-08"
-    }
-   ]
-  },
-  "1726634608959": {
-   "front": "to bathe, go swimming (for pleasure); to take a bath",
-   "back": "купа́ться / искупа́ться",
-   "deck": "Vocab::10000 words",
-   "cards": [
-    {
-     "state": "suspended",
-     "lapses": 11,
-     "streak": 0,
-     "last_fail": "2026-08-30"
-    },
-    {
-     "state": "33d",
-     "lapses": 1,
-     "streak": 7,
-     "last_fail": "2026-05-17"
     }
    ]
   },
@@ -681,25 +491,6 @@
      "state": "286d",
      "lapses": 0,
      "streak": 6,
-     "last_fail": "—"
-    }
-   ]
-  },
-  "1780660539310": {
-   "front": "to be getting on (only in 'how are you getting on?')",
-   "back": "пожива́ть",
-   "deck": "Vocab::10000 words",
-   "cards": [
-    {
-     "state": "suspended",
-     "lapses": 9,
-     "streak": 3,
-     "last_fail": "2026-08-24"
-    },
-    {
-     "state": "77d",
-     "lapses": 0,
-     "streak": 5,
      "last_fail": "—"
     }
    ]
