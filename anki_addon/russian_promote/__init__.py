@@ -47,7 +47,14 @@ import time
 from aqt import gui_hooks, mw
 
 _LOADED_AT = time.time()
-_SOURCE_MTIME = os.path.getmtime(__file__)   # what the running Anki actually loaded
+def _newest_source_mtime():
+    """Newest mtime over the package's .py files — not just this one: cloze_audio.py changes
+    too, and a restart is needed for that just the same (missed on 2026-10-08)."""
+    d = os.path.dirname(__file__)
+    return max(os.path.getmtime(os.path.join(d, f)) for f in os.listdir(d) if f.endswith(".py"))
+
+
+_SOURCE_MTIME = _newest_source_mtime()   # what the running Anki actually loaded
 
 ANKICONNECT_MODULE = "2055492159"
 LIMIT_KEYS = ("newLimitToday", "new_limit_today")   # camel (legacy JSON) / snake
@@ -219,8 +226,8 @@ def _patch():
             "path": __file__,
             "loadedAt": _LOADED_AT,
             "sourceMtime": _SOURCE_MTIME,
-            "currentMtime": os.path.getmtime(__file__),
-            "stale": os.path.getmtime(__file__) > _SOURCE_MTIME,
+            "currentMtime": _newest_source_mtime(),
+            "stale": _newest_source_mtime() > _SOURCE_MTIME,
             "toggles": {
                 "AUTO_LIMIT_ON_STARTUP": AUTO_LIMIT_ON_STARTUP,
                 "AUTO_LIMIT_ON_DAY_CHANGE": AUTO_LIMIT_ON_DAY_CHANGE,
