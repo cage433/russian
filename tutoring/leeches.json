@@ -343,25 +343,6 @@
     }
    ]
   },
-  "1726634605505": {
-   "front": "firmly, strongly",
-   "back": "кре́пко",
-   "deck": "Vocab::10000 words",
-   "cards": [
-    {
-     "state": "suspended",
-     "lapses": 8,
-     "streak": 12,
-     "last_fail": "2026-06-10"
-    },
-    {
-     "state": "2d",
-     "lapses": 4,
-     "streak": 2,
-     "last_fail": "2026-10-03"
-    }
-   ]
-  },
   "1726634605535": {
    "front": "to belong to / (к +d) be a member of",
    "back": "принадлежа́ть (i) (+d)",

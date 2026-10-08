@@ -1,6 +1,6 @@
 # Leeches — 2026-10-08
 
-46 notes tagged `leech`. Untag a word in the Anki browser if you now know it, then run
+45 notes tagged `leech`. Untag a word in the Anki browser if you now know it, then run
 `scripts/leech_release.py`: it comes back as a **new** word (both directions, history reset)
 at the front of its deck's new queue. `streak` = passes in a row since the last fail.
 
@@ -20,7 +20,6 @@ at the front of its deck's new queue. `streak` = passes in a row since the last 
 | звуча́ть / прозвуча́ть | to sound | suspended, 12 lapses, streak 12, last fail 2026-06-04 | 4d, 1 lapses, streak 0, last fail 2026-10-08 |
 | како́й-нибу́дь | whichever / any kind of | suspended, 13 lapses, streak 10, last fail 2025-11-22 | 4d, 6 lapses, streak 4, last fail 2026-09-26 |
 | кома́ндовать /&nbsp;скома́ндовать &nbsp; (+inst) | to command (sth) | 6d, 7 lapses, streak 4, last fail 2026-09-12 | 105d, 0 lapses, streak 5, last fail — |
-| кре́пко | firmly, strongly | suspended, 8 lapses, streak 12, last fail 2026-06-10 | 2d, 4 lapses, streak 2, last fail 2026-10-03 |
 | кру́пный | large, important | suspended, 17 lapses, streak 5, last fail 2026-07-24 | 16d, 8 lapses, streak 8, last fail 2026-07-22 |
 | кры́ша | roof | suspended, 10 lapses, streak 5, last fail 2026-08-17 | 198d, 0 lapses, streak 5, last fail — |
 | крыло́ | wing | suspended, 5 lapses, streak 0, last fail 2026-10-06 | 64d, 1 lapses, streak 7, last fail 2026-06-23 |
