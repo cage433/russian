@@ -58,25 +58,6 @@
     }
    ]
   },
-  "1726634604602": {
-   "front": "building / building site",
-   "back": "стро́йка",
-   "deck": "Vocab::10000 words",
-   "cards": [
-    {
-     "state": "suspended",
-     "lapses": 10,
-     "streak": 5,
-     "last_fail": "2026-08-05"
-    },
-    {
-     "state": "4d",
-     "lapses": 5,
-     "streak": 7,
-     "last_fail": "2026-09-07"
-    }
-   ]
-  },
   "1726634604616": {
    "front": "military (adj)",
    "back": "вое́нный",
@@ -435,25 +416,6 @@
      "lapses": 1,
      "streak": 10,
      "last_fail": "2026-01-06"
-    }
-   ]
-  },
-  "1726634605499": {
-   "front": "to arrange, put on (an event); to suit s.o.",
-   "back": "устра́ивать / устро́ить (+a)",
-   "deck": "Vocab::10000 words",
-   "cards": [
-    {
-     "state": "suspended",
-     "lapses": 11,
-     "streak": 7,
-     "last_fail": "2026-07-07"
-    },
-    {
-     "state": "suspended",
-     "lapses": 8,
-     "streak": 0,
-     "last_fail": "2026-10-02"
     }
    ]
   },
@@ -853,25 +815,6 @@
      "lapses": 0,
      "streak": 5,
      "last_fail": "—"
-    }
-   ]
-  },
-  "1726634610274": {
-   "front": "to lend (sth to s.o.) [also 'to borrow', but proscribed]",
-   "back": "ода́лживать / одолжи́ть (+a +d)",
-   "deck": "Vocab::10000 words",
-   "cards": [
-    {
-     "state": "suspended",
-     "lapses": 18,
-     "streak": 6,
-     "last_fail": "2026-07-30"
-    },
-    {
-     "state": "10d",
-     "lapses": 2,
-     "streak": 4,
-     "last_fail": "2026-09-06"
     }
    ]
   },

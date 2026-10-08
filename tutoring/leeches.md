@@ -1,6 +1,6 @@
 # Leeches — 2026-10-08
 
-53 notes tagged `leech`. Untag a word in the Anki browser if you now know it, then run
+50 notes tagged `leech`. Untag a word in the Anki browser if you now know it, then run
 `scripts/leech_release.py`: it comes back as a **new** word (both directions, history reset)
 at the front of its deck's new queue. `streak` = passes in a row since the last fail.
 
@@ -32,7 +32,6 @@ at the front of its deck's new queue. `streak` = passes in a row since the last 
 | наслажда́ться / наслади́ться (+inst) | to enjoy, to delight (in) | suspended, 8 lapses, streak 5, last fail 2026-07-31 | 82d, 0 lapses, streak 7, last fail — |
 | обита́емый | inhabited [sense: any living beings] | suspended, 8 lapses, streak 2, last fail 2026-08-24 | 286d, 0 lapses, streak 6, last fail — |
 | обнару́живать / обнару́жить (+a) | to reveal / discover | suspended, 10 lapses, streak 11, last fail 2026-06-03 | 8d, 10 lapses, streak 4, last fail 2026-09-11 |
-| ода́лживать / одолжи́ть (+a +d) | to lend (sth to s.o.) [also 'to borrow', but proscribed] | suspended, 18 lapses, streak 6, last fail 2026-07-30 | 10d, 2 lapses, streak 4, last fail 2026-09-06 |
 | организо́вывать / организова́ть (+a) | to organize, set up (an event, group) | suspended, 8 lapses, streak 0, last fail 2026-09-23 | 128d, 0 lapses, streak 6, last fail — |
 | осуществле́ние | implementation (of a plan) | suspended, 12 lapses, streak 2, last fail 2026-08-26 | suspended, 8 lapses, streak 0, last fail 2026-09-23 |
 | оте́чество | fatherland | suspended, 8 lapses, streak 4, last fail — | 270d, 0 lapses, streak 0, last fail — |
@@ -51,11 +50,9 @@ at the front of its deck's new queue. `streak` = passes in a row since the last 
 | свяще́нник | priest | suspended, 8 lapses, streak 3, last fail — | 50d, 1 lapses, streak 0, last fail 2026-08-25 |
 | среди́ (+g) | among | suspended, 16 lapses, streak 5, last fail 2026-08-03 | 16d, 1 lapses, streak 2, last fail 2026-09-21 |
 | стреля́ть / вы́стрелить (в +a,&nbsp; по +d, из +g, +i) | to shoot (at a specific target) ~ (towards a general area) ~ (with a weapon) ~ (ammunition) | suspended, 16 lapses, streak 9, last fail 2026-06-12 | 188d, 0 lapses, streak 5, last fail — |
-| стро́йка | building / building site | suspended, 10 lapses, streak 5, last fail 2026-08-05 | 4d, 5 lapses, streak 7, last fail 2026-09-07 |
 | торопи́ться / поторопи́ться | to hurry, be in a hurry | suspended, 11 lapses, streak 4, last fail 2026-08-13 | 231d, 0 lapses, streak 6, last fail — |
 | тяну́ть / потяну́ть (+a) | to pull, drag | suspended, 8 lapses, streak 13, last fail 2026-05-16 | 190d, 0 lapses, streak 5, last fail — |
 | устано́вка | installation / directive, aim | suspended, 8 lapses, streak 6, last fail 2026-08-04 | suspended, 12 lapses, streak 0, last fail 2026-09-23 |
-| устра́ивать / устро́ить (+a) | to arrange, put on (an event); to suit s.o. | suspended, 11 lapses, streak 7, last fail 2026-07-07 | suspended, 8 lapses, streak 0, last fail 2026-10-02 |
 | учрежде́ние | establishment, institution | suspended, 13 lapses, streak 11, last fail 2026-04-01 | suspended, 16 lapses, streak 0, last fail 2026-09-26 |
 | черта́ | feature, trait / line | suspended, 9 lapses, streak 0, last fail 2026-08-28 | 22d, 6 lapses, streak 12, last fail 2026-06-28 |
 | шуме́ть / зашуме́ть | to make a noise | suspended, 8 lapses, streak 2, last fail 2026-08-22 | 25d, 2 lapses, streak 6, last fail 2026-07-25 |
