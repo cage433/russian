@@ -251,6 +251,10 @@ lost the tag: Forget all its cards, zero reps/lapses, unsuspend, front of the de
 (EN→RU cards ahead of RU→EN), so they return as new words over the following weeks at the deck's
 rate. It then rewrites the snapshot. **Any untag we do ourselves (recovery rule, restructuring)
 must be followed by `--snapshot`**, or the next release run will Forget those words too.
+**Standing arrangement (Alex, 2026-10-08):** the 25 leeches left after the restructuring stay
+parked for now — enough released words are re-entering the queue over the coming weeks. From time
+to time Alex will name some to "unleech": remove the tag, then run `leech_release.py` (it zeroes the
+lapses and puts them at the front of the queue). Don't release the rest in bulk unprompted.
 
 ## Recovered leeches (FSRS "difficulty hell")
 The collection schedules with **FSRS** (revlog `factor` 100–1000 = difficulty ×100; the 1300–2500
