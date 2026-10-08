@@ -59,7 +59,15 @@ series. Words the textbooks teach that aren't already known get authored as flas
   and word hidden together; meaning column is a standard prefix meaning,
   «(plain)» or «(idiomatic)» only; verbs "to …", adjectives "(adj.)". The gloss index,
   duplicate-headword check and `build_drill_vocab.py` all assume Basic notes and don't see these.
-- New decks sit on the **Default** preset (0 new/day) until the user sets a study rate — don't change it unprompted.
+- **Deck options (since 2026-10-08): every deck uses ONE preset, "Shared"** — Alex wants all settings
+  identical except new cards/day. Shared: 0 new/day, 9999 reviews/day, FSRS, **leeches suspended at 8
+  lapses** (5 would have suspended all 41 leeches that later recovered). A deck's own rate is its
+  **"This deck" limit**, set with the add-on action `setDeckNewLimit(deck, n)` (None clears): 10K 15,
+  Roots 15, B2.1 5, B1.1 1, B1.2 1, «shit you need to know» 10, Verbs::3000 Verbs::16::b 2,
+  Declensions::Adjectives/Nouns 1. **Parents are 9999 = the sum of their children** — except a parent
+  with new cards of its own (only «shit you need to know»), which keeps a real limit. New decks therefore
+  start paused; don't give one a rate unprompted. The old presets (10K-renamed-Shared aside) are unused;
+  don't delete them via AnkiConnect (see `removeDeckConfigId`).
 
 ## Card conventions (match exactly)
 - Note type **"Basic (and reversed card)"**, fields **Front / Back / Example**. Tags = POS (`noun`/`adj`/`verb`/`adv`/…) + `claude`; idioms get `claude` only.
@@ -338,8 +346,9 @@ as opposed to what the positions imply).
   `anki/decks.py` that calls `mod_schema(check=True)`; it raises a full-sync confirmation modal, and
   since AnkiConnect serves requests on Anki's GUI thread that **deadlocks Anki** until the dialog is
   dismissed by hand. (`add_config`/`save`/`update_config` are all prompt-free.)
-- Don't edit the deck's options **preset**: "Paused" is shared with ~50 other decks, and a preset
-  limit is persistent — it keeps letting untagged cards through until manually reset.
+- Don't raise the **Shared** preset's new/day: every deck uses it, so it would open all 80 decks.
+  Per-deck rates go in the "This deck" limit. **A promotion stamp is promoted cards + the deck's own
+  rate** (`_base_rate()`), since the today-only stamp replaces the deck limit for the day.
 - `newCardsIgnoreReviewLimit` is **not** a way around a 0 limit: it is collection-wide and only
   decides whether the *review* limit caps new cards.
 - Don't use `setDueDate 0`: it converts new → *review*, skipping the learning steps.
