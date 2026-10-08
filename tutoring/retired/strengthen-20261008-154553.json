@@ -1,0 +1,601 @@
+{
+ "notes": [
+  {
+   "noteId": 1791237527674,
+   "profile": "User 1",
+   "tags": [
+    "noun",
+    "numbered"
+   ],
+   "fields": {
+    "Text": {
+     "value": "<b>strengthening</b><br><br><table style=\"margin: 0 auto; text-align: left; border-collapse: collapse;\"><tr><td style=\"padding: 2px 10px; vertical-align: top;\">1:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>fortification</i></td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c1::укрепле́ние}}</td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">2:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>intensification</i></td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c2::усиле́ние}}</td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">3:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>consolidation / formal</i></td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c3::упро́чение}}</td></tr></table>",
+     "order": 0
+    },
+    "Back Extra": {
+     "value": "1: Укрепле́ние грани́цы потребова́ло значи́тельных вое́нных ресу́рсов.<br><br>2: Усиле́ние ветра заста́вило моряко́в вернуться в порт.<br><br>3: Упро́чение мира́ в реги́оне оста́ётся гла́вной целью перегово́ров.",
+     "order": 1
+    },
+    "Audio": {
+     "value": "{{c1::[sound:hypertts-b5701c2d5b8bad00ec4bb25932a9a0e04e95f78139cb5937d1848f7b.mp3]}} {{c2::[sound:hypertts-0aa2f50d7d1cb87989243a3a1394ee7bdab265f6c6614049b22a8952.mp3]}} {{c3::[sound:hypertts-aa79c0630829cd717e0a3e6de78e66678bc24fcc2bf1984f2d3e6148.mp3]}}",
+     "order": 2
+    }
+   },
+   "modelName": "Cloze",
+   "mod": 1791255373,
+   "cards": [
+    1791237527674,
+    1791237527675,
+    1791237527676
+   ]
+  },
+  {
+   "noteId": 1791237551552,
+   "profile": "User 1",
+   "tags": [
+    "B2.1-2.2",
+    "native",
+    "numbered",
+    "verb"
+   ],
+   "fields": {
+    "Text": {
+     "value": "<b>to strengthen</b><br><br><table style=\"margin: 0 auto; text-align: left; border-collapse: collapse;\"><tr><td style=\"padding: 2px 10px; vertical-align: top;\">1:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>fortify / consolidate</i></td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c1::укрепля́ть / укрепи́ть (+a)}}</td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">2:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>intensify / amplify</i></td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c2::уси́ливать / уси́лить (+a)}}</td></tr></table>",
+     "order": 0
+    },
+    "Back Extra": {
+     "value": "1: Правительство решило укрепи́ть грани́цы стра́ны до́полнительными войска́ми.<br><br>2: Но́вые дина́мики уси́лили звук на конце́рте в не́сколько раз.",
+     "order": 1
+    },
+    "Audio": {
+     "value": "{{c1::[sound:hypertts-9293acd4c38d1d0e8c521c9b1673844c574d375aaada9ea7891c39b8.mp3]}} {{c2::[sound:hypertts-65b1aeb057cc7e05d3c69c9f0b512aae67fc507968ab3890c4082111.mp3]}}",
+     "order": 2
+    }
+   },
+   "modelName": "Cloze",
+   "mod": 1791255889,
+   "cards": [
+    1791237551552,
+    1791237551553
+   ]
+  },
+  {
+   "noteId": 1726634613052,
+   "profile": "User 1",
+   "tags": [
+    "B2.1-2.2",
+    "native",
+    "verb"
+   ],
+   "fields": {
+    "Front": {
+     "value": "to become stronger / consolidate one’s position",
+     "order": 0
+    },
+    "Back": {
+     "value": "укрепля́ться / укрепи́ться<br><br> [sound:hypertts-211cad31581433d35beea21d37b7848d064c664f744639c98e5da858.mp3]",
+     "order": 1
+    },
+    "Example": {
+     "value": "После реформ экономика страны начала укрепля́ться.",
+     "order": 2
+    }
+   },
+   "modelName": "Basic (and reversed card)",
+   "mod": 1787376872,
+   "cards": [
+    1726634621904,
+    1726634621905
+   ]
+  },
+  {
+   "noteId": 1726634609868,
+   "profile": "User 1",
+   "tags": [
+    "claude",
+    "verb"
+   ],
+   "fields": {
+    "Front": {
+     "value": "to grow stronger, increase",
+     "order": 0
+    },
+    "Back": {
+     "value": "уси́ливаться / уси́литься<br><br> [sound:hypertts-753619c5563f8976cdc61accb6170aed7af8d51487759bb9131b0cea.mp3]",
+     "order": 1
+    },
+    "Example": {
+     "value": "Ве́тер уси́лился к ве́черу и преврати́лся в настоя́щий шторм.",
+     "order": 2
+    }
+   },
+   "modelName": "Basic (and reversed card)",
+   "mod": 1787376872,
+   "cards": [
+    1726634615536,
+    1726634615537
+   ]
+  },
+  {
+   "noteId": 1726634609320,
+   "profile": "User 1",
+   "tags": [
+    "claude",
+    "verb"
+   ],
+   "fields": {
+    "Front": {
+     "value": "to get stronger, grow stronger (impf. / pf.)",
+     "order": 0
+    },
+    "Back": {
+     "value": "кре́пнуть / окре́пнуть<br><br> [sound:hypertts-b6d29510729423368c04e79167bbc36ca6444c70685a0cd53acf2f8b.mp3]",
+     "order": 1
+    },
+    "Example": {
+     "value": "По́сле боле́зни он ме́дленно окре́пнул и верну́лся к обы́чной жи́зни.",
+     "order": 2
+    }
+   },
+   "modelName": "Basic (and reversed card)",
+   "mod": 1787376872,
+   "cards": [
+    1726634614440,
+    1726634614441
+   ]
+  }
+ ],
+ "cards": [
+  {
+   "cardId": 1791237527674,
+   "fields": {
+    "Text": {
+     "value": "<b>strengthening</b><br><br><table style=\"margin: 0 auto; text-align: left; border-collapse: collapse;\"><tr><td style=\"padding: 2px 10px; vertical-align: top;\">1:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>fortification</i></td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c1::укрепле́ние}}</td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">2:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>intensification</i></td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c2::усиле́ние}}</td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">3:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>consolidation / formal</i></td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c3::упро́чение}}</td></tr></table>",
+     "order": 0
+    },
+    "Back Extra": {
+     "value": "1: Укрепле́ние грани́цы потребова́ло значи́тельных вое́нных ресу́рсов.<br><br>2: Усиле́ние ветра заста́вило моряко́в вернуться в порт.<br><br>3: Упро́чение мира́ в реги́оне оста́ётся гла́вной целью перегово́ров.",
+     "order": 1
+    },
+    "Audio": {
+     "value": "{{c1::[sound:hypertts-b5701c2d5b8bad00ec4bb25932a9a0e04e95f78139cb5937d1848f7b.mp3]}} {{c2::[sound:hypertts-0aa2f50d7d1cb87989243a3a1394ee7bdab265f6c6614049b22a8952.mp3]}} {{c3::[sound:hypertts-aa79c0630829cd717e0a3e6de78e66678bc24fcc2bf1984f2d3e6148.mp3]}}",
+     "order": 2
+    }
+   },
+   "fieldOrder": 0,
+   "question": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n\n.cloze {\n font-weight: bold;\n color: blue;\n}\n.nightMode .cloze {\n color: lightblue;\n}\n\ntd.pm, td.pc { display: none; }\ntd.pm.show, td.pc.show { display: table-cell; }\n.pm-toggle { font-size: 0.8em; color: #888; text-decoration: underline; cursor: pointer; display: inline-block; margin: 0 8px 6px; }\n\n.audio-row { text-align: center; margin: 10px 0 1.2em; }\n.example { margin-top: 4px; }\n</style><b>strengthening</b><br><br><table style=\"margin: 0 auto; text-align: left; border-collapse: collapse;\"><tr><td style=\"padding: 2px 10px; vertical-align: top;\">1:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>fortification</i></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze\" data-cloze=\"укрепле́ние\" data-ordinal=\"1\">[...]</span></td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">2:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>intensification</i></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"2\">усиле́ние</span></td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">3:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>consolidation / formal</i></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"3\">упро́чение</span></td></tr></table>\n<script>(function(){if(document.querySelector(\".pm-toggle\"))return;var first=document.querySelector(\"td.pc, td.pm\");if(!first)return;var tb=first.closest(\"table\"),bar=document.createElement(\"div\");[[\"pc\",\"prefixes\"],[\"pm\",\"prefix meanings\"]].forEach(function(p){var cells=document.querySelectorAll(\"td.\"+p[0]);if(!cells.length)return;var t=document.createElement(\"span\");t.className=\"pm-toggle\";t.textContent=p[1];t.onclick=function(){cells.forEach(function(e){e.classList.toggle(\"show\")});};bar.appendChild(t);});tb.parentNode.insertBefore(bar,tb);})();</script>",
+   "answer": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n\n.cloze {\n font-weight: bold;\n color: blue;\n}\n.nightMode .cloze {\n color: lightblue;\n}\n\ntd.pm, td.pc { display: none; }\ntd.pm.show, td.pc.show { display: table-cell; }\n.pm-toggle { font-size: 0.8em; color: #888; text-decoration: underline; cursor: pointer; display: inline-block; margin: 0 8px 6px; }\n\n.audio-row { text-align: center; margin: 10px 0 1.2em; }\n.example { margin-top: 4px; }\n</style><b>strengthening</b><br><br><table style=\"margin: 0 auto; text-align: left; border-collapse: collapse;\"><tr><td style=\"padding: 2px 10px; vertical-align: top;\">1:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>fortification</i></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze\" data-ordinal=\"1\">укрепле́ние</span></td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">2:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>intensification</i></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"2\">усиле́ние</span></td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">3:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>consolidation / formal</i></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"3\">упро́чение</span></td></tr></table>\n<div class=\"audio-row\">[anki:play:a:0]</div>\n<div class=\"example\">1: Укрепле́ние грани́цы потребова́ло значи́тельных вое́нных ресу́рсов.<br><br>2: Усиле́ние ветра заста́вило моряко́в вернуться в порт.<br><br>3: Упро́чение мира́ в реги́оне оста́ётся гла́вной целью перегово́ров.</div>\n<script>(function(){if(document.querySelector(\".pm-toggle\"))return;var first=document.querySelector(\"td.pc, td.pm\");if(!first)return;var tb=first.closest(\"table\"),bar=document.createElement(\"div\");[[\"pc\",\"prefixes\"],[\"pm\",\"prefix meanings\"]].forEach(function(p){var cells=document.querySelectorAll(\"td.\"+p[0]);if(!cells.length)return;var t=document.createElement(\"span\");t.className=\"pm-toggle\";t.textContent=p[1];t.onclick=function(){cells.forEach(function(e){e.classList.toggle(\"show\")});};bar.appendChild(t);});tb.parentNode.insertBefore(bar,tb);})();</script>",
+   "modelName": "Cloze",
+   "ord": 0,
+   "deckName": "Vocab::10000 words",
+   "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n\n.cloze {\n font-weight: bold;\n color: blue;\n}\n.nightMode .cloze {\n color: lightblue;\n}\n\ntd.pm, td.pc { display: none; }\ntd.pm.show, td.pc.show { display: table-cell; }\n.pm-toggle { font-size: 0.8em; color: #888; text-decoration: underline; cursor: pointer; display: inline-block; margin: 0 8px 6px; }\n\n.audio-row { text-align: center; margin: 10px 0 1.2em; }\n.example { margin-top: 4px; }\n",
+   "factor": 0,
+   "interval": 0,
+   "note": 1791237527674,
+   "type": 0,
+   "queue": 0,
+   "due": 10,
+   "reps": 0,
+   "lapses": 0,
+   "left": 0,
+   "mod": 1791440838,
+   "nextReviews": [
+    "⁨20⁩m",
+    "⁨40⁩m",
+    "⁨1⁩h",
+    "⁨25⁩d"
+   ],
+   "flags": 0
+  },
+  {
+   "cardId": 1791237527675,
+   "fields": {
+    "Text": {
+     "value": "<b>strengthening</b><br><br><table style=\"margin: 0 auto; text-align: left; border-collapse: collapse;\"><tr><td style=\"padding: 2px 10px; vertical-align: top;\">1:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>fortification</i></td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c1::укрепле́ние}}</td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">2:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>intensification</i></td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c2::усиле́ние}}</td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">3:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>consolidation / formal</i></td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c3::упро́чение}}</td></tr></table>",
+     "order": 0
+    },
+    "Back Extra": {
+     "value": "1: Укрепле́ние грани́цы потребова́ло значи́тельных вое́нных ресу́рсов.<br><br>2: Усиле́ние ветра заста́вило моряко́в вернуться в порт.<br><br>3: Упро́чение мира́ в реги́оне оста́ётся гла́вной целью перегово́ров.",
+     "order": 1
+    },
+    "Audio": {
+     "value": "{{c1::[sound:hypertts-b5701c2d5b8bad00ec4bb25932a9a0e04e95f78139cb5937d1848f7b.mp3]}} {{c2::[sound:hypertts-0aa2f50d7d1cb87989243a3a1394ee7bdab265f6c6614049b22a8952.mp3]}} {{c3::[sound:hypertts-aa79c0630829cd717e0a3e6de78e66678bc24fcc2bf1984f2d3e6148.mp3]}}",
+     "order": 2
+    }
+   },
+   "fieldOrder": 1,
+   "question": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n\n.cloze {\n font-weight: bold;\n color: blue;\n}\n.nightMode .cloze {\n color: lightblue;\n}\n\ntd.pm, td.pc { display: none; }\ntd.pm.show, td.pc.show { display: table-cell; }\n.pm-toggle { font-size: 0.8em; color: #888; text-decoration: underline; cursor: pointer; display: inline-block; margin: 0 8px 6px; }\n\n.audio-row { text-align: center; margin: 10px 0 1.2em; }\n.example { margin-top: 4px; }\n</style><b>strengthening</b><br><br><table style=\"margin: 0 auto; text-align: left; border-collapse: collapse;\"><tr><td style=\"padding: 2px 10px; vertical-align: top;\">1:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>fortification</i></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"1\">укрепле́ние</span></td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">2:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>intensification</i></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze\" data-cloze=\"усиле́ние\" data-ordinal=\"2\">[...]</span></td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">3:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>consolidation / formal</i></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"3\">упро́чение</span></td></tr></table>\n<script>(function(){if(document.querySelector(\".pm-toggle\"))return;var first=document.querySelector(\"td.pc, td.pm\");if(!first)return;var tb=first.closest(\"table\"),bar=document.createElement(\"div\");[[\"pc\",\"prefixes\"],[\"pm\",\"prefix meanings\"]].forEach(function(p){var cells=document.querySelectorAll(\"td.\"+p[0]);if(!cells.length)return;var t=document.createElement(\"span\");t.className=\"pm-toggle\";t.textContent=p[1];t.onclick=function(){cells.forEach(function(e){e.classList.toggle(\"show\")});};bar.appendChild(t);});tb.parentNode.insertBefore(bar,tb);})();</script>",
+   "answer": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n\n.cloze {\n font-weight: bold;\n color: blue;\n}\n.nightMode .cloze {\n color: lightblue;\n}\n\ntd.pm, td.pc { display: none; }\ntd.pm.show, td.pc.show { display: table-cell; }\n.pm-toggle { font-size: 0.8em; color: #888; text-decoration: underline; cursor: pointer; display: inline-block; margin: 0 8px 6px; }\n\n.audio-row { text-align: center; margin: 10px 0 1.2em; }\n.example { margin-top: 4px; }\n</style><b>strengthening</b><br><br><table style=\"margin: 0 auto; text-align: left; border-collapse: collapse;\"><tr><td style=\"padding: 2px 10px; vertical-align: top;\">1:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>fortification</i></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"1\">укрепле́ние</span></td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">2:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>intensification</i></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze\" data-ordinal=\"2\">усиле́ние</span></td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">3:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>consolidation / formal</i></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"3\">упро́чение</span></td></tr></table>\n<div class=\"audio-row\">[anki:play:a:0]</div>\n<div class=\"example\">1: Укрепле́ние грани́цы потребова́ло значи́тельных вое́нных ресу́рсов.<br><br>2: Усиле́ние ветра заста́вило моряко́в вернуться в порт.<br><br>3: Упро́чение мира́ в реги́оне оста́ётся гла́вной целью перегово́ров.</div>\n<script>(function(){if(document.querySelector(\".pm-toggle\"))return;var first=document.querySelector(\"td.pc, td.pm\");if(!first)return;var tb=first.closest(\"table\"),bar=document.createElement(\"div\");[[\"pc\",\"prefixes\"],[\"pm\",\"prefix meanings\"]].forEach(function(p){var cells=document.querySelectorAll(\"td.\"+p[0]);if(!cells.length)return;var t=document.createElement(\"span\");t.className=\"pm-toggle\";t.textContent=p[1];t.onclick=function(){cells.forEach(function(e){e.classList.toggle(\"show\")});};bar.appendChild(t);});tb.parentNode.insertBefore(bar,tb);})();</script>",
+   "modelName": "Cloze",
+   "ord": 1,
+   "deckName": "Vocab::10000 words",
+   "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n\n.cloze {\n font-weight: bold;\n color: blue;\n}\n.nightMode .cloze {\n color: lightblue;\n}\n\ntd.pm, td.pc { display: none; }\ntd.pm.show, td.pc.show { display: table-cell; }\n.pm-toggle { font-size: 0.8em; color: #888; text-decoration: underline; cursor: pointer; display: inline-block; margin: 0 8px 6px; }\n\n.audio-row { text-align: center; margin: 10px 0 1.2em; }\n.example { margin-top: 4px; }\n",
+   "factor": 0,
+   "interval": 0,
+   "note": 1791237527674,
+   "type": 0,
+   "queue": 0,
+   "due": 10,
+   "reps": 0,
+   "lapses": 0,
+   "left": 0,
+   "mod": 1791440838,
+   "nextReviews": [
+    "⁨20⁩m",
+    "⁨40⁩m",
+    "⁨1⁩h",
+    "⁨27⁩d"
+   ],
+   "flags": 0
+  },
+  {
+   "cardId": 1791237527676,
+   "fields": {
+    "Text": {
+     "value": "<b>strengthening</b><br><br><table style=\"margin: 0 auto; text-align: left; border-collapse: collapse;\"><tr><td style=\"padding: 2px 10px; vertical-align: top;\">1:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>fortification</i></td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c1::укрепле́ние}}</td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">2:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>intensification</i></td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c2::усиле́ние}}</td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">3:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>consolidation / formal</i></td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c3::упро́чение}}</td></tr></table>",
+     "order": 0
+    },
+    "Back Extra": {
+     "value": "1: Укрепле́ние грани́цы потребова́ло значи́тельных вое́нных ресу́рсов.<br><br>2: Усиле́ние ветра заста́вило моряко́в вернуться в порт.<br><br>3: Упро́чение мира́ в реги́оне оста́ётся гла́вной целью перегово́ров.",
+     "order": 1
+    },
+    "Audio": {
+     "value": "{{c1::[sound:hypertts-b5701c2d5b8bad00ec4bb25932a9a0e04e95f78139cb5937d1848f7b.mp3]}} {{c2::[sound:hypertts-0aa2f50d7d1cb87989243a3a1394ee7bdab265f6c6614049b22a8952.mp3]}} {{c3::[sound:hypertts-aa79c0630829cd717e0a3e6de78e66678bc24fcc2bf1984f2d3e6148.mp3]}}",
+     "order": 2
+    }
+   },
+   "fieldOrder": 2,
+   "question": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n\n.cloze {\n font-weight: bold;\n color: blue;\n}\n.nightMode .cloze {\n color: lightblue;\n}\n\ntd.pm, td.pc { display: none; }\ntd.pm.show, td.pc.show { display: table-cell; }\n.pm-toggle { font-size: 0.8em; color: #888; text-decoration: underline; cursor: pointer; display: inline-block; margin: 0 8px 6px; }\n\n.audio-row { text-align: center; margin: 10px 0 1.2em; }\n.example { margin-top: 4px; }\n</style><b>strengthening</b><br><br><table style=\"margin: 0 auto; text-align: left; border-collapse: collapse;\"><tr><td style=\"padding: 2px 10px; vertical-align: top;\">1:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>fortification</i></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"1\">укрепле́ние</span></td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">2:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>intensification</i></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"2\">усиле́ние</span></td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">3:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>consolidation / formal</i></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze\" data-cloze=\"упро́чение\" data-ordinal=\"3\">[...]</span></td></tr></table>\n<script>(function(){if(document.querySelector(\".pm-toggle\"))return;var first=document.querySelector(\"td.pc, td.pm\");if(!first)return;var tb=first.closest(\"table\"),bar=document.createElement(\"div\");[[\"pc\",\"prefixes\"],[\"pm\",\"prefix meanings\"]].forEach(function(p){var cells=document.querySelectorAll(\"td.\"+p[0]);if(!cells.length)return;var t=document.createElement(\"span\");t.className=\"pm-toggle\";t.textContent=p[1];t.onclick=function(){cells.forEach(function(e){e.classList.toggle(\"show\")});};bar.appendChild(t);});tb.parentNode.insertBefore(bar,tb);})();</script>",
+   "answer": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n\n.cloze {\n font-weight: bold;\n color: blue;\n}\n.nightMode .cloze {\n color: lightblue;\n}\n\ntd.pm, td.pc { display: none; }\ntd.pm.show, td.pc.show { display: table-cell; }\n.pm-toggle { font-size: 0.8em; color: #888; text-decoration: underline; cursor: pointer; display: inline-block; margin: 0 8px 6px; }\n\n.audio-row { text-align: center; margin: 10px 0 1.2em; }\n.example { margin-top: 4px; }\n</style><b>strengthening</b><br><br><table style=\"margin: 0 auto; text-align: left; border-collapse: collapse;\"><tr><td style=\"padding: 2px 10px; vertical-align: top;\">1:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>fortification</i></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"1\">укрепле́ние</span></td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">2:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>intensification</i></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"2\">усиле́ние</span></td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">3:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>consolidation / formal</i></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze\" data-ordinal=\"3\">упро́чение</span></td></tr></table>\n<div class=\"audio-row\">[anki:play:a:0]</div>\n<div class=\"example\">1: Укрепле́ние грани́цы потребова́ло значи́тельных вое́нных ресу́рсов.<br><br>2: Усиле́ние ветра заста́вило моряко́в вернуться в порт.<br><br>3: Упро́чение мира́ в реги́оне оста́ётся гла́вной целью перегово́ров.</div>\n<script>(function(){if(document.querySelector(\".pm-toggle\"))return;var first=document.querySelector(\"td.pc, td.pm\");if(!first)return;var tb=first.closest(\"table\"),bar=document.createElement(\"div\");[[\"pc\",\"prefixes\"],[\"pm\",\"prefix meanings\"]].forEach(function(p){var cells=document.querySelectorAll(\"td.\"+p[0]);if(!cells.length)return;var t=document.createElement(\"span\");t.className=\"pm-toggle\";t.textContent=p[1];t.onclick=function(){cells.forEach(function(e){e.classList.toggle(\"show\")});};bar.appendChild(t);});tb.parentNode.insertBefore(bar,tb);})();</script>",
+   "modelName": "Cloze",
+   "ord": 2,
+   "deckName": "Vocab::10000 words",
+   "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n\n.cloze {\n font-weight: bold;\n color: blue;\n}\n.nightMode .cloze {\n color: lightblue;\n}\n\ntd.pm, td.pc { display: none; }\ntd.pm.show, td.pc.show { display: table-cell; }\n.pm-toggle { font-size: 0.8em; color: #888; text-decoration: underline; cursor: pointer; display: inline-block; margin: 0 8px 6px; }\n\n.audio-row { text-align: center; margin: 10px 0 1.2em; }\n.example { margin-top: 4px; }\n",
+   "factor": 0,
+   "interval": 0,
+   "note": 1791237527674,
+   "type": 0,
+   "queue": 0,
+   "due": 10,
+   "reps": 0,
+   "lapses": 0,
+   "left": 0,
+   "mod": 1791440838,
+   "nextReviews": [
+    "⁨20⁩m",
+    "⁨40⁩m",
+    "⁨1⁩h",
+    "⁨22⁩d"
+   ],
+   "flags": 0
+  },
+  {
+   "cardId": 1791237551552,
+   "fields": {
+    "Text": {
+     "value": "<b>to strengthen</b><br><br><table style=\"margin: 0 auto; text-align: left; border-collapse: collapse;\"><tr><td style=\"padding: 2px 10px; vertical-align: top;\">1:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>fortify / consolidate</i></td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c1::укрепля́ть / укрепи́ть (+a)}}</td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">2:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>intensify / amplify</i></td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c2::уси́ливать / уси́лить (+a)}}</td></tr></table>",
+     "order": 0
+    },
+    "Back Extra": {
+     "value": "1: Правительство решило укрепи́ть грани́цы стра́ны до́полнительными войска́ми.<br><br>2: Но́вые дина́мики уси́лили звук на конце́рте в не́сколько раз.",
+     "order": 1
+    },
+    "Audio": {
+     "value": "{{c1::[sound:hypertts-9293acd4c38d1d0e8c521c9b1673844c574d375aaada9ea7891c39b8.mp3]}} {{c2::[sound:hypertts-65b1aeb057cc7e05d3c69c9f0b512aae67fc507968ab3890c4082111.mp3]}}",
+     "order": 2
+    }
+   },
+   "fieldOrder": 0,
+   "question": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n\n.cloze {\n font-weight: bold;\n color: blue;\n}\n.nightMode .cloze {\n color: lightblue;\n}\n\ntd.pm, td.pc { display: none; }\ntd.pm.show, td.pc.show { display: table-cell; }\n.pm-toggle { font-size: 0.8em; color: #888; text-decoration: underline; cursor: pointer; display: inline-block; margin: 0 8px 6px; }\n\n.audio-row { text-align: center; margin: 10px 0 1.2em; }\n.example { margin-top: 4px; }\n</style><b>to strengthen</b><br><br><table style=\"margin: 0 auto; text-align: left; border-collapse: collapse;\"><tr><td style=\"padding: 2px 10px; vertical-align: top;\">1:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>fortify / consolidate</i></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze\" data-cloze=\"укрепля́ть&#x20;&#x2F;&#x20;укрепи́ть&#x20;&#x28;&#x2B;a&#x29;\" data-ordinal=\"1\">[...]</span></td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">2:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>intensify / amplify</i></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"2\">уси́ливать / уси́лить (+a)</span></td></tr></table>\n<script>(function(){if(document.querySelector(\".pm-toggle\"))return;var first=document.querySelector(\"td.pc, td.pm\");if(!first)return;var tb=first.closest(\"table\"),bar=document.createElement(\"div\");[[\"pc\",\"prefixes\"],[\"pm\",\"prefix meanings\"]].forEach(function(p){var cells=document.querySelectorAll(\"td.\"+p[0]);if(!cells.length)return;var t=document.createElement(\"span\");t.className=\"pm-toggle\";t.textContent=p[1];t.onclick=function(){cells.forEach(function(e){e.classList.toggle(\"show\")});};bar.appendChild(t);});tb.parentNode.insertBefore(bar,tb);})();</script>",
+   "answer": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n\n.cloze {\n font-weight: bold;\n color: blue;\n}\n.nightMode .cloze {\n color: lightblue;\n}\n\ntd.pm, td.pc { display: none; }\ntd.pm.show, td.pc.show { display: table-cell; }\n.pm-toggle { font-size: 0.8em; color: #888; text-decoration: underline; cursor: pointer; display: inline-block; margin: 0 8px 6px; }\n\n.audio-row { text-align: center; margin: 10px 0 1.2em; }\n.example { margin-top: 4px; }\n</style><b>to strengthen</b><br><br><table style=\"margin: 0 auto; text-align: left; border-collapse: collapse;\"><tr><td style=\"padding: 2px 10px; vertical-align: top;\">1:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>fortify / consolidate</i></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze\" data-ordinal=\"1\">укрепля́ть / укрепи́ть (+a)</span></td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">2:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>intensify / amplify</i></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"2\">уси́ливать / уси́лить (+a)</span></td></tr></table>\n<div class=\"audio-row\">[anki:play:a:0]</div>\n<div class=\"example\">1: Правительство решило укрепи́ть грани́цы стра́ны до́полнительными войска́ми.<br><br>2: Но́вые дина́мики уси́лили звук на конце́рте в не́сколько раз.</div>\n<script>(function(){if(document.querySelector(\".pm-toggle\"))return;var first=document.querySelector(\"td.pc, td.pm\");if(!first)return;var tb=first.closest(\"table\"),bar=document.createElement(\"div\");[[\"pc\",\"prefixes\"],[\"pm\",\"prefix meanings\"]].forEach(function(p){var cells=document.querySelectorAll(\"td.\"+p[0]);if(!cells.length)return;var t=document.createElement(\"span\");t.className=\"pm-toggle\";t.textContent=p[1];t.onclick=function(){cells.forEach(function(e){e.classList.toggle(\"show\")});};bar.appendChild(t);});tb.parentNode.insertBefore(bar,tb);})();</script>",
+   "modelName": "Cloze",
+   "ord": 0,
+   "deckName": "Vocab::10000 words",
+   "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n\n.cloze {\n font-weight: bold;\n color: blue;\n}\n.nightMode .cloze {\n color: lightblue;\n}\n\ntd.pm, td.pc { display: none; }\ntd.pm.show, td.pc.show { display: table-cell; }\n.pm-toggle { font-size: 0.8em; color: #888; text-decoration: underline; cursor: pointer; display: inline-block; margin: 0 8px 6px; }\n\n.audio-row { text-align: center; margin: 10px 0 1.2em; }\n.example { margin-top: 4px; }\n",
+   "factor": 0,
+   "interval": 0,
+   "note": 1791237551552,
+   "type": 0,
+   "queue": 0,
+   "due": 3667,
+   "reps": 0,
+   "lapses": 0,
+   "left": 0,
+   "mod": 1791237551,
+   "nextReviews": [
+    "⁨20⁩m",
+    "⁨40⁩m",
+    "⁨1⁩h",
+    "⁨22⁩d"
+   ],
+   "flags": 0
+  },
+  {
+   "cardId": 1791237551553,
+   "fields": {
+    "Text": {
+     "value": "<b>to strengthen</b><br><br><table style=\"margin: 0 auto; text-align: left; border-collapse: collapse;\"><tr><td style=\"padding: 2px 10px; vertical-align: top;\">1:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>fortify / consolidate</i></td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c1::укрепля́ть / укрепи́ть (+a)}}</td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">2:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>intensify / amplify</i></td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c2::уси́ливать / уси́лить (+a)}}</td></tr></table>",
+     "order": 0
+    },
+    "Back Extra": {
+     "value": "1: Правительство решило укрепи́ть грани́цы стра́ны до́полнительными войска́ми.<br><br>2: Но́вые дина́мики уси́лили звук на конце́рте в не́сколько раз.",
+     "order": 1
+    },
+    "Audio": {
+     "value": "{{c1::[sound:hypertts-9293acd4c38d1d0e8c521c9b1673844c574d375aaada9ea7891c39b8.mp3]}} {{c2::[sound:hypertts-65b1aeb057cc7e05d3c69c9f0b512aae67fc507968ab3890c4082111.mp3]}}",
+     "order": 2
+    }
+   },
+   "fieldOrder": 1,
+   "question": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n\n.cloze {\n font-weight: bold;\n color: blue;\n}\n.nightMode .cloze {\n color: lightblue;\n}\n\ntd.pm, td.pc { display: none; }\ntd.pm.show, td.pc.show { display: table-cell; }\n.pm-toggle { font-size: 0.8em; color: #888; text-decoration: underline; cursor: pointer; display: inline-block; margin: 0 8px 6px; }\n\n.audio-row { text-align: center; margin: 10px 0 1.2em; }\n.example { margin-top: 4px; }\n</style><b>to strengthen</b><br><br><table style=\"margin: 0 auto; text-align: left; border-collapse: collapse;\"><tr><td style=\"padding: 2px 10px; vertical-align: top;\">1:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>fortify / consolidate</i></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"1\">укрепля́ть / укрепи́ть (+a)</span></td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">2:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>intensify / amplify</i></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze\" data-cloze=\"уси́ливать&#x20;&#x2F;&#x20;уси́лить&#x20;&#x28;&#x2B;a&#x29;\" data-ordinal=\"2\">[...]</span></td></tr></table>\n<script>(function(){if(document.querySelector(\".pm-toggle\"))return;var first=document.querySelector(\"td.pc, td.pm\");if(!first)return;var tb=first.closest(\"table\"),bar=document.createElement(\"div\");[[\"pc\",\"prefixes\"],[\"pm\",\"prefix meanings\"]].forEach(function(p){var cells=document.querySelectorAll(\"td.\"+p[0]);if(!cells.length)return;var t=document.createElement(\"span\");t.className=\"pm-toggle\";t.textContent=p[1];t.onclick=function(){cells.forEach(function(e){e.classList.toggle(\"show\")});};bar.appendChild(t);});tb.parentNode.insertBefore(bar,tb);})();</script>",
+   "answer": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n\n.cloze {\n font-weight: bold;\n color: blue;\n}\n.nightMode .cloze {\n color: lightblue;\n}\n\ntd.pm, td.pc { display: none; }\ntd.pm.show, td.pc.show { display: table-cell; }\n.pm-toggle { font-size: 0.8em; color: #888; text-decoration: underline; cursor: pointer; display: inline-block; margin: 0 8px 6px; }\n\n.audio-row { text-align: center; margin: 10px 0 1.2em; }\n.example { margin-top: 4px; }\n</style><b>to strengthen</b><br><br><table style=\"margin: 0 auto; text-align: left; border-collapse: collapse;\"><tr><td style=\"padding: 2px 10px; vertical-align: top;\">1:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>fortify / consolidate</i></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"1\">укрепля́ть / укрепи́ть (+a)</span></td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">2:</td><td style=\"padding: 2px 10px; vertical-align: top;\"><i>intensify / amplify</i></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze\" data-ordinal=\"2\">уси́ливать / уси́лить (+a)</span></td></tr></table>\n<div class=\"audio-row\">[anki:play:a:0]</div>\n<div class=\"example\">1: Правительство решило укрепи́ть грани́цы стра́ны до́полнительными войска́ми.<br><br>2: Но́вые дина́мики уси́лили звук на конце́рте в не́сколько раз.</div>\n<script>(function(){if(document.querySelector(\".pm-toggle\"))return;var first=document.querySelector(\"td.pc, td.pm\");if(!first)return;var tb=first.closest(\"table\"),bar=document.createElement(\"div\");[[\"pc\",\"prefixes\"],[\"pm\",\"prefix meanings\"]].forEach(function(p){var cells=document.querySelectorAll(\"td.\"+p[0]);if(!cells.length)return;var t=document.createElement(\"span\");t.className=\"pm-toggle\";t.textContent=p[1];t.onclick=function(){cells.forEach(function(e){e.classList.toggle(\"show\")});};bar.appendChild(t);});tb.parentNode.insertBefore(bar,tb);})();</script>",
+   "modelName": "Cloze",
+   "ord": 1,
+   "deckName": "Vocab::10000 words",
+   "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n\n.cloze {\n font-weight: bold;\n color: blue;\n}\n.nightMode .cloze {\n color: lightblue;\n}\n\ntd.pm, td.pc { display: none; }\ntd.pm.show, td.pc.show { display: table-cell; }\n.pm-toggle { font-size: 0.8em; color: #888; text-decoration: underline; cursor: pointer; display: inline-block; margin: 0 8px 6px; }\n\n.audio-row { text-align: center; margin: 10px 0 1.2em; }\n.example { margin-top: 4px; }\n",
+   "factor": 0,
+   "interval": 0,
+   "note": 1791237551552,
+   "type": 0,
+   "queue": 0,
+   "due": 3667,
+   "reps": 0,
+   "lapses": 0,
+   "left": 0,
+   "mod": 1791237551,
+   "nextReviews": [
+    "⁨20⁩m",
+    "⁨40⁩m",
+    "⁨1⁩h",
+    "⁨28⁩d"
+   ],
+   "flags": 0
+  },
+  {
+   "cardId": 1726634621904,
+   "fields": {
+    "Front": {
+     "value": "to become stronger / consolidate one’s position",
+     "order": 0
+    },
+    "Back": {
+     "value": "укрепля́ться / укрепи́ться<br><br> [sound:hypertts-211cad31581433d35beea21d37b7848d064c664f744639c98e5da858.mp3]",
+     "order": 1
+    },
+    "Example": {
+     "value": "После реформ экономика страны начала укрепля́ться.",
+     "order": 2
+    }
+   },
+   "fieldOrder": 0,
+   "question": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>to become stronger / consolidate one’s position",
+   "answer": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>to become stronger / consolidate one’s position\n\n<hr id=answer>\n\nукрепля́ться / укрепи́ться<br><br> [anki:play:a:0]\n<br><br><i>После реформ экономика страны начала укрепля́ться.</i>",
+   "modelName": "Basic (and reversed card)",
+   "ord": 0,
+   "deckName": "Vocab::10000 words",
+   "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
+   "factor": 0,
+   "interval": 0,
+   "note": 1726634613052,
+   "type": 0,
+   "queue": 0,
+   "due": 13145,
+   "reps": 0,
+   "lapses": 0,
+   "left": 0,
+   "mod": 1781060354,
+   "nextReviews": [
+    "⁨20⁩m",
+    "⁨40⁩m",
+    "⁨1⁩h",
+    "⁨23⁩d"
+   ],
+   "flags": 0
+  },
+  {
+   "cardId": 1726634621905,
+   "fields": {
+    "Front": {
+     "value": "to become stronger / consolidate one’s position",
+     "order": 0
+    },
+    "Back": {
+     "value": "укрепля́ться / укрепи́ться<br><br> [sound:hypertts-211cad31581433d35beea21d37b7848d064c664f744639c98e5da858.mp3]",
+     "order": 1
+    },
+    "Example": {
+     "value": "После реформ экономика страны начала укрепля́ться.",
+     "order": 2
+    }
+   },
+   "fieldOrder": 1,
+   "question": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>укрепля́ться / укрепи́ться<br><br> [anki:play:q:0]\n<br><br>\n<a class=hint href=\"#\"\nonclick=\"this.style.display='none';\ndocument.getElementById('hint9ee0d9a6ca84052f').style.display='block';\nreturn false;\" draggable=false>\nExample</a>\n<div id=\"hint9ee0d9a6ca84052f\" class=hint style=\"display: none\">После реформ экономика страны начала укрепля́ться.</div>\n",
+   "answer": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>укрепля́ться / укрепи́ться<br><br> [anki:play:q:0]\n<br><br>\n<a class=hint href=\"#\"\nonclick=\"this.style.display='none';\ndocument.getElementById('hint9ee0d9a6ca84052f').style.display='block';\nreturn false;\" draggable=false>\nExample</a>\n<div id=\"hint9ee0d9a6ca84052f\" class=hint style=\"display: none\">После реформ экономика страны начала укрепля́ться.</div>\n\n\n<hr id=answer>\n\nto become stronger / consolidate one’s position",
+   "modelName": "Basic (and reversed card)",
+   "ord": 1,
+   "deckName": "Vocab::10000 words",
+   "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
+   "factor": 0,
+   "interval": 0,
+   "note": 1726634613052,
+   "type": 0,
+   "queue": 0,
+   "due": 13146,
+   "reps": 0,
+   "lapses": 0,
+   "left": 0,
+   "mod": 1781060354,
+   "nextReviews": [
+    "⁨20⁩m",
+    "⁨40⁩m",
+    "⁨1⁩h",
+    "⁨24⁩d"
+   ],
+   "flags": 0
+  },
+  {
+   "cardId": 1726634615536,
+   "fields": {
+    "Front": {
+     "value": "to grow stronger, increase",
+     "order": 0
+    },
+    "Back": {
+     "value": "уси́ливаться / уси́литься<br><br> [sound:hypertts-753619c5563f8976cdc61accb6170aed7af8d51487759bb9131b0cea.mp3]",
+     "order": 1
+    },
+    "Example": {
+     "value": "Ве́тер уси́лился к ве́черу и преврати́лся в настоя́щий шторм.",
+     "order": 2
+    }
+   },
+   "fieldOrder": 0,
+   "question": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>to grow stronger, increase",
+   "answer": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>to grow stronger, increase\n\n<hr id=answer>\n\nуси́ливаться / уси́литься<br><br> [anki:play:a:0]\n<br><br><i>Ве́тер уси́лился к ве́черу и преврати́лся в настоя́щий шторм.</i>",
+   "modelName": "Basic (and reversed card)",
+   "ord": 0,
+   "deckName": "Vocab::10000 words",
+   "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
+   "factor": 0,
+   "interval": 0,
+   "note": 1726634609868,
+   "type": 0,
+   "queue": 0,
+   "due": 7293,
+   "reps": 0,
+   "lapses": 0,
+   "left": 0,
+   "mod": 1781060208,
+   "nextReviews": [
+    "⁨20⁩m",
+    "⁨40⁩m",
+    "⁨1⁩h",
+    "⁨27⁩d"
+   ],
+   "flags": 0
+  },
+  {
+   "cardId": 1726634615537,
+   "fields": {
+    "Front": {
+     "value": "to grow stronger, increase",
+     "order": 0
+    },
+    "Back": {
+     "value": "уси́ливаться / уси́литься<br><br> [sound:hypertts-753619c5563f8976cdc61accb6170aed7af8d51487759bb9131b0cea.mp3]",
+     "order": 1
+    },
+    "Example": {
+     "value": "Ве́тер уси́лился к ве́черу и преврати́лся в настоя́щий шторм.",
+     "order": 2
+    }
+   },
+   "fieldOrder": 1,
+   "question": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>уси́ливаться / уси́литься<br><br> [anki:play:q:0]\n<br><br>\n<a class=hint href=\"#\"\nonclick=\"this.style.display='none';\ndocument.getElementById('hint7531e63fd238d7fb').style.display='block';\nreturn false;\" draggable=false>\nExample</a>\n<div id=\"hint7531e63fd238d7fb\" class=hint style=\"display: none\">Ве́тер уси́лился к ве́черу и преврати́лся в настоя́щий шторм.</div>\n",
+   "answer": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>уси́ливаться / уси́литься<br><br> [anki:play:q:0]\n<br><br>\n<a class=hint href=\"#\"\nonclick=\"this.style.display='none';\ndocument.getElementById('hint7531e63fd238d7fb').style.display='block';\nreturn false;\" draggable=false>\nExample</a>\n<div id=\"hint7531e63fd238d7fb\" class=hint style=\"display: none\">Ве́тер уси́лился к ве́черу и преврати́лся в настоя́щий шторм.</div>\n\n\n<hr id=answer>\n\nto grow stronger, increase",
+   "modelName": "Basic (and reversed card)",
+   "ord": 1,
+   "deckName": "Vocab::10000 words",
+   "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
+   "factor": 0,
+   "interval": 0,
+   "note": 1726634609868,
+   "type": 0,
+   "queue": 0,
+   "due": 7294,
+   "reps": 0,
+   "lapses": 0,
+   "left": 0,
+   "mod": 1781060208,
+   "nextReviews": [
+    "⁨20⁩m",
+    "⁨40⁩m",
+    "⁨1⁩h",
+    "⁨26⁩d"
+   ],
+   "flags": 0
+  },
+  {
+   "cardId": 1726634614440,
+   "fields": {
+    "Front": {
+     "value": "to get stronger, grow stronger (impf. / pf.)",
+     "order": 0
+    },
+    "Back": {
+     "value": "кре́пнуть / окре́пнуть<br><br> [sound:hypertts-b6d29510729423368c04e79167bbc36ca6444c70685a0cd53acf2f8b.mp3]",
+     "order": 1
+    },
+    "Example": {
+     "value": "По́сле боле́зни он ме́дленно окре́пнул и верну́лся к обы́чной жи́зни.",
+     "order": 2
+    }
+   },
+   "fieldOrder": 0,
+   "question": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>to get stronger, grow stronger (impf. / pf.)",
+   "answer": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>to get stronger, grow stronger (impf. / pf.)\n\n<hr id=answer>\n\nкре́пнуть / окре́пнуть<br><br> [anki:play:a:0]\n<br><br><i>По́сле боле́зни он ме́дленно окре́пнул и верну́лся к обы́чной жи́зни.</i>",
+   "modelName": "Basic (and reversed card)",
+   "ord": 0,
+   "deckName": "Vocab::10000 words",
+   "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
+   "factor": 0,
+   "interval": 0,
+   "note": 1726634609320,
+   "type": 0,
+   "queue": 0,
+   "due": 6287,
+   "reps": 0,
+   "lapses": 0,
+   "left": 0,
+   "mod": 1781060183,
+   "nextReviews": [
+    "⁨20⁩m",
+    "⁨40⁩m",
+    "⁨1⁩h",
+    "⁨26⁩d"
+   ],
+   "flags": 0
+  },
+  {
+   "cardId": 1726634614441,
+   "fields": {
+    "Front": {
+     "value": "to get stronger, grow stronger (impf. / pf.)",
+     "order": 0
+    },
+    "Back": {
+     "value": "кре́пнуть / окре́пнуть<br><br> [sound:hypertts-b6d29510729423368c04e79167bbc36ca6444c70685a0cd53acf2f8b.mp3]",
+     "order": 1
+    },
+    "Example": {
+     "value": "По́сле боле́зни он ме́дленно окре́пнул и верну́лся к обы́чной жи́зни.",
+     "order": 2
+    }
+   },
+   "fieldOrder": 1,
+   "question": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>кре́пнуть / окре́пнуть<br><br> [anki:play:q:0]\n<br><br>\n<a class=hint href=\"#\"\nonclick=\"this.style.display='none';\ndocument.getElementById('hint6fc32c8b9aba49c7').style.display='block';\nreturn false;\" draggable=false>\nExample</a>\n<div id=\"hint6fc32c8b9aba49c7\" class=hint style=\"display: none\">По́сле боле́зни он ме́дленно окре́пнул и верну́лся к обы́чной жи́зни.</div>\n",
+   "answer": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>кре́пнуть / окре́пнуть<br><br> [anki:play:q:0]\n<br><br>\n<a class=hint href=\"#\"\nonclick=\"this.style.display='none';\ndocument.getElementById('hint6fc32c8b9aba49c7').style.display='block';\nreturn false;\" draggable=false>\nExample</a>\n<div id=\"hint6fc32c8b9aba49c7\" class=hint style=\"display: none\">По́сле боле́зни он ме́дленно окре́пнул и верну́лся к обы́чной жи́зни.</div>\n\n\n<hr id=answer>\n\nto get stronger, grow stronger (impf. / pf.)",
+   "modelName": "Basic (and reversed card)",
+   "ord": 1,
+   "deckName": "Vocab::10000 words",
+   "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
+   "factor": 0,
+   "interval": 0,
+   "note": 1726634609320,
+   "type": 0,
+   "queue": 0,
+   "due": 6288,
+   "reps": 0,
+   "lapses": 0,
+   "left": 0,
+   "mod": 1781060183,
+   "nextReviews": [
+    "⁨20⁩m",
+    "⁨40⁩m",
+    "⁨1⁩h",
+    "⁨24⁩d"
+   ],
+   "flags": 0
+  }
+ ]
+}
