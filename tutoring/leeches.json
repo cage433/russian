@@ -172,25 +172,6 @@
     }
    ]
   },
-  "1726634605111": {
-   "front": "peaceful, peaceable / civilian (adj)",
-   "back": "ми́рный",
-   "deck": "Vocab::10000 words",
-   "cards": [
-    {
-     "state": "suspended",
-     "lapses": 11,
-     "streak": 6,
-     "last_fail": "2026-08-01"
-    },
-    {
-     "state": "suspended",
-     "lapses": 8,
-     "streak": 0,
-     "last_fail": "2026-09-24"
-    }
-   ]
-  },
   "1726634605155": {
    "front": "to obtain, achieve, attain (through effort)",
    "back": "добива́ться / доби́ться (+g)",

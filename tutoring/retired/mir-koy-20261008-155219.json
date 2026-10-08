@@ -1,0 +1,6536 @@
+{
+ "notes": [
+  {
+   "noteId": 1726634604455,
+   "profile": "User 1",
+   "tags": [
+    "noun"
+   ],
+   "fields": {
+    "Front": {
+     "value": "world / peace",
+     "order": 0
+    },
+    "Back": {
+     "value": "мир<br><br> [sound:hypertts-6634936d8fb5c7c3496d046862c05344e4bfa563796ad6315212ea7b.mp3]",
+     "order": 1
+    },
+    "Example": {
+     "value": "Он верну́лся домо́й и почу́вствовал, что мир стал лу́чше.",
+     "order": 2
+    }
+   },
+   "modelName": "Basic (and reversed card)",
+   "mod": 1787376872,
+   "cards": [
+    1726634604710,
+    1726634604711
+   ]
+  },
+  {
+   "noteId": 1726634605111,
+   "profile": "User 1",
+   "tags": [
+    "adj",
+    "leech"
+   ],
+   "fields": {
+    "Front": {
+     "value": "peaceful, peaceable / civilian (adj)",
+     "order": 0
+    },
+    "Back": {
+     "value": "ми́рный<br><br> [sound:hypertts-9e66dbe7edd532fd177b4d4f89f0b8fc359d0d1c976aba82c60f320a.mp3]",
+     "order": 1
+    },
+    "Example": {
+     "value": "Ми́рные жи́тели покинули го́род в нача́ле вооружённого конфли́кта.",
+     "order": 2
+    }
+   },
+   "modelName": "Basic (and reversed card)",
+   "mod": 1791440639,
+   "cards": [
+    1726634606022,
+    1726634606023
+   ]
+  },
+  {
+   "noteId": 1726634609746,
+   "profile": "User 1",
+   "tags": [
+    "adv",
+    "claude"
+   ],
+   "fields": {
+    "Front": {
+     "value": "peacefully",
+     "order": 0
+    },
+    "Back": {
+     "value": "ми́рно<br><br> [sound:hypertts-964a0b3dcd24f8df7db2f52f1b6254d03b017c07c50b6a4b29e7e7c9.mp3]",
+     "order": 1
+    },
+    "Example": {
+     "value": "Два со́седа ми́рно беседова́ли на скаме́йке у подъе́зда.",
+     "order": 2
+    }
+   },
+   "modelName": "Basic (and reversed card)",
+   "mod": 1787376872,
+   "cards": [
+    1726634615292,
+    1726634615293
+   ]
+  },
+  {
+   "noteId": 1726634604806,
+   "profile": "User 1",
+   "tags": [
+    "adj"
+   ],
+   "fields": {
+    "Front": {
+     "value": "world (adj)",
+     "order": 0
+    },
+    "Back": {
+     "value": "мирово́й<br><br> [sound:hypertts-0719cf6b1a90635930e526fe8bef15e700b37c739c074f8ae4173dfc.mp3]",
+     "order": 1
+    },
+    "Example": {
+     "value": "Мирово́й ры́нок нефти резко отреагировал на но́вости из реги́она.",
+     "order": 2
+    }
+   },
+   "modelName": "Basic (and reversed card)",
+   "mod": 1787376872,
+   "cards": [
+    1726634605412,
+    1726634605413
+   ]
+  },
+  {
+   "noteId": 1726634606734,
+   "profile": "User 1",
+   "tags": [
+    "adj",
+    "claude"
+   ],
+   "fields": {
+    "Front": {
+     "value": "world, worldwide",
+     "order": 0
+    },
+    "Back": {
+     "value": "всеми́рный<br><br> [sound:hypertts-68fa101e5e0d5e7c21443a666c1176736672f2e3857683b1468847c0.mp3]",
+     "order": 1
+    },
+    "Example": {
+     "value": "Всеми́рная исто́рия знает мно́го приме́ров подъёма и паде́ния импе́рий.",
+     "order": 2
+    }
+   },
+   "modelName": "Basic (and reversed card)",
+   "mod": 1787376872,
+   "cards": [
+    1726634609268,
+    1726634609269
+   ]
+  },
+  {
+   "noteId": 1726634608315,
+   "profile": "User 1",
+   "tags": [
+    "adj",
+    "claude"
+   ],
+   "fields": {
+    "Front": {
+     "value": "peace-loving",
+     "order": 0
+    },
+    "Back": {
+     "value": "миролюби́вый<br><br> [sound:hypertts-db2c4433df6f68d062290cd4a0be4bcb78fd124794ad2be0f6e9467a.mp3]",
+     "order": 1
+    },
+    "Example": {
+     "value": "Это миролюби́вый наро́д, кото́рый никогда́ не начина́л войн.",
+     "order": 2
+    }
+   },
+   "modelName": "Basic (and reversed card)",
+   "mod": 1787376872,
+   "cards": [
+    1726634612430,
+    1726634612431
+   ]
+  },
+  {
+   "noteId": 1726634612913,
+   "profile": "User 1",
+   "tags": [
+    "claude",
+    "noun"
+   ],
+   "fields": {
+    "Front": {
+     "value": "reconciliation",
+     "order": 0
+    },
+    "Back": {
+     "value": "примире́ние<br><br> [sound:hypertts-d8eecd599a57e344a32b313d8ce839d8403f8754a7af63d1a1c9a5d8.mp3]",
+     "order": 1
+    },
+    "Example": {
+     "value": "По́сле до́лгого спо́ра брат и сестра́ нашли́ приме́рение и обня́лись.",
+     "order": 2
+    }
+   },
+   "modelName": "Basic (and reversed card)",
+   "mod": 1787376872,
+   "cards": [
+    1726634621626,
+    1726634621627
+   ]
+  },
+  {
+   "noteId": 1726634606921,
+   "profile": "User 1",
+   "tags": [
+    "adv",
+    "claude"
+   ],
+   "fields": {
+    "Front": {
+     "value": "meekly, obediently; (as command) at attention!",
+     "order": 0
+    },
+    "Back": {
+     "value": "сми́рно<br><br> [sound:hypertts-052cb088ddb335df00287bd36081eb94e9d813ffb676bfeecee88761.mp3]",
+     "order": 1
+    },
+    "Example": {
+     "value": "Солда́ты стоя́ли сми́рно и жда́ли прика́за.",
+     "order": 2
+    }
+   },
+   "modelName": "Basic (and reversed card)",
+   "mod": 1787376872,
+   "cards": [
+    1726634609642,
+    1726634609643
+   ]
+  },
+  {
+   "noteId": 1726634605849,
+   "profile": "User 1",
+   "tags": [
+    "adj"
+   ],
+   "fields": {
+    "Front": {
+     "value": "peace, quiet",
+     "order": 0
+    },
+    "Back": {
+     "value": "поко́й<br><br> [sound:hypertts-7275d56d00d37538bd887fb4ede032942a31eed431091308f6b05a09.mp3]",
+     "order": 1
+    },
+    "Example": {
+     "value": "После шумного дня он наконец нашёл поко́й в тишине своей комнаты.",
+     "order": 2
+    }
+   },
+   "modelName": "Basic (and reversed card)",
+   "mod": 1787376872,
+   "cards": [
+    1726634607498,
+    1726634607499
+   ]
+  },
+  {
+   "noteId": 1726634605449,
+   "profile": "User 1",
+   "tags": [
+    "adj"
+   ],
+   "fields": {
+    "Front": {
+     "value": "calm (adj)",
+     "order": 0
+    },
+    "Back": {
+     "value": "споко́йный<br><br> [sound:hypertts-73d4bf169eacd69734331558c911e22e9c61bf78c21e9eb0a610f426.mp3]",
+     "order": 1
+    },
+    "Example": {
+     "value": "Де́душка был споко́йным челове́ком и никогда́ не повыша́л го́лоса.",
+     "order": 2
+    }
+   },
+   "modelName": "Basic (and reversed card)",
+   "mod": 1787376872,
+   "cards": [
+    1726634606698,
+    1726634606699
+   ]
+  },
+  {
+   "noteId": 1726634604671,
+   "profile": "User 1",
+   "tags": [
+    "adv"
+   ],
+   "fields": {
+    "Front": {
+     "value": "calmly, quietly",
+     "order": 0
+    },
+    "Back": {
+     "value": "споко́йно<br><br> [sound:hypertts-9309f814114b67a1af4d46c436b096d314fd01932e3c78a6ee17cf65.mp3]",
+     "order": 1
+    },
+    "Example": {
+     "value": "Она споко́йно объяснила ситуацию, не повышая голоса.",
+     "order": 2
+    }
+   },
+   "modelName": "Basic (and reversed card)",
+   "mod": 1787376872,
+   "cards": [
+    1726634605142,
+    1726634605143
+   ]
+  },
+  {
+   "noteId": 1726634608460,
+   "profile": "User 1",
+   "tags": [
+    "B1.2-3.3",
+    "claude",
+    "native",
+    "noun"
+   ],
+   "fields": {
+    "Front": {
+     "value": "calmness",
+     "order": 0
+    },
+    "Back": {
+     "value": "споко́йствие<br><br> [sound:hypertts-9147ad92457c6c47ec9d9b639f4389918f0bcf89354103342b90048f.mp3]",
+     "order": 1
+    },
+    "Example": {
+     "value": "Её споко́йствие в труд́ный момент удиви́ло всех.",
+     "order": 2
+    }
+   },
+   "modelName": "Basic (and reversed card)",
+   "mod": 1787376872,
+   "cards": [
+    1726634612720,
+    1726634612721
+   ]
+  },
+  {
+   "noteId": 1726634609055,
+   "profile": "User 1",
+   "tags": [
+    "B2.1-1.3",
+    "claude",
+    "native",
+    "verb"
+   ],
+   "fields": {
+    "Front": {
+     "value": "to calm, soothe, quieten",
+     "order": 0
+    },
+    "Back": {
+     "value": "успока́ивать / успоко́ить (+a)<br><br> [sound:hypertts-1ca703cb351e2fa40b6ef9b27af7f86673aa996c42ffe98de6a5f58c.mp3]",
+     "order": 1
+    },
+    "Example": {
+     "value": "Ма́ма успоко́ила ребёнка, спев ему́ колыбе́льную пе́сню.",
+     "order": 2
+    }
+   },
+   "modelName": "Basic (and reversed card)",
+   "mod": 1787376872,
+   "cards": [
+    1726634613910,
+    1726634613911
+   ]
+  },
+  {
+   "noteId": 1726634607254,
+   "profile": "User 1",
+   "tags": [
+    "adj",
+    "claude"
+   ],
+   "fields": {
+    "Front": {
+     "value": "1: calm, peaceful<br>2: late, deceased",
+     "order": 0
+    },
+    "Back": {
+     "value": "поко́йный<br><br> [sound:hypertts-9d563bef8480bb461cc2ed41220aaff76cc4e8579af4f693b3ddae25.mp3]",
+     "order": 1
+    },
+    "Example": {
+     "value": "1: Поко́йный вечер у камина помог снять усталость после трудного дня.<br><br>2: Поко́йный профессор оставил после себя большую научную библиотеку.",
+     "order": 2
+    }
+   },
+   "modelName": "Basic (and reversed card)",
+   "mod": 1787376872,
+   "cards": [
+    1726634610308,
+    1726634610309
+   ]
+  },
+  {
+   "noteId": 1726634608842,
+   "profile": "User 1",
+   "tags": [
+    "claude",
+    "verb"
+   ],
+   "fields": {
+    "Front": {
+     "value": "to rest, repose (on)",
+     "order": 0
+    },
+    "Back": {
+     "value": "поко́иться (i) (на +pr)<br><br> [sound:hypertts-6a8f701e3681243464345dafc49998e6147f4649f5cd5f4dc68de714.mp3]",
+     "order": 1
+    },
+    "Example": {
+     "value": "Реше́ние руководства поко́илось на результатах долгого исследования.",
+     "order": 2
+    }
+   },
+   "modelName": "Basic (and reversed card)",
+   "mod": 1787376872,
+   "cards": [
+    1726634613484,
+    1726634613485
+   ]
+  },
+  {
+   "noteId": 1726634607459,
+   "profile": "User 1",
+   "tags": [
+    "B1.1-1.4",
+    "claude",
+    "native",
+    "verb"
+   ],
+   "fields": {
+    "Front": {
+     "value": "to worry (s.o.)",
+     "order": 0
+    },
+    "Back": {
+     "value": "беспоко́ить / обеспоко́ить / побеспоко́ить (+a)<br><br> [sound:hypertts-884d034827f27f241200e650764a1a7f91c36d36c51cc97e3c9dc65b.mp3]",
+     "order": 1
+    },
+    "Example": {
+     "value": "Не беспоко́й меня по пустякам, я сейчас занят.",
+     "order": 2
+    }
+   },
+   "modelName": "Basic (and reversed card)",
+   "mod": 1787376872,
+   "cards": [
+    1726634610718,
+    1726634610719
+   ]
+  },
+  {
+   "noteId": 1726634605640,
+   "profile": "User 1",
+   "tags": [
+    "verb"
+   ],
+   "fields": {
+    "Front": {
+     "value": "to worry (about), be uneasy (about)<br><br>[<i>think: to bother or disturb oneself</i>]",
+     "order": 0
+    },
+    "Back": {
+     "value": "беспоко́иться / обеспоко́иться&nbsp;(о +pr)<br><br> [sound:hypertts-34ffdd55040481328149f8a5e97f4aa47b1bc5c0c2f1429c676bb9ef.mp3]",
+     "order": 1
+    },
+    "Example": {
+     "value": "Мать беспоко́илась о сыне, кото́рый не отвеча́л на звонки́.",
+     "order": 2
+    }
+   },
+   "modelName": "Basic (and reversed card)",
+   "mod": 1787376872,
+   "cards": [
+    1726634607080,
+    1726634607081
+   ]
+  },
+  {
+   "noteId": 1726634607362,
+   "profile": "User 1",
+   "tags": [
+    "B2.1-2.1",
+    "claude",
+    "native",
+    "noun"
+   ],
+   "fields": {
+    "Front": {
+     "value": "agitation, anxiety",
+     "order": 0
+    },
+    "Back": {
+     "value": "беспоко́йство<br><br> [sound:hypertts-89487ce8aae8f18bb149e1ff88120a3eac713d56937e7e005e0d8b2a.mp3]",
+     "order": 1
+    },
+    "Example": {
+     "value": "Беспоко́йство роди́телей росло́, пока́ сын не позвони́л им.",
+     "order": 2
+    }
+   },
+   "modelName": "Basic (and reversed card)",
+   "mod": 1787376872,
+   "cards": [
+    1726634610524,
+    1726634610525
+   ]
+  },
+  {
+   "noteId": 1726634609273,
+   "profile": "User 1",
+   "tags": [
+    "adv",
+    "claude"
+   ],
+   "fields": {
+    "Front": {
+     "value": "restlessly, uneasily / anxiously",
+     "order": 0
+    },
+    "Back": {
+     "value": "беспоко́йно<br><br> [sound:hypertts-2f72bd9e3daadf4cba41102e9a68401ee8a1112b209afeab4e5387f5.mp3]",
+     "order": 1
+    },
+    "Example": {
+     "value": "Она́ беспоко́йно смотре́ла в окно́, ожида́я возвраще́ния сы́на.",
+     "order": 2
+    }
+   },
+   "modelName": "Basic (and reversed card)",
+   "mod": 1787376872,
+   "cards": [
+    1726634614346,
+    1726634614347
+   ]
+  }
+ ],
+ "cards": [
+  {
+   "cardId": 1726634604710,
+   "fields": {
+    "Front": {
+     "value": "world / peace",
+     "order": 0
+    },
+    "Back": {
+     "value": "мир<br><br> [sound:hypertts-6634936d8fb5c7c3496d046862c05344e4bfa563796ad6315212ea7b.mp3]",
+     "order": 1
+    },
+    "Example": {
+     "value": "Он верну́лся домо́й и почу́вствовал, что мир стал лу́чше.",
+     "order": 2
+    }
+   },
+   "fieldOrder": 0,
+   "question": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>world / peace",
+   "answer": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>world / peace\n\n<hr id=answer>\n\nмир<br><br> [anki:play:a:0]\n<br><br><i>Он верну́лся домо́й и почу́вствовал, что мир стал лу́чше.</i>",
+   "modelName": "Basic (and reversed card)",
+   "ord": 0,
+   "deckName": "Vocab::10000 words",
+   "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
+   "factor": 2650,
+   "interval": 354,
+   "note": 1726634604455,
+   "type": 2,
+   "queue": 2,
+   "due": 1769,
+   "reps": 5,
+   "lapses": 0,
+   "left": 0,
+   "mod": 1789426317,
+   "nextReviews": [
+    "⁨30⁩m",
+    "⁨1.1⁩y",
+    "⁨2.3⁩y",
+    "⁨4.5⁩y"
+   ],
+   "flags": 0
+  },
+  {
+   "cardId": 1726634604711,
+   "fields": {
+    "Front": {
+     "value": "world / peace",
+     "order": 0
+    },
+    "Back": {
+     "value": "мир<br><br> [sound:hypertts-6634936d8fb5c7c3496d046862c05344e4bfa563796ad6315212ea7b.mp3]",
+     "order": 1
+    },
+    "Example": {
+     "value": "Он верну́лся домо́й и почу́вствовал, что мир стал лу́чше.",
+     "order": 2
+    }
+   },
+   "fieldOrder": 1,
+   "question": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>мир<br><br> [anki:play:q:0]\n<br><br>\n<a class=hint href=\"#\"\nonclick=\"this.style.display='none';\ndocument.getElementById('hint647ef87440cb30e0').style.display='block';\nreturn false;\" draggable=false>\nExample</a>\n<div id=\"hint647ef87440cb30e0\" class=hint style=\"display: none\">Он верну́лся домо́й и почу́вствовал, что мир стал лу́чше.</div>\n",
+   "answer": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>мир<br><br> [anki:play:q:0]\n<br><br>\n<a class=hint href=\"#\"\nonclick=\"this.style.display='none';\ndocument.getElementById('hint647ef87440cb30e0').style.display='block';\nreturn false;\" draggable=false>\nExample</a>\n<div id=\"hint647ef87440cb30e0\" class=hint style=\"display: none\">Он верну́лся домо́й и почу́вствовал, что мир стал лу́чше.</div>\n\n\n<hr id=answer>\n\nworld / peace",
+   "modelName": "Basic (and reversed card)",
+   "ord": 1,
+   "deckName": "Vocab::10000 words",
+   "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
+   "factor": 2650,
+   "interval": 836,
+   "note": 1726634604455,
+   "type": 2,
+   "queue": 2,
+   "due": 2525,
+   "reps": 6,
+   "lapses": 0,
+   "left": 0,
+   "mod": 1789426317,
+   "nextReviews": [
+    "⁨30⁩m",
+    "⁨2.3⁩y",
+    "⁨2.3⁩y",
+    "⁨2.5⁩y"
+   ],
+   "flags": 0
+  },
+  {
+   "cardId": 1726634606022,
+   "fields": {
+    "Front": {
+     "value": "peaceful, peaceable / civilian (adj)",
+     "order": 0
+    },
+    "Back": {
+     "value": "ми́рный<br><br> [sound:hypertts-9e66dbe7edd532fd177b4d4f89f0b8fc359d0d1c976aba82c60f320a.mp3]",
+     "order": 1
+    },
+    "Example": {
+     "value": "Ми́рные жи́тели покинули го́род в нача́ле вооружённого конфли́кта.",
+     "order": 2
+    }
+   },
+   "fieldOrder": 0,
+   "question": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>peaceful, peaceable / civilian (adj)",
+   "answer": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>peaceful, peaceable / civilian (adj)\n\n<hr id=answer>\n\nми́рный<br><br> [anki:play:a:0]\n<br><br><i>Ми́рные жи́тели покинули го́род в нача́ле вооружённого конфли́кта.</i>",
+   "modelName": "Basic (and reversed card)",
+   "ord": 0,
+   "deckName": "Vocab::10000 words",
+   "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
+   "factor": 1450,
+   "interval": 7,
+   "note": 1726634605111,
+   "type": 2,
+   "queue": -1,
+   "due": 1689,
+   "reps": 64,
+   "lapses": 11,
+   "left": 0,
+   "mod": 1789426317,
+   "nextReviews": [
+    "⁨30⁩m",
+    "⁨8⁩d",
+    "⁨10⁩d",
+    "⁨18⁩d"
+   ],
+   "flags": 0
+  },
+  {
+   "cardId": 1726634606023,
+   "fields": {
+    "Front": {
+     "value": "peaceful, peaceable / civilian (adj)",
+     "order": 0
+    },
+    "Back": {
+     "value": "ми́рный<br><br> [sound:hypertts-9e66dbe7edd532fd177b4d4f89f0b8fc359d0d1c976aba82c60f320a.mp3]",
+     "order": 1
+    },
+    "Example": {
+     "value": "Ми́рные жи́тели покинули го́род в нача́ле вооружённого конфли́кта.",
+     "order": 2
+    }
+   },
+   "fieldOrder": 1,
+   "question": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>ми́рный<br><br> [anki:play:q:0]\n<br><br>\n<a class=hint href=\"#\"\nonclick=\"this.style.display='none';\ndocument.getElementById('hintedde9d781551457d').style.display='block';\nreturn false;\" draggable=false>\nExample</a>\n<div id=\"hintedde9d781551457d\" class=hint style=\"display: none\">Ми́рные жи́тели покинули го́род в нача́ле вооружённого конфли́кта.</div>\n",
+   "answer": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>ми́рный<br><br> [anki:play:q:0]\n<br><br>\n<a class=hint href=\"#\"\nonclick=\"this.style.display='none';\ndocument.getElementById('hintedde9d781551457d').style.display='block';\nreturn false;\" draggable=false>\nExample</a>\n<div id=\"hintedde9d781551457d\" class=hint style=\"display: none\">Ми́рные жи́тели покинули го́род в нача́ле вооружённого конфли́кта.</div>\n\n\n<hr id=answer>\n\npeaceful, peaceable / civilian (adj)",
+   "modelName": "Basic (and reversed card)",
+   "ord": 1,
+   "deckName": "Vocab::10000 words",
+   "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
+   "factor": 1300,
+   "interval": 2,
+   "note": 1726634605111,
+   "type": 3,
+   "queue": -1,
+   "due": 1790254588,
+   "reps": 51,
+   "lapses": 8,
+   "left": 1,
+   "mod": 1790252558,
+   "nextReviews": [
+    "⁨30⁩m",
+    "⁨45⁩m",
+    "⁨4⁩d",
+    "⁨8⁩d"
+   ],
+   "flags": 0
+  },
+  {
+   "cardId": 1726634615292,
+   "fields": {
+    "Front": {
+     "value": "peacefully",
+     "order": 0
+    },
+    "Back": {
+     "value": "ми́рно<br><br> [sound:hypertts-964a0b3dcd24f8df7db2f52f1b6254d03b017c07c50b6a4b29e7e7c9.mp3]",
+     "order": 1
+    },
+    "Example": {
+     "value": "Два со́седа ми́рно беседова́ли на скаме́йке у подъе́зда.",
+     "order": 2
+    }
+   },
+   "fieldOrder": 0,
+   "question": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>peacefully",
+   "answer": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>peacefully\n\n<hr id=answer>\n\nми́рно<br><br> [anki:play:a:0]\n<br><br><i>Два со́седа ми́рно беседова́ли на скаме́йке у подъе́зда.</i>",
+   "modelName": "Basic (and reversed card)",
+   "ord": 0,
+   "deckName": "Vocab::10000 words",
+   "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
+   "factor": 0,
+   "interval": 0,
+   "note": 1726634609746,
+   "type": 0,
+   "queue": 0,
+   "due": 7075,
+   "reps": 0,
+   "lapses": 0,
+   "left": 0,
+   "mod": 1781060202,
+   "nextReviews": [
+    "⁨20⁩m",
+    "⁨40⁩m",
+    "⁨1⁩h",
+    "⁨23⁩d"
+   ],
+   "flags": 0
+  },
+  {
+   "cardId": 1726634615293,
+   "fields": {
+    "Front": {
+     "value": "peacefully",
+     "order": 0
+    },
+    "Back": {
+     "value": "ми́рно<br><br> [sound:hypertts-964a0b3dcd24f8df7db2f52f1b6254d03b017c07c50b6a4b29e7e7c9.mp3]",
+     "order": 1
+    },
+    "Example": {
+     "value": "Два со́седа ми́рно беседова́ли на скаме́йке у подъе́зда.",
+     "order": 2
+    }
+   },
+   "fieldOrder": 1,
+   "question": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>ми́рно<br><br> [anki:play:q:0]\n<br><br>\n<a class=hint href=\"#\"\nonclick=\"this.style.display='none';\ndocument.getElementById('hinteefd811070798a12').style.display='block';\nreturn false;\" draggable=false>\nExample</a>\n<div id=\"hinteefd811070798a12\" class=hint style=\"display: none\">Два со́седа ми́рно беседова́ли на скаме́йке у подъе́зда.</div>\n",
+   "answer": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>ми́рно<br><br> [anki:play:q:0]\n<br><br>\n<a class=hint href=\"#\"\nonclick=\"this.style.display='none';\ndocument.getElementById('hinteefd811070798a12').style.display='block';\nreturn false;\" draggable=false>\nExample</a>\n<div id=\"hinteefd811070798a12\" class=hint style=\"display: none\">Два со́седа ми́рно беседова́ли на скаме́йке у подъе́зда.</div>\n\n\n<hr id=answer>\n\npeacefully",
+   "modelName": "Basic (and reversed card)",
+   "ord": 1,
+   "deckName": "Vocab::10000 words",
+   "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
+   "factor": 0,
+   "interval": 0,
+   "note": 1726634609746,
+   "type": 0,
+   "queue": 0,
+   "due": 7076,
+   "reps": 0,
+   "lapses": 0,
+   "left": 0,
+   "mod": 1781060202,
+   "nextReviews": [
+    "⁨20⁩m",
+    "⁨40⁩m",
+    "⁨1⁩h",
+    "⁨25⁩d"
+   ],
+   "flags": 0
+  },
+  {
+   "cardId": 1726634605412,
+   "fields": {
+    "Front": {
+     "value": "world (adj)",
+     "order": 0
+    },
+    "Back": {
+     "value": "мирово́й<br><br> [sound:hypertts-0719cf6b1a90635930e526fe8bef15e700b37c739c074f8ae4173dfc.mp3]",
+     "order": 1
+    },
+    "Example": {
+     "value": "Мирово́й ры́нок нефти резко отреагировал на но́вости из реги́она.",
+     "order": 2
+    }
+   },
+   "fieldOrder": 0,
+   "question": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>world (adj)",
+   "answer": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>world (adj)\n\n<hr id=answer>\n\nмирово́й<br><br> [anki:play:a:0]\n<br><br><i>Мирово́й ры́нок нефти резко отреагировал на но́вости из реги́она.</i>",
+   "modelName": "Basic (and reversed card)",
+   "ord": 0,
+   "deckName": "Vocab::10000 words",
+   "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
+   "factor": 2500,
+   "interval": 337,
+   "note": 1726634604806,
+   "type": 2,
+   "queue": 2,
+   "due": 1849,
+   "reps": 7,
+   "lapses": 0,
+   "left": 0,
+   "mod": 1789426317,
+   "nextReviews": [
+    "⁨30⁩m",
+    "⁨8.6⁩mo",
+    "⁨1.3⁩y",
+    "⁨2.3⁩y"
+   ],
+   "flags": 0
+  },
+  {
+   "cardId": 1726634605413,
+   "fields": {
+    "Front": {
+     "value": "world (adj)",
+     "order": 0
+    },
+    "Back": {
+     "value": "мирово́й<br><br> [sound:hypertts-0719cf6b1a90635930e526fe8bef15e700b37c739c074f8ae4173dfc.mp3]",
+     "order": 1
+    },
+    "Example": {
+     "value": "Мирово́й ры́нок нефти резко отреагировал на но́вости из реги́она.",
+     "order": 2
+    }
+   },
+   "fieldOrder": 1,
+   "question": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>мирово́й<br><br> [anki:play:q:0]\n<br><br>\n<a class=hint href=\"#\"\nonclick=\"this.style.display='none';\ndocument.getElementById('hinte1fbe7d31b09c019').style.display='block';\nreturn false;\" draggable=false>\nExample</a>\n<div id=\"hinte1fbe7d31b09c019\" class=hint style=\"display: none\">Мирово́й ры́нок нефти резко отреагировал на но́вости из реги́она.</div>\n",
+   "answer": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>мирово́й<br><br> [anki:play:q:0]\n<br><br>\n<a class=hint href=\"#\"\nonclick=\"this.style.display='none';\ndocument.getElementById('hinte1fbe7d31b09c019').style.display='block';\nreturn false;\" draggable=false>\nExample</a>\n<div id=\"hinte1fbe7d31b09c019\" class=hint style=\"display: none\">Мирово́й ры́нок нефти резко отреагировал на но́вости из реги́она.</div>\n\n\n<hr id=answer>\n\nworld (adj)",
+   "modelName": "Basic (and reversed card)",
+   "ord": 1,
+   "deckName": "Vocab::10000 words",
+   "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
+   "factor": 2500,
+   "interval": 621,
+   "note": 1726634604806,
+   "type": 2,
+   "queue": 2,
+   "due": 2260,
+   "reps": 6,
+   "lapses": 0,
+   "left": 0,
+   "mod": 1789426317,
+   "nextReviews": [
+    "⁨30⁩m",
+    "⁨1.7⁩y",
+    "⁨2⁩y",
+    "⁨2.6⁩y"
+   ],
+   "flags": 0
+  },
+  {
+   "cardId": 1726634609268,
+   "fields": {
+    "Front": {
+     "value": "world, worldwide",
+     "order": 0
+    },
+    "Back": {
+     "value": "всеми́рный<br><br> [sound:hypertts-68fa101e5e0d5e7c21443a666c1176736672f2e3857683b1468847c0.mp3]",
+     "order": 1
+    },
+    "Example": {
+     "value": "Всеми́рная исто́рия знает мно́го приме́ров подъёма и паде́ния импе́рий.",
+     "order": 2
+    }
+   },
+   "fieldOrder": 0,
+   "question": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>world, worldwide",
+   "answer": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>world, worldwide\n\n<hr id=answer>\n\nвсеми́рный<br><br> [anki:play:a:0]\n<br><br><i>Всеми́рная исто́рия знает мно́го приме́ров подъёма и паде́ния импе́рий.</i>",
+   "modelName": "Basic (and reversed card)",
+   "ord": 0,
+   "deckName": "Vocab::10000 words",
+   "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
+   "factor": 0,
+   "interval": 0,
+   "note": 1726634606734,
+   "type": 0,
+   "queue": 0,
+   "due": 1565,
+   "reps": 0,
+   "lapses": 0,
+   "left": 0,
+   "mod": 1781060064,
+   "nextReviews": [
+    "⁨20⁩m",
+    "⁨40⁩m",
+    "⁨1⁩h",
+    "⁨26⁩d"
+   ],
+   "flags": 0
+  },
+  {
+   "cardId": 1726634609269,
+   "fields": {
+    "Front": {
+     "value": "world, worldwide",
+     "order": 0
+    },
+    "Back": {
+     "value": "всеми́рный<br><br> [sound:hypertts-68fa101e5e0d5e7c21443a666c1176736672f2e3857683b1468847c0.mp3]",
+     "order": 1
+    },
+    "Example": {
+     "value": "Всеми́рная исто́рия знает мно́го приме́ров подъёма и паде́ния импе́рий.",
+     "order": 2
+    }
+   },
+   "fieldOrder": 1,
+   "question": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>всеми́рный<br><br> [anki:play:q:0]\n<br><br>\n<a class=hint href=\"#\"\nonclick=\"this.style.display='none';\ndocument.getElementById('hint29e166a2e1be52c5').style.display='block';\nreturn false;\" draggable=false>\nExample</a>\n<div id=\"hint29e166a2e1be52c5\" class=hint style=\"display: none\">Всеми́рная исто́рия знает мно́го приме́ров подъёма и паде́ния импе́рий.</div>\n",
+   "answer": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>всеми́рный<br><br> [anki:play:q:0]\n<br><br>\n<a class=hint href=\"#\"\nonclick=\"this.style.display='none';\ndocument.getElementById('hint29e166a2e1be52c5').style.display='block';\nreturn false;\" draggable=false>\nExample</a>\n<div id=\"hint29e166a2e1be52c5\" class=hint style=\"display: none\">Всеми́рная исто́рия знает мно́го приме́ров подъёма и паде́ния импе́рий.</div>\n\n\n<hr id=answer>\n\nworld, worldwide",
+   "modelName": "Basic (and reversed card)",
+   "ord": 1,
+   "deckName": "Vocab::10000 words",
+   "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
+   "factor": 0,
+   "interval": 0,
+   "note": 1726634606734,
+   "type": 0,
+   "queue": 0,
+   "due": 1566,
+   "reps": 0,
+   "lapses": 0,
+   "left": 0,
+   "mod": 1781060064,
+   "nextReviews": [
+    "⁨20⁩m",
+    "⁨40⁩m",
+    "⁨1⁩h",
+    "⁨24⁩d"
+   ],
+   "flags": 0
+  },
+  {
+   "cardId": 1726634612430,
+   "fields": {
+    "Front": {
+     "value": "peace-loving",
+     "order": 0
+    },
+    "Back": {
+     "value": "миролюби́вый<br><br> [sound:hypertts-db2c4433df6f68d062290cd4a0be4bcb78fd124794ad2be0f6e9467a.mp3]",
+     "order": 1
+    },
+    "Example": {
+     "value": "Это миролюби́вый наро́д, кото́рый никогда́ не начина́л войн.",
+     "order": 2
+    }
+   },
+   "fieldOrder": 0,
+   "question": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>peace-loving",
+   "answer": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>peace-loving\n\n<hr id=answer>\n\nмиролюби́вый<br><br> [anki:play:a:0]\n<br><br><i>Это миролюби́вый наро́д, кото́рый никогда́ не начина́л войн.</i>",
+   "modelName": "Basic (and reversed card)",
+   "ord": 0,
+   "deckName": "Vocab::10000 words",
+   "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
+   "factor": 0,
+   "interval": 0,
+   "note": 1726634608315,
+   "type": 0,
+   "queue": 0,
+   "due": 4461,
+   "reps": 0,
+   "lapses": 0,
+   "left": 0,
+   "mod": 1781060137,
+   "nextReviews": [
+    "⁨20⁩m",
+    "⁨40⁩m",
+    "⁨1⁩h",
+    "⁨22⁩d"
+   ],
+   "flags": 0
+  },
+  {
+   "cardId": 1726634612431,
+   "fields": {
+    "Front": {
+     "value": "peace-loving",
+     "order": 0
+    },
+    "Back": {
+     "value": "миролюби́вый<br><br> [sound:hypertts-db2c4433df6f68d062290cd4a0be4bcb78fd124794ad2be0f6e9467a.mp3]",
+     "order": 1
+    },
+    "Example": {
+     "value": "Это миролюби́вый наро́д, кото́рый никогда́ не начина́л войн.",
+     "order": 2
+    }
+   },
+   "fieldOrder": 1,
+   "question": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>миролюби́вый<br><br> [anki:play:q:0]\n<br><br>\n<a class=hint href=\"#\"\nonclick=\"this.style.display='none';\ndocument.getElementById('hintfa39cfc5b26ee341').style.display='block';\nreturn false;\" draggable=false>\nExample</a>\n<div id=\"hintfa39cfc5b26ee341\" class=hint style=\"display: none\">Это миролюби́вый наро́д, кото́рый никогда́ не начина́л войн.</div>\n",
+   "answer": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>миролюби́вый<br><br> [anki:play:q:0]\n<br><br>\n<a class=hint href=\"#\"\nonclick=\"this.style.display='none';\ndocument.getElementById('hintfa39cfc5b26ee341').style.display='block';\nreturn false;\" draggable=false>\nExample</a>\n<div id=\"hintfa39cfc5b26ee341\" class=hint style=\"display: none\">Это миролюби́вый наро́д, кото́рый никогда́ не начина́л войн.</div>\n\n\n<hr id=answer>\n\npeace-loving",
+   "modelName": "Basic (and reversed card)",
+   "ord": 1,
+   "deckName": "Vocab::10000 words",
+   "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
+   "factor": 0,
+   "interval": 0,
+   "note": 1726634608315,
+   "type": 0,
+   "queue": 0,
+   "due": 4462,
+   "reps": 0,
+   "lapses": 0,
+   "left": 0,
+   "mod": 1781060137,
+   "nextReviews": [
+    "⁨20⁩m",
+    "⁨40⁩m",
+    "⁨1⁩h",
+    "⁨28⁩d"
+   ],
+   "flags": 0
+  },
+  {
+   "cardId": 1726634621626,
+   "fields": {
+    "Front": {
+     "value": "reconciliation",
+     "order": 0
+    },
+    "Back": {
+     "value": "примире́ние<br><br> [sound:hypertts-d8eecd599a57e344a32b313d8ce839d8403f8754a7af63d1a1c9a5d8.mp3]",
+     "order": 1
+    },
+    "Example": {
+     "value": "По́сле до́лгого спо́ра брат и сестра́ нашли́ приме́рение и обня́лись.",
+     "order": 2
+    }
+   },
+   "fieldOrder": 0,
+   "question": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>reconciliation",
+   "answer": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>reconciliation\n\n<hr id=answer>\n\nпримире́ние<br><br> [anki:play:a:0]\n<br><br><i>По́сле до́лгого спо́ра брат и сестра́ нашли́ приме́рение и обня́лись.</i>",
+   "modelName": "Basic (and reversed card)",
+   "ord": 0,
+   "deckName": "Vocab::10000 words",
+   "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
+   "factor": 0,
+   "interval": 0,
+   "note": 1726634612913,
+   "type": 0,
+   "queue": 0,
+   "due": 12891,
+   "reps": 0,
+   "lapses": 0,
+   "left": 0,
+   "mod": 1781060348,
+   "nextReviews": [
+    "⁨20⁩m",
+    "⁨40⁩m",
+    "⁨1⁩h",
+    "⁨25⁩d"
+   ],
+   "flags": 0
+  },
+  {
+   "cardId": 1726634621627,
+   "fields": {
+    "Front": {
+     "value": "reconciliation",
+     "order": 0
+    },
+    "Back": {
+     "value": "примире́ние<br><br> [sound:hypertts-d8eecd599a57e344a32b313d8ce839d8403f8754a7af63d1a1c9a5d8.mp3]",
+     "order": 1
+    },
+    "Example": {
+     "value": "По́сле до́лгого спо́ра брат и сестра́ нашли́ приме́рение и обня́лись.",
+     "order": 2
+    }
+   },
+   "fieldOrder": 1,
+   "question": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>примире́ние<br><br> [anki:play:q:0]\n<br><br>\n<a class=hint href=\"#\"\nonclick=\"this.style.display='none';\ndocument.getElementById('hintc91ffab1991f750f').style.display='block';\nreturn false;\" draggable=false>\nExample</a>\n<div id=\"hintc91ffab1991f750f\" class=hint style=\"display: none\">По́сле до́лгого спо́ра брат и сестра́ нашли́ приме́рение и обня́лись.</div>\n",
+   "answer": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>примире́ние<br><br> [anki:play:q:0]\n<br><br>\n<a class=hint href=\"#\"\nonclick=\"this.style.display='none';\ndocument.getElementById('hintc91ffab1991f750f').style.display='block';\nreturn false;\" draggable=false>\nExample</a>\n<div id=\"hintc91ffab1991f750f\" class=hint style=\"display: none\">По́сле до́лгого спо́ра брат и сестра́ нашли́ приме́рение и обня́лись.</div>\n\n\n<hr id=answer>\n\nreconciliation",
+   "modelName": "Basic (and reversed card)",
+   "ord": 1,
+   "deckName": "Vocab::10000 words",
+   "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
+   "factor": 0,
+   "interval": 0,
+   "note": 1726634612913,
+   "type": 0,
+   "queue": 0,
+   "due": 12892,
+   "reps": 0,
+   "lapses": 0,
+   "left": 0,
+   "mod": 1781060348,
+   "nextReviews": [
+    "⁨20⁩m",
+    "⁨40⁩m",
+    "⁨1⁩h",
+    "⁨25⁩d"
+   ],
+   "flags": 0
+  },
+  {
+   "cardId": 1726634609642,
+   "fields": {
+    "Front": {
+     "value": "meekly, obediently; (as command) at attention!",
+     "order": 0
+    },
+    "Back": {
+     "value": "сми́рно<br><br> [sound:hypertts-052cb088ddb335df00287bd36081eb94e9d813ffb676bfeecee88761.mp3]",
+     "order": 1
+    },
+    "Example": {
+     "value": "Солда́ты стоя́ли сми́рно и жда́ли прика́за.",
+     "order": 2
+    }
+   },
+   "fieldOrder": 0,
+   "question": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>meekly, obediently; (as command) at attention!",
+   "answer": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>meekly, obediently; (as command) at attention!\n\n<hr id=answer>\n\nсми́рно<br><br> [anki:play:a:0]\n<br><br><i>Солда́ты стоя́ли сми́рно и жда́ли прика́за.</i>",
+   "modelName": "Basic (and reversed card)",
+   "ord": 0,
+   "deckName": "Vocab::10000 words",
+   "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
+   "factor": 0,
+   "interval": 0,
+   "note": 1726634606921,
+   "type": 0,
+   "queue": 0,
+   "due": 1911,
+   "reps": 0,
+   "lapses": 0,
+   "left": 0,
+   "mod": 1781060073,
+   "nextReviews": [
+    "⁨20⁩m",
+    "⁨40⁩m",
+    "⁨1⁩h",
+    "⁨22⁩d"
+   ],
+   "flags": 0
+  },
+  {
+   "cardId": 1726634609643,
+   "fields": {
+    "Front": {
+     "value": "meekly, obediently; (as command) at attention!",
+     "order": 0
+    },
+    "Back": {
+     "value": "сми́рно<br><br> [sound:hypertts-052cb088ddb335df00287bd36081eb94e9d813ffb676bfeecee88761.mp3]",
+     "order": 1
+    },
+    "Example": {
+     "value": "Солда́ты стоя́ли сми́рно и жда́ли прика́за.",
+     "order": 2
+    }
+   },
+   "fieldOrder": 1,
+   "question": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>сми́рно<br><br> [anki:play:q:0]\n<br><br>\n<a class=hint href=\"#\"\nonclick=\"this.style.display='none';\ndocument.getElementById('hint22f5e080489b5690').style.display='block';\nreturn false;\" draggable=false>\nExample</a>\n<div id=\"hint22f5e080489b5690\" class=hint style=\"display: none\">Солда́ты стоя́ли сми́рно и жда́ли прика́за.</div>\n",
+   "answer": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>сми́рно<br><br> [anki:play:q:0]\n<br><br>\n<a class=hint href=\"#\"\nonclick=\"this.style.display='none';\ndocument.getElementById('hint22f5e080489b5690').style.display='block';\nreturn false;\" draggable=false>\nExample</a>\n<div id=\"hint22f5e080489b5690\" class=hint style=\"display: none\">Солда́ты стоя́ли сми́рно и жда́ли прика́за.</div>\n\n\n<hr id=answer>\n\nmeekly, obediently; (as command) at attention!",
+   "modelName": "Basic (and reversed card)",
+   "ord": 1,
+   "deckName": "Vocab::10000 words",
+   "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
+   "factor": 0,
+   "interval": 0,
+   "note": 1726634606921,
+   "type": 0,
+   "queue": 0,
+   "due": 1912,
+   "reps": 0,
+   "lapses": 0,
+   "left": 0,
+   "mod": 1781060073,
+   "nextReviews": [
+    "⁨20⁩m",
+    "⁨40⁩m",
+    "⁨1⁩h",
+    "⁨28⁩d"
+   ],
+   "flags": 0
+  },
+  {
+   "cardId": 1726634607498,
+   "fields": {
+    "Front": {
+     "value": "peace, quiet",
+     "order": 0
+    },
+    "Back": {
+     "value": "поко́й<br><br> [sound:hypertts-7275d56d00d37538bd887fb4ede032942a31eed431091308f6b05a09.mp3]",
+     "order": 1
+    },
+    "Example": {
+     "value": "После шумного дня он наконец нашёл поко́й в тишине своей комнаты.",
+     "order": 2
+    }
+   },
+   "fieldOrder": 0,
+   "question": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>peace, quiet",
+   "answer": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>peace, quiet\n\n<hr id=answer>\n\nпоко́й<br><br> [anki:play:a:0]\n<br><br><i>После шумного дня он наконец нашёл поко́й в тишине своей комнаты.</i>",
+   "modelName": "Basic (and reversed card)",
+   "ord": 0,
+   "deckName": "Vocab::10000 words",
+   "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
+   "factor": 1300,
+   "interval": 7,
+   "note": 1726634605849,
+   "type": 2,
+   "queue": 2,
+   "due": 1728,
+   "reps": 39,
+   "lapses": 5,
+   "left": 0,
+   "mod": 1791419098,
+   "nextReviews": [
+    "⁨30⁩m",
+    "⁨4⁩d",
+    "⁨6⁩d",
+    "⁨10⁩d"
+   ],
+   "flags": 0
+  },
+  {
+   "cardId": 1726634607499,
+   "fields": {
+    "Front": {
+     "value": "peace, quiet",
+     "order": 0
+    },
+    "Back": {
+     "value": "поко́й<br><br> [sound:hypertts-7275d56d00d37538bd887fb4ede032942a31eed431091308f6b05a09.mp3]",
+     "order": 1
+    },
+    "Example": {
+     "value": "После шумного дня он наконец нашёл поко́й в тишине своей комнаты.",
+     "order": 2
+    }
+   },
+   "fieldOrder": 1,
+   "question": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>поко́й<br><br> [anki:play:q:0]\n<br><br>\n<a class=hint href=\"#\"\nonclick=\"this.style.display='none';\ndocument.getElementById('hint6f9919a02886007d').style.display='block';\nreturn false;\" draggable=false>\nExample</a>\n<div id=\"hint6f9919a02886007d\" class=hint style=\"display: none\">После шумного дня он наконец нашёл поко́й в тишине своей комнаты.</div>\n",
+   "answer": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>поко́й<br><br> [anki:play:q:0]\n<br><br>\n<a class=hint href=\"#\"\nonclick=\"this.style.display='none';\ndocument.getElementById('hint6f9919a02886007d').style.display='block';\nreturn false;\" draggable=false>\nExample</a>\n<div id=\"hint6f9919a02886007d\" class=hint style=\"display: none\">После шумного дня он наконец нашёл поко́й в тишине своей комнаты.</div>\n\n\n<hr id=answer>\n\npeace, quiet",
+   "modelName": "Basic (and reversed card)",
+   "ord": 1,
+   "deckName": "Vocab::10000 words",
+   "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
+   "factor": 2200,
+   "interval": 33,
+   "note": 1726634605849,
+   "type": 2,
+   "queue": -2,
+   "due": 1731,
+   "reps": 10,
+   "lapses": 0,
+   "left": 0,
+   "mod": 1791419098,
+   "nextReviews": [
+    "⁨30⁩m",
+    "⁨1.1⁩mo",
+    "⁨1.3⁩mo",
+    "⁨1.8⁩mo"
+   ],
+   "flags": 0
+  },
+  {
+   "cardId": 1726634606698,
+   "fields": {
+    "Front": {
+     "value": "calm (adj)",
+     "order": 0
+    },
+    "Back": {
+     "value": "споко́йный<br><br> [sound:hypertts-73d4bf169eacd69734331558c911e22e9c61bf78c21e9eb0a610f426.mp3]",
+     "order": 1
+    },
+    "Example": {
+     "value": "Де́душка был споко́йным челове́ком и никогда́ не повыша́л го́лоса.",
+     "order": 2
+    }
+   },
+   "fieldOrder": 0,
+   "question": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>calm (adj)",
+   "answer": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>calm (adj)\n\n<hr id=answer>\n\nспоко́йный<br><br> [anki:play:a:0]\n<br><br><i>Де́душка был споко́йным челове́ком и никогда́ не повыша́л го́лоса.</i>",
+   "modelName": "Basic (and reversed card)",
+   "ord": 0,
+   "deckName": "Vocab::10000 words",
+   "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
+   "factor": 2350,
+   "interval": 249,
+   "note": 1726634605449,
+   "type": 2,
+   "queue": 2,
+   "due": 1904,
+   "reps": 7,
+   "lapses": 0,
+   "left": 0,
+   "mod": 1789426317,
+   "nextReviews": [
+    "⁨30⁩m",
+    "⁨8.4⁩mo",
+    "⁨9.8⁩mo",
+    "⁨1.1⁩y"
+   ],
+   "flags": 0
+  },
+  {
+   "cardId": 1726634606699,
+   "fields": {
+    "Front": {
+     "value": "calm (adj)",
+     "order": 0
+    },
+    "Back": {
+     "value": "споко́йный<br><br> [sound:hypertts-73d4bf169eacd69734331558c911e22e9c61bf78c21e9eb0a610f426.mp3]",
+     "order": 1
+    },
+    "Example": {
+     "value": "Де́душка был споко́йным челове́ком и никогда́ не повыша́л го́лоса.",
+     "order": 2
+    }
+   },
+   "fieldOrder": 1,
+   "question": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>споко́йный<br><br> [anki:play:q:0]\n<br><br>\n<a class=hint href=\"#\"\nonclick=\"this.style.display='none';\ndocument.getElementById('hint8fe7b057b43e6df1').style.display='block';\nreturn false;\" draggable=false>\nExample</a>\n<div id=\"hint8fe7b057b43e6df1\" class=hint style=\"display: none\">Де́душка был споко́йным челове́ком и никогда́ не повыша́л го́лоса.</div>\n",
+   "answer": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>споко́йный<br><br> [anki:play:q:0]\n<br><br>\n<a class=hint href=\"#\"\nonclick=\"this.style.display='none';\ndocument.getElementById('hint8fe7b057b43e6df1').style.display='block';\nreturn false;\" draggable=false>\nExample</a>\n<div id=\"hint8fe7b057b43e6df1\" class=hint style=\"display: none\">Де́душка был споко́йным челове́ком и никогда́ не повыша́л го́лоса.</div>\n\n\n<hr id=answer>\n\ncalm (adj)",
+   "modelName": "Basic (and reversed card)",
+   "ord": 1,
+   "deckName": "Vocab::10000 words",
+   "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
+   "factor": 2500,
+   "interval": 461,
+   "note": 1726634605449,
+   "type": 2,
+   "queue": 2,
+   "due": 2151,
+   "reps": 7,
+   "lapses": 0,
+   "left": 0,
+   "mod": 1789426317,
+   "nextReviews": [
+    "⁨30⁩m",
+    "⁨1.4⁩y",
+    "⁨1.5⁩y",
+    "⁨1.8⁩y"
+   ],
+   "flags": 0
+  },
+  {
+   "cardId": 1726634605142,
+   "fields": {
+    "Front": {
+     "value": "calmly, quietly",
+     "order": 0
+    },
+    "Back": {
+     "value": "споко́йно<br><br> [sound:hypertts-9309f814114b67a1af4d46c436b096d314fd01932e3c78a6ee17cf65.mp3]",
+     "order": 1
+    },
+    "Example": {
+     "value": "Она споко́йно объяснила ситуацию, не повышая голоса.",
+     "order": 2
+    }
+   },
+   "fieldOrder": 0,
+   "question": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>calmly, quietly",
+   "answer": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>calmly, quietly\n\n<hr id=answer>\n\nспоко́йно<br><br> [anki:play:a:0]\n<br><br><i>Она споко́йно объяснила ситуацию, не повышая голоса.</i>",
+   "modelName": "Basic (and reversed card)",
+   "ord": 0,
+   "deckName": "Vocab::10000 words",
+   "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
+   "factor": 2500,
+   "interval": 706,
+   "note": 1726634604671,
+   "type": 2,
+   "queue": 2,
+   "due": 2361,
+   "reps": 6,
+   "lapses": 0,
+   "left": 0,
+   "mod": 1789426317,
+   "nextReviews": [
+    "⁨30⁩m",
+    "⁨1.9⁩y",
+    "⁨2.2⁩y",
+    "⁨2.6⁩y"
+   ],
+   "flags": 0
+  },
+  {
+   "cardId": 1726634605143,
+   "fields": {
+    "Front": {
+     "value": "calmly, quietly",
+     "order": 0
+    },
+    "Back": {
+     "value": "споко́йно<br><br> [sound:hypertts-9309f814114b67a1af4d46c436b096d314fd01932e3c78a6ee17cf65.mp3]",
+     "order": 1
+    },
+    "Example": {
+     "value": "Она споко́йно объяснила ситуацию, не повышая голоса.",
+     "order": 2
+    }
+   },
+   "fieldOrder": 1,
+   "question": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>споко́йно<br><br> [anki:play:q:0]\n<br><br>\n<a class=hint href=\"#\"\nonclick=\"this.style.display='none';\ndocument.getElementById('hintb40c0ae069fa2515').style.display='block';\nreturn false;\" draggable=false>\nExample</a>\n<div id=\"hintb40c0ae069fa2515\" class=hint style=\"display: none\">Она споко́йно объяснила ситуацию, не повышая голоса.</div>\n",
+   "answer": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>споко́йно<br><br> [anki:play:q:0]\n<br><br>\n<a class=hint href=\"#\"\nonclick=\"this.style.display='none';\ndocument.getElementById('hintb40c0ae069fa2515').style.display='block';\nreturn false;\" draggable=false>\nExample</a>\n<div id=\"hintb40c0ae069fa2515\" class=hint style=\"display: none\">Она споко́йно объяснила ситуацию, не повышая голоса.</div>\n\n\n<hr id=answer>\n\ncalmly, quietly",
+   "modelName": "Basic (and reversed card)",
+   "ord": 1,
+   "deckName": "Vocab::10000 words",
+   "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
+   "factor": 2500,
+   "interval": 437,
+   "note": 1726634604671,
+   "type": 2,
+   "queue": 2,
+   "due": 1967,
+   "reps": 6,
+   "lapses": 0,
+   "left": 0,
+   "mod": 1789426317,
+   "nextReviews": [
+    "⁨30⁩m",
+    "⁨1.6⁩y",
+    "⁨2.4⁩y",
+    "⁨3.8⁩y"
+   ],
+   "flags": 0
+  },
+  {
+   "cardId": 1726634612720,
+   "fields": {
+    "Front": {
+     "value": "calmness",
+     "order": 0
+    },
+    "Back": {
+     "value": "споко́йствие<br><br> [sound:hypertts-9147ad92457c6c47ec9d9b639f4389918f0bcf89354103342b90048f.mp3]",
+     "order": 1
+    },
+    "Example": {
+     "value": "Её споко́йствие в труд́ный момент удиви́ло всех.",
+     "order": 2
+    }
+   },
+   "fieldOrder": 0,
+   "question": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>calmness",
+   "answer": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>calmness\n\n<hr id=answer>\n\nспоко́йствие<br><br> [anki:play:a:0]\n<br><br><i>Её споко́йствие в труд́ный момент удиви́ло всех.</i>",
+   "modelName": "Basic (and reversed card)",
+   "ord": 0,
+   "deckName": "Vocab::10000 words",
+   "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
+   "factor": 0,
+   "interval": 0,
+   "note": 1726634608460,
+   "type": 0,
+   "queue": 0,
+   "due": 4729,
+   "reps": 0,
+   "lapses": 0,
+   "left": 0,
+   "mod": 1781060144,
+   "nextReviews": [
+    "⁨20⁩m",
+    "⁨40⁩m",
+    "⁨1⁩h",
+    "⁨27⁩d"
+   ],
+   "flags": 0
+  },
+  {
+   "cardId": 1726634612721,
+   "fields": {
+    "Front": {
+     "value": "calmness",
+     "order": 0
+    },
+    "Back": {
+     "value": "споко́йствие<br><br> [sound:hypertts-9147ad92457c6c47ec9d9b639f4389918f0bcf89354103342b90048f.mp3]",
+     "order": 1
+    },
+    "Example": {
+     "value": "Её споко́йствие в труд́ный момент удиви́ло всех.",
+     "order": 2
+    }
+   },
+   "fieldOrder": 1,
+   "question": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>споко́йствие<br><br> [anki:play:q:0]\n<br><br>\n<a class=hint href=\"#\"\nonclick=\"this.style.display='none';\ndocument.getElementById('hint693efa199bfc0138').style.display='block';\nreturn false;\" draggable=false>\nExample</a>\n<div id=\"hint693efa199bfc0138\" class=hint style=\"display: none\">Её споко́йствие в труд́ный момент удиви́ло всех.</div>\n",
+   "answer": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>споко́йствие<br><br> [anki:play:q:0]\n<br><br>\n<a class=hint href=\"#\"\nonclick=\"this.style.display='none';\ndocument.getElementById('hint693efa199bfc0138').style.display='block';\nreturn false;\" draggable=false>\nExample</a>\n<div id=\"hint693efa199bfc0138\" class=hint style=\"display: none\">Её споко́йствие в труд́ный момент удиви́ло всех.</div>\n\n\n<hr id=answer>\n\ncalmness",
+   "modelName": "Basic (and reversed card)",
+   "ord": 1,
+   "deckName": "Vocab::10000 words",
+   "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
+   "factor": 0,
+   "interval": 0,
+   "note": 1726634608460,
+   "type": 0,
+   "queue": 0,
+   "due": 4730,
+   "reps": 0,
+   "lapses": 0,
+   "left": 0,
+   "mod": 1781060144,
+   "nextReviews": [
+    "⁨20⁩m",
+    "⁨40⁩m",
+    "⁨1⁩h",
+    "⁨25⁩d"
+   ],
+   "flags": 0
+  },
+  {
+   "cardId": 1726634613910,
+   "fields": {
+    "Front": {
+     "value": "to calm, soothe, quieten",
+     "order": 0
+    },
+    "Back": {
+     "value": "успока́ивать / успоко́ить (+a)<br><br> [sound:hypertts-1ca703cb351e2fa40b6ef9b27af7f86673aa996c42ffe98de6a5f58c.mp3]",
+     "order": 1
+    },
+    "Example": {
+     "value": "Ма́ма успоко́ила ребёнка, спев ему́ колыбе́льную пе́сню.",
+     "order": 2
+    }
+   },
+   "fieldOrder": 0,
+   "question": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>to calm, soothe, quieten",
+   "answer": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>to calm, soothe, quieten\n\n<hr id=answer>\n\nуспока́ивать / успоко́ить (+a)<br><br> [anki:play:a:0]\n<br><br><i>Ма́ма успоко́ила ребёнка, спев ему́ колыбе́льную пе́сню.</i>",
+   "modelName": "Basic (and reversed card)",
+   "ord": 0,
+   "deckName": "Vocab::10000 words",
+   "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
+   "factor": 0,
+   "interval": 0,
+   "note": 1726634609055,
+   "type": 0,
+   "queue": 0,
+   "due": 5799,
+   "reps": 0,
+   "lapses": 0,
+   "left": 0,
+   "mod": 1781060170,
+   "nextReviews": [
+    "⁨20⁩m",
+    "⁨40⁩m",
+    "⁨1⁩h",
+    "⁨23⁩d"
+   ],
+   "flags": 0
+  },
+  {
+   "cardId": 1726634613911,
+   "fields": {
+    "Front": {
+     "value": "to calm, soothe, quieten",
+     "order": 0
+    },
+    "Back": {
+     "value": "успока́ивать / успоко́ить (+a)<br><br> [sound:hypertts-1ca703cb351e2fa40b6ef9b27af7f86673aa996c42ffe98de6a5f58c.mp3]",
+     "order": 1
+    },
+    "Example": {
+     "value": "Ма́ма успоко́ила ребёнка, спев ему́ колыбе́льную пе́сню.",
+     "order": 2
+    }
+   },
+   "fieldOrder": 1,
+   "question": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>успока́ивать / успоко́ить (+a)<br><br> [anki:play:q:0]\n<br><br>\n<a class=hint href=\"#\"\nonclick=\"this.style.display='none';\ndocument.getElementById('hint911f0154fca94fab').style.display='block';\nreturn false;\" draggable=false>\nExample</a>\n<div id=\"hint911f0154fca94fab\" class=hint style=\"display: none\">Ма́ма успоко́ила ребёнка, спев ему́ колыбе́льную пе́сню.</div>\n",
+   "answer": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>успока́ивать / успоко́ить (+a)<br><br> [anki:play:q:0]\n<br><br>\n<a class=hint href=\"#\"\nonclick=\"this.style.display='none';\ndocument.getElementById('hint911f0154fca94fab').style.display='block';\nreturn false;\" draggable=false>\nExample</a>\n<div id=\"hint911f0154fca94fab\" class=hint style=\"display: none\">Ма́ма успоко́ила ребёнка, спев ему́ колыбе́льную пе́сню.</div>\n\n\n<hr id=answer>\n\nto calm, soothe, quieten",
+   "modelName": "Basic (and reversed card)",
+   "ord": 1,
+   "deckName": "Vocab::10000 words",
+   "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
+   "factor": 0,
+   "interval": 0,
+   "note": 1726634609055,
+   "type": 0,
+   "queue": 0,
+   "due": 5800,
+   "reps": 0,
+   "lapses": 0,
+   "left": 0,
+   "mod": 1781060170,
+   "nextReviews": [
+    "⁨20⁩m",
+    "⁨40⁩m",
+    "⁨1⁩h",
+    "⁨22⁩d"
+   ],
+   "flags": 0
+  },
+  {
+   "cardId": 1726634610308,
+   "fields": {
+    "Front": {
+     "value": "1: calm, peaceful<br>2: late, deceased",
+     "order": 0
+    },
+    "Back": {
+     "value": "поко́йный<br><br> [sound:hypertts-9d563bef8480bb461cc2ed41220aaff76cc4e8579af4f693b3ddae25.mp3]",
+     "order": 1
+    },
+    "Example": {
+     "value": "1: Поко́йный вечер у камина помог снять усталость после трудного дня.<br><br>2: Поко́йный профессор оставил после себя большую научную библиотеку.",
+     "order": 2
+    }
+   },
+   "fieldOrder": 0,
+   "question": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>1: calm, peaceful<br>2: late, deceased",
+   "answer": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>1: calm, peaceful<br>2: late, deceased\n\n<hr id=answer>\n\nпоко́йный<br><br> [anki:play:a:0]\n<br><br><i>1: Поко́йный вечер у камина помог снять усталость после трудного дня.<br><br>2: Поко́йный профессор оставил после себя большую научную библиотеку.</i>",
+   "modelName": "Basic (and reversed card)",
+   "ord": 0,
+   "deckName": "Vocab::10000 words",
+   "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
+   "factor": 0,
+   "interval": 0,
+   "note": 1726634607254,
+   "type": 0,
+   "queue": 0,
+   "due": 2527,
+   "reps": 0,
+   "lapses": 0,
+   "left": 0,
+   "mod": 1781060088,
+   "nextReviews": [
+    "⁨20⁩m",
+    "⁨40⁩m",
+    "⁨1⁩h",
+    "⁨23⁩d"
+   ],
+   "flags": 0
+  },
+  {
+   "cardId": 1726634610309,
+   "fields": {
+    "Front": {
+     "value": "1: calm, peaceful<br>2: late, deceased",
+     "order": 0
+    },
+    "Back": {
+     "value": "поко́йный<br><br> [sound:hypertts-9d563bef8480bb461cc2ed41220aaff76cc4e8579af4f693b3ddae25.mp3]",
+     "order": 1
+    },
+    "Example": {
+     "value": "1: Поко́йный вечер у камина помог снять усталость после трудного дня.<br><br>2: Поко́йный профессор оставил после себя большую научную библиотеку.",
+     "order": 2
+    }
+   },
+   "fieldOrder": 1,
+   "question": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>поко́йный<br><br> [anki:play:q:0]\n<br><br>\n<a class=hint href=\"#\"\nonclick=\"this.style.display='none';\ndocument.getElementById('hinte94f8b6966f1869f').style.display='block';\nreturn false;\" draggable=false>\nExample</a>\n<div id=\"hinte94f8b6966f1869f\" class=hint style=\"display: none\">1: Поко́йный вечер у камина помог снять усталость после трудного дня.<br><br>2: Поко́йный профессор оставил после себя большую научную библиотеку.</div>\n",
+   "answer": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>поко́йный<br><br> [anki:play:q:0]\n<br><br>\n<a class=hint href=\"#\"\nonclick=\"this.style.display='none';\ndocument.getElementById('hinte94f8b6966f1869f').style.display='block';\nreturn false;\" draggable=false>\nExample</a>\n<div id=\"hinte94f8b6966f1869f\" class=hint style=\"display: none\">1: Поко́йный вечер у камина помог снять усталость после трудного дня.<br><br>2: Поко́йный профессор оставил после себя большую научную библиотеку.</div>\n\n\n<hr id=answer>\n\n1: calm, peaceful<br>2: late, deceased",
+   "modelName": "Basic (and reversed card)",
+   "ord": 1,
+   "deckName": "Vocab::10000 words",
+   "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
+   "factor": 0,
+   "interval": 0,
+   "note": 1726634607254,
+   "type": 0,
+   "queue": 0,
+   "due": 2528,
+   "reps": 0,
+   "lapses": 0,
+   "left": 0,
+   "mod": 1781060089,
+   "nextReviews": [
+    "⁨20⁩m",
+    "⁨40⁩m",
+    "⁨1⁩h",
+    "⁨26⁩d"
+   ],
+   "flags": 0
+  },
+  {
+   "cardId": 1726634613484,
+   "fields": {
+    "Front": {
+     "value": "to rest, repose (on)",
+     "order": 0
+    },
+    "Back": {
+     "value": "поко́иться (i) (на +pr)<br><br> [sound:hypertts-6a8f701e3681243464345dafc49998e6147f4649f5cd5f4dc68de714.mp3]",
+     "order": 1
+    },
+    "Example": {
+     "value": "Реше́ние руководства поко́илось на результатах долгого исследования.",
+     "order": 2
+    }
+   },
+   "fieldOrder": 0,
+   "question": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>to rest, repose (on)",
+   "answer": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>to rest, repose (on)\n\n<hr id=answer>\n\nпоко́иться (i) (на +pr)<br><br> [anki:play:a:0]\n<br><br><i>Реше́ние руководства поко́илось на результатах долгого исследования.</i>",
+   "modelName": "Basic (and reversed card)",
+   "ord": 0,
+   "deckName": "Vocab::10000 words",
+   "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
+   "factor": 0,
+   "interval": 0,
+   "note": 1726634608842,
+   "type": 0,
+   "queue": 0,
+   "due": 5413,
+   "reps": 0,
+   "lapses": 0,
+   "left": 0,
+   "mod": 1781060161,
+   "nextReviews": [
+    "⁨20⁩m",
+    "⁨40⁩m",
+    "⁨1⁩h",
+    "⁨24⁩d"
+   ],
+   "flags": 0
+  },
+  {
+   "cardId": 1726634613485,
+   "fields": {
+    "Front": {
+     "value": "to rest, repose (on)",
+     "order": 0
+    },
+    "Back": {
+     "value": "поко́иться (i) (на +pr)<br><br> [sound:hypertts-6a8f701e3681243464345dafc49998e6147f4649f5cd5f4dc68de714.mp3]",
+     "order": 1
+    },
+    "Example": {
+     "value": "Реше́ние руководства поко́илось на результатах долгого исследования.",
+     "order": 2
+    }
+   },
+   "fieldOrder": 1,
+   "question": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>поко́иться (i) (на +pr)<br><br> [anki:play:q:0]\n<br><br>\n<a class=hint href=\"#\"\nonclick=\"this.style.display='none';\ndocument.getElementById('hintd6a67d173e9d88da').style.display='block';\nreturn false;\" draggable=false>\nExample</a>\n<div id=\"hintd6a67d173e9d88da\" class=hint style=\"display: none\">Реше́ние руководства поко́илось на результатах долгого исследования.</div>\n",
+   "answer": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>поко́иться (i) (на +pr)<br><br> [anki:play:q:0]\n<br><br>\n<a class=hint href=\"#\"\nonclick=\"this.style.display='none';\ndocument.getElementById('hintd6a67d173e9d88da').style.display='block';\nreturn false;\" draggable=false>\nExample</a>\n<div id=\"hintd6a67d173e9d88da\" class=hint style=\"display: none\">Реше́ние руководства поко́илось на результатах долгого исследования.</div>\n\n\n<hr id=answer>\n\nto rest, repose (on)",
+   "modelName": "Basic (and reversed card)",
+   "ord": 1,
+   "deckName": "Vocab::10000 words",
+   "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
+   "factor": 0,
+   "interval": 0,
+   "note": 1726634608842,
+   "type": 0,
+   "queue": 0,
+   "due": 5414,
+   "reps": 0,
+   "lapses": 0,
+   "left": 0,
+   "mod": 1781060161,
+   "nextReviews": [
+    "⁨20⁩m",
+    "⁨40⁩m",
+    "⁨1⁩h",
+    "⁨22⁩d"
+   ],
+   "flags": 0
+  },
+  {
+   "cardId": 1726634610718,
+   "fields": {
+    "Front": {
+     "value": "to worry (s.o.)",
+     "order": 0
+    },
+    "Back": {
+     "value": "беспоко́ить / обеспоко́ить / побеспоко́ить (+a)<br><br> [sound:hypertts-884d034827f27f241200e650764a1a7f91c36d36c51cc97e3c9dc65b.mp3]",
+     "order": 1
+    },
+    "Example": {
+     "value": "Не беспоко́й меня по пустякам, я сейчас занят.",
+     "order": 2
+    }
+   },
+   "fieldOrder": 0,
+   "question": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>to worry (s.o.)",
+   "answer": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>to worry (s.o.)\n\n<hr id=answer>\n\nбеспоко́ить / обеспоко́ить / побеспоко́ить (+a)<br><br> [anki:play:a:0]\n<br><br><i>Не беспоко́й меня по пустякам, я сейчас занят.</i>",
+   "modelName": "Basic (and reversed card)",
+   "ord": 0,
+   "deckName": "Vocab::10000 words",
+   "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
+   "factor": 0,
+   "interval": 0,
+   "note": 1726634607459,
+   "type": 0,
+   "queue": 0,
+   "due": 2895,
+   "reps": 0,
+   "lapses": 0,
+   "left": 0,
+   "mod": 1781060098,
+   "nextReviews": [
+    "⁨20⁩m",
+    "⁨40⁩m",
+    "⁨1⁩h",
+    "⁨24⁩d"
+   ],
+   "flags": 0
+  },
+  {
+   "cardId": 1726634610719,
+   "fields": {
+    "Front": {
+     "value": "to worry (s.o.)",
+     "order": 0
+    },
+    "Back": {
+     "value": "беспоко́ить / обеспоко́ить / побеспоко́ить (+a)<br><br> [sound:hypertts-884d034827f27f241200e650764a1a7f91c36d36c51cc97e3c9dc65b.mp3]",
+     "order": 1
+    },
+    "Example": {
+     "value": "Не беспоко́й меня по пустякам, я сейчас занят.",
+     "order": 2
+    }
+   },
+   "fieldOrder": 1,
+   "question": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>беспоко́ить / обеспоко́ить / побеспоко́ить (+a)<br><br> [anki:play:q:0]\n<br><br>\n<a class=hint href=\"#\"\nonclick=\"this.style.display='none';\ndocument.getElementById('hint5276ef901d215f27').style.display='block';\nreturn false;\" draggable=false>\nExample</a>\n<div id=\"hint5276ef901d215f27\" class=hint style=\"display: none\">Не беспоко́й меня по пустякам, я сейчас занят.</div>\n",
+   "answer": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>беспоко́ить / обеспоко́ить / побеспоко́ить (+a)<br><br> [anki:play:q:0]\n<br><br>\n<a class=hint href=\"#\"\nonclick=\"this.style.display='none';\ndocument.getElementById('hint5276ef901d215f27').style.display='block';\nreturn false;\" draggable=false>\nExample</a>\n<div id=\"hint5276ef901d215f27\" class=hint style=\"display: none\">Не беспоко́й меня по пустякам, я сейчас занят.</div>\n\n\n<hr id=answer>\n\nto worry (s.o.)",
+   "modelName": "Basic (and reversed card)",
+   "ord": 1,
+   "deckName": "Vocab::10000 words",
+   "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
+   "factor": 0,
+   "interval": 0,
+   "note": 1726634607459,
+   "type": 0,
+   "queue": 0,
+   "due": 2896,
+   "reps": 0,
+   "lapses": 0,
+   "left": 0,
+   "mod": 1781060098,
+   "nextReviews": [
+    "⁨20⁩m",
+    "⁨40⁩m",
+    "⁨1⁩h",
+    "⁨22⁩d"
+   ],
+   "flags": 0
+  },
+  {
+   "cardId": 1726634607080,
+   "fields": {
+    "Front": {
+     "value": "to worry (about), be uneasy (about)<br><br>[<i>think: to bother or disturb oneself</i>]",
+     "order": 0
+    },
+    "Back": {
+     "value": "беспоко́иться / обеспоко́иться&nbsp;(о +pr)<br><br> [sound:hypertts-34ffdd55040481328149f8a5e97f4aa47b1bc5c0c2f1429c676bb9ef.mp3]",
+     "order": 1
+    },
+    "Example": {
+     "value": "Мать беспоко́илась о сыне, кото́рый не отвеча́л на звонки́.",
+     "order": 2
+    }
+   },
+   "fieldOrder": 0,
+   "question": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>to worry (about), be uneasy (about)<br><br>[<i>think: to bother or disturb oneself</i>]",
+   "answer": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>to worry (about), be uneasy (about)<br><br>[<i>think: to bother or disturb oneself</i>]\n\n<hr id=answer>\n\nбеспоко́иться / обеспоко́иться&nbsp;(о +pr)<br><br> [anki:play:a:0]\n<br><br><i>Мать беспоко́илась о сыне, кото́рый не отвеча́л на звонки́.</i>",
+   "modelName": "Basic (and reversed card)",
+   "ord": 0,
+   "deckName": "Vocab::10000 words",
+   "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
+   "factor": 1600,
+   "interval": 11,
+   "note": 1726634605640,
+   "type": 2,
+   "queue": 2,
+   "due": 1731,
+   "reps": 67,
+   "lapses": 6,
+   "left": 0,
+   "mod": 1791345517,
+   "nextReviews": [
+    "⁨30⁩m",
+    "⁨12⁩d",
+    "⁨13⁩d",
+    "⁨14⁩d"
+   ],
+   "flags": 0
+  },
+  {
+   "cardId": 1726634607081,
+   "fields": {
+    "Front": {
+     "value": "to worry (about), be uneasy (about)<br><br>[<i>think: to bother or disturb oneself</i>]",
+     "order": 0
+    },
+    "Back": {
+     "value": "беспоко́иться / обеспоко́иться&nbsp;(о +pr)<br><br> [sound:hypertts-34ffdd55040481328149f8a5e97f4aa47b1bc5c0c2f1429c676bb9ef.mp3]",
+     "order": 1
+    },
+    "Example": {
+     "value": "Мать беспоко́илась о сыне, кото́рый не отвеча́л на звонки́.",
+     "order": 2
+    }
+   },
+   "fieldOrder": 1,
+   "question": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>беспоко́иться / обеспоко́иться&nbsp;(о +pr)<br><br> [anki:play:q:0]\n<br><br>\n<a class=hint href=\"#\"\nonclick=\"this.style.display='none';\ndocument.getElementById('hint56cc89fee1b3dc58').style.display='block';\nreturn false;\" draggable=false>\nExample</a>\n<div id=\"hint56cc89fee1b3dc58\" class=hint style=\"display: none\">Мать беспоко́илась о сыне, кото́рый не отвеча́л на звонки́.</div>\n",
+   "answer": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>беспоко́иться / обеспоко́иться&nbsp;(о +pr)<br><br> [anki:play:q:0]\n<br><br>\n<a class=hint href=\"#\"\nonclick=\"this.style.display='none';\ndocument.getElementById('hint56cc89fee1b3dc58').style.display='block';\nreturn false;\" draggable=false>\nExample</a>\n<div id=\"hint56cc89fee1b3dc58\" class=hint style=\"display: none\">Мать беспоко́илась о сыне, кото́рый не отвеча́л на звонки́.</div>\n\n\n<hr id=answer>\n\nto worry (about), be uneasy (about)<br><br>[<i>think: to bother or disturb oneself</i>]",
+   "modelName": "Basic (and reversed card)",
+   "ord": 1,
+   "deckName": "Vocab::10000 words",
+   "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
+   "factor": 1300,
+   "interval": 19,
+   "note": 1726634605640,
+   "type": 2,
+   "queue": 2,
+   "due": 1724,
+   "reps": 52,
+   "lapses": 7,
+   "left": 0,
+   "mod": 1791345517,
+   "nextReviews": [
+    "⁨30⁩m",
+    "⁨22⁩d",
+    "⁨26⁩d",
+    "⁨30⁩d"
+   ],
+   "flags": 0
+  },
+  {
+   "cardId": 1726634610524,
+   "fields": {
+    "Front": {
+     "value": "agitation, anxiety",
+     "order": 0
+    },
+    "Back": {
+     "value": "беспоко́йство<br><br> [sound:hypertts-89487ce8aae8f18bb149e1ff88120a3eac713d56937e7e005e0d8b2a.mp3]",
+     "order": 1
+    },
+    "Example": {
+     "value": "Беспоко́йство роди́телей росло́, пока́ сын не позвони́л им.",
+     "order": 2
+    }
+   },
+   "fieldOrder": 0,
+   "question": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>agitation, anxiety",
+   "answer": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>agitation, anxiety\n\n<hr id=answer>\n\nбеспоко́йство<br><br> [anki:play:a:0]\n<br><br><i>Беспоко́йство роди́телей росло́, пока́ сын не позвони́л им.</i>",
+   "modelName": "Basic (and reversed card)",
+   "ord": 0,
+   "deckName": "Vocab::10000 words",
+   "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
+   "factor": 0,
+   "interval": 0,
+   "note": 1726634607362,
+   "type": 0,
+   "queue": 0,
+   "due": 2709,
+   "reps": 0,
+   "lapses": 0,
+   "left": 0,
+   "mod": 1781060093,
+   "nextReviews": [
+    "⁨20⁩m",
+    "⁨40⁩m",
+    "⁨1⁩h",
+    "⁨27⁩d"
+   ],
+   "flags": 0
+  },
+  {
+   "cardId": 1726634610525,
+   "fields": {
+    "Front": {
+     "value": "agitation, anxiety",
+     "order": 0
+    },
+    "Back": {
+     "value": "беспоко́йство<br><br> [sound:hypertts-89487ce8aae8f18bb149e1ff88120a3eac713d56937e7e005e0d8b2a.mp3]",
+     "order": 1
+    },
+    "Example": {
+     "value": "Беспоко́йство роди́телей росло́, пока́ сын не позвони́л им.",
+     "order": 2
+    }
+   },
+   "fieldOrder": 1,
+   "question": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>беспоко́йство<br><br> [anki:play:q:0]\n<br><br>\n<a class=hint href=\"#\"\nonclick=\"this.style.display='none';\ndocument.getElementById('hint6dd78617dded2135').style.display='block';\nreturn false;\" draggable=false>\nExample</a>\n<div id=\"hint6dd78617dded2135\" class=hint style=\"display: none\">Беспоко́йство роди́телей росло́, пока́ сын не позвони́л им.</div>\n",
+   "answer": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>беспоко́йство<br><br> [anki:play:q:0]\n<br><br>\n<a class=hint href=\"#\"\nonclick=\"this.style.display='none';\ndocument.getElementById('hint6dd78617dded2135').style.display='block';\nreturn false;\" draggable=false>\nExample</a>\n<div id=\"hint6dd78617dded2135\" class=hint style=\"display: none\">Беспоко́йство роди́телей росло́, пока́ сын не позвони́л им.</div>\n\n\n<hr id=answer>\n\nagitation, anxiety",
+   "modelName": "Basic (and reversed card)",
+   "ord": 1,
+   "deckName": "Vocab::10000 words",
+   "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
+   "factor": 0,
+   "interval": 0,
+   "note": 1726634607362,
+   "type": 0,
+   "queue": 0,
+   "due": 2710,
+   "reps": 0,
+   "lapses": 0,
+   "left": 0,
+   "mod": 1781060093,
+   "nextReviews": [
+    "⁨20⁩m",
+    "⁨40⁩m",
+    "⁨1⁩h",
+    "⁨27⁩d"
+   ],
+   "flags": 0
+  },
+  {
+   "cardId": 1726634614346,
+   "fields": {
+    "Front": {
+     "value": "restlessly, uneasily / anxiously",
+     "order": 0
+    },
+    "Back": {
+     "value": "беспоко́йно<br><br> [sound:hypertts-2f72bd9e3daadf4cba41102e9a68401ee8a1112b209afeab4e5387f5.mp3]",
+     "order": 1
+    },
+    "Example": {
+     "value": "Она́ беспоко́йно смотре́ла в окно́, ожида́я возвраще́ния сы́на.",
+     "order": 2
+    }
+   },
+   "fieldOrder": 0,
+   "question": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>restlessly, uneasily / anxiously",
+   "answer": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>restlessly, uneasily / anxiously\n\n<hr id=answer>\n\nбеспоко́йно<br><br> [anki:play:a:0]\n<br><br><i>Она́ беспоко́йно смотре́ла в окно́, ожида́я возвраще́ния сы́на.</i>",
+   "modelName": "Basic (and reversed card)",
+   "ord": 0,
+   "deckName": "Vocab::10000 words",
+   "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
+   "factor": 0,
+   "interval": 0,
+   "note": 1726634609273,
+   "type": 0,
+   "queue": 0,
+   "due": 6201,
+   "reps": 0,
+   "lapses": 0,
+   "left": 0,
+   "mod": 1781060180,
+   "nextReviews": [
+    "⁨20⁩m",
+    "⁨40⁩m",
+    "⁨1⁩h",
+    "⁨24⁩d"
+   ],
+   "flags": 0
+  },
+  {
+   "cardId": 1726634614347,
+   "fields": {
+    "Front": {
+     "value": "restlessly, uneasily / anxiously",
+     "order": 0
+    },
+    "Back": {
+     "value": "беспоко́йно<br><br> [sound:hypertts-2f72bd9e3daadf4cba41102e9a68401ee8a1112b209afeab4e5387f5.mp3]",
+     "order": 1
+    },
+    "Example": {
+     "value": "Она́ беспоко́йно смотре́ла в окно́, ожида́я возвраще́ния сы́на.",
+     "order": 2
+    }
+   },
+   "fieldOrder": 1,
+   "question": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>беспоко́йно<br><br> [anki:play:q:0]\n<br><br>\n<a class=hint href=\"#\"\nonclick=\"this.style.display='none';\ndocument.getElementById('hint2c4b86a9daa52047').style.display='block';\nreturn false;\" draggable=false>\nExample</a>\n<div id=\"hint2c4b86a9daa52047\" class=hint style=\"display: none\">Она́ беспоко́йно смотре́ла в окно́, ожида́я возвраще́ния сы́на.</div>\n",
+   "answer": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>беспоко́йно<br><br> [anki:play:q:0]\n<br><br>\n<a class=hint href=\"#\"\nonclick=\"this.style.display='none';\ndocument.getElementById('hint2c4b86a9daa52047').style.display='block';\nreturn false;\" draggable=false>\nExample</a>\n<div id=\"hint2c4b86a9daa52047\" class=hint style=\"display: none\">Она́ беспоко́йно смотре́ла в окно́, ожида́я возвраще́ния сы́на.</div>\n\n\n<hr id=answer>\n\nrestlessly, uneasily / anxiously",
+   "modelName": "Basic (and reversed card)",
+   "ord": 1,
+   "deckName": "Vocab::10000 words",
+   "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
+   "factor": 0,
+   "interval": 0,
+   "note": 1726634609273,
+   "type": 0,
+   "queue": 0,
+   "due": 6202,
+   "reps": 0,
+   "lapses": 0,
+   "left": 0,
+   "mod": 1781060180,
+   "nextReviews": [
+    "⁨20⁩m",
+    "⁨40⁩m",
+    "⁨1⁩h",
+    "⁨25⁩d"
+   ],
+   "flags": 0
+  }
+ ],
+ "reviews": {
+  "1726634604710": [
+   {
+    "id": 1727093760024,
+    "usn": 1206,
+    "ease": 4,
+    "ivl": 10,
+    "lastIvl": 0,
+    "factor": 427,
+    "time": 4468,
+    "type": 0
+   },
+   {
+    "id": 1727949934353,
+    "usn": 1280,
+    "ease": 4,
+    "ivl": 96,
+    "lastIvl": 10,
+    "factor": 340,
+    "time": 7674,
+    "type": 1
+   },
+   {
+    "id": 1734878310910,
+    "usn": 1623,
+    "ease": 0,
+    "ivl": 44,
+    "lastIvl": 96,
+    "factor": 139,
+    "time": 0,
+    "type": 5
+   },
+   {
+    "id": 1735451055719,
+    "usn": 1629,
+    "ease": 0,
+    "ivl": 0,
+    "lastIvl": 0,
+    "factor": 0,
+    "time": 0,
+    "type": 4
+   },
+   {
+    "id": 1735451230384,
+    "usn": 1630,
+    "ease": 0,
+    "ivl": 0,
+    "lastIvl": 0,
+    "factor": 0,
+    "time": 0,
+    "type": 4
+   },
+   {
+    "id": 1738667517811,
+    "usn": 1701,
+    "ease": 4,
+    "ivl": 5,
+    "lastIvl": 0,
+    "factor": 2500,
+    "time": 1911,
+    "type": 0
+   },
+   {
+    "id": 1739090626808,
+    "usn": 1735,
+    "ease": 4,
+    "ivl": 19,
+    "lastIvl": 5,
+    "factor": 2650,
+    "time": 2327,
+    "type": 1
+   },
+   {
+    "id": 1741049073000,
+    "usn": 1841,
+    "ease": 3,
+    "ivl": 59,
+    "lastIvl": 19,
+    "factor": 2650,
+    "time": 2000,
+    "type": 1
+   },
+   {
+    "id": 1742206298833,
+    "usn": 1838,
+    "ease": 3,
+    "ivl": 53,
+    "lastIvl": 19,
+    "factor": 2650,
+    "time": 2308,
+    "type": 1
+   },
+   {
+    "id": 1746971048901,
+    "usn": 2219,
+    "ease": 3,
+    "ivl": 135,
+    "lastIvl": 53,
+    "factor": 2650,
+    "time": 2468,
+    "type": 1
+   },
+   {
+    "id": 1760860528000,
+    "usn": 2953,
+    "ease": 3,
+    "ivl": 354,
+    "lastIvl": 135,
+    "factor": 2650,
+    "time": 2000,
+    "type": 1
+   }
+  ],
+  "1726634604711": [
+   {
+    "id": 1727177775772,
+    "usn": 1208,
+    "ease": 4,
+    "ivl": 13,
+    "lastIvl": 0,
+    "factor": 427,
+    "time": 3388,
+    "type": 0
+   },
+   {
+    "id": 1728294691581,
+    "usn": 1320,
+    "ease": 3,
+    "ivl": 56,
+    "lastIvl": 13,
+    "factor": 432,
+    "time": 10921,
+    "type": 1
+   },
+   {
+    "id": 1734878310911,
+    "usn": 1623,
+    "ease": 0,
+    "ivl": 33,
+    "lastIvl": 56,
+    "factor": 295,
+    "time": 0,
+    "type": 5
+   },
+   {
+    "id": 1735451055720,
+    "usn": 1629,
+    "ease": 0,
+    "ivl": 0,
+    "lastIvl": 0,
+    "factor": 0,
+    "time": 0,
+    "type": 4
+   },
+   {
+    "id": 1735451230385,
+    "usn": 1630,
+    "ease": 0,
+    "ivl": 0,
+    "lastIvl": 0,
+    "factor": 0,
+    "time": 0,
+    "type": 4
+   },
+   {
+    "id": 1738667420415,
+    "usn": 1701,
+    "ease": 4,
+    "ivl": 5,
+    "lastIvl": 0,
+    "factor": 2500,
+    "time": 2954,
+    "type": 0
+   },
+   {
+    "id": 1739090889787,
+    "usn": 1735,
+    "ease": 4,
+    "ivl": 17,
+    "lastIvl": 5,
+    "factor": 2650,
+    "time": 2146,
+    "type": 1
+   },
+   {
+    "id": 1740577517998,
+    "usn": 1827,
+    "ease": 3,
+    "ivl": 45,
+    "lastIvl": 17,
+    "factor": 2650,
+    "time": 2963,
+    "type": 1
+   },
+   {
+    "id": 1745905093635,
+    "usn": 2154,
+    "ease": 3,
+    "ivl": 117,
+    "lastIvl": 45,
+    "factor": 2650,
+    "time": 3140,
+    "type": 1
+   },
+   {
+    "id": 1758236651000,
+    "usn": 2813,
+    "ease": 3,
+    "ivl": 304,
+    "lastIvl": 117,
+    "factor": 2650,
+    "time": 4000,
+    "type": 1
+   },
+   {
+    "id": 1788476576453,
+    "usn": 4802,
+    "ease": 3,
+    "ivl": 836,
+    "lastIvl": 304,
+    "factor": 100,
+    "time": 2371,
+    "type": 1
+   }
+  ],
+  "1726634606022": [
+   {
+    "id": 1735451054411,
+    "usn": 1629,
+    "ease": 0,
+    "ivl": 0,
+    "lastIvl": 0,
+    "factor": 0,
+    "time": 0,
+    "type": 4
+   },
+   {
+    "id": 1735451229076,
+    "usn": 1630,
+    "ease": 0,
+    "ivl": 0,
+    "lastIvl": 0,
+    "factor": 0,
+    "time": 0,
+    "type": 4
+   },
+   {
+    "id": 1746079123497,
+    "usn": 2163,
+    "ease": 3,
+    "ivl": -3600,
+    "lastIvl": 0,
+    "factor": 0,
+    "time": 3038,
+    "type": 0
+   },
+   {
+    "id": 1746084571311,
+    "usn": 2163,
+    "ease": 1,
+    "ivl": -1200,
+    "lastIvl": -3600,
+    "factor": 0,
+    "time": 20536,
+    "type": 0
+   },
+   {
+    "id": 1746086090169,
+    "usn": 2163,
+    "ease": 3,
+    "ivl": -3600,
+    "lastIvl": -1200,
+    "factor": 0,
+    "time": 21795,
+    "type": 0
+   },
+   {
+    "id": 1746089998254,
+    "usn": 2166,
+    "ease": 3,
+    "ivl": 1,
+    "lastIvl": -3600,
+    "factor": 2500,
+    "time": 8374,
+    "type": 0
+   },
+   {
+    "id": 1746171849819,
+    "usn": 2171,
+    "ease": 3,
+    "ivl": 4,
+    "lastIvl": 1,
+    "factor": 2500,
+    "time": 7923,
+    "type": 1
+   },
+   {
+    "id": 1746550080355,
+    "usn": 2201,
+    "ease": 1,
+    "ivl": -600,
+    "lastIvl": 4,
+    "factor": 2300,
+    "time": 11493,
+    "type": 1
+   },
+   {
+    "id": 1746550762171,
+    "usn": 2202,
+    "ease": 3,
+    "ivl": 1,
+    "lastIvl": -600,
+    "factor": 2300,
+    "time": 11387,
+    "type": 2
+   },
+   {
+    "id": 1746611488773,
+    "usn": 2205,
+    "ease": 1,
+    "ivl": -600,
+    "lastIvl": 1,
+    "factor": 2100,
+    "time": 14149,
+    "type": 1
+   },
+   {
+    "id": 1746612750342,
+    "usn": 2205,
+    "ease": 3,
+    "ivl": 1,
+    "lastIvl": -600,
+    "factor": 2100,
+    "time": 9908,
+    "type": 2
+   },
+   {
+    "id": 1746719490632,
+    "usn": 2211,
+    "ease": 3,
+    "ivl": 3,
+    "lastIvl": 1,
+    "factor": 2100,
+    "time": 5454,
+    "type": 1
+   },
+   {
+    "id": 1746974212445,
+    "usn": 2219,
+    "ease": 1,
+    "ivl": -600,
+    "lastIvl": 3,
+    "factor": 1900,
+    "time": 4556,
+    "type": 1
+   },
+   {
+    "id": 1746975166849,
+    "usn": 2221,
+    "ease": 3,
+    "ivl": 1,
+    "lastIvl": -600,
+    "factor": 1900,
+    "time": 5732,
+    "type": 2
+   },
+   {
+    "id": 1747046598516,
+    "usn": 2239,
+    "ease": 3,
+    "ivl": 3,
+    "lastIvl": 1,
+    "factor": 1900,
+    "time": 5510,
+    "type": 1
+   },
+   {
+    "id": 1747301868297,
+    "usn": 2263,
+    "ease": 3,
+    "ivl": 7,
+    "lastIvl": 3,
+    "factor": 1900,
+    "time": 6494,
+    "type": 1
+   },
+   {
+    "id": 1747901062707,
+    "usn": 2314,
+    "ease": 1,
+    "ivl": -600,
+    "lastIvl": 7,
+    "factor": 1700,
+    "time": 11141,
+    "type": 1
+   },
+   {
+    "id": 1747901841575,
+    "usn": 2316,
+    "ease": 4,
+    "ivl": 2,
+    "lastIvl": -600,
+    "factor": 1700,
+    "time": 9939,
+    "type": 2
+   },
+   {
+    "id": 1748074945521,
+    "usn": 2336,
+    "ease": 3,
+    "ivl": 6,
+    "lastIvl": 2,
+    "factor": 1700,
+    "time": 4036,
+    "type": 1
+   },
+   {
+    "id": 1748649436916,
+    "usn": 2379,
+    "ease": 1,
+    "ivl": -600,
+    "lastIvl": 6,
+    "factor": 1500,
+    "time": 3905,
+    "type": 1
+   },
+   {
+    "id": 1748650236984,
+    "usn": 2380,
+    "ease": 3,
+    "ivl": 1,
+    "lastIvl": -600,
+    "factor": 1500,
+    "time": 7001,
+    "type": 2
+   },
+   {
+    "id": 1748946376044,
+    "usn": 2385,
+    "ease": 3,
+    "ivl": 4,
+    "lastIvl": 1,
+    "factor": 1500,
+    "time": 4686,
+    "type": 1
+   },
+   {
+    "id": 1749394245318,
+    "usn": 2402,
+    "ease": 1,
+    "ivl": -600,
+    "lastIvl": 4,
+    "factor": 1300,
+    "time": 10788,
+    "type": 1
+   },
+   {
+    "id": 1749398216966,
+    "usn": 2402,
+    "ease": 3,
+    "ivl": 1,
+    "lastIvl": -600,
+    "factor": 1300,
+    "time": 2724,
+    "type": 2
+   },
+   {
+    "id": 1749462616521,
+    "usn": 2407,
+    "ease": 3,
+    "ivl": 3,
+    "lastIvl": 1,
+    "factor": 1300,
+    "time": 3482,
+    "type": 1
+   },
+   {
+    "id": 1749719836992,
+    "usn": 2422,
+    "ease": 3,
+    "ivl": 5,
+    "lastIvl": 3,
+    "factor": 1300,
+    "time": 5516,
+    "type": 1
+   },
+   {
+    "id": 1750161218000,
+    "usn": 2434,
+    "ease": 1,
+    "ivl": -600,
+    "lastIvl": 5,
+    "factor": 1300,
+    "time": 5000,
+    "type": 1
+   },
+   {
+    "id": 1750228812000,
+    "usn": 2436,
+    "ease": 3,
+    "ivl": 1,
+    "lastIvl": -600,
+    "factor": 1300,
+    "time": 5000,
+    "type": 2
+   },
+   {
+    "id": 1750992418885,
+    "usn": 2443,
+    "ease": 1,
+    "ivl": -600,
+    "lastIvl": 1,
+    "factor": 1300,
+    "time": 22043,
+    "type": 1
+   },
+   {
+    "id": 1751021325746,
+    "usn": 2445,
+    "ease": 3,
+    "ivl": 1,
+    "lastIvl": -600,
+    "factor": 1300,
+    "time": 4181,
+    "type": 2
+   },
+   {
+    "id": 1751079154475,
+    "usn": 2454,
+    "ease": 3,
+    "ivl": 4,
+    "lastIvl": 1,
+    "factor": 1300,
+    "time": 9986,
+    "type": 1
+   },
+   {
+    "id": 1751586546186,
+    "usn": 2477,
+    "ease": 3,
+    "ivl": 9,
+    "lastIvl": 4,
+    "factor": 1300,
+    "time": 11713,
+    "type": 1
+   },
+   {
+    "id": 1752558945787,
+    "usn": 2548,
+    "ease": 3,
+    "ivl": 16,
+    "lastIvl": 9,
+    "factor": 1300,
+    "time": 8330,
+    "type": 1
+   },
+   {
+    "id": 1754484318000,
+    "usn": 2633,
+    "ease": 3,
+    "ivl": 26,
+    "lastIvl": 16,
+    "factor": 1300,
+    "time": 15000,
+    "type": 1
+   },
+   {
+    "id": 1757561915000,
+    "usn": 2769,
+    "ease": 3,
+    "ivl": 34,
+    "lastIvl": 26,
+    "factor": 1300,
+    "time": 5000,
+    "type": 1
+   },
+   {
+    "id": 1760513363000,
+    "usn": 2948,
+    "ease": 3,
+    "ivl": 42,
+    "lastIvl": 34,
+    "factor": 1300,
+    "time": 7000,
+    "type": 1
+   },
+   {
+    "id": 1767503900111,
+    "usn": 3288,
+    "ease": 1,
+    "ivl": -600,
+    "lastIvl": 42,
+    "factor": 1300,
+    "time": 13196,
+    "type": 1
+   },
+   {
+    "id": 1767504659410,
+    "usn": 3291,
+    "ease": 4,
+    "ivl": 2,
+    "lastIvl": -600,
+    "factor": 1300,
+    "time": 5431,
+    "type": 2
+   },
+   {
+    "id": 1767660082000,
+    "usn": 3311,
+    "ease": 3,
+    "ivl": 6,
+    "lastIvl": 2,
+    "factor": 1300,
+    "time": 3000,
+    "type": 1
+   },
+   {
+    "id": 1768177047000,
+    "usn": 3357,
+    "ease": 3,
+    "ivl": 12,
+    "lastIvl": 6,
+    "factor": 1300,
+    "time": 7000,
+    "type": 1
+   },
+   {
+    "id": 1769235500100,
+    "usn": 3433,
+    "ease": 3,
+    "ivl": 15,
+    "lastIvl": 12,
+    "factor": 1300,
+    "time": 4084,
+    "type": 1
+   },
+   {
+    "id": 1770504113038,
+    "usn": 3551,
+    "ease": 3,
+    "ivl": 22,
+    "lastIvl": 15,
+    "factor": 1300,
+    "time": 8028,
+    "type": 1
+   },
+   {
+    "id": 1772444434722,
+    "usn": 3706,
+    "ease": 3,
+    "ivl": 28,
+    "lastIvl": 22,
+    "factor": 1300,
+    "time": 4678,
+    "type": 1
+   },
+   {
+    "id": 1775436377000,
+    "usn": 3946,
+    "ease": 1,
+    "ivl": -600,
+    "lastIvl": 28,
+    "factor": 1300,
+    "time": 3000,
+    "type": 1
+   },
+   {
+    "id": 1775478190000,
+    "usn": 3948,
+    "ease": 3,
+    "ivl": -3600,
+    "lastIvl": -600,
+    "factor": 1300,
+    "time": 3000,
+    "type": 2
+   },
+   {
+    "id": 1775525802000,
+    "usn": 3949,
+    "ease": 3,
+    "ivl": 1,
+    "lastIvl": -3600,
+    "factor": 1300,
+    "time": 5000,
+    "type": 2
+   },
+   {
+    "id": 1775699595000,
+    "usn": 3952,
+    "ease": 3,
+    "ivl": 4,
+    "lastIvl": 1,
+    "factor": 1300,
+    "time": 4000,
+    "type": 1
+   },
+   {
+    "id": 1776047043000,
+    "usn": 3974,
+    "ease": 3,
+    "ivl": 9,
+    "lastIvl": 4,
+    "factor": 1300,
+    "time": 3000,
+    "type": 1
+   },
+   {
+    "id": 1776823648000,
+    "usn": 4001,
+    "ease": 3,
+    "ivl": 13,
+    "lastIvl": 9,
+    "factor": 1300,
+    "time": 3000,
+    "type": 1
+   },
+   {
+    "id": 1777930564681,
+    "usn": 4092,
+    "ease": 3,
+    "ivl": 6,
+    "lastIvl": 13,
+    "factor": 1084,
+    "time": 5306,
+    "type": 1
+   },
+   {
+    "id": 1778457379406,
+    "usn": 4115,
+    "ease": 3,
+    "ivl": 7,
+    "lastIvl": 6,
+    "factor": 1083,
+    "time": 6339,
+    "type": 1
+   },
+   {
+    "id": 1779059715057,
+    "usn": 4133,
+    "ease": 3,
+    "ivl": 8,
+    "lastIvl": 7,
+    "factor": 1082,
+    "time": 9087,
+    "type": 1
+   },
+   {
+    "id": 1779745755405,
+    "usn": 4155,
+    "ease": 3,
+    "ivl": 11,
+    "lastIvl": 8,
+    "factor": 1081,
+    "time": 4452,
+    "type": 1
+   },
+   {
+    "id": 1780720386293,
+    "usn": 4214,
+    "ease": 3,
+    "ivl": 13,
+    "lastIvl": 11,
+    "factor": 1081,
+    "time": 60000,
+    "type": 1
+   },
+   {
+    "id": 1781834745457,
+    "usn": 4329,
+    "ease": 3,
+    "ivl": 20,
+    "lastIvl": 13,
+    "factor": 1075,
+    "time": 4940,
+    "type": 1
+   },
+   {
+    "id": 1783544204649,
+    "usn": 4491,
+    "ease": 3,
+    "ivl": 23,
+    "lastIvl": 20,
+    "factor": 1074,
+    "time": 6098,
+    "type": 1
+   },
+   {
+    "id": 1785577907523,
+    "usn": 4549,
+    "ease": 1,
+    "ivl": -600,
+    "lastIvl": 23,
+    "factor": 1089,
+    "time": 8480,
+    "type": 1
+   },
+   {
+    "id": 1785582592871,
+    "usn": 4550,
+    "ease": 1,
+    "ivl": -600,
+    "lastIvl": -600,
+    "factor": 1095,
+    "time": 11971,
+    "type": 2
+   },
+   {
+    "id": 1785599134139,
+    "usn": 4552,
+    "ease": 3,
+    "ivl": -3600,
+    "lastIvl": -600,
+    "factor": 1093,
+    "time": 5439,
+    "type": 2
+   },
+   {
+    "id": 1785612556657,
+    "usn": 4553,
+    "ease": 3,
+    "ivl": 2,
+    "lastIvl": -3600,
+    "factor": 1091,
+    "time": 10894,
+    "type": 2
+   },
+   {
+    "id": 1785736607241,
+    "usn": 4558,
+    "ease": 3,
+    "ivl": 4,
+    "lastIvl": 2,
+    "factor": 1090,
+    "time": 4030,
+    "type": 1
+   },
+   {
+    "id": 1786092749878,
+    "usn": 4581,
+    "ease": 4,
+    "ivl": 4,
+    "lastIvl": 4,
+    "factor": 1085,
+    "time": 4169,
+    "type": 1
+   },
+   {
+    "id": 1786425996057,
+    "usn": 4599,
+    "ease": 3,
+    "ivl": 5,
+    "lastIvl": 4,
+    "factor": 1084,
+    "time": 12559,
+    "type": 1
+   },
+   {
+    "id": 1786851874118,
+    "usn": 4621,
+    "ease": 3,
+    "ivl": 7,
+    "lastIvl": 5,
+    "factor": 1082,
+    "time": 6985,
+    "type": 1
+   },
+   {
+    "id": 1787470863957,
+    "usn": 4691,
+    "ease": 3,
+    "ivl": 5,
+    "lastIvl": 7,
+    "factor": 1080,
+    "time": 4673,
+    "type": 1
+   },
+   {
+    "id": 1787874332825,
+    "usn": 4721,
+    "ease": 3,
+    "ivl": 7,
+    "lastIvl": 5,
+    "factor": 1079,
+    "time": 10869,
+    "type": 1
+   }
+  ],
+  "1726634606023": [
+   {
+    "id": 1735451054412,
+    "usn": 1629,
+    "ease": 0,
+    "ivl": 0,
+    "lastIvl": 0,
+    "factor": 0,
+    "time": 0,
+    "type": 4
+   },
+   {
+    "id": 1735451229077,
+    "usn": 1630,
+    "ease": 0,
+    "ivl": 0,
+    "lastIvl": 0,
+    "factor": 0,
+    "time": 0,
+    "type": 4
+   },
+   {
+    "id": 1746079117596,
+    "usn": 2163,
+    "ease": 3,
+    "ivl": -3600,
+    "lastIvl": 0,
+    "factor": 0,
+    "time": 7845,
+    "type": 0
+   },
+   {
+    "id": 1746084573548,
+    "usn": 2163,
+    "ease": 3,
+    "ivl": 1,
+    "lastIvl": -3600,
+    "factor": 2500,
+    "time": 2234,
+    "type": 0
+   },
+   {
+    "id": 1746171345814,
+    "usn": 2171,
+    "ease": 3,
+    "ivl": 4,
+    "lastIvl": 1,
+    "factor": 2500,
+    "time": 5161,
+    "type": 1
+   },
+   {
+    "id": 1746523709630,
+    "usn": 2201,
+    "ease": 1,
+    "ivl": -600,
+    "lastIvl": 4,
+    "factor": 2300,
+    "time": 12004,
+    "type": 1
+   },
+   {
+    "id": 1746524628214,
+    "usn": 2201,
+    "ease": 3,
+    "ivl": 1,
+    "lastIvl": -600,
+    "factor": 2300,
+    "time": 13640,
+    "type": 2
+   },
+   {
+    "id": 1746613365395,
+    "usn": 2205,
+    "ease": 3,
+    "ivl": 3,
+    "lastIvl": 1,
+    "factor": 2300,
+    "time": 6379,
+    "type": 1
+   },
+   {
+    "id": 1746973721694,
+    "usn": 2219,
+    "ease": 3,
+    "ivl": 9,
+    "lastIvl": 3,
+    "factor": 2300,
+    "time": 6158,
+    "type": 1
+   },
+   {
+    "id": 1747749528340,
+    "usn": 2274,
+    "ease": 3,
+    "ivl": 21,
+    "lastIvl": 9,
+    "factor": 2300,
+    "time": 7780,
+    "type": 1
+   },
+   {
+    "id": 1749550169499,
+    "usn": 2415,
+    "ease": 3,
+    "ivl": 46,
+    "lastIvl": 21,
+    "factor": 2300,
+    "time": 4764,
+    "type": 1
+   },
+   {
+    "id": 1754953936000,
+    "usn": 2656,
+    "ease": 1,
+    "ivl": -600,
+    "lastIvl": 46,
+    "factor": 2100,
+    "time": 8000,
+    "type": 1
+   },
+   {
+    "id": 1754955640436,
+    "usn": 2658,
+    "ease": 4,
+    "ivl": 2,
+    "lastIvl": -600,
+    "factor": 2100,
+    "time": 11447,
+    "type": 2
+   },
+   {
+    "id": 1755149857062,
+    "usn": 2665,
+    "ease": 3,
+    "ivl": 4,
+    "lastIvl": 2,
+    "factor": 2100,
+    "time": 13975,
+    "type": 1
+   },
+   {
+    "id": 1755471548050,
+    "usn": 2702,
+    "ease": 3,
+    "ivl": 9,
+    "lastIvl": 4,
+    "factor": 2100,
+    "time": 6995,
+    "type": 1
+   },
+   {
+    "id": 1756464846000,
+    "usn": 2749,
+    "ease": 3,
+    "ivl": 22,
+    "lastIvl": 9,
+    "factor": 2100,
+    "time": 9000,
+    "type": 1
+   },
+   {
+    "id": 1759229329000,
+    "usn": 2873,
+    "ease": 1,
+    "ivl": -600,
+    "lastIvl": 22,
+    "factor": 1900,
+    "time": 5000,
+    "type": 1
+   },
+   {
+    "id": 1759273139000,
+    "usn": 2874,
+    "ease": 3,
+    "ivl": 1,
+    "lastIvl": -600,
+    "factor": 1900,
+    "time": 9000,
+    "type": 2
+   },
+   {
+    "id": 1759352790000,
+    "usn": 2887,
+    "ease": 1,
+    "ivl": -600,
+    "lastIvl": 1,
+    "factor": 1700,
+    "time": 6000,
+    "type": 1
+   },
+   {
+    "id": 1759353452184,
+    "usn": 2889,
+    "ease": 3,
+    "ivl": 1,
+    "lastIvl": -600,
+    "factor": 1700,
+    "time": 4867,
+    "type": 2
+   },
+   {
+    "id": 1759491369567,
+    "usn": 2900,
+    "ease": 3,
+    "ivl": 3,
+    "lastIvl": 1,
+    "factor": 1700,
+    "time": 4719,
+    "type": 1
+   },
+   {
+    "id": 1759702673000,
+    "usn": 2915,
+    "ease": 3,
+    "ivl": 5,
+    "lastIvl": 3,
+    "factor": 1700,
+    "time": 3000,
+    "type": 1
+   },
+   {
+    "id": 1760150682000,
+    "usn": 2923,
+    "ease": 3,
+    "ivl": 7,
+    "lastIvl": 5,
+    "factor": 1700,
+    "time": 10000,
+    "type": 1
+   },
+   {
+    "id": 1760857207000,
+    "usn": 2953,
+    "ease": 3,
+    "ivl": 11,
+    "lastIvl": 7,
+    "factor": 1700,
+    "time": 9000,
+    "type": 1
+   },
+   {
+    "id": 1762123374821,
+    "usn": 3038,
+    "ease": 1,
+    "ivl": -600,
+    "lastIvl": 11,
+    "factor": 1500,
+    "time": 10703,
+    "type": 1
+   },
+   {
+    "id": 1762124010507,
+    "usn": 3038,
+    "ease": 4,
+    "ivl": 2,
+    "lastIvl": -600,
+    "factor": 1500,
+    "time": 7077,
+    "type": 2
+   },
+   {
+    "id": 1762305138549,
+    "usn": 3050,
+    "ease": 3,
+    "ivl": 4,
+    "lastIvl": 2,
+    "factor": 1500,
+    "time": 14865,
+    "type": 1
+   },
+   {
+    "id": 1762724940000,
+    "usn": 3083,
+    "ease": 3,
+    "ivl": 6,
+    "lastIvl": 4,
+    "factor": 1500,
+    "time": 5000,
+    "type": 1
+   },
+   {
+    "id": 1763521929667,
+    "usn": 3128,
+    "ease": 3,
+    "ivl": 12,
+    "lastIvl": 6,
+    "factor": 1500,
+    "time": 5943,
+    "type": 1
+   },
+   {
+    "id": 1767313521783,
+    "usn": 3272,
+    "ease": 3,
+    "ivl": 20,
+    "lastIvl": 12,
+    "factor": 1500,
+    "time": 12215,
+    "type": 1
+   },
+   {
+    "id": 1769040082000,
+    "usn": 3425,
+    "ease": 3,
+    "ivl": 33,
+    "lastIvl": 20,
+    "factor": 1500,
+    "time": 8000,
+    "type": 1
+   },
+   {
+    "id": 1771899185000,
+    "usn": 3648,
+    "ease": 1,
+    "ivl": -600,
+    "lastIvl": 33,
+    "factor": 1300,
+    "time": 14000,
+    "type": 1
+   },
+   {
+    "id": 1771946611000,
+    "usn": 3649,
+    "ease": 4,
+    "ivl": 2,
+    "lastIvl": -600,
+    "factor": 1300,
+    "time": 4000,
+    "type": 2
+   },
+   {
+    "id": 1772061795000,
+    "usn": 3664,
+    "ease": 3,
+    "ivl": 4,
+    "lastIvl": 2,
+    "factor": 1300,
+    "time": 4000,
+    "type": 1
+   },
+   {
+    "id": 1772503117000,
+    "usn": 3714,
+    "ease": 3,
+    "ivl": 6,
+    "lastIvl": 4,
+    "factor": 1300,
+    "time": 3000,
+    "type": 1
+   },
+   {
+    "id": 1773307294000,
+    "usn": 3774,
+    "ease": 3,
+    "ivl": 11,
+    "lastIvl": 6,
+    "factor": 1300,
+    "time": 4000,
+    "type": 1
+   },
+   {
+    "id": 1774565468000,
+    "usn": 3881,
+    "ease": 3,
+    "ivl": 13,
+    "lastIvl": 11,
+    "factor": 1300,
+    "time": 4000,
+    "type": 1
+   },
+   {
+    "id": 1775784835000,
+    "usn": 3958,
+    "ease": 3,
+    "ivl": 21,
+    "lastIvl": 13,
+    "factor": 1300,
+    "time": 5000,
+    "type": 1
+   },
+   {
+    "id": 1777643103918,
+    "usn": 4048,
+    "ease": 3,
+    "ivl": 30,
+    "lastIvl": 21,
+    "factor": 1300,
+    "time": 9079,
+    "type": 1
+   },
+   {
+    "id": 1780236907314,
+    "usn": 4180,
+    "ease": 3,
+    "ivl": 14,
+    "lastIvl": 30,
+    "factor": 1041,
+    "time": 6486,
+    "type": 1
+   },
+   {
+    "id": 1781395904085,
+    "usn": 4272,
+    "ease": 1,
+    "ivl": -600,
+    "lastIvl": 14,
+    "factor": 1089,
+    "time": 5566,
+    "type": 1
+   },
+   {
+    "id": 1781396785016,
+    "usn": 4272,
+    "ease": 3,
+    "ivl": -3600,
+    "lastIvl": -600,
+    "factor": 1088,
+    "time": 4031,
+    "type": 2
+   },
+   {
+    "id": 1781402378560,
+    "usn": 4286,
+    "ease": 3,
+    "ivl": 2,
+    "lastIvl": -3600,
+    "factor": 1086,
+    "time": 3669,
+    "type": 2
+   },
+   {
+    "id": 1781569131060,
+    "usn": 4299,
+    "ease": 3,
+    "ivl": 5,
+    "lastIvl": 2,
+    "factor": 1084,
+    "time": 3302,
+    "type": 1
+   },
+   {
+    "id": 1781996878539,
+    "usn": 4341,
+    "ease": 3,
+    "ivl": 4,
+    "lastIvl": 5,
+    "factor": 1083,
+    "time": 4124,
+    "type": 1
+   },
+   {
+    "id": 1782343398730,
+    "usn": 4381,
+    "ease": 3,
+    "ivl": 9,
+    "lastIvl": 4,
+    "factor": 1081,
+    "time": 2627,
+    "type": 1
+   },
+   {
+    "id": 1783133125252,
+    "usn": 4440,
+    "ease": 3,
+    "ivl": 10,
+    "lastIvl": 9,
+    "factor": 1080,
+    "time": 3410,
+    "type": 1
+   },
+   {
+    "id": 1783989609416,
+    "usn": 4505,
+    "ease": 3,
+    "ivl": 8,
+    "lastIvl": 10,
+    "factor": 1078,
+    "time": 4583,
+    "type": 1
+   },
+   {
+    "id": 1784694118620,
+    "usn": 4518,
+    "ease": 3,
+    "ivl": 12,
+    "lastIvl": 8,
+    "factor": 1077,
+    "time": 6075,
+    "type": 1
+   },
+   {
+    "id": 1785854657912,
+    "usn": 4570,
+    "ease": 3,
+    "ivl": 13,
+    "lastIvl": 12,
+    "factor": 1075,
+    "time": 3802,
+    "type": 1
+   },
+   {
+    "id": 1786922249987,
+    "usn": 4635,
+    "ease": 3,
+    "ivl": 15,
+    "lastIvl": 13,
+    "factor": 1074,
+    "time": 3541,
+    "type": 1
+   },
+   {
+    "id": 1788225827502,
+    "usn": 4789,
+    "ease": 3,
+    "ivl": 21,
+    "lastIvl": 15,
+    "factor": 1072,
+    "time": 7744,
+    "type": 1
+   },
+   {
+    "id": 1790252558113,
+    "usn": 4869,
+    "ease": 1,
+    "ivl": -1800,
+    "lastIvl": 21,
+    "factor": 1089,
+    "time": 4039,
+    "type": 1
+   }
+  ],
+  "1726634615292": [
+   {
+    "id": 1735451045147,
+    "usn": 1629,
+    "ease": 0,
+    "ivl": 0,
+    "lastIvl": 0,
+    "factor": 0,
+    "time": 0,
+    "type": 4
+   },
+   {
+    "id": 1735451219812,
+    "usn": 1630,
+    "ease": 0,
+    "ivl": 0,
+    "lastIvl": 0,
+    "factor": 0,
+    "time": 0,
+    "type": 4
+   }
+  ],
+  "1726634615293": [
+   {
+    "id": 1735451045148,
+    "usn": 1629,
+    "ease": 0,
+    "ivl": 0,
+    "lastIvl": 0,
+    "factor": 0,
+    "time": 0,
+    "type": 4
+   },
+   {
+    "id": 1735451219813,
+    "usn": 1630,
+    "ease": 0,
+    "ivl": 0,
+    "lastIvl": 0,
+    "factor": 0,
+    "time": 0,
+    "type": 4
+   }
+  ],
+  "1726634605412": [
+   {
+    "id": 1731213919709,
+    "usn": 1539,
+    "ease": 3,
+    "ivl": -900,
+    "lastIvl": 0,
+    "factor": 560,
+    "time": 8856,
+    "type": 0
+   },
+   {
+    "id": 1731295364812,
+    "usn": 1540,
+    "ease": 3,
+    "ivl": 1,
+    "lastIvl": -900,
+    "factor": 560,
+    "time": 9191,
+    "type": 0
+   },
+   {
+    "id": 1731299621922,
+    "usn": 1543,
+    "ease": 3,
+    "ivl": 9,
+    "lastIvl": -3600,
+    "factor": 560,
+    "time": 8272,
+    "type": 0
+   },
+   {
+    "id": 1732101722654,
+    "usn": 1566,
+    "ease": 3,
+    "ivl": 31,
+    "lastIvl": 9,
+    "factor": 560,
+    "time": 13216,
+    "type": 1
+   },
+   {
+    "id": 1734878311588,
+    "usn": 1623,
+    "ease": 0,
+    "ivl": 31,
+    "lastIvl": 31,
+    "factor": 582,
+    "time": 0,
+    "type": 5
+   },
+   {
+    "id": 1735451055021,
+    "usn": 1629,
+    "ease": 0,
+    "ivl": 0,
+    "lastIvl": 0,
+    "factor": 0,
+    "time": 0,
+    "type": 4
+   },
+   {
+    "id": 1735451229686,
+    "usn": 1630,
+    "ease": 0,
+    "ivl": 0,
+    "lastIvl": 0,
+    "factor": 0,
+    "time": 0,
+    "type": 4
+   },
+   {
+    "id": 1743242634314,
+    "usn": 1903,
+    "ease": 3,
+    "ivl": 1,
+    "lastIvl": 0,
+    "factor": 2500,
+    "time": 4001,
+    "type": 0
+   },
+   {
+    "id": 1743326835912,
+    "usn": 1910,
+    "ease": 4,
+    "ivl": 6,
+    "lastIvl": 1,
+    "factor": 2650,
+    "time": 3894,
+    "type": 1
+   },
+   {
+    "id": 1743856756923,
+    "usn": 1961,
+    "ease": 3,
+    "ivl": 18,
+    "lastIvl": 6,
+    "factor": 2650,
+    "time": 3539,
+    "type": 1
+   },
+   {
+    "id": 1745380427000,
+    "usn": 2107,
+    "ease": 3,
+    "ivl": 50,
+    "lastIvl": 18,
+    "factor": 2650,
+    "time": 4000,
+    "type": 1
+   },
+   {
+    "id": 1749719593604,
+    "usn": 2422,
+    "ease": 2,
+    "ivl": 58,
+    "lastIvl": 50,
+    "factor": 2500,
+    "time": 12935,
+    "type": 1
+   },
+   {
+    "id": 1756078079000,
+    "usn": 2741,
+    "ease": 3,
+    "ivl": 142,
+    "lastIvl": 58,
+    "factor": 2500,
+    "time": 5000,
+    "type": 1
+   },
+   {
+    "id": 1772586980000,
+    "usn": 3727,
+    "ease": 3,
+    "ivl": 337,
+    "lastIvl": 142,
+    "factor": 2500,
+    "time": 4000,
+    "type": 1
+   }
+  ],
+  "1726634605413": [
+   {
+    "id": 1735381650764,
+    "usn": 1624,
+    "ease": 3,
+    "ivl": -900,
+    "lastIvl": 0,
+    "factor": 583,
+    "time": 4757,
+    "type": 0
+   },
+   {
+    "id": 1735383817143,
+    "usn": 1625,
+    "ease": 3,
+    "ivl": -3600,
+    "lastIvl": -900,
+    "factor": 583,
+    "time": 2469,
+    "type": 0
+   },
+   {
+    "id": 1735451055022,
+    "usn": 1629,
+    "ease": 0,
+    "ivl": 0,
+    "lastIvl": 0,
+    "factor": 0,
+    "time": 0,
+    "type": 4
+   },
+   {
+    "id": 1735451229687,
+    "usn": 1630,
+    "ease": 0,
+    "ivl": 0,
+    "lastIvl": 0,
+    "factor": 0,
+    "time": 0,
+    "type": 4
+   },
+   {
+    "id": 1743243224939,
+    "usn": 1903,
+    "ease": 4,
+    "ivl": 5,
+    "lastIvl": 0,
+    "factor": 2500,
+    "time": 3066,
+    "type": 0
+   },
+   {
+    "id": 1743700928270,
+    "usn": 1945,
+    "ease": 3,
+    "ivl": 15,
+    "lastIvl": 5,
+    "factor": 2500,
+    "time": 3180,
+    "type": 1
+   },
+   {
+    "id": 1744980174553,
+    "usn": 2062,
+    "ease": 3,
+    "ivl": 41,
+    "lastIvl": 15,
+    "factor": 2500,
+    "time": 3970,
+    "type": 1
+   },
+   {
+    "id": 1748511652357,
+    "usn": 2377,
+    "ease": 3,
+    "ivl": 99,
+    "lastIvl": 41,
+    "factor": 2500,
+    "time": 6268,
+    "type": 1
+   },
+   {
+    "id": 1759274026000,
+    "usn": 2874,
+    "ease": 3,
+    "ivl": 242,
+    "lastIvl": 99,
+    "factor": 2500,
+    "time": 7000,
+    "type": 1
+   },
+   {
+    "id": 1784156973403,
+    "usn": 4508,
+    "ease": 3,
+    "ivl": 621,
+    "lastIvl": 242,
+    "factor": 100,
+    "time": 4152,
+    "type": 1
+   }
+  ],
+  "1726634609268": [
+   {
+    "id": 1735451051169,
+    "usn": 1629,
+    "ease": 0,
+    "ivl": 0,
+    "lastIvl": 0,
+    "factor": 0,
+    "time": 0,
+    "type": 4
+   },
+   {
+    "id": 1735451225834,
+    "usn": 1630,
+    "ease": 0,
+    "ivl": 0,
+    "lastIvl": 0,
+    "factor": 0,
+    "time": 0,
+    "type": 4
+   }
+  ],
+  "1726634609269": [
+   {
+    "id": 1735451051170,
+    "usn": 1629,
+    "ease": 0,
+    "ivl": 0,
+    "lastIvl": 0,
+    "factor": 0,
+    "time": 0,
+    "type": 4
+   },
+   {
+    "id": 1735451225835,
+    "usn": 1630,
+    "ease": 0,
+    "ivl": 0,
+    "lastIvl": 0,
+    "factor": 0,
+    "time": 0,
+    "type": 4
+   }
+  ],
+  "1726634612430": [
+   {
+    "id": 1735451048009,
+    "usn": 1629,
+    "ease": 0,
+    "ivl": 0,
+    "lastIvl": 0,
+    "factor": 0,
+    "time": 0,
+    "type": 4
+   },
+   {
+    "id": 1735451222674,
+    "usn": 1630,
+    "ease": 0,
+    "ivl": 0,
+    "lastIvl": 0,
+    "factor": 0,
+    "time": 0,
+    "type": 4
+   }
+  ],
+  "1726634612431": [
+   {
+    "id": 1735451048010,
+    "usn": 1629,
+    "ease": 0,
+    "ivl": 0,
+    "lastIvl": 0,
+    "factor": 0,
+    "time": 0,
+    "type": 4
+   },
+   {
+    "id": 1735451222675,
+    "usn": 1630,
+    "ease": 0,
+    "ivl": 0,
+    "lastIvl": 0,
+    "factor": 0,
+    "time": 0,
+    "type": 4
+   }
+  ],
+  "1726634621626": [
+   {
+    "id": 1735451038815,
+    "usn": 1629,
+    "ease": 0,
+    "ivl": 0,
+    "lastIvl": 0,
+    "factor": 0,
+    "time": 0,
+    "type": 4
+   },
+   {
+    "id": 1735451213480,
+    "usn": 1630,
+    "ease": 0,
+    "ivl": 0,
+    "lastIvl": 0,
+    "factor": 0,
+    "time": 0,
+    "type": 4
+   }
+  ],
+  "1726634621627": [
+   {
+    "id": 1735451038816,
+    "usn": 1629,
+    "ease": 0,
+    "ivl": 0,
+    "lastIvl": 0,
+    "factor": 0,
+    "time": 0,
+    "type": 4
+   },
+   {
+    "id": 1735451213481,
+    "usn": 1630,
+    "ease": 0,
+    "ivl": 0,
+    "lastIvl": 0,
+    "factor": 0,
+    "time": 0,
+    "type": 4
+   }
+  ],
+  "1726634609642": [
+   {
+    "id": 1735451050795,
+    "usn": 1629,
+    "ease": 0,
+    "ivl": 0,
+    "lastIvl": 0,
+    "factor": 0,
+    "time": 0,
+    "type": 4
+   },
+   {
+    "id": 1735451225460,
+    "usn": 1630,
+    "ease": 0,
+    "ivl": 0,
+    "lastIvl": 0,
+    "factor": 0,
+    "time": 0,
+    "type": 4
+   }
+  ],
+  "1726634609643": [
+   {
+    "id": 1735451050796,
+    "usn": 1629,
+    "ease": 0,
+    "ivl": 0,
+    "lastIvl": 0,
+    "factor": 0,
+    "time": 0,
+    "type": 4
+   },
+   {
+    "id": 1735451225461,
+    "usn": 1630,
+    "ease": 0,
+    "ivl": 0,
+    "lastIvl": 0,
+    "factor": 0,
+    "time": 0,
+    "type": 4
+   }
+  ],
+  "1726634607498": [
+   {
+    "id": 1735451052939,
+    "usn": 1629,
+    "ease": 0,
+    "ivl": 0,
+    "lastIvl": 0,
+    "factor": 0,
+    "time": 0,
+    "type": 4
+   },
+   {
+    "id": 1735451227604,
+    "usn": 1630,
+    "ease": 0,
+    "ivl": 0,
+    "lastIvl": 0,
+    "factor": 0,
+    "time": 0,
+    "type": 4
+   },
+   {
+    "id": 1778704338650,
+    "usn": 4122,
+    "ease": 1,
+    "ivl": -1200,
+    "lastIvl": 0,
+    "factor": 833,
+    "time": 8610,
+    "type": 0
+   },
+   {
+    "id": 1778717920694,
+    "usn": 4122,
+    "ease": 1,
+    "ivl": -1200,
+    "lastIvl": -1200,
+    "factor": 937,
+    "time": 6566,
+    "type": 0
+   },
+   {
+    "id": 1778720680375,
+    "usn": 4122,
+    "ease": 3,
+    "ivl": -3600,
+    "lastIvl": -1200,
+    "factor": 936,
+    "time": 7950,
+    "type": 0
+   },
+   {
+    "id": 1778736096209,
+    "usn": 4124,
+    "ease": 1,
+    "ivl": -1200,
+    "lastIvl": -3600,
+    "factor": 999,
+    "time": 4893,
+    "type": 0
+   },
+   {
+    "id": 1778756141768,
+    "usn": 4124,
+    "ease": 3,
+    "ivl": -3600,
+    "lastIvl": -1200,
+    "factor": 999,
+    "time": 9299,
+    "type": 0
+   },
+   {
+    "id": 1778802422086,
+    "usn": 4125,
+    "ease": 3,
+    "ivl": 1,
+    "lastIvl": -3600,
+    "factor": 998,
+    "time": 5413,
+    "type": 0
+   },
+   {
+    "id": 1778909463948,
+    "usn": 4126,
+    "ease": 1,
+    "ivl": -600,
+    "lastIvl": 1,
+    "factor": 1037,
+    "time": 13508,
+    "type": 1
+   },
+   {
+    "id": 1778910167956,
+    "usn": 4126,
+    "ease": 3,
+    "ivl": -3600,
+    "lastIvl": -600,
+    "factor": 1036,
+    "time": 5458,
+    "type": 2
+   },
+   {
+    "id": 1778919636327,
+    "usn": 4126,
+    "ease": 3,
+    "ivl": 1,
+    "lastIvl": -3600,
+    "factor": 1036,
+    "time": 3570,
+    "type": 2
+   },
+   {
+    "id": 1778976799087,
+    "usn": 4127,
+    "ease": 1,
+    "ivl": -600,
+    "lastIvl": 1,
+    "factor": 1060,
+    "time": 4934,
+    "type": 1
+   },
+   {
+    "id": 1779015103686,
+    "usn": 4131,
+    "ease": 4,
+    "ivl": 2,
+    "lastIvl": -600,
+    "factor": 1051,
+    "time": 4764,
+    "type": 2
+   },
+   {
+    "id": 1779231714932,
+    "usn": 4139,
+    "ease": 3,
+    "ivl": 2,
+    "lastIvl": 2,
+    "factor": 1051,
+    "time": 3515,
+    "type": 1
+   },
+   {
+    "id": 1779413755689,
+    "usn": 4145,
+    "ease": 3,
+    "ivl": 2,
+    "lastIvl": 2,
+    "factor": 1050,
+    "time": 7596,
+    "type": 1
+   },
+   {
+    "id": 1779605796255,
+    "usn": 4152,
+    "ease": 3,
+    "ivl": 3,
+    "lastIvl": 2,
+    "factor": 1049,
+    "time": 4904,
+    "type": 1
+   },
+   {
+    "id": 1779863189159,
+    "usn": 4158,
+    "ease": 3,
+    "ivl": 3,
+    "lastIvl": 3,
+    "factor": 1048,
+    "time": 14206,
+    "type": 1
+   },
+   {
+    "id": 1780113512528,
+    "usn": 4159,
+    "ease": 1,
+    "ivl": -600,
+    "lastIvl": 3,
+    "factor": 1068,
+    "time": 4885,
+    "type": 1
+   },
+   {
+    "id": 1780118459359,
+    "usn": 4159,
+    "ease": 3,
+    "ivl": -3600,
+    "lastIvl": -600,
+    "factor": 1067,
+    "time": 3263,
+    "type": 2
+   },
+   {
+    "id": 1780124970307,
+    "usn": 4159,
+    "ease": 3,
+    "ivl": 1,
+    "lastIvl": -3600,
+    "factor": 1066,
+    "time": 3769,
+    "type": 2
+   },
+   {
+    "id": 1780236655784,
+    "usn": 4179,
+    "ease": 3,
+    "ivl": 2,
+    "lastIvl": 1,
+    "factor": 1065,
+    "time": 3268,
+    "type": 1
+   },
+   {
+    "id": 1780361789469,
+    "usn": 4202,
+    "ease": 3,
+    "ivl": 4,
+    "lastIvl": 2,
+    "factor": 1065,
+    "time": 2983,
+    "type": 1
+   },
+   {
+    "id": 1780721578560,
+    "usn": 4214,
+    "ease": 1,
+    "ivl": -600,
+    "lastIvl": 4,
+    "factor": 1078,
+    "time": 8899,
+    "type": 1
+   },
+   {
+    "id": 1780722987106,
+    "usn": 4214,
+    "ease": 3,
+    "ivl": -3600,
+    "lastIvl": -600,
+    "factor": 1077,
+    "time": 3708,
+    "type": 2
+   },
+   {
+    "id": 1780727643606,
+    "usn": 4215,
+    "ease": 4,
+    "ivl": 2,
+    "lastIvl": -3600,
+    "factor": 1071,
+    "time": 4234,
+    "type": 2
+   },
+   {
+    "id": 1780881098570,
+    "usn": 4222,
+    "ease": 3,
+    "ivl": 4,
+    "lastIvl": 2,
+    "factor": 1071,
+    "time": 3093,
+    "type": 1
+   },
+   {
+    "id": 1781215522756,
+    "usn": 4268,
+    "ease": 3,
+    "ivl": 3,
+    "lastIvl": 4,
+    "factor": 1084,
+    "time": 7518,
+    "type": 1
+   },
+   {
+    "id": 1781481881394,
+    "usn": 4296,
+    "ease": 3,
+    "ivl": 7,
+    "lastIvl": 3,
+    "factor": 1082,
+    "time": 3018,
+    "type": 1
+   },
+   {
+    "id": 1782090118725,
+    "usn": 4346,
+    "ease": 3,
+    "ivl": 7,
+    "lastIvl": 7,
+    "factor": 1081,
+    "time": 4373,
+    "type": 1
+   },
+   {
+    "id": 1782683143266,
+    "usn": 4401,
+    "ease": 3,
+    "ivl": 10,
+    "lastIvl": 7,
+    "factor": 1079,
+    "time": 3216,
+    "type": 1
+   },
+   {
+    "id": 1783543951287,
+    "usn": 4491,
+    "ease": 3,
+    "ivl": 7,
+    "lastIvl": 10,
+    "factor": 1078,
+    "time": 4026,
+    "type": 1
+   },
+   {
+    "id": 1784157037921,
+    "usn": 4508,
+    "ease": 3,
+    "ivl": 11,
+    "lastIvl": 7,
+    "factor": 1076,
+    "time": 6836,
+    "type": 1
+   },
+   {
+    "id": 1785137027912,
+    "usn": 4533,
+    "ease": 3,
+    "ivl": 14,
+    "lastIvl": 11,
+    "factor": 1075,
+    "time": 8764,
+    "type": 1
+   },
+   {
+    "id": 1786332287538,
+    "usn": 4591,
+    "ease": 2,
+    "ivl": 15,
+    "lastIvl": 14,
+    "factor": 1081,
+    "time": 17205,
+    "type": 1
+   },
+   {
+    "id": 1787621100246,
+    "usn": 4704,
+    "ease": 3,
+    "ivl": 18,
+    "lastIvl": 15,
+    "factor": 1080,
+    "time": 5389,
+    "type": 1
+   },
+   {
+    "id": 1789189945805,
+    "usn": 4856,
+    "ease": 2,
+    "ivl": 14,
+    "lastIvl": 18,
+    "factor": 1085,
+    "time": 9970,
+    "type": 1
+   },
+   {
+    "id": 1790651867246,
+    "usn": 4876,
+    "ease": 1,
+    "ivl": -1800,
+    "lastIvl": 14,
+    "factor": 1093,
+    "time": 7287,
+    "type": 1
+   },
+   {
+    "id": 1790655546219,
+    "usn": 4876,
+    "ease": 3,
+    "ivl": 2,
+    "lastIvl": -1800,
+    "factor": 1091,
+    "time": 7631,
+    "type": 2
+   },
+   {
+    "id": 1790806402156,
+    "usn": 4880,
+    "ease": 3,
+    "ivl": 4,
+    "lastIvl": 2,
+    "factor": 1090,
+    "time": 5834,
+    "type": 1
+   },
+   {
+    "id": 1791152880875,
+    "usn": 4893,
+    "ease": 3,
+    "ivl": 3,
+    "lastIvl": 4,
+    "factor": 1088,
+    "time": 4360,
+    "type": 1
+   },
+   {
+    "id": 1791419098753,
+    "usn": 4921,
+    "ease": 3,
+    "ivl": 7,
+    "lastIvl": 3,
+    "factor": 1087,
+    "time": 2693,
+    "type": 1
+   }
+  ],
+  "1726634607499": [
+   {
+    "id": 1735451052940,
+    "usn": 1629,
+    "ease": 0,
+    "ivl": 0,
+    "lastIvl": 0,
+    "factor": 0,
+    "time": 0,
+    "type": 4
+   },
+   {
+    "id": 1735451227605,
+    "usn": 1630,
+    "ease": 0,
+    "ivl": 0,
+    "lastIvl": 0,
+    "factor": 0,
+    "time": 0,
+    "type": 4
+   },
+   {
+    "id": 1779058444494,
+    "usn": 4133,
+    "ease": 3,
+    "ivl": -3600,
+    "lastIvl": 0,
+    "factor": 589,
+    "time": 3695,
+    "type": 0
+   },
+   {
+    "id": 1779111811142,
+    "usn": 4134,
+    "ease": 1,
+    "ivl": -1200,
+    "lastIvl": -3600,
+    "factor": 788,
+    "time": 3660,
+    "type": 0
+   },
+   {
+    "id": 1779153211779,
+    "usn": 4138,
+    "ease": 3,
+    "ivl": -3600,
+    "lastIvl": -1200,
+    "factor": 787,
+    "time": 3687,
+    "type": 0
+   },
+   {
+    "id": 1779169547632,
+    "usn": 4138,
+    "ease": 3,
+    "ivl": 9,
+    "lastIvl": -3600,
+    "factor": 787,
+    "time": 3706,
+    "type": 0
+   },
+   {
+    "id": 1779919786860,
+    "usn": 4158,
+    "ease": 3,
+    "ivl": 16,
+    "lastIvl": 9,
+    "factor": 786,
+    "time": 7114,
+    "type": 1
+   },
+   {
+    "id": 1781321279393,
+    "usn": 4270,
+    "ease": 3,
+    "ivl": 14,
+    "lastIvl": 16,
+    "factor": 772,
+    "time": 3281,
+    "type": 1
+   },
+   {
+    "id": 1782543885733,
+    "usn": 4386,
+    "ease": 3,
+    "ivl": 23,
+    "lastIvl": 14,
+    "factor": 771,
+    "time": 3256,
+    "type": 1
+   },
+   {
+    "id": 1784508083180,
+    "usn": 4514,
+    "ease": 2,
+    "ivl": 22,
+    "lastIvl": 23,
+    "factor": 875,
+    "time": 6712,
+    "type": 1
+   },
+   {
+    "id": 1786425065277,
+    "usn": 4599,
+    "ease": 3,
+    "ivl": 33,
+    "lastIvl": 22,
+    "factor": 874,
+    "time": 6408,
+    "type": 1
+   },
+   {
+    "id": 1789427793896,
+    "usn": 4864,
+    "ease": 2,
+    "ivl": 33,
+    "lastIvl": 33,
+    "factor": 945,
+    "time": 6267,
+    "type": 1
+   }
+  ],
+  "1726634606698": [
+   {
+    "id": 1735451053737,
+    "usn": 1629,
+    "ease": 0,
+    "ivl": 0,
+    "lastIvl": 0,
+    "factor": 0,
+    "time": 0,
+    "type": 4
+   },
+   {
+    "id": 1735451228402,
+    "usn": 1630,
+    "ease": 0,
+    "ivl": 0,
+    "lastIvl": 0,
+    "factor": 0,
+    "time": 0,
+    "type": 4
+   },
+   {
+    "id": 1762123286791,
+    "usn": 3038,
+    "ease": 4,
+    "ivl": 4,
+    "lastIvl": 0,
+    "factor": 2500,
+    "time": 3156,
+    "type": 0
+   },
+   {
+    "id": 1762485240662,
+    "usn": 3068,
+    "ease": 3,
+    "ivl": 9,
+    "lastIvl": 4,
+    "factor": 2500,
+    "time": 18172,
+    "type": 1
+   },
+   {
+    "id": 1763521903631,
+    "usn": 3128,
+    "ease": 2,
+    "ivl": 10,
+    "lastIvl": 9,
+    "factor": 2350,
+    "time": 21067,
+    "type": 1
+   },
+   {
+    "id": 1764381871000,
+    "usn": 3231,
+    "ease": 4,
+    "ivl": 30,
+    "lastIvl": 10,
+    "factor": 2500,
+    "time": 5000,
+    "type": 1
+   },
+   {
+    "id": 1769722116000,
+    "usn": 3491,
+    "ease": 3,
+    "ivl": 81,
+    "lastIvl": 30,
+    "factor": 2500,
+    "time": 12000,
+    "type": 1
+   },
+   {
+    "id": 1777358808184,
+    "usn": 4024,
+    "ease": 2,
+    "ivl": 95,
+    "lastIvl": 81,
+    "factor": 2350,
+    "time": 14997,
+    "type": 1
+   },
+   {
+    "id": 1785576416631,
+    "usn": 4549,
+    "ease": 3,
+    "ivl": 249,
+    "lastIvl": 95,
+    "factor": 489,
+    "time": 9097,
+    "type": 1
+   }
+  ],
+  "1726634606699": [
+   {
+    "id": 1735451053738,
+    "usn": 1629,
+    "ease": 0,
+    "ivl": 0,
+    "lastIvl": 0,
+    "factor": 0,
+    "time": 0,
+    "type": 4
+   },
+   {
+    "id": 1735451228403,
+    "usn": 1630,
+    "ease": 0,
+    "ivl": 0,
+    "lastIvl": 0,
+    "factor": 0,
+    "time": 0,
+    "type": 4
+   },
+   {
+    "id": 1762123277158,
+    "usn": 3038,
+    "ease": 4,
+    "ivl": 3,
+    "lastIvl": 0,
+    "factor": 2500,
+    "time": 15316,
+    "type": 0
+   },
+   {
+    "id": 1762381030000,
+    "usn": 3056,
+    "ease": 3,
+    "ivl": 6,
+    "lastIvl": 3,
+    "factor": 2500,
+    "time": 3000,
+    "type": 1
+   },
+   {
+    "id": 1762941630000,
+    "usn": 3094,
+    "ease": 3,
+    "ivl": 14,
+    "lastIvl": 6,
+    "factor": 2500,
+    "time": 4000,
+    "type": 1
+   },
+   {
+    "id": 1764381730000,
+    "usn": 3231,
+    "ease": 3,
+    "ivl": 39,
+    "lastIvl": 14,
+    "factor": 2500,
+    "time": 5000,
+    "type": 1
+   },
+   {
+    "id": 1770504105004,
+    "usn": 3551,
+    "ease": 3,
+    "ivl": 96,
+    "lastIvl": 39,
+    "factor": 2500,
+    "time": 6696,
+    "type": 1
+   },
+   {
+    "id": 1779412875858,
+    "usn": 4145,
+    "ease": 3,
+    "ivl": 106,
+    "lastIvl": 96,
+    "factor": 308,
+    "time": 4777,
+    "type": 1
+   },
+   {
+    "id": 1788582277235,
+    "usn": 4811,
+    "ease": 3,
+    "ivl": 461,
+    "lastIvl": 106,
+    "factor": 100,
+    "time": 8583,
+    "type": 1
+   }
+  ],
+  "1726634605142": [
+   {
+    "id": 1729163783294,
+    "usn": 1401,
+    "ease": 3,
+    "ivl": -900,
+    "lastIvl": 0,
+    "factor": 560,
+    "time": 10509,
+    "type": 0
+   },
+   {
+    "id": 1729164825759,
+    "usn": 1401,
+    "ease": 3,
+    "ivl": -3600,
+    "lastIvl": -900,
+    "factor": 560,
+    "time": 7253,
+    "type": 0
+   },
+   {
+    "id": 1729168969365,
+    "usn": 1406,
+    "ease": 3,
+    "ivl": 4,
+    "lastIvl": -3600,
+    "factor": 560,
+    "time": 6677,
+    "type": 0
+   },
+   {
+    "id": 1729524778487,
+    "usn": 1447,
+    "ease": 3,
+    "ivl": 17,
+    "lastIvl": 4,
+    "factor": 560,
+    "time": 7531,
+    "type": 1
+   },
+   {
+    "id": 1731785215000,
+    "usn": 1553,
+    "ease": 3,
+    "ivl": 65,
+    "lastIvl": 17,
+    "factor": 560,
+    "time": 5000,
+    "type": 1
+   },
+   {
+    "id": 1734878311325,
+    "usn": 1623,
+    "ease": 0,
+    "ivl": 43,
+    "lastIvl": 65,
+    "factor": 582,
+    "time": 0,
+    "type": 5
+   },
+   {
+    "id": 1735451055289,
+    "usn": 1629,
+    "ease": 0,
+    "ivl": 0,
+    "lastIvl": 0,
+    "factor": 0,
+    "time": 0,
+    "type": 4
+   },
+   {
+    "id": 1735451229954,
+    "usn": 1630,
+    "ease": 0,
+    "ivl": 0,
+    "lastIvl": 0,
+    "factor": 0,
+    "time": 0,
+    "type": 4
+   },
+   {
+    "id": 1740299460860,
+    "usn": 1816,
+    "ease": 4,
+    "ivl": 5,
+    "lastIvl": 0,
+    "factor": 2500,
+    "time": 8601,
+    "type": 0
+   },
+   {
+    "id": 1741049047000,
+    "usn": 1841,
+    "ease": 3,
+    "ivl": 17,
+    "lastIvl": 5,
+    "factor": 2500,
+    "time": 5000,
+    "type": 1
+   },
+   {
+    "id": 1742206128413,
+    "usn": 1838,
+    "ease": 3,
+    "ivl": 15,
+    "lastIvl": 5,
+    "factor": 2500,
+    "time": 5904,
+    "type": 1
+   },
+   {
+    "id": 1743520866392,
+    "usn": 1925,
+    "ease": 3,
+    "ivl": 41,
+    "lastIvl": 15,
+    "factor": 2500,
+    "time": 4622,
+    "type": 1
+   },
+   {
+    "id": 1747052269932,
+    "usn": 2239,
+    "ease": 3,
+    "ivl": 110,
+    "lastIvl": 41,
+    "factor": 2500,
+    "time": 5923,
+    "type": 1
+   },
+   {
+    "id": 1758758589833,
+    "usn": 2843,
+    "ease": 3,
+    "ivl": 264,
+    "lastIvl": 110,
+    "factor": 2500,
+    "time": 60000,
+    "type": 1
+   },
+   {
+    "id": 1785576336145,
+    "usn": 4549,
+    "ease": 3,
+    "ivl": 706,
+    "lastIvl": 264,
+    "factor": 100,
+    "time": 12497,
+    "type": 1
+   }
+  ],
+  "1726634605143": [
+   {
+    "id": 1729263433230,
+    "usn": 1409,
+    "ease": 3,
+    "ivl": -900,
+    "lastIvl": 0,
+    "factor": 560,
+    "time": 12746,
+    "type": 0
+   },
+   {
+    "id": 1729274174000,
+    "usn": 1412,
+    "ease": 3,
+    "ivl": -3600,
+    "lastIvl": -900,
+    "factor": 560,
+    "time": 12000,
+    "type": 0
+   },
+   {
+    "id": 1729278104000,
+    "usn": 1414,
+    "ease": 3,
+    "ivl": 5,
+    "lastIvl": -3600,
+    "factor": 560,
+    "time": 44000,
+    "type": 0
+   },
+   {
+    "id": 1729677840016,
+    "usn": 1469,
+    "ease": 3,
+    "ivl": 15,
+    "lastIvl": 5,
+    "factor": 560,
+    "time": 5215,
+    "type": 1
+   },
+   {
+    "id": 1731867379000,
+    "usn": 1554,
+    "ease": 3,
+    "ivl": 66,
+    "lastIvl": 15,
+    "factor": 560,
+    "time": 3000,
+    "type": 1
+   },
+   {
+    "id": 1734878311326,
+    "usn": 1623,
+    "ease": 0,
+    "ivl": 43,
+    "lastIvl": 66,
+    "factor": 582,
+    "time": 0,
+    "type": 5
+   },
+   {
+    "id": 1735451055290,
+    "usn": 1629,
+    "ease": 0,
+    "ivl": 0,
+    "lastIvl": 0,
+    "factor": 0,
+    "time": 0,
+    "type": 4
+   },
+   {
+    "id": 1735451229955,
+    "usn": 1630,
+    "ease": 0,
+    "ivl": 0,
+    "lastIvl": 0,
+    "factor": 0,
+    "time": 0,
+    "type": 4
+   },
+   {
+    "id": 1740299960613,
+    "usn": 1816,
+    "ease": 4,
+    "ivl": 4,
+    "lastIvl": 0,
+    "factor": 2500,
+    "time": 3461,
+    "type": 0
+   },
+   {
+    "id": 1740655916696,
+    "usn": 1830,
+    "ease": 3,
+    "ivl": 12,
+    "lastIvl": 4,
+    "factor": 2500,
+    "time": 15339,
+    "type": 1
+   },
+   {
+    "id": 1743215356648,
+    "usn": 1897,
+    "ease": 3,
+    "ivl": 33,
+    "lastIvl": 12,
+    "factor": 2500,
+    "time": 3594,
+    "type": 1
+   },
+   {
+    "id": 1746012227913,
+    "usn": 2158,
+    "ease": 3,
+    "ivl": 76,
+    "lastIvl": 33,
+    "factor": 2500,
+    "time": 3046,
+    "type": 1
+   },
+   {
+    "id": 1754020403231,
+    "usn": 2611,
+    "ease": 3,
+    "ivl": 184,
+    "lastIvl": 76,
+    "factor": 2500,
+    "time": 3129,
+    "type": 1
+   },
+   {
+    "id": 1774748518504,
+    "usn": 3898,
+    "ease": 3,
+    "ivl": 437,
+    "lastIvl": 184,
+    "factor": 2500,
+    "time": 3106,
+    "type": 1
+   }
+  ],
+  "1726634612720": [
+   {
+    "id": 1735451047719,
+    "usn": 1629,
+    "ease": 0,
+    "ivl": 0,
+    "lastIvl": 0,
+    "factor": 0,
+    "time": 0,
+    "type": 4
+   },
+   {
+    "id": 1735451222384,
+    "usn": 1630,
+    "ease": 0,
+    "ivl": 0,
+    "lastIvl": 0,
+    "factor": 0,
+    "time": 0,
+    "type": 4
+   }
+  ],
+  "1726634612721": [
+   {
+    "id": 1735451047720,
+    "usn": 1629,
+    "ease": 0,
+    "ivl": 0,
+    "lastIvl": 0,
+    "factor": 0,
+    "time": 0,
+    "type": 4
+   },
+   {
+    "id": 1735451222385,
+    "usn": 1630,
+    "ease": 0,
+    "ivl": 0,
+    "lastIvl": 0,
+    "factor": 0,
+    "time": 0,
+    "type": 4
+   }
+  ],
+  "1726634613910": [
+   {
+    "id": 1735451046529,
+    "usn": 1629,
+    "ease": 0,
+    "ivl": 0,
+    "lastIvl": 0,
+    "factor": 0,
+    "time": 0,
+    "type": 4
+   },
+   {
+    "id": 1735451221194,
+    "usn": 1630,
+    "ease": 0,
+    "ivl": 0,
+    "lastIvl": 0,
+    "factor": 0,
+    "time": 0,
+    "type": 4
+   }
+  ],
+  "1726634613911": [
+   {
+    "id": 1735451046530,
+    "usn": 1629,
+    "ease": 0,
+    "ivl": 0,
+    "lastIvl": 0,
+    "factor": 0,
+    "time": 0,
+    "type": 4
+   },
+   {
+    "id": 1735451221195,
+    "usn": 1630,
+    "ease": 0,
+    "ivl": 0,
+    "lastIvl": 0,
+    "factor": 0,
+    "time": 0,
+    "type": 4
+   }
+  ],
+  "1726634610308": [
+   {
+    "id": 1735451050129,
+    "usn": 1629,
+    "ease": 0,
+    "ivl": 0,
+    "lastIvl": 0,
+    "factor": 0,
+    "time": 0,
+    "type": 4
+   },
+   {
+    "id": 1735451224794,
+    "usn": 1630,
+    "ease": 0,
+    "ivl": 0,
+    "lastIvl": 0,
+    "factor": 0,
+    "time": 0,
+    "type": 4
+   }
+  ],
+  "1726634610309": [
+   {
+    "id": 1735451050130,
+    "usn": 1629,
+    "ease": 0,
+    "ivl": 0,
+    "lastIvl": 0,
+    "factor": 0,
+    "time": 0,
+    "type": 4
+   },
+   {
+    "id": 1735451224795,
+    "usn": 1630,
+    "ease": 0,
+    "ivl": 0,
+    "lastIvl": 0,
+    "factor": 0,
+    "time": 0,
+    "type": 4
+   }
+  ],
+  "1726634613484": [
+   {
+    "id": 1735451046955,
+    "usn": 1629,
+    "ease": 0,
+    "ivl": 0,
+    "lastIvl": 0,
+    "factor": 0,
+    "time": 0,
+    "type": 4
+   },
+   {
+    "id": 1735451221620,
+    "usn": 1630,
+    "ease": 0,
+    "ivl": 0,
+    "lastIvl": 0,
+    "factor": 0,
+    "time": 0,
+    "type": 4
+   }
+  ],
+  "1726634613485": [
+   {
+    "id": 1735451046956,
+    "usn": 1629,
+    "ease": 0,
+    "ivl": 0,
+    "lastIvl": 0,
+    "factor": 0,
+    "time": 0,
+    "type": 4
+   },
+   {
+    "id": 1735451221621,
+    "usn": 1630,
+    "ease": 0,
+    "ivl": 0,
+    "lastIvl": 0,
+    "factor": 0,
+    "time": 0,
+    "type": 4
+   }
+  ],
+  "1726634610718": [
+   {
+    "id": 1735451049719,
+    "usn": 1629,
+    "ease": 0,
+    "ivl": 0,
+    "lastIvl": 0,
+    "factor": 0,
+    "time": 0,
+    "type": 4
+   },
+   {
+    "id": 1735451224384,
+    "usn": 1630,
+    "ease": 0,
+    "ivl": 0,
+    "lastIvl": 0,
+    "factor": 0,
+    "time": 0,
+    "type": 4
+   }
+  ],
+  "1726634610719": [
+   {
+    "id": 1735451049720,
+    "usn": 1629,
+    "ease": 0,
+    "ivl": 0,
+    "lastIvl": 0,
+    "factor": 0,
+    "time": 0,
+    "type": 4
+   },
+   {
+    "id": 1735451224385,
+    "usn": 1630,
+    "ease": 0,
+    "ivl": 0,
+    "lastIvl": 0,
+    "factor": 0,
+    "time": 0,
+    "type": 4
+   }
+  ],
+  "1726634607080": [
+   {
+    "id": 1735451053355,
+    "usn": 1629,
+    "ease": 0,
+    "ivl": 0,
+    "lastIvl": 0,
+    "factor": 0,
+    "time": 0,
+    "type": 4
+   },
+   {
+    "id": 1735451228020,
+    "usn": 1630,
+    "ease": 0,
+    "ivl": 0,
+    "lastIvl": 0,
+    "factor": 0,
+    "time": 0,
+    "type": 4
+   },
+   {
+    "id": 1771556125000,
+    "usn": 3627,
+    "ease": 1,
+    "ivl": -1200,
+    "lastIvl": 0,
+    "factor": 0,
+    "time": 32000,
+    "type": 0
+   },
+   {
+    "id": 1771635982505,
+    "usn": 3629,
+    "ease": 1,
+    "ivl": -1200,
+    "lastIvl": -1200,
+    "factor": 0,
+    "time": 60000,
+    "type": 0
+   },
+   {
+    "id": 1771639505167,
+    "usn": 3629,
+    "ease": 1,
+    "ivl": -1200,
+    "lastIvl": -1200,
+    "factor": 0,
+    "time": 23645,
+    "type": 0
+   },
+   {
+    "id": 1771642126609,
+    "usn": 3629,
+    "ease": 1,
+    "ivl": -1200,
+    "lastIvl": -1200,
+    "factor": 0,
+    "time": 29913,
+    "type": 0
+   },
+   {
+    "id": 1771664855404,
+    "usn": 3630,
+    "ease": 1,
+    "ivl": -1200,
+    "lastIvl": -1200,
+    "factor": 0,
+    "time": 60000,
+    "type": 0
+   },
+   {
+    "id": 1771672311000,
+    "usn": 3635,
+    "ease": 1,
+    "ivl": -1200,
+    "lastIvl": -1200,
+    "factor": 0,
+    "time": 21000,
+    "type": 0
+   },
+   {
+    "id": 1771729807000,
+    "usn": 3635,
+    "ease": 1,
+    "ivl": -1200,
+    "lastIvl": -1200,
+    "factor": 0,
+    "time": 23000,
+    "type": 0
+   },
+   {
+    "id": 1771735954000,
+    "usn": 3635,
+    "ease": 1,
+    "ivl": -1200,
+    "lastIvl": -1200,
+    "factor": 0,
+    "time": 14000,
+    "type": 0
+   },
+   {
+    "id": 1771737724000,
+    "usn": 3636,
+    "ease": 3,
+    "ivl": -3600,
+    "lastIvl": -1200,
+    "factor": 0,
+    "time": 22000,
+    "type": 0
+   },
+   {
+    "id": 1771758676000,
+    "usn": 3636,
+    "ease": 3,
+    "ivl": 1,
+    "lastIvl": -3600,
+    "factor": 2500,
+    "time": 15000,
+    "type": 0
+   },
+   {
+    "id": 1771802781000,
+    "usn": 3639,
+    "ease": 2,
+    "ivl": 2,
+    "lastIvl": 1,
+    "factor": 2350,
+    "time": 20000,
+    "type": 1
+   },
+   {
+    "id": 1771974003263,
+    "usn": 3652,
+    "ease": 3,
+    "ivl": 6,
+    "lastIvl": 2,
+    "factor": 2350,
+    "time": 9546,
+    "type": 1
+   },
+   {
+    "id": 1772504049000,
+    "usn": 3714,
+    "ease": 1,
+    "ivl": -600,
+    "lastIvl": 6,
+    "factor": 2150,
+    "time": 17000,
+    "type": 1
+   },
+   {
+    "id": 1772520027000,
+    "usn": 3718,
+    "ease": 1,
+    "ivl": -600,
+    "lastIvl": -600,
+    "factor": 2150,
+    "time": 9000,
+    "type": 2
+   },
+   {
+    "id": 1772530045414,
+    "usn": 3722,
+    "ease": 3,
+    "ivl": -3600,
+    "lastIvl": -600,
+    "factor": 2150,
+    "time": 15889,
+    "type": 2
+   },
+   {
+    "id": 1772533838000,
+    "usn": 3725,
+    "ease": 1,
+    "ivl": -600,
+    "lastIvl": -3600,
+    "factor": 2150,
+    "time": 15000,
+    "type": 2
+   },
+   {
+    "id": 1772585801000,
+    "usn": 3727,
+    "ease": 3,
+    "ivl": -3600,
+    "lastIvl": -600,
+    "factor": 2150,
+    "time": 9000,
+    "type": 2
+   },
+   {
+    "id": 1772592937699,
+    "usn": 3731,
+    "ease": 3,
+    "ivl": 1,
+    "lastIvl": -3600,
+    "factor": 2150,
+    "time": 15122,
+    "type": 2
+   },
+   {
+    "id": 1772666008000,
+    "usn": 3736,
+    "ease": 3,
+    "ivl": 3,
+    "lastIvl": 1,
+    "factor": 2150,
+    "time": 12000,
+    "type": 1
+   },
+   {
+    "id": 1773010973000,
+    "usn": 3756,
+    "ease": 3,
+    "ivl": 8,
+    "lastIvl": 3,
+    "factor": 2150,
+    "time": 6000,
+    "type": 1
+   },
+   {
+    "id": 1774224443000,
+    "usn": 3840,
+    "ease": 3,
+    "ivl": 20,
+    "lastIvl": 8,
+    "factor": 2150,
+    "time": 7000,
+    "type": 1
+   },
+   {
+    "id": 1775982383000,
+    "usn": 3972,
+    "ease": 1,
+    "ivl": -600,
+    "lastIvl": 20,
+    "factor": 1950,
+    "time": 9000,
+    "type": 1
+   },
+   {
+    "id": 1776045844000,
+    "usn": 3974,
+    "ease": 1,
+    "ivl": -600,
+    "lastIvl": -600,
+    "factor": 1950,
+    "time": 15000,
+    "type": 2
+   },
+   {
+    "id": 1776046594000,
+    "usn": 3974,
+    "ease": 2,
+    "ivl": -2100,
+    "lastIvl": -600,
+    "factor": 1950,
+    "time": 18000,
+    "type": 2
+   },
+   {
+    "id": 1776064091000,
+    "usn": 3975,
+    "ease": 3,
+    "ivl": -3600,
+    "lastIvl": -600,
+    "factor": 1950,
+    "time": 8000,
+    "type": 2
+   },
+   {
+    "id": 1776082631000,
+    "usn": 3976,
+    "ease": 1,
+    "ivl": -600,
+    "lastIvl": -3600,
+    "factor": 1950,
+    "time": 4000,
+    "type": 2
+   },
+   {
+    "id": 1776129728000,
+    "usn": 3977,
+    "ease": 3,
+    "ivl": -3600,
+    "lastIvl": -600,
+    "factor": 1950,
+    "time": 7000,
+    "type": 2
+   },
+   {
+    "id": 1776178609000,
+    "usn": 3978,
+    "ease": 1,
+    "ivl": -600,
+    "lastIvl": -3600,
+    "factor": 1950,
+    "time": 6000,
+    "type": 2
+   },
+   {
+    "id": 1776223390000,
+    "usn": 3979,
+    "ease": 3,
+    "ivl": -3600,
+    "lastIvl": -600,
+    "factor": 1950,
+    "time": 6000,
+    "type": 2
+   },
+   {
+    "id": 1776229423000,
+    "usn": 3981,
+    "ease": 3,
+    "ivl": 1,
+    "lastIvl": -3600,
+    "factor": 1950,
+    "time": 13000,
+    "type": 2
+   },
+   {
+    "id": 1776305443000,
+    "usn": 3981,
+    "ease": 3,
+    "ivl": 4,
+    "lastIvl": 1,
+    "factor": 1950,
+    "time": 5000,
+    "type": 1
+   },
+   {
+    "id": 1776651977000,
+    "usn": 3986,
+    "ease": 3,
+    "ivl": 9,
+    "lastIvl": 4,
+    "factor": 1950,
+    "time": 7000,
+    "type": 1
+   },
+   {
+    "id": 1777443429000,
+    "usn": 4029,
+    "ease": 1,
+    "ivl": -600,
+    "lastIvl": 9,
+    "factor": 1750,
+    "time": 8000,
+    "type": 1
+   },
+   {
+    "id": 1777444103000,
+    "usn": 4029,
+    "ease": 3,
+    "ivl": -3600,
+    "lastIvl": -600,
+    "factor": 1750,
+    "time": 10000,
+    "type": 2
+   },
+   {
+    "id": 1777460302000,
+    "usn": 4033,
+    "ease": 3,
+    "ivl": 1,
+    "lastIvl": -3600,
+    "factor": 1750,
+    "time": 6000,
+    "type": 2
+   },
+   {
+    "id": 1777503016000,
+    "usn": 4034,
+    "ease": 4,
+    "ivl": 4,
+    "lastIvl": 1,
+    "factor": 1900,
+    "time": 7000,
+    "type": 1
+   },
+   {
+    "id": 1777869514705,
+    "usn": 4088,
+    "ease": 1,
+    "ivl": -600,
+    "lastIvl": 4,
+    "factor": 1094,
+    "time": 6545,
+    "type": 1
+   },
+   {
+    "id": 1777871173826,
+    "usn": 4088,
+    "ease": 3,
+    "ivl": -3600,
+    "lastIvl": -600,
+    "factor": 1093,
+    "time": 5686,
+    "type": 2
+   },
+   {
+    "id": 1777877971509,
+    "usn": 4088,
+    "ease": 3,
+    "ivl": 1,
+    "lastIvl": -3600,
+    "factor": 1092,
+    "time": 6866,
+    "type": 2
+   },
+   {
+    "id": 1777930548609,
+    "usn": 4092,
+    "ease": 4,
+    "ivl": 4,
+    "lastIvl": 1,
+    "factor": 1090,
+    "time": 5232,
+    "type": 1
+   },
+   {
+    "id": 1778322193461,
+    "usn": 4113,
+    "ease": 3,
+    "ivl": 3,
+    "lastIvl": 4,
+    "factor": 1089,
+    "time": 9311,
+    "type": 1
+   },
+   {
+    "id": 1778620423444,
+    "usn": 4119,
+    "ease": 3,
+    "ivl": 4,
+    "lastIvl": 3,
+    "factor": 1089,
+    "time": 5801,
+    "type": 1
+   },
+   {
+    "id": 1778976278864,
+    "usn": 4127,
+    "ease": 3,
+    "ivl": 6,
+    "lastIvl": 4,
+    "factor": 1088,
+    "time": 7195,
+    "type": 1
+   },
+   {
+    "id": 1779495597742,
+    "usn": 4147,
+    "ease": 2,
+    "ivl": 5,
+    "lastIvl": 6,
+    "factor": 1089,
+    "time": 11967,
+    "type": 1
+   },
+   {
+    "id": 1779920260754,
+    "usn": 4158,
+    "ease": 1,
+    "ivl": -600,
+    "lastIvl": 5,
+    "factor": 1093,
+    "time": 8567,
+    "type": 1
+   },
+   {
+    "id": 1779920979961,
+    "usn": 4158,
+    "ease": 1,
+    "ivl": -600,
+    "lastIvl": -600,
+    "factor": 1095,
+    "time": 9754,
+    "type": 2
+   },
+   {
+    "id": 1779949136234,
+    "usn": 4158,
+    "ease": 3,
+    "ivl": -3600,
+    "lastIvl": -600,
+    "factor": 1094,
+    "time": 6234,
+    "type": 2
+   },
+   {
+    "id": 1780009301081,
+    "usn": 4158,
+    "ease": 4,
+    "ivl": 2,
+    "lastIvl": -3600,
+    "factor": 1092,
+    "time": 6344,
+    "type": 2
+   },
+   {
+    "id": 1780234964604,
+    "usn": 4177,
+    "ease": 4,
+    "ivl": 3,
+    "lastIvl": 2,
+    "factor": 1090,
+    "time": 4908,
+    "type": 1
+   },
+   {
+    "id": 1780463378902,
+    "usn": 4205,
+    "ease": 4,
+    "ivl": 5,
+    "lastIvl": 3,
+    "factor": 1087,
+    "time": 5464,
+    "type": 1
+   },
+   {
+    "id": 1780920738654,
+    "usn": 4222,
+    "ease": 3,
+    "ivl": 4,
+    "lastIvl": 5,
+    "factor": 1086,
+    "time": 3388,
+    "type": 1
+   },
+   {
+    "id": 1781215316601,
+    "usn": 4268,
+    "ease": 3,
+    "ivl": 7,
+    "lastIvl": 4,
+    "factor": 1078,
+    "time": 5021,
+    "type": 1
+   },
+   {
+    "id": 1781833432460,
+    "usn": 4329,
+    "ease": 3,
+    "ivl": 10,
+    "lastIvl": 7,
+    "factor": 1077,
+    "time": 4392,
+    "type": 1
+   },
+   {
+    "id": 1782683827567,
+    "usn": 4401,
+    "ease": 3,
+    "ivl": 11,
+    "lastIvl": 10,
+    "factor": 1075,
+    "time": 5349,
+    "type": 1
+   },
+   {
+    "id": 1783632744922,
+    "usn": 4495,
+    "ease": 3,
+    "ivl": 12,
+    "lastIvl": 11,
+    "factor": 1074,
+    "time": 5518,
+    "type": 1
+   },
+   {
+    "id": 1784694108661,
+    "usn": 4518,
+    "ease": 3,
+    "ivl": 14,
+    "lastIvl": 12,
+    "factor": 1072,
+    "time": 31388,
+    "type": 1
+   },
+   {
+    "id": 1785914815492,
+    "usn": 4575,
+    "ease": 3,
+    "ivl": 16,
+    "lastIvl": 14,
+    "factor": 1070,
+    "time": 4623,
+    "type": 1
+   },
+   {
+    "id": 1787276906240,
+    "usn": 4659,
+    "ease": 1,
+    "ivl": -600,
+    "lastIvl": 16,
+    "factor": 1088,
+    "time": 5733,
+    "type": 1
+   },
+   {
+    "id": 1787277522297,
+    "usn": 4659,
+    "ease": 3,
+    "ivl": -3600,
+    "lastIvl": -600,
+    "factor": 1086,
+    "time": 4336,
+    "type": 2
+   },
+   {
+    "id": 1787291032844,
+    "usn": 4661,
+    "ease": 3,
+    "ivl": 3,
+    "lastIvl": -3600,
+    "factor": 1085,
+    "time": 3768,
+    "type": 2
+   },
+   {
+    "id": 1787529729411,
+    "usn": 4701,
+    "ease": 3,
+    "ivl": 4,
+    "lastIvl": 3,
+    "factor": 1083,
+    "time": 9494,
+    "type": 1
+   },
+   {
+    "id": 1787874262974,
+    "usn": 4721,
+    "ease": 3,
+    "ivl": 6,
+    "lastIvl": 4,
+    "factor": 1082,
+    "time": 4695,
+    "type": 1
+   },
+   {
+    "id": 1788391892032,
+    "usn": 4796,
+    "ease": 3,
+    "ivl": 4,
+    "lastIvl": 6,
+    "factor": 1080,
+    "time": 6593,
+    "type": 1
+   },
+   {
+    "id": 1788739650903,
+    "usn": 4830,
+    "ease": 3,
+    "ivl": 6,
+    "lastIvl": 4,
+    "factor": 1079,
+    "time": 4692,
+    "type": 1
+   },
+   {
+    "id": 1789427682977,
+    "usn": 4864,
+    "ease": 3,
+    "ivl": 9,
+    "lastIvl": 6,
+    "factor": 1077,
+    "time": 12456,
+    "type": 1
+   },
+   {
+    "id": 1790252714265,
+    "usn": 4869,
+    "ease": 3,
+    "ivl": 13,
+    "lastIvl": 9,
+    "factor": 1076,
+    "time": 5799,
+    "type": 1
+   },
+   {
+    "id": 1791345517032,
+    "usn": 4906,
+    "ease": 3,
+    "ivl": 11,
+    "lastIvl": 13,
+    "factor": 1074,
+    "time": 10231,
+    "type": 1
+   }
+  ],
+  "1726634607081": [
+   {
+    "id": 1735451053356,
+    "usn": 1629,
+    "ease": 0,
+    "ivl": 0,
+    "lastIvl": 0,
+    "factor": 0,
+    "time": 0,
+    "type": 4
+   },
+   {
+    "id": 1735451228021,
+    "usn": 1630,
+    "ease": 0,
+    "ivl": 0,
+    "lastIvl": 0,
+    "factor": 0,
+    "time": 0,
+    "type": 4
+   },
+   {
+    "id": 1771556143000,
+    "usn": 3627,
+    "ease": 3,
+    "ivl": -3600,
+    "lastIvl": 0,
+    "factor": 0,
+    "time": 18000,
+    "type": 0
+   },
+   {
+    "id": 1771639151125,
+    "usn": 3629,
+    "ease": 3,
+    "ivl": 1,
+    "lastIvl": -3600,
+    "factor": 2500,
+    "time": 6009,
+    "type": 0
+   },
+   {
+    "id": 1771736174000,
+    "usn": 3635,
+    "ease": 3,
+    "ivl": 3,
+    "lastIvl": 1,
+    "factor": 2500,
+    "time": 10000,
+    "type": 1
+   },
+   {
+    "id": 1771969409000,
+    "usn": 3650,
+    "ease": 3,
+    "ivl": 8,
+    "lastIvl": 3,
+    "factor": 2500,
+    "time": 12000,
+    "type": 1
+   },
+   {
+    "id": 1772759232000,
+    "usn": 3745,
+    "ease": 1,
+    "ivl": -600,
+    "lastIvl": 8,
+    "factor": 2300,
+    "time": 8000,
+    "type": 1
+   },
+   {
+    "id": 1772759889000,
+    "usn": 3745,
+    "ease": 3,
+    "ivl": -3600,
+    "lastIvl": -600,
+    "factor": 2300,
+    "time": 7000,
+    "type": 2
+   },
+   {
+    "id": 1772938570000,
+    "usn": 3749,
+    "ease": 3,
+    "ivl": 1,
+    "lastIvl": -3600,
+    "factor": 2300,
+    "time": 5000,
+    "type": 2
+   },
+   {
+    "id": 1773169800000,
+    "usn": 3764,
+    "ease": 3,
+    "ivl": 3,
+    "lastIvl": 1,
+    "factor": 2300,
+    "time": 5000,
+    "type": 1
+   },
+   {
+    "id": 1773883082000,
+    "usn": 3803,
+    "ease": 1,
+    "ivl": -600,
+    "lastIvl": 3,
+    "factor": 2100,
+    "time": 8000,
+    "type": 1
+   },
+   {
+    "id": 1773883835000,
+    "usn": 3803,
+    "ease": 2,
+    "ivl": -2100,
+    "lastIvl": -600,
+    "factor": 2100,
+    "time": 4000,
+    "type": 2
+   },
+   {
+    "id": 1773923362383,
+    "usn": 3805,
+    "ease": 3,
+    "ivl": -3600,
+    "lastIvl": -600,
+    "factor": 2100,
+    "time": 6393,
+    "type": 2
+   },
+   {
+    "id": 1773931862000,
+    "usn": 3811,
+    "ease": 3,
+    "ivl": 1,
+    "lastIvl": -3600,
+    "factor": 2100,
+    "time": 13000,
+    "type": 2
+   },
+   {
+    "id": 1773966721000,
+    "usn": 3814,
+    "ease": 3,
+    "ivl": 4,
+    "lastIvl": 1,
+    "factor": 2100,
+    "time": 7000,
+    "type": 1
+   },
+   {
+    "id": 1774305912466,
+    "usn": 3855,
+    "ease": 3,
+    "ivl": 10,
+    "lastIvl": 4,
+    "factor": 2100,
+    "time": 6235,
+    "type": 1
+   },
+   {
+    "id": 1775188623000,
+    "usn": 3926,
+    "ease": 3,
+    "ivl": 18,
+    "lastIvl": 10,
+    "factor": 2100,
+    "time": 9000,
+    "type": 1
+   },
+   {
+    "id": 1776724316000,
+    "usn": 3990,
+    "ease": 1,
+    "ivl": -600,
+    "lastIvl": 18,
+    "factor": 1900,
+    "time": 10000,
+    "type": 1
+   },
+   {
+    "id": 1776725069000,
+    "usn": 3990,
+    "ease": 3,
+    "ivl": -3600,
+    "lastIvl": -600,
+    "factor": 1900,
+    "time": 7000,
+    "type": 2
+   },
+   {
+    "id": 1776730146875,
+    "usn": 3994,
+    "ease": 3,
+    "ivl": 1,
+    "lastIvl": -3600,
+    "factor": 1900,
+    "time": 5615,
+    "type": 2
+   },
+   {
+    "id": 1776823061000,
+    "usn": 4001,
+    "ease": 3,
+    "ivl": 4,
+    "lastIvl": 1,
+    "factor": 1900,
+    "time": 5000,
+    "type": 1
+   },
+   {
+    "id": 1777174397000,
+    "usn": 4013,
+    "ease": 3,
+    "ivl": 9,
+    "lastIvl": 4,
+    "factor": 1900,
+    "time": 7000,
+    "type": 1
+   },
+   {
+    "id": 1778024489030,
+    "usn": 4097,
+    "ease": 1,
+    "ivl": -600,
+    "lastIvl": 9,
+    "factor": 1038,
+    "time": 12162,
+    "type": 1
+   },
+   {
+    "id": 1778025246808,
+    "usn": 4097,
+    "ease": 3,
+    "ivl": -3600,
+    "lastIvl": -600,
+    "factor": 1037,
+    "time": 8411,
+    "type": 2
+   },
+   {
+    "id": 1778038664287,
+    "usn": 4099,
+    "ease": 3,
+    "ivl": 2,
+    "lastIvl": -3600,
+    "factor": 1037,
+    "time": 6627,
+    "type": 2
+   },
+   {
+    "id": 1778197532977,
+    "usn": 4108,
+    "ease": 3,
+    "ivl": 3,
+    "lastIvl": 2,
+    "factor": 1036,
+    "time": 5161,
+    "type": 1
+   },
+   {
+    "id": 1778457732988,
+    "usn": 4115,
+    "ease": 1,
+    "ivl": -600,
+    "lastIvl": 3,
+    "factor": 1060,
+    "time": 15260,
+    "type": 1
+   },
+   {
+    "id": 1778458495203,
+    "usn": 4115,
+    "ease": 3,
+    "ivl": -3600,
+    "lastIvl": -600,
+    "factor": 1059,
+    "time": 6469,
+    "type": 2
+   },
+   {
+    "id": 1778471292763,
+    "usn": 4115,
+    "ease": 3,
+    "ivl": 1,
+    "lastIvl": -3600,
+    "factor": 1059,
+    "time": 6438,
+    "type": 2
+   },
+   {
+    "id": 1778546760414,
+    "usn": 4117,
+    "ease": 3,
+    "ivl": 2,
+    "lastIvl": 1,
+    "factor": 1058,
+    "time": 6260,
+    "type": 1
+   },
+   {
+    "id": 1778720744180,
+    "usn": 4122,
+    "ease": 3,
+    "ivl": 4,
+    "lastIvl": 2,
+    "factor": 1057,
+    "time": 7578,
+    "type": 1
+   },
+   {
+    "id": 1779059885604,
+    "usn": 4133,
+    "ease": 3,
+    "ivl": 4,
+    "lastIvl": 4,
+    "factor": 1056,
+    "time": 6131,
+    "type": 1
+   },
+   {
+    "id": 1779413398732,
+    "usn": 4145,
+    "ease": 3,
+    "ivl": 5,
+    "lastIvl": 4,
+    "factor": 1055,
+    "time": 4905,
+    "type": 1
+   },
+   {
+    "id": 1779837043818,
+    "usn": 4158,
+    "ease": 3,
+    "ivl": 3,
+    "lastIvl": 5,
+    "factor": 1055,
+    "time": 7779,
+    "type": 1
+   },
+   {
+    "id": 1780113736196,
+    "usn": 4159,
+    "ease": 3,
+    "ivl": 7,
+    "lastIvl": 3,
+    "factor": 1054,
+    "time": 5854,
+    "type": 1
+   },
+   {
+    "id": 1780721462473,
+    "usn": 4214,
+    "ease": 1,
+    "ivl": -600,
+    "lastIvl": 7,
+    "factor": 1071,
+    "time": 4951,
+    "type": 1
+   },
+   {
+    "id": 1780722983386,
+    "usn": 4214,
+    "ease": 3,
+    "ivl": -3600,
+    "lastIvl": -600,
+    "factor": 1070,
+    "time": 4846,
+    "type": 2
+   },
+   {
+    "id": 1780727689475,
+    "usn": 4215,
+    "ease": 4,
+    "ivl": 3,
+    "lastIvl": -3600,
+    "factor": 1064,
+    "time": 4294,
+    "type": 2
+   },
+   {
+    "id": 1780950167252,
+    "usn": 4224,
+    "ease": 3,
+    "ivl": 8,
+    "lastIvl": 3,
+    "factor": 1063,
+    "time": 4589,
+    "type": 1
+   },
+   {
+    "id": 1781671188440,
+    "usn": 4306,
+    "ease": 3,
+    "ivl": 5,
+    "lastIvl": 8,
+    "factor": 1081,
+    "time": 3907,
+    "type": 1
+   },
+   {
+    "id": 1782090176304,
+    "usn": 4346,
+    "ease": 3,
+    "ivl": 11,
+    "lastIvl": 5,
+    "factor": 1080,
+    "time": 4647,
+    "type": 1
+   },
+   {
+    "id": 1783060277088,
+    "usn": 4436,
+    "ease": 3,
+    "ivl": 9,
+    "lastIvl": 11,
+    "factor": 1078,
+    "time": 5433,
+    "type": 1
+   },
+   {
+    "id": 1783812604800,
+    "usn": 4501,
+    "ease": 1,
+    "ivl": -600,
+    "lastIvl": 9,
+    "factor": 1091,
+    "time": 8927,
+    "type": 1
+   },
+   {
+    "id": 1783846059005,
+    "usn": 4501,
+    "ease": 3,
+    "ivl": -3600,
+    "lastIvl": -600,
+    "factor": 1089,
+    "time": 4677,
+    "type": 2
+   },
+   {
+    "id": 1783849944284,
+    "usn": 4501,
+    "ease": 3,
+    "ivl": 4,
+    "lastIvl": -3600,
+    "factor": 1088,
+    "time": 5430,
+    "type": 2
+   },
+   {
+    "id": 1784157759126,
+    "usn": 4508,
+    "ease": 3,
+    "ivl": 5,
+    "lastIvl": 4,
+    "factor": 1086,
+    "time": 4649,
+    "type": 1
+   },
+   {
+    "id": 1784595280756,
+    "usn": 4516,
+    "ease": 3,
+    "ivl": 5,
+    "lastIvl": 5,
+    "factor": 1085,
+    "time": 5002,
+    "type": 1
+   },
+   {
+    "id": 1785051576560,
+    "usn": 4531,
+    "ease": 3,
+    "ivl": 4,
+    "lastIvl": 5,
+    "factor": 1083,
+    "time": 6000,
+    "type": 1
+   },
+   {
+    "id": 1785382937702,
+    "usn": 4539,
+    "ease": 3,
+    "ivl": 9,
+    "lastIvl": 4,
+    "factor": 1081,
+    "time": 8931,
+    "type": 1
+   },
+   {
+    "id": 1786199420024,
+    "usn": 4583,
+    "ease": 3,
+    "ivl": 8,
+    "lastIvl": 9,
+    "factor": 1080,
+    "time": 7915,
+    "type": 1
+   },
+   {
+    "id": 1786849808021,
+    "usn": 4621,
+    "ease": 3,
+    "ivl": 9,
+    "lastIvl": 8,
+    "factor": 1078,
+    "time": 19823,
+    "type": 1
+   },
+   {
+    "id": 1787621457679,
+    "usn": 4704,
+    "ease": 3,
+    "ivl": 11,
+    "lastIvl": 9,
+    "factor": 1077,
+    "time": 4068,
+    "type": 1
+   },
+   {
+    "id": 1788582359991,
+    "usn": 4811,
+    "ease": 3,
+    "ivl": 13,
+    "lastIvl": 11,
+    "factor": 1075,
+    "time": 3924,
+    "type": 1
+   },
+   {
+    "id": 1790050603101,
+    "usn": 4869,
+    "ease": 3,
+    "ivl": 19,
+    "lastIvl": 13,
+    "factor": 1074,
+    "time": 14672,
+    "type": 1
+   }
+  ],
+  "1726634610524": [
+   {
+    "id": 1735451049913,
+    "usn": 1629,
+    "ease": 0,
+    "ivl": 0,
+    "lastIvl": 0,
+    "factor": 0,
+    "time": 0,
+    "type": 4
+   },
+   {
+    "id": 1735451224578,
+    "usn": 1630,
+    "ease": 0,
+    "ivl": 0,
+    "lastIvl": 0,
+    "factor": 0,
+    "time": 0,
+    "type": 4
+   }
+  ],
+  "1726634610525": [
+   {
+    "id": 1735451049914,
+    "usn": 1629,
+    "ease": 0,
+    "ivl": 0,
+    "lastIvl": 0,
+    "factor": 0,
+    "time": 0,
+    "type": 4
+   },
+   {
+    "id": 1735451224579,
+    "usn": 1630,
+    "ease": 0,
+    "ivl": 0,
+    "lastIvl": 0,
+    "factor": 0,
+    "time": 0,
+    "type": 4
+   }
+  ],
+  "1726634614346": [
+   {
+    "id": 1735451046093,
+    "usn": 1629,
+    "ease": 0,
+    "ivl": 0,
+    "lastIvl": 0,
+    "factor": 0,
+    "time": 0,
+    "type": 4
+   },
+   {
+    "id": 1735451220758,
+    "usn": 1630,
+    "ease": 0,
+    "ivl": 0,
+    "lastIvl": 0,
+    "factor": 0,
+    "time": 0,
+    "type": 4
+   }
+  ],
+  "1726634614347": [
+   {
+    "id": 1735451046094,
+    "usn": 1629,
+    "ease": 0,
+    "ivl": 0,
+    "lastIvl": 0,
+    "factor": 0,
+    "time": 0,
+    "type": 4
+   },
+   {
+    "id": 1735451220759,
+    "usn": 1630,
+    "ease": 0,
+    "ivl": 0,
+    "lastIvl": 0,
+    "factor": 0,
+    "time": 0,
+    "type": 4
+   }
+  ]
+ }
+}
