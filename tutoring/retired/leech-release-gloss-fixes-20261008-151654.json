@@ -1,0 +1,656 @@
+[
+ {
+  "noteId": 1698947985814,
+  "profile": "User 1",
+  "tags": [
+   "claude",
+   "verb"
+  ],
+  "fields": {
+   "Front": {
+    "value": "to promise (sth to s.o)",
+    "order": 0
+   },
+   "Back": {
+    "value": "обеща́ть / пообеща́ть (+a +d)<br><br>[sound:hypertts-d759282fdbfad50c1300de10dcd47ddcfb7bf14bc049278458c5870e.mp3]",
+    "order": 1
+   },
+   "Example": {
+    "value": "Он пообеща́л дру́гу вернуть кни́гу не позднее пятницы.",
+    "order": 2
+   }
+  },
+  "modelName": "Basic (and reversed card)",
+  "mod": 1791446967,
+  "cards": [
+   1698947985871,
+   1698947985872
+  ]
+ },
+ {
+  "noteId": 1726634604463,
+  "profile": "User 1",
+  "tags": [
+   "noun"
+  ],
+  "fields": {
+   "Front": {
+    "value": "case, occurrence, chance",
+    "order": 0
+   },
+   "Back": {
+    "value": "слу́чай<br><br> [sound:hypertts-3989a0ae4d5b7ceef373e3dfb6519d3b423bd3dc618785053a01f256.mp3]",
+    "order": 1
+   },
+   "Example": {
+    "value": "В слу́чае опа́сности немедленно вы́йдите из зда́ния.",
+    "order": 2
+   }
+  },
+  "modelName": "Basic (and reversed card)",
+  "mod": 1791446967,
+  "cards": [
+   1726634604726,
+   1726634604727
+  ]
+ },
+ {
+  "noteId": 1726634604585,
+  "profile": "User 1",
+  "tags": [
+   "noun"
+  ],
+  "fields": {
+   "Front": {
+    "value": "soul",
+    "order": 0
+   },
+   "Back": {
+    "value": "душа́<br><br> [sound:hypertts-77f145b512b7b2f57bec08f692741182fcfe18b668f51afcf987085b.mp3]",
+    "order": 1
+   },
+   "Example": {
+    "value": "После долгой разлуки у неё на душа́ было легко и радостно.",
+    "order": 2
+   }
+  },
+  "modelName": "Basic (and reversed card)",
+  "mod": 1791446967,
+  "cards": [
+   1726634604970,
+   1726634604971
+  ]
+ },
+ {
+  "noteId": 1726634604601,
+  "profile": "User 1",
+  "tags": [
+   "verb"
+  ],
+  "fields": {
+   "Front": {
+    "value": "to call (s.o.) / to invite / to summon",
+    "order": 0
+   },
+   "Back": {
+    "value": "звать / позва́ть&nbsp;(+a)<br><br> [sound:hypertts-d87a0ea1bb0b485aa850bc6a9706c4f13ef71e6af05cae903e036819.mp3]",
+    "order": 1
+   },
+   "Example": {
+    "value": "Мама позва́ла детей ужинать, и они прибежали на кухню.",
+    "order": 2
+   }
+  },
+  "modelName": "Basic (and reversed card)",
+  "mod": 1791446967,
+  "cards": [
+   1726634605002,
+   1726634605003
+  ]
+ },
+ {
+  "noteId": 1726634604788,
+  "profile": "User 1",
+  "tags": [
+   "adj"
+  ],
+  "fields": {
+   "Front": {
+    "value": "social, public, civic<br>[sense: concering the public at large]&nbsp;",
+    "order": 0
+   },
+   "Back": {
+    "value": "обще́ственный<br><br> [sound:hypertts-efe35de6ff5ede1f23b8b95e906497c32a0e49534808a397d1dea3d0.mp3]",
+    "order": 1
+   },
+   "Example": {
+    "value": "Обще́ственный тра́нспорт в э́том го́роде рабо́тает о́чень хорошо́.",
+    "order": 2
+   }
+  },
+  "modelName": "Basic (and reversed card)",
+  "mod": 1791446967,
+  "cards": [
+   1726634605376,
+   1726634605377
+  ]
+ },
+ {
+  "noteId": 1726634604973,
+  "profile": "User 1",
+  "tags": [
+   "noun"
+  ],
+  "fields": {
+   "Front": {
+    "value": "representative",
+    "order": 0
+   },
+   "Back": {
+    "value": "представи́тель (m)<br><br> [sound:hypertts-a80caf2b40afb45bb410fdd4c09beb12e744d164e10853805c296933.mp3]",
+    "order": 1
+   },
+   "Example": {
+    "value": "Предста́витель министе́рства отве́тил на вопро́сы журнали́стов.",
+    "order": 2
+   }
+  },
+  "modelName": "Basic (and reversed card)",
+  "mod": 1791446967,
+  "cards": [
+   1726634605746,
+   1726634605747
+  ]
+ },
+ {
+  "noteId": 1726634604993,
+  "profile": "User 1",
+  "tags": [
+   "adj"
+  ],
+  "fields": {
+   "Front": {
+    "value": "someone else’s / foreign",
+    "order": 0
+   },
+   "Back": {
+    "value": "чужо́й<br><br> [sound:hypertts-ab959d11452610226ef4c6b8538d5f6771634a4ccfdc9e3180551e70.mp3]",
+    "order": 1
+   },
+   "Example": {
+    "value": "Не сто́ит вмеша́ться в чужо́е де́ло, е́сли тебя́ не про́сят.",
+    "order": 2
+   }
+  },
+  "modelName": "Basic (and reversed card)",
+  "mod": 1791446967,
+  "cards": [
+   1726634605786,
+   1726634605787
+  ]
+ },
+ {
+  "noteId": 1726634605150,
+  "profile": "User 1",
+  "tags": [
+   "adv"
+  ],
+  "fields": {
+   "Front": {
+    "value": "grain, seed",
+    "order": 0
+   },
+   "Back": {
+    "value": "зерно́<br><br> [sound:hypertts-ed9db1dc887e1dffb33eb1620fc4699ef6a93b5ee89094de47c0b7c8.mp3]",
+    "order": 1
+   },
+   "Example": {
+    "value": "Фе́рмер бережно собира́л зерно́ и хра́нил его́ до весны́.",
+    "order": 2
+   }
+  },
+  "modelName": "Basic (and reversed card)",
+  "mod": 1791446967,
+  "cards": [
+   1726634606100,
+   1726634606101
+  ]
+ },
+ {
+  "noteId": 1726634605247,
+  "profile": "User 1",
+  "tags": [
+   "noun"
+  ],
+  "fields": {
+   "Front": {
+    "value": "impression <br><br>(as in 'he made an impression')",
+    "order": 0
+   },
+   "Back": {
+    "value": "впечатле́ние<br><br> [sound:hypertts-3069d743ccc744641bbd6d8641ccb6a4481dff5d48897a0fee9f1c48.mp3]",
+    "order": 1
+   },
+   "Example": {
+    "value": "Спектакль произвёл на зрителей неизгладимое впечатле́ние.",
+    "order": 2
+   }
+  },
+  "modelName": "Basic (and reversed card)",
+  "mod": 1791446967,
+  "cards": [
+   1726634606294,
+   1726634606295
+  ]
+ },
+ {
+  "noteId": 1726634605249,
+  "profile": "User 1",
+  "tags": [
+   "verb"
+  ],
+  "fields": {
+   "Front": {
+    "value": "to be present, to be available",
+    "order": 0
+   },
+   "Back": {
+    "value": "име́ться (i)<br><br> [sound:hypertts-28e929636f87fd6367349f4d8eca870611486ba8b22604e459b28d85.mp3]",
+    "order": 1
+   },
+   "Example": {
+    "value": "В продаже имеются несколько вариантов этой модели телефона.",
+    "order": 2
+   }
+  },
+  "modelName": "Basic (and reversed card)",
+  "mod": 1791446967,
+  "cards": [
+   1726634606298,
+   1726634606299
+  ]
+ },
+ {
+  "noteId": 1726634605331,
+  "profile": "User 1",
+  "tags": [
+   "verb"
+  ],
+  "fields": {
+   "Front": {
+    "value": "to promise",
+    "order": 0
+   },
+   "Back": {
+    "value": "обеща́ть / пообеща́ть<br><br> [sound:hypertts-e5252e3952520365580c420845e23401dc8e68be33679ec3dbe526e0.mp3]",
+    "order": 1
+   },
+   "Example": {
+    "value": "Он пообеща́л прийти́ во́время, но всё равно́ опозда́л на час.",
+    "order": 2
+   }
+  },
+  "modelName": "Basic (and reversed card)",
+  "mod": 1787376872,
+  "cards": [
+   1726634606462,
+   1726634606463
+  ]
+ },
+ {
+  "noteId": 1726634605354,
+  "profile": "User 1",
+  "tags": [
+   "verb"
+  ],
+  "fields": {
+   "Front": {
+    "value": "to go without saying; to be understood",
+    "order": 0
+   },
+   "Back": {
+    "value": "разуме́ться (i)<br><br> [sound:hypertts-5c3f45ebb68192ee99e374dea027590c37d864865672e8f2504773a1.mp3]",
+    "order": 1
+   },
+   "Example": {
+    "value": "Разуме́ется, ты мо́жешь остаться у нас на несколько дней.",
+    "order": 2
+   }
+  },
+  "modelName": "Basic (and reversed card)",
+  "mod": 1791446967,
+  "cards": [
+   1726634606508,
+   1726634606509
+  ]
+ },
+ {
+  "noteId": 1726634605481,
+  "profile": "User 1",
+  "tags": [
+   "noun"
+  ],
+  "fields": {
+   "Front": {
+    "value": "(a) youth",
+    "order": 0
+   },
+   "Back": {
+    "value": "ю́ноша<br><br> [sound:hypertts-19275113db75514dc5035818cdc79c9e4a5be48ac9e0f8f49e78299c.mp3]",
+    "order": 1
+   },
+   "Example": {
+    "value": "Молодой ю́ноша робко вошёл в кабинет директора и поздоровался.",
+    "order": 2
+   }
+  },
+  "modelName": "Basic (and reversed card)",
+  "mod": 1791446967,
+  "cards": [
+   1726634606762,
+   1726634606763
+  ]
+ },
+ {
+  "noteId": 1726634605575,
+  "profile": "User 1",
+  "tags": [
+   "prep"
+  ],
+  "fields": {
+   "Front": {
+    "value": "preparation (for)",
+    "order": 0
+   },
+   "Back": {
+    "value": "подгото́вка (к +d)<br><br> [sound:hypertts-832b6f0152ee58a5a344cf627f040ac26fba9b6879fb6d095d3c9dee.mp3]",
+    "order": 1
+   },
+   "Example": {
+    "value": "Подгото́вка к экза́менам заня́ла у него́ не́сколько неде́ль упо́рного труда́.",
+    "order": 2
+   }
+  },
+  "modelName": "Basic (and reversed card)",
+  "mod": 1791446967,
+  "cards": [
+   1726634606950,
+   1726634606951
+  ]
+ },
+ {
+  "noteId": 1726634605787,
+  "profile": "User 1",
+  "tags": [
+   "adj"
+  ],
+  "fields": {
+   "Front": {
+    "value": "sacred / saint",
+    "order": 0
+   },
+   "Back": {
+    "value": "свято́й<br><br> [sound:hypertts-23afdcc56a60a1f202fbe5ff60782660e8f6be57d5eb2d50a8ee0221.mp3]",
+    "order": 1
+   },
+   "Example": {
+    "value": "Для него семья была свято́й — он никогда не ставил её под сомнение.",
+    "order": 2
+   }
+  },
+  "modelName": "Basic (and reversed card)",
+  "mod": 1791446967,
+  "cards": [
+   1726634607374,
+   1726634607375
+  ]
+ },
+ {
+  "noteId": 1726634606253,
+  "profile": "User 1",
+  "tags": [
+   "verb"
+  ],
+  "fields": {
+   "Front": {
+    "value": "to hide (sth)",
+    "order": 0
+   },
+   "Back": {
+    "value": "пря́тать / спря́тать&nbsp;(+a)<br><br> [sound:hypertts-ce0f0e13067166788c59526f8fab87449f47bf4376f09868a3ebe62e.mp3]",
+    "order": 1
+   },
+   "Example": {
+    "value": "Ребёнок спря́тал игру́шку под крова́тью, что́бы никто́ не нашёл.",
+    "order": 2
+   }
+  },
+  "modelName": "Basic (and reversed card)",
+  "mod": 1791446967,
+  "cards": [
+   1726634608306,
+   1726634608307
+  ]
+ },
+ {
+  "noteId": 1726634606800,
+  "profile": "User 1",
+  "tags": [
+   "claude",
+   "noun"
+  ],
+  "fields": {
+   "Front": {
+    "value": "in advance",
+    "order": 0
+   },
+   "Back": {
+    "value": "зара́нее<br><br> [sound:hypertts-36cfc146a81e8c265a3390fdd10ca5972e54bc7f0a35f3438d41d62f.mp3]",
+    "order": 1
+   },
+   "Example": {
+    "value": "Луче́ купи́ть биле́ты зара́нее, что́бы не бы́ло пробле́м.",
+    "order": 2
+   }
+  },
+  "modelName": "Basic (and reversed card)",
+  "mod": 1791446967,
+  "cards": [
+   1726634609400,
+   1726634609401
+  ]
+ },
+ {
+  "noteId": 1726634606877,
+  "profile": "User 1",
+  "tags": [
+   "adj",
+   "claude"
+  ],
+  "fields": {
+   "Front": {
+    "value": "modest",
+    "order": 0
+   },
+   "Back": {
+    "value": "скро́мный<br><br> [sound:hypertts-f67a83f1ca93448c55220a438e9e97eadd1a59cb470cdf83f534addf.mp3]",
+    "order": 1
+   },
+   "Example": {
+    "value": "Она́ скро́мно оде́лась и пришла́ на вечери́нку без укра́шений.",
+    "order": 2
+   }
+  },
+  "modelName": "Basic (and reversed card)",
+  "mod": 1791446967,
+  "cards": [
+   1726634609554,
+   1726634609555
+  ]
+ },
+ {
+  "noteId": 1726634607354,
+  "profile": "User 1",
+  "tags": [
+   "adj"
+  ],
+  "fields": {
+   "Front": {
+    "value": "thin, skinny (also: bad, archaic/poetic)",
+    "order": 0
+   },
+   "Back": {
+    "value": "худо́й<br><br> [sound:hypertts-606257cc692981dc28ba9a9fabbe226b40084b4f88f4ca2d83b375f4.mp3]",
+    "order": 1
+   },
+   "Example": {
+    "value": "По́сле боле́зни он сильно похудел и ста́л совсе́м худо́м.",
+    "order": 2
+   }
+  },
+  "modelName": "Basic (and reversed card)",
+  "mod": 1791446967,
+  "cards": [
+   1726634610508,
+   1726634610509
+  ]
+ },
+ {
+  "noteId": 1726634607755,
+  "profile": "User 1",
+  "tags": [
+   "claude",
+   "noun"
+  ],
+  "fields": {
+   "Front": {
+    "value": "exercise",
+    "order": 0
+   },
+   "Back": {
+    "value": "упражне́ние<br><br> [sound:hypertts-7f1ebe6409fbd0c3215c85f906c9c2d6ae4ac5e71318826dd5d15cf2.mp3]",
+    "order": 1
+   },
+   "Example": {
+    "value": "Учи́тель зада́л упражне́ние на по́вторение граммати́ки.",
+    "order": 2
+   }
+  },
+  "modelName": "Basic (and reversed card)",
+  "mod": 1791446967,
+  "cards": [
+   1726634611310,
+   1726634611311
+  ]
+ },
+ {
+  "noteId": 1726634607995,
+  "profile": "User 1",
+  "tags": [
+   "claude",
+   "noun"
+  ],
+  "fields": {
+   "Front": {
+    "value": "hen",
+    "order": 0
+   },
+   "Back": {
+    "value": "ку́рица<br><br> [sound:hypertts-1909f4da0a75ca8b77a3de7f711e63e2eaf2daaff013252d2aecfce2.mp3]",
+    "order": 1
+   },
+   "Example": {
+    "value": "Ку́рица ходила по двору и клевала зерно.",
+    "order": 2
+   }
+  },
+  "modelName": "Basic (and reversed card)",
+  "mod": 1791446967,
+  "cards": [
+   1726634611790,
+   1726634611791
+  ]
+ },
+ {
+  "noteId": 1726634608385,
+  "profile": "User 1",
+  "tags": [
+   "adj",
+   "claude"
+  ],
+  "fields": {
+   "Front": {
+    "value": "brown",
+    "order": 0
+   },
+   "Back": {
+    "value": "кори́чневый<br><br> [sound:hypertts-2d8b3e3afe64b7c1db1f791b5dfe56c3e0578130abec47d555b17e86.mp3]",
+    "order": 1
+   },
+   "Example": {
+    "value": "Она́ надела́ кори́чневое пальто́ и вы́шла на у́лицу.",
+    "order": 2
+   }
+  },
+  "modelName": "Basic (and reversed card)",
+  "mod": 1791446967,
+  "cards": [
+   1726634612570,
+   1726634612571
+  ]
+ },
+ {
+  "noteId": 1726634610632,
+  "profile": "User 1",
+  "tags": [
+   "verb"
+  ],
+  "fields": {
+   "Front": {
+    "value": "to shake, to astound",
+    "order": 0
+   },
+   "Back": {
+    "value": "потряса́ть / потрясти́ (+a)<br><br> [sound:hypertts-341d5825a2fe72aa363ebfe2fdcd0ccafe6c594d69c842aa556a4d93.mp3]",
+    "order": 1
+   },
+   "Example": {
+    "value": "Её вы́ступление потрясло́ всех зри́телей в за́ле.",
+    "order": 2
+   }
+  },
+  "modelName": "Basic (and reversed card)",
+  "mod": 1791446967,
+  "cards": [
+   1726634617064,
+   1726634617065
+  ]
+ },
+ {
+  "noteId": 1763873380032,
+  "profile": "User 1",
+  "tags": [
+   "verb"
+  ],
+  "fields": {
+   "Front": {
+    "value": "to arise, be born",
+    "order": 0
+   },
+   "Back": {
+    "value": "зарожда́ться /&nbsp;зароди́ться<br><br> [sound:hypertts-0d99782ab142f0250c4be9492bcc15ea7d6ec45a92bf68d996426cd9.mp3]",
+    "order": 1
+   },
+   "Example": {
+    "value": "В его́ душе́ зароди́лось жела́ние уча́ствовать в соревнова́нии.",
+    "order": 2
+   }
+  },
+  "modelName": "Basic (and reversed card)",
+  "mod": 1791446967,
+  "cards": [
+   1763873380032,
+   1763873380033
+  ]
+ }
+]
