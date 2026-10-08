@@ -47,8 +47,12 @@ series. Words the textbooks teach that aren't already known get authored as flas
   -пуск-, -бир-, -польз-, -яв-, -говор-, -раз-/-раж-, -блюд-, -част-, -ним-, -держ-, -нос-, -счёт-,
   -след-, -туп-). **Families over 7 rows are split by sense into I / II, every part keeping the
   root's full original sense in its header** (Alex: the etymological link matters even where a sense
-  doesn't fit a part). Family cards teach *which word*; conjugation is the Cloze Aspect job, and
-  family verbs don't get aspect cards for now. Each note **replaced** the Basic notes for its
+  doesn't fit a part). Family cards teach *which word*; conjugation is the Cloze Aspect job:
+  **the two most common verbs of each family also get a Cloze Aspect note** (Alex, 2026-10-08 —
+  "that way I should learn how to conjugate all of them"; 99 added that day, tag `aspect`, in 10K;
+  selection in the commit message). **AnkiConnect `addNote` rejects a Cloze Aspect note whose Back
+  Extra already holds cloze markers** ("cannot create note for unknown reason"): add it with an empty
+  Back Extra, then `updateNoteFields`. Each note **replaced** the Basic notes for its
   new / leech / suspended members (155 retired; backups with review history in `tutoring/retired/`);
   healthy anchors were kept as Basic cards. **Don't re-add the retired Basic cards** — if the trial
   works they come back later as *fresh* cards, by Alex's choice. Own preset "Roots", 5 new/day.
