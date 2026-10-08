@@ -253,6 +253,12 @@ difficulty to 5** with the add-on action `setFsrsDifficulty(cardIds, difficulty,
 stability. Only lower cards currently *above* the target — some were already at 1. Save the dry-run
 output first (old values); a lapse pushes difficulty back up on its own if a card was misjudged.
 Lists: `tutoring/retired/leech-untag-recovered-*.json`, `fsrs-difficulty-reset-*.json`.
+**Judge health, not the lapse total** (Alex, 2026-10-08, prompted by и́ли: 13 lapses, then 11
+straight passes to 43d, then suspended by the 2026-08-31 sweep anyway). Applying the same test to
+*suspended* cards, as of their last review, found **113 of 248 leech notes healthy** — 106 of them
+with a production card the sweep had parked. All 113 were untagged, the 106 unsuspended with
+`setDueDate "1-14"` (no `!`, intervals kept) so they don't land as one overdue pile, and FSRS
+difficulty lowered to 5 on 180 cards. Before/after: `tutoring/retired/leech-healthy-at-suspension-*.json`.
 
 ## Promoting words into today's learning queue
 Tag notes `promote` in the Anki browser, then `scripts/promote_new_cards.py` (`--dry-run` /
