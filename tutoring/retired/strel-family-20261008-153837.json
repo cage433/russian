@@ -1,0 +1,2162 @@
+{
+ "notes": [
+  {
+   "noteId": 1726634606924,
+   "profile": "User 1",
+   "tags": [
+    "claude",
+    "noun"
+   ],
+   "fields": {
+    "Front": {
+     "value": "arrow",
+     "order": 0
+    },
+    "Back": {
+     "value": "стрела́<br><br> [sound:hypertts-1951e429908a389cc7e155ae532b51df65dc14d13520628bffe3e0e0.mp3]",
+     "order": 1
+    },
+    "Example": {
+     "value": "Стрела́ попа́ла пря́мо в центр мише́ни.",
+     "order": 2
+    }
+   },
+   "modelName": "Basic (and reversed card)",
+   "mod": 1787376872,
+   "cards": [
+    1726634609648,
+    1726634609649
+   ]
+  },
+  {
+   "noteId": 1726634605412,
+   "profile": "User 1",
+   "tags": [
+    "leech",
+    "verb"
+   ],
+   "fields": {
+    "Front": {
+     "value": "to shoot (at a specific target)<br>~ (towards a general area)<br>~ (with a weapon)<br>~ (ammunition)",
+     "order": 0
+    },
+    "Back": {
+     "value": "стреля́ть / вы́стрелить (в +a,&nbsp; по +d, из +g, +i)<br><br> [sound:hypertts-334337b9b7833658b8ba332e69ebc0076a5d76d8cbbc660c337a4f54.mp3]",
+     "order": 1
+    },
+    "Example": {
+     "value": "Охо́тник вы́стрелил из ружья́ по ди́кой у́тке.",
+     "order": 2
+    }
+   },
+   "modelName": "Basic (and reversed card)",
+   "mod": 1791440639,
+   "cards": [
+    1726634606624,
+    1726634606625
+   ]
+  },
+  {
+   "noteId": 1726634610825,
+   "profile": "User 1",
+   "tags": [
+    "claude",
+    "verb"
+   ],
+   "fields": {
+    "Front": {
+     "value": "to shoot, fire (at)",
+     "order": 0
+    },
+    "Back": {
+     "value": "стреля́ть / вы́стрелить (в +a)<br><br> [sound:hypertts-6b3d2671d61b9f90b12f4664db8369361f310bf369388e338eb222c3.mp3]",
+     "order": 1
+    },
+    "Example": {
+     "value": "Охотник вы́стрелил в цель и не промахнулся.",
+     "order": 2
+    }
+   },
+   "modelName": "Basic (and reversed card)",
+   "mod": 1787376872,
+   "cards": [
+    1726634617450,
+    1726634617451
+   ]
+  },
+  {
+   "noteId": 1726634606188,
+   "profile": "User 1",
+   "tags": [
+    "B2.1-2.1",
+    "claude",
+    "native",
+    "noun"
+   ],
+   "fields": {
+    "Front": {
+     "value": "shot",
+     "order": 0
+    },
+    "Back": {
+     "value": "вы́стрел<br><br> [sound:hypertts-eee088c133cee6f9f5d2e6cad016c56e333f7df2ab3a47ec0cda8cad.mp3]",
+     "order": 1
+    },
+    "Example": {
+     "value": "Вы́стрел прозвуча́л неожи́данно и спугну́л всех птиц в ле́су.",
+     "order": 2
+    }
+   },
+   "modelName": "Basic (and reversed card)",
+   "mod": 1787376872,
+   "cards": [
+    1726634608176,
+    1726634608177
+   ]
+  },
+  {
+   "noteId": 1726634608169,
+   "profile": "User 1",
+   "tags": [
+    "claude",
+    "noun"
+   ],
+   "fields": {
+    "Front": {
+     "value": "shooting",
+     "order": 0
+    },
+    "Back": {
+     "value": "стрельба́<br><br> [sound:hypertts-e2510e95ec8ec52f9dab1efbe9f99ef0df2d30da1736b4f716f67e6b.mp3]",
+     "order": 1
+    },
+    "Example": {
+     "value": "Стрельба́ в ночи разбудила всех жителей соседних домов.",
+     "order": 2
+    }
+   },
+   "modelName": "Basic (and reversed card)",
+   "mod": 1787376872,
+   "cards": [
+    1726634612138,
+    1726634612139
+   ]
+  },
+  {
+   "noteId": 1726634610870,
+   "profile": "User 1",
+   "tags": [
+    "claude",
+    "verb"
+   ],
+   "fields": {
+    "Front": {
+     "value": "to shoot dead",
+     "order": 0
+    },
+    "Back": {
+     "value": "застре́ливать / застрели́ть (+a)<br><br> [sound:hypertts-9ea60b98b63d8b5820ad9b4a8eb8eaa08b3d24ca40d6131dac192819.mp3]",
+     "order": 1
+    },
+    "Example": {
+     "value": "Полицейский был вынужден застрели́ть опасного преступника при задержании.",
+     "order": 2
+    }
+   },
+   "modelName": "Basic (and reversed card)",
+   "mod": 1787376872,
+   "cards": [
+    1726634617540,
+    1726634617541
+   ]
+  },
+  {
+   "noteId": 1726634607515,
+   "profile": "User 1",
+   "tags": [
+    "claude",
+    "verb"
+   ],
+   "fields": {
+    "Front": {
+     "value": "to execute (by shooting)",
+     "order": 0
+    },
+    "Back": {
+     "value": "расстре́ливать / расстреля́ть (+a)<br><br> [sound:hypertts-717a10ba7bbba409ae5b99e54b94951531a4faf89d1015b72d6ffbe3.mp3]",
+     "order": 1
+    },
+    "Example": {
+     "value": "Во время войны́ за дезерти́рство могли́ расстреля́ть.",
+     "order": 2
+    }
+   },
+   "modelName": "Basic (and reversed card)",
+   "mod": 1787376872,
+   "cards": [
+    1726634610830,
+    1726634610831
+   ]
+  },
+  {
+   "noteId": 1726634608729,
+   "profile": "User 1",
+   "tags": [
+    "claude",
+    "noun"
+   ],
+   "fields": {
+    "Front": {
+     "value": "arrow / hand (of clock)",
+     "order": 0
+    },
+    "Back": {
+     "value": "стрелка́<br><br> [sound:hypertts-92d84a2ac051501678a282ea4fb7fcedaad5d1068af09f6afd136a47.mp3]",
+     "order": 1
+    },
+    "Example": {
+     "value": "Стрелка́ часо́в ти́хо дви́галась по цифербла́ту.",
+     "order": 2
+    }
+   },
+   "modelName": "Basic (and reversed card)",
+   "mod": 1787376872,
+   "cards": [
+    1726634613258,
+    1726634613259
+   ]
+  }
+ ],
+ "cards": [
+  {
+   "cardId": 1726634609648,
+   "fields": {
+    "Front": {
+     "value": "arrow",
+     "order": 0
+    },
+    "Back": {
+     "value": "стрела́<br><br> [sound:hypertts-1951e429908a389cc7e155ae532b51df65dc14d13520628bffe3e0e0.mp3]",
+     "order": 1
+    },
+    "Example": {
+     "value": "Стрела́ попа́ла пря́мо в центр мише́ни.",
+     "order": 2
+    }
+   },
+   "fieldOrder": 0,
+   "question": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>arrow",
+   "answer": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>arrow\n\n<hr id=answer>\n\nстрела́<br><br> [anki:play:a:0]\n<br><br><i>Стрела́ попа́ла пря́мо в центр мише́ни.</i>",
+   "modelName": "Basic (and reversed card)",
+   "ord": 0,
+   "deckName": "Vocab::10000 words",
+   "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
+   "factor": 2450,
+   "interval": 338,
+   "note": 1726634606924,
+   "type": 2,
+   "queue": 2,
+   "due": 1927,
+   "reps": 12,
+   "lapses": 1,
+   "left": 0,
+   "mod": 1789426317,
+   "nextReviews": [
+    "⁨30⁩m",
+    "⁨11.7⁩mo",
+    "⁨1⁩y",
+    "⁨1.1⁩y"
+   ],
+   "flags": 0
+  },
+  {
+   "cardId": 1726634609649,
+   "fields": {
+    "Front": {
+     "value": "arrow",
+     "order": 0
+    },
+    "Back": {
+     "value": "стрела́<br><br> [sound:hypertts-1951e429908a389cc7e155ae532b51df65dc14d13520628bffe3e0e0.mp3]",
+     "order": 1
+    },
+    "Example": {
+     "value": "Стрела́ попа́ла пря́мо в центр мише́ни.",
+     "order": 2
+    }
+   },
+   "fieldOrder": 1,
+   "question": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>стрела́<br><br> [anki:play:q:0]\n<br><br>\n<a class=hint href=\"#\"\nonclick=\"this.style.display='none';\ndocument.getElementById('hintf88ecde5dcd66e1f').style.display='block';\nreturn false;\" draggable=false>\nExample</a>\n<div id=\"hintf88ecde5dcd66e1f\" class=hint style=\"display: none\">Стрела́ попа́ла пря́мо в центр мише́ни.</div>\n",
+   "answer": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>стрела́<br><br> [anki:play:q:0]\n<br><br>\n<a class=hint href=\"#\"\nonclick=\"this.style.display='none';\ndocument.getElementById('hintf88ecde5dcd66e1f').style.display='block';\nreturn false;\" draggable=false>\nExample</a>\n<div id=\"hintf88ecde5dcd66e1f\" class=hint style=\"display: none\">Стрела́ попа́ла пря́мо в центр мише́ни.</div>\n\n\n<hr id=answer>\n\narrow",
+   "modelName": "Basic (and reversed card)",
+   "ord": 1,
+   "deckName": "Vocab::10000 words",
+   "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
+   "factor": 2800,
+   "interval": 386,
+   "note": 1726634606924,
+   "type": 2,
+   "queue": 2,
+   "due": 1800,
+   "reps": 5,
+   "lapses": 0,
+   "left": 0,
+   "mod": 1789426317,
+   "nextReviews": [
+    "⁨30⁩m",
+    "⁨1.1⁩y",
+    "⁨1.1⁩y",
+    "⁨1.1⁩y"
+   ],
+   "flags": 0
+  },
+  {
+   "cardId": 1726634606624,
+   "fields": {
+    "Front": {
+     "value": "to shoot (at a specific target)<br>~ (towards a general area)<br>~ (with a weapon)<br>~ (ammunition)",
+     "order": 0
+    },
+    "Back": {
+     "value": "стреля́ть / вы́стрелить (в +a,&nbsp; по +d, из +g, +i)<br><br> [sound:hypertts-334337b9b7833658b8ba332e69ebc0076a5d76d8cbbc660c337a4f54.mp3]",
+     "order": 1
+    },
+    "Example": {
+     "value": "Охо́тник вы́стрелил из ружья́ по ди́кой у́тке.",
+     "order": 2
+    }
+   },
+   "fieldOrder": 0,
+   "question": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>to shoot (at a specific target)<br>~ (towards a general area)<br>~ (with a weapon)<br>~ (ammunition)",
+   "answer": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>to shoot (at a specific target)<br>~ (towards a general area)<br>~ (with a weapon)<br>~ (ammunition)\n\n<hr id=answer>\n\nстреля́ть / вы́стрелить (в +a,&nbsp; по +d, из +g, +i)<br><br> [anki:play:a:0]\n<br><br><i>Охо́тник вы́стрелил из ружья́ по ди́кой у́тке.</i>",
+   "modelName": "Basic (and reversed card)",
+   "ord": 0,
+   "deckName": "Vocab::10000 words",
+   "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
+   "factor": 1300,
+   "interval": 14,
+   "note": 1726634605412,
+   "type": 2,
+   "queue": -1,
+   "due": 1688,
+   "reps": 84,
+   "lapses": 16,
+   "left": 0,
+   "mod": 1789426317,
+   "nextReviews": [
+    "⁨30⁩m",
+    "⁨16⁩d",
+    "⁨21⁩d",
+    "⁨1.1⁩mo"
+   ],
+   "flags": 0
+  },
+  {
+   "cardId": 1726634606625,
+   "fields": {
+    "Front": {
+     "value": "to shoot (at a specific target)<br>~ (towards a general area)<br>~ (with a weapon)<br>~ (ammunition)",
+     "order": 0
+    },
+    "Back": {
+     "value": "стреля́ть / вы́стрелить (в +a,&nbsp; по +d, из +g, +i)<br><br> [sound:hypertts-334337b9b7833658b8ba332e69ebc0076a5d76d8cbbc660c337a4f54.mp3]",
+     "order": 1
+    },
+    "Example": {
+     "value": "Охо́тник вы́стрелил из ружья́ по ди́кой у́тке.",
+     "order": 2
+    }
+   },
+   "fieldOrder": 1,
+   "question": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>стреля́ть / вы́стрелить (в +a,&nbsp; по +d, из +g, +i)<br><br> [anki:play:q:0]\n<br><br>\n<a class=hint href=\"#\"\nonclick=\"this.style.display='none';\ndocument.getElementById('hint39509abaeb3d6966').style.display='block';\nreturn false;\" draggable=false>\nExample</a>\n<div id=\"hint39509abaeb3d6966\" class=hint style=\"display: none\">Охо́тник вы́стрелил из ружья́ по ди́кой у́тке.</div>\n",
+   "answer": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>стреля́ть / вы́стрелить (в +a,&nbsp; по +d, из +g, +i)<br><br> [anki:play:q:0]\n<br><br>\n<a class=hint href=\"#\"\nonclick=\"this.style.display='none';\ndocument.getElementById('hint39509abaeb3d6966').style.display='block';\nreturn false;\" draggable=false>\nExample</a>\n<div id=\"hint39509abaeb3d6966\" class=hint style=\"display: none\">Охо́тник вы́стрелил из ружья́ по ди́кой у́тке.</div>\n\n\n<hr id=answer>\n\nto shoot (at a specific target)<br>~ (towards a general area)<br>~ (with a weapon)<br>~ (ammunition)",
+   "modelName": "Basic (and reversed card)",
+   "ord": 1,
+   "deckName": "Vocab::10000 words",
+   "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
+   "factor": 2500,
+   "interval": 188,
+   "note": 1726634605412,
+   "type": 2,
+   "queue": 2,
+   "due": 1725,
+   "reps": 7,
+   "lapses": 0,
+   "left": 0,
+   "mod": 1789426317,
+   "nextReviews": [
+    "⁨30⁩m",
+    "⁨6.7⁩mo",
+    "⁨1.2⁩y",
+    "⁨2.3⁩y"
+   ],
+   "flags": 0
+  },
+  {
+   "cardId": 1726634617450,
+   "fields": {
+    "Front": {
+     "value": "to shoot, fire (at)",
+     "order": 0
+    },
+    "Back": {
+     "value": "стреля́ть / вы́стрелить (в +a)<br><br> [sound:hypertts-6b3d2671d61b9f90b12f4664db8369361f310bf369388e338eb222c3.mp3]",
+     "order": 1
+    },
+    "Example": {
+     "value": "Охотник вы́стрелил в цель и не промахнулся.",
+     "order": 2
+    }
+   },
+   "fieldOrder": 0,
+   "question": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>to shoot, fire (at)",
+   "answer": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>to shoot, fire (at)\n\n<hr id=answer>\n\nстреля́ть / вы́стрелить (в +a)<br><br> [anki:play:a:0]\n<br><br><i>Охотник вы́стрелил в цель и не промахнулся.</i>",
+   "modelName": "Basic (and reversed card)",
+   "ord": 0,
+   "deckName": "Vocab::10000 words",
+   "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
+   "factor": 0,
+   "interval": 0,
+   "note": 1726634610825,
+   "type": 0,
+   "queue": 0,
+   "due": 9049,
+   "reps": 0,
+   "lapses": 0,
+   "left": 0,
+   "mod": 1781060252,
+   "nextReviews": [
+    "⁨20⁩m",
+    "⁨40⁩m",
+    "⁨1⁩h",
+    "⁨22⁩d"
+   ],
+   "flags": 0
+  },
+  {
+   "cardId": 1726634617451,
+   "fields": {
+    "Front": {
+     "value": "to shoot, fire (at)",
+     "order": 0
+    },
+    "Back": {
+     "value": "стреля́ть / вы́стрелить (в +a)<br><br> [sound:hypertts-6b3d2671d61b9f90b12f4664db8369361f310bf369388e338eb222c3.mp3]",
+     "order": 1
+    },
+    "Example": {
+     "value": "Охотник вы́стрелил в цель и не промахнулся.",
+     "order": 2
+    }
+   },
+   "fieldOrder": 1,
+   "question": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>стреля́ть / вы́стрелить (в +a)<br><br> [anki:play:q:0]\n<br><br>\n<a class=hint href=\"#\"\nonclick=\"this.style.display='none';\ndocument.getElementById('hint48d5d81f032b62c3').style.display='block';\nreturn false;\" draggable=false>\nExample</a>\n<div id=\"hint48d5d81f032b62c3\" class=hint style=\"display: none\">Охотник вы́стрелил в цель и не промахнулся.</div>\n",
+   "answer": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>стреля́ть / вы́стрелить (в +a)<br><br> [anki:play:q:0]\n<br><br>\n<a class=hint href=\"#\"\nonclick=\"this.style.display='none';\ndocument.getElementById('hint48d5d81f032b62c3').style.display='block';\nreturn false;\" draggable=false>\nExample</a>\n<div id=\"hint48d5d81f032b62c3\" class=hint style=\"display: none\">Охотник вы́стрелил в цель и не промахнулся.</div>\n\n\n<hr id=answer>\n\nto shoot, fire (at)",
+   "modelName": "Basic (and reversed card)",
+   "ord": 1,
+   "deckName": "Vocab::10000 words",
+   "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
+   "factor": 0,
+   "interval": 0,
+   "note": 1726634610825,
+   "type": 0,
+   "queue": 0,
+   "due": 9050,
+   "reps": 0,
+   "lapses": 0,
+   "left": 0,
+   "mod": 1781060252,
+   "nextReviews": [
+    "⁨20⁩m",
+    "⁨40⁩m",
+    "⁨1⁩h",
+    "⁨27⁩d"
+   ],
+   "flags": 0
+  },
+  {
+   "cardId": 1726634608176,
+   "fields": {
+    "Front": {
+     "value": "shot",
+     "order": 0
+    },
+    "Back": {
+     "value": "вы́стрел<br><br> [sound:hypertts-eee088c133cee6f9f5d2e6cad016c56e333f7df2ab3a47ec0cda8cad.mp3]",
+     "order": 1
+    },
+    "Example": {
+     "value": "Вы́стрел прозвуча́л неожи́данно и спугну́л всех птиц в ле́су.",
+     "order": 2
+    }
+   },
+   "fieldOrder": 0,
+   "question": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>shot",
+   "answer": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>shot\n\n<hr id=answer>\n\nвы́стрел<br><br> [anki:play:a:0]\n<br><br><i>Вы́стрел прозвуча́л неожи́данно и спугну́л всех птиц в ле́су.</i>",
+   "modelName": "Basic (and reversed card)",
+   "ord": 0,
+   "deckName": "Vocab::10000 words",
+   "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
+   "factor": 0,
+   "interval": 0,
+   "note": 1726634606188,
+   "type": 0,
+   "queue": 0,
+   "due": 549,
+   "reps": 0,
+   "lapses": 0,
+   "left": 0,
+   "mod": 1781060039,
+   "nextReviews": [
+    "⁨20⁩m",
+    "⁨40⁩m",
+    "⁨1⁩h",
+    "⁨24⁩d"
+   ],
+   "flags": 0
+  },
+  {
+   "cardId": 1726634608177,
+   "fields": {
+    "Front": {
+     "value": "shot",
+     "order": 0
+    },
+    "Back": {
+     "value": "вы́стрел<br><br> [sound:hypertts-eee088c133cee6f9f5d2e6cad016c56e333f7df2ab3a47ec0cda8cad.mp3]",
+     "order": 1
+    },
+    "Example": {
+     "value": "Вы́стрел прозвуча́л неожи́данно и спугну́л всех птиц в ле́су.",
+     "order": 2
+    }
+   },
+   "fieldOrder": 1,
+   "question": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>вы́стрел<br><br> [anki:play:q:0]\n<br><br>\n<a class=hint href=\"#\"\nonclick=\"this.style.display='none';\ndocument.getElementById('hint8573587b726853bd').style.display='block';\nreturn false;\" draggable=false>\nExample</a>\n<div id=\"hint8573587b726853bd\" class=hint style=\"display: none\">Вы́стрел прозвуча́л неожи́данно и спугну́л всех птиц в ле́су.</div>\n",
+   "answer": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>вы́стрел<br><br> [anki:play:q:0]\n<br><br>\n<a class=hint href=\"#\"\nonclick=\"this.style.display='none';\ndocument.getElementById('hint8573587b726853bd').style.display='block';\nreturn false;\" draggable=false>\nExample</a>\n<div id=\"hint8573587b726853bd\" class=hint style=\"display: none\">Вы́стрел прозвуча́л неожи́данно и спугну́л всех птиц в ле́су.</div>\n\n\n<hr id=answer>\n\nshot",
+   "modelName": "Basic (and reversed card)",
+   "ord": 1,
+   "deckName": "Vocab::10000 words",
+   "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
+   "factor": 0,
+   "interval": 0,
+   "note": 1726634606188,
+   "type": 0,
+   "queue": 0,
+   "due": 550,
+   "reps": 0,
+   "lapses": 0,
+   "left": 0,
+   "mod": 1781060039,
+   "nextReviews": [
+    "⁨20⁩m",
+    "⁨40⁩m",
+    "⁨1⁩h",
+    "⁨24⁩d"
+   ],
+   "flags": 0
+  },
+  {
+   "cardId": 1726634612138,
+   "fields": {
+    "Front": {
+     "value": "shooting",
+     "order": 0
+    },
+    "Back": {
+     "value": "стрельба́<br><br> [sound:hypertts-e2510e95ec8ec52f9dab1efbe9f99ef0df2d30da1736b4f716f67e6b.mp3]",
+     "order": 1
+    },
+    "Example": {
+     "value": "Стрельба́ в ночи разбудила всех жителей соседних домов.",
+     "order": 2
+    }
+   },
+   "fieldOrder": 0,
+   "question": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>shooting",
+   "answer": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>shooting\n\n<hr id=answer>\n\nстрельба́<br><br> [anki:play:a:0]\n<br><br><i>Стрельба́ в ночи разбудила всех жителей соседних домов.</i>",
+   "modelName": "Basic (and reversed card)",
+   "ord": 0,
+   "deckName": "Vocab::10000 words",
+   "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
+   "factor": 0,
+   "interval": 0,
+   "note": 1726634608169,
+   "type": 0,
+   "queue": 0,
+   "due": 4189,
+   "reps": 0,
+   "lapses": 0,
+   "left": 0,
+   "mod": 1781060130,
+   "nextReviews": [
+    "⁨20⁩m",
+    "⁨40⁩m",
+    "⁨1⁩h",
+    "⁨23⁩d"
+   ],
+   "flags": 0
+  },
+  {
+   "cardId": 1726634612139,
+   "fields": {
+    "Front": {
+     "value": "shooting",
+     "order": 0
+    },
+    "Back": {
+     "value": "стрельба́<br><br> [sound:hypertts-e2510e95ec8ec52f9dab1efbe9f99ef0df2d30da1736b4f716f67e6b.mp3]",
+     "order": 1
+    },
+    "Example": {
+     "value": "Стрельба́ в ночи разбудила всех жителей соседних домов.",
+     "order": 2
+    }
+   },
+   "fieldOrder": 1,
+   "question": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>стрельба́<br><br> [anki:play:q:0]\n<br><br>\n<a class=hint href=\"#\"\nonclick=\"this.style.display='none';\ndocument.getElementById('hintc5693dfe6075944b').style.display='block';\nreturn false;\" draggable=false>\nExample</a>\n<div id=\"hintc5693dfe6075944b\" class=hint style=\"display: none\">Стрельба́ в ночи разбудила всех жителей соседних домов.</div>\n",
+   "answer": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>стрельба́<br><br> [anki:play:q:0]\n<br><br>\n<a class=hint href=\"#\"\nonclick=\"this.style.display='none';\ndocument.getElementById('hintc5693dfe6075944b').style.display='block';\nreturn false;\" draggable=false>\nExample</a>\n<div id=\"hintc5693dfe6075944b\" class=hint style=\"display: none\">Стрельба́ в ночи разбудила всех жителей соседних домов.</div>\n\n\n<hr id=answer>\n\nshooting",
+   "modelName": "Basic (and reversed card)",
+   "ord": 1,
+   "deckName": "Vocab::10000 words",
+   "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
+   "factor": 0,
+   "interval": 0,
+   "note": 1726634608169,
+   "type": 0,
+   "queue": 0,
+   "due": 4190,
+   "reps": 0,
+   "lapses": 0,
+   "left": 0,
+   "mod": 1781060130,
+   "nextReviews": [
+    "⁨20⁩m",
+    "⁨40⁩m",
+    "⁨1⁩h",
+    "⁨23⁩d"
+   ],
+   "flags": 0
+  },
+  {
+   "cardId": 1726634617540,
+   "fields": {
+    "Front": {
+     "value": "to shoot dead",
+     "order": 0
+    },
+    "Back": {
+     "value": "застре́ливать / застрели́ть (+a)<br><br> [sound:hypertts-9ea60b98b63d8b5820ad9b4a8eb8eaa08b3d24ca40d6131dac192819.mp3]",
+     "order": 1
+    },
+    "Example": {
+     "value": "Полицейский был вынужден застрели́ть опасного преступника при задержании.",
+     "order": 2
+    }
+   },
+   "fieldOrder": 0,
+   "question": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>to shoot dead",
+   "answer": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>to shoot dead\n\n<hr id=answer>\n\nзастре́ливать / застрели́ть (+a)<br><br> [anki:play:a:0]\n<br><br><i>Полицейский был вынужден застрели́ть опасного преступника при задержании.</i>",
+   "modelName": "Basic (and reversed card)",
+   "ord": 0,
+   "deckName": "Vocab::10000 words",
+   "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
+   "factor": 0,
+   "interval": 0,
+   "note": 1726634610870,
+   "type": 0,
+   "queue": 0,
+   "due": 9131,
+   "reps": 0,
+   "lapses": 0,
+   "left": 0,
+   "mod": 1781060254,
+   "nextReviews": [
+    "⁨20⁩m",
+    "⁨40⁩m",
+    "⁨1⁩h",
+    "⁨23⁩d"
+   ],
+   "flags": 0
+  },
+  {
+   "cardId": 1726634617541,
+   "fields": {
+    "Front": {
+     "value": "to shoot dead",
+     "order": 0
+    },
+    "Back": {
+     "value": "застре́ливать / застрели́ть (+a)<br><br> [sound:hypertts-9ea60b98b63d8b5820ad9b4a8eb8eaa08b3d24ca40d6131dac192819.mp3]",
+     "order": 1
+    },
+    "Example": {
+     "value": "Полицейский был вынужден застрели́ть опасного преступника при задержании.",
+     "order": 2
+    }
+   },
+   "fieldOrder": 1,
+   "question": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>застре́ливать / застрели́ть (+a)<br><br> [anki:play:q:0]\n<br><br>\n<a class=hint href=\"#\"\nonclick=\"this.style.display='none';\ndocument.getElementById('hintceae0e333ece6846').style.display='block';\nreturn false;\" draggable=false>\nExample</a>\n<div id=\"hintceae0e333ece6846\" class=hint style=\"display: none\">Полицейский был вынужден застрели́ть опасного преступника при задержании.</div>\n",
+   "answer": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>застре́ливать / застрели́ть (+a)<br><br> [anki:play:q:0]\n<br><br>\n<a class=hint href=\"#\"\nonclick=\"this.style.display='none';\ndocument.getElementById('hintceae0e333ece6846').style.display='block';\nreturn false;\" draggable=false>\nExample</a>\n<div id=\"hintceae0e333ece6846\" class=hint style=\"display: none\">Полицейский был вынужден застрели́ть опасного преступника при задержании.</div>\n\n\n<hr id=answer>\n\nto shoot dead",
+   "modelName": "Basic (and reversed card)",
+   "ord": 1,
+   "deckName": "Vocab::10000 words",
+   "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
+   "factor": 0,
+   "interval": 0,
+   "note": 1726634610870,
+   "type": 0,
+   "queue": 0,
+   "due": 9132,
+   "reps": 0,
+   "lapses": 0,
+   "left": 0,
+   "mod": 1781060254,
+   "nextReviews": [
+    "⁨20⁩m",
+    "⁨40⁩m",
+    "⁨1⁩h",
+    "⁨23⁩d"
+   ],
+   "flags": 0
+  },
+  {
+   "cardId": 1726634610830,
+   "fields": {
+    "Front": {
+     "value": "to execute (by shooting)",
+     "order": 0
+    },
+    "Back": {
+     "value": "расстре́ливать / расстреля́ть (+a)<br><br> [sound:hypertts-717a10ba7bbba409ae5b99e54b94951531a4faf89d1015b72d6ffbe3.mp3]",
+     "order": 1
+    },
+    "Example": {
+     "value": "Во время войны́ за дезерти́рство могли́ расстреля́ть.",
+     "order": 2
+    }
+   },
+   "fieldOrder": 0,
+   "question": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>to execute (by shooting)",
+   "answer": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>to execute (by shooting)\n\n<hr id=answer>\n\nрасстре́ливать / расстреля́ть (+a)<br><br> [anki:play:a:0]\n<br><br><i>Во время войны́ за дезерти́рство могли́ расстреля́ть.</i>",
+   "modelName": "Basic (and reversed card)",
+   "ord": 0,
+   "deckName": "Vocab::10000 words",
+   "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
+   "factor": 0,
+   "interval": 0,
+   "note": 1726634607515,
+   "type": 0,
+   "queue": 0,
+   "due": 2997,
+   "reps": 0,
+   "lapses": 0,
+   "left": 0,
+   "mod": 1781060100,
+   "nextReviews": [
+    "⁨20⁩m",
+    "⁨40⁩m",
+    "⁨1⁩h",
+    "⁨22⁩d"
+   ],
+   "flags": 0
+  },
+  {
+   "cardId": 1726634610831,
+   "fields": {
+    "Front": {
+     "value": "to execute (by shooting)",
+     "order": 0
+    },
+    "Back": {
+     "value": "расстре́ливать / расстреля́ть (+a)<br><br> [sound:hypertts-717a10ba7bbba409ae5b99e54b94951531a4faf89d1015b72d6ffbe3.mp3]",
+     "order": 1
+    },
+    "Example": {
+     "value": "Во время войны́ за дезерти́рство могли́ расстреля́ть.",
+     "order": 2
+    }
+   },
+   "fieldOrder": 1,
+   "question": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>расстре́ливать / расстреля́ть (+a)<br><br> [anki:play:q:0]\n<br><br>\n<a class=hint href=\"#\"\nonclick=\"this.style.display='none';\ndocument.getElementById('hint613fb3828192a4a2').style.display='block';\nreturn false;\" draggable=false>\nExample</a>\n<div id=\"hint613fb3828192a4a2\" class=hint style=\"display: none\">Во время войны́ за дезерти́рство могли́ расстреля́ть.</div>\n",
+   "answer": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>расстре́ливать / расстреля́ть (+a)<br><br> [anki:play:q:0]\n<br><br>\n<a class=hint href=\"#\"\nonclick=\"this.style.display='none';\ndocument.getElementById('hint613fb3828192a4a2').style.display='block';\nreturn false;\" draggable=false>\nExample</a>\n<div id=\"hint613fb3828192a4a2\" class=hint style=\"display: none\">Во время войны́ за дезерти́рство могли́ расстреля́ть.</div>\n\n\n<hr id=answer>\n\nto execute (by shooting)",
+   "modelName": "Basic (and reversed card)",
+   "ord": 1,
+   "deckName": "Vocab::10000 words",
+   "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
+   "factor": 0,
+   "interval": 0,
+   "note": 1726634607515,
+   "type": 0,
+   "queue": 0,
+   "due": 2998,
+   "reps": 0,
+   "lapses": 0,
+   "left": 0,
+   "mod": 1781060100,
+   "nextReviews": [
+    "⁨20⁩m",
+    "⁨40⁩m",
+    "⁨1⁩h",
+    "⁨26⁩d"
+   ],
+   "flags": 0
+  },
+  {
+   "cardId": 1726634613258,
+   "fields": {
+    "Front": {
+     "value": "arrow / hand (of clock)",
+     "order": 0
+    },
+    "Back": {
+     "value": "стрелка́<br><br> [sound:hypertts-92d84a2ac051501678a282ea4fb7fcedaad5d1068af09f6afd136a47.mp3]",
+     "order": 1
+    },
+    "Example": {
+     "value": "Стрелка́ часо́в ти́хо дви́галась по цифербла́ту.",
+     "order": 2
+    }
+   },
+   "fieldOrder": 0,
+   "question": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>arrow / hand (of clock)",
+   "answer": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>arrow / hand (of clock)\n\n<hr id=answer>\n\nстрелка́<br><br> [anki:play:a:0]\n<br><br><i>Стрелка́ часо́в ти́хо дви́галась по цифербла́ту.</i>",
+   "modelName": "Basic (and reversed card)",
+   "ord": 0,
+   "deckName": "Vocab::10000 words",
+   "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
+   "factor": 0,
+   "interval": 0,
+   "note": 1726634608729,
+   "type": 0,
+   "queue": 0,
+   "due": 5199,
+   "reps": 0,
+   "lapses": 0,
+   "left": 0,
+   "mod": 1781060155,
+   "nextReviews": [
+    "⁨20⁩m",
+    "⁨40⁩m",
+    "⁨1⁩h",
+    "⁨28⁩d"
+   ],
+   "flags": 0
+  },
+  {
+   "cardId": 1726634613259,
+   "fields": {
+    "Front": {
+     "value": "arrow / hand (of clock)",
+     "order": 0
+    },
+    "Back": {
+     "value": "стрелка́<br><br> [sound:hypertts-92d84a2ac051501678a282ea4fb7fcedaad5d1068af09f6afd136a47.mp3]",
+     "order": 1
+    },
+    "Example": {
+     "value": "Стрелка́ часо́в ти́хо дви́галась по цифербла́ту.",
+     "order": 2
+    }
+   },
+   "fieldOrder": 1,
+   "question": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>стрелка́<br><br> [anki:play:q:0]\n<br><br>\n<a class=hint href=\"#\"\nonclick=\"this.style.display='none';\ndocument.getElementById('hint3177aa757c978c72').style.display='block';\nreturn false;\" draggable=false>\nExample</a>\n<div id=\"hint3177aa757c978c72\" class=hint style=\"display: none\">Стрелка́ часо́в ти́хо дви́галась по цифербла́ту.</div>\n",
+   "answer": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>стрелка́<br><br> [anki:play:q:0]\n<br><br>\n<a class=hint href=\"#\"\nonclick=\"this.style.display='none';\ndocument.getElementById('hint3177aa757c978c72').style.display='block';\nreturn false;\" draggable=false>\nExample</a>\n<div id=\"hint3177aa757c978c72\" class=hint style=\"display: none\">Стрелка́ часо́в ти́хо дви́галась по цифербла́ту.</div>\n\n\n<hr id=answer>\n\narrow / hand (of clock)",
+   "modelName": "Basic (and reversed card)",
+   "ord": 1,
+   "deckName": "Vocab::10000 words",
+   "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
+   "factor": 0,
+   "interval": 0,
+   "note": 1726634608729,
+   "type": 0,
+   "queue": 0,
+   "due": 5200,
+   "reps": 0,
+   "lapses": 0,
+   "left": 0,
+   "mod": 1781060155,
+   "nextReviews": [
+    "⁨20⁩m",
+    "⁨40⁩m",
+    "⁨1⁩h",
+    "⁨27⁩d"
+   ],
+   "flags": 0
+  }
+ ],
+ "reviews": {
+  "1726634609648": [
+   {
+    "id": 1735451050789,
+    "usn": 1629,
+    "ease": 0,
+    "ivl": 0,
+    "lastIvl": 0,
+    "factor": 0,
+    "time": 0,
+    "type": 4
+   },
+   {
+    "id": 1735451225454,
+    "usn": 1630,
+    "ease": 0,
+    "ivl": 0,
+    "lastIvl": 0,
+    "factor": 0,
+    "time": 0,
+    "type": 4
+   }
+  ],
+  "1726634609649": [
+   {
+    "id": 1735451050790,
+    "usn": 1629,
+    "ease": 0,
+    "ivl": 0,
+    "lastIvl": 0,
+    "factor": 0,
+    "time": 0,
+    "type": 4
+   },
+   {
+    "id": 1735451225455,
+    "usn": 1630,
+    "ease": 0,
+    "ivl": 0,
+    "lastIvl": 0,
+    "factor": 0,
+    "time": 0,
+    "type": 4
+   }
+  ],
+  "1726634606624": [
+   {
+    "id": 1735451053811,
+    "usn": 1629,
+    "ease": 0,
+    "ivl": 0,
+    "lastIvl": 0,
+    "factor": 0,
+    "time": 0,
+    "type": 4
+   },
+   {
+    "id": 1735451228476,
+    "usn": 1630,
+    "ease": 0,
+    "ivl": 0,
+    "lastIvl": 0,
+    "factor": 0,
+    "time": 0,
+    "type": 4
+   },
+   {
+    "id": 1760854337000,
+    "usn": 2953,
+    "ease": 1,
+    "ivl": -1200,
+    "lastIvl": 0,
+    "factor": 0,
+    "time": 23000,
+    "type": 0
+   },
+   {
+    "id": 1760857040000,
+    "usn": 2953,
+    "ease": 1,
+    "ivl": -1200,
+    "lastIvl": -1200,
+    "factor": 0,
+    "time": 13000,
+    "type": 0
+   },
+   {
+    "id": 1760858983000,
+    "usn": 2953,
+    "ease": 3,
+    "ivl": -3600,
+    "lastIvl": -1200,
+    "factor": 0,
+    "time": 4000,
+    "type": 0
+   },
+   {
+    "id": 1760868297000,
+    "usn": 2953,
+    "ease": 3,
+    "ivl": 1,
+    "lastIvl": -3600,
+    "factor": 2500,
+    "time": 9000,
+    "type": 0
+   },
+   {
+    "id": 1761351240288,
+    "usn": 2962,
+    "ease": 3,
+    "ivl": 4,
+    "lastIvl": 1,
+    "factor": 2500,
+    "time": 8503,
+    "type": 1
+   },
+   {
+    "id": 1761695610000,
+    "usn": 2995,
+    "ease": 1,
+    "ivl": -600,
+    "lastIvl": 4,
+    "factor": 2300,
+    "time": 22000,
+    "type": 1
+   },
+   {
+    "id": 1761736219000,
+    "usn": 2995,
+    "ease": 1,
+    "ivl": -600,
+    "lastIvl": -600,
+    "factor": 2300,
+    "time": 9000,
+    "type": 2
+   },
+   {
+    "id": 1761737143000,
+    "usn": 2995,
+    "ease": 3,
+    "ivl": 1,
+    "lastIvl": -600,
+    "factor": 2300,
+    "time": 9000,
+    "type": 2
+   },
+   {
+    "id": 1761786713000,
+    "usn": 3008,
+    "ease": 3,
+    "ivl": 3,
+    "lastIvl": 1,
+    "factor": 2300,
+    "time": 10000,
+    "type": 1
+   },
+   {
+    "id": 1762061065243,
+    "usn": 3029,
+    "ease": 2,
+    "ivl": 4,
+    "lastIvl": 3,
+    "factor": 2150,
+    "time": 13298,
+    "type": 1
+   },
+   {
+    "id": 1762381253000,
+    "usn": 3056,
+    "ease": 3,
+    "ivl": 9,
+    "lastIvl": 4,
+    "factor": 2150,
+    "time": 7000,
+    "type": 1
+   },
+   {
+    "id": 1763519771110,
+    "usn": 3128,
+    "ease": 1,
+    "ivl": -600,
+    "lastIvl": 9,
+    "factor": 1950,
+    "time": 60000,
+    "type": 1
+   },
+   {
+    "id": 1763520534885,
+    "usn": 3128,
+    "ease": 3,
+    "ivl": 1,
+    "lastIvl": -600,
+    "factor": 1950,
+    "time": 21348,
+    "type": 2
+   },
+   {
+    "id": 1763586932000,
+    "usn": 3142,
+    "ease": 3,
+    "ivl": 3,
+    "lastIvl": 1,
+    "factor": 1950,
+    "time": 14000,
+    "type": 1
+   },
+   {
+    "id": 1763855523940,
+    "usn": 3180,
+    "ease": 1,
+    "ivl": -600,
+    "lastIvl": 3,
+    "factor": 1750,
+    "time": 19857,
+    "type": 1
+   },
+   {
+    "id": 1763857627376,
+    "usn": 3180,
+    "ease": 1,
+    "ivl": -600,
+    "lastIvl": -600,
+    "factor": 1750,
+    "time": 60000,
+    "type": 2
+   },
+   {
+    "id": 1763858738315,
+    "usn": 3180,
+    "ease": 1,
+    "ivl": -600,
+    "lastIvl": -600,
+    "factor": 1750,
+    "time": 58513,
+    "type": 2
+   },
+   {
+    "id": 1763859488010,
+    "usn": 3180,
+    "ease": 3,
+    "ivl": 1,
+    "lastIvl": -600,
+    "factor": 1750,
+    "time": 36515,
+    "type": 2
+   },
+   {
+    "id": 1763937318000,
+    "usn": 3198,
+    "ease": 1,
+    "ivl": -600,
+    "lastIvl": 1,
+    "factor": 1550,
+    "time": 44000,
+    "type": 1
+   },
+   {
+    "id": 1763938900045,
+    "usn": 3200,
+    "ease": 1,
+    "ivl": -600,
+    "lastIvl": -600,
+    "factor": 1550,
+    "time": 35359,
+    "type": 2
+   },
+   {
+    "id": 1763939802472,
+    "usn": 3203,
+    "ease": 3,
+    "ivl": 1,
+    "lastIvl": -600,
+    "factor": 1550,
+    "time": 29911,
+    "type": 2
+   },
+   {
+    "id": 1764023867183,
+    "usn": 3211,
+    "ease": 3,
+    "ivl": 4,
+    "lastIvl": 1,
+    "factor": 1550,
+    "time": 25695,
+    "type": 1
+   },
+   {
+    "id": 1764051607000,
+    "usn": 3206,
+    "ease": 1,
+    "ivl": -600,
+    "lastIvl": 1,
+    "factor": 1350,
+    "time": 39000,
+    "type": 1
+   },
+   {
+    "id": 1764052385000,
+    "usn": 3207,
+    "ease": 3,
+    "ivl": 1,
+    "lastIvl": -600,
+    "factor": 1350,
+    "time": 39000,
+    "type": 2
+   },
+   {
+    "id": 1764159372135,
+    "usn": 3212,
+    "ease": 1,
+    "ivl": -600,
+    "lastIvl": 1,
+    "factor": 1300,
+    "time": 60000,
+    "type": 1
+   },
+   {
+    "id": 1764171029946,
+    "usn": 3213,
+    "ease": 3,
+    "ivl": 1,
+    "lastIvl": -600,
+    "factor": 1300,
+    "time": 22686,
+    "type": 2
+   },
+   {
+    "id": 1764198931000,
+    "usn": 3216,
+    "ease": 3,
+    "ivl": 3,
+    "lastIvl": 1,
+    "factor": 1300,
+    "time": 30000,
+    "type": 1
+   },
+   {
+    "id": 1764543420000,
+    "usn": 3240,
+    "ease": 2,
+    "ivl": 4,
+    "lastIvl": 3,
+    "factor": 1300,
+    "time": 30000,
+    "type": 1
+   },
+   {
+    "id": 1767568808000,
+    "usn": 3296,
+    "ease": 1,
+    "ivl": -600,
+    "lastIvl": 4,
+    "factor": 1300,
+    "time": 60000,
+    "type": 1
+   },
+   {
+    "id": 1767569488000,
+    "usn": 3296,
+    "ease": 1,
+    "ivl": -600,
+    "lastIvl": -600,
+    "factor": 1300,
+    "time": 40000,
+    "type": 2
+   },
+   {
+    "id": 1767570192000,
+    "usn": 3296,
+    "ease": 1,
+    "ivl": -600,
+    "lastIvl": -600,
+    "factor": 1300,
+    "time": 30000,
+    "type": 2
+   },
+   {
+    "id": 1767571289404,
+    "usn": 3300,
+    "ease": 3,
+    "ivl": 1,
+    "lastIvl": -600,
+    "factor": 1300,
+    "time": 18297,
+    "type": 2
+   },
+   {
+    "id": 1767660824000,
+    "usn": 3311,
+    "ease": 2,
+    "ivl": 2,
+    "lastIvl": 1,
+    "factor": 1300,
+    "time": 32000,
+    "type": 1
+   },
+   {
+    "id": 1767838037000,
+    "usn": 3332,
+    "ease": 1,
+    "ivl": -600,
+    "lastIvl": 2,
+    "factor": 1300,
+    "time": 20000,
+    "type": 1
+   },
+   {
+    "id": 1767838793000,
+    "usn": 3332,
+    "ease": 3,
+    "ivl": 1,
+    "lastIvl": -600,
+    "factor": 1300,
+    "time": 28000,
+    "type": 2
+   },
+   {
+    "id": 1767920474000,
+    "usn": 3341,
+    "ease": 1,
+    "ivl": -600,
+    "lastIvl": 1,
+    "factor": 1300,
+    "time": 30000,
+    "type": 1
+   },
+   {
+    "id": 1767921590349,
+    "usn": 3343,
+    "ease": 3,
+    "ivl": 1,
+    "lastIvl": -600,
+    "factor": 1300,
+    "time": 18048,
+    "type": 2
+   },
+   {
+    "id": 1768038690000,
+    "usn": 3348,
+    "ease": 3,
+    "ivl": 3,
+    "lastIvl": 1,
+    "factor": 1300,
+    "time": 60000,
+    "type": 1
+   },
+   {
+    "id": 1768301819000,
+    "usn": 3361,
+    "ease": 1,
+    "ivl": -600,
+    "lastIvl": 3,
+    "factor": 1300,
+    "time": 40000,
+    "type": 1
+   },
+   {
+    "id": 1768317589000,
+    "usn": 3362,
+    "ease": 3,
+    "ivl": 1,
+    "lastIvl": -600,
+    "factor": 1300,
+    "time": 18000,
+    "type": 2
+   },
+   {
+    "id": 1768352609000,
+    "usn": 3364,
+    "ease": 1,
+    "ivl": -600,
+    "lastIvl": 1,
+    "factor": 1300,
+    "time": 33000,
+    "type": 1
+   },
+   {
+    "id": 1768353456000,
+    "usn": 3365,
+    "ease": 3,
+    "ivl": 1,
+    "lastIvl": -600,
+    "factor": 1300,
+    "time": 30000,
+    "type": 2
+   },
+   {
+    "id": 1768435508000,
+    "usn": 3372,
+    "ease": 3,
+    "ivl": 4,
+    "lastIvl": 1,
+    "factor": 1300,
+    "time": 31000,
+    "type": 1
+   },
+   {
+    "id": 1768784295000,
+    "usn": 3395,
+    "ease": 3,
+    "ivl": 6,
+    "lastIvl": 4,
+    "factor": 1300,
+    "time": 17000,
+    "type": 1
+   },
+   {
+    "id": 1769304617012,
+    "usn": 3438,
+    "ease": 3,
+    "ivl": 12,
+    "lastIvl": 6,
+    "factor": 1300,
+    "time": 55116,
+    "type": 1
+   },
+   {
+    "id": 1770353230000,
+    "usn": 3543,
+    "ease": 1,
+    "ivl": -600,
+    "lastIvl": 12,
+    "factor": 1300,
+    "time": 46000,
+    "type": 1
+   },
+   {
+    "id": 1770392010000,
+    "usn": 3547,
+    "ease": 3,
+    "ivl": 1,
+    "lastIvl": -600,
+    "factor": 1300,
+    "time": 27000,
+    "type": 2
+   },
+   {
+    "id": 1770449841000,
+    "usn": 3549,
+    "ease": 2,
+    "ivl": 2,
+    "lastIvl": 1,
+    "factor": 1300,
+    "time": 60000,
+    "type": 1
+   },
+   {
+    "id": 1770616302799,
+    "usn": 3560,
+    "ease": 3,
+    "ivl": 6,
+    "lastIvl": 2,
+    "factor": 1300,
+    "time": 60000,
+    "type": 1
+   },
+   {
+    "id": 1771110426097,
+    "usn": 3601,
+    "ease": 1,
+    "ivl": -600,
+    "lastIvl": 6,
+    "factor": 1300,
+    "time": 32971,
+    "type": 1
+   },
+   {
+    "id": 1771111117013,
+    "usn": 3601,
+    "ease": 3,
+    "ivl": 1,
+    "lastIvl": -600,
+    "factor": 1300,
+    "time": 29278,
+    "type": 2
+   },
+   {
+    "id": 1771245721000,
+    "usn": 3608,
+    "ease": 3,
+    "ivl": 3,
+    "lastIvl": 1,
+    "factor": 1300,
+    "time": 19000,
+    "type": 1
+   },
+   {
+    "id": 1771460574000,
+    "usn": 3623,
+    "ease": 3,
+    "ivl": 5,
+    "lastIvl": 3,
+    "factor": 1300,
+    "time": 33000,
+    "type": 1
+   },
+   {
+    "id": 1771898554000,
+    "usn": 3648,
+    "ease": 3,
+    "ivl": 7,
+    "lastIvl": 5,
+    "factor": 1300,
+    "time": 60000,
+    "type": 1
+   },
+   {
+    "id": 1772503406000,
+    "usn": 3714,
+    "ease": 3,
+    "ivl": 13,
+    "lastIvl": 7,
+    "factor": 1300,
+    "time": 18000,
+    "type": 1
+   },
+   {
+    "id": 1774225677785,
+    "usn": 3842,
+    "ease": 1,
+    "ivl": -600,
+    "lastIvl": 13,
+    "factor": 1300,
+    "time": 9855,
+    "type": 1
+   },
+   {
+    "id": 1774262925000,
+    "usn": 3846,
+    "ease": 3,
+    "ivl": -3600,
+    "lastIvl": -600,
+    "factor": 1300,
+    "time": 10000,
+    "type": 2
+   },
+   {
+    "id": 1774273321143,
+    "usn": 3849,
+    "ease": 1,
+    "ivl": -600,
+    "lastIvl": -3600,
+    "factor": 1300,
+    "time": 8321,
+    "type": 2
+   },
+   {
+    "id": 1774305546129,
+    "usn": 3855,
+    "ease": 3,
+    "ivl": -3600,
+    "lastIvl": -600,
+    "factor": 1300,
+    "time": 5105,
+    "type": 2
+   },
+   {
+    "id": 1774311857000,
+    "usn": 3857,
+    "ease": 3,
+    "ivl": 1,
+    "lastIvl": -3600,
+    "factor": 1300,
+    "time": 7000,
+    "type": 2
+   },
+   {
+    "id": 1774396660000,
+    "usn": 3864,
+    "ease": 3,
+    "ivl": 4,
+    "lastIvl": 1,
+    "factor": 1300,
+    "time": 9000,
+    "type": 1
+   },
+   {
+    "id": 1774748826305,
+    "usn": 3898,
+    "ease": 4,
+    "ivl": 10,
+    "lastIvl": 4,
+    "factor": 1450,
+    "time": 4284,
+    "type": 1
+   },
+   {
+    "id": 1775699686000,
+    "usn": 3952,
+    "ease": 1,
+    "ivl": -600,
+    "lastIvl": 10,
+    "factor": 1300,
+    "time": 7000,
+    "type": 1
+   },
+   {
+    "id": 1775700482000,
+    "usn": 3952,
+    "ease": 3,
+    "ivl": -3600,
+    "lastIvl": -600,
+    "factor": 1300,
+    "time": 7000,
+    "type": 2
+   },
+   {
+    "id": 1775734034000,
+    "usn": 3952,
+    "ease": 3,
+    "ivl": 1,
+    "lastIvl": -3600,
+    "factor": 1300,
+    "time": 5000,
+    "type": 2
+   },
+   {
+    "id": 1775785844000,
+    "usn": 3958,
+    "ease": 3,
+    "ivl": 4,
+    "lastIvl": 1,
+    "factor": 1300,
+    "time": 6000,
+    "type": 1
+   },
+   {
+    "id": 1776130609000,
+    "usn": 3977,
+    "ease": 3,
+    "ivl": 9,
+    "lastIvl": 4,
+    "factor": 1300,
+    "time": 7000,
+    "type": 1
+   },
+   {
+    "id": 1776899250000,
+    "usn": 4005,
+    "ease": 3,
+    "ivl": 16,
+    "lastIvl": 9,
+    "factor": 1300,
+    "time": 5000,
+    "type": 1
+   },
+   {
+    "id": 1778322041489,
+    "usn": 4113,
+    "ease": 3,
+    "ivl": 4,
+    "lastIvl": 16,
+    "factor": 1089,
+    "time": 6051,
+    "type": 1
+   },
+   {
+    "id": 1778669961531,
+    "usn": 4119,
+    "ease": 3,
+    "ivl": 8,
+    "lastIvl": 4,
+    "factor": 1088,
+    "time": 5443,
+    "type": 1
+   },
+   {
+    "id": 1779329107758,
+    "usn": 4143,
+    "ease": 3,
+    "ivl": 7,
+    "lastIvl": 8,
+    "factor": 1087,
+    "time": 46309,
+    "type": 1
+   },
+   {
+    "id": 1779921247081,
+    "usn": 4158,
+    "ease": 3,
+    "ivl": 7,
+    "lastIvl": 7,
+    "factor": 1086,
+    "time": 6595,
+    "type": 1
+   },
+   {
+    "id": 1780530905759,
+    "usn": 4208,
+    "ease": 3,
+    "ivl": 8,
+    "lastIvl": 7,
+    "factor": 1086,
+    "time": 3817,
+    "type": 1
+   },
+   {
+    "id": 1781216030333,
+    "usn": 4268,
+    "ease": 1,
+    "ivl": -600,
+    "lastIvl": 8,
+    "factor": 1091,
+    "time": 12855,
+    "type": 1
+   },
+   {
+    "id": 1781216651286,
+    "usn": 4268,
+    "ease": 3,
+    "ivl": -3600,
+    "lastIvl": -600,
+    "factor": 1089,
+    "time": 9814,
+    "type": 2
+   },
+   {
+    "id": 1781261190397,
+    "usn": 4269,
+    "ease": 3,
+    "ivl": 2,
+    "lastIvl": -3600,
+    "factor": 1088,
+    "time": 6410,
+    "type": 2
+   },
+   {
+    "id": 1781395974296,
+    "usn": 4272,
+    "ease": 3,
+    "ivl": 4,
+    "lastIvl": 2,
+    "factor": 1086,
+    "time": 4793,
+    "type": 1
+   },
+   {
+    "id": 1781761600121,
+    "usn": 4314,
+    "ease": 3,
+    "ivl": 3,
+    "lastIvl": 4,
+    "factor": 1085,
+    "time": 4452,
+    "type": 1
+   },
+   {
+    "id": 1781997410196,
+    "usn": 4341,
+    "ease": 3,
+    "ivl": 5,
+    "lastIvl": 3,
+    "factor": 1083,
+    "time": 4429,
+    "type": 1
+   },
+   {
+    "id": 1782542993841,
+    "usn": 4386,
+    "ease": 3,
+    "ivl": 9,
+    "lastIvl": 5,
+    "factor": 1081,
+    "time": 2909,
+    "type": 1
+   },
+   {
+    "id": 1783332724826,
+    "usn": 4452,
+    "ease": 3,
+    "ivl": 7,
+    "lastIvl": 9,
+    "factor": 1080,
+    "time": 3992,
+    "type": 1
+   },
+   {
+    "id": 1783898303150,
+    "usn": 4504,
+    "ease": 3,
+    "ivl": 12,
+    "lastIvl": 7,
+    "factor": 1078,
+    "time": 7764,
+    "type": 1
+   },
+   {
+    "id": 1784959773753,
+    "usn": 4530,
+    "ease": 3,
+    "ivl": 10,
+    "lastIvl": 12,
+    "factor": 1077,
+    "time": 4995,
+    "type": 1
+   },
+   {
+    "id": 1785855689263,
+    "usn": 4570,
+    "ease": 3,
+    "ivl": 16,
+    "lastIvl": 10,
+    "factor": 1075,
+    "time": 3665,
+    "type": 1
+   },
+   {
+    "id": 1787189258799,
+    "usn": 4657,
+    "ease": 3,
+    "ivl": 14,
+    "lastIvl": 16,
+    "factor": 1074,
+    "time": 7116,
+    "type": 1
+   }
+  ],
+  "1726634606625": [
+   {
+    "id": 1735451053812,
+    "usn": 1629,
+    "ease": 0,
+    "ivl": 0,
+    "lastIvl": 0,
+    "factor": 0,
+    "time": 0,
+    "type": 4
+   },
+   {
+    "id": 1735451228477,
+    "usn": 1630,
+    "ease": 0,
+    "ivl": 0,
+    "lastIvl": 0,
+    "factor": 0,
+    "time": 0,
+    "type": 4
+   },
+   {
+    "id": 1760854339000,
+    "usn": 2953,
+    "ease": 3,
+    "ivl": -3600,
+    "lastIvl": 0,
+    "factor": 0,
+    "time": 2000,
+    "type": 0
+   },
+   {
+    "id": 1760858977000,
+    "usn": 2953,
+    "ease": 3,
+    "ivl": 1,
+    "lastIvl": -3600,
+    "factor": 2500,
+    "time": 5000,
+    "type": 0
+   },
+   {
+    "id": 1761350758600,
+    "usn": 2962,
+    "ease": 3,
+    "ivl": 5,
+    "lastIvl": 1,
+    "factor": 2500,
+    "time": 5513,
+    "type": 1
+   },
+   {
+    "id": 1761787073000,
+    "usn": 3008,
+    "ease": 3,
+    "ivl": 12,
+    "lastIvl": 5,
+    "factor": 2500,
+    "time": 6000,
+    "type": 1
+   },
+   {
+    "id": 1762850319000,
+    "usn": 3089,
+    "ease": 3,
+    "ivl": 31,
+    "lastIvl": 12,
+    "factor": 2500,
+    "time": 8000,
+    "type": 1
+   },
+   {
+    "id": 1768523368000,
+    "usn": 3378,
+    "ease": 3,
+    "ivl": 72,
+    "lastIvl": 31,
+    "factor": 2500,
+    "time": 16000,
+    "type": 1
+   },
+   {
+    "id": 1775351756000,
+    "usn": 3938,
+    "ease": 3,
+    "ivl": 188,
+    "lastIvl": 72,
+    "factor": 2500,
+    "time": 3000,
+    "type": 1
+   }
+  ],
+  "1726634617450": [
+   {
+    "id": 1735451042989,
+    "usn": 1629,
+    "ease": 0,
+    "ivl": 0,
+    "lastIvl": 0,
+    "factor": 0,
+    "time": 0,
+    "type": 4
+   },
+   {
+    "id": 1735451217654,
+    "usn": 1630,
+    "ease": 0,
+    "ivl": 0,
+    "lastIvl": 0,
+    "factor": 0,
+    "time": 0,
+    "type": 4
+   }
+  ],
+  "1726634617451": [
+   {
+    "id": 1735451042990,
+    "usn": 1629,
+    "ease": 0,
+    "ivl": 0,
+    "lastIvl": 0,
+    "factor": 0,
+    "time": 0,
+    "type": 4
+   },
+   {
+    "id": 1735451217655,
+    "usn": 1630,
+    "ease": 0,
+    "ivl": 0,
+    "lastIvl": 0,
+    "factor": 0,
+    "time": 0,
+    "type": 4
+   }
+  ],
+  "1726634608176": [
+   {
+    "id": 1735451052261,
+    "usn": 1629,
+    "ease": 0,
+    "ivl": 0,
+    "lastIvl": 0,
+    "factor": 0,
+    "time": 0,
+    "type": 4
+   },
+   {
+    "id": 1735451226926,
+    "usn": 1630,
+    "ease": 0,
+    "ivl": 0,
+    "lastIvl": 0,
+    "factor": 0,
+    "time": 0,
+    "type": 4
+   }
+  ],
+  "1726634608177": [
+   {
+    "id": 1735451052262,
+    "usn": 1629,
+    "ease": 0,
+    "ivl": 0,
+    "lastIvl": 0,
+    "factor": 0,
+    "time": 0,
+    "type": 4
+   },
+   {
+    "id": 1735451226927,
+    "usn": 1630,
+    "ease": 0,
+    "ivl": 0,
+    "lastIvl": 0,
+    "factor": 0,
+    "time": 0,
+    "type": 4
+   }
+  ],
+  "1726634612138": [
+   {
+    "id": 1735451048301,
+    "usn": 1629,
+    "ease": 0,
+    "ivl": 0,
+    "lastIvl": 0,
+    "factor": 0,
+    "time": 0,
+    "type": 4
+   },
+   {
+    "id": 1735451222966,
+    "usn": 1630,
+    "ease": 0,
+    "ivl": 0,
+    "lastIvl": 0,
+    "factor": 0,
+    "time": 0,
+    "type": 4
+   }
+  ],
+  "1726634612139": [
+   {
+    "id": 1735451048302,
+    "usn": 1629,
+    "ease": 0,
+    "ivl": 0,
+    "lastIvl": 0,
+    "factor": 0,
+    "time": 0,
+    "type": 4
+   },
+   {
+    "id": 1735451222967,
+    "usn": 1630,
+    "ease": 0,
+    "ivl": 0,
+    "lastIvl": 0,
+    "factor": 0,
+    "time": 0,
+    "type": 4
+   }
+  ],
+  "1726634617540": [
+   {
+    "id": 1735451042899,
+    "usn": 1629,
+    "ease": 0,
+    "ivl": 0,
+    "lastIvl": 0,
+    "factor": 0,
+    "time": 0,
+    "type": 4
+   },
+   {
+    "id": 1735451217564,
+    "usn": 1630,
+    "ease": 0,
+    "ivl": 0,
+    "lastIvl": 0,
+    "factor": 0,
+    "time": 0,
+    "type": 4
+   }
+  ],
+  "1726634617541": [
+   {
+    "id": 1735451042900,
+    "usn": 1629,
+    "ease": 0,
+    "ivl": 0,
+    "lastIvl": 0,
+    "factor": 0,
+    "time": 0,
+    "type": 4
+   },
+   {
+    "id": 1735451217565,
+    "usn": 1630,
+    "ease": 0,
+    "ivl": 0,
+    "lastIvl": 0,
+    "factor": 0,
+    "time": 0,
+    "type": 4
+   }
+  ],
+  "1726634610830": [
+   {
+    "id": 1735451049609,
+    "usn": 1629,
+    "ease": 0,
+    "ivl": 0,
+    "lastIvl": 0,
+    "factor": 0,
+    "time": 0,
+    "type": 4
+   },
+   {
+    "id": 1735451224274,
+    "usn": 1630,
+    "ease": 0,
+    "ivl": 0,
+    "lastIvl": 0,
+    "factor": 0,
+    "time": 0,
+    "type": 4
+   }
+  ],
+  "1726634610831": [
+   {
+    "id": 1735451049610,
+    "usn": 1629,
+    "ease": 0,
+    "ivl": 0,
+    "lastIvl": 0,
+    "factor": 0,
+    "time": 0,
+    "type": 4
+   },
+   {
+    "id": 1735451224275,
+    "usn": 1630,
+    "ease": 0,
+    "ivl": 0,
+    "lastIvl": 0,
+    "factor": 0,
+    "time": 0,
+    "type": 4
+   }
+  ],
+  "1726634613258": [
+   {
+    "id": 1735451047181,
+    "usn": 1629,
+    "ease": 0,
+    "ivl": 0,
+    "lastIvl": 0,
+    "factor": 0,
+    "time": 0,
+    "type": 4
+   },
+   {
+    "id": 1735451221846,
+    "usn": 1630,
+    "ease": 0,
+    "ivl": 0,
+    "lastIvl": 0,
+    "factor": 0,
+    "time": 0,
+    "type": 4
+   }
+  ],
+  "1726634613259": [
+   {
+    "id": 1735451047182,
+    "usn": 1629,
+    "ease": 0,
+    "ivl": 0,
+    "lastIvl": 0,
+    "factor": 0,
+    "time": 0,
+    "type": 4
+   },
+   {
+    "id": 1735451221847,
+    "usn": 1630,
+    "ease": 0,
+    "ivl": 0,
+    "lastIvl": 0,
+    "factor": 0,
+    "time": 0,
+    "type": 4
+   }
+  ]
+ }
+}

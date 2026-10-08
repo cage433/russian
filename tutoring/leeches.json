@@ -343,25 +343,6 @@
     }
    ]
   },
-  "1726634605412": {
-   "front": "to shoot (at a specific target) ~ (towards a general area) ~ (with a weapon) ~ (ammunition)",
-   "back": "стреля́ть / вы́стрелить (в +a,&nbsp; по +d, из +g, +i)",
-   "deck": "Vocab::10000 words",
-   "cards": [
-    {
-     "state": "suspended",
-     "lapses": 16,
-     "streak": 9,
-     "last_fail": "2026-06-12"
-    },
-    {
-     "state": "188d",
-     "lapses": 0,
-     "streak": 5,
-     "last_fail": "—"
-    }
-   ]
-  },
   "1726634605451": {
    "front": "establishment, institution",
    "back": "учрежде́ние",

@@ -1,6 +1,6 @@
 # Leeches — 2026-10-08
 
-49 notes tagged `leech`. Untag a word in the Anki browser if you now know it, then run
+48 notes tagged `leech`. Untag a word in the Anki browser if you now know it, then run
 `scripts/leech_release.py`: it comes back as a **new** word (both directions, history reset)
 at the front of its deck's new queue. `streak` = passes in a row since the last fail.
 
@@ -48,7 +48,6 @@ at the front of its deck's new queue. `streak` = passes in a row since the last 
 | расстава́ться / расста́ться (с +inst) | to part (with / from) | suspended, 9 lapses, streak 12, last fail 2026-06-15 | 20d, 1 lapses, streak 4, last fail 2026-08-08 |
 | свяще́нник | priest | suspended, 8 lapses, streak 3, last fail — | 50d, 1 lapses, streak 0, last fail 2026-08-25 |
 | среди́ (+g) | among | suspended, 16 lapses, streak 5, last fail 2026-08-03 | 16d, 1 lapses, streak 2, last fail 2026-09-21 |
-| стреля́ть / вы́стрелить (в +a,&nbsp; по +d, из +g, +i) | to shoot (at a specific target) ~ (towards a general area) ~ (with a weapon) ~ (ammunition) | suspended, 16 lapses, streak 9, last fail 2026-06-12 | 188d, 0 lapses, streak 5, last fail — |
 | торопи́ться / поторопи́ться | to hurry, be in a hurry | suspended, 11 lapses, streak 4, last fail 2026-08-13 | 231d, 0 lapses, streak 6, last fail — |
 | тяну́ть / потяну́ть (+a) | to pull, drag | suspended, 8 lapses, streak 13, last fail 2026-05-16 | 190d, 0 lapses, streak 5, last fail — |
 | устано́вка | installation / directive, aim | suspended, 8 lapses, streak 6, last fail 2026-08-04 | suspended, 12 lapses, streak 0, last fail 2026-09-23 |
