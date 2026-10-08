@@ -59,6 +59,8 @@ def _is_prefix_cell(t):
 
 CYRILLIC = re.compile(r"[а-яё]", re.I)
 RU_PAIR_RE = re.compile(r'<div class="ru-pair">(.*?)</div>', re.S)
+SENT_RE = re.compile(r'<div class="sent">(.*?)</div>', re.S)
+EN_RE = re.compile(r'<span class="en">.*?</span>', re.S)
 
 
 def answers(text):
@@ -74,6 +76,15 @@ def answers(text):
             continue
         out.setdefault(n, []).append(t.strip())
     ans = {n: " ".join(v) for n, v in out.items()}
+    # Cloze Sentence notes: each <div class="sent"> holds one sentence with one cloze, plus its
+    # English in <span class="en">. Speak the whole Russian sentence with the word filled in.
+    for div in SENT_RE.findall(text):
+        m = CLOZE_RE.search(div)
+        if not m:
+            continue
+        ru = EN_RE.sub("", div)
+        ru = CLOZE_RE.sub(lambda x: x.group(2), ru)
+        ans[int(m.group(1))] = re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", ru)).strip()
     pair = RU_PAIR_RE.search(text)
     for n, t in list(ans.items()):
         # "English" = more Latin letters than Cyrillic — not "no Cyrillic at all": a gloss's
