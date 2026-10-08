@@ -305,25 +305,6 @@
     }
    ]
   },
-  "1726634607493": {
-   "front": "fatherland",
-   "back": "оте́чество",
-   "deck": "Vocab::10000 words",
-   "cards": [
-    {
-     "state": "suspended",
-     "lapses": 8,
-     "streak": 4,
-     "last_fail": "—"
-    },
-    {
-     "state": "270d",
-     "lapses": 0,
-     "streak": 0,
-     "last_fail": "—"
-    }
-   ]
-  },
   "1726634607584": {
    "front": "to part (with / from)",
    "back": "расстава́ться / расста́ться (с +inst)",
