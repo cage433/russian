@@ -1,5 +1,14 @@
 # Leech rehabilitation programme
 
+> **Closed 2026-10-08.** The reword → Forget → promote route was replaced in October by
+> restructuring: root-family Cloze cards (`Vocab::Roots`), near-synonym Cloze cards, Cloze
+> Sentence cards for function words, and the Cloze Aspect trial (see CLAUDE.md). The programme's
+> tags were retired the same day: the 218 `leech-parked` notes and the one `leech-fixed` note
+> (получа́ться) were re-tagged plain `leech` — every parked production card had 8+ lapses, which
+> is what the deck options now suspend at anyway — and both old tags removed (note ids in
+> `tutoring/retired/leech-parked-fixed-retag-2026-10-08.json`). The tag tables, queues and
+> counts below are historical; the evidence and the rules learned still hold.
+
 Started **2026-08-31**. Goal: return ~377 production leeches to circulation as cards that
 can actually be answered, instead of hammering cards that don't converge.
 
