@@ -1,6 +1,6 @@
 # Leeches — 2026-10-08
 
-57 notes tagged `leech`. Untag a word in the Anki browser if you now know it, then run
+53 notes tagged `leech`. Untag a word in the Anki browser if you now know it, then run
 `scripts/leech_release.py`: it comes back as a **new** word (both directions, history reset)
 at the front of its deck's new queue. `streak` = passes in a row since the last fail.
 
@@ -29,7 +29,6 @@ at the front of its deck's new queue. `streak` = passes in a row since the last 
 | купа́ться / искупа́ться | to bathe | suspended, 11 lapses, streak 0, last fail 2026-08-30 | 33d, 1 lapses, streak 7, last fail 2026-05-17 |
 | ми́лый | sweet, lovely, dear / darling | suspended, 8 lapses, streak 1, last fail 2026-08-27 | 8d, 5 lapses, streak 6, last fail 2026-09-03 |
 | ми́рный | peaceful, peaceable / civilian (adj) | suspended, 11 lapses, streak 6, last fail 2026-08-01 | suspended, 8 lapses, streak 0, last fail 2026-09-24 |
-| нали́чные | cash | suspended, 9 lapses, streak 7, last fail 2026-07-18 | 7d, 1 lapses, streak 3, last fail 2026-09-22 |
 | наслажда́ться / наслади́ться (+inst) | to enjoy, to delight (in) | suspended, 8 lapses, streak 5, last fail 2026-07-31 | 82d, 0 lapses, streak 7, last fail — |
 | обита́емый | inhabited [sense: any living beings] | suspended, 8 lapses, streak 2, last fail 2026-08-24 | 286d, 0 lapses, streak 6, last fail — |
 | обнару́живать / обнару́жить (+a) | to reveal / discover | suspended, 10 lapses, streak 11, last fail 2026-06-03 | 8d, 10 lapses, streak 4, last fail 2026-09-11 |
@@ -37,7 +36,6 @@ at the front of its deck's new queue. `streak` = passes in a row since the last 
 | организо́вывать / организова́ть (+a) | to organize, set up (an event, group) | suspended, 8 lapses, streak 0, last fail 2026-09-23 | 128d, 0 lapses, streak 6, last fail — |
 | осуществле́ние | implementation (of a plan) | suspended, 12 lapses, streak 2, last fail 2026-08-26 | suspended, 8 lapses, streak 0, last fail 2026-09-23 |
 | оте́чество | fatherland | suspended, 8 lapses, streak 4, last fail — | 270d, 0 lapses, streak 0, last fail — |
-| отлича́ться / отличи́ться | to differ, be distinguished (от +g, impf.) / to distinguish oneself, excel (pf.) | suspended, 15 lapses, streak 5, last fail 2026-08-03 | 18d, 1 lapses, streak 5, last fail 2026-08-13 |
 | перо́ | feather | suspended, 11 lapses, streak 9, last fail 2026-06-14 | 219d, 0 lapses, streak 1, last fail — |
 | погиба́ть / поги́бнуть | to perish (violent or tragic death, e.g. in battle or disaster) | suspended, 13 lapses, streak 4, last fail 2026-08-11 | 4d, 5 lapses, streak 3, last fail 2026-09-28 |
 | подава́ть / пода́ть (+a) | to give / to proffer | suspended, 22 lapses, streak 1, last fail 2026-08-29 | 16d, 2 lapses, streak 6, last fail 2026-08-23 |
@@ -45,12 +43,10 @@ at the front of its deck's new queue. `streak` = passes in a row since the last 
 | поколе́ние | generation | suspended, 20 lapses, streak 9, last fail 2026-07-27 | 47d, 1 lapses, streak 10, last fail 2026-01-06 |
 | получа́ться / получи́ться | to work out, come out well — of an effort (cf. оказа́ться = to turn out to be) | suspended, 10 lapses, streak 2, last fail 2026-08-26 | 36d, 2 lapses, streak 6, last fail 2026-06-24 |
 | потре́бность (f) | need | suspended, 9 lapses, streak 6, last fail 2026-08-02 | 2d, 2 lapses, streak 0, last fail 2026-10-08 |
-| пре́жде пре́жде + g. | before, previously (adv.) / before (prep. +g) | suspended, 16 lapses, streak 3, last fail 2026-08-19 | 674d, 0 lapses, streak 9, last fail — |
 | предприя́тие | enterprise, factory | suspended, 8 lapses, streak 11, last fail 2026-01-06 | 12d, 2 lapses, streak 3, last fail 2026-09-06 |
 | принадлежа́ть (i) (+d) | to belong to / (к +d) be a member of | suspended, 8 lapses, streak 0, last fail 2026-09-12 | 75d, 0 lapses, streak 7, last fail — |
 | прогла́тывать / проглоти́ть (+a) | to swallow completely, to devour | suspended, 17 lapses, streak 3, last fail 2026-08-23 | 297d, 0 lapses, streak 6, last fail — |
 | путеводи́тель m. | guidebook | suspended, 8 lapses, streak 4, last fail 2026-08-09 | 23d, 7 lapses, streak 15, last fail 2026-05-24 |
-| различа́ть / различи́ть (+a) | to distinguish (i.e. perceive a difference) | suspended, 13 lapses, streak 2, last fail 2026-08-23 | 39d, 1 lapses, streak 9, last fail 2026-01-11 |
 | расстава́ться / расста́ться (с +inst) | to part (with / from) | suspended, 9 lapses, streak 12, last fail 2026-06-15 | 20d, 1 lapses, streak 4, last fail 2026-08-08 |
 | свяще́нник | priest | suspended, 8 lapses, streak 3, last fail — | 50d, 1 lapses, streak 0, last fail 2026-08-25 |
 | среди́ (+g) | among | suspended, 16 lapses, streak 5, last fail 2026-08-03 | 16d, 1 lapses, streak 2, last fail 2026-09-21 |

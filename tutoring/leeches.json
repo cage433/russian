@@ -96,25 +96,6 @@
     }
    ]
   },
-  "1726634604632": {
-   "front": "before, previously (adv.) / before (prep. +g)",
-   "back": "пре́жде пре́жде + g.",
-   "deck": "Vocab::10000 words",
-   "cards": [
-    {
-     "state": "suspended",
-     "lapses": 16,
-     "streak": 3,
-     "last_fail": "2026-08-19"
-    },
-    {
-     "state": "674d",
-     "lapses": 0,
-     "streak": 9,
-     "last_fail": "—"
-    }
-   ]
-  },
   "1726634604686": {
    "front": "enterprise, factory",
    "back": "предприя́тие",
@@ -454,25 +435,6 @@
      "lapses": 1,
      "streak": 10,
      "last_fail": "2026-01-06"
-    }
-   ]
-  },
-  "1726634605496": {
-   "front": "to differ, be distinguished (от +g, impf.) / to distinguish oneself, excel (pf.)",
-   "back": "отлича́ться / отличи́ться",
-   "deck": "Vocab::10000 words",
-   "cards": [
-    {
-     "state": "suspended",
-     "lapses": 15,
-     "streak": 5,
-     "last_fail": "2026-08-03"
-    },
-    {
-     "state": "18d",
-     "lapses": 1,
-     "streak": 5,
-     "last_fail": "2026-08-13"
     }
    ]
   },
@@ -875,25 +837,6 @@
     }
    ]
   },
-  "1726634609197": {
-   "front": "to distinguish (i.e. perceive a difference)",
-   "back": "различа́ть / различи́ть (+a)",
-   "deck": "Vocab::10000 words",
-   "cards": [
-    {
-     "state": "suspended",
-     "lapses": 13,
-     "streak": 2,
-     "last_fail": "2026-08-23"
-    },
-    {
-     "state": "39d",
-     "lapses": 1,
-     "streak": 9,
-     "last_fail": "2026-01-11"
-    }
-   ]
-  },
   "1726634609300": {
    "front": "headline, heading",
    "back": "заголо́вок",
@@ -1043,25 +986,6 @@
      "lapses": 0,
      "streak": 6,
      "last_fail": "—"
-    }
-   ]
-  },
-  "1769733831524": {
-   "front": "cash",
-   "back": "нали́чные",
-   "deck": "Vocab::10000 words",
-   "cards": [
-    {
-     "state": "suspended",
-     "lapses": 9,
-     "streak": 7,
-     "last_fail": "2026-07-18"
-    },
-    {
-     "state": "7d",
-     "lapses": 1,
-     "streak": 3,
-     "last_fail": "2026-09-22"
     }
    ]
   },
