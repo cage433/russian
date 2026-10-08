@@ -1,6 +1,6 @@
 # Leeches — 2026-10-08
 
-50 notes tagged `leech`. Untag a word in the Anki browser if you now know it, then run
+49 notes tagged `leech`. Untag a word in the Anki browser if you now know it, then run
 `scripts/leech_release.py`: it comes back as a **new** word (both directions, history reset)
 at the front of its deck's new queue. `streak` = passes in a row since the last fail.
 
@@ -37,7 +37,6 @@ at the front of its deck's new queue. `streak` = passes in a row since the last 
 | оте́чество | fatherland | suspended, 8 lapses, streak 4, last fail — | 270d, 0 lapses, streak 0, last fail — |
 | перо́ | feather | suspended, 11 lapses, streak 9, last fail 2026-06-14 | 219d, 0 lapses, streak 1, last fail — |
 | погиба́ть / поги́бнуть | to perish (violent or tragic death, e.g. in battle or disaster) | suspended, 13 lapses, streak 4, last fail 2026-08-11 | 4d, 5 lapses, streak 3, last fail 2026-09-28 |
-| подава́ть / пода́ть (+a) | to give / to proffer | suspended, 22 lapses, streak 1, last fail 2026-08-29 | 16d, 2 lapses, streak 6, last fail 2026-08-23 |
 | пожива́ть | To live (general), to get on, to get along | suspended, 9 lapses, streak 3, last fail 2026-08-24 | 77d, 0 lapses, streak 5, last fail — |
 | поколе́ние | generation | suspended, 20 lapses, streak 9, last fail 2026-07-27 | 47d, 1 lapses, streak 10, last fail 2026-01-06 |
 | получа́ться / получи́ться | to work out, come out well — of an effort (cf. оказа́ться = to turn out to be) | suspended, 10 lapses, streak 2, last fail 2026-08-26 | 36d, 2 lapses, streak 6, last fail 2026-06-24 |

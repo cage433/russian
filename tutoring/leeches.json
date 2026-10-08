@@ -324,25 +324,6 @@
     }
    ]
   },
-  "1726634605395": {
-   "front": "to give / to proffer",
-   "back": "подава́ть / пода́ть (+a)",
-   "deck": "Vocab::10000 words",
-   "cards": [
-    {
-     "state": "suspended",
-     "lapses": 22,
-     "streak": 1,
-     "last_fail": "2026-08-29"
-    },
-    {
-     "state": "16d",
-     "lapses": 2,
-     "streak": 6,
-     "last_fail": "2026-08-23"
-    }
-   ]
-  },
   "1726634605400": {
    "front": "feature, trait / line",
    "back": "черта́",
