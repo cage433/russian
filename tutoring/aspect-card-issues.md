@@ -1,6 +1,6 @@
 # Aspect cards flagged during conversion (2026-10-08)
 
-Notes from the example writers/proofreaders. Not yet acted on — candidates for re-pairing (inceptive/delimitative pseudo-pairs, wrong perfective), rare perfectives better shown as singles, and stress fixes in the card's verbs.
+Notes from the example writers/proofreaders. **Resolved 2026-10-08** (Alex approved the recommendations): example and stress issues fixed during conversion; 10 wrong perfectives re-paired (зацепи́ться, разбуди́ть, сжечь, скрипну́ть, перехвати́ть, скоси́ть, заму́читься, нагре́ть, поразмы́слить, овладе́ть); 26 inceptive/delimitative pseudo-pairs and barely-existing passive perfectives made single-impf, уцеле́ть single-pf; glosses narrowed for кры́ться, пита́ть, порыва́ть, коло́ть, вы́пуститься, загора́ть, дро́гнуть. Kept for the record.
 
 | note id | issue |
 |---|---|

@@ -176,6 +176,15 @@ series. Words the textbooks teach that aren't already known get authored as flas
   `build_drill_vocab.py` and `export_learning_vocab.py` all read Basic Front/Back and do not see
   Cloze notes (the export's per-sense tables for near-synonym groups relied on the numbered
   form). Cloze audio is generated differently — see the Audio rule section.
+**Verbs → "Cloze Aspect" notes (2026-10-08, all ~1,630 Basic verb notes in Vocab).** Impf/pf pairs get
+  impf + pf + Russian→English cards; single-aspect and bi-aspectual verbs (tag `aspect-single`) get one
+  conjugation row (label impf / pf / i/p) + Russian→English. Forms: the Wiktionary "3000 Verbs" deck, else
+  pymorphy3 drafts hand-checked and stressed (`tutoring/retired/aspect-batchB-forms-*.json`); 3rd-person-only
+  verbs show «(3rd person) хо́чется», defective ones «(1sg not used)». History: impf and pf cards both took
+  the old EN→RU card's scheduling, the RU→EN card the old reverse card's. Converters:
+  `scripts/aspect_convert_batch.py` / `_b.py`. Inceptive (за-) and delimitative (по-) "perfectives" are not
+  partners — such verbs are single-impf. Workflow for a type change: tag → snapshot → Alex changes note type
+  in the browser → converter rebuilds fields from the snapshot → Tools → Empty Cards for singles.
 - **Function words → "Cloze Sentence" notes** (adopted 2026-10-08 after a trial Alex liked: "a very
   helpful format"). One note per word, 2–3 sentences covering its uses, each `<div class="sent">` with
   one `{{cN::word}}` and the English in `<span class="en">`; the note type's CSS shows only the
