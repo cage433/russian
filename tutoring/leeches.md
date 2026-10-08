@@ -1,6 +1,6 @@
 # Leeches — 2026-10-08
 
-48 notes tagged `leech`. Untag a word in the Anki browser if you now know it, then run
+46 notes tagged `leech`. Untag a word in the Anki browser if you now know it, then run
 `scripts/leech_release.py`: it comes back as a **new** word (both directions, history reset)
 at the front of its deck's new queue. `streak` = passes in a row since the last fail.
 
@@ -8,11 +8,9 @@ at the front of its deck's new queue. `streak` = passes in a row since the last 
 |---|---|---|---|
 | (Abs) носи́ть / поноси́ть (Conc) нести́ / понести́ | Verb of motion to carry (in the hands) | suspended, 8 lapses, streak 0, last fail 2026-09-24 | 235d, 0 lapses, streak 6, last fail — |
 | бесе́да | conversation, discussion | suspended, 16 lapses, streak 5, last fail 2026-08-09 | 39d, 3 lapses, streak 11, last fail 2026-01-12 |
-| боево́й | combat, battle (adj) / fighting, martial | suspended, 10 lapses, streak 2, last fail 2026-08-26 | 27d, 11 lapses, streak 13, last fail 2026-06-03 |
 | большинство́ | majority | suspended, 9 lapses, streak 5, last fail 2026-08-07 | 282d, 0 lapses, streak 6, last fail — |
 | ви́дно | evident, visible (adv. + s.f. adj.) | suspended, 13 lapses, streak 5, last fail 2026-08-01 | 700d, 0 lapses, streak 9, last fail — |
 | во́ля | will / freedom, liberty | suspended, 11 lapses, streak 4, last fail 2026-07-11 | suspended, 0 lapses, streak 6, last fail — |
-| вое́нный | military (adj) | suspended, 8 lapses, streak 5, last fail 2026-08-05 | 48d, 3 lapses, streak 10, last fail 2025-09-13 |
 | всезна́йка | know-all | suspended, 8 lapses, streak 0, last fail 2026-09-22 | 140d, 0 lapses, streak 6, last fail — |
 | выска́зывание | statement, remark, utterance | suspended, 10 lapses, streak 6, last fail 2026-07-27 | 50d, 0 lapses, streak 7, last fail — |
 | добива́ться / доби́ться (+g) | to obtain, achieve, attain (through effort) | suspended, 18 lapses, streak 11, last fail 2026-05-17 | suspended, 12 lapses, streak 0, last fail 2026-09-29 |

@@ -58,25 +58,6 @@
     }
    ]
   },
-  "1726634604616": {
-   "front": "military (adj)",
-   "back": "вое́нный",
-   "deck": "Vocab::10000 words",
-   "cards": [
-    {
-     "state": "suspended",
-     "lapses": 8,
-     "streak": 5,
-     "last_fail": "2026-08-05"
-    },
-    {
-     "state": "48d",
-     "lapses": 3,
-     "streak": 10,
-     "last_fail": "2025-09-13"
-    }
-   ]
-  },
   "1726634604686": {
    "front": "enterprise, factory",
    "back": "предприя́тие",
@@ -207,25 +188,6 @@
      "lapses": 3,
      "streak": 11,
      "last_fail": "2026-01-12"
-    }
-   ]
-  },
-  "1726634605052": {
-   "front": "combat, battle (adj) / fighting, martial",
-   "back": "боево́й",
-   "deck": "Vocab::10000 words",
-   "cards": [
-    {
-     "state": "suspended",
-     "lapses": 10,
-     "streak": 2,
-     "last_fail": "2026-08-26"
-    },
-    {
-     "state": "27d",
-     "lapses": 11,
-     "streak": 13,
-     "last_fail": "2026-06-03"
     }
    ]
   },
