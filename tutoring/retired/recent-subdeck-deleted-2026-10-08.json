@@ -1,0 +1,614 @@
+[
+ {
+  "noteId": 1726634606962,
+  "profile": "User 1",
+  "tags": [
+   "adj"
+  ],
+  "fields": {
+   "Front": {
+    "value": "respected<br><br>1: honorary<br>2: esteemed / dear<br>3: venerable / archaic",
+    "order": 0
+   },
+   "Back": {
+    "value": "1: почётный<br>2: уважа́емый<br>3: почтённый<br><br> [sound:hypertts-f8a28fa013f6afd30707c2b07b5de73d1d61fce0244b6d2aeabc8289.mp3]",
+    "order": 1
+   },
+   "Example": {
+    "value": "Он получи́л почётное зва́ние профе́ссора за вы́дающиеся дости́жения.<br><br>Уважа́емые колле́ги, предлага́ю нача́ть на́ше заседа́ние.<br><br>Почтённый ста́рец мо́лча сиде́л в углу́ ко́мнаты.",
+    "order": 2
+   }
+  },
+  "modelName": "Basic (and reversed card)",
+  "mod": 1787376872,
+  "cards": [
+   1726634609724,
+   1726634609725
+  ]
+ },
+ {
+  "noteId": 1726634611651,
+  "profile": "User 1",
+  "tags": [
+   "adv"
+  ],
+  "fields": {
+   "Front": {
+    "value": "(it is) desirable",
+    "order": 0
+   },
+   "Back": {
+    "value": "жела́тельно<br><br> [sound:hypertts-722e073a85cea06ac103eb8486534c4568764f47d88ec332460acff3.mp3]",
+    "order": 1
+   },
+   "Example": {
+    "value": "Жела́тельно сдать рабо́ту до пя́тницы, е́сли э́то возмо́жно.",
+    "order": 2
+   }
+  },
+  "modelName": "Basic (and reversed card)",
+  "mod": 1787376872,
+  "cards": [
+   1726634619102,
+   1726634619103
+  ]
+ },
+ {
+  "noteId": 1769733339994,
+  "profile": "User 1",
+  "tags": [
+   "adv"
+  ],
+  "fields": {
+   "Front": {
+    "value": "- daily<br>- weekly<br>- monthly<br>- quarterly<br>- seasonally<br>- yearly",
+    "order": 0
+   },
+   "Back": {
+    "value": "- ежедне́вно<br>- еженеде́льно<br>- ежеме́сячно<br>-&nbsp;ежекварта́льно<br>- сезо́нно<br>- ежего́дно<br><br> [sound:hypertts-56e21df2a631827edbfb9b3548c12f8c3b12b1b748c19495e3e47f52.mp3]",
+    "order": 1
+   },
+   "Example": {
+    "value": "Отчёт публику́ется ежеме́сячно, а не ежедне́вно или еженеде́льно.",
+    "order": 2
+   }
+  },
+  "modelName": "Basic (and reversed card)",
+  "mod": 1787376872,
+  "cards": [
+   1769733339994,
+   1769733339995
+  ]
+ },
+ {
+  "noteId": 1774083776870,
+  "profile": "User 1",
+  "tags": [
+   "det"
+  ],
+  "fields": {
+   "Front": {
+    "value": "under no circumstances",
+    "order": 0
+   },
+   "Back": {
+    "value": "ни в ко́ем слу́чае<br><br> [sound:hypertts-a01fe5b5f6fb793a58da01fd4e2ed6dc5c25be1604fb3825d8227348.mp3]",
+    "order": 1
+   },
+   "Example": {
+    "value": "Ни в ко́ем слу́чае не открыва́й э́ту дверь без разреше́ния.",
+    "order": 2
+   }
+  },
+  "modelName": "Basic (and reversed card)",
+  "mod": 1787376872,
+  "cards": [
+   1774083776870,
+   1774083776871
+  ]
+ },
+ {
+  "noteId": 1774084166525,
+  "profile": "User 1",
+  "tags": [
+   "det"
+  ],
+  "fields": {
+   "Front": {
+    "value": "marriage proposal",
+    "order": 0
+   },
+   "Back": {
+    "value": "предложе́ние руки́ и се́рдца<br><br> [sound:hypertts-82568110469b5acf1b172ac15d660ced5ab91eb4d71f0ebd2935c7d0.mp3]",
+    "order": 1
+   },
+   "Example": {
+    "value": "Он сде́лал ей предложе́ние руки́ и се́рдца в пари́жском рестора́не.",
+    "order": 2
+   }
+  },
+  "modelName": "Basic (and reversed card)",
+  "mod": 1787376872,
+  "cards": [
+   1774084166525,
+   1774084166526
+  ]
+ },
+ {
+  "noteId": 1775536993814,
+  "profile": "User 1",
+  "tags": [
+   "interj"
+  ],
+  "fields": {
+   "Front": {
+    "value": "woah! (go you!)",
+    "order": 0
+   },
+   "Back": {
+    "value": "ух (ты)<br><br> [sound:hypertts-085c6c31e826bf4e74efa90f7891ac4f6e5c120774ea3b88b033167b.mp3]",
+    "order": 1
+   },
+   "Example": {
+    "value": "Ух ты, ты сам сде́лал э́тот торт? Он выгляди́т изуми́тельно!",
+    "order": 2
+   }
+  },
+  "modelName": "Basic (and reversed card)",
+  "mod": 1787376872,
+  "cards": [
+   1775536993815,
+   1775536993816
+  ]
+ },
+ {
+  "noteId": 1775830734839,
+  "profile": "User 1",
+  "tags": [
+   "det"
+  ],
+  "fields": {
+   "Front": {
+    "value": "not offended, not bearing a grudge (не в обиде)",
+    "order": 0
+   },
+   "Back": {
+    "value": "не в оби́де<br><br> [sound:hypertts-00435b09acedc4e69bf8851ec27d2c2d45ef12bb99362a862437f438.mp3]",
+    "order": 1
+   },
+   "Example": {
+    "value": "Я не в оби́де на тебя́ — ты просто́ не знал пра́вды.",
+    "order": 2
+   }
+  },
+  "modelName": "Basic (and reversed card)",
+  "mod": 1787376872,
+  "cards": [
+   1775830734839,
+   1775830734840
+  ]
+ },
+ {
+  "noteId": 1775830757863,
+  "profile": "User 1",
+  "tags": [
+   "adv"
+  ],
+  "fields": {
+   "Front": {
+    "value": "as a rule",
+    "order": 0
+   },
+   "Back": {
+    "value": "как пра́вило<br><br> [sound:hypertts-deb2fc7c6c8b53104fc6bf96014541b17d4442bce28f9065bb64be2b.mp3]",
+    "order": 1
+   },
+   "Example": {
+    "value": "Как пра́вило, магази́н открыва́ется в де́вять часо́в у́тра.",
+    "order": 2
+   }
+  },
+  "modelName": "Basic (and reversed card)",
+  "mod": 1787376872,
+  "cards": [
+   1775830757863,
+   1775830757864
+  ]
+ },
+ {
+  "noteId": 1775831108896,
+  "profile": "User 1",
+  "tags": [
+   "det"
+  ],
+  "fields": {
+   "Front": {
+    "value": "<div>ultimately, in the final analysis</div>",
+    "order": 0
+   },
+   "Back": {
+    "value": "в коне́чном счёте<br><br> [sound:hypertts-cabdd5a6b66de0ecefd5f55ef24743aff7d5fdc867f041b663d242ec.mp3]",
+    "order": 1
+   },
+   "Example": {
+    "value": "В коне́чном счёте реше́ние бы́ло при́нято в по́льзу студе́нтов.",
+    "order": 2
+   }
+  },
+  "modelName": "Basic (and reversed card)",
+  "mod": 1787376872,
+  "cards": [
+   1775831108896,
+   1775831108897
+  ]
+ },
+ {
+  "noteId": 1775831152579,
+  "profile": "User 1",
+  "tags": [
+   "det"
+  ],
+  "fields": {
+   "Front": {
+    "value": "in his opinion, according to him",
+    "order": 0
+   },
+   "Back": {
+    "value": "по его́ мне́нию<br><br> [sound:hypertts-8b29c0bf2fcbb5471d942e82ed0f98d48e1e4d823b19b2aebf79782c.mp3]",
+    "order": 1
+   },
+   "Example": {
+    "value": "По его́ мне́нию, э́тот фильм — лу́чший за после́дние де́сять лет.",
+    "order": 2
+   }
+  },
+  "modelName": "Basic (and reversed card)",
+  "mod": 1787376872,
+  "cards": [
+   1775831152580,
+   1775831152581
+  ]
+ },
+ {
+  "noteId": 1775831560930,
+  "profile": "User 1",
+  "tags": [
+   "prep"
+  ],
+  "fields": {
+   "Front": {
+    "value": "<div>throughout, over the course of</div>",
+    "order": 0
+   },
+   "Back": {
+    "value": "на протяже́нии (+g)<br><br> [sound:hypertts-2008d0b08d006275ec97c8baa03e025e8774475c647d61a194b652dd.mp3]",
+    "order": 1
+   },
+   "Example": {
+    "value": "На протяже́нии всей ле́кции студе́нты внима́тельно слу́шали профе́ссора.",
+    "order": 2
+   }
+  },
+  "modelName": "Basic (and reversed card)",
+  "mod": 1787376872,
+  "cards": [
+   1775831560930,
+   1775831560931
+  ]
+ },
+ {
+  "noteId": 1775831761978,
+  "profile": "User 1",
+  "tags": [
+   "verb"
+  ],
+  "fields": {
+   "Front": {
+    "value": "to miss s.o. or sthg.",
+    "order": 0
+   },
+   "Back": {
+    "value": "скуча́ть по (+ d)<br><br> [sound:hypertts-0fa9d209de2bdf41ed6475b409d4eb9886615b425a6a2ec1880215c3.mp3]",
+    "order": 1
+   },
+   "Example": {
+    "value": "Она́ ску́чает по роди́телям, потому́ что живёт далеко́ от них.",
+    "order": 2
+   }
+  },
+  "modelName": "Basic (and reversed card)",
+  "mod": 1787376872,
+  "cards": [
+   1775831761978,
+   1775831761979
+  ]
+ },
+ {
+  "noteId": 1777711942419,
+  "profile": "User 1",
+  "tags": [],
+  "fields": {
+   "Verb": {
+    "value": "води́ть&nbsp;",
+    "order": 0
+   },
+   "Aspect": {
+    "value": "impf.",
+    "order": 1
+   },
+   "Class": {
+    "value": "4c",
+    "order": 2
+   },
+   "Conjugation": {
+    "value": "<table><colgroup> <col span=\"1\" style=\"width: 30%\"> <col span=\"1\" style=\"width: 70%\"></colgroup><tbody><tr><td>1s </td><td><em>вожу́</em></td></tr><tr><td>2s </td><td><em>во́дишь</em></td></tr><tr><td>3p </td><td><em>во́дят</em></td></tr></tbody></table>",
+    "order": 3
+   },
+   "Definitions": {
+    "value": "<ul><li>to lead, to conduct, to guide</li><li>to drive</li><li>to move</li><li>to breed</li><li>to be it in tag and similar games</li></ul>",
+    "order": 4
+   },
+   "Examples": {
+    "value": "<p style=\"text-align:left\"><strong>Examples:</strong></p><ul><li><em>Я не вожу́ автома́т.</em> - I don't drive automatic.</li></ul>",
+    "order": 5
+   },
+   "Correspondents": {
+    "value": "",
+    "order": 6
+   },
+   "Audio": {
+    "value": "[sound:hypertts-931795291a7f00108926abaf550586df293580b59d85e96e2b3eddbe.mp3]",
+    "order": 7
+   },
+   "Conj Audio": {
+    "value": "[sound:hypertts-0d2bea4b001aea2fec08100ab56ba9c16041e228ddfc1f73ab09bd26.mp3]",
+    "order": 8
+   }
+  },
+  "modelName": "3000 Verbs",
+  "mod": 1787376872,
+  "cards": [
+   1777711942419
+  ]
+ },
+ {
+  "noteId": 1777712016906,
+  "profile": "User 1",
+  "tags": [],
+  "fields": {
+   "Verb": {
+    "value": "вести́&nbsp;",
+    "order": 0
+   },
+   "Aspect": {
+    "value": "impf.",
+    "order": 1
+   },
+   "Class": {
+    "value": "7b",
+    "order": 2
+   },
+   "Conjugation": {
+    "value": "<table><colgroup> <col span=\"1\" style=\"width: 30%\"> <col span=\"1\" style=\"width: 70%\"></colgroup><tbody><tr><td>1s </td><td><em>веду́</em></td></tr><tr><td>2s </td><td><em>ведёшь</em></td></tr><tr><td>3p </td><td><em>веду́т</em></td></tr></tbody></table>",
+    "order": 3
+   },
+   "Definitions": {
+    "value": "<ul><li>to lead, to preside over, to chair</li><li>to drive</li><li>to keep, see ведение #Noun 2</li></ul>",
+    "order": 4
+   },
+   "Examples": {
+    "value": "<p style=\"text-align:left\"><strong>Examples:</strong></p><ul><li><em>вести́ заседа́ние</em> - to preside over a meeting</li><li><em>вести́ перегово́ры</em> - to negotiate, to conduct negotiations</li><li><em>вести́ себя́</em> - to behave</li><li><em>пло́хо себя́ вести́</em> - to behave poorly</li><li><em>вести́ себя́ хорошо́</em> - to acquit oneself well</li><li><em>вести́ войну́</em> - to wage a war, to conduct a war, to be at war, to fight a war</li><li><em>вести́ запись / учёт / журнал</em> - to keep a record / records / a log / a diary, etc.</li><li><em>— Веди́, — говори́т дя́дя, — я что́-то вдруг всё забы́л — где мы, и ничего́ рассмотре́ть не могу́.</em> - “Lead me,” says my uncle. “I’ve somehow suddenly forgotten all about where we are, and I can’t make anything out.”</li></ul>",
+    "order": 5
+   },
+   "Correspondents": {
+    "value": "(perf. <em>повести́</em>)",
+    "order": 6
+   },
+   "Audio": {
+    "value": "[sound:hypertts-6539f4b2c391f9808c816b4a0cb553b18c6ba83548e1a56736d56569.mp3]",
+    "order": 7
+   },
+   "Conj Audio": {
+    "value": "[sound:hypertts-b3771a14b9205c236786fcc867d2d144daa8daa1e7226bf14fca99c2.mp3]",
+    "order": 8
+   }
+  },
+  "modelName": "3000 Verbs",
+  "mod": 1787376872,
+  "cards": [
+   1777712016906
+  ]
+ },
+ {
+  "noteId": 1777712028529,
+  "profile": "User 1",
+  "tags": [],
+  "fields": {
+   "Verb": {
+    "value": "везти́&nbsp;",
+    "order": 0
+   },
+   "Aspect": {
+    "value": "impf.",
+    "order": 1
+   },
+   "Class": {
+    "value": "7b",
+    "order": 2
+   },
+   "Conjugation": {
+    "value": "<table><colgroup> <col span=\"1\" style=\"width: 30%\"> <col span=\"1\" style=\"width: 70%\"></colgroup><tbody><tr><td>1s </td><td><em>везу́</em></td></tr><tr><td>2s </td><td><em>везёшь</em></td></tr><tr><td>3p </td><td><em>везу́т</em></td></tr></tbody></table>",
+    "order": 3
+   },
+   "Definitions": {
+    "value": "<ul><li>to convey, to carry (by vehicle), to deliver, to transport</li><li>(impersonal) to be lucky, to have luck, to work out for, to succeed, to be successful [with dative ‘for someone’ and infinitive ‘to do something’]<br></li></ul>",
+    "order": 4
+   },
+   "Examples": {
+    "value": "<p style=\"text-align:left\"><strong>Examples:</strong></p><ul><li><em>Па́ше и Са́ше не везёт сего́дня</em> - Pasha and Sasha are having no luck today.</li><li><em>дурака́м всегда́ везёт</em> - fools are always lucky</li></ul>",
+    "order": 5
+   },
+   "Correspondents": {
+    "value": "(perf. <em>повезти́</em>)",
+    "order": 6
+   },
+   "Audio": {
+    "value": "[sound:hypertts-34e729a0f861005bef12c408000d66fcd14e2c54b87ddb3edc0dad9a.mp3]",
+    "order": 7
+   },
+   "Conj Audio": {
+    "value": "[sound:hypertts-d193d2f7a06301e5fe264751090d1814d24e6b2e0704496931c51acf.mp3]",
+    "order": 8
+   }
+  },
+  "modelName": "3000 Verbs",
+  "mod": 1787376872,
+  "cards": [
+   1777712028529
+  ]
+ },
+ {
+  "noteId": 1777712065595,
+  "profile": "User 1",
+  "tags": [],
+  "fields": {
+   "Verb": {
+    "value": "носи́ть&nbsp;",
+    "order": 0
+   },
+   "Aspect": {
+    "value": "impf.",
+    "order": 1
+   },
+   "Class": {
+    "value": "4c",
+    "order": 2
+   },
+   "Conjugation": {
+    "value": "<table><colgroup> <col span=\"1\" style=\"width: 30%\"> <col span=\"1\" style=\"width: 70%\"></colgroup><tbody><tr><td>1s </td><td><em>ношу́</em></td></tr><tr><td>2s </td><td><em>но́сишь</em></td></tr><tr><td>3p </td><td><em>но́сят</em></td></tr></tbody></table>",
+    "order": 3
+   },
+   "Definitions": {
+    "value": "<ul><li>to carry, to bear (a burden)</li><li>(of wind, water, etc.) to carry along, to drive</li><li>to have something (e.g. a name, sideburns, a gun...)</li><li>to wear (clothes, shoes or makeup)<br></li></ul>",
+    "order": 4
+   },
+   "Examples": {
+    "value": "<p style=\"text-align:left\"><strong>Examples:</strong></p><ul><li><em>но обуваться в простую обувь и не носить двух одежд.</em> - But wear simple footwear and do not carry two sets of clothing.</li></ul>",
+    "order": 5
+   },
+   "Correspondents": {
+    "value": "(perf. <em>наноси́ть</em>, <em>относи́ть</em>, <em>сноси́ть</em>, <em>износи́ть</em>)",
+    "order": 6
+   },
+   "Audio": {
+    "value": "[sound:hypertts-5b810921eb3bd6a2c687d27ffe2e0e17167729f6157c4a396bb38735.mp3]",
+    "order": 7
+   },
+   "Conj Audio": {
+    "value": "[sound:hypertts-72015ec12d24b203fb2dd3352941164ad9eed58de1b2210ba570a4c5.mp3]",
+    "order": 8
+   }
+  },
+  "modelName": "3000 Verbs",
+  "mod": 1787376872,
+  "cards": [
+   1777712065596
+  ]
+ },
+ {
+  "noteId": 1777712088827,
+  "profile": "User 1",
+  "tags": [],
+  "fields": {
+   "Verb": {
+    "value": "нести́&nbsp;",
+    "order": 0
+   },
+   "Aspect": {
+    "value": "impf.",
+    "order": 1
+   },
+   "Class": {
+    "value": "7b",
+    "order": 2
+   },
+   "Conjugation": {
+    "value": "<table><colgroup> <col span=\"1\" style=\"width: 30%\"> <col span=\"1\" style=\"width: 70%\"></colgroup><tbody><tr><td>1s </td><td><em>несу́</em></td></tr><tr><td>2s </td><td><em>несёшь</em></td></tr><tr><td>3p </td><td><em>несу́т</em></td></tr></tbody></table>",
+    "order": 3
+   },
+   "Definitions": {
+    "value": "<ul><li>to bear, to bring, to carry</li><li>to carry, to bear, to support</li><li>to lay (eggs)<br></li><li>(colloquial, derogatory) to talk (about), to babble on (about)<br></li><li>(colloquial) to be carried away, to go over the limits</li></ul>",
+    "order": 4
+   },
+   "Examples": {
+    "value": "<p style=\"text-align:left\"><strong>Examples:</strong></p><ul><li><em>нести́ тяжёлые су́мки</em> - to carry heavy bags</li><li><em>Они́ должны́ нести́ отве́тственность за оши́бки.</em> - They need to bear responsibility for the mistakes.</li><li><em>что (за вздор) он несёт!</em> - what (utter) nonsense he is talking!</li><li><em>не понима́ю, что она́ там несёт</em> - I have no idea what she is babbling on about</li><li><em>— Росси́я вас не забу́дет! — ря́вкнул Остап. Ипполит Матвеевич, держа́ в руке́ сла́дкий пирожо́к, с недоуме́нием слу́шал Остапа, но удержа́ть его́ бы́ло нельзя́. Его́ несло́. Великий комбина́тор чу́вствовал вдохнове́ние, упои́тельное состоя́ние перед вышесредним шантажо́м. Он прошелся по ко́мнате, как барс.</em> - \"Russia will never forget you!\" bellowed Ostap. Ippolit Matveyevich, holding a sweet bun in his hand, listened to Ostap in perplexity but was unable to hold him. He was carried away. The great combinator felt inspiration, ravishing condition before the upper-middle class blackmailing. He paced through the room like a leopard</li><li><em>Остап отогна́л Полесова от Никеши и Влади и с неподде́льной суро́востью спроси́л: — В како́м полку служи́ли? Придется послужи́ть оте́честву. Вы дворя́не? Очень хорошо́. За́пад нам помо́жет. Крепи́тесь. По́лная та́йна вкла́дов, то есть организа́ции. Внима́ние. Остапа несло́. Дело как бу́дто нала́живалось.</em> - Ostap drove Polesov away from Mikesha and Vladya and asked with genuine harshness: \"In which regiment did you serve? You'll have to serve your motherland. Are you noblemen? Very well. The West is going to help us. Hold on. Full secrecy of accounts, I mean, organization. Attention.\" Ostap got carried away. The business seemed to go smoothly.</li></ul>",
+    "order": 5
+   },
+   "Correspondents": {
+    "value": "(perf. <em>понести́</em>)",
+    "order": 6
+   },
+   "Audio": {
+    "value": "[sound:hypertts-8c2e5455bf60a6694032b7b56422f82b73928d6e3be57a43bf4833af.mp3]",
+    "order": 7
+   },
+   "Conj Audio": {
+    "value": "[sound:hypertts-a3f6923ecb563b201b53b00571c8d61a391f2a4b820d69207ee915a3.mp3]",
+    "order": 8
+   }
+  },
+  "modelName": "3000 Verbs",
+  "mod": 1787376872,
+  "cards": [
+   1777712088827
+  ]
+ },
+ {
+  "noteId": 1777712164338,
+  "profile": "User 1",
+  "tags": [],
+  "fields": {
+   "Verb": {
+    "value": "вози́ть&nbsp;",
+    "order": 0
+   },
+   "Aspect": {
+    "value": "impf.",
+    "order": 1
+   },
+   "Class": {
+    "value": "4c",
+    "order": 2
+   },
+   "Conjugation": {
+    "value": "<table><colgroup> <col span=\"1\" style=\"width: 30%\"> <col span=\"1\" style=\"width: 70%\"></colgroup><tbody><tr><td>1s </td><td><em>вожу́</em></td></tr><tr><td>2s </td><td><em>во́зишь</em></td></tr><tr><td>3p </td><td><em>во́зят</em></td></tr></tbody></table>",
+    "order": 3
+   },
+   "Definitions": {
+    "value": "<ul><li>to convey, to carry (by vehicle), to deliver, to transport</li></ul>",
+    "order": 4
+   },
+   "Examples": {
+    "value": "",
+    "order": 5
+   },
+   "Correspondents": {
+    "value": "(perf. <em>повози́ть</em>)",
+    "order": 6
+   },
+   "Audio": {
+    "value": "[sound:hypertts-29f18c97acc340134b6772c9f92ecf1df2d98880842fce13e30236ec.mp3]",
+    "order": 7
+   },
+   "Conj Audio": {
+    "value": "[sound:hypertts-8c6a857c03cb373edd6e4e22c55bbee4611831f82a5f530574330058.mp3]",
+    "order": 8
+   }
+  },
+  "modelName": "3000 Verbs",
+  "mod": 1787376872,
+  "cards": [
+   1777712164338
+  ]
+ }
+]
