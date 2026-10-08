@@ -98,8 +98,8 @@ series. Words the textbooks teach that aren't already known get authored as flas
   - **Same verb, different construction → elide the verb:** `(cf. ***** +a +d = to teach)`,
     `(cf. ***** с +inst = to treat, handle)`, `(cf. ***** +d, without -ся = to refuse someone
     something)`. The construction is what is being contrasted, so it is what the pointer should
-    show; the asterisks keep the answer off the Front. Used by учи́ть ×2, учи́ться ×2,
-    отка́зываться and обраща́ться к.
+    show; the asterisks keep the answer off the Front. Used by учи́ть ×2, учи́ться ×2 and
+    отка́зываться. (обраща́ться к / с moved to a constructions Cloze with относи́ться, 2026-10-08.)
 
   Naming a genuinely different verb stays as it is — приноси́ть ↔ приводи́ть, гляде́ть →
   смотре́ть, выполня́ть ↔ проводи́ть, занима́ться ↔ изуча́ть — since those give nothing away.
