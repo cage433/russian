@@ -1,0 +1,2513 @@
+{
+ "date": "2026-10-08",
+ "notes": {
+  "1698947057340": {
+   "front": "pass on ( phone message) (imp.)&nbsp;",
+   "back": "переда́йте",
+   "deck": "Vocab::10000 words",
+   "cards": [
+    {
+     "state": "210d",
+     "lapses": 1,
+     "streak": 8,
+     "last_fail": "2025-09-02"
+    },
+    {
+     "state": "7d",
+     "lapses": 5,
+     "streak": 3,
+     "last_fail": "2026-09-24"
+    }
+   ]
+  },
+  "1698947545572": {
+   "front": "to hope",
+   "back": "наде́яться (i)",
+   "deck": "Vocab::10000 words",
+   "cards": [
+    {
+     "state": "633d",
+     "lapses": 7,
+     "streak": 5,
+     "last_fail": "2024-11-09"
+    },
+    {
+     "state": "4d",
+     "lapses": 1,
+     "streak": 1,
+     "last_fail": "2026-10-05"
+    }
+   ]
+  },
+  "1698947985805": {
+   "front": "past, by (prep./adv.)",
+   "back": "ми́мо +g",
+   "deck": "Vocab::10000 words",
+   "cards": [
+    {
+     "state": "152d",
+     "lapses": 0,
+     "streak": 10,
+     "last_fail": "2025-04-04"
+    },
+    {
+     "state": "87d",
+     "lapses": 0,
+     "streak": 3,
+     "last_fail": "2026-06-10"
+    }
+   ]
+  },
+  "1698947985814": {
+   "front": "to promise (sth to s.o)",
+   "back": "обеща́ть / пообеща́ть (+a +d)",
+   "deck": "Vocab::10000 words",
+   "cards": [
+    {
+     "state": "268d",
+     "lapses": 0,
+     "streak": 7,
+     "last_fail": "2024-11-26"
+    },
+    {
+     "state": "4d",
+     "lapses": 8,
+     "streak": 3,
+     "last_fail": "2026-09-29"
+    }
+   ]
+  },
+  "1698947985866": {
+   "front": "to happen",
+   "back": "случа́ться / случи́ться",
+   "deck": "Vocab::10000 words",
+   "cards": [
+    {
+     "state": "762d",
+     "lapses": 0,
+     "streak": 7,
+     "last_fail": "2024-11-26"
+    },
+    {
+     "state": "10d",
+     "lapses": 2,
+     "streak": 1,
+     "last_fail": "2026-09-24"
+    }
+   ]
+  },
+  "1698948201839": {
+   "front": "guidebook",
+   "back": "путеводи́тель m.",
+   "deck": "Vocab::10000 words",
+   "cards": [
+    {
+     "state": "suspended",
+     "lapses": 8,
+     "streak": 4,
+     "last_fail": "2026-08-09"
+    },
+    {
+     "state": "23d",
+     "lapses": 7,
+     "streak": 15,
+     "last_fail": "2026-05-24"
+    }
+   ]
+  },
+  "1726634604404": {
+   "front": "to listen to",
+   "back": "слу́шать / послу́шать&nbsp;(+a)",
+   "deck": "Vocab::10000 words",
+   "cards": [
+    {
+     "state": "suspended",
+     "lapses": 8,
+     "streak": 9,
+     "last_fail": "2026-06-09"
+    },
+    {
+     "state": "350d",
+     "lapses": 0,
+     "streak": 5,
+     "last_fail": "—"
+    }
+   ]
+  },
+  "1726634604462": {
+   "front": "among",
+   "back": "среди́ (+g)",
+   "deck": "Vocab::10000 words",
+   "cards": [
+    {
+     "state": "suspended",
+     "lapses": 16,
+     "streak": 5,
+     "last_fail": "2026-08-03"
+    },
+    {
+     "state": "16d",
+     "lapses": 1,
+     "streak": 2,
+     "last_fail": "2026-09-21"
+    }
+   ]
+  },
+  "1726634604463": {
+   "front": "case, occurrence, chance",
+   "back": "слу́чай",
+   "deck": "Vocab::10000 words",
+   "cards": [
+    {
+     "state": "suspended",
+     "lapses": 11,
+     "streak": 11,
+     "last_fail": "2026-05-11"
+    },
+    {
+     "state": "9d",
+     "lapses": 3,
+     "streak": 4,
+     "last_fail": "2026-09-09"
+    }
+   ]
+  },
+  "1726634604467": {
+   "front": "let (someone do sth.)",
+   "back": "пусть (+n + vb)",
+   "deck": "Vocab::10000 words",
+   "cards": [
+    {
+     "state": "suspended",
+     "lapses": 15,
+     "streak": 1,
+     "last_fail": "2026-08-25"
+    },
+    {
+     "state": "425d",
+     "lapses": 0,
+     "streak": 8,
+     "last_fail": "—"
+    }
+   ]
+  },
+  "1726634604551": {
+   "front": "dear, expensive",
+   "back": "дорого́й",
+   "deck": "Vocab::10000 words",
+   "cards": [
+    {
+     "state": "suspended",
+     "lapses": 9,
+     "streak": 7,
+     "last_fail": "2026-07-28"
+    },
+    {
+     "state": "8d",
+     "lapses": 3,
+     "streak": 5,
+     "last_fail": "2026-09-04"
+    }
+   ]
+  },
+  "1726634604585": {
+   "front": "soul",
+   "back": "душа́",
+   "deck": "Vocab::10000 words",
+   "cards": [
+    {
+     "state": "suspended",
+     "lapses": 21,
+     "streak": 10,
+     "last_fail": "2026-06-08"
+    },
+    {
+     "state": "6d",
+     "lapses": 2,
+     "streak": 2,
+     "last_fail": "2026-09-29"
+    }
+   ]
+  },
+  "1726634604595": {
+   "front": "evident, visible (adv. + s.f. adj.)",
+   "back": "ви́дно",
+   "deck": "Vocab::10000 words",
+   "cards": [
+    {
+     "state": "suspended",
+     "lapses": 13,
+     "streak": 5,
+     "last_fail": "2026-08-01"
+    },
+    {
+     "state": "700d",
+     "lapses": 0,
+     "streak": 9,
+     "last_fail": "—"
+    }
+   ]
+  },
+  "1726634604601": {
+   "front": "to call (s.o.) / to invite / to summon",
+   "back": "звать / позва́ть&nbsp;(+a)",
+   "deck": "Vocab::10000 words",
+   "cards": [
+    {
+     "state": "suspended",
+     "lapses": 18,
+     "streak": 1,
+     "last_fail": "2026-08-24"
+    },
+    {
+     "state": "82d",
+     "lapses": 0,
+     "streak": 8,
+     "last_fail": "—"
+    }
+   ]
+  },
+  "1726634604602": {
+   "front": "building / building site",
+   "back": "стро́йка",
+   "deck": "Vocab::10000 words",
+   "cards": [
+    {
+     "state": "suspended",
+     "lapses": 10,
+     "streak": 5,
+     "last_fail": "2026-08-05"
+    },
+    {
+     "state": "4d",
+     "lapses": 5,
+     "streak": 7,
+     "last_fail": "2026-09-07"
+    }
+   ]
+  },
+  "1726634604616": {
+   "front": "military (adj)",
+   "back": "вое́нный",
+   "deck": "Vocab::10000 words",
+   "cards": [
+    {
+     "state": "suspended",
+     "lapses": 8,
+     "streak": 5,
+     "last_fail": "2026-08-05"
+    },
+    {
+     "state": "48d",
+     "lapses": 3,
+     "streak": 10,
+     "last_fail": "2025-09-13"
+    }
+   ]
+  },
+  "1726634604632": {
+   "front": "before, previously (adv.) / before (prep. +g)",
+   "back": "пре́жде пре́жде + g.",
+   "deck": "Vocab::10000 words",
+   "cards": [
+    {
+     "state": "suspended",
+     "lapses": 16,
+     "streak": 3,
+     "last_fail": "2026-08-19"
+    },
+    {
+     "state": "674d",
+     "lapses": 0,
+     "streak": 9,
+     "last_fail": "—"
+    }
+   ]
+  },
+  "1726634604686": {
+   "front": "enterprise, factory",
+   "back": "предприя́тие",
+   "deck": "Vocab::10000 words",
+   "cards": [
+    {
+     "state": "suspended",
+     "lapses": 8,
+     "streak": 11,
+     "last_fail": "2026-01-06"
+    },
+    {
+     "state": "12d",
+     "lapses": 2,
+     "streak": 3,
+     "last_fail": "2026-09-06"
+    }
+   ]
+  },
+  "1726634604717": {
+   "front": "large, important",
+   "back": "кру́пный",
+   "deck": "Vocab::10000 words",
+   "cards": [
+    {
+     "state": "suspended",
+     "lapses": 17,
+     "streak": 5,
+     "last_fail": "2026-07-24"
+    },
+    {
+     "state": "16d",
+     "lapses": 8,
+     "streak": 8,
+     "last_fail": "2026-07-22"
+    }
+   ]
+  },
+  "1726634604766": {
+   "front": "development",
+   "back": "разви́тие",
+   "deck": "Vocab::10000 words",
+   "cards": [
+    {
+     "state": "suspended",
+     "lapses": 12,
+     "streak": 8,
+     "last_fail": "2026-06-20"
+    },
+    {
+     "state": "5d",
+     "lapses": 10,
+     "streak": 3,
+     "last_fail": "2026-09-29"
+    }
+   ]
+  },
+  "1726634604788": {
+   "front": "social, public, civic [sense: concering the public at large]&nbsp;",
+   "back": "обще́ственный",
+   "deck": "Vocab::10000 words",
+   "cards": [
+    {
+     "state": "suspended",
+     "lapses": 8,
+     "streak": 0,
+     "last_fail": "2026-09-06"
+    },
+    {
+     "state": "216d",
+     "lapses": 0,
+     "streak": 7,
+     "last_fail": "—"
+    }
+   ]
+  },
+  "1726634604849": {
+   "front": "sweet, lovely, dear / darling",
+   "back": "ми́лый",
+   "deck": "Vocab::10000 words",
+   "cards": [
+    {
+     "state": "suspended",
+     "lapses": 8,
+     "streak": 1,
+     "last_fail": "2026-08-27"
+    },
+    {
+     "state": "8d",
+     "lapses": 5,
+     "streak": 6,
+     "last_fail": "2026-09-03"
+    }
+   ]
+  },
+  "1726634604911": {
+   "front": "majority",
+   "back": "большинство́",
+   "deck": "Vocab::10000 words",
+   "cards": [
+    {
+     "state": "suspended",
+     "lapses": 9,
+     "streak": 5,
+     "last_fail": "2026-08-07"
+    },
+    {
+     "state": "282d",
+     "lapses": 0,
+     "streak": 6,
+     "last_fail": "—"
+    }
+   ]
+  },
+  "1726634604937": {
+   "front": "to glance at, take one quick look",
+   "back": "взгля́дывать / взгляну́ть (на +a)",
+   "deck": "Vocab::10000 words",
+   "cards": [
+    {
+     "state": "suspended",
+     "lapses": 25,
+     "streak": 4,
+     "last_fail": "2026-08-17"
+    },
+    {
+     "state": "79d",
+     "lapses": 1,
+     "streak": 8,
+     "last_fail": "2025-04-16"
+    }
+   ]
+  },
+  "1726634604973": {
+   "front": "representative",
+   "back": "представи́тель (m)",
+   "deck": "Vocab::10000 words",
+   "cards": [
+    {
+     "state": "suspended",
+     "lapses": 13,
+     "streak": 11,
+     "last_fail": "2026-03-28"
+    },
+    {
+     "state": "3d",
+     "lapses": 7,
+     "streak": 0,
+     "last_fail": "2026-10-07"
+    }
+   ]
+  },
+  "1726634604977": {
+   "front": "whichever / any kind of",
+   "back": "како́й-нибу́дь",
+   "deck": "Vocab::10000 words",
+   "cards": [
+    {
+     "state": "suspended",
+     "lapses": 13,
+     "streak": 10,
+     "last_fail": "2025-11-22"
+    },
+    {
+     "state": "4d",
+     "lapses": 6,
+     "streak": 4,
+     "last_fail": "2026-09-26"
+    }
+   ]
+  },
+  "1726634604993": {
+   "front": "someone else’s / foreign",
+   "back": "чужо́й",
+   "deck": "Vocab::10000 words",
+   "cards": [
+    {
+     "state": "suspended",
+     "lapses": 16,
+     "streak": 4,
+     "last_fail": "2026-08-01"
+    },
+    {
+     "state": "26d",
+     "lapses": 4,
+     "streak": 11,
+     "last_fail": "2026-06-18"
+    }
+   ]
+  },
+  "1726634604994": {
+   "front": "will / freedom, liberty",
+   "back": "во́ля",
+   "deck": "Vocab::10000 words",
+   "cards": [
+    {
+     "state": "suspended",
+     "lapses": 11,
+     "streak": 4,
+     "last_fail": "2026-07-11"
+    },
+    {
+     "state": "suspended",
+     "lapses": 0,
+     "streak": 6,
+     "last_fail": "—"
+    }
+   ]
+  },
+  "1726634605002": {
+   "front": "level / standard",
+   "back": "у́ровень (m)",
+   "deck": "Vocab::10000 words",
+   "cards": [
+    {
+     "state": "suspended",
+     "lapses": 23,
+     "streak": 6,
+     "last_fail": "2026-07-28"
+    },
+    {
+     "state": "28d",
+     "lapses": 3,
+     "streak": 11,
+     "last_fail": "2025-06-03"
+    }
+   ]
+  },
+  "1726634605022": {
+   "front": "conversation, discussion",
+   "back": "бесе́да",
+   "deck": "Vocab::10000 words",
+   "cards": [
+    {
+     "state": "suspended",
+     "lapses": 16,
+     "streak": 5,
+     "last_fail": "2026-08-09"
+    },
+    {
+     "state": "39d",
+     "lapses": 3,
+     "streak": 11,
+     "last_fail": "2026-01-12"
+    }
+   ]
+  },
+  "1726634605052": {
+   "front": "combat, battle (adj) / fighting, martial",
+   "back": "боево́й",
+   "deck": "Vocab::10000 words",
+   "cards": [
+    {
+     "state": "suspended",
+     "lapses": 10,
+     "streak": 2,
+     "last_fail": "2026-08-26"
+    },
+    {
+     "state": "27d",
+     "lapses": 11,
+     "streak": 13,
+     "last_fail": "2026-06-03"
+    }
+   ]
+  },
+  "1726634605083": {
+   "front": "topic, object, subject",
+   "back": "предме́т",
+   "deck": "Vocab::10000 words",
+   "cards": [
+    {
+     "state": "45d",
+     "lapses": 4,
+     "streak": 13,
+     "last_fail": "2025-06-18"
+    },
+    {
+     "state": "suspended",
+     "lapses": 8,
+     "streak": 0,
+     "last_fail": "2026-09-29"
+    }
+   ]
+  },
+  "1726634605095": {
+   "front": "surface",
+   "back": "пове́рхность (f)",
+   "deck": "Vocab::10000 words",
+   "cards": [
+    {
+     "state": "suspended",
+     "lapses": 10,
+     "streak": 11,
+     "last_fail": "2026-03-03"
+    },
+    {
+     "state": "9d",
+     "lapses": 1,
+     "streak": 2,
+     "last_fail": "2026-09-23"
+    }
+   ]
+  },
+  "1726634605111": {
+   "front": "peaceful, peaceable / civilian (adj)",
+   "back": "ми́рный",
+   "deck": "Vocab::10000 words",
+   "cards": [
+    {
+     "state": "suspended",
+     "lapses": 11,
+     "streak": 6,
+     "last_fail": "2026-08-01"
+    },
+    {
+     "state": "suspended",
+     "lapses": 8,
+     "streak": 0,
+     "last_fail": "2026-09-24"
+    }
+   ]
+  },
+  "1726634605141": {
+   "front": "lip",
+   "back": "губа́",
+   "deck": "Vocab::10000 words",
+   "cards": [
+    {
+     "state": "suspended",
+     "lapses": 9,
+     "streak": 2,
+     "last_fail": "2026-08-26"
+    },
+    {
+     "state": "326d",
+     "lapses": 0,
+     "streak": 7,
+     "last_fail": "—"
+    }
+   ]
+  },
+  "1726634605150": {
+   "front": "grain, seed",
+   "back": "зерно́",
+   "deck": "Vocab::10000 words",
+   "cards": [
+    {
+     "state": "suspended",
+     "lapses": 8,
+     "streak": 12,
+     "last_fail": "2025-11-10"
+    },
+    {
+     "state": "8d",
+     "lapses": 3,
+     "streak": 1,
+     "last_fail": "2026-10-04"
+    }
+   ]
+  },
+  "1726634605155": {
+   "front": "to obtain, achieve, attain (through effort)",
+   "back": "добива́ться / доби́ться (+g)",
+   "deck": "Vocab::10000 words",
+   "cards": [
+    {
+     "state": "suspended",
+     "lapses": 18,
+     "streak": 11,
+     "last_fail": "2026-05-17"
+    },
+    {
+     "state": "suspended",
+     "lapses": 12,
+     "streak": 0,
+     "last_fail": "2026-09-29"
+    }
+   ]
+  },
+  "1726634605191": {
+   "front": "joy",
+   "back": "ра́дость (f)",
+   "deck": "Vocab::10000 words",
+   "cards": [
+    {
+     "state": "suspended",
+     "lapses": 8,
+     "streak": 12,
+     "last_fail": "2026-01-03"
+    },
+    {
+     "state": "14d",
+     "lapses": 2,
+     "streak": 4,
+     "last_fail": "2026-08-29"
+    }
+   ]
+  },
+  "1726634605247": {
+   "front": "impression (as in 'he made an impression')",
+   "back": "впечатле́ние",
+   "deck": "Vocab::10000 words",
+   "cards": [
+    {
+     "state": "suspended",
+     "lapses": 12,
+     "streak": 9,
+     "last_fail": "2026-06-13"
+    },
+    {
+     "state": "5d",
+     "lapses": 4,
+     "streak": 8,
+     "last_fail": "2026-09-12"
+    }
+   ]
+  },
+  "1726634605249": {
+   "front": "to be present, to be available",
+   "back": "име́ться (i)",
+   "deck": "Vocab::10000 words",
+   "cards": [
+    {
+     "state": "suspended",
+     "lapses": 12,
+     "streak": 10,
+     "last_fail": "2026-07-16"
+    },
+    {
+     "state": "4d",
+     "lapses": 15,
+     "streak": 6,
+     "last_fail": "2026-09-22"
+    }
+   ]
+  },
+  "1726634605271": {
+   "front": "opening / discovery",
+   "back": "откры́тие",
+   "deck": "Vocab::10000 words",
+   "cards": [
+    {
+     "state": "suspended",
+     "lapses": 8,
+     "streak": 0,
+     "last_fail": "2026-09-13"
+    },
+    {
+     "state": "380d",
+     "lapses": 0,
+     "streak": 6,
+     "last_fail": "—"
+    }
+   ]
+  },
+  "1726634605279": {
+   "front": "to work out, come out well — of an effort (cf. оказа́ться = to turn out to be)",
+   "back": "получа́ться / получи́ться",
+   "deck": "Vocab::10000 words",
+   "cards": [
+    {
+     "state": "suspended",
+     "lapses": 10,
+     "streak": 2,
+     "last_fail": "2026-08-26"
+    },
+    {
+     "state": "36d",
+     "lapses": 2,
+     "streak": 6,
+     "last_fail": "2026-06-24"
+    }
+   ]
+  },
+  "1726634605292": {
+   "front": "detail / component (of machine)",
+   "back": "дета́ль (f)",
+   "deck": "Vocab::10000 words",
+   "cards": [
+    {
+     "state": "suspended",
+     "lapses": 8,
+     "streak": 14,
+     "last_fail": "2026-04-09"
+    },
+    {
+     "state": "8d",
+     "lapses": 3,
+     "streak": 1,
+     "last_fail": "2026-10-01"
+    }
+   ]
+  },
+  "1726634605305": {
+   "front": "to be silent (impf.) / to be silent for a while (pf.)",
+   "back": "молча́ть / помолча́ть",
+   "deck": "Vocab::10000 words",
+   "cards": [
+    {
+     "state": "suspended",
+     "lapses": 11,
+     "streak": 3,
+     "last_fail": "2026-08-20"
+    },
+    {
+     "state": "240d",
+     "lapses": 0,
+     "streak": 6,
+     "last_fail": "—"
+    }
+   ]
+  },
+  "1726634605321": {
+   "front": "goods, product, merchandise / commodity",
+   "back": "това́р",
+   "deck": "Vocab::10000 words",
+   "cards": [
+    {
+     "state": "suspended",
+     "lapses": 8,
+     "streak": 6,
+     "last_fail": "2026-07-16"
+    },
+    {
+     "state": "18d",
+     "lapses": 2,
+     "streak": 5,
+     "last_fail": "2026-08-17"
+    }
+   ]
+  },
+  "1726634605343": {
+   "front": "Verb of motion to carry (in the hands)",
+   "back": "(Abs) носи́ть / поноси́ть (Conc) нести́ / понести́",
+   "deck": "Vocab::10000 words",
+   "cards": [
+    {
+     "state": "suspended",
+     "lapses": 8,
+     "streak": 0,
+     "last_fail": "2026-09-24"
+    },
+    {
+     "state": "235d",
+     "lapses": 0,
+     "streak": 6,
+     "last_fail": "—"
+    }
+   ]
+  },
+  "1726634605354": {
+   "front": "to go without saying; to be understood",
+   "back": "разуме́ться (i)",
+   "deck": "Vocab::10000 words",
+   "cards": [
+    {
+     "state": "suspended",
+     "lapses": 12,
+     "streak": 13,
+     "last_fail": "2026-05-11"
+    },
+    {
+     "state": "3d",
+     "lapses": 13,
+     "streak": 4,
+     "last_fail": "2026-09-28"
+    }
+   ]
+  },
+  "1726634605392": {
+   "front": "roof",
+   "back": "кры́ша",
+   "deck": "Vocab::10000 words",
+   "cards": [
+    {
+     "state": "suspended",
+     "lapses": 10,
+     "streak": 5,
+     "last_fail": "2026-08-17"
+    },
+    {
+     "state": "198d",
+     "lapses": 0,
+     "streak": 5,
+     "last_fail": "—"
+    }
+   ]
+  },
+  "1726634605394": {
+   "front": "branch (of science, industry etc.)",
+   "back": "о́трасль (f)",
+   "deck": "Vocab::10000 words",
+   "cards": [
+    {
+     "state": "27d",
+     "lapses": 3,
+     "streak": 12,
+     "last_fail": "2026-05-29"
+    },
+    {
+     "state": "5d",
+     "lapses": 6,
+     "streak": 4,
+     "last_fail": "2026-09-23"
+    }
+   ]
+  },
+  "1726634605395": {
+   "front": "to give / to proffer",
+   "back": "подава́ть / пода́ть (+a)",
+   "deck": "Vocab::10000 words",
+   "cards": [
+    {
+     "state": "suspended",
+     "lapses": 22,
+     "streak": 1,
+     "last_fail": "2026-08-29"
+    },
+    {
+     "state": "16d",
+     "lapses": 2,
+     "streak": 6,
+     "last_fail": "2026-08-23"
+    }
+   ]
+  },
+  "1726634605400": {
+   "front": "feature, trait / line",
+   "back": "черта́",
+   "deck": "Vocab::10000 words",
+   "cards": [
+    {
+     "state": "suspended",
+     "lapses": 9,
+     "streak": 0,
+     "last_fail": "2026-08-28"
+    },
+    {
+     "state": "22d",
+     "lapses": 6,
+     "streak": 12,
+     "last_fail": "2026-06-28"
+    }
+   ]
+  },
+  "1726634605412": {
+   "front": "to shoot (at a specific target) ~ (towards a general area) ~ (with a weapon) ~ (ammunition)",
+   "back": "стреля́ть / вы́стрелить (в +a,&nbsp; по +d, из +g, +i)",
+   "deck": "Vocab::10000 words",
+   "cards": [
+    {
+     "state": "suspended",
+     "lapses": 16,
+     "streak": 9,
+     "last_fail": "2026-06-12"
+    },
+    {
+     "state": "188d",
+     "lapses": 0,
+     "streak": 5,
+     "last_fail": "—"
+    }
+   ]
+  },
+  "1726634605424": {
+   "front": "achievement",
+   "back": "достиже́ние",
+   "deck": "Vocab::10000 words",
+   "cards": [
+    {
+     "state": "suspended",
+     "lapses": 14,
+     "streak": 8,
+     "last_fail": "2026-06-01"
+    },
+    {
+     "state": "7d",
+     "lapses": 6,
+     "streak": 3,
+     "last_fail": "2026-09-23"
+    }
+   ]
+  },
+  "1726634605451": {
+   "front": "establishment, institution",
+   "back": "учрежде́ние",
+   "deck": "Vocab::10000 words",
+   "cards": [
+    {
+     "state": "suspended",
+     "lapses": 13,
+     "streak": 11,
+     "last_fail": "2026-04-01"
+    },
+    {
+     "state": "suspended",
+     "lapses": 16,
+     "streak": 0,
+     "last_fail": "2026-09-26"
+    }
+   ]
+  },
+  "1726634605476": {
+   "front": "generation",
+   "back": "поколе́ние",
+   "deck": "Vocab::10000 words",
+   "cards": [
+    {
+     "state": "suspended",
+     "lapses": 20,
+     "streak": 9,
+     "last_fail": "2026-07-27"
+    },
+    {
+     "state": "47d",
+     "lapses": 1,
+     "streak": 10,
+     "last_fail": "2026-01-06"
+    }
+   ]
+  },
+  "1726634605481": {
+   "front": "(a) youth",
+   "back": "ю́ноша",
+   "deck": "Vocab::10000 words",
+   "cards": [
+    {
+     "state": "suspended",
+     "lapses": 10,
+     "streak": 3,
+     "last_fail": "2026-08-16"
+    },
+    {
+     "state": "193d",
+     "lapses": 0,
+     "streak": 5,
+     "last_fail": "—"
+    }
+   ]
+  },
+  "1726634605496": {
+   "front": "to differ, be distinguished (от +g, impf.) / to distinguish oneself, excel (pf.)",
+   "back": "отлича́ться / отличи́ться",
+   "deck": "Vocab::10000 words",
+   "cards": [
+    {
+     "state": "suspended",
+     "lapses": 15,
+     "streak": 5,
+     "last_fail": "2026-08-03"
+    },
+    {
+     "state": "18d",
+     "lapses": 1,
+     "streak": 5,
+     "last_fail": "2026-08-13"
+    }
+   ]
+  },
+  "1726634605499": {
+   "front": "to arrange, put on (an event); to suit s.o.",
+   "back": "устра́ивать / устро́ить (+a)",
+   "deck": "Vocab::10000 words",
+   "cards": [
+    {
+     "state": "suspended",
+     "lapses": 11,
+     "streak": 7,
+     "last_fail": "2026-07-07"
+    },
+    {
+     "state": "suspended",
+     "lapses": 8,
+     "streak": 0,
+     "last_fail": "2026-10-02"
+    }
+   ]
+  },
+  "1726634605505": {
+   "front": "firmly, strongly",
+   "back": "кре́пко",
+   "deck": "Vocab::10000 words",
+   "cards": [
+    {
+     "state": "suspended",
+     "lapses": 8,
+     "streak": 12,
+     "last_fail": "2026-06-10"
+    },
+    {
+     "state": "2d",
+     "lapses": 4,
+     "streak": 2,
+     "last_fail": "2026-10-03"
+    }
+   ]
+  },
+  "1726634605517": {
+   "front": "mood",
+   "back": "настрое́ние",
+   "deck": "Vocab::10000 words",
+   "cards": [
+    {
+     "state": "suspended",
+     "lapses": 10,
+     "streak": 5,
+     "last_fail": "2026-08-05"
+    },
+    {
+     "state": "35d",
+     "lapses": 4,
+     "streak": 13,
+     "last_fail": "2026-03-31"
+    }
+   ]
+  },
+  "1726634605535": {
+   "front": "to belong to / (к +d) be a member of",
+   "back": "принадлежа́ть (i) (+d)",
+   "deck": "Vocab::10000 words",
+   "cards": [
+    {
+     "state": "suspended",
+     "lapses": 8,
+     "streak": 0,
+     "last_fail": "2026-09-12"
+    },
+    {
+     "state": "75d",
+     "lapses": 0,
+     "streak": 7,
+     "last_fail": "—"
+    }
+   ]
+  },
+  "1726634605552": {
+   "front": "iron",
+   "back": "желе́зо",
+   "deck": "Vocab::10000 words",
+   "cards": [
+    {
+     "state": "suspended",
+     "lapses": 9,
+     "streak": 3,
+     "last_fail": "2026-08-20"
+    },
+    {
+     "state": "158d",
+     "lapses": 0,
+     "streak": 5,
+     "last_fail": "—"
+    }
+   ]
+  },
+  "1726634605561": {
+   "front": "southern",
+   "back": "ю́жный",
+   "deck": "Vocab::10000 words",
+   "cards": [
+    {
+     "state": "suspended",
+     "lapses": 12,
+     "streak": 5,
+     "last_fail": "2026-07-31"
+    },
+    {
+     "state": "125d",
+     "lapses": 0,
+     "streak": 5,
+     "last_fail": "—"
+    }
+   ]
+  },
+  "1726634605569": {
+   "front": "to develop, evolve",
+   "back": "развива́ться / разви́ться",
+   "deck": "Vocab::10000 words",
+   "cards": [
+    {
+     "state": "suspended",
+     "lapses": 8,
+     "streak": 1,
+     "last_fail": "2026-08-27"
+    },
+    {
+     "state": "75d",
+     "lapses": 1,
+     "streak": 8,
+     "last_fail": "2026-03-28"
+    }
+   ]
+  },
+  "1726634605570": {
+   "front": "to pull, drag",
+   "back": "тяну́ть / потяну́ть (+a)",
+   "deck": "Vocab::10000 words",
+   "cards": [
+    {
+     "state": "suspended",
+     "lapses": 8,
+     "streak": 13,
+     "last_fail": "2026-05-16"
+    },
+    {
+     "state": "190d",
+     "lapses": 0,
+     "streak": 5,
+     "last_fail": "—"
+    }
+   ]
+  },
+  "1726634605573": {
+   "front": "to reveal / discover",
+   "back": "обнару́живать / обнару́жить (+a)",
+   "deck": "Vocab::10000 words",
+   "cards": [
+    {
+     "state": "suspended",
+     "lapses": 10,
+     "streak": 11,
+     "last_fail": "2026-06-03"
+    },
+    {
+     "state": "8d",
+     "lapses": 10,
+     "streak": 4,
+     "last_fail": "2026-09-11"
+    }
+   ]
+  },
+  "1726634605575": {
+   "front": "preparation (for)",
+   "back": "подгото́вка (к +d)",
+   "deck": "Vocab::10000 words",
+   "cards": [
+    {
+     "state": "suspended",
+     "lapses": 11,
+     "streak": 4,
+     "last_fail": "2026-08-14"
+    },
+    {
+     "state": "142d",
+     "lapses": 0,
+     "streak": 7,
+     "last_fail": "—"
+    }
+   ]
+  },
+  "1726634605593": {
+   "front": "to hurry, be in a hurry",
+   "back": "торопи́ться / поторопи́ться",
+   "deck": "Vocab::10000 words",
+   "cards": [
+    {
+     "state": "suspended",
+     "lapses": 11,
+     "streak": 4,
+     "last_fail": "2026-08-13"
+    },
+    {
+     "state": "231d",
+     "lapses": 0,
+     "streak": 6,
+     "last_fail": "—"
+    }
+   ]
+  },
+  "1726634605610": {
+   "front": "joint, connection, combination [ think: with unity ]",
+   "back": "соедине́ние",
+   "deck": "Vocab::10000 words",
+   "cards": [
+    {
+     "state": "suspended",
+     "lapses": 8,
+     "streak": 5,
+     "last_fail": "2026-08-05"
+    },
+    {
+     "state": "60d",
+     "lapses": 0,
+     "streak": 8,
+     "last_fail": "—"
+    }
+   ]
+  },
+  "1726634605619": {
+   "front": "field (adj)",
+   "back": "полево́й",
+   "deck": "Vocab::10000 words",
+   "cards": [
+    {
+     "state": "12d",
+     "lapses": 6,
+     "streak": 3,
+     "last_fail": "2026-09-21"
+    },
+    {
+     "state": "135d",
+     "lapses": 0,
+     "streak": 6,
+     "last_fail": "—"
+    }
+   ]
+  },
+  "1726634605655": {
+   "front": "highest, supreme",
+   "back": "вы́сший",
+   "deck": "Vocab::10000 words",
+   "cards": [
+    {
+     "state": "suspended",
+     "lapses": 10,
+     "streak": 3,
+     "last_fail": "2026-08-15"
+    },
+    {
+     "state": "121d",
+     "lapses": 0,
+     "streak": 8,
+     "last_fail": "—"
+    }
+   ]
+  },
+  "1726634605691": {
+   "front": "installation / directive, aim",
+   "back": "устано́вка",
+   "deck": "Vocab::10000 words",
+   "cards": [
+    {
+     "state": "suspended",
+     "lapses": 8,
+     "streak": 6,
+     "last_fail": "2026-08-04"
+    },
+    {
+     "state": "suspended",
+     "lapses": 12,
+     "streak": 0,
+     "last_fail": "2026-09-23"
+    }
+   ]
+  },
+  "1726634605711": {
+   "front": "to perish (violent or tragic death, e.g. in battle or disaster)",
+   "back": "погиба́ть / поги́бнуть",
+   "deck": "Vocab::10000 words",
+   "cards": [
+    {
+     "state": "suspended",
+     "lapses": 13,
+     "streak": 4,
+     "last_fail": "2026-08-11"
+    },
+    {
+     "state": "4d",
+     "lapses": 5,
+     "streak": 3,
+     "last_fail": "2026-09-28"
+    }
+   ]
+  },
+  "1726634605713": {
+   "front": "to arrive (formal) to increase, rise (of water, numbers)",
+   "back": "прибыва́ть /&nbsp;прибы́ть",
+   "deck": "Vocab::10000 words",
+   "cards": [
+    {
+     "state": "6d",
+     "lapses": 7,
+     "streak": 5,
+     "last_fail": "2026-09-24"
+    },
+    {
+     "state": "9d",
+     "lapses": 2,
+     "streak": 3,
+     "last_fail": "2026-09-22"
+    }
+   ]
+  },
+  "1726634605721": {
+   "front": "drop, bit",
+   "back": "ка́пля",
+   "deck": "Vocab::10000 words",
+   "cards": [
+    {
+     "state": "suspended",
+     "lapses": 8,
+     "streak": 0,
+     "last_fail": "2026-09-21"
+    },
+    {
+     "state": "123d",
+     "lapses": 0,
+     "streak": 6,
+     "last_fail": "—"
+    }
+   ]
+  },
+  "1726634605725": {
+   "front": "lower, bottom (adj.)",
+   "back": "ни́жний",
+   "deck": "Vocab::10000 words",
+   "cards": [
+    {
+     "state": "suspended",
+     "lapses": 15,
+     "streak": 10,
+     "last_fail": "2026-07-15"
+    },
+    {
+     "state": "137d",
+     "lapses": 0,
+     "streak": 5,
+     "last_fail": "—"
+    }
+   ]
+  },
+  "1726634605726": {
+   "front": "implementation (of a plan)",
+   "back": "осуществле́ние",
+   "deck": "Vocab::10000 words",
+   "cards": [
+    {
+     "state": "suspended",
+     "lapses": 12,
+     "streak": 2,
+     "last_fail": "2026-08-26"
+    },
+    {
+     "state": "suspended",
+     "lapses": 8,
+     "streak": 0,
+     "last_fail": "2026-09-23"
+    }
+   ]
+  },
+  "1726634605731": {
+   "front": "respect (noun) [sense: neutral]",
+   "back": "уваже́ние",
+   "deck": "Vocab::10000 words",
+   "cards": [
+    {
+     "state": "suspended",
+     "lapses": 8,
+     "streak": 1,
+     "last_fail": "2026-08-28"
+    },
+    {
+     "state": "3d",
+     "lapses": 3,
+     "streak": 5,
+     "last_fail": "2026-09-26"
+    }
+   ]
+  },
+  "1726634605738": {
+   "front": "wooden",
+   "back": "деревя́нный",
+   "deck": "Vocab::10000 words",
+   "cards": [
+    {
+     "state": "7d",
+     "lapses": 6,
+     "streak": 4,
+     "last_fail": "2026-09-21"
+    },
+    {
+     "state": "53d",
+     "lapses": 1,
+     "streak": 9,
+     "last_fail": "2026-04-19"
+    }
+   ]
+  },
+  "1726634605747": {
+   "front": "need",
+   "back": "потре́бность (f)",
+   "deck": "Vocab::10000 words",
+   "cards": [
+    {
+     "state": "suspended",
+     "lapses": 9,
+     "streak": 6,
+     "last_fail": "2026-08-02"
+    },
+    {
+     "state": "2d",
+     "lapses": 2,
+     "streak": 0,
+     "last_fail": "2026-10-08"
+    }
+   ]
+  },
+  "1726634605752": {
+   "front": "to make a noise",
+   "back": "шуме́ть / зашуме́ть",
+   "deck": "Vocab::10000 words",
+   "cards": [
+    {
+     "state": "suspended",
+     "lapses": 8,
+     "streak": 2,
+     "last_fail": "2026-08-22"
+    },
+    {
+     "state": "25d",
+     "lapses": 2,
+     "streak": 6,
+     "last_fail": "2026-07-25"
+    }
+   ]
+  },
+  "1726634605777": {
+   "front": "to sound",
+   "back": "звуча́ть / прозвуча́ть",
+   "deck": "Vocab::10000 words",
+   "cards": [
+    {
+     "state": "suspended",
+     "lapses": 12,
+     "streak": 12,
+     "last_fail": "2026-06-04"
+    },
+    {
+     "state": "4d",
+     "lapses": 1,
+     "streak": 0,
+     "last_fail": "2026-10-08"
+    }
+   ]
+  },
+  "1726634605778": {
+   "front": "to command (sth)",
+   "back": "кома́ндовать /&nbsp;скома́ндовать &nbsp; (+inst)",
+   "deck": "Vocab::10000 words",
+   "cards": [
+    {
+     "state": "6d",
+     "lapses": 7,
+     "streak": 4,
+     "last_fail": "2026-09-12"
+    },
+    {
+     "state": "105d",
+     "lapses": 0,
+     "streak": 5,
+     "last_fail": "—"
+    }
+   ]
+  },
+  "1726634605787": {
+   "front": "sacred / saint",
+   "back": "свято́й",
+   "deck": "Vocab::10000 words",
+   "cards": [
+    {
+     "state": "4d",
+     "lapses": 7,
+     "streak": 5,
+     "last_fail": "2026-09-22"
+    },
+    {
+     "state": "109d",
+     "lapses": 0,
+     "streak": 5,
+     "last_fail": "—"
+    }
+   ]
+  },
+  "1726634605859": {
+   "front": "to breathe",
+   "back": "дыша́ть / подыша́ть&nbsp;(+inst)",
+   "deck": "Vocab::10000 words",
+   "cards": [
+    {
+     "state": "3d",
+     "lapses": 7,
+     "streak": 6,
+     "last_fail": "2026-09-24"
+    },
+    {
+     "state": "96d",
+     "lapses": 0,
+     "streak": 3,
+     "last_fail": "—"
+    }
+   ]
+  },
+  "1726634605878": {
+   "front": "wing",
+   "back": "крыло́",
+   "deck": "Vocab::10000 words",
+   "cards": [
+    {
+     "state": "suspended",
+     "lapses": 5,
+     "streak": 0,
+     "last_fail": "2026-10-06"
+    },
+    {
+     "state": "64d",
+     "lapses": 1,
+     "streak": 7,
+     "last_fail": "2026-06-23"
+    }
+   ]
+  },
+  "1726634606204": {
+   "front": "feather",
+   "back": "перо́",
+   "deck": "Vocab::10000 words",
+   "cards": [
+    {
+     "state": "suspended",
+     "lapses": 11,
+     "streak": 9,
+     "last_fail": "2026-06-14"
+    },
+    {
+     "state": "219d",
+     "lapses": 0,
+     "streak": 1,
+     "last_fail": "—"
+    }
+   ]
+  },
+  "1726634606253": {
+   "front": "to hide (sth)",
+   "back": "пря́тать / спря́тать&nbsp;(+a)",
+   "deck": "Vocab::10000 words",
+   "cards": [
+    {
+     "state": "suspended",
+     "lapses": 15,
+     "streak": 2,
+     "last_fail": "2026-08-20"
+    },
+    {
+     "state": "18d",
+     "lapses": 1,
+     "streak": 5,
+     "last_fail": "2026-07-29"
+    }
+   ]
+  },
+  "1726634606554": {
+   "front": "priest",
+   "back": "свяще́нник",
+   "deck": "Vocab::10000 words",
+   "cards": [
+    {
+     "state": "suspended",
+     "lapses": 8,
+     "streak": 3,
+     "last_fail": "—"
+    },
+    {
+     "state": "50d",
+     "lapses": 1,
+     "streak": 0,
+     "last_fail": "2026-08-25"
+    }
+   ]
+  },
+  "1726634606566": {
+   "front": "agitation / disturbance",
+   "back": "волне́ние",
+   "deck": "Vocab::10000 words",
+   "cards": [
+    {
+     "state": "suspended",
+     "lapses": 12,
+     "streak": 6,
+     "last_fail": "2026-07-20"
+    },
+    {
+     "state": "7d",
+     "lapses": 5,
+     "streak": 5,
+     "last_fail": "2026-09-09"
+    }
+   ]
+  },
+  "1726634606800": {
+   "front": "in advance",
+   "back": "зара́нее",
+   "deck": "Vocab::10000 words",
+   "cards": [
+    {
+     "state": "suspended",
+     "lapses": 9,
+     "streak": 4,
+     "last_fail": "—"
+    },
+    {
+     "state": "236d",
+     "lapses": 0,
+     "streak": 1,
+     "last_fail": "—"
+    }
+   ]
+  },
+  "1726634606877": {
+   "front": "modest",
+   "back": "скро́мный",
+   "deck": "Vocab::10000 words",
+   "cards": [
+    {
+     "state": "184d",
+     "lapses": 0,
+     "streak": 1,
+     "last_fail": "—"
+    },
+    {
+     "state": "7d",
+     "lapses": 6,
+     "streak": 5,
+     "last_fail": "2026-09-07"
+    }
+   ]
+  },
+  "1726634606990": {
+   "front": "to look after, to worry about",
+   "back": "забо́титься / позабо́титься&nbsp;(о +pr)",
+   "deck": "Vocab::10000 words",
+   "cards": [
+    {
+     "state": "suspended",
+     "lapses": 9,
+     "streak": 3,
+     "last_fail": "2026-08-22"
+    },
+    {
+     "state": "23d",
+     "lapses": 1,
+     "streak": 13,
+     "last_fail": "2026-07-01"
+    }
+   ]
+  },
+  "1726634607123": {
+   "front": "fight, brawl",
+   "back": "дра́ка",
+   "deck": "Vocab::10000 words",
+   "cards": [
+    {
+     "state": "suspended",
+     "lapses": 17,
+     "streak": 12,
+     "last_fail": "2026-06-14"
+    },
+    {
+     "state": "295d",
+     "lapses": 0,
+     "streak": 1,
+     "last_fail": "—"
+    }
+   ]
+  },
+  "1726634607195": {
+   "front": "to describe",
+   "back": "опи́сывать / описа́ть (+a)",
+   "deck": "Vocab::10000 words",
+   "cards": [
+    {
+     "state": "35d",
+     "lapses": 6,
+     "streak": 16,
+     "last_fail": "2026-04-09"
+    },
+    {
+     "state": "3d",
+     "lapses": 10,
+     "streak": 7,
+     "last_fail": "2026-09-24"
+    }
+   ]
+  },
+  "1726634607281": {
+   "front": "to keep, store",
+   "back": "храни́ть (i) (+a)",
+   "deck": "Vocab::10000 words",
+   "cards": [
+    {
+     "state": "17d",
+     "lapses": 5,
+     "streak": 9,
+     "last_fail": "2026-07-30"
+    },
+    {
+     "state": "8d",
+     "lapses": 3,
+     "streak": 3,
+     "last_fail": "2026-09-22"
+    }
+   ]
+  },
+  "1726634607354": {
+   "front": "thin, skinny (also: bad, archaic/poetic)",
+   "back": "худо́й",
+   "deck": "Vocab::10000 words",
+   "cards": [
+    {
+     "state": "suspended",
+     "lapses": 10,
+     "streak": 6,
+     "last_fail": "2026-08-04"
+    },
+    {
+     "state": "237d",
+     "lapses": 0,
+     "streak": 5,
+     "last_fail": "—"
+    }
+   ]
+  },
+  "1726634607493": {
+   "front": "fatherland",
+   "back": "оте́чество",
+   "deck": "Vocab::10000 words",
+   "cards": [
+    {
+     "state": "suspended",
+     "lapses": 8,
+     "streak": 4,
+     "last_fail": "—"
+    },
+    {
+     "state": "270d",
+     "lapses": 0,
+     "streak": 0,
+     "last_fail": "—"
+    }
+   ]
+  },
+  "1726634607584": {
+   "front": "to part (with / from)",
+   "back": "расстава́ться / расста́ться (с +inst)",
+   "deck": "Vocab::10000 words",
+   "cards": [
+    {
+     "state": "suspended",
+     "lapses": 9,
+     "streak": 12,
+     "last_fail": "2026-06-15"
+    },
+    {
+     "state": "20d",
+     "lapses": 1,
+     "streak": 4,
+     "last_fail": "2026-08-08"
+    }
+   ]
+  },
+  "1726634607755": {
+   "front": "exercise",
+   "back": "упражне́ние",
+   "deck": "Vocab::10000 words",
+   "cards": [
+    {
+     "state": "293d",
+     "lapses": 0,
+     "streak": 1,
+     "last_fail": "—"
+    },
+    {
+     "state": "25d",
+     "lapses": 5,
+     "streak": 4,
+     "last_fail": "2026-08-11"
+    }
+   ]
+  },
+  "1726634607789": {
+   "front": "coast",
+   "back": "побере́жье",
+   "deck": "Vocab::10000 words",
+   "cards": [
+    {
+     "state": "suspended",
+     "lapses": 11,
+     "streak": 3,
+     "last_fail": "2026-08-17"
+    },
+    {
+     "state": "6d",
+     "lapses": 2,
+     "streak": 3,
+     "last_fail": "2026-09-21"
+    }
+   ]
+  },
+  "1726634607969": {
+   "front": "current, relevant, pressing (of the moment)",
+   "back": "актуа́льный",
+   "deck": "Vocab::10000 words",
+   "cards": [
+    {
+     "state": "5d",
+     "lapses": 6,
+     "streak": 3,
+     "last_fail": "2026-09-24"
+    },
+    {
+     "state": "62d",
+     "lapses": 0,
+     "streak": 8,
+     "last_fail": "—"
+    }
+   ]
+  },
+  "1726634607995": {
+   "front": "hen",
+   "back": "ку́рица",
+   "deck": "Vocab::10000 words",
+   "cards": [
+    {
+     "state": "6d",
+     "lapses": 6,
+     "streak": 3,
+     "last_fail": "2026-09-23"
+    },
+    {
+     "state": "280d",
+     "lapses": 0,
+     "streak": 1,
+     "last_fail": "—"
+    }
+   ]
+  },
+  "1726634608220": {
+   "front": "swimming / sailing",
+   "back": "пла́вание",
+   "deck": "Vocab::10000 words",
+   "cards": [
+    {
+     "state": "18d",
+     "lapses": 5,
+     "streak": 3,
+     "last_fail": "2026-08-29"
+    },
+    {
+     "state": "679d",
+     "lapses": 0,
+     "streak": 0,
+     "last_fail": "—"
+    }
+   ]
+  },
+  "1726634608385": {
+   "front": "brown",
+   "back": "кори́чневый",
+   "deck": "Vocab::10000 words",
+   "cards": [
+    {
+     "state": "suspended",
+     "lapses": 8,
+     "streak": 2,
+     "last_fail": "2026-08-23"
+    },
+    {
+     "state": "311d",
+     "lapses": 0,
+     "streak": 1,
+     "last_fail": "—"
+    }
+   ]
+  },
+  "1726634608491": {
+   "front": "coat hanger",
+   "back": "ве́шалка",
+   "deck": "Vocab::10000 words",
+   "cards": [
+    {
+     "state": "suspended",
+     "lapses": 8,
+     "streak": 0,
+     "last_fail": "2026-09-11"
+    },
+    {
+     "state": "208d",
+     "lapses": 0,
+     "streak": 6,
+     "last_fail": "—"
+    }
+   ]
+  },
+  "1726634608719": {
+   "front": "independently (without help)",
+   "back": "самостоя́тельно",
+   "deck": "Vocab::10000 words",
+   "cards": [
+    {
+     "state": "suspended",
+     "lapses": 13,
+     "streak": 6,
+     "last_fail": "2026-08-05"
+    },
+    {
+     "state": "162d",
+     "lapses": 0,
+     "streak": 7,
+     "last_fail": "—"
+    }
+   ]
+  },
+  "1726634608938": {
+   "front": "road (adj)",
+   "back": "доро́жный",
+   "deck": "Vocab::10000 words",
+   "cards": [
+    {
+     "state": "suspended",
+     "lapses": 16,
+     "streak": 1,
+     "last_fail": "2026-08-27"
+    },
+    {
+     "state": "139d",
+     "lapses": 0,
+     "streak": 6,
+     "last_fail": "—"
+    }
+   ]
+  },
+  "1726634608959": {
+   "front": "to bathe",
+   "back": "купа́ться / искупа́ться",
+   "deck": "Vocab::10000 words",
+   "cards": [
+    {
+     "state": "suspended",
+     "lapses": 11,
+     "streak": 0,
+     "last_fail": "2026-08-30"
+    },
+    {
+     "state": "33d",
+     "lapses": 1,
+     "streak": 7,
+     "last_fail": "2026-05-17"
+    }
+   ]
+  },
+  "1726634609197": {
+   "front": "to distinguish (i.e. perceive a difference)",
+   "back": "различа́ть / различи́ть (+a)",
+   "deck": "Vocab::10000 words",
+   "cards": [
+    {
+     "state": "suspended",
+     "lapses": 13,
+     "streak": 2,
+     "last_fail": "2026-08-23"
+    },
+    {
+     "state": "39d",
+     "lapses": 1,
+     "streak": 9,
+     "last_fail": "2026-01-11"
+    }
+   ]
+  },
+  "1726634609300": {
+   "front": "headline, heading",
+   "back": "заголо́вок",
+   "deck": "Vocab::10000 words",
+   "cards": [
+    {
+     "state": "suspended",
+     "lapses": 14,
+     "streak": 1,
+     "last_fail": "2026-08-25"
+    },
+    {
+     "state": "190d",
+     "lapses": 0,
+     "streak": 5,
+     "last_fail": "—"
+    }
+   ]
+  },
+  "1726634609385": {
+   "front": "to irritate, annoy",
+   "back": "раздража́ть / раздражи́ть (+a)",
+   "deck": "Vocab::10000 words",
+   "cards": [
+    {
+     "state": "suspended",
+     "lapses": 8,
+     "streak": 5,
+     "last_fail": "2026-08-03"
+    },
+    {
+     "state": "9d",
+     "lapses": 2,
+     "streak": 2,
+     "last_fail": "2026-09-25"
+    }
+   ]
+  },
+  "1726634609424": {
+   "front": "fascinating, absorbing",
+   "back": "увлека́тельный",
+   "deck": "Vocab::10000 words",
+   "cards": [
+    {
+     "state": "31d",
+     "lapses": 0,
+     "streak": 19,
+     "last_fail": "—"
+    },
+    {
+     "state": "8d",
+     "lapses": 6,
+     "streak": 5,
+     "last_fail": "2026-09-22"
+    }
+   ]
+  },
+  "1726634609692": {
+   "front": "anniversary",
+   "back": "годовщи́на",
+   "deck": "Vocab::10000 words",
+   "cards": [
+    {
+     "state": "suspended",
+     "lapses": 11,
+     "streak": 8,
+     "last_fail": "2026-08-01"
+    },
+    {
+     "state": "305d",
+     "lapses": 0,
+     "streak": 6,
+     "last_fail": "—"
+    }
+   ]
+  },
+  "1726634609876": {
+   "front": "to praise",
+   "back": "хвали́ть / похвали́ть&nbsp;(+a)",
+   "deck": "Vocab::10000 words",
+   "cards": [
+    {
+     "state": "suspended",
+     "lapses": 11,
+     "streak": 1,
+     "last_fail": "2026-08-26"
+    },
+    {
+     "state": "10d",
+     "lapses": 2,
+     "streak": 4,
+     "last_fail": "2026-09-11"
+    }
+   ]
+  },
+  "1726634610274": {
+   "front": "to lend (sth to s.o.) [also 'to borrow', but proscribed]",
+   "back": "ода́лживать / одолжи́ть (+a +d)",
+   "deck": "Vocab::10000 words",
+   "cards": [
+    {
+     "state": "suspended",
+     "lapses": 18,
+     "streak": 6,
+     "last_fail": "2026-07-30"
+    },
+    {
+     "state": "10d",
+     "lapses": 2,
+     "streak": 4,
+     "last_fail": "2026-09-06"
+    }
+   ]
+  },
+  "1726634610632": {
+   "front": "to shake, to astound",
+   "back": "потряса́ть / потрясти́ (+a)",
+   "deck": "Vocab::10000 words",
+   "cards": [
+    {
+     "state": "suspended",
+     "lapses": 8,
+     "streak": 9,
+     "last_fail": "2026-05-29"
+    },
+    {
+     "state": "6d",
+     "lapses": 5,
+     "streak": 4,
+     "last_fail": "2026-09-23"
+    }
+   ]
+  },
+  "1726634610644": {
+   "front": "counter (in shop)",
+   "back": "прила́вок",
+   "deck": "Vocab::10000 words",
+   "cards": [
+    {
+     "state": "20d",
+     "lapses": 7,
+     "streak": 10,
+     "last_fail": "2026-07-12"
+    },
+    {
+     "state": "291d",
+     "lapses": 0,
+     "streak": 1,
+     "last_fail": "—"
+    }
+   ]
+  },
+  "1726634610651": {
+   "front": "to swallow completely, to devour",
+   "back": "прогла́тывать / проглоти́ть (+a)",
+   "deck": "Vocab::10000 words",
+   "cards": [
+    {
+     "state": "suspended",
+     "lapses": 17,
+     "streak": 3,
+     "last_fail": "2026-08-23"
+    },
+    {
+     "state": "297d",
+     "lapses": 0,
+     "streak": 6,
+     "last_fail": "—"
+    }
+   ]
+  },
+  "1726634610824": {
+   "front": "statement, remark, utterance",
+   "back": "выска́зывание",
+   "deck": "Vocab::10000 words",
+   "cards": [
+    {
+     "state": "suspended",
+     "lapses": 10,
+     "streak": 6,
+     "last_fail": "2026-07-27"
+    },
+    {
+     "state": "50d",
+     "lapses": 0,
+     "streak": 7,
+     "last_fail": "—"
+    }
+   ]
+  },
+  "1726634610934": {
+   "front": "to enjoy, to delight (in)",
+   "back": "наслажда́ться / наслади́ться (+inst)",
+   "deck": "Vocab::10000 words",
+   "cards": [
+    {
+     "state": "suspended",
+     "lapses": 8,
+     "streak": 5,
+     "last_fail": "2026-07-31"
+    },
+    {
+     "state": "82d",
+     "lapses": 0,
+     "streak": 7,
+     "last_fail": "—"
+    }
+   ]
+  },
+  "1726634611635": {
+   "front": "kindness, kind-heartedness",
+   "back": "доброта́",
+   "deck": "Vocab::10000 words",
+   "cards": [
+    {
+     "state": "231d",
+     "lapses": 2,
+     "streak": 1,
+     "last_fail": "—"
+    },
+    {
+     "state": "20d",
+     "lapses": 8,
+     "streak": 12,
+     "last_fail": "2026-07-20"
+    }
+   ]
+  },
+  "1726634612227": {
+   "front": "to organize, set up (an event, group)",
+   "back": "организо́вывать / организова́ть (+a)",
+   "deck": "Vocab::10000 words",
+   "cards": [
+    {
+     "state": "suspended",
+     "lapses": 8,
+     "streak": 0,
+     "last_fail": "2026-09-23"
+    },
+    {
+     "state": "128d",
+     "lapses": 0,
+     "streak": 6,
+     "last_fail": "—"
+    }
+   ]
+  },
+  "1726634612704": {
+   "front": "to get on with (s.o.)",
+   "back": "ла́дить / пола́дить&nbsp;(с +inst)",
+   "deck": "Vocab::10000 words",
+   "cards": [
+    {
+     "state": "suspended",
+     "lapses": 9,
+     "streak": 3,
+     "last_fail": "2026-08-19"
+    },
+    {
+     "state": "197d",
+     "lapses": 0,
+     "streak": 7,
+     "last_fail": "—"
+    }
+   ]
+  },
+  "1753142576231": {
+   "front": "chestnut (adj)",
+   "back": "кашта́новый",
+   "deck": "Vocab::10000 words",
+   "cards": [
+    {
+     "state": "suspended",
+     "lapses": 10,
+     "streak": 4,
+     "last_fail": "2026-08-04"
+    },
+    {
+     "state": "218d",
+     "lapses": 0,
+     "streak": 6,
+     "last_fail": "—"
+    }
+   ]
+  },
+  "1763873380032": {
+   "front": "to arise, be born",
+   "back": "зарожда́ться /&nbsp;зароди́ться",
+   "deck": "Vocab::10000 words",
+   "cards": [
+    {
+     "state": "suspended",
+     "lapses": 10,
+     "streak": 8,
+     "last_fail": "2026-08-03"
+    },
+    {
+     "state": "67d",
+     "lapses": 1,
+     "streak": 12,
+     "last_fail": "2026-01-03"
+    }
+   ]
+  },
+  "1764463609744": {
+   "front": "know-all",
+   "back": "всезна́йка",
+   "deck": "Vocab::10000 words",
+   "cards": [
+    {
+     "state": "suspended",
+     "lapses": 8,
+     "streak": 0,
+     "last_fail": "2026-09-22"
+    },
+    {
+     "state": "140d",
+     "lapses": 0,
+     "streak": 6,
+     "last_fail": "—"
+    }
+   ]
+  },
+  "1768484216152": {
+   "front": "brevity",
+   "back": "кра́ткость",
+   "deck": "Vocab::10000 words",
+   "cards": [
+    {
+     "state": "4d",
+     "lapses": 7,
+     "streak": 5,
+     "last_fail": "2026-09-24"
+    },
+    {
+     "state": "114d",
+     "lapses": 0,
+     "streak": 6,
+     "last_fail": "—"
+    }
+   ]
+  },
+  "1768947180293": {
+   "front": "inhabited [sense: any living beings]",
+   "back": "обита́емый",
+   "deck": "Vocab::10000 words",
+   "cards": [
+    {
+     "state": "suspended",
+     "lapses": 8,
+     "streak": 2,
+     "last_fail": "2026-08-24"
+    },
+    {
+     "state": "286d",
+     "lapses": 0,
+     "streak": 6,
+     "last_fail": "—"
+    }
+   ]
+  },
+  "1769733831524": {
+   "front": "cash",
+   "back": "нали́чные",
+   "deck": "Vocab::10000 words",
+   "cards": [
+    {
+     "state": "suspended",
+     "lapses": 9,
+     "streak": 7,
+     "last_fail": "2026-07-18"
+    },
+    {
+     "state": "7d",
+     "lapses": 1,
+     "streak": 3,
+     "last_fail": "2026-09-22"
+    }
+   ]
+  },
+  "1774084455229": {
+   "front": "residence, inhabitation",
+   "back": "прожива́ние",
+   "deck": "Vocab::10000 words",
+   "cards": [
+    {
+     "state": "suspended",
+     "lapses": 11,
+     "streak": 1,
+     "last_fail": "2026-08-29"
+    },
+    {
+     "state": "9d",
+     "lapses": 3,
+     "streak": 9,
+     "last_fail": "2026-09-04"
+    }
+   ]
+  },
+  "1780660539310": {
+   "front": "To live (general), to get on, to get along",
+   "back": "пожива́ть",
+   "deck": "Vocab::10000 words",
+   "cards": [
+    {
+     "state": "suspended",
+     "lapses": 9,
+     "streak": 3,
+     "last_fail": "2026-08-24"
+    },
+    {
+     "state": "77d",
+     "lapses": 0,
+     "streak": 5,
+     "last_fail": "—"
+    }
+   ]
+  }
+ }
+}

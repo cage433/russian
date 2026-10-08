@@ -242,6 +242,16 @@ suspension or an inherited lapse count. When copying scheduling onto a cloze car
 (2026-10-08: 9 notes untagged, 81 cards unsuspended, 108 lapse counts zeroed; lists in
 `tutoring/retired/`.)
 
+**Leech list and release** (Alex, 2026-10-08: many leeches are "words I pretty much know now with
+the occasional fail" — treat them as such, don't restructure them). `tutoring/leeches.md` lists
+every `tag:leech` note with per-direction state, lapses, pass streak and last fail;
+`tutoring/leeches.json` is the same list for the script. **Alex untags the words he knows in the
+browser**, then `scripts/leech_release.py` (`--dry-run` first) releases every snapshot note that
+lost the tag: Forget all its cards, zero reps/lapses, unsuspend, front of the deck's new queue
+(EN→RU cards ahead of RU→EN), so they return as new words over the following weeks at the deck's
+rate. It then rewrites the snapshot. **Any untag we do ourselves (recovery rule, restructuring)
+must be followed by `--snapshot`**, or the next release run will Forget those words too.
+
 ## Recovered leeches (FSRS "difficulty hell")
 The collection schedules with **FSRS** (revlog `factor` 100–1000 = difficulty ×100; the 1300–2500
 `factor` on cards is a pre-FSRS leftover and means nothing now). A card with many old lapses sits at
