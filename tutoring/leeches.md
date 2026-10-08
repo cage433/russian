@@ -1,6 +1,6 @@
 # Leeches — 2026-10-08
 
-45 notes tagged `leech`. Untag a word in the Anki browser if you now know it, then run
+44 notes tagged `leech`. Untag a word in the Anki browser if you now know it, then run
 `scripts/leech_release.py`: it comes back as a **new** word (both directions, history reset)
 at the front of its deck's new queue. `streak` = passes in a row since the last fail.
 
@@ -24,7 +24,6 @@ at the front of its deck's new queue. `streak` = passes in a row since the last 
 | кры́ша | roof | suspended, 10 lapses, streak 5, last fail 2026-08-17 | 198d, 0 lapses, streak 5, last fail — |
 | крыло́ | wing | suspended, 5 lapses, streak 0, last fail 2026-10-06 | 64d, 1 lapses, streak 7, last fail 2026-06-23 |
 | купа́ться / искупа́ться | to bathe | suspended, 11 lapses, streak 0, last fail 2026-08-30 | 33d, 1 lapses, streak 7, last fail 2026-05-17 |
-| ми́лый | sweet, lovely, dear / darling | suspended, 8 lapses, streak 1, last fail 2026-08-27 | 8d, 5 lapses, streak 6, last fail 2026-09-03 |
 | ми́рный | peaceful, peaceable / civilian (adj) | suspended, 11 lapses, streak 6, last fail 2026-08-01 | suspended, 8 lapses, streak 0, last fail 2026-09-24 |
 | наслажда́ться / наслади́ться (+inst) | to enjoy, to delight (in) | suspended, 8 lapses, streak 5, last fail 2026-07-31 | 82d, 0 lapses, streak 7, last fail — |
 | обита́емый | inhabited [sense: any living beings] | suspended, 8 lapses, streak 2, last fail 2026-08-24 | 286d, 0 lapses, streak 6, last fail — |
