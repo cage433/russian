@@ -1,0 +1,542 @@
+[
+ {
+  "noteId": 1729336953262,
+  "profile": "User 1",
+  "tags": [],
+  "fields": {
+   "Front": {
+    "value": "That m.",
+    "order": 0
+   },
+   "Back": {
+    "value": "тот<br>тот / того́<br>того́<br>тому́<br>тем<br>том<br><br> [sound:hypertts-07afb746d4cfddf287e8e5f875c584ad76851a9b410a1f6e1f499096.mp3]",
+    "order": 1
+   }
+  },
+  "modelName": "Basic",
+  "mod": 1729357593,
+  "cards": [
+   1729336953262
+  ]
+ },
+ {
+  "noteId": 1729336953265,
+  "profile": "User 1",
+  "tags": [],
+  "fields": {
+   "Front": {
+    "value": "That pl.",
+    "order": 0
+   },
+   "Back": {
+    "value": "те<br>те / тех<br>тех<br>тем<br>те́ми<br>тех<br><br> [sound:hypertts-77bdd56bd7ed66b0fbb9084ee1df34cb21e71a65f7461d793d349a04.mp3]",
+    "order": 1
+   }
+  },
+  "modelName": "Basic",
+  "mod": 1729357596,
+  "cards": [
+   1729336953265
+  ]
+ },
+ {
+  "noteId": 1729336953267,
+  "profile": "User 1",
+  "tags": [],
+  "fields": {
+   "Front": {
+    "value": "That acc.",
+    "order": 0
+   },
+   "Back": {
+    "value": "тот / того́<br>ту<br>то<br>те / тех<br><br> [sound:hypertts-051547047f61913789cec401372b2dd4496cb8a273961e8c5e7863ac.mp3]",
+    "order": 1
+   }
+  },
+  "modelName": "Basic",
+  "mod": 1729357598,
+  "cards": [
+   1729336953267
+  ]
+ },
+ {
+  "noteId": 1729336953272,
+  "profile": "User 1",
+  "tags": [],
+  "fields": {
+   "Front": {
+    "value": "This m.",
+    "order": 0
+   },
+   "Back": {
+    "value": "э́тот<br>э́тот / э́того<br>э́того<br>э́тому<br>э́тим<br>э́том<br><br> [sound:hypertts-e2f07b5706df892369aed8e522834ff241ad524433bd0d5bb95285e1.mp3]",
+    "order": 1
+   }
+  },
+  "modelName": "Basic",
+  "mod": 1729357603,
+  "cards": [
+   1729336953272
+  ]
+ },
+ {
+  "noteId": 1729336953275,
+  "profile": "User 1",
+  "tags": [],
+  "fields": {
+   "Front": {
+    "value": "This pl.",
+    "order": 0
+   },
+   "Back": {
+    "value": "э́ти<br>э́ти / э́тих<br>э́тих<br>э́тим<br>э́тими<br>э́тих<br><br> [sound:hypertts-d556b022674d7181496344e8634a13995b0f715c9c94ad47c1414749.mp3]",
+    "order": 1
+   }
+  },
+  "modelName": "Basic",
+  "mod": 1729357606,
+  "cards": [
+   1729336953275
+  ]
+ },
+ {
+  "noteId": 1729336953277,
+  "profile": "User 1",
+  "tags": [],
+  "fields": {
+   "Front": {
+    "value": "This acc.",
+    "order": 0
+   },
+   "Back": {
+    "value": "э́тот / э́того<br>э́ту<br>э́то<br>э́ти / э́тих<br><br> [sound:hypertts-4befff38a1c6aa9c7424b9a3afd44521329ce6c99cecaf018fff275f.mp3]",
+    "order": 1
+   }
+  },
+  "modelName": "Basic",
+  "mod": 1729357608,
+  "cards": [
+   1729336953277
+  ]
+ },
+ {
+  "noteId": 1729336953282,
+  "profile": "User 1",
+  "tags": [],
+  "fields": {
+   "Front": {
+    "value": "Your (s) m.",
+    "order": 0
+   },
+   "Back": {
+    "value": "твой<br>твой / твоего́<br>твоего́<br>твоему́<br>твои́м<br>твоём<br><br> [sound:hypertts-2683062d484c99e73a6089cecff7ffc29d29ae51ef4065d536ef48c2.mp3]",
+    "order": 1
+   }
+  },
+  "modelName": "Basic",
+  "mod": 1729357614,
+  "cards": [
+   1729336953282
+  ]
+ },
+ {
+  "noteId": 1729336953285,
+  "profile": "User 1",
+  "tags": [],
+  "fields": {
+   "Front": {
+    "value": "Your (s) pl.",
+    "order": 0
+   },
+   "Back": {
+    "value": "твои́<br>твои́ / твои́х<br>твои́х<br>твои́м<br>твои́ми<br>твои́х<br><br> [sound:hypertts-81961a166294446a3bb9cb19b86e30ab2c19fc615353dd4700fc2ec8.mp3]",
+    "order": 1
+   }
+  },
+  "modelName": "Basic",
+  "mod": 1729357617,
+  "cards": [
+   1729336953285
+  ]
+ },
+ {
+  "noteId": 1729336953287,
+  "profile": "User 1",
+  "tags": [],
+  "fields": {
+   "Front": {
+    "value": "Your (s) acc.",
+    "order": 0
+   },
+   "Back": {
+    "value": "твой / твоего́<br>твою́<br>твоё<br>твои́ / твои́х<br><br> [sound:hypertts-d42895836c8a5647843685bd26471e8efebe818f23fad9414867d72c.mp3]",
+    "order": 1
+   }
+  },
+  "modelName": "Basic",
+  "mod": 1729357619,
+  "cards": [
+   1729336953287
+  ]
+ },
+ {
+  "noteId": 1729336953292,
+  "profile": "User 1",
+  "tags": [],
+  "fields": {
+   "Front": {
+    "value": "Your (pl) m.",
+    "order": 0
+   },
+   "Back": {
+    "value": "ваш<br>ваш / ва́шего<br>ва́шего<br>ва́шему<br>ва́шим<br>ва́шем<br><br> [sound:hypertts-94674a1d2409532a49803b96020fc73be7d04f38a8259fbc7981330d.mp3]",
+    "order": 1
+   }
+  },
+  "modelName": "Basic",
+  "mod": 1729357624,
+  "cards": [
+   1729336953292
+  ]
+ },
+ {
+  "noteId": 1729336953295,
+  "profile": "User 1",
+  "tags": [],
+  "fields": {
+   "Front": {
+    "value": "Your (pl) pl.",
+    "order": 0
+   },
+   "Back": {
+    "value": "ва́ши<br>ва́ши / ва́ших<br>ва́ших<br>ва́шим<br>ва́шими<br>ва́ших<br><br> [sound:hypertts-6363631dcf48a5a80c9cd9e0a26e33673db3a9fa0d852c7ad7a20e27.mp3]",
+    "order": 1
+   }
+  },
+  "modelName": "Basic",
+  "mod": 1729357627,
+  "cards": [
+   1729336953295
+  ]
+ },
+ {
+  "noteId": 1729336953297,
+  "profile": "User 1",
+  "tags": [],
+  "fields": {
+   "Front": {
+    "value": "Your (pl) acc.",
+    "order": 0
+   },
+   "Back": {
+    "value": "ваш / ва́шего<br>ва́шу<br>ва́ше<br>ва́ши / ва́ших<br><br> [sound:hypertts-cb4204aba06c8990286b2a944c6179ede8b2095792b8fc6c71ebff59.mp3]",
+    "order": 1
+   }
+  },
+  "modelName": "Basic",
+  "mod": 1729357630,
+  "cards": [
+   1729336953297
+  ]
+ },
+ {
+  "noteId": 1729336953302,
+  "profile": "User 1",
+  "tags": [],
+  "fields": {
+   "Front": {
+    "value": "My m.",
+    "order": 0
+   },
+   "Back": {
+    "value": "мой<br>мой / моего́<br>моего́<br>моему́<br>мои́м<br>моём<br><br> [sound:hypertts-44ef1fa602a40cfa43a57281ed459f7e69965a633a9ddcb8a2b5310e.mp3]",
+    "order": 1
+   }
+  },
+  "modelName": "Basic",
+  "mod": 1751698274,
+  "cards": [
+   1729336953302
+  ]
+ },
+ {
+  "noteId": 1729336953305,
+  "profile": "User 1",
+  "tags": [],
+  "fields": {
+   "Front": {
+    "value": "My pl.",
+    "order": 0
+   },
+   "Back": {
+    "value": "мои́<br>мои́ / мои́х<br>мои́х<br>мои́м<br>мои́ми<br>мои́х<br><br> [sound:hypertts-0ecc5240fced74bda9c5dd943b5fa244917ea4e977e7af11bae7cebe.mp3]",
+    "order": 1
+   }
+  },
+  "modelName": "Basic",
+  "mod": 1751698354,
+  "cards": [
+   1729336953305
+  ]
+ },
+ {
+  "noteId": 1729336953307,
+  "profile": "User 1",
+  "tags": [],
+  "fields": {
+   "Front": {
+    "value": "My acc.",
+    "order": 0
+   },
+   "Back": {
+    "value": "мой / моего<br>мою́<br>моё<br>мои́ / мои́х<br><br> [sound:hypertts-c039b96ffb660aacdbbdcef00bd7c7630f1bdb0d4b58e4496030c407.mp3]",
+    "order": 1
+   }
+  },
+  "modelName": "Basic",
+  "mod": 1751698359,
+  "cards": [
+   1729336953307
+  ]
+ },
+ {
+  "noteId": 1729336953312,
+  "profile": "User 1",
+  "tags": [],
+  "fields": {
+   "Front": {
+    "value": "Our m.",
+    "order": 0
+   },
+   "Back": {
+    "value": "наш<br>наш / на́шего<br>на́шего<br>на́шему<br>на́шим<br>на́шем<br><br> [sound:hypertts-359fa24d0fcd0c952134159b1c0845030591b70dffd4b1c384df1dcf.mp3]",
+    "order": 1
+   }
+  },
+  "modelName": "Basic",
+  "mod": 1729357645,
+  "cards": [
+   1729336953312
+  ]
+ },
+ {
+  "noteId": 1729336953315,
+  "profile": "User 1",
+  "tags": [],
+  "fields": {
+   "Front": {
+    "value": "Our pl.",
+    "order": 0
+   },
+   "Back": {
+    "value": "на́ши<br>на́ши / на́ших<br>на́ших<br>на́шим<br>на́шими<br>на́ших<br><br> [sound:hypertts-10fbf3c501ec745bf7850b993f819e56a2c6e5276703a7ed7806021b.mp3]",
+    "order": 1
+   }
+  },
+  "modelName": "Basic",
+  "mod": 1729357648,
+  "cards": [
+   1729336953315
+  ]
+ },
+ {
+  "noteId": 1729336953317,
+  "profile": "User 1",
+  "tags": [],
+  "fields": {
+   "Front": {
+    "value": "Our acc.",
+    "order": 0
+   },
+   "Back": {
+    "value": "наш / на́шего<br>на́шу<br>на́ше<br>на́ши / на́ших<br><br> [sound:hypertts-9a0aacf684543a8d5131345ec252328f6aed752c1a0cef174a6f34d2.mp3]",
+    "order": 1
+   }
+  },
+  "modelName": "Basic",
+  "mod": 1729357651,
+  "cards": [
+   1729336953317
+  ]
+ },
+ {
+  "noteId": 1729336953322,
+  "profile": "User 1",
+  "tags": [],
+  "fields": {
+   "Front": {
+    "value": "One's own m.",
+    "order": 0
+   },
+   "Back": {
+    "value": "свой<br>свой / своего́<br>своего́<br>своему́<br>свои́м<br>своём<br><br> [sound:hypertts-12e2dcdf420d620e6eb8f17b917ac095a9fec9afae54eb0cb18fb728.mp3]",
+    "order": 1
+   }
+  },
+  "modelName": "Basic",
+  "mod": 1729357656,
+  "cards": [
+   1729336953322
+  ]
+ },
+ {
+  "noteId": 1729336953325,
+  "profile": "User 1",
+  "tags": [],
+  "fields": {
+   "Front": {
+    "value": "One's own pl.",
+    "order": 0
+   },
+   "Back": {
+    "value": "свои́<br>свои́ / свои́х<br>свои́х<br>свои́м<br>свои́ми<br>свои́х<br><br> [sound:hypertts-ea6def71aa37e731dacc7f4cb6bac4c21a9185155af991b2483ad332.mp3]",
+    "order": 1
+   }
+  },
+  "modelName": "Basic",
+  "mod": 1729357659,
+  "cards": [
+   1729336953325
+  ]
+ },
+ {
+  "noteId": 1729336953327,
+  "profile": "User 1",
+  "tags": [],
+  "fields": {
+   "Front": {
+    "value": "One's own acc.",
+    "order": 0
+   },
+   "Back": {
+    "value": "свой / своего́<br>свою́<br>своё<br>свои́ / свои́х<br><br> [sound:hypertts-9d23ac2a1b94ca99d808bbaf33953730c965583a6743d01155b281d3.mp3]",
+    "order": 1
+   }
+  },
+  "modelName": "Basic",
+  "mod": 1729357661,
+  "cards": [
+   1729336953327
+  ]
+ },
+ {
+  "noteId": 1729336953339,
+  "profile": "User 1",
+  "tags": [],
+  "fields": {
+   "Front": {
+    "value": "All m.",
+    "order": 0
+   },
+   "Back": {
+    "value": "весь<br>весь / всего́<br>всего́<br>всему́<br>всем<br>всём<br><br> [sound:hypertts-acee245de3261a31668b57df150f9ce2e2cb39f35f9473045cba7b08.mp3]",
+    "order": 1
+   }
+  },
+  "modelName": "Basic",
+  "mod": 1729357671,
+  "cards": [
+   1729336953339
+  ]
+ },
+ {
+  "noteId": 1729336953342,
+  "profile": "User 1",
+  "tags": [],
+  "fields": {
+   "Front": {
+    "value": "All pl.",
+    "order": 0
+   },
+   "Back": {
+    "value": "все<br>все / всех<br>всех<br>всем<br>все́ми<br>всех<br><br> [sound:hypertts-4a802995ad40f5b4bc8621e88cdd4d4677a6ade18b3134dde7a215c7.mp3]",
+    "order": 1
+   }
+  },
+  "modelName": "Basic",
+  "mod": 1729357674,
+  "cards": [
+   1729336953342
+  ]
+ },
+ {
+  "noteId": 1729336953344,
+  "profile": "User 1",
+  "tags": [],
+  "fields": {
+   "Front": {
+    "value": "All acc.",
+    "order": 0
+   },
+   "Back": {
+    "value": "весь / всего́<br>всю<br>всё<br>все / всех<br><br> [sound:hypertts-21d00170824f482ea8a871b99eecdd3a18ccaac3249739aa29e5f05a.mp3]",
+    "order": 1
+   }
+  },
+  "modelName": "Basic",
+  "mod": 1729357677,
+  "cards": [
+   1729336953344
+  ]
+ },
+ {
+  "noteId": 1729336953349,
+  "profile": "User 1",
+  "tags": [],
+  "fields": {
+   "Front": {
+    "value": "Emph. m.",
+    "order": 0
+   },
+   "Back": {
+    "value": "сам<br>сам / самого́<br>самого́<br>самому́<br>сами́м<br>само́м<br><br> [sound:hypertts-6d3095a901fd8bb0e3187a936b2189d34a8eee1b23ea98d213c074e4.mp3]",
+    "order": 1
+   }
+  },
+  "modelName": "Basic",
+  "mod": 1744721562,
+  "cards": [
+   1729336953349
+  ]
+ },
+ {
+  "noteId": 1729336953352,
+  "profile": "User 1",
+  "tags": [],
+  "fields": {
+   "Front": {
+    "value": "Emph. pl.",
+    "order": 0
+   },
+   "Back": {
+    "value": "са́ми<br>са́ми / сами́х<br>сами́х<br>сами́м<br>сами́ми<br>сами́х<br><br> [sound:hypertts-5fbdc5e0aa540c2809e19bf9d1e526fa6430c678b5e206a3ecf4eacc.mp3]",
+    "order": 1
+   }
+  },
+  "modelName": "Basic",
+  "mod": 1729357685,
+  "cards": [
+   1729336953352
+  ]
+ },
+ {
+  "noteId": 1729336953354,
+  "profile": "User 1",
+  "tags": [],
+  "fields": {
+   "Front": {
+    "value": "Emph. acc.",
+    "order": 0
+   },
+   "Back": {
+    "value": "сам / са́мого<br>саму́<br>само́<br>са́ми / сами́х<br><br> [sound:hypertts-419845a4debab4de229d945531ea549361f4f16f4e270548b9d5ce8d.mp3]",
+    "order": 1
+   }
+  },
+  "modelName": "Basic",
+  "mod": 1729357687,
+  "cards": [
+   1729336953354
+  ]
+ }
+]
