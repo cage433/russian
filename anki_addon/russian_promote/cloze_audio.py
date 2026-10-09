@@ -117,12 +117,21 @@ def generate(col, note_ids, force=False, dry_run=False):
             results.append({"noteId": nid, "answers": ans})
             continue
         tags = []
+        aspect = 'class="ru-pair"' in note["Text"]
         for n in sorted(ans):
             processed = h.process_text(ans[n], batch.text_processing)
             ctx = ctx_mod.AudioRequestContext(consts.AudioRequestReason.batch)
             full, fname = h.get_audio_file(processed, batch.voice_selection, ctx)
             tag, _ = h.get_collection_sound_tag(full, fname)
-            tags.append(f"{{{{c{n}::{tag}}}}}")
+            if aspect and n == 3:
+                # Cloze Aspect card 3 (Russian → English): the template's script plays the pair on the
+                # FRONT from the ru-pair div's data-audio, with a ▶ button; the bare tag (outside any
+                # cloze) keeps the file referenced for Check Media without replaying on the answer side.
+                tags.append(tag)
+                note["Text"] = re.sub(r'<div class="ru-pair"(?: data-audio="[^"]*")?>',
+                                      f'<div class="ru-pair" data-audio="{fname}">', note["Text"], count=1)
+            else:
+                tags.append(f"{{{{c{n}::{tag}}}}}")
         note[AUDIO_FIELD] = " ".join(tags)
         col.update_note(note)
         results.append({"noteId": nid, "clozes": len(tags)})
