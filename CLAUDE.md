@@ -11,7 +11,8 @@ series. Words the textbooks teach that aren't already known get authored as flas
   so it can't use it). Fast-forwards the repo, creates the add-on symlink, and reports what needs
   a person: unpushed commits, a diverged branch, an add-on whose source changed after Anki loaded
   it (`addonInfo.stale` — a `git pull` does nothing until Anki restarts), non-default toggles, a
-  broken venv, decks with no limit stamped for today, stale drill caches. `--check` reports only;
+  broken venv, decks with no limit stamped for today, stale drill caches, cloze notes without
+  audio, and leeches untagged but not yet released (`leech_release.py`). `--check` reports only;
   `--quiet` prints just problems; exit 1 if any. Never pushes, commits, or merges non-fast-forward
   — unfinished work on the other laptop is normal, not an error. Repairs limits with
   `autoLimitNow(onlyUnstamped=True)` only, never the full pass (which mid-day would recompute

@@ -38,22 +38,42 @@ def clean_front(html):
 
 
 def main():
-    ids = a.call("findNotes", query=QUERY)
-    print(f"{len(ids)} studied notes matched `{QUERY}`", file=sys.stderr)
+    # Per CARD, not per note: a Cloze-family note (root family, near-synonym group, Cloze Aspect,
+    # Cloze Sentence) holds several words, and only the rows whose cards are studied count as known.
+    from export_learning_vocab import cloze_entry
+    cards = []
+    cids = a.call("findCards", query=QUERY)
+    for i in range(0, len(cids), 500):
+        cards += a.call("cardsInfo", cards=cids[i:i + 500])
+    ords = {}
+    for c in cards:
+        ords.setdefault(c["note"], set()).add(c["ord"] + 1)
+    ids = sorted(ords)
+    print(f"{len(ids)} studied notes ({len(cards)} cards) matched `{QUERY}`", file=sys.stderr)
 
     lemmas, rows, seen = set(), [], set()
+
+    def add(ru, en):
+        if not ru:
+            return
+        if ru not in seen:
+            seen.add(ru)
+            rows.append((ru, en))
+        for w in TOKEN.findall(ru):
+            if len(w) >= 2:
+                lemmas.add(w)
+                lemmas.add(a.lemma(w))
+
     for i in range(0, len(ids), 500):
         for n in a.call("notesInfo", notes=ids[i:i + 500]):
-            ru = a.norm(n["fields"]["Back"]["value"])          # destressed plain text, ё kept
-            if not ru:
+            f = n["fields"]
+            if "Text" in f:
+                for en, ru in cloze_entry(n["modelName"], f["Text"]["value"], ords[n["noteId"]]):
+                    if n["modelName"] == "Cloze Sentence":     # only the target word, not the sentence
+                        ru = " ".join(re.findall(r"\*\*(.*?)\*\*", ru))
+                    add(a.norm(ru.replace("<br>", " ")), en.replace("<br>", " "))
                 continue
-            if ru not in seen:
-                seen.add(ru)
-                rows.append((ru, clean_front(n["fields"]["Front"]["value"])))
-            for w in TOKEN.findall(ru):
-                if len(w) >= 2:
-                    lemmas.add(w)
-                    lemmas.add(a.lemma(w))
+            add(a.norm(f["Back"]["value"]), clean_front(f["Front"]["value"]))
 
     (ROOT / "known_lemmas.txt").write_text("\n".join(sorted(lemmas)) + "\n", encoding="utf-8")
     (ROOT / "known_vocab.tsv").write_text(

@@ -37,7 +37,7 @@ def main():
     known = set((ROOT / "known_lemmas.txt").read_text(encoding="utf-8").split())
 
     out, seen = [], set()
-    for tok in re.findall(r"[а-яёА-ЯЁ][а-яёА-ЯЁ-]*", text):
+    for tok in re.findall(r"[а-яёА-ЯЁ][а-яёА-ЯЁ\u0301-]*", text):
         w = a.destress(tok)                 # lowercase, stress stripped, ё kept
         if w in STOP:
             continue

@@ -394,6 +394,38 @@ def check_caches(rep, fix, running):
     rep.add("drill caches", FIXED, "rebuilt from the studied set")
 
 
+def check_audio(rep, running):
+    """Cloze-family notes get audio from generateClozeAudio, not the HyperTTS batch, so a new
+    note without it would otherwise go unnoticed (CLAUDE.md, Audio rule)."""
+    if not running:
+        return rep.add("cloze audio", SKIP, "Anki not running")
+    missing = anki("findNotes", query='("note:Cloze" or "note:Cloze Aspect" or "note:Cloze Sentence") Audio:')
+    if missing is None:
+        return rep.add("cloze audio", WARN, "query failed")
+    if missing:
+        return rep.add("cloze audio", WARN, f"{len(missing)} cloze note(s) without audio — "
+                                            "generateClozeAudio(noteIds)")
+    rep.add("cloze audio", OK, "every cloze note has audio")
+
+
+def check_leech_release(rep, running):
+    """Notes in tutoring/leeches.json that have lost the leech tag are waiting for
+    scripts/leech_release.py (Alex untags in the browser; the release resets them to new)."""
+    snap = ROOT / "tutoring" / "leeches.json"
+    if not running or not snap.exists():
+        return rep.add("leech release", SKIP, "Anki not running" if not running else "no snapshot")
+    listed = {int(n) for n in json.loads(snap.read_text())["notes"]}
+    tagged = set(anki("findNotes", query="tag:leech") or [])
+    pending = listed - tagged
+    if pending:
+        existing = anki("notesInfo", notes=sorted(pending)) or []
+        pending = [n for n in existing if n.get("fields")]
+    if pending:
+        return rep.add("leech release", WARN, f"{len(pending)} untagged leech(es) not yet released — "
+                                              "scripts/leech_release.py --dry-run")
+    rep.add("leech release", OK, f"{len(listed)} parked, none pending")
+
+
 def main():
     ap = argparse.ArgumentParser(
         description=__doc__.split("\n")[0],
@@ -428,6 +460,8 @@ def main():
     check_exec_bits(rep)
     check_limits(rep, fix, actions is not None)
     check_caches(rep, fix, actions is not None)
+    check_audio(rep, actions is not None)
+    check_leech_release(rep, actions is not None)
 
     problems = rep.problems()
     if not args.quiet:
