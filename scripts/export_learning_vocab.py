@@ -2,7 +2,8 @@
 """Write Obsidian notes listing the vocab currently in Anki's learning steps, split by
 part of speech.
 
-Scope: `deck:Vocab::* is:learn -is:review -is:suspended` — cards part-way through their
+Scope: `deck:Vocab::* is:learn -is:review -is:suspended`, per **card**: a Cloze-family note (root family,
+near-synonym group, Cloze Aspect, Cloze Sentence) contributes only the rows whose cards are learning. — cards part-way through their
 **first** pass through the learning steps.
 
 Both exclusions matter, and neither is obvious:
@@ -89,13 +90,76 @@ def briefly(en, ru):
     return en, " / ".join(p for p in parts if p)
 
 
+CLOZE = re.compile(r"\{\{c(\d+)::(.*?)(?:::[^}]*)?\}\}", re.S)
+
+
+def cloze_entry(model, text, ords):
+    """Cloze-family notes (root families, near-synonym groups, Cloze Aspect, Cloze Sentence) ->
+    (english, russian) for the row(s) the learning cards are teaching. One Anki note holds many
+    words, so only the clozes whose cards are in the query are listed."""
+    if model == "Cloze Aspect":
+        pair = re.search(r'ru-pair[^>]*>(.*?)</div>', text, re.S)
+        gloss = re.search(r"\{\{c3::(.*?)\}\}", text, re.S)
+        return [(clean(gloss.group(1)) if gloss else "", clean(pair.group(1)) if pair else "")]
+    if model == "Cloze Sentence":
+        out = []
+        for div in re.findall(r'<div class="sent">(.*?)</div>', text, re.S):
+            m = CLOZE.search(div)
+            if m and int(m.group(1)) in ords:
+                en = re.search(r'<span class="en">(.*?)</span>', div, re.S)
+                ru = CLOZE.sub(lambda x: f"**{x.group(2)}**", re.sub(r'<span class="en">.*?</span>', "", div, flags=re.S))
+                out.append((clean(en.group(1)) if en else "", clean(ru)))
+        return out
+    head = re.search(r"<b>(.*?)</b>", text, re.S)
+    head = clean(head.group(1)) if head else ""
+    out = []
+    for row in re.findall(r"<tr>(.*?)</tr>", text, re.S):
+        nums = {int(n) for n, _ in CLOZE.findall(row)}
+        if not nums & ords:
+            continue
+        cells = re.findall(r"<td([^>]*)>(.*?)</td>", row, re.S)
+        word = " ".join(clean(c) for attrs, c in cells
+                        if "{{c" in c and 'class="pc"' not in attrs and 'class="pm"' not in attrs)
+        word = clean(CLOZE.sub(lambda x: x.group(2), word))
+        gloss = [clean(c) for attrs, c in cells if "{{c" not in c and 'class="pm"' not in attrs
+                 and not re.fullmatch(r"\s*\d+:\s*", clean(c))]
+        en = gloss[0] if gloss else ""
+        # near-synonym rows only make sense with their headword; root rows gain their root
+        out.append((f"{head}: {en}" if head and not en.lower().startswith("to ") else en, word))
+    return out
+
+
+def pos_tags(en, tags):
+    """Cloze rows mostly carry no POS tag; infer one from the gloss so they land in a group."""
+    pos = tags & {"noun", "verb", "adj", "adv"}
+    if pos:
+        return pos
+    if en.lower().startswith("to "):
+        return {"verb"}
+    if "(adj" in en:
+        return {"adj"}
+    return set()
+
+
 def fetch(query):
     """-> list of (english, russian, {tags}) with fields cleaned but not yet condensed."""
-    nids = a.call("findNotes", query=query)
+    cards = []
+    cids = a.call("findCards", query=query)
+    for i in range(0, len(cids), 500):
+        cards += a.call("cardsInfo", cards=cids[i:i + 500])
+    ords = {}
+    for c in cards:
+        ords.setdefault(c["note"], set()).add(c["ord"] + 1)
+    nids = sorted(ords)
     out = []
     for i in range(0, len(nids), 500):
         for n in a.call("notesInfo", notes=nids[i:i + 500]):
             f = n["fields"]
+            if "Text" in f:
+                for en, ru in cloze_entry(n["modelName"], f["Text"]["value"], ords[n["noteId"]]):
+                    if en or ru:
+                        out.append((en, ru, pos_tags(en, set(n["tags"]))))
+                continue
             en, ru = clean(f["Front"]["value"]), clean(f["Back"]["value"])
             # The motion cards' `Verb of motion` header is card-type metadata, not gloss.
             # Left in, it sorts all nine under "V" and — worse — `briefly()` takes the first
