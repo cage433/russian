@@ -310,13 +310,14 @@ def render_synonym_group(en, ru):
 
 
 def render_roots():
-    if not ROOT_CARDS:
+    """One table, one row per learning card: the row as it appears on the Anki card, plus its root."""
+    rows = [(h, r) for h, rs in ROOT_CARDS for r in rs if r[0].startswith("**")]
+    if not rows:
         return "*(none right now)*\n"
-    out = []
-    for header, rows in sorted(ROOT_CARDS, key=lambda r: r[0]):
-        out += [f"**{header}**", "", "| English | Prefix | Русский | Prefix meaning |", "|---|---|---|---|"]
-        out += [f"| {' | '.join(r)} |" for r in rows] + [""]
-    return "\n".join(out)
+    plain = lambda c: c.replace("**", "")
+    out = ["| Root | English | Prefix | Русский | Prefix meaning |", "|---|---|---|---|---|"]
+    out += [f"| {h} | {' | '.join(plain(c) for c in r)} |" for h, r in sorted(rows, key=lambda x: x[0])]
+    return "\n".join(out) + "\n"
 
 
 def render_group(name, pairs, query, stamp, coming=()):
