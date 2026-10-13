@@ -233,6 +233,9 @@ def fetch(query=None, cards=None):
                 for en, ru in cloze_entry(n["modelName"], f["Text"]["value"], ords[n["noteId"]]):
                     if en or ru:
                         tags = {"root"} if "root" in n["tags"] else pos_tags(en, set(n["tags"]))
+                        if "root" in n["tags"] and ": " not in en:      # always show the root
+                            h = re.search(r"<b>(.*?)</b>", f["Text"]["value"], re.S)
+                            en = f"{clean(h.group(1))}: {en}" if h else en
                         out.append((en, ru, tags))
                 continue
             en, ru = clean(f["Front"]["value"]), clean(f["Back"]["value"])
@@ -243,7 +246,7 @@ def fetch(query=None, cards=None):
             en = re.sub(r"^Verb of motion<br>", "", en, flags=re.I)
             if en or ru:
                 out.append((en, ru, set(n["tags"])))
-    out = [(en, with_forms(ru) if ("verb" in tags or (tags == {"root"} and en.lower().startswith("to ")))
+    out = [(en, with_forms(ru) if ("verb" in tags or (tags == {"root"} and re.search(r"(^|: )to ", en)))
             else ru, tags) for en, ru, tags in out]
     return sorted(out, key=lambda r: r[0].casefold())
 
