@@ -239,7 +239,7 @@ def render_section(pairs):
 
 def render_index(buckets, total, query, stamp, coming=None):
     coming = coming or {g: [] for g, _ in GROUPS}
-    return "\n".join(["| Group | Learning |", "|---|---|---|"] +
+    return "\n".join(["| Group | Learning |", "|---|---|"] +
                       [f"| [[{g}]] | {len(buckets[g])} |" for g, _ in GROUPS] + [""])
 
 
