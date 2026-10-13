@@ -217,6 +217,25 @@ def cards_for(query):
     return cards
 
 
+ROOT_CARDS = []   # (header, rows, learning ords) for root-family notes, rendered like the Anki card
+
+
+def root_table(text, ords):
+    """A root-family note as it looks in Anki: header + English | prefix | Russian | prefix meaning,
+    with the rows being learned in bold."""
+    head = re.search(r"<b>(.*?)</b>(.*?)<br>", text, re.S)
+    header = clean(head.group(1) + head.group(2)) if head else ""
+    rows = []
+    for row in re.findall(r"<tr>(.*?)</tr>", text, re.S):
+        nums = {int(n) for n, _ in CLOZE.findall(row)}
+        cells = [CLOZE.sub(lambda x: x.group(2), c) for c in re.findall(r"<td[^>]*>(.*?)</td>", row, re.S)]
+        cells = [clean(c) for c in cells] + [""] * (4 - len(cells))
+        if nums & ords:
+            cells = [f"**{c}**" if c else c for c in cells]
+        rows.append(cells[:4])
+    return header, rows
+
+
 def fetch(query=None, cards=None):
     """-> list of (english, russian, {tags}) with fields cleaned but not yet condensed."""
     if cards is None:
@@ -229,6 +248,9 @@ def fetch(query=None, cards=None):
     for i in range(0, len(nids), 500):
         for n in a.call("notesInfo", notes=nids[i:i + 500]):
             f = n["fields"]
+            if "Text" in f and "root" in n["tags"]:
+                ROOT_CARDS.append(root_table(f["Text"]["value"], ords[n["noteId"]]))
+                continue
             if "Text" in f:
                 for en, ru in cloze_entry(n["modelName"], f["Text"]["value"], ords[n["noteId"]]):
                     if en or ru:
@@ -287,8 +309,20 @@ def render_synonym_group(en, ru):
     return "\n".join([f"**{head}**", "", "| # | English | Русский |", "|---|---|---|"] + rows)
 
 
+def render_roots():
+    if not ROOT_CARDS:
+        return "*(none right now)*\n"
+    out = []
+    for header, rows in sorted(ROOT_CARDS, key=lambda r: r[0]):
+        out += [f"**{header}**", "", "| English | Prefix | Русский | Prefix meaning |", "|---|---|---|---|"]
+        out += [f"| {' | '.join(r)} |" for r in rows] + [""]
+    return "\n".join(out)
+
+
 def render_group(name, pairs, query, stamp, coming=()):
     """Cards already in play (learning, or first seen in the last few days), then today's new ones."""
+    if name == "Roots":
+        return render_roots()
     out = render_section(pairs)
     if coming:
         out += "\n## New today\n\n" + render_section(coming)
@@ -314,7 +348,7 @@ def render_section(pairs):
 def render_index(buckets, total, query, stamp, coming=None):
     coming = coming or {g: [] for g, _ in GROUPS}
     return "\n".join(["| Group | Learning |", "|---|---|"] +
-                      [f"| [[{g}]] | {len(buckets[g])} |" for g, _ in GROUPS] + [""])
+                      [f"| [[{g}]] | {sum(1 for _, rows in ROOT_CARDS for r in rows if r[0].startswith('**')) if g == 'Roots' else len(buckets[g])} |" for g, _ in GROUPS] + [""])
 
 
 if __name__ == "__main__":
@@ -345,6 +379,8 @@ if __name__ == "__main__":
     # folder note: sits beside the folder, same name, so Obsidian treats it as its index
     (args.out_dir.parent / f"{args.out_dir.name}.md").write_text(index, encoding="utf-8")
 
-    print(f"{len(entries)} words -> {args.out_dir}/")
+    n_root = sum(1 for _, rows in ROOT_CARDS for r in rows if r[0].startswith("**"))
+    buckets["Roots"] = [None] * n_root
+    print(f"{len(entries) + n_root} words -> {args.out_dir}/")
     for g, _ in GROUPS:
         print(f"    {g}.md  {len(buckets[g])}")
