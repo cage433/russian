@@ -183,7 +183,7 @@ series. Words the textbooks teach that aren't already known get authored as flas
   pymorphy3 drafts hand-checked and stressed (`tutoring/retired/aspect-batchB-forms-*.json`); 3rd-person-only
   verbs show «(3rd person) хо́чется», defective ones «(1sg not used)». History: impf and pf cards both took
   the old EN→RU card's scheduling, the RU→EN card the old reverse card's. Converters:
-  `scripts/aspect_convert_batch.py` / `_b.py`. **Card 3 audio plays on the FRONT** (Alex, 2026-10-09): the
+  `scripts/aspect_convert_batch.py` / `_b.py`. **Lesson (2026-10-13):** giving the pf card a copy of the old EN→RU history was a mistake — that card never tested the perfective's forms, so inherited pf cards failed at 39% on review (63% in relearning). The 159 not yet reached were reset to new (`tutoring/retired/pf-inherited-reset-*.json`). Future conversions: pf card starts new. **Card 3 audio plays on the FRONT** (Alex, 2026-10-09): the
   pair's recording is named in `<div class="ru-pair" data-audio="…">` and a template script plays it when the
   Russian appears, with a ▶ below the English; in the Audio field its `[sound:]` sits **outside** any cloze, so
   Check Media keeps the file but the answer side doesn't replay it. `generateClozeAudio` writes this layout. Inceptive (за-) and delimitative (по-) "perfectives" are not
