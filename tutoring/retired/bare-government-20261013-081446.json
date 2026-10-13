@@ -1,0 +1,241 @@
+[
+ {
+  "noteId": 1698944718999,
+  "profile": "User 1",
+  "tags": [],
+  "fields": {
+   "Front": {
+    "value": "into; <br>in",
+    "order": 0
+   },
+   "Back": {
+    "value": "в + acc.; <br>+ prep.<br><br> [sound:hypertts-f976b280f26d0711e8e0fd14a7e9081e14cebfdb4b25836180435863.mp3]",
+    "order": 1
+   },
+   "Example": {
+    "value": "Он вошёл в ко́мнату и сел за стол.",
+    "order": 2
+   }
+  },
+  "modelName": "Basic (and reversed card)",
+  "mod": 1783063605,
+  "cards": [
+   1698944719014,
+   1698944719015
+  ]
+ },
+ {
+  "noteId": 1698946633266,
+  "profile": "User 1",
+  "tags": [],
+  "fields": {
+   "Front": {
+    "value": "with",
+    "order": 0
+   },
+   "Back": {
+    "value": "с + inst.<br><br> [sound:hypertts-bbe7d52ebc83bf5e40530b753f52ee1c913d74b75a476814d007c686.mp3]",
+    "order": 1
+   },
+   "Example": {
+    "value": "Он пьёт ко́фе с молоко́м.",
+    "order": 2
+   }
+  },
+  "modelName": "Basic (and reversed card)",
+  "mod": 1783063611,
+  "cards": [
+   1698946633351,
+   1698946633352
+  ]
+ },
+ {
+  "noteId": 1698947545552,
+  "profile": "User 1",
+  "tags": [],
+  "fields": {
+   "Front": {
+    "value": "to get married (of man to woman);<br>to marry (of woman to man);<br>married (of man or couple);<br>married (of woman)",
+    "order": 0
+   },
+   "Back": {
+    "value": "жени́ться на + prep.;<br>выходи́ть ( pf. вы́йти) за́муж за + acc;<br>жена́т, -ы;<br>за́мужем<br><br> [sound:hypertts-8d49b7169679df6c8e27e51019042a82835b27f03b915780482f174e.mp3]",
+    "order": 1
+   },
+   "Example": {
+    "value": "Он жени́лся на свое́й однокла́сснице в про́шлом году́.",
+    "order": 2
+   }
+  },
+  "modelName": "Basic (and reversed card)",
+  "mod": 1791670835,
+  "cards": [
+   1698947545577,
+   1698947545578
+  ]
+ },
+ {
+  "noteId": 1698947545573,
+  "profile": "User 1",
+  "tags": [],
+  "fields": {
+   "Front": {
+    "value": "Need to<br><br>надо is less formal<br>нужен can also with a noun, taking the case of the object, e.g&nbsp;<br><br>Мне нужен новое кресло (I need a new armchair)",
+    "order": 0
+   },
+   "Back": {
+    "value": "ну́жен, нужна́, ну́жно, нужны́ + inf<br>на́до + inf<br><br> [sound:hypertts-05ff44a1f045ccba7b7562ae3d489f60193c7986066bad450b982221.mp3]",
+    "order": 1
+   },
+   "Example": {
+    "value": "Мне на́до купи́ть проду́кты в магази́не.",
+    "order": 2
+   }
+  },
+  "modelName": "Basic (and reversed card)",
+  "mod": 1783063614,
+  "cards": [
+   1698947545619,
+   1698947545620
+  ]
+ },
+ {
+  "noteId": 1698947985805,
+  "profile": "User 1",
+  "tags": [
+   "prep"
+  ],
+  "fields": {
+   "Front": {
+    "value": "past, by (prep./adv.)",
+    "order": 0
+   },
+   "Back": {
+    "value": "ми́мо +g<br><br>[sound:hypertts-004faeda9f3421de871096bb0f1f0abc4af69d67d7ef46ef27b9cf77.mp3]",
+    "order": 1
+   },
+   "Example": {
+    "value": "Она́ прошла́ ми́мо него́, да́же не взгляну́в в его́ сто́рону.",
+    "order": 2
+   }
+  },
+  "modelName": "Basic (and reversed card)",
+  "mod": 1791446967,
+  "cards": [
+   1698947985853,
+   1698947985854
+  ]
+ },
+ {
+  "noteId": 1698948201737,
+  "profile": "User 1",
+  "tags": [],
+  "fields": {
+   "Front": {
+    "value": "to (go to) visit someone (emph. on direction. Lit - to go as guests to)<br>to visit someone (emph. on place. Lit - to be as guests of)",
+    "order": 0
+   },
+   "Back": {
+    "value": "идти́ ( pf. пойти́) в го́сти к + dat.<br>быть в гостя́х у + gen.<br><br> [sound:hypertts-b8a6df5659351b441aae973e11d9ca2d477d2ef4063147e8279dbe28.mp3]",
+    "order": 1
+   },
+   "Example": {
+    "value": "В суббо́ту мы идём в го́сти к дру́зьям.",
+    "order": 2
+   }
+  },
+  "modelName": "Basic (and reversed card)",
+  "mod": 1783063618,
+  "cards": [
+   1698948201754,
+   1698948201755
+  ]
+ },
+ {
+  "noteId": 1698947057295,
+  "profile": "User 1",
+  "tags": [
+   "aspect",
+   "verb"
+  ],
+  "fields": {
+   "Text": {
+    "value": "<div class=\"ru-pair\" data-audio=\"hypertts-cde5581e750ff45e7fc4fa9e95e5f5ea9587fbc1fb79faf0ff4dcf07.mp3\">замеча́ть / заме́тить +a</div><b>{{c3::to notice}}</b><br><br><table class=\"aspect\" style=\"margin: 0 auto; text-align: left; border-collapse: collapse;\"><tr><td style=\"padding: 2px 10px; vertical-align: top;\">impf:</td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c1::замеча́ть — замеча́ю, замеча́ешь +a}}</td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">pf:</td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c2::заме́тить — заме́чу, заме́тишь +a}}</td></tr></table>",
+    "order": 0
+   },
+   "Back Extra": {
+    "value": "{{c1::Она́ ча́сто не замеча́ет свои́х оши́бок.}} {{c2::Он сра́зу заме́тил, что в ко́мнате что́-то измени́лось.}} {{c3::Она́ ча́сто не замеча́ет свои́х оши́бок.<br>Он сра́зу заме́тил, что в ко́мнате что́-то измени́лось.}}",
+    "order": 1
+   },
+   "Audio": {
+    "value": "{{c1::[sound:hypertts-98af3aca79add89809ccd5b9a6f255e168ae3740f07396a7291910aa.mp3]}} {{c2::[sound:hypertts-30bd8e77646ba6693a3b369516cc00a645809bf650f9a78752cd3dcc.mp3]}} [sound:hypertts-cde5581e750ff45e7fc4fa9e95e5f5ea9587fbc1fb79faf0ff4dcf07.mp3]",
+    "order": 2
+   }
+  },
+  "modelName": "Cloze Aspect",
+  "mod": 1791513012,
+  "cards": [
+   1698947057322,
+   1698947057323,
+   1791457094140
+  ]
+ },
+ {
+  "noteId": 1726634604362,
+  "profile": "User 1",
+  "tags": [
+   "aspect",
+   "verb"
+  ],
+  "fields": {
+   "Text": {
+    "value": "<div class=\"ru-pair\" data-audio=\"hypertts-148bc36a3c28d5f9125522b7244e02cb3fd0718293f632ebafe86016.mp3\">люби́ть / полюби́ть +a</div><b>{{c3::to like, love / p: to fall in love with}}</b><br><br><table class=\"aspect\" style=\"margin: 0 auto; text-align: left; border-collapse: collapse;\"><tr><td style=\"padding: 2px 10px; vertical-align: top;\">impf:</td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c1::люби́ть — люблю́, лю́бишь +a}}</td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">pf:</td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c2::полюби́ть — полюблю́, полю́бишь +a}}</td></tr></table>",
+    "order": 0
+   },
+   "Back Extra": {
+    "value": "{{c1::Он лю́бит чита́ть кни́ги по вечера́м, осо́бенно истори́ческие рома́ны.}} {{c2::Он полюби́л э́тот го́род с пе́рвого дня.}} {{c3::Он лю́бит чита́ть кни́ги по вечера́м, осо́бенно истори́ческие рома́ны.<br>Он полюби́л э́тот го́род с пе́рвого дня.}}",
+    "order": 1
+   },
+   "Audio": {
+    "value": "{{c1::[sound:hypertts-f399d3353d658cac8764cbfb08063df3d23089143f2ef8ba6305584f.mp3]}} {{c2::[sound:hypertts-6e78110f9906f4945bc69a5df626d52a88d5c6355ea8c93be653b451.mp3]}} [sound:hypertts-148bc36a3c28d5f9125522b7244e02cb3fd0718293f632ebafe86016.mp3]",
+    "order": 2
+   }
+  },
+  "modelName": "Cloze Aspect",
+  "mod": 1791513014,
+  "cards": [
+   1726634604524,
+   1726634604525,
+   1791457102089
+  ]
+ },
+ {
+  "noteId": 1726634605014,
+  "profile": "User 1",
+  "tags": [
+   "aspect",
+   "verb"
+  ],
+  "fields": {
+   "Text": {
+    "value": "<div class=\"ru-pair\" data-audio=\"hypertts-8497cef98952f98fee22ec63435e68dc77556514c0e296e87fd526ef.mp3\">вызыва́ть / вы́звать +a</div><b>{{c3::to summon / to challenge}}</b><br><br><table class=\"aspect\" style=\"margin: 0 auto; text-align: left; border-collapse: collapse;\"><tbody><tr><td style=\"padding: 2px 10px; vertical-align: top;\">impf:</td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c1::вызыва́ть — вызыва́ю, вызыва́ешь +a}}</td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">pf:</td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c2::вы́звать — вы́зову, вы́зовешь +a}}</td></tr></tbody></table>",
+    "order": 0
+   },
+   "Back Extra": {
+    "value": "{{c1::Учи́тель ча́сто вызыва́ет его́ к доске́.}} {{c2::Дире́ктор вы́звал сотру́дника к себе́ в кабине́т.}} {{c3::Учи́тель ча́сто вызыва́ет его́ к доске́.<br>Дире́ктор вы́звал сотру́дника к себе́ в кабине́т.}}",
+    "order": 1
+   },
+   "Audio": {
+    "value": "{{c1::[sound:hypertts-021b77efa181ff16b50c05b77efdd198bee396ab39fcfcc634a881c5.mp3]}} {{c2::[sound:hypertts-75c31a2c1da070d2d93756ea020c2df49b7409d47256eee94f0ce1a8.mp3]}} [sound:hypertts-8497cef98952f98fee22ec63435e68dc77556514c0e296e87fd526ef.mp3]",
+    "order": 2
+   }
+  },
+  "modelName": "Cloze Aspect",
+  "mod": 1791850329,
+  "cards": [
+   1726634605828,
+   1726634605829,
+   1791457109464
+  ]
+ }
+]
