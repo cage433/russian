@@ -2,7 +2,8 @@
 """Write Obsidian notes listing the vocab currently in Anki's learning steps, split by
 part of speech.
 
-Scope: `deck:Vocab::* is:learn -is:review -is:suspended`, per **card**: a Cloze-family note (root family,
+Scope: `deck:Vocab::* is:learn -is:review -is:suspended`, plus a "Coming up" section with the new
+cards each deck will introduce over the next 7 days (`--new-days`), per **card**: a Cloze-family note (root family,
 near-synonym group, Cloze Aspect, Cloze Sentence) contributes only the rows whose cards are learning. — cards part-way through their
 **first** pass through the learning steps.
 
@@ -39,6 +40,8 @@ import anki_utils as a
 a.use_venv()
 
 QUERY = "deck:Vocab::* is:learn -is:review -is:suspended"
+NEW_QUERY = "deck:Vocab::* is:new -is:suspended -is:buried"
+NEW_DAYS = 7
 VAULT = Path("/Users/alex/.obsidian-vaults/Russian")
 OUT_DIR = VAULT / "Anki learning vocab"
 
@@ -141,12 +144,63 @@ def pos_tags(en, tags):
     return set()
 
 
-def fetch(query):
-    """-> list of (english, russian, {tags}) with fields cleaned but not yet condensed."""
+def cards_for(query):
     cards = []
     cids = a.call("findCards", query=query)
     for i in range(0, len(cids), 500):
         cards += a.call("cardsInfo", cards=cids[i:i + 500])
+    return cards
+
+
+def upcoming_new(days):
+    """New cards Anki will introduce in the next `days` days: per deck, the first
+    rate × days cards in queue order, where rate is the deck's own "This deck" limit (or the
+    nearest ancestor's — parents carry 9999, meaning "sum of children"). Approximate: a
+    promotion stamp or a busy day can change what actually comes up."""
+    cards = cards_for(NEW_QUERY)
+    rates = {}
+
+    def rate(deck):
+        if deck not in rates:
+            parts, r = deck.split("::"), 0
+            while parts:
+                lim = a.call("getDeckLimits", deck="::".join(parts)) or {}
+                v = lim.get("deckNewLimit")
+                if v is None:
+                    v = lim.get("presetNewPerDay")
+                if v is not None and v < 9999:
+                    r = v
+                    break
+                parts.pop()
+            rates[deck] = r
+        return rates[deck]
+
+    by_deck = {}
+    for c in cards:
+        by_deck.setdefault(c["deckName"], []).append(c)
+    # a rate belongs to the deck that sets it: pool subdecks under that deck
+    pools = {}
+    for deck, cs in by_deck.items():
+        parts = deck.split("::")
+        owner = deck
+        while len(parts) > 1:
+            lim = a.call("getDeckLimits", deck="::".join(parts)) or {}
+            if lim.get("deckNewLimit") not in (None, 9999):
+                owner = "::".join(parts)
+                break
+            parts.pop()
+        pools.setdefault(owner, []).extend(cs)
+    out = []
+    for owner, cs in pools.items():
+        n = rate(owner) * days
+        out += sorted(cs, key=lambda c: c["due"])[:n]
+    return out
+
+
+def fetch(query=None, cards=None):
+    """-> list of (english, russian, {tags}) with fields cleaned but not yet condensed."""
+    if cards is None:
+        cards = cards_for(query)
     ords = {}
     for c in cards:
         ords.setdefault(c["note"], set()).add(c["ord"] + 1)
@@ -207,7 +261,15 @@ def render_synonym_group(en, ru):
     return "\n".join([f"**{head}**", "", "| # | English | Русский |", "|---|---|---|"] + rows)
 
 
-def render_group(name, pairs, query, stamp):
+def render_group(name, pairs, query, stamp, coming=()):
+    """Learning words, then the new words due to be introduced over the next NEW_DAYS days."""
+    out = render_section(pairs)
+    if coming:
+        out += f"\n## Coming up (new, next {NEW_DAYS} days)\n\n" + render_section(coming)
+    return out
+
+
+def render_section(pairs):
     """Singles as one compact table; near-synonym groups each get their own fuller table.
     No title — Obsidian shows the filename, and this is a personal scratch list."""
     singles = [briefly(en, ru) for en, ru in pairs if not is_group(ru)]
@@ -223,38 +285,43 @@ def render_group(name, pairs, query, stamp):
     return "\n".join(out) + "\n"
 
 
-def render_index(buckets, total, query, stamp):
-    return "\n".join(["| Group | Words |", "|---|---|"] +
-                      [f"| [[{g}]] | {len(buckets[g])} |" for g, _ in GROUPS] + [""])
+def render_index(buckets, total, query, stamp, coming=None):
+    coming = coming or {g: [] for g, _ in GROUPS}
+    return "\n".join(["| Group | Learning | Coming up |", "|---|---|---|"] +
+                      [f"| [[{g}]] | {len(buckets[g])} | {len(coming[g])} |" for g, _ in GROUPS] + [""])
 
 
 if __name__ == "__main__":
     p = argparse.ArgumentParser(description=__doc__.split("\n")[0])
     p.add_argument("--query", default=QUERY)
     p.add_argument("--out-dir", type=Path, default=OUT_DIR)
+    p.add_argument("--new-days", type=int, default=NEW_DAYS,
+                   help="also list the new cards due to be introduced over this many days (0 = none)")
     p.add_argument("--print", dest="show", action="store_true",
                    help="print to stdout instead of writing the notes")
     args = p.parse_args()
 
+    NEW_DAYS = args.new_days
     entries = fetch(args.query)
     buckets = split(entries)
+    coming = split(fetch(cards=upcoming_new(NEW_DAYS))) if NEW_DAYS else {g: [] for g, _ in GROUPS}
     stamp = time.strftime("%Y-%m-%d %H:%M")
-    index = render_index(buckets, len(entries), args.query, stamp)
+    index = render_index(buckets, len(entries), args.query, stamp, coming)
 
     if args.show:
         print(index)
         for g, _ in GROUPS:
             print("\n" + "=" * 60 + "\n")
-            print(render_group(g, buckets[g], args.query, stamp))
+            print(render_group(g, buckets[g], args.query, stamp, coming[g]))
         sys.exit()
 
     args.out_dir.mkdir(parents=True, exist_ok=True)
     for g, _ in GROUPS:
         (args.out_dir / f"{g}.md").write_text(
-            render_group(g, buckets[g], args.query, stamp), encoding="utf-8")
+            render_group(g, buckets[g], args.query, stamp, coming[g]), encoding="utf-8")
     # folder note: sits beside the folder, same name, so Obsidian treats it as its index
     (args.out_dir.parent / f"{args.out_dir.name}.md").write_text(index, encoding="utf-8")
 
     print(f"{len(entries)} words -> {args.out_dir}/")
     for g, _ in GROUPS:
-        print(f"    {g}.md  {len(buckets[g])}")
+        print(f"    {g}.md  {len(buckets[g])} learning, {len(coming[g])} coming up")
