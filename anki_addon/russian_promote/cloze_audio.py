@@ -90,7 +90,10 @@ def answers(text):
         # "English" = more Latin letters than Cyrillic — not "no Cyrillic at all": a gloss's
         # `(cf. ***** в/на = …)` line carries a little Russian, and the bare test let учи́ться's
         # card 3 read its English gloss in the Russian voice.
-        if len(re.findall(r"[a-z]", t, re.I)) > len(CYRILLIC.findall(t)):
+        # Count outside brackets: a government note like «(i) (+a or +inst)» is Latin but is
+        # never spoken (the Back preset strips brackets), and it once outweighed «сы́пать».
+        bare = re.sub(r"\([^)]*\)", "", t)
+        if len(re.findall(r"[a-z]", bare, re.I)) > len(CYRILLIC.findall(bare)):
             if pair:
                 ans[n] = re.sub(r"<[^>]+>", " ", pair.group(1)).strip()
             else:
