@@ -363,6 +363,32 @@ def _patch():
     for fn in actions:
         fn.api, fn.versions = True, ()
         setattr(ac.AnkiConnect, fn.__name__, fn)
+
+    # AnkiConnect 26.x (Oct 2026) still *finds* api-marked methods, but then hands every call to
+    # its own `Legacy` adapter, which knows only the built-in actions and raises "Unsupported
+    # legacy action". Route our own action names straight to their methods, on both the
+    # synchronous and the async request paths; everything else goes through untouched.
+    names = {fn.__name__ for fn in actions}
+    cls = ac.AnkiConnect
+    if hasattr(cls, "legacy") and not getattr(cls.legacy, "_russian_promote", False):
+        orig_legacy = cls.legacy
+
+        def legacy(self, name, params):
+            if name in names:
+                return getattr(self, name)(**params)
+            return orig_legacy(self, name, params)
+        legacy._russian_promote = True
+        cls.legacy = legacy
+    if hasattr(cls, "handler_async") and hasattr(ac, "completed") \
+            and not getattr(cls.handler_async, "_russian_promote", False):
+        orig_async = cls.handler_async
+
+        def handler_async(self, request, barrier=False, depth=0):
+            if isinstance(request, dict) and request.get("action") in names:
+                return ac.completed(self.handler(request))
+            return orig_async(self, request, barrier, depth)
+        handler_async._russian_promote = True
+        cls.handler_async = handler_async
     _log("registered " + ", ".join(fn.__name__ for fn in actions))
 
 
