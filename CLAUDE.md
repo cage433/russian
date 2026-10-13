@@ -511,7 +511,7 @@ when a sentence must reach beyond it, **gloss the unfamiliar word inline** (Engl
   sentence, not ambition**; push for shorter sentences (Rule 0); and when assessing, **don't count
   echoes of the prompt as production**. Pre-send checklists in `tutoring/self-check.md`; the working
   approach is spelled out at the top of `tutoring/progress.md`.
-- `scripts/export_learning_vocab.py` refreshes the Obsidian folder `Anki learning vocab/`
+- `scripts/export_learning_vocab.py` refreshes the Obsidian folder `Anki learning vocab/` — **automatically after every sync on a laptop** (add-on toggle `AUTO_EXPORT_ON_SYNC`; started as a detached process because it calls AnkiConnect, which runs on the GUI thread; output in `scratch/export_learning_vocab.log`). It lists cards in the learning state, a Roots table of the learning family rows, and conjugation lines for verbs
   (one note per POS, near-synonym groups given fuller sense-by-sense tables).
 - `known_lemmas.txt` / `known_vocab.tsv` are generated caches (gitignored); the `books` symlink
   (→ Proton Drive PDFs) is also gitignored.

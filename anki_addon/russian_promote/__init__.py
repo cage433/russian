@@ -65,6 +65,7 @@ AUTO_LIMIT_ON_STARTUP = True     # set False to disable the profile_did_open pas
 AUTO_LIMIT_ON_DAY_CHANGE = True  # re-size at the 4am rollover, for an Anki left running
 AUTO_LIMIT_ON_SYNC = True        # repair a limit a sync from another device clobbered
 AUTO_UNTAG_FINISHED = True       # drop `promote` once a note has no new cards left
+AUTO_EXPORT_ON_SYNC = True       # refresh the Obsidian "Anki learning vocab" notes after a sync
 PROMOTE_TAG = "promote"
 FRONT_MAX = 1                    # positions 0 (primaries) and 1 (siblings)
 
@@ -253,6 +254,7 @@ def _patch():
                 "AUTO_LIMIT_ON_DAY_CHANGE": AUTO_LIMIT_ON_DAY_CHANGE,
                 "AUTO_LIMIT_ON_SYNC": AUTO_LIMIT_ON_SYNC,
                 "AUTO_UNTAG_FINISHED": AUTO_UNTAG_FINISHED,
+                "AUTO_EXPORT_ON_SYNC": AUTO_EXPORT_ON_SYNC,
                 "PROMOTE_TAG": PROMOTE_TAG,
                 "FRONT_MAX": FRONT_MAX,
             },
@@ -545,6 +547,35 @@ def _on_sync_finish():
     _synced_since_open = True
     if AUTO_LIMIT_ON_SYNC:
         _run_auto_limit("post-sync", mark_day=False, only_unstamped=not first)
+    if AUTO_EXPORT_ON_SYNC:
+        _export_learning_vocab()
+
+
+def _export_learning_vocab():
+    """Start scripts/export_learning_vocab.py as a DETACHED process and return at once.
+
+    It must not run in this hook: the script talks to Anki through AnkiConnect, which is
+    served on this (GUI) thread, so waiting for it here would deadlock Anki. Detached, it
+    simply makes its requests once the hook has returned. Output goes to its own log in
+    scratch/; never raises (an exception would unregister the hook)."""
+    try:
+        import subprocess
+        here = os.path.dirname(os.path.realpath(__file__))
+        repo = os.path.dirname(os.path.dirname(here))
+        py = os.path.join(repo, ".venv", "bin", "python")
+        script = os.path.join(repo, "scripts", "export_learning_vocab.py")
+        if not (os.path.exists(py) and os.path.exists(script)):
+            _log("export: skipped (no repo venv or script)")
+            return
+        out = os.path.join(os.path.dirname(_log_path()), "export_learning_vocab.log")
+        with open(out, "a") as fh:
+            fh.write(f"--- {time.strftime('%Y-%m-%d %H:%M:%S')} post-sync\n")
+            fh.flush()
+            subprocess.Popen([py, script], cwd=repo, stdout=fh, stderr=subprocess.STDOUT,
+                             stdin=subprocess.DEVNULL, start_new_session=True)
+        _log("export: started export_learning_vocab.py")
+    except Exception as e:  # noqa: BLE001
+        _log(f"export: failed to start ({e})")
 
 
 def _on_day_change():

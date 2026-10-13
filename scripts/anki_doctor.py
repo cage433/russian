@@ -214,7 +214,8 @@ def check_toggles(rep, info):
     if info is None:
         return rep.add("toggles", SKIP, "addonInfo unavailable")
     expected = {"AUTO_LIMIT_ON_STARTUP": True, "AUTO_LIMIT_ON_DAY_CHANGE": True,
-                "AUTO_LIMIT_ON_SYNC": True, "AUTO_UNTAG_FINISHED": True}
+                "AUTO_LIMIT_ON_SYNC": True, "AUTO_UNTAG_FINISHED": True,
+                "AUTO_EXPORT_ON_SYNC": True}
     off = [k for k, v in expected.items() if info["toggles"].get(k) != v]
     if off:
         return rep.add("toggles", WARN, f"non-default: {', '.join(off)}")
