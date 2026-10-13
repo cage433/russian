@@ -58,7 +58,7 @@ def _is_prefix_cell(t):
 
 
 CYRILLIC = re.compile(r"[а-яё]", re.I)
-RU_PAIR_RE = re.compile(r'<div class="ru-pair">(.*?)</div>', re.S)
+RU_PAIR_RE = re.compile(r'<div class="ru-pair"[^>]*>(.*?)</div>', re.S)
 SENT_RE = re.compile(r'<div class="sent">(.*?)</div>', re.S)
 EN_RE = re.compile(r'<span class="en">.*?</span>', re.S)
 
