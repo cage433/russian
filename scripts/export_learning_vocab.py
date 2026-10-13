@@ -2,9 +2,7 @@
 """Write Obsidian notes listing the vocab currently in Anki's learning steps, split by
 part of speech.
 
-Scope (per **card**): cards in learning or relearning, cards first studied in the last 3 days
-(`--days`), and — in a "New today" section — the new cards the scheduler will still introduce
-today (add-on action `queuedNewCards`). Per card means: a Cloze-family note (root family,
+Scope: cards in the **learning** state (first pass through the learning steps), per **card**: a Cloze-family note (root family,
 near-synonym group, Cloze Aspect, Cloze Sentence) contributes only the rows whose cards are learning. — cards part-way through their
 **first** pass through the learning steps.
 
@@ -41,7 +39,6 @@ import anki_utils as a
 a.use_venv()
 
 QUERY = "deck:Vocab::* is:learn -is:review -is:suspended"
-RECENT_DAYS = 3
 VAULT = Path("/Users/alex/.obsidian-vaults/Russian")
 OUT_DIR = VAULT / "Anki learning vocab"
 
@@ -152,28 +149,6 @@ def cards_for(query):
     return cards
 
 
-def todays_cards(days):
-    """Exactly the cards in play today:
-    - new cards the scheduler will still introduce today (`queuedNewCards`, the reviewer's own
-      queue for the Vocab deck — needs the add-on loaded; skipped with a warning otherwise);
-    - cards first studied in the last `days` days (introduced:N), whatever their state now;
-    - cards in learning or relearning.
-    Suspended cards are left out."""
-    cards = cards_for(f"deck:Vocab::* (is:learn or introduced:{days}) -is:suspended")
-    seen = {c["cardId"] for c in cards}
-    try:
-        q = a.call("queuedNewCards", deck="Vocab")
-        new = [i for i in q["cardIds"] if i not in seen]
-        for i in range(0, len(new), 500):
-            cards += a.call("cardsInfo", cards=new[i:i + 500])
-        new_ids = set(q["cardIds"])
-    except RuntimeError as e:
-        print(f"warning: queuedNewCards unavailable ({e}); today's new cards omitted — restart Anki",
-              file=sys.stderr)
-        new_ids = set()
-    return cards, new_ids
-
-
 def fetch(query=None, cards=None):
     """-> list of (english, russian, {tags}) with fields cleaned but not yet condensed."""
     if cards is None:
@@ -264,24 +239,21 @@ def render_section(pairs):
 
 def render_index(buckets, total, query, stamp, coming=None):
     coming = coming or {g: [] for g, _ in GROUPS}
-    return "\n".join(["| Group | In progress | New today |", "|---|---|---|"] +
-                      [f"| [[{g}]] | {len(buckets[g])} | {len(coming[g])} |" for g, _ in GROUPS] + [""])
+    return "\n".join(["| Group | Learning |", "|---|---|---|"] +
+                      [f"| [[{g}]] | {len(buckets[g])} |" for g, _ in GROUPS] + [""])
 
 
 if __name__ == "__main__":
     p = argparse.ArgumentParser(description=__doc__.split("\n")[0])
     p.add_argument("--query", default=QUERY)
     p.add_argument("--out-dir", type=Path, default=OUT_DIR)
-    p.add_argument("--days", type=int, default=RECENT_DAYS,
-                   help="include cards first studied in the last N days (default 3)")
     p.add_argument("--print", dest="show", action="store_true",
                    help="print to stdout instead of writing the notes")
     args = p.parse_args()
 
-    cards, new_ids = todays_cards(args.days)
-    buckets = split(fetch(cards=[c for c in cards if c["cardId"] not in new_ids]))
-    coming = split(fetch(cards=[c for c in cards if c["cardId"] in new_ids]))
-    entries = [e for b in buckets.values() for e in b]
+    entries = fetch(args.query)
+    buckets = split(entries)
+    coming = {g: [] for g, _ in GROUPS}
     stamp = time.strftime("%Y-%m-%d %H:%M")
     index = render_index(buckets, len(entries), args.query, stamp, coming)
 
@@ -301,4 +273,4 @@ if __name__ == "__main__":
 
     print(f"{len(entries)} words -> {args.out_dir}/")
     for g, _ in GROUPS:
-        print(f"    {g}.md  {len(buckets[g])} in progress, {len(coming[g])} new today")
+        print(f"    {g}.md  {len(buckets[g])}")
