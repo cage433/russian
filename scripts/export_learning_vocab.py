@@ -87,7 +87,8 @@ def briefly(en, ru):
     """Headword only, Russian slash-joined — the scannable form used for single entries."""
     en = en.split("<br>")[0].strip()
     parts = [re.sub(r"^\d+:\s*", "", p).strip() for p in ru.split("<br>")]
-    return en, " / ".join(p for p in parts if p)
+    sep = "<br>" if any(" — " in p for p in parts) else " / "     # conjugation rows: one per line
+    return en, sep.join(p for p in parts if p)
 
 
 CLOZE = re.compile(r"\{\{c(\d+)::(.*?)(?:::[^}]*)?\}\}", re.S)
@@ -100,7 +101,10 @@ def cloze_entry(model, text, ords):
     if model == "Cloze Aspect":
         pair = re.search(r'ru-pair[^>]*>(.*?)</div>', text, re.S)
         gloss = re.search(r"\{\{c3::(.*?)\}\}", text, re.S)
-        return [(clean(gloss.group(1)) if gloss else "", clean(pair.group(1)) if pair else "")]
+        # the conjugation rows (impf, then pf) rather than the bare pair
+        rows = [clean(m.group(2)) for m in CLOZE.finditer(text) if m.group(1) in ("1", "2")]
+        ru = "<br>".join(rows) if rows else (clean(pair.group(1)) if pair else "")
+        return [(clean(gloss.group(1)) if gloss else "", ru)]
     if model == "Cloze Sentence":
         out = []
         for div in re.findall(r'<div class="sent">(.*?)</div>', text, re.S):
@@ -127,6 +131,69 @@ def cloze_entry(model, text, ords):
         # near-synonym rows only make sense with their headword; root rows gain their root
         out.append((f"{head}: {en}" if head and not en.lower().startswith("to ") else en, word))
     return out
+
+
+_FORMS = None
+
+
+def forms_index():
+    """destressed infinitive -> "infinitive — я, ты" from every Cloze Aspect row, falling back to
+    the Wiktionary "3000 Verbs" deck."""
+    global _FORMS
+    if _FORMS is None:
+        _FORMS = {}
+        for i, ids in enumerate([a.call("findNotes", query='"note:3000 Verbs"')]):
+            for j in range(0, len(ids), 500):
+                for n in a.call("notesInfo", notes=ids[j:j + 500]):
+                    f = n["fields"]
+                    v = clean(f["Verb"]["value"]).strip()
+                    d = dict(re.findall(r"<td>(1s|2s|3p)\s*</td><td><em>(.*?)</em>", f["Conjugation"]["value"]))
+                    if d.get("1s") and d.get("2s"):
+                        _FORMS.setdefault(v, f"{v} — {d['1s']}, {d['2s']}")
+        ids = a.call("findNotes", query='"note:Cloze Aspect"')
+        for j in range(0, len(ids), 500):
+            for n in a.call("notesInfo", notes=ids[j:j + 500]):
+                for m in CLOZE.finditer(n["fields"]["Text"]["value"]):
+                    if m.group(1) in ("1", "2"):
+                        row = clean(m.group(2))
+                        head = row.split(" — ")[0].strip()
+                        if " — " in row:
+                            _FORMS[head] = re.sub(r"(\s*\([^)]*\))+\s*$", "", row)
+    return _FORMS
+
+
+def regular_forms(v):
+    """Type-1 verbs that keep their -а-/-я- (чита́ть, пока́зывать, переде́лать) conjugate with the
+    stress where the infinitive has it, so the forms can be built safely; anything else -> None."""
+    m = re.match(r"^(.*[ая]́?)(ть)(ся)?$", v)
+    if not m:
+        return None
+    import pymorphy3
+    d = a.destress(v)
+    ps = [p for p in pymorphy3.MorphAnalyzer().parse(d) if p.tag.POS == "INFN" and p.normal_form == d]
+    if not ps:
+        return None
+    tense = "futr" if ps[0].tag.aspect == "perf" else "pres"
+    f1 = ps[0].inflect({"1per", "sing", tense, "indc"})
+    stem, refl = m.group(1), m.group(3) or ""
+    if not f1 or f1.word != a.destress(stem) + ("юсь" if refl else "ю"):
+        return None
+    return f"{v} — {stem}ю{'сь' if refl else ''}, {stem}ешь{'ся' if refl else ''}"
+
+
+def with_forms(ru):
+    """'перевя́зывать / перевяза́ть (+a)' -> one conjugation row per verb, where known."""
+    if " — " in ru:
+        return ru
+    m = re.match(r"^([а-яё́\-]+)(?:\s*/\s*([а-яё́\-]+))?\s*(.*)$", ru.replace("<br>", " "))
+    if not m:
+        return ru
+    idx = forms_index()
+    rows = [idx.get(v) or regular_forms(v) for v in m.groups()[:2] if v]
+    if not rows or not all(rows):
+        return ru
+    gov = m.group(3).strip()
+    return "<br>".join(r + (f" {gov}" if gov else "") for r in rows)
 
 
 def pos_tags(en, tags):
@@ -174,6 +241,7 @@ def fetch(query=None, cards=None):
             en = re.sub(r"^Verb of motion<br>", "", en, flags=re.I)
             if en or ru:
                 out.append((en, ru, set(n["tags"])))
+    out = [(en, with_forms(ru) if "verb" in tags else ru, tags) for en, ru, tags in out]
     return sorted(out, key=lambda r: r[0].casefold())
 
 

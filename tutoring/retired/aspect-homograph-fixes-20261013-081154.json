@@ -1,0 +1,152 @@
+[
+ {
+  "noteId": 1726634604560,
+  "profile": "User 1",
+  "tags": [
+   "aspect",
+   "verb"
+  ],
+  "fields": {
+   "Text": {
+    "value": "<div class=\"ru-pair\" data-audio=\"hypertts-7e06e83340ea596119204c190c0b8da2b4c2a8352a541c517136f295.mp3\">петь / спеть</div><b>{{c3::to sing}}</b><br><br><table class=\"aspect\" style=\"margin: 0 auto; text-align: left; border-collapse: collapse;\"><tr><td style=\"padding: 2px 10px; vertical-align: top;\">impf:</td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c1::петь — пою́, поёшь}}</td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">pf:</td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c2::спеть — спе́ю, спе́ешь}}</td></tr></table>",
+    "order": 0
+   },
+   "Back Extra": {
+    "value": "{{c1::Де́ти пе́ли весёлые пе́сни у костра́ в ла́гере.}} {{c2::На пра́зднике она́ спе́ла свою́ люби́мую пе́сню.}} {{c3::Де́ти пе́ли весёлые пе́сни у костра́ в ла́гере.<br>На пра́зднике она́ спе́ла свою́ люби́мую пе́сню.}}",
+    "order": 1
+   },
+   "Audio": {
+    "value": "{{c1::[sound:hypertts-7a2d11ce2df6f2ec2963468760863039dfb8fb72dd1e8570450df484.mp3]}} {{c2::[sound:hypertts-f56f2781e1824548e27d99f1c12985db842f9ba73785077551596e02.mp3]}} [sound:hypertts-7e06e83340ea596119204c190c0b8da2b4c2a8352a541c517136f295.mp3]",
+    "order": 2
+   }
+  },
+  "modelName": "Cloze Aspect",
+  "mod": 1791513014,
+  "cards": [
+   1726634604920,
+   1726634604921,
+   1791457104438
+  ]
+ },
+ {
+  "noteId": 1726634609401,
+  "profile": "User 1",
+  "tags": [
+   "aspect",
+   "claude",
+   "verb"
+  ],
+  "fields": {
+   "Text": {
+    "value": "<div class=\"ru-pair\" data-audio=\"hypertts-37db128b2a8d4877145b9fd6e02768e8043608f11d5173234252ebed.mp3\">сжима́ть / сжать (+a)</div><b>{{c3::to squeeze, clench; to compress}}</b><br><br><table class=\"aspect\" style=\"margin: 0 auto; text-align: left; border-collapse: collapse;\"><tr><td style=\"padding: 2px 10px; vertical-align: top;\">impf:</td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c1::сжима́ть — сжима́ю, сжима́ешь (+a)}}</td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">pf:</td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c2::сжать — сожну́, сожнёшь (+a)}}</td></tr></table>",
+    "order": 0
+   },
+   "Back Extra": {
+    "value": "{{c1::Она́ не́рвно сжима́ла су́мку в рука́х.}} {{c2::Он сжал зу́бы и мо́лча вы́держал боль, не произнеся́ ни сло́ва.}} {{c3::Она́ не́рвно сжима́ла су́мку в рука́х.<br>Он сжал зу́бы и мо́лча вы́держал боль, не произнеся́ ни сло́ва.}}",
+    "order": 1
+   },
+   "Audio": {
+    "value": "{{c1::[sound:hypertts-c88619a3d7cfd3ec014a20a8a630aba06c41c31c518cdb3bb8bdb1ee.mp3]}} {{c2::[sound:hypertts-7f0a570c275cd92978b1e2c8f67bedae1f4f4aafcbe79875bc07516c.mp3]}} [sound:hypertts-37db128b2a8d4877145b9fd6e02768e8043608f11d5173234252ebed.mp3]",
+    "order": 2
+   }
+  },
+  "modelName": "Cloze Aspect",
+  "mod": 1791513030,
+  "cards": [
+   1726634614602,
+   1726634614603,
+   1791457168589
+  ]
+ },
+ {
+  "noteId": 1726634609535,
+  "profile": "User 1",
+  "tags": [
+   "aspect",
+   "B2.1-1.1",
+   "claude",
+   "native",
+   "verb"
+  ],
+  "fields": {
+   "Text": {
+    "value": "<div class=\"ru-pair\" data-audio=\"hypertts-52eaedc6220f3d439ead7d52234f011c8ef2e83444c64c4e451391ca.mp3\">нажима́ть / нажа́ть (+a or на +a)</div><b>{{c3::to press}}</b><br><br><table class=\"aspect\" style=\"margin: 0 auto; text-align: left; border-collapse: collapse;\"><tr><td style=\"padding: 2px 10px; vertical-align: top;\">impf:</td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c1::нажима́ть — нажима́ю, нажима́ешь (+a or на +a)}}</td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">pf:</td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c2::нажа́ть — нажну́, нажнёшь (+a or на +a)}}</td></tr></table>",
+    "order": 0
+   },
+   "Back Extra": {
+    "value": "{{c1::Не нажима́й так си́льно на кно́пку, слома́ешь.}} {{c2::Она́ нажа́ла на кно́пку ли́фта и ста́ла ждать на площа́дке.}} {{c3::Не нажима́й так си́льно на кно́пку, слома́ешь.<br>Она́ нажа́ла на кно́пку ли́фта и ста́ла ждать на площа́дке.}}",
+    "order": 1
+   },
+   "Audio": {
+    "value": "{{c1::[sound:hypertts-2d204aaeb11086c2530abc2d2fdc9b8523a1d4d1a46ba8ed9dde6092.mp3]}} {{c2::[sound:hypertts-84423cfc36c4247e0e41f355c19c7efe400e7a043b6cda041c3d1691.mp3]}} [sound:hypertts-52eaedc6220f3d439ead7d52234f011c8ef2e83444c64c4e451391ca.mp3]",
+    "order": 2
+   }
+  },
+  "modelName": "Cloze Aspect",
+  "mod": 1791513031,
+  "cards": [
+   1726634614870,
+   1726634614871,
+   1791457171115
+  ]
+ },
+ {
+  "noteId": 1726634611173,
+  "profile": "User 1",
+  "tags": [
+   "aspect",
+   "verb"
+  ],
+  "fields": {
+   "Text": {
+    "value": "<div class=\"ru-pair\" data-audio=\"hypertts-20629111919ff85f0d5187c1aaaa797285ebb339a26b9fe98516c3bd.mp3\">выжима́ть / вы́жать (+a)</div><b>{{c3::to squeeze (out)}}</b><br><br><table class=\"aspect\" style=\"margin: 0 auto; text-align: left; border-collapse: collapse;\"><tr><td style=\"padding: 2px 10px; vertical-align: top;\">impf:</td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c1::выжима́ть — выжима́ю, выжима́ешь (+a)}}</td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">pf:</td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c2::вы́жать — вы́жну, вы́жнешь (+a)}}</td></tr></table>",
+    "order": 0
+   },
+   "Back Extra": {
+    "value": "{{c1::Хозя́йка выжима́ла лимо́нный сок для запра́вки сала́та.}} {{c2::Она́ вы́жала мо́крое бельё и пове́сила его́ суши́ться.}} {{c3::Хозя́йка выжима́ла лимо́нный сок для запра́вки сала́та.<br>Она́ вы́жала мо́крое бельё и пове́сила его́ суши́ться.}}",
+    "order": 1
+   },
+   "Audio": {
+    "value": "{{c1::[sound:hypertts-2b37e641532ea552b5df71b3e020fdf6ad0bb49a93ddc4f10a28c80d.mp3]}} {{c2::[sound:hypertts-3bf1672a4f2a93a4a5bf1ecf53cc4a278741ac926ad4c6b29694cdf0.mp3]}} [sound:hypertts-20629111919ff85f0d5187c1aaaa797285ebb339a26b9fe98516c3bd.mp3]",
+    "order": 2
+   }
+  },
+  "modelName": "Cloze Aspect",
+  "mod": 1791513040,
+  "cards": [
+   1726634618146,
+   1726634618147,
+   1791462390903
+  ]
+ },
+ {
+  "noteId": 1791455797427,
+  "profile": "User 1",
+  "tags": [
+   "aspect",
+   "claude",
+   "verb"
+  ],
+  "fields": {
+   "Text": {
+    "value": "<div class=\"ru-pair\" data-audio=\"hypertts-360c871f08e6eececb92e41a65b18cfbe6205322c11a8e8df78ee5c4.mp3\">засыпа́ть / засну́ть</div><b>{{c3::to fall asleep}}</b><br><br><table class=\"aspect\" style=\"margin: 0 auto; text-align: left; border-collapse: collapse;\"><tr><td style=\"padding: 2px 10px; vertical-align: top;\">impf:</td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c1::засыпа́ть — засы́плю, засы́плешь}}</td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">pf:</td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c2::засну́ть — засну́, заснёшь}}</td></tr></table>",
+    "order": 0
+   },
+   "Back Extra": {
+    "value": "{{c1::Ребёнок обы́чно засыпа́ет в де́вять часо́в.}} {{c2::Вчера́ я до́лго не мог засну́ть.}} {{c3::Ребёнок обы́чно засыпа́ет в де́вять часо́в.<br>Вчера́ я до́лго не мог засну́ть.}}",
+    "order": 1
+   },
+   "Audio": {
+    "value": "{{c1::[sound:hypertts-70a023c526e69f423f37aad54e0b6f70b1296a13c690e726a706b928.mp3]}} {{c2::[sound:hypertts-b27a17d56224be2dd441826aa488f26147cd04ed034f3ec8dc9fc465.mp3]}} [sound:hypertts-360c871f08e6eececb92e41a65b18cfbe6205322c11a8e8df78ee5c4.mp3]",
+    "order": 2
+   }
+  },
+  "modelName": "Cloze Aspect",
+  "mod": 1791513056,
+  "cards": [
+   1791455797428,
+   1791455797429,
+   1791455797427
+  ]
+ }
+]
