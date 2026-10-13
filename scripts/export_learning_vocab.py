@@ -44,6 +44,7 @@ OUT_DIR = VAULT / "Anki learning vocab"
 
 # (note name, POS tags). The final group takes whatever no earlier group claimed.
 GROUPS = [
+    ("Roots", {"root"}),          # root-family cloze rows go here only, whatever their POS
     ("Nouns", {"noun"}),
     ("Verbs", {"verb"}),
     ("Adjectives and adverbs", {"adj", "adv"}),
@@ -231,7 +232,8 @@ def fetch(query=None, cards=None):
             if "Text" in f:
                 for en, ru in cloze_entry(n["modelName"], f["Text"]["value"], ords[n["noteId"]]):
                     if en or ru:
-                        out.append((en, ru, pos_tags(en, set(n["tags"]))))
+                        tags = {"root"} if "root" in n["tags"] else pos_tags(en, set(n["tags"]))
+                        out.append((en, ru, tags))
                 continue
             en, ru = clean(f["Front"]["value"]), clean(f["Back"]["value"])
             # The motion cards' `Verb of motion` header is card-type metadata, not gloss.
@@ -241,7 +243,8 @@ def fetch(query=None, cards=None):
             en = re.sub(r"^Verb of motion<br>", "", en, flags=re.I)
             if en or ru:
                 out.append((en, ru, set(n["tags"])))
-    out = [(en, with_forms(ru) if "verb" in tags else ru, tags) for en, ru, tags in out]
+    out = [(en, with_forms(ru) if ("verb" in tags or (tags == {"root"} and en.lower().startswith("to ")))
+            else ru, tags) for en, ru, tags in out]
     return sorted(out, key=lambda r: r[0].casefold())
 
 
