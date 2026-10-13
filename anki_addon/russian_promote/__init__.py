@@ -389,6 +389,12 @@ def _patch():
             return orig_async(self, request, barrier, depth)
         handler_async._russian_promote = True
         cls.handler_async = handler_async
+    # The web server was built with a *bound* handler_async before this add-on loaded, so the
+    # class-level patch alone doesn't reach it: rebind it on the live instance.
+    inst = getattr(ac, "ac", None)
+    server = getattr(inst, "server", None)
+    if server is not None and hasattr(inst, "handler_async"):
+        server.handler = inst.handler_async
     _log("registered " + ", ".join(fn.__name__ for fn in actions))
 
 
