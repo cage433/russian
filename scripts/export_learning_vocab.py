@@ -2,8 +2,9 @@
 """Write Obsidian notes listing the vocab currently in Anki's learning steps, split by
 part of speech.
 
-Scope: `deck:Vocab::* is:learn -is:review -is:suspended`, plus a "Coming up" section with the new
-cards each deck will introduce over the next 7 days (`--new-days`), per **card**: a Cloze-family note (root family,
+Scope (per **card**): cards in learning or relearning, cards first studied in the last 3 days
+(`--days`), and — in a "New today" section — the new cards the scheduler will still introduce
+today (add-on action `queuedNewCards`). Per card means: a Cloze-family note (root family,
 near-synonym group, Cloze Aspect, Cloze Sentence) contributes only the rows whose cards are learning. — cards part-way through their
 **first** pass through the learning steps.
 
@@ -40,8 +41,7 @@ import anki_utils as a
 a.use_venv()
 
 QUERY = "deck:Vocab::* is:learn -is:review -is:suspended"
-NEW_QUERY = "deck:Vocab::* is:new -is:suspended -is:buried"
-NEW_DAYS = 7
+RECENT_DAYS = 3
 VAULT = Path("/Users/alex/.obsidian-vaults/Russian")
 OUT_DIR = VAULT / "Anki learning vocab"
 
@@ -152,49 +152,26 @@ def cards_for(query):
     return cards
 
 
-def upcoming_new(days):
-    """New cards Anki will introduce in the next `days` days: per deck, the first
-    rate × days cards in queue order, where rate is the deck's own "This deck" limit (or the
-    nearest ancestor's — parents carry 9999, meaning "sum of children"). Approximate: a
-    promotion stamp or a busy day can change what actually comes up."""
-    cards = cards_for(NEW_QUERY)
-    rates = {}
-
-    def rate(deck):
-        if deck not in rates:
-            parts, r = deck.split("::"), 0
-            while parts:
-                lim = a.call("getDeckLimits", deck="::".join(parts)) or {}
-                v = lim.get("deckNewLimit")
-                if v is None:
-                    v = lim.get("presetNewPerDay")
-                if v is not None and v < 9999:
-                    r = v
-                    break
-                parts.pop()
-            rates[deck] = r
-        return rates[deck]
-
-    by_deck = {}
-    for c in cards:
-        by_deck.setdefault(c["deckName"], []).append(c)
-    # a rate belongs to the deck that sets it: pool subdecks under that deck
-    pools = {}
-    for deck, cs in by_deck.items():
-        parts = deck.split("::")
-        owner = deck
-        while len(parts) > 1:
-            lim = a.call("getDeckLimits", deck="::".join(parts)) or {}
-            if lim.get("deckNewLimit") not in (None, 9999):
-                owner = "::".join(parts)
-                break
-            parts.pop()
-        pools.setdefault(owner, []).extend(cs)
-    out = []
-    for owner, cs in pools.items():
-        n = rate(owner) * days
-        out += sorted(cs, key=lambda c: c["due"])[:n]
-    return out
+def todays_cards(days):
+    """Exactly the cards in play today:
+    - new cards the scheduler will still introduce today (`queuedNewCards`, the reviewer's own
+      queue for the Vocab deck — needs the add-on loaded; skipped with a warning otherwise);
+    - cards first studied in the last `days` days (introduced:N), whatever their state now;
+    - cards in learning or relearning.
+    Suspended cards are left out."""
+    cards = cards_for(f"deck:Vocab::* (is:learn or introduced:{days}) -is:suspended")
+    seen = {c["cardId"] for c in cards}
+    try:
+        q = a.call("queuedNewCards", deck="Vocab")
+        new = [i for i in q["cardIds"] if i not in seen]
+        for i in range(0, len(new), 500):
+            cards += a.call("cardsInfo", cards=new[i:i + 500])
+        new_ids = set(q["cardIds"])
+    except RuntimeError as e:
+        print(f"warning: queuedNewCards unavailable ({e}); today's new cards omitted — restart Anki",
+              file=sys.stderr)
+        new_ids = set()
+    return cards, new_ids
 
 
 def fetch(query=None, cards=None):
@@ -262,10 +239,10 @@ def render_synonym_group(en, ru):
 
 
 def render_group(name, pairs, query, stamp, coming=()):
-    """Learning words, then the new words due to be introduced over the next NEW_DAYS days."""
+    """Cards already in play (learning, or first seen in the last few days), then today's new ones."""
     out = render_section(pairs)
     if coming:
-        out += f"\n## Coming up (new, next {NEW_DAYS} days)\n\n" + render_section(coming)
+        out += "\n## New today\n\n" + render_section(coming)
     return out
 
 
@@ -287,7 +264,7 @@ def render_section(pairs):
 
 def render_index(buckets, total, query, stamp, coming=None):
     coming = coming or {g: [] for g, _ in GROUPS}
-    return "\n".join(["| Group | Learning | Coming up |", "|---|---|---|"] +
+    return "\n".join(["| Group | In progress | New today |", "|---|---|---|"] +
                       [f"| [[{g}]] | {len(buckets[g])} | {len(coming[g])} |" for g, _ in GROUPS] + [""])
 
 
@@ -295,16 +272,16 @@ if __name__ == "__main__":
     p = argparse.ArgumentParser(description=__doc__.split("\n")[0])
     p.add_argument("--query", default=QUERY)
     p.add_argument("--out-dir", type=Path, default=OUT_DIR)
-    p.add_argument("--new-days", type=int, default=NEW_DAYS,
-                   help="also list the new cards due to be introduced over this many days (0 = none)")
+    p.add_argument("--days", type=int, default=RECENT_DAYS,
+                   help="include cards first studied in the last N days (default 3)")
     p.add_argument("--print", dest="show", action="store_true",
                    help="print to stdout instead of writing the notes")
     args = p.parse_args()
 
-    NEW_DAYS = args.new_days
-    entries = fetch(args.query)
-    buckets = split(entries)
-    coming = split(fetch(cards=upcoming_new(NEW_DAYS))) if NEW_DAYS else {g: [] for g, _ in GROUPS}
+    cards, new_ids = todays_cards(args.days)
+    buckets = split(fetch(cards=[c for c in cards if c["cardId"] not in new_ids]))
+    coming = split(fetch(cards=[c for c in cards if c["cardId"] in new_ids]))
+    entries = [e for b in buckets.values() for e in b]
     stamp = time.strftime("%Y-%m-%d %H:%M")
     index = render_index(buckets, len(entries), args.query, stamp, coming)
 
@@ -324,4 +301,4 @@ if __name__ == "__main__":
 
     print(f"{len(entries)} words -> {args.out_dir}/")
     for g, _ in GROUPS:
-        print(f"    {g}.md  {len(buckets[g])} learning, {len(coming[g])} coming up")
+        print(f"    {g}.md  {len(buckets[g])} in progress, {len(coming[g])} new today")

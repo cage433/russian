@@ -340,9 +340,24 @@ def _patch():
             out.append(rec)
         return out
 
+    def queuedNewCards(self, deck="Vocab", fetchLimit=5000):
+        """The new cards the scheduler will still introduce today for `deck` (and its
+        subdecks): the same `get_queued_cards` call the reviewer makes, with the deck
+        selected for the duration and the previous selection restored. Respects every
+        limit in force (per-deck, today-only stamps, parents, burying). Idempotent."""
+        col = self.collection()
+        prev = col.decks.selected()
+        try:
+            col.decks.select(_deck_id(col, deck))
+            q = col.sched.get_queued_cards(fetch_limit=int(fetchLimit))
+            ids = [qc.card.id for qc in q.cards if col.get_card(qc.card.id).type == 0]
+            return {"deck": deck, "newCount": q.new_count, "cardIds": ids}
+        finally:
+            col.decks.select(prev)
+
     actions = (getDeckLimits, setNewLimitToday, clearNewLimitToday, autoLimitNow,
                peekQueue, addonInfo, generateClozeAudio, generateBasicAudio, setFsrsDifficulty,
-               setDeckNewLimit)
+               setDeckNewLimit, queuedNewCards)
     for fn in actions:
         fn.api, fn.versions = True, ()
         setattr(ac.AnkiConnect, fn.__name__, fn)
