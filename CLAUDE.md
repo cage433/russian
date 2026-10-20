@@ -42,6 +42,14 @@ series. Words the textbooks teach that aren't already known get authored as flas
   empty can then be deleted (`Nouns` and `Verbs` went 2026-09-05).
   Checking a subdeck for duplicates is safe any time and promotes nothing — do that first, since
   11 of the 12 notes in `::Nouns`/`::Verbs` turned out to duplicate Точка Ру notes.
+- `Vocab::Verb forms` (2026-10-20, `scripts/verb_forms_build.py`): conjugation cards for the verbs the
+  rules don't predict, all **Cloze** notes, tag `verb-forms`. `::1 Base verbs` (90) and
+  `::2 Consonant change -ать` (30, the писа́ть type): infinitive → я, ты, они, plus past m / f where
+  irregular, Back Extra = the whole present. `::3 Prefixed` (91 notes, 395 cards): one note per base,
+  the base's forms as a visible header, one row per prefixed verb with only the active row's forms
+  shown (`table.vf-family .cloze-inactive` hidden) — the card tests what the prefix changes (при́мешь /
+  поймёшь, сожму́, вы́-). Cue is the infinitive, never English: which word is the 10K card's job.
+  Prefixed is for later (Alex). All start paused; parent 9999.
 - `Vocab::Roots` is a **trial** (started 2026-10-05) of root-family **Cloze** notes: one note per
   root family, one card per word, the rest of the family visible as cues. 2026-10-07: 39 notes /
   205 cards over 24 roots (глас-, каз-, -ста-, -стой-, -став-, -вод-, -мен-, зна-, -лож-, -ход-,
@@ -189,6 +197,18 @@ series. Words the textbooks teach that aren't already known get authored as flas
   Check Media keeps the file but the answer side doesn't replay it. `generateClozeAudio` writes this layout. Inceptive (за-) and delimitative (по-) "perfectives" are not
   partners — such verbs are single-impf. Workflow for a type change: tag → snapshot → Alex changes note type
   in the browser → converter rebuilds fields from the snapshot → Tools → Empty Cards for singles.
+  **Rules vs tricky verbs (2026-10-20, Alex: "I have no sense even for whether the verb is 1st or 2nd
+  conjugation").** `scripts/conj_classify.py` checks every conjugation row against the rules in the
+  Obsidian note `grammar/conjugations/Conjugation — from the infinitive.md` (2,320 rows predicted,
+  332 needing a choice — -еть, -ать after ж/ш/ч/щ — 523 not predicted). Every row carries a hidden
+  `<td class="rl">` rule label, outside the cloze so it is never spoken, shown by the template's
+  **"show rule"** link (next to "other aspect"). **Tricky rows were cut to the infinitive** (+ government):
+  that card now asks only English → infinitive, and the forms live in `Vocab::Verb forms` (label
+  «forms: Verb forms deck · like брать»). A regular partner of a tricky verb keeps its full row — Alex
+  wants a miss there to send him to the rules. Applied by `scripts/verb_forms_apply.py` (idempotent);
+  backup `tutoring/retired/verb-forms-before-*.json`. **All studied impf/pf production cards were reset
+  to new** the same day (`scripts/aspect_reset_production.py`, 426 cards; Alex: their history "measured
+  the wrong thing"); card 3 kept its history. Don't restore that history.
 - **Function words → "Cloze Sentence" notes** (adopted 2026-10-08 after a trial Alex liked: "a very
   helpful format"). One note per word, 2–3 sentences covering its uses, each `<div class="sent">` with
   one `{{cN::word}}` and the English in `<span class="en">`; the note type's CSS shows only the
@@ -533,6 +553,11 @@ when a sentence must reach beyond it, **gloss the unfamiliar word inline** (Engl
   first.** Passing dicts does not raise: iterating a dict yields its keys, so the note is created
   with the *field names* as its values (`Front: "Front"`, `Back: "Back"`) and the helper still
   prints `added 1`. Bit us 2026-09-05. It appends the trailing `<br><br>` to Back itself.
+- **AnkiConnect 26.x refuses `due` (and `queue`, `type`, `ivl`…) in `setSpecificValueOfCard`**
+  ("Use native scheduling commands for protected state"); only factor / reps / lapses / custom data
+  remain. New-card positions go through the add-on's **`setNewPositions([[cardId, pos], …])`**
+  (helper `a.set_new_positions`), which `promote_new_cards.py`, `leech_release.py` and
+  `aspect_reset_production.py` now use. Found 2026-10-20.
 - **AnkiConnect card-id arguments must be ints, not strings.** `getReviewsOfCards` given string
   ids returns an empty list per card instead of erroring — indistinguishable from a card with no
   review history, which is exactly the wrong answer when you are investigating history.

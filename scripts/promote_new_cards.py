@@ -230,12 +230,10 @@ def preview(card):
 
 
 def set_due(card_id, due):
-    """setSpecificValueOfCard takes a single card id, not a list. 'due' is not in
-    AnkiConnect's guarded key list, so no warning_check is needed — but it writes with
-    skip_undo_entry=True, so Anki's undo will NOT bring the old position back."""
-    r = a.call("setSpecificValueOfCard", card=card_id, keys=["due"], newValues=[due])
-    if r is not True and r != [True]:
-        raise RuntimeError(f"setSpecificValueOfCard failed for {card_id}: {r!r}")
+    """Set one new card's queue position (via the add-on's setNewPositions, since AnkiConnect
+    26.x refuses `due` writes). The old positions are snapshotted first; --restore is the
+    way back."""
+    a.set_new_positions([(card_id, due)])
 
 
 def reap_tag(tag, dry_run):

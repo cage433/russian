@@ -357,9 +357,31 @@ def _patch():
         finally:
             col.decks.select(prev)
 
+    def setNewPositions(self, positions):
+        """Set new cards' queue positions: `positions` = [[cardId, position], …].
+
+        AnkiConnect 26.x refuses `due` in setSpecificValueOfCard ("Use native scheduling
+        commands for protected state"), and its native reposition shifts and renumbers, so
+        exact positions (0 / 1 for promoted cards, ties allowed) go through here. Only cards
+        of type new are touched; anything else is reported and skipped. Undoable."""
+        col = self.collection()
+        out = {"set": 0, "skipped": []}
+        cards = []
+        for cid, pos in positions:
+            card = col.get_card(int(cid))
+            if card.type != 0:
+                out["skipped"].append(int(cid))
+                continue
+            card.due = int(pos)
+            cards.append(card)
+        if cards:
+            col.update_cards(cards)
+        out["set"] = len(cards)
+        return out
+
     actions = (getDeckLimits, setNewLimitToday, clearNewLimitToday, autoLimitNow,
                peekQueue, addonInfo, generateClozeAudio, generateBasicAudio, setFsrsDifficulty,
-               setDeckNewLimit, queuedNewCards)
+               setDeckNewLimit, queuedNewCards, setNewPositions)
     for fn in actions:
         fn.api, fn.versions = True, ()
         setattr(ac.AnkiConnect, fn.__name__, fn)

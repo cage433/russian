@@ -109,11 +109,12 @@ def release(dry_run):
                   if c["cardId"] not in set(cids)]
         cs.sort(key=lambda c: (c["ord"], rel.index(c["note"])))
         pos = (min(others) if others else 0) - len(cs)
+        a.set_new_positions([(c["cardId"], pos + i) for i, c in enumerate(cs)])
         for c in cs:
-            r = a.call("setSpecificValueOfCard", card=c["cardId"], keys=["due", "reps", "lapses"],
-                       newValues=[pos, 0, 0], warning_check=True)
+            r = a.call("setSpecificValueOfCard", card=c["cardId"], keys=["reps", "lapses"],
+                       newValues=[0, 0], warning_check=True)
             assert r in (True, [True]), r
-            pos += 1
+        pos += len(cs)
         print(f"{deck}: {len(cs)} cards at the front of the new queue")
     print(f"released {len(rel)} notes")
     snapshot()

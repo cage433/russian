@@ -53,6 +53,16 @@ def call_soft(action, **params):
     data = json.dumps({"action": action, "version": 6, "params": params}).encode()
     return json.load(urllib.request.urlopen(urllib.request.Request(ANKI, data=data)))
 
+def set_new_positions(pairs):
+    """Set new cards' queue positions, [(cardId, position), …], via the add-on's
+    setNewPositions — AnkiConnect 26.x refuses `due` in setSpecificValueOfCard. Raises if the
+    add-on predates the action (restart Anki after pulling) or any card wasn't new."""
+    pairs = [[int(c), int(p)] for c, p in pairs]
+    if not pairs: return
+    r = call("setNewPositions", positions=pairs)
+    if r["skipped"]:
+        raise RuntimeError(f"setNewPositions: not new, skipped: {r['skipped'][:10]}")
+
 # --- Cyrillic normalisation -------------------------------------------------
 def destress(s):
     """Strip ONLY the stress accent (U+0301/U+0300); keep й and ё intact."""
