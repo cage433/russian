@@ -204,7 +204,9 @@ series. Words the textbooks teach that aren't already known get authored as flas
   `<td class="rl">` rule label, outside the cloze so it is never spoken, shown by the template's
   **"show rule"** link (next to "other aspect"). **Tricky rows were cut to the infinitive** (+ government):
   that card now asks only English → infinitive, and the forms live in `Vocab::Verb forms` (label
-  «forms: Verb forms deck · like брать»). A regular partner of a tricky verb keeps its full row — Alex
+  «forms: Verb forms deck · like брать»). Each row's label says what it asks — «impf · inf. only» or
+  «impf · inf., я, ты» (`<span class="ask">`, `scripts/aspect_ask_labels.py`; Alex needed to know
+  which answer a card wants). A regular partner of a tricky verb keeps its full row — Alex
   wants a miss there to send him to the rules. Applied by `scripts/verb_forms_apply.py` (idempotent);
   backup `tutoring/retired/verb-forms-before-*.json`. **All studied impf/pf production cards were reset
   to new** the same day (`scripts/aspect_reset_production.py`, 426 cards; Alex: their history "measured
