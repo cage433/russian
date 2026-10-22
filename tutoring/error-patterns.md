@@ -143,3 +143,5 @@ mini-drills («ещё N таких») when they recur. Add to this list as new p
 - **занима́ться + inst. names the activity, быть + inst. the profession**: ~~занимался физиком~~ → **занима́лся фи́зикой** (studied physics) or **был фи́зиком** (was a physicist). Mixing the two gives "occupied himself with a physicist".
 - **на пе́рвом ме́сте стои́т + noun, not + clause**: ~~на первом месте стоит он занимался…~~ → **пре́жде всего́ / в пе́рвую о́чередь** он…
 - **э in loanwords**: ~~електромехаником~~ → **электро-** (э at the start of a word is almost always written э in loanwords: электри́чество, эне́ргия, эффе́кт).
+- **Instrumental of -ия nouns is -ией**: ~~философей, исторей~~ → **филосо́фией, исто́рией** (also хи́мией, биоло́гией, астроно́мией). The и of the stem stays.
+- **Years**: «в 1933 году» — no ending on the digits after в … году; ~~1933-ом~~ (if you write one, it's 1933-м).
