@@ -145,3 +145,4 @@ mini-drills («ещё N таких») when they recur. Add to this list as new p
 - **э in loanwords**: ~~електромехаником~~ → **электро-** (э at the start of a word is almost always written э in loanwords: электри́чество, эне́ргия, эффе́кт).
 - **Instrumental of -ия nouns is -ией**: ~~философей, исторей~~ → **филосо́фией, исто́рией** (also хи́мией, биоло́гией, астроно́мией). The и of the stem stays.
 - **Years**: «в 1933 году» — no ending on the digits after в … году; ~~1933-ом~~ (if you write one, it's 1933-м).
+- **Motion → в + accusative, location → в + prepositional**: ~~переехала в Франции~~ → **переехала во Фра́нцию** (родила́сь в По́льше is location, correctly prepositional). Plus **во** before в/ф + consonant (во Фра́нции / во Фра́нцию), missed twice in one homework.
