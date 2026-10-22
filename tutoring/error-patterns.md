@@ -139,7 +139,7 @@ mini-drills («ещё N таких») when they recur. Add to this list as new p
   nearby «плани́рование». (Same distinction as the 10K "to carry out" cloze card.)
 
 ### Added 2026-10-22 (free sentence on Тесла)
-- **Prepositional plural -ах / -ях**: ~~в девятнадцатом и двадцатом веки~~ → **в XIX и XX века́х** (two centuries → plural; в + prep.). The nominative plural ве́ка́ / ве́ки was used in its place.
+- **Prepositional plural -ах / -ях**: ~~в девятнадцатом и двадцатом веки~~ → **в XIX и XX века́х** (two centuries → plural; в + prep.). The nominative plural (века́, or ве́ки in set phrases) was used in its place.
 - **занима́ться + inst. names the activity, быть + inst. the profession**: ~~занимался физиком~~ → **занима́лся фи́зикой** (studied physics) or **был фи́зиком** (was a physicist). Mixing the two gives "occupied himself with a physicist".
 - **на пе́рвом ме́сте стои́т + noun, not + clause**: ~~на первом месте стоит он занимался…~~ → **пре́жде всего́ / в пе́рвую о́чередь** он…
 - **э in loanwords**: ~~електромехаником~~ → **электро-** (э at the start of a word is almost always written э in loanwords: электри́чество, эне́ргия, эффе́кт).
