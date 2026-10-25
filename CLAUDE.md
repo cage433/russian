@@ -50,6 +50,11 @@ series. Words the textbooks teach that aren't already known get authored as flas
   shown (`table.vf-family .cloze-inactive` hidden) — the card tests what the prefix changes (при́мешь /
   поймёшь, сожму́, вы́-). Cue is the infinitive, never English: which word is the 10K card's job.
   Prefixed is for later (Alex). All start paused; parent 9999.
+- `Pronunciation` (2026-10-25, `scripts/pronunciation_build.py`): listening cards, note type
+  "Pronunciation" — front = a label naming the contrast + the recording only, back = the word, gloss,
+  and its minimal-pair partner with the partner's recording (autoplays, for comparison). Subdecks
+  `ш vs щ`, `Final ь`, `Hard vs soft`. **Minimal pairs only**: with a single known word its spelling
+  gives the answer away. Audio via `generateBasicAudio` (Back preset); add a pair = one line in the script.
 - `Vocab::Roots` is a **trial** (started 2026-10-05) of root-family **Cloze** notes: one note per
   root family, one card per word, the rest of the family visible as cues. 2026-10-07: 39 notes /
   205 cards over 24 roots (глас-, каз-, -ста-, -стой-, -став-, -вод-, -мен-, зна-, -лож-, -ход-,
@@ -77,7 +82,7 @@ series. Words the textbooks teach that aren't already known get authored as flas
   lapses** (5 would have suspended all 41 leeches that later recovered). A deck's own rate is its
   **"This deck" limit**, set with the add-on action `setDeckNewLimit(deck, n)` (None clears): 10K 15,
   Roots 15, B2.1 5, B1.1 1, B1.2 1, «shit you need to know» 10, Verbs::3000 Verbs::16::b 2,
-  Declensions::Adjectives/Nouns 1. **Parents are 9999 = the sum of their children** — except a parent
+  Declensions::Adjectives/Nouns 1, Pronunciation::* 3 each. **Parents are 9999 = the sum of their children** — except a parent
   with new cards of its own (only «shit you need to know»), which keeps a real limit. New decks therefore
   start paused; don't give one a rate unprompted. The old presets (10K-renamed-Shared aside) are unused;
   don't delete them via AnkiConnect (see `removeDeckConfigId`).
