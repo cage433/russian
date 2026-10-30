@@ -80,7 +80,7 @@ series. Words the textbooks teach that aren't already known get authored as flas
 - **Deck options (since 2026-10-08): every deck uses ONE preset, "Shared"** — Alex wants all settings
   identical except new cards/day. Shared: 0 new/day, 9999 reviews/day, FSRS, **leeches suspended at 8
   lapses** (5 would have suspended all 41 leeches that later recovered). A deck's own rate is its
-  **"This deck" limit**, set with the add-on action `setDeckNewLimit(deck, n)` (None clears): 10K 15,
+  **"This deck" limit**, set with the add-on action `setDeckNewLimit(deck, n)` (None clears): 10K 10 (cut from 15 on 2026-10-30 to hold ~250 answers/day),
   Roots 15, B2.1 5, B1.1 1, B1.2 1, «shit you need to know» 10, Verbs::3000 Verbs::16::b 2,
   Declensions::Adjectives/Nouns 1, Pronunciation::* 3 each. **Parents are 9999 = the sum of their children** — except a parent
   with new cards of its own (only «shit you need to know»), which keeps a real limit. New decks therefore
