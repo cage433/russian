@@ -46,13 +46,14 @@ series. Words the textbooks teach that aren't already known get authored as flas
   rules don't predict, all **Cloze** notes, tag `verb-forms`. `::1 Base verbs` (90) and
   `::2 Consonant change -ать` (30, the писа́ть type): infinitive → я, ты, они, plus past m / f where
   irregular, Back Extra = the whole present; header = infinitive + English. `::3 Prefixed` (91 notes,
-  395 cards) is **laid out like Roots** (Alex, 2026-10-30, `scripts/verb_forms_restructure.py`):
-  header = base infinitive + English **only** — the base's conjugation used to sit there and gave the
-  answer away; rows = English | prefix (`pc`) | infinitive (+gov) | я, ты (`td.vff`) | prefix meaning
-  (`pm`), one cloze number per row, so a card asks English → prefixed infinitive **and** its forms
-  (showing the infinitive would give the prefix away). Other rows' infinitives show, their forms
-  stay hidden (`table.vf-family td.vff .cloze-inactive`). Glosses / prefixes / meanings for all
-  three decks: `scripts/verb_forms_glosses.tsv`; within a family every gloss is unique.
+  399 cards; `scripts/verb_forms_restructure.py`): header = base infinitive + English **only** (the
+  base's conjugation used to sit there and gave the answer away); rows = English | {{cN::prefixed
+  infinitive (+gov)}} | я, ты. A card asks **English → prefixed infinitive only** (Alex, 2026-11-01:
+  learning the base's conjugation is enough, and more columns don't fit a phone): the forms sit in a
+  hidden `td.vff` column behind a "forms" link on the answer side, recordings speak the infinitive,
+  and the prefix / prefix-meaning columns (tried 2026-10-30, Roots-style) were dropped. Other rows'
+  infinitives show. Glosses and government for all three decks: `scripts/verb_forms_glosses.tsv`
+  (its prefix columns are now unused); within a family every gloss is unique.
   Government checked for all of them (2026-10-30). A verb whose senses take different constructions
   keeps one row with the constructions spelled out — «(к +d = bring up to; +a = let down)» — except
   подойти́, порва́ть, отозва́ться and вы́йти (за́муж), split into two rows (`#2` in the TSV); the

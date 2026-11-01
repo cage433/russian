@@ -4,11 +4,12 @@ Prefixed notes laid out like `Vocab::Roots`.
 
   ::1 / ::2   the header gains the English: «бежа́ть  "to run"». Clozes untouched.
   ::3 Prefixed  header = base infinitive + English only (the base's conjugation gave the answer
-              away). One row per prefixed verb: English | prefix (td.pc) | infinitive (+gov) |
-              я, ты (td.vff) | prefix meaning (td.pm), all of a row under one cloze number, so
-              the card asks English → infinitive + forms. Other rows show their infinitives;
-              their forms stay hidden (CSS on td.vff), since they'd give the stem away.
-              Spoken text changes, so the audio is regenerated.
+              away). One row per prefixed verb: English | {{cN::infinitive (+gov)}} | я, ты.
+              The card asks English → prefixed infinitive; the forms are not tested (Alex,
+              2026-11-01: the base's conjugation is enough, and the extra columns didn't fit a
+              phone) and sit in a hidden td.vff column behind a "forms" link on the answer side.
+              The prefix and prefix-meaning columns went the same day. Recordings speak the
+              infinitive only, so the audio is regenerated.
 
 Glosses, prefixes, prefix meanings and government overrides: scripts/verb_forms_glosses.tsv
 (row: inf, prefix, gloss, meaning[, government]; base: ## inf, gloss[, government]). Cloze numbers are kept,
@@ -25,8 +26,19 @@ a.use_venv()
 
 TSV = 'scripts/verb_forms_glosses.tsv'
 TD = '<td%s style="padding: 2px 10px; vertical-align: top;">%s</td>'
-OLD_CSS = 'table.vf-family .cloze-inactive { visibility: hidden; }'
-NEW_CSS = 'table.vf-family td.vff .cloze-inactive, table.vf-family td.vfd .cloze-inactive { visibility: hidden; }'
+CSS = ('/* Vocab::Verb forms Prefixed: the forms column is shown only by its link, on the answer side */\n'
+       'table.vf-family td.vfd .cloze-inactive { visibility: hidden; }\n'
+       'td.vff { display: none; color: #666; }\ntd.vff.show { display: table-cell; }\n')
+# the template's column-toggle script, with a "forms" link added on the answer side only
+TOGGLE = ('<script>(function(){if(document.querySelector(".pm-toggle"))return;'
+          'var first=document.querySelector("td.pc, td.pm, td.vff");if(!first)return;'
+          'var back=!!document.querySelector(".audio-row");'
+          'var tb=first.closest("table"),bar=document.createElement("div");'
+          '[["pc","prefixes"],["pm","prefix meanings"],["vff","forms"]].forEach(function(p){'
+          'if(p[0]=="vff"&&!back)return;var cells=document.querySelectorAll("td."+p[0]);if(!cells.length)return;'
+          'var t=document.createElement("span");t.className="pm-toggle";t.textContent=p[1];'
+          't.onclick=function(){cells.forEach(function(e){e.classList.toggle("show")});};bar.appendChild(t);});'
+          'tb.parentNode.insertBefore(bar,tb);})();</script>')
 strip = lambda s: ' '.join(re.sub(r'<[^>]+>|&nbsp;', ' ', s).split())
 
 def load():
@@ -48,10 +60,8 @@ def family_text(base, gloss, rows):
         gov = gov if gov2 is None else gov2
         # a verb split by construction has two rows: hide the other row's infinitive too
         dup = ' class="vfd"' if inf in twice else ''
-        out.append('<tr>' + TD % ('', g) + TD % (' class="pc"', '{{c%d::%s}}' % (n, p))
-                   + TD % (dup, '{{c%d::%s}}' % (n, inf + (' ' + gov if gov else '')))
-                   + TD % (' class="vff"', '{{c%d::%s}}' % (n, forms))
-                   + TD % (' class="pm"', '<i>%s</i>' % pm) + '</tr>')
+        out.append('<tr>' + TD % ('', g) + TD % (dup, '{{c%d::%s}}' % (n, inf + (' ' + gov if gov else '')))
+                   + TD % (' class="vff"', forms) + '</tr>')
     return ('<b>%s</b> &nbsp;"%s"<br><br><table class="vf vf-family" style="margin: 0 auto; '
             'text-align: left; border-collapse: collapse;">' % (base, gloss) + ''.join(out) + '</table>')
 
@@ -64,9 +74,12 @@ def old_rows(text):
         if len(tds) == 2:                       # original: label | {{cN::forms}}
             lab = strip(tds[0]); inf = lab.split()[0]
             rows.append((int(cl[1].group(1)), inf, lab[len(inf):].strip(), cl[1].group(2)))
-        else:                                   # rebuilt: gloss | pc | inf (gov) | forms | pm
+        elif len(tds) == 5:                     # 2026-10-30: gloss | pc | inf (gov) | forms | pm
             lab = cl[2].group(2); inf = lab.split()[0]
             rows.append((int(cl[3].group(1)), inf, lab[len(inf):].strip(), cl[3].group(2)))
+        else:                                   # 2026-11-01: gloss | inf (gov) | forms (not a cloze)
+            lab = cl[1].group(2); inf = lab.split()[0]
+            rows.append((int(cl[1].group(1)), inf, lab[len(inf):].strip(), tds[2]))
     return rows
 
 def main():
@@ -114,15 +127,25 @@ def main():
     json.dump([{'noteId': n['noteId'], 'fields': {k: v['value'] for k, v in n['fields'].items()}} for n, _ in updates],
               open(f'tutoring/retired/verb-forms-restructure-{stamp}.json', 'w'), ensure_ascii=False, indent=0)
     css = a.call('modelStyling', modelName='Cloze')['css']
-    if OLD_CSS in css:
-        css = css.replace(OLD_CSS, NEW_CSS)
-        css = re.sub(r'\.vf-base \{[^}]*\}\n?|\.nightMode \.vf-base \{[^}]*\}\n?', '', css)
-        a.call('updateModelStyling', model={'name': 'Cloze', 'css': css})
+    if CSS not in css:
+        css = ''.join(l + '\n' for l in css.split('\n') if not re.search(r'vf-family|vf-base|td\.vff|Vocab::Verb forms', l))
+        a.call('updateModelStyling', model={'name': 'Cloze', 'css': css.rstrip('\n') + '\n\n' + CSS})
+    tm = a.call('modelTemplates', modelName='Cloze')['Cloze']
+    if TOGGLE not in tm['Front']:
+        tm = {k: re.sub(r'<script>\(function\(\)\{if\(document\.querySelector\("\.pm-toggle"\).*?</script>', lambda m: TOGGLE, v, flags=re.S)
+              for k, v in tm.items()}
+        a.call('updateModelTemplates', model={'name': 'Cloze', 'templates': {'Cloze': tm}})
     for n, new in updates:
         a.call('updateNoteFields', note={'id': n['noteId'], 'fields': {'Text': new}})
     redo = [n['noteId'] for n, _ in updates if n['noteId'] in fam_ids]
-    for i in range(0, len(redo), 10):
-        print(a.call('generateClozeAudio', noteIds=redo[i:i + 10], force=True))
+    for i in range(0, len(redo), 5):
+        for attempt in range(4):           # the TTS service drops connections now and then
+            try:
+                a.call('generateClozeAudio', noteIds=redo[i:i + 5], force=True); break
+            except RuntimeError as e:
+                print('retry', i, str(e)[:80]); time.sleep(10)
+        else:
+            print('FAILED', redo[i:i + 5])
     print('updated', len(updates))
 
 if __name__ == '__main__':
