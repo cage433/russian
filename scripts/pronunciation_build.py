@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 """Build the Pronunciation deck: listening cards for sounds an English ear merges.
 
-One note per word, note type "Pronunciation": the front is only a label naming the contrast
-(«ш or щ?») and the recording; the back is the word, its gloss, and its minimal-pair partner
+One note per word, note type "Pronunciation": the front names the contrast and shows both words
+of the pair («ш or щ / ча́ша / ча́ща», alphabetical, so the order gives nothing away) and plays
+the recording; the back is the word, its gloss, and its minimal-pair partner
 with the partner's recording, which autoplays so the two can be compared. Words come in
 minimal pairs: with a word you know, its spelling would give the answer away, so only a
 partner that differs in the target sound alone makes the card a test of hearing.
@@ -22,14 +23,14 @@ MODEL = 'Pronunciation'
 TAGS = ['claude', 'pronunciation']
 
 SETS = [
-    ('ш vs щ', 'ш or щ?', [
+    ('ш vs щ', 'ш or щ', [
         (('ча́ша', 'cup, bowl'), ('ча́ща', 'thicket')),
         (('шит', 'sewn'), ('щит', 'shield')),
         (('шёлк', 'silk'), ('щёлк', 'click!')),
         (('пишу́', 'I write'), ('пищу́', 'I squeak')),
         (('шиплю́', 'I hiss'), ('щиплю́', 'I pinch')),
     ]),
-    ('Final ь', 'ь or not?', [
+    ('Final ь', 'with or without ь', [
         (('у́гол', 'corner'), ('у́голь', 'coal')),
         (('брат', 'brother'), ('брать', 'to take')),
         (('мат', 'checkmate; swearing'), ('мать', 'mother')),
@@ -46,7 +47,7 @@ SETS = [
         (('по́лка', 'shelf'), ('по́лька', 'Polish woman; polka')),
         (('га́лка', 'jackdaw'), ('га́лька', 'pebbles')),
     ]),
-    ('Hard vs soft', 'hard or soft?', [
+    ('Hard vs soft', 'hard or soft', [
         (('быть', 'to be'), ('бить', 'to beat')),
         (('был', 'was'), ('бил', 'beat (past)')),
         (('мы́ло', 'soap'), ('ми́ло', 'nicely, sweetly')),
@@ -68,6 +69,8 @@ CSS = """.card { font-family: arial; font-size: 24px; text-align: center; color:
 .nightMode .gloss { color: #aaa; }
 .partner { margin-top: 1.5em; font-size: 0.9em; }
 .partner .pg { color: #888; font-size: 0.85em; }
+.pair { display: inline-block; margin-top: 0.4em; font-size: 1.4em; color: black; }
+.nightMode .pair { color: #eee; }
 """
 FRONT = '<div class="label">{{Label}}</div>\n{{Audio}}'
 BACK = ('{{FrontSide}}\n<hr id=answer>\n<div class="word">{{Word}}</div>\n<div class="gloss">{{Gloss}}</div>\n'
@@ -104,7 +107,11 @@ def main():
                     continue
                 nid = a.call('addNote', note={
                     'deckName': deck, 'modelName': MODEL, 'tags': TAGS,
-                    'fields': {'Word': w, 'Gloss': g, 'Label': label, 'Audio': w,
+                    'fields': {'Word': w, 'Gloss': g, 'Audio': w,
+                               # both words, in a fixed order, so the front names the contrast
+                               # without the position of the answer giving it away
+                               'Label': '%s<br><span class="pair">%s</span>' % (
+                                   label, ' / '.join(sorted([w, pw], key=a.destress))),
                                'Partner': pw, 'Partner gloss': pg},
                     'options': {'allowDuplicate': False}})
                 made[w] = nid

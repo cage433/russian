@@ -60,7 +60,8 @@ series. Words the textbooks teach that aren't already known get authored as flas
   other row's infinitive is hidden on those (`td.vfd`), or it would answer the card.
   Prefixed is for later (Alex). All start paused; parent 9999.
 - `Pronunciation` (2026-10-25, `scripts/pronunciation_build.py`): listening cards, note type
-  "Pronunciation" — front = a label naming the contrast + the recording only, back = the word, gloss,
+  "Pronunciation" — front = the contrast and both words of the pair, alphabetical (Alex, 2026-11-01: to
+  know which sound is being tested) + the recording, back = the word, gloss,
   and its minimal-pair partner with the partner's recording (autoplays, for comparison). Subdecks
   `ш vs щ`, `Final ь`, `Hard vs soft`. **Minimal pairs only**: with a single known word its spelling
   gives the answer away. Audio via `generateBasicAudio` (Back preset); add a pair = one line in the script.
