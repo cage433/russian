@@ -64,7 +64,9 @@ series. Words the textbooks teach that aren't already known get authored as flas
   know which sound is being tested) + the recording, back = the word, gloss,
   and its minimal-pair partner with the partner's recording (autoplays, for comparison). Subdecks
   `ш vs щ`, `Final ь`, `Hard vs soft`. **Minimal pairs only**: with a single known word its spelling
-  gives the answer away. Audio via `generateBasicAudio` (Back preset); add a pair = one line in the script.
+  gives the answer away. Audio via `generateBasicAudio` (Back preset) with **one fixed voice**, `VOICE` in the script (Alex, 2026-11-02:
+  the preset's random choice of four speakers swamped шест / шесть); `--rerecord` redoes them all.
+  Add a pair = one line in the script.
 - `Vocab::Roots` is a **trial** (started 2026-10-05) of root-family **Cloze** notes: one note per
   root family, one card per word, the rest of the family visible as cues. 2026-10-07: 39 notes /
   205 cards over 24 roots (глас-, каз-, -ста-, -стой-, -став-, -вод-, -мен-, зна-, -лож-, -ход-,

@@ -298,10 +298,10 @@ def _patch():
         from . import cloze_audio
         return cloze_audio.generate(self.collection(), noteIds, bool(force), bool(dryRun))
 
-    def generateBasicAudio(self, noteIds, field="Back", dryRun=False):
+    def generateBasicAudio(self, noteIds, field="Back", dryRun=False, voice=None):
         """Re-record a Basic note's Back with the Back preset; see cloze_audio.generate_basic."""
         from . import cloze_audio
-        return cloze_audio.generate_basic(self.collection(), noteIds, field, bool(dryRun))
+        return cloze_audio.generate_basic(self.collection(), noteIds, field, bool(dryRun), voice)
 
     def setDeckNewLimit(self, deck, newLimit=None):
         """Set (or, with None, clear) the deck's own "This deck" new-cards/day limit — the

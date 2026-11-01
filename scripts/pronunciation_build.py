@@ -10,7 +10,7 @@ partner that differs in the target sound alone makes the card a test of hearing.
 
 Audio is the Back preset's HyperTTS voice via the add-on's generateBasicAudio: the word is
 written into Audio, recorded, then Audio is cut down to the bare [sound:] tag.
-Idempotent: existing notes (by Word) are skipped. Decks start paused (Shared preset, 0/day).
+Idempotent: existing notes (by Word) are skipped. `--rerecord` re-records every note with VOICE. Decks start paused (Shared preset, 0/day).
 """
 import sys
 sys.path.insert(0, 'scripts')
@@ -19,6 +19,9 @@ a.use_venv()
 import re
 
 ROOT = 'Pronunciation'
+# One speaker for every recording (Alex, 2026-11-02): the Back preset picks one of four voices at
+# random, and a change of speaker between шест and шесть swamps the difference being trained.
+VOICE = 'ru-RU-Wavenet-D'
 MODEL = 'Pronunciation'
 TAGS = ['claude', 'pronunciation']
 
@@ -96,6 +99,14 @@ def ensure_decks():
 
 
 def main():
+    if '--rerecord' in sys.argv:            # re-record every note with VOICE
+        # an add-on loaded before `voice` existed would fail after Audio was blanked to the word
+        assert not a.call('addonInfo')['stale'], 'restart Anki: the add-on changed since it loaded'
+        nids = a.call('findNotes', query=f'"note:{MODEL}"')
+        for n in a.call('notesInfo', notes=nids):
+            a.call('updateNoteFields', note={'id': n['noteId'], 'fields': {'Audio': n['fields']['Word']['value']}})
+        record(nids)
+        return
     ensure_model()
     ensure_decks()
     made = {}
@@ -116,9 +127,12 @@ def main():
                     'options': {'allowDuplicate': False}})
                 made[w] = nid
     print(f'added {len(made)} notes')
-    ids = list(made.values())
+    record(list(made.values()))
+
+
+def record(ids):
     for i in range(0, len(ids), 10):
-        print(a.call('generateBasicAudio', noteIds=ids[i:i + 10], field='Audio'))
+        print(a.call('generateBasicAudio', noteIds=ids[i:i + 10], field='Audio', voice=VOICE))
     # Audio holds "word<br><br> [sound:x]" now: cut it to the tag, then copy it to the partner.
     nids = a.call('findNotes', query=f'"note:{MODEL}"')
     notes = a.call('notesInfo', notes=nids)
