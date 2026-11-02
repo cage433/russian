@@ -1,0 +1,882 @@
+{
+"notes": [
+{
+"noteId": 1791363621969,
+"profile": "User 1",
+"tags": [
+"claude",
+"root"
+],
+"fields": {
+"Text": {
+"value": "<b>-польз-</b> &nbsp;\"use, benefit\"<br><br><table style=\"margin: 0 auto; text-align: left; border-collapse: collapse;\"><tr><td style=\"padding: 2px 10px; vertical-align: top;\">benefit, usefulness</td><td class=\"pc\" style=\"padding: 2px 10px; vertical-align: top;\">{{c1::—}}</td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c1::по́льза}}</td><td class=\"pm\" style=\"padding: 2px 10px; vertical-align: top;\"><i>(plain)</i></td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">to make use of</td><td class=\"pc\" style=\"padding: 2px 10px; vertical-align: top;\">{{c2::—}}</td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c2::по́льзоваться / воспо́льзоваться (+inst)}}</td><td class=\"pm\" style=\"padding: 2px 10px; vertical-align: top;\"><i>(plain)</i></td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">to use, utilise</td><td class=\"pc\" style=\"padding: 2px 10px; vertical-align: top;\">{{c3::ис-}}</td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c3::испо́льзовать (i/p) (+a)}}</td><td class=\"pm\" style=\"padding: 2px 10px; vertical-align: top;\"><i>(idiomatic)</i></td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">useful, beneficial (adj.)</td><td class=\"pc\" style=\"padding: 2px 10px; vertical-align: top;\">{{c4::—}}</td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c4::поле́зный}}</td><td class=\"pm\" style=\"padding: 2px 10px; vertical-align: top;\"><i>(plain)</i></td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">user</td><td class=\"pc\" style=\"padding: 2px 10px; vertical-align: top;\">{{c5::—}}</td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c5::по́льзователь}}</td><td class=\"pm\" style=\"padding: 2px 10px; vertical-align: top;\"><i>(plain)</i></td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">useless (adj.)</td><td class=\"pc\" style=\"padding: 2px 10px; vertical-align: top;\">{{c6::бес-}}</td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c6::бесполе́зный}}</td><td class=\"pm\" style=\"padding: 2px 10px; vertical-align: top;\"><i>without</i></td></tr></table>",
+"order": 0
+},
+"Back Extra": {
+"value": "",
+"order": 1
+},
+"Audio": {
+"value": "{{c1::[sound:hypertts-ba1ee0f6e4eb23bba836fbbe549779a4f49fe2087520e53f9a08a3d9.mp3]}} {{c2::[sound:hypertts-bc090a1ee068e99b9146f285eb2925ea4fa1b560b86ab9568a3b0e69.mp3]}} {{c3::[sound:hypertts-a2482e5be69f3d7070e2f7a5a44b6e0883fdef09c92911a8f214d4b5.mp3]}} {{c4::[sound:hypertts-076a3c37d6b6e7f6e9dbe18bc0c9b6d72749b1a2677c00ca878b60a0.mp3]}} {{c5::[sound:hypertts-191539dbd998e4ecfc56056c477450c48d0456f3e0bb796b6b76a03d.mp3]}} {{c6::[sound:hypertts-423b1363b80422821c20ccad2fb7de8dc1ae73dae30a0f2decaaa792.mp3]}}",
+"order": 2
+}
+},
+"modelName": "Cloze",
+"mod": 1791363640,
+"cards": [
+1791363621969,
+1791363621973,
+1791363621974,
+1791363621971,
+1791363621972,
+1791363621970
+]
+},
+{
+"noteId": 1726634605458,
+"profile": "User 1",
+"tags": [
+"noun"
+],
+"fields": {
+"Front": {
+"value": "usage, utilization",
+"order": 0
+},
+"Back": {
+"value": "испо́льзование<br><br> [sound:hypertts-0ddd3b5dbde1a8ce33649760c6c5427c2b92c740fdab4ed87f96521f.mp3]",
+"order": 1
+},
+"Example": {
+"value": "Испо́льзование солнечной энергии помогает сокраща́ть расходы.",
+"order": 2
+}
+},
+"modelName": "Basic (and reversed card)",
+"mod": 1787376872,
+"cards": [
+1726634606716,
+1726634606717
+]
+},
+{
+"noteId": 1726634612874,
+"profile": "User 1",
+"tags": [
+"B1.2-3.2",
+"claude",
+"native",
+"noun"
+],
+"fields": {
+"Front": {
+"value": "use (of sth)",
+"order": 0
+},
+"Back": {
+"value": "по́льзование (+inst)<br><br> [sound:hypertts-05c259ca16439d251272f2a8391275dcc5e737c63efa1ad30d6519a1.mp3]",
+"order": 1
+},
+"Example": {
+"value": "По́льзование интерне́том стало́ неотъе́млемой ча́стью наше́й жи́зни.",
+"order": 2
+}
+},
+"modelName": "Basic (and reversed card)",
+"mod": 1787376872,
+"cards": [
+1726634621548,
+1726634621549
+]
+},
+{
+"noteId": 1726634604958,
+"profile": "User 1",
+"tags": [
+"aspect",
+"aspect-single",
+"verb"
+],
+"fields": {
+"Text": {
+"value": "<div class=\"ru-pair\" data-audio=\"hypertts-0e23f98a2e78cc9880ba02425d14bb8207af2506f3075cbc003b6399.mp3\">испо́льзовать (i/p) (+a)</div><b>{{c3::to use, utilize}}</b><br><br><table class=\"aspect\" style=\"margin: 0 auto; text-align: left; border-collapse: collapse;\"><tr><td style=\"padding: 2px 10px; vertical-align: top;\">i/p <span class=\"ask\">· inf., я, ты</span></td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c1::испо́льзовать — испо́льзую, испо́льзуешь (+a)}}</td><td class=\"rl\" style=\"padding: 2px 10px; vertical-align: top;\">I · -ова-/-ева- → -у-/-ю-</td></tr></table>",
+"order": 0
+},
+"Back Extra": {
+"value": "{{c1::Мы испо́льзуем но́вые техноло́гии для реше́ния э́той пробле́мы.}} {{c3::Мы испо́льзуем но́вые техноло́гии для реше́ния э́той пробле́мы.}}",
+"order": 1
+},
+"Audio": {
+"value": "{{c1::[sound:hypertts-bbac8413938899ae4f14cb231fccea4d5bbf7fc1acab1f0e0add1299.mp3]}} [sound:hypertts-0e23f98a2e78cc9880ba02425d14bb8207af2506f3075cbc003b6399.mp3]",
+"order": 2
+}
+},
+"modelName": "Cloze Aspect",
+"mod": 1792524212,
+"cards": [
+1726634605716,
+1791457108890
+]
+},
+{
+"noteId": 1791455794277,
+"profile": "User 1",
+"tags": [
+"aspect",
+"claude",
+"verb"
+],
+"fields": {
+"Text": {
+"value": "<div class=\"ru-pair\" data-audio=\"hypertts-bcd3e368c37abd9f29c6bc4cab864d618e40e80617c9e16b1f6f7ccb.mp3\">по́льзоваться / воспо́льзоваться (+inst)</div><b>{{c3::to use, make use of}}</b><br><br><table class=\"aspect\" style=\"margin: 0 auto; text-align: left; border-collapse: collapse;\"><tr><td style=\"padding: 2px 10px; vertical-align: top;\">impf <span class=\"ask\">· inf., я, ты</span></td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c1::по́льзоваться — по́льзуюсь, по́льзуешься (+inst)}}</td><td class=\"rl\" style=\"padding: 2px 10px; vertical-align: top;\">I · -ова-/-ева- → -у-/-ю-</td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">pf <span class=\"ask\">· inf., я, ты</span></td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c2::воспо́льзоваться — воспо́льзуюсь, воспо́льзуешься (+inst)}}</td><td class=\"rl\" style=\"padding: 2px 10px; vertical-align: top;\">I · -ова-/-ева- → -у-/-ю-</td></tr></table>",
+"order": 0
+},
+"Back Extra": {
+"value": "{{c1::Я ча́сто по́льзуюсь э́тим словарём.}} {{c2::Мо́жно воспо́льзоваться ва́шим телефо́ном?}} {{c3::Я ча́сто по́льзуюсь э́тим словарём.<br>Мо́жно воспо́льзоваться ва́шим телефо́ном?}}",
+"order": 1
+},
+"Audio": {
+"value": "{{c1::[sound:hypertts-279c31cbb6afb3d036ac9d416bc4521ba7df7c1f33b34408f954add4.mp3]}} {{c2::[sound:hypertts-d32ec170775112e464833aa90ced89b0024f8aa203c4b279c2c08243.mp3]}} [sound:hypertts-bcd3e368c37abd9f29c6bc4cab864d618e40e80617c9e16b1f6f7ccb.mp3]",
+"order": 2
+}
+},
+"modelName": "Cloze Aspect",
+"mod": 1792524291,
+"cards": [
+1791455794278,
+1791455794279,
+1791455794277
+]
+},
+{
+"noteId": 1782914058831,
+"profile": "User 1",
+"tags": [
+"aspect",
+"aspect-single",
+"B2.1-1.1",
+"claude",
+"verb"
+],
+"fields": {
+"Text": {
+"value": "<div class=\"ru-pair\" data-audio=\"hypertts-17f5205d94d6cfa03bbc05958ffb35dc71e211ffce60ade41da2bc63.mp3\">испо́льзоваться</div><b>{{c3::to be used}}</b><br><br><table class=\"aspect\" style=\"margin: 0 auto; text-align: left; border-collapse: collapse;\"><tr><td style=\"padding: 2px 10px; vertical-align: top;\">impf <span class=\"ask\">· inf., я, ты</span></td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c1::испо́льзоваться — испо́льзуюсь, испо́льзуешься}}</td><td class=\"rl\" style=\"padding: 2px 10px; vertical-align: top;\">I · -ова-/-ева- → -у-/-ю-</td></tr></table>",
+"order": 0
+},
+"Back Extra": {
+"value": "{{c1::Э́тот хэ́штег испо́льзуется миллио́нами люде́й.}} {{c3::Э́тот хэ́штег испо́льзуется миллио́нами люде́й.}}",
+"order": 1
+},
+"Audio": {
+"value": "{{c1::[sound:hypertts-e2d93ffa77ed9b779c5e771a83d4c8562a2bea9404c15bd99d66bacf.mp3]}} [sound:hypertts-17f5205d94d6cfa03bbc05958ffb35dc71e211ffce60ade41da2bc63.mp3]",
+"order": 2
+}
+},
+"modelName": "Cloze Aspect",
+"mod": 1792524284,
+"cards": [
+1782914058831,
+1791457205213
+]
+}
+],
+"cards": [
+{
+"cardId": 1791363621969,
+"fieldOrder": 0,
+"ord": 0,
+"factor": 2300,
+"interval": 10,
+"note": 1791363621969,
+"type": 2,
+"queue": 2,
+"due": 1757,
+"reps": 11,
+"lapses": 1,
+"left": 0,
+"mod": 1793652623,
+"flags": 0,
+"fields": {
+"Text": {
+"value": "<b>-польз-</b> &nbsp;\"use, benefit\"<br><br><table style=\"margin: 0 auto; text-align: left; border-collapse: collapse;\"><tr><td style=\"padding: 2px 10px; vertical-align: top;\">benefit, usefulness</td><td class=\"pc\" style=\"padding: 2px 10px; vertical-align: top;\">{{c1::—}}</td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c1::по́льза}}</td><td class=\"pm\" style=\"padding: 2px 10px; vertical-align: top;\"><i>(plain)</i></td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">to make use of</td><td class=\"pc\" style=\"padding: 2px 10px; vertical-align: top;\">{{c2::—}}</td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c2::по́льзоваться / воспо́льзоваться (+inst)}}</td><td class=\"pm\" style=\"padding: 2px 10px; vertical-align: top;\"><i>(plain)</i></td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">to use, utilise</td><td class=\"pc\" style=\"padding: 2px 10px; vertical-align: top;\">{{c3::ис-}}</td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c3::испо́льзовать (i/p) (+a)}}</td><td class=\"pm\" style=\"padding: 2px 10px; vertical-align: top;\"><i>(idiomatic)</i></td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">useful, beneficial (adj.)</td><td class=\"pc\" style=\"padding: 2px 10px; vertical-align: top;\">{{c4::—}}</td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c4::поле́зный}}</td><td class=\"pm\" style=\"padding: 2px 10px; vertical-align: top;\"><i>(plain)</i></td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">user</td><td class=\"pc\" style=\"padding: 2px 10px; vertical-align: top;\">{{c5::—}}</td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c5::по́льзователь}}</td><td class=\"pm\" style=\"padding: 2px 10px; vertical-align: top;\"><i>(plain)</i></td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">useless (adj.)</td><td class=\"pc\" style=\"padding: 2px 10px; vertical-align: top;\">{{c6::бес-}}</td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c6::бесполе́зный}}</td><td class=\"pm\" style=\"padding: 2px 10px; vertical-align: top;\"><i>without</i></td></tr></table>",
+"order": 0
+},
+"Back Extra": {
+"value": "",
+"order": 1
+},
+"Audio": {
+"value": "{{c1::[sound:hypertts-ba1ee0f6e4eb23bba836fbbe549779a4f49fe2087520e53f9a08a3d9.mp3]}} {{c2::[sound:hypertts-bc090a1ee068e99b9146f285eb2925ea4fa1b560b86ab9568a3b0e69.mp3]}} {{c3::[sound:hypertts-a2482e5be69f3d7070e2f7a5a44b6e0883fdef09c92911a8f214d4b5.mp3]}} {{c4::[sound:hypertts-076a3c37d6b6e7f6e9dbe18bc0c9b6d72749b1a2677c00ca878b60a0.mp3]}} {{c5::[sound:hypertts-191539dbd998e4ecfc56056c477450c48d0456f3e0bb796b6b76a03d.mp3]}} {{c6::[sound:hypertts-423b1363b80422821c20ccad2fb7de8dc1ae73dae30a0f2decaaa792.mp3]}}",
+"order": 2
+}
+},
+"modelName": "Cloze",
+"css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n\n.cloze {\n font-weight: bold;\n color: blue;\n}\n.nightMode .cloze {\n color: lightblue;\n}\n\ntd.pm, td.pc { display: none; }\ntd.pm.show, td.pc.show { display: table-cell; }\n.pm-toggle { font-size: 0.8em; color: #888; text-decoration: underline; cursor: pointer; display: inline-block; margin: 0 8px 6px; }\n\n.audio-row { text-align: center; margin: 10px 0 1.2em; }\n.example { margin-top: 4px; }\n\n/* Vocab::Verb forms Prefixed: the forms column is shown only by its link, on the answer side */\ntable.vf-family td.vfd .cloze-inactive { visibility: hidden; }\ntd.vff { display: none; color: #666; }\ntd.vff.show { display: table-cell; }\n",
+"deckName": "Vocab::Roots",
+"question": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n\n.cloze {\n font-weight: bold;\n color: blue;\n}\n.nightMode .cloze {\n color: lightblue;\n}\n\ntd.pm, td.pc { display: none; }\ntd.pm.show, td.pc.show { display: table-cell; }\n.pm-toggle { font-size: 0.8em; color: #888; text-decoration: underline; cursor: pointer; display: inline-block; margin: 0 8px 6px; }\n\n.audio-row { text-align: center; margin: 10px 0 1.2em; }\n.example { margin-top: 4px; }\n\n/* Vocab::Verb forms Prefixed: the forms column is shown only by its link, on the answer side */\ntable.vf-family td.vfd .cloze-inactive { visibility: hidden; }\ntd.vff { display: none; color: #666; }\ntd.vff.show { display: table-cell; }\n</style><b>-польз-</b> &nbsp;\"use, benefit\"<br><br><table style=\"margin: 0 auto; text-align: left; border-collapse: collapse;\"><tr><td style=\"padding: 2px 10px; vertical-align: top;\">benefit, usefulness</td><td class=\"pc\" style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze\" data-cloze=\"—\" data-ordinal=\"1\">[...]</span></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze\" data-cloze=\"по́льза\" data-ordinal=\"1\">[...]</span></td><td class=\"pm\" style=\"padding: 2px 10px; vertical-align: top;\"><i>(plain)</i></td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">to make use of</td><td class=\"pc\" style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"2\">—</span></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"2\">по́льзоваться / воспо́льзоваться (+inst)</span></td><td class=\"pm\" style=\"padding: 2px 10px; vertical-align: top;\"><i>(plain)</i></td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">to use, utilise</td><td class=\"pc\" style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"3\">ис-</span></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"3\">испо́льзовать (i/p) (+a)</span></td><td class=\"pm\" style=\"padding: 2px 10px; vertical-align: top;\"><i>(idiomatic)</i></td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">useful, beneficial (adj.)</td><td class=\"pc\" style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"4\">—</span></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"4\">поле́зный</span></td><td class=\"pm\" style=\"padding: 2px 10px; vertical-align: top;\"><i>(plain)</i></td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">user</td><td class=\"pc\" style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"5\">—</span></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"5\">по́льзователь</span></td><td class=\"pm\" style=\"padding: 2px 10px; vertical-align: top;\"><i>(plain)</i></td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">useless (adj.)</td><td class=\"pc\" style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"6\">бес-</span></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"6\">бесполе́зный</span></td><td class=\"pm\" style=\"padding: 2px 10px; vertical-align: top;\"><i>without</i></td></tr></table>\n<script>(function(){if(document.querySelector(\".pm-toggle\"))return;var first=document.querySelector(\"td.pc, td.pm, td.vff\");if(!first)return;var back=!!document.querySelector(\".audio-row\");var tb=first.closest(\"table\"),bar=document.createElement(\"div\");[[\"pc\",\"prefixes\"],[\"pm\",\"prefix meanings\"],[\"vff\",\"forms\"]].forEach(function(p){if(p[0]==\"vff\"&&!back)return;var cells=document.querySelectorAll(\"td.\"+p[0]);if(!cells.length)return;var t=document.createElement(\"span\");t.className=\"pm-toggle\";t.textContent=p[1];t.onclick=function(){cells.forEach(function(e){e.classList.toggle(\"show\")});};bar.appendChild(t);});tb.parentNode.insertBefore(bar,tb);})();</script>",
+"answer": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n\n.cloze {\n font-weight: bold;\n color: blue;\n}\n.nightMode .cloze {\n color: lightblue;\n}\n\ntd.pm, td.pc { display: none; }\ntd.pm.show, td.pc.show { display: table-cell; }\n.pm-toggle { font-size: 0.8em; color: #888; text-decoration: underline; cursor: pointer; display: inline-block; margin: 0 8px 6px; }\n\n.audio-row { text-align: center; margin: 10px 0 1.2em; }\n.example { margin-top: 4px; }\n\n/* Vocab::Verb forms Prefixed: the forms column is shown only by its link, on the answer side */\ntable.vf-family td.vfd .cloze-inactive { visibility: hidden; }\ntd.vff { display: none; color: #666; }\ntd.vff.show { display: table-cell; }\n</style><b>-польз-</b> &nbsp;\"use, benefit\"<br><br><table style=\"margin: 0 auto; text-align: left; border-collapse: collapse;\"><tr><td style=\"padding: 2px 10px; vertical-align: top;\">benefit, usefulness</td><td class=\"pc\" style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze\" data-ordinal=\"1\">—</span></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze\" data-ordinal=\"1\">по́льза</span></td><td class=\"pm\" style=\"padding: 2px 10px; vertical-align: top;\"><i>(plain)</i></td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">to make use of</td><td class=\"pc\" style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"2\">—</span></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"2\">по́льзоваться / воспо́льзоваться (+inst)</span></td><td class=\"pm\" style=\"padding: 2px 10px; vertical-align: top;\"><i>(plain)</i></td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">to use, utilise</td><td class=\"pc\" style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"3\">ис-</span></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"3\">испо́льзовать (i/p) (+a)</span></td><td class=\"pm\" style=\"padding: 2px 10px; vertical-align: top;\"><i>(idiomatic)</i></td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">useful, beneficial (adj.)</td><td class=\"pc\" style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"4\">—</span></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"4\">поле́зный</span></td><td class=\"pm\" style=\"padding: 2px 10px; vertical-align: top;\"><i>(plain)</i></td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">user</td><td class=\"pc\" style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"5\">—</span></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"5\">по́льзователь</span></td><td class=\"pm\" style=\"padding: 2px 10px; vertical-align: top;\"><i>(plain)</i></td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">useless (adj.)</td><td class=\"pc\" style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"6\">бес-</span></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"6\">бесполе́зный</span></td><td class=\"pm\" style=\"padding: 2px 10px; vertical-align: top;\"><i>without</i></td></tr></table>\n<div class=\"audio-row\">[anki:play:a:0]</div>\n<div class=\"example\"></div>\n<script>(function(){if(document.querySelector(\".pm-toggle\"))return;var first=document.querySelector(\"td.pc, td.pm, td.vff\");if(!first)return;var back=!!document.querySelector(\".audio-row\");var tb=first.closest(\"table\"),bar=document.createElement(\"div\");[[\"pc\",\"prefixes\"],[\"pm\",\"prefix meanings\"],[\"vff\",\"forms\"]].forEach(function(p){if(p[0]==\"vff\"&&!back)return;var cells=document.querySelectorAll(\"td.\"+p[0]);if(!cells.length)return;var t=document.createElement(\"span\");t.className=\"pm-toggle\";t.textContent=p[1];t.onclick=function(){cells.forEach(function(e){e.classList.toggle(\"show\")});};bar.appendChild(t);});tb.parentNode.insertBefore(bar,tb);})();</script>",
+"nextReviews": [
+"⁨30⁩m",
+"⁨12⁩d",
+"⁨14⁩d",
+"⁨18⁩d"
+]
+},
+{
+"cardId": 1791363621973,
+"fieldOrder": 1,
+"ord": 1,
+"factor": 0,
+"interval": 0,
+"note": 1791363621969,
+"type": 0,
+"queue": -2,
+"due": 1939567,
+"reps": 0,
+"lapses": 0,
+"left": 0,
+"mod": 1793652623,
+"flags": 0,
+"fields": {
+"Text": {
+"value": "<b>-польз-</b> &nbsp;\"use, benefit\"<br><br><table style=\"margin: 0 auto; text-align: left; border-collapse: collapse;\"><tr><td style=\"padding: 2px 10px; vertical-align: top;\">benefit, usefulness</td><td class=\"pc\" style=\"padding: 2px 10px; vertical-align: top;\">{{c1::—}}</td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c1::по́льза}}</td><td class=\"pm\" style=\"padding: 2px 10px; vertical-align: top;\"><i>(plain)</i></td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">to make use of</td><td class=\"pc\" style=\"padding: 2px 10px; vertical-align: top;\">{{c2::—}}</td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c2::по́льзоваться / воспо́льзоваться (+inst)}}</td><td class=\"pm\" style=\"padding: 2px 10px; vertical-align: top;\"><i>(plain)</i></td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">to use, utilise</td><td class=\"pc\" style=\"padding: 2px 10px; vertical-align: top;\">{{c3::ис-}}</td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c3::испо́льзовать (i/p) (+a)}}</td><td class=\"pm\" style=\"padding: 2px 10px; vertical-align: top;\"><i>(idiomatic)</i></td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">useful, beneficial (adj.)</td><td class=\"pc\" style=\"padding: 2px 10px; vertical-align: top;\">{{c4::—}}</td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c4::поле́зный}}</td><td class=\"pm\" style=\"padding: 2px 10px; vertical-align: top;\"><i>(plain)</i></td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">user</td><td class=\"pc\" style=\"padding: 2px 10px; vertical-align: top;\">{{c5::—}}</td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c5::по́льзователь}}</td><td class=\"pm\" style=\"padding: 2px 10px; vertical-align: top;\"><i>(plain)</i></td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">useless (adj.)</td><td class=\"pc\" style=\"padding: 2px 10px; vertical-align: top;\">{{c6::бес-}}</td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c6::бесполе́зный}}</td><td class=\"pm\" style=\"padding: 2px 10px; vertical-align: top;\"><i>without</i></td></tr></table>",
+"order": 0
+},
+"Back Extra": {
+"value": "",
+"order": 1
+},
+"Audio": {
+"value": "{{c1::[sound:hypertts-ba1ee0f6e4eb23bba836fbbe549779a4f49fe2087520e53f9a08a3d9.mp3]}} {{c2::[sound:hypertts-bc090a1ee068e99b9146f285eb2925ea4fa1b560b86ab9568a3b0e69.mp3]}} {{c3::[sound:hypertts-a2482e5be69f3d7070e2f7a5a44b6e0883fdef09c92911a8f214d4b5.mp3]}} {{c4::[sound:hypertts-076a3c37d6b6e7f6e9dbe18bc0c9b6d72749b1a2677c00ca878b60a0.mp3]}} {{c5::[sound:hypertts-191539dbd998e4ecfc56056c477450c48d0456f3e0bb796b6b76a03d.mp3]}} {{c6::[sound:hypertts-423b1363b80422821c20ccad2fb7de8dc1ae73dae30a0f2decaaa792.mp3]}}",
+"order": 2
+}
+},
+"modelName": "Cloze",
+"css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n\n.cloze {\n font-weight: bold;\n color: blue;\n}\n.nightMode .cloze {\n color: lightblue;\n}\n\ntd.pm, td.pc { display: none; }\ntd.pm.show, td.pc.show { display: table-cell; }\n.pm-toggle { font-size: 0.8em; color: #888; text-decoration: underline; cursor: pointer; display: inline-block; margin: 0 8px 6px; }\n\n.audio-row { text-align: center; margin: 10px 0 1.2em; }\n.example { margin-top: 4px; }\n\n/* Vocab::Verb forms Prefixed: the forms column is shown only by its link, on the answer side */\ntable.vf-family td.vfd .cloze-inactive { visibility: hidden; }\ntd.vff { display: none; color: #666; }\ntd.vff.show { display: table-cell; }\n",
+"deckName": "Vocab::Roots",
+"question": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n\n.cloze {\n font-weight: bold;\n color: blue;\n}\n.nightMode .cloze {\n color: lightblue;\n}\n\ntd.pm, td.pc { display: none; }\ntd.pm.show, td.pc.show { display: table-cell; }\n.pm-toggle { font-size: 0.8em; color: #888; text-decoration: underline; cursor: pointer; display: inline-block; margin: 0 8px 6px; }\n\n.audio-row { text-align: center; margin: 10px 0 1.2em; }\n.example { margin-top: 4px; }\n\n/* Vocab::Verb forms Prefixed: the forms column is shown only by its link, on the answer side */\ntable.vf-family td.vfd .cloze-inactive { visibility: hidden; }\ntd.vff { display: none; color: #666; }\ntd.vff.show { display: table-cell; }\n</style><b>-польз-</b> &nbsp;\"use, benefit\"<br><br><table style=\"margin: 0 auto; text-align: left; border-collapse: collapse;\"><tr><td style=\"padding: 2px 10px; vertical-align: top;\">benefit, usefulness</td><td class=\"pc\" style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"1\">—</span></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"1\">по́льза</span></td><td class=\"pm\" style=\"padding: 2px 10px; vertical-align: top;\"><i>(plain)</i></td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">to make use of</td><td class=\"pc\" style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze\" data-cloze=\"—\" data-ordinal=\"2\">[...]</span></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze\" data-cloze=\"по́льзоваться&#x20;&#x2F;&#x20;воспо́льзоваться&#x20;&#x28;&#x2B;inst&#x29;\" data-ordinal=\"2\">[...]</span></td><td class=\"pm\" style=\"padding: 2px 10px; vertical-align: top;\"><i>(plain)</i></td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">to use, utilise</td><td class=\"pc\" style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"3\">ис-</span></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"3\">испо́льзовать (i/p) (+a)</span></td><td class=\"pm\" style=\"padding: 2px 10px; vertical-align: top;\"><i>(idiomatic)</i></td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">useful, beneficial (adj.)</td><td class=\"pc\" style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"4\">—</span></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"4\">поле́зный</span></td><td class=\"pm\" style=\"padding: 2px 10px; vertical-align: top;\"><i>(plain)</i></td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">user</td><td class=\"pc\" style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"5\">—</span></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"5\">по́льзователь</span></td><td class=\"pm\" style=\"padding: 2px 10px; vertical-align: top;\"><i>(plain)</i></td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">useless (adj.)</td><td class=\"pc\" style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"6\">бес-</span></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"6\">бесполе́зный</span></td><td class=\"pm\" style=\"padding: 2px 10px; vertical-align: top;\"><i>without</i></td></tr></table>\n<script>(function(){if(document.querySelector(\".pm-toggle\"))return;var first=document.querySelector(\"td.pc, td.pm, td.vff\");if(!first)return;var back=!!document.querySelector(\".audio-row\");var tb=first.closest(\"table\"),bar=document.createElement(\"div\");[[\"pc\",\"prefixes\"],[\"pm\",\"prefix meanings\"],[\"vff\",\"forms\"]].forEach(function(p){if(p[0]==\"vff\"&&!back)return;var cells=document.querySelectorAll(\"td.\"+p[0]);if(!cells.length)return;var t=document.createElement(\"span\");t.className=\"pm-toggle\";t.textContent=p[1];t.onclick=function(){cells.forEach(function(e){e.classList.toggle(\"show\")});};bar.appendChild(t);});tb.parentNode.insertBefore(bar,tb);})();</script>",
+"answer": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n\n.cloze {\n font-weight: bold;\n color: blue;\n}\n.nightMode .cloze {\n color: lightblue;\n}\n\ntd.pm, td.pc { display: none; }\ntd.pm.show, td.pc.show { display: table-cell; }\n.pm-toggle { font-size: 0.8em; color: #888; text-decoration: underline; cursor: pointer; display: inline-block; margin: 0 8px 6px; }\n\n.audio-row { text-align: center; margin: 10px 0 1.2em; }\n.example { margin-top: 4px; }\n\n/* Vocab::Verb forms Prefixed: the forms column is shown only by its link, on the answer side */\ntable.vf-family td.vfd .cloze-inactive { visibility: hidden; }\ntd.vff { display: none; color: #666; }\ntd.vff.show { display: table-cell; }\n</style><b>-польз-</b> &nbsp;\"use, benefit\"<br><br><table style=\"margin: 0 auto; text-align: left; border-collapse: collapse;\"><tr><td style=\"padding: 2px 10px; vertical-align: top;\">benefit, usefulness</td><td class=\"pc\" style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"1\">—</span></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"1\">по́льза</span></td><td class=\"pm\" style=\"padding: 2px 10px; vertical-align: top;\"><i>(plain)</i></td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">to make use of</td><td class=\"pc\" style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze\" data-ordinal=\"2\">—</span></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze\" data-ordinal=\"2\">по́льзоваться / воспо́льзоваться (+inst)</span></td><td class=\"pm\" style=\"padding: 2px 10px; vertical-align: top;\"><i>(plain)</i></td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">to use, utilise</td><td class=\"pc\" style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"3\">ис-</span></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"3\">испо́льзовать (i/p) (+a)</span></td><td class=\"pm\" style=\"padding: 2px 10px; vertical-align: top;\"><i>(idiomatic)</i></td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">useful, beneficial (adj.)</td><td class=\"pc\" style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"4\">—</span></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"4\">поле́зный</span></td><td class=\"pm\" style=\"padding: 2px 10px; vertical-align: top;\"><i>(plain)</i></td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">user</td><td class=\"pc\" style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"5\">—</span></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"5\">по́льзователь</span></td><td class=\"pm\" style=\"padding: 2px 10px; vertical-align: top;\"><i>(plain)</i></td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">useless (adj.)</td><td class=\"pc\" style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"6\">бес-</span></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"6\">бесполе́зный</span></td><td class=\"pm\" style=\"padding: 2px 10px; vertical-align: top;\"><i>without</i></td></tr></table>\n<div class=\"audio-row\">[anki:play:a:0]</div>\n<div class=\"example\"></div>\n<script>(function(){if(document.querySelector(\".pm-toggle\"))return;var first=document.querySelector(\"td.pc, td.pm, td.vff\");if(!first)return;var back=!!document.querySelector(\".audio-row\");var tb=first.closest(\"table\"),bar=document.createElement(\"div\");[[\"pc\",\"prefixes\"],[\"pm\",\"prefix meanings\"],[\"vff\",\"forms\"]].forEach(function(p){if(p[0]==\"vff\"&&!back)return;var cells=document.querySelectorAll(\"td.\"+p[0]);if(!cells.length)return;var t=document.createElement(\"span\");t.className=\"pm-toggle\";t.textContent=p[1];t.onclick=function(){cells.forEach(function(e){e.classList.toggle(\"show\")});};bar.appendChild(t);});tb.parentNode.insertBefore(bar,tb);})();</script>",
+"nextReviews": [
+"⁨20⁩m",
+"⁨40⁩m",
+"⁨1⁩h",
+"⁨26⁩d"
+]
+},
+{
+"cardId": 1791363621974,
+"fieldOrder": 2,
+"ord": 2,
+"factor": 0,
+"interval": 0,
+"note": 1791363621969,
+"type": 0,
+"queue": -2,
+"due": 1939567,
+"reps": 0,
+"lapses": 0,
+"left": 0,
+"mod": 1793652623,
+"flags": 0,
+"fields": {
+"Text": {
+"value": "<b>-польз-</b> &nbsp;\"use, benefit\"<br><br><table style=\"margin: 0 auto; text-align: left; border-collapse: collapse;\"><tr><td style=\"padding: 2px 10px; vertical-align: top;\">benefit, usefulness</td><td class=\"pc\" style=\"padding: 2px 10px; vertical-align: top;\">{{c1::—}}</td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c1::по́льза}}</td><td class=\"pm\" style=\"padding: 2px 10px; vertical-align: top;\"><i>(plain)</i></td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">to make use of</td><td class=\"pc\" style=\"padding: 2px 10px; vertical-align: top;\">{{c2::—}}</td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c2::по́льзоваться / воспо́льзоваться (+inst)}}</td><td class=\"pm\" style=\"padding: 2px 10px; vertical-align: top;\"><i>(plain)</i></td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">to use, utilise</td><td class=\"pc\" style=\"padding: 2px 10px; vertical-align: top;\">{{c3::ис-}}</td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c3::испо́льзовать (i/p) (+a)}}</td><td class=\"pm\" style=\"padding: 2px 10px; vertical-align: top;\"><i>(idiomatic)</i></td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">useful, beneficial (adj.)</td><td class=\"pc\" style=\"padding: 2px 10px; vertical-align: top;\">{{c4::—}}</td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c4::поле́зный}}</td><td class=\"pm\" style=\"padding: 2px 10px; vertical-align: top;\"><i>(plain)</i></td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">user</td><td class=\"pc\" style=\"padding: 2px 10px; vertical-align: top;\">{{c5::—}}</td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c5::по́льзователь}}</td><td class=\"pm\" style=\"padding: 2px 10px; vertical-align: top;\"><i>(plain)</i></td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">useless (adj.)</td><td class=\"pc\" style=\"padding: 2px 10px; vertical-align: top;\">{{c6::бес-}}</td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c6::бесполе́зный}}</td><td class=\"pm\" style=\"padding: 2px 10px; vertical-align: top;\"><i>without</i></td></tr></table>",
+"order": 0
+},
+"Back Extra": {
+"value": "",
+"order": 1
+},
+"Audio": {
+"value": "{{c1::[sound:hypertts-ba1ee0f6e4eb23bba836fbbe549779a4f49fe2087520e53f9a08a3d9.mp3]}} {{c2::[sound:hypertts-bc090a1ee068e99b9146f285eb2925ea4fa1b560b86ab9568a3b0e69.mp3]}} {{c3::[sound:hypertts-a2482e5be69f3d7070e2f7a5a44b6e0883fdef09c92911a8f214d4b5.mp3]}} {{c4::[sound:hypertts-076a3c37d6b6e7f6e9dbe18bc0c9b6d72749b1a2677c00ca878b60a0.mp3]}} {{c5::[sound:hypertts-191539dbd998e4ecfc56056c477450c48d0456f3e0bb796b6b76a03d.mp3]}} {{c6::[sound:hypertts-423b1363b80422821c20ccad2fb7de8dc1ae73dae30a0f2decaaa792.mp3]}}",
+"order": 2
+}
+},
+"modelName": "Cloze",
+"css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n\n.cloze {\n font-weight: bold;\n color: blue;\n}\n.nightMode .cloze {\n color: lightblue;\n}\n\ntd.pm, td.pc { display: none; }\ntd.pm.show, td.pc.show { display: table-cell; }\n.pm-toggle { font-size: 0.8em; color: #888; text-decoration: underline; cursor: pointer; display: inline-block; margin: 0 8px 6px; }\n\n.audio-row { text-align: center; margin: 10px 0 1.2em; }\n.example { margin-top: 4px; }\n\n/* Vocab::Verb forms Prefixed: the forms column is shown only by its link, on the answer side */\ntable.vf-family td.vfd .cloze-inactive { visibility: hidden; }\ntd.vff { display: none; color: #666; }\ntd.vff.show { display: table-cell; }\n",
+"deckName": "Vocab::Roots",
+"question": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n\n.cloze {\n font-weight: bold;\n color: blue;\n}\n.nightMode .cloze {\n color: lightblue;\n}\n\ntd.pm, td.pc { display: none; }\ntd.pm.show, td.pc.show { display: table-cell; }\n.pm-toggle { font-size: 0.8em; color: #888; text-decoration: underline; cursor: pointer; display: inline-block; margin: 0 8px 6px; }\n\n.audio-row { text-align: center; margin: 10px 0 1.2em; }\n.example { margin-top: 4px; }\n\n/* Vocab::Verb forms Prefixed: the forms column is shown only by its link, on the answer side */\ntable.vf-family td.vfd .cloze-inactive { visibility: hidden; }\ntd.vff { display: none; color: #666; }\ntd.vff.show { display: table-cell; }\n</style><b>-польз-</b> &nbsp;\"use, benefit\"<br><br><table style=\"margin: 0 auto; text-align: left; border-collapse: collapse;\"><tr><td style=\"padding: 2px 10px; vertical-align: top;\">benefit, usefulness</td><td class=\"pc\" style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"1\">—</span></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"1\">по́льза</span></td><td class=\"pm\" style=\"padding: 2px 10px; vertical-align: top;\"><i>(plain)</i></td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">to make use of</td><td class=\"pc\" style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"2\">—</span></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"2\">по́льзоваться / воспо́льзоваться (+inst)</span></td><td class=\"pm\" style=\"padding: 2px 10px; vertical-align: top;\"><i>(plain)</i></td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">to use, utilise</td><td class=\"pc\" style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze\" data-cloze=\"ис&#x2D;\" data-ordinal=\"3\">[...]</span></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze\" data-cloze=\"испо́льзовать&#x20;&#x28;i&#x2F;p&#x29;&#x20;&#x28;&#x2B;a&#x29;\" data-ordinal=\"3\">[...]</span></td><td class=\"pm\" style=\"padding: 2px 10px; vertical-align: top;\"><i>(idiomatic)</i></td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">useful, beneficial (adj.)</td><td class=\"pc\" style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"4\">—</span></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"4\">поле́зный</span></td><td class=\"pm\" style=\"padding: 2px 10px; vertical-align: top;\"><i>(plain)</i></td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">user</td><td class=\"pc\" style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"5\">—</span></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"5\">по́льзователь</span></td><td class=\"pm\" style=\"padding: 2px 10px; vertical-align: top;\"><i>(plain)</i></td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">useless (adj.)</td><td class=\"pc\" style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"6\">бес-</span></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"6\">бесполе́зный</span></td><td class=\"pm\" style=\"padding: 2px 10px; vertical-align: top;\"><i>without</i></td></tr></table>\n<script>(function(){if(document.querySelector(\".pm-toggle\"))return;var first=document.querySelector(\"td.pc, td.pm, td.vff\");if(!first)return;var back=!!document.querySelector(\".audio-row\");var tb=first.closest(\"table\"),bar=document.createElement(\"div\");[[\"pc\",\"prefixes\"],[\"pm\",\"prefix meanings\"],[\"vff\",\"forms\"]].forEach(function(p){if(p[0]==\"vff\"&&!back)return;var cells=document.querySelectorAll(\"td.\"+p[0]);if(!cells.length)return;var t=document.createElement(\"span\");t.className=\"pm-toggle\";t.textContent=p[1];t.onclick=function(){cells.forEach(function(e){e.classList.toggle(\"show\")});};bar.appendChild(t);});tb.parentNode.insertBefore(bar,tb);})();</script>",
+"answer": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n\n.cloze {\n font-weight: bold;\n color: blue;\n}\n.nightMode .cloze {\n color: lightblue;\n}\n\ntd.pm, td.pc { display: none; }\ntd.pm.show, td.pc.show { display: table-cell; }\n.pm-toggle { font-size: 0.8em; color: #888; text-decoration: underline; cursor: pointer; display: inline-block; margin: 0 8px 6px; }\n\n.audio-row { text-align: center; margin: 10px 0 1.2em; }\n.example { margin-top: 4px; }\n\n/* Vocab::Verb forms Prefixed: the forms column is shown only by its link, on the answer side */\ntable.vf-family td.vfd .cloze-inactive { visibility: hidden; }\ntd.vff { display: none; color: #666; }\ntd.vff.show { display: table-cell; }\n</style><b>-польз-</b> &nbsp;\"use, benefit\"<br><br><table style=\"margin: 0 auto; text-align: left; border-collapse: collapse;\"><tr><td style=\"padding: 2px 10px; vertical-align: top;\">benefit, usefulness</td><td class=\"pc\" style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"1\">—</span></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"1\">по́льза</span></td><td class=\"pm\" style=\"padding: 2px 10px; vertical-align: top;\"><i>(plain)</i></td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">to make use of</td><td class=\"pc\" style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"2\">—</span></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"2\">по́льзоваться / воспо́льзоваться (+inst)</span></td><td class=\"pm\" style=\"padding: 2px 10px; vertical-align: top;\"><i>(plain)</i></td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">to use, utilise</td><td class=\"pc\" style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze\" data-ordinal=\"3\">ис-</span></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze\" data-ordinal=\"3\">испо́льзовать (i/p) (+a)</span></td><td class=\"pm\" style=\"padding: 2px 10px; vertical-align: top;\"><i>(idiomatic)</i></td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">useful, beneficial (adj.)</td><td class=\"pc\" style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"4\">—</span></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"4\">поле́зный</span></td><td class=\"pm\" style=\"padding: 2px 10px; vertical-align: top;\"><i>(plain)</i></td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">user</td><td class=\"pc\" style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"5\">—</span></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"5\">по́льзователь</span></td><td class=\"pm\" style=\"padding: 2px 10px; vertical-align: top;\"><i>(plain)</i></td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">useless (adj.)</td><td class=\"pc\" style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"6\">бес-</span></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"6\">бесполе́зный</span></td><td class=\"pm\" style=\"padding: 2px 10px; vertical-align: top;\"><i>without</i></td></tr></table>\n<div class=\"audio-row\">[anki:play:a:0]</div>\n<div class=\"example\"></div>\n<script>(function(){if(document.querySelector(\".pm-toggle\"))return;var first=document.querySelector(\"td.pc, td.pm, td.vff\");if(!first)return;var back=!!document.querySelector(\".audio-row\");var tb=first.closest(\"table\"),bar=document.createElement(\"div\");[[\"pc\",\"prefixes\"],[\"pm\",\"prefix meanings\"],[\"vff\",\"forms\"]].forEach(function(p){if(p[0]==\"vff\"&&!back)return;var cells=document.querySelectorAll(\"td.\"+p[0]);if(!cells.length)return;var t=document.createElement(\"span\");t.className=\"pm-toggle\";t.textContent=p[1];t.onclick=function(){cells.forEach(function(e){e.classList.toggle(\"show\")});};bar.appendChild(t);});tb.parentNode.insertBefore(bar,tb);})();</script>",
+"nextReviews": [
+"⁨20⁩m",
+"⁨40⁩m",
+"⁨1⁩h",
+"⁨25⁩d"
+]
+},
+{
+"cardId": 1791363621971,
+"fieldOrder": 3,
+"ord": 3,
+"factor": 0,
+"interval": 0,
+"note": 1791363621969,
+"type": 0,
+"queue": -2,
+"due": 1939567,
+"reps": 0,
+"lapses": 0,
+"left": 0,
+"mod": 1793652623,
+"flags": 0,
+"fields": {
+"Text": {
+"value": "<b>-польз-</b> &nbsp;\"use, benefit\"<br><br><table style=\"margin: 0 auto; text-align: left; border-collapse: collapse;\"><tr><td style=\"padding: 2px 10px; vertical-align: top;\">benefit, usefulness</td><td class=\"pc\" style=\"padding: 2px 10px; vertical-align: top;\">{{c1::—}}</td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c1::по́льза}}</td><td class=\"pm\" style=\"padding: 2px 10px; vertical-align: top;\"><i>(plain)</i></td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">to make use of</td><td class=\"pc\" style=\"padding: 2px 10px; vertical-align: top;\">{{c2::—}}</td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c2::по́льзоваться / воспо́льзоваться (+inst)}}</td><td class=\"pm\" style=\"padding: 2px 10px; vertical-align: top;\"><i>(plain)</i></td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">to use, utilise</td><td class=\"pc\" style=\"padding: 2px 10px; vertical-align: top;\">{{c3::ис-}}</td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c3::испо́льзовать (i/p) (+a)}}</td><td class=\"pm\" style=\"padding: 2px 10px; vertical-align: top;\"><i>(idiomatic)</i></td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">useful, beneficial (adj.)</td><td class=\"pc\" style=\"padding: 2px 10px; vertical-align: top;\">{{c4::—}}</td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c4::поле́зный}}</td><td class=\"pm\" style=\"padding: 2px 10px; vertical-align: top;\"><i>(plain)</i></td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">user</td><td class=\"pc\" style=\"padding: 2px 10px; vertical-align: top;\">{{c5::—}}</td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c5::по́льзователь}}</td><td class=\"pm\" style=\"padding: 2px 10px; vertical-align: top;\"><i>(plain)</i></td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">useless (adj.)</td><td class=\"pc\" style=\"padding: 2px 10px; vertical-align: top;\">{{c6::бес-}}</td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c6::бесполе́зный}}</td><td class=\"pm\" style=\"padding: 2px 10px; vertical-align: top;\"><i>without</i></td></tr></table>",
+"order": 0
+},
+"Back Extra": {
+"value": "",
+"order": 1
+},
+"Audio": {
+"value": "{{c1::[sound:hypertts-ba1ee0f6e4eb23bba836fbbe549779a4f49fe2087520e53f9a08a3d9.mp3]}} {{c2::[sound:hypertts-bc090a1ee068e99b9146f285eb2925ea4fa1b560b86ab9568a3b0e69.mp3]}} {{c3::[sound:hypertts-a2482e5be69f3d7070e2f7a5a44b6e0883fdef09c92911a8f214d4b5.mp3]}} {{c4::[sound:hypertts-076a3c37d6b6e7f6e9dbe18bc0c9b6d72749b1a2677c00ca878b60a0.mp3]}} {{c5::[sound:hypertts-191539dbd998e4ecfc56056c477450c48d0456f3e0bb796b6b76a03d.mp3]}} {{c6::[sound:hypertts-423b1363b80422821c20ccad2fb7de8dc1ae73dae30a0f2decaaa792.mp3]}}",
+"order": 2
+}
+},
+"modelName": "Cloze",
+"css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n\n.cloze {\n font-weight: bold;\n color: blue;\n}\n.nightMode .cloze {\n color: lightblue;\n}\n\ntd.pm, td.pc { display: none; }\ntd.pm.show, td.pc.show { display: table-cell; }\n.pm-toggle { font-size: 0.8em; color: #888; text-decoration: underline; cursor: pointer; display: inline-block; margin: 0 8px 6px; }\n\n.audio-row { text-align: center; margin: 10px 0 1.2em; }\n.example { margin-top: 4px; }\n\n/* Vocab::Verb forms Prefixed: the forms column is shown only by its link, on the answer side */\ntable.vf-family td.vfd .cloze-inactive { visibility: hidden; }\ntd.vff { display: none; color: #666; }\ntd.vff.show { display: table-cell; }\n",
+"deckName": "Vocab::Roots",
+"question": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n\n.cloze {\n font-weight: bold;\n color: blue;\n}\n.nightMode .cloze {\n color: lightblue;\n}\n\ntd.pm, td.pc { display: none; }\ntd.pm.show, td.pc.show { display: table-cell; }\n.pm-toggle { font-size: 0.8em; color: #888; text-decoration: underline; cursor: pointer; display: inline-block; margin: 0 8px 6px; }\n\n.audio-row { text-align: center; margin: 10px 0 1.2em; }\n.example { margin-top: 4px; }\n\n/* Vocab::Verb forms Prefixed: the forms column is shown only by its link, on the answer side */\ntable.vf-family td.vfd .cloze-inactive { visibility: hidden; }\ntd.vff { display: none; color: #666; }\ntd.vff.show { display: table-cell; }\n</style><b>-польз-</b> &nbsp;\"use, benefit\"<br><br><table style=\"margin: 0 auto; text-align: left; border-collapse: collapse;\"><tr><td style=\"padding: 2px 10px; vertical-align: top;\">benefit, usefulness</td><td class=\"pc\" style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"1\">—</span></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"1\">по́льза</span></td><td class=\"pm\" style=\"padding: 2px 10px; vertical-align: top;\"><i>(plain)</i></td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">to make use of</td><td class=\"pc\" style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"2\">—</span></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"2\">по́льзоваться / воспо́льзоваться (+inst)</span></td><td class=\"pm\" style=\"padding: 2px 10px; vertical-align: top;\"><i>(plain)</i></td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">to use, utilise</td><td class=\"pc\" style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"3\">ис-</span></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"3\">испо́льзовать (i/p) (+a)</span></td><td class=\"pm\" style=\"padding: 2px 10px; vertical-align: top;\"><i>(idiomatic)</i></td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">useful, beneficial (adj.)</td><td class=\"pc\" style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze\" data-cloze=\"—\" data-ordinal=\"4\">[...]</span></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze\" data-cloze=\"поле́зный\" data-ordinal=\"4\">[...]</span></td><td class=\"pm\" style=\"padding: 2px 10px; vertical-align: top;\"><i>(plain)</i></td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">user</td><td class=\"pc\" style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"5\">—</span></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"5\">по́льзователь</span></td><td class=\"pm\" style=\"padding: 2px 10px; vertical-align: top;\"><i>(plain)</i></td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">useless (adj.)</td><td class=\"pc\" style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"6\">бес-</span></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"6\">бесполе́зный</span></td><td class=\"pm\" style=\"padding: 2px 10px; vertical-align: top;\"><i>without</i></td></tr></table>\n<script>(function(){if(document.querySelector(\".pm-toggle\"))return;var first=document.querySelector(\"td.pc, td.pm, td.vff\");if(!first)return;var back=!!document.querySelector(\".audio-row\");var tb=first.closest(\"table\"),bar=document.createElement(\"div\");[[\"pc\",\"prefixes\"],[\"pm\",\"prefix meanings\"],[\"vff\",\"forms\"]].forEach(function(p){if(p[0]==\"vff\"&&!back)return;var cells=document.querySelectorAll(\"td.\"+p[0]);if(!cells.length)return;var t=document.createElement(\"span\");t.className=\"pm-toggle\";t.textContent=p[1];t.onclick=function(){cells.forEach(function(e){e.classList.toggle(\"show\")});};bar.appendChild(t);});tb.parentNode.insertBefore(bar,tb);})();</script>",
+"answer": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n\n.cloze {\n font-weight: bold;\n color: blue;\n}\n.nightMode .cloze {\n color: lightblue;\n}\n\ntd.pm, td.pc { display: none; }\ntd.pm.show, td.pc.show { display: table-cell; }\n.pm-toggle { font-size: 0.8em; color: #888; text-decoration: underline; cursor: pointer; display: inline-block; margin: 0 8px 6px; }\n\n.audio-row { text-align: center; margin: 10px 0 1.2em; }\n.example { margin-top: 4px; }\n\n/* Vocab::Verb forms Prefixed: the forms column is shown only by its link, on the answer side */\ntable.vf-family td.vfd .cloze-inactive { visibility: hidden; }\ntd.vff { display: none; color: #666; }\ntd.vff.show { display: table-cell; }\n</style><b>-польз-</b> &nbsp;\"use, benefit\"<br><br><table style=\"margin: 0 auto; text-align: left; border-collapse: collapse;\"><tr><td style=\"padding: 2px 10px; vertical-align: top;\">benefit, usefulness</td><td class=\"pc\" style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"1\">—</span></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"1\">по́льза</span></td><td class=\"pm\" style=\"padding: 2px 10px; vertical-align: top;\"><i>(plain)</i></td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">to make use of</td><td class=\"pc\" style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"2\">—</span></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"2\">по́льзоваться / воспо́льзоваться (+inst)</span></td><td class=\"pm\" style=\"padding: 2px 10px; vertical-align: top;\"><i>(plain)</i></td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">to use, utilise</td><td class=\"pc\" style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"3\">ис-</span></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"3\">испо́льзовать (i/p) (+a)</span></td><td class=\"pm\" style=\"padding: 2px 10px; vertical-align: top;\"><i>(idiomatic)</i></td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">useful, beneficial (adj.)</td><td class=\"pc\" style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze\" data-ordinal=\"4\">—</span></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze\" data-ordinal=\"4\">поле́зный</span></td><td class=\"pm\" style=\"padding: 2px 10px; vertical-align: top;\"><i>(plain)</i></td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">user</td><td class=\"pc\" style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"5\">—</span></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"5\">по́льзователь</span></td><td class=\"pm\" style=\"padding: 2px 10px; vertical-align: top;\"><i>(plain)</i></td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">useless (adj.)</td><td class=\"pc\" style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"6\">бес-</span></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"6\">бесполе́зный</span></td><td class=\"pm\" style=\"padding: 2px 10px; vertical-align: top;\"><i>without</i></td></tr></table>\n<div class=\"audio-row\">[anki:play:a:0]</div>\n<div class=\"example\"></div>\n<script>(function(){if(document.querySelector(\".pm-toggle\"))return;var first=document.querySelector(\"td.pc, td.pm, td.vff\");if(!first)return;var back=!!document.querySelector(\".audio-row\");var tb=first.closest(\"table\"),bar=document.createElement(\"div\");[[\"pc\",\"prefixes\"],[\"pm\",\"prefix meanings\"],[\"vff\",\"forms\"]].forEach(function(p){if(p[0]==\"vff\"&&!back)return;var cells=document.querySelectorAll(\"td.\"+p[0]);if(!cells.length)return;var t=document.createElement(\"span\");t.className=\"pm-toggle\";t.textContent=p[1];t.onclick=function(){cells.forEach(function(e){e.classList.toggle(\"show\")});};bar.appendChild(t);});tb.parentNode.insertBefore(bar,tb);})();</script>",
+"nextReviews": [
+"⁨20⁩m",
+"⁨40⁩m",
+"⁨1⁩h",
+"⁨23⁩d"
+]
+},
+{
+"cardId": 1791363621972,
+"fieldOrder": 4,
+"ord": 4,
+"factor": 0,
+"interval": 0,
+"note": 1791363621969,
+"type": 0,
+"queue": -2,
+"due": 1939567,
+"reps": 0,
+"lapses": 0,
+"left": 0,
+"mod": 1793652623,
+"flags": 0,
+"fields": {
+"Text": {
+"value": "<b>-польз-</b> &nbsp;\"use, benefit\"<br><br><table style=\"margin: 0 auto; text-align: left; border-collapse: collapse;\"><tr><td style=\"padding: 2px 10px; vertical-align: top;\">benefit, usefulness</td><td class=\"pc\" style=\"padding: 2px 10px; vertical-align: top;\">{{c1::—}}</td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c1::по́льза}}</td><td class=\"pm\" style=\"padding: 2px 10px; vertical-align: top;\"><i>(plain)</i></td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">to make use of</td><td class=\"pc\" style=\"padding: 2px 10px; vertical-align: top;\">{{c2::—}}</td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c2::по́льзоваться / воспо́льзоваться (+inst)}}</td><td class=\"pm\" style=\"padding: 2px 10px; vertical-align: top;\"><i>(plain)</i></td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">to use, utilise</td><td class=\"pc\" style=\"padding: 2px 10px; vertical-align: top;\">{{c3::ис-}}</td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c3::испо́льзовать (i/p) (+a)}}</td><td class=\"pm\" style=\"padding: 2px 10px; vertical-align: top;\"><i>(idiomatic)</i></td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">useful, beneficial (adj.)</td><td class=\"pc\" style=\"padding: 2px 10px; vertical-align: top;\">{{c4::—}}</td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c4::поле́зный}}</td><td class=\"pm\" style=\"padding: 2px 10px; vertical-align: top;\"><i>(plain)</i></td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">user</td><td class=\"pc\" style=\"padding: 2px 10px; vertical-align: top;\">{{c5::—}}</td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c5::по́льзователь}}</td><td class=\"pm\" style=\"padding: 2px 10px; vertical-align: top;\"><i>(plain)</i></td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">useless (adj.)</td><td class=\"pc\" style=\"padding: 2px 10px; vertical-align: top;\">{{c6::бес-}}</td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c6::бесполе́зный}}</td><td class=\"pm\" style=\"padding: 2px 10px; vertical-align: top;\"><i>without</i></td></tr></table>",
+"order": 0
+},
+"Back Extra": {
+"value": "",
+"order": 1
+},
+"Audio": {
+"value": "{{c1::[sound:hypertts-ba1ee0f6e4eb23bba836fbbe549779a4f49fe2087520e53f9a08a3d9.mp3]}} {{c2::[sound:hypertts-bc090a1ee068e99b9146f285eb2925ea4fa1b560b86ab9568a3b0e69.mp3]}} {{c3::[sound:hypertts-a2482e5be69f3d7070e2f7a5a44b6e0883fdef09c92911a8f214d4b5.mp3]}} {{c4::[sound:hypertts-076a3c37d6b6e7f6e9dbe18bc0c9b6d72749b1a2677c00ca878b60a0.mp3]}} {{c5::[sound:hypertts-191539dbd998e4ecfc56056c477450c48d0456f3e0bb796b6b76a03d.mp3]}} {{c6::[sound:hypertts-423b1363b80422821c20ccad2fb7de8dc1ae73dae30a0f2decaaa792.mp3]}}",
+"order": 2
+}
+},
+"modelName": "Cloze",
+"css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n\n.cloze {\n font-weight: bold;\n color: blue;\n}\n.nightMode .cloze {\n color: lightblue;\n}\n\ntd.pm, td.pc { display: none; }\ntd.pm.show, td.pc.show { display: table-cell; }\n.pm-toggle { font-size: 0.8em; color: #888; text-decoration: underline; cursor: pointer; display: inline-block; margin: 0 8px 6px; }\n\n.audio-row { text-align: center; margin: 10px 0 1.2em; }\n.example { margin-top: 4px; }\n\n/* Vocab::Verb forms Prefixed: the forms column is shown only by its link, on the answer side */\ntable.vf-family td.vfd .cloze-inactive { visibility: hidden; }\ntd.vff { display: none; color: #666; }\ntd.vff.show { display: table-cell; }\n",
+"deckName": "Vocab::Roots",
+"question": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n\n.cloze {\n font-weight: bold;\n color: blue;\n}\n.nightMode .cloze {\n color: lightblue;\n}\n\ntd.pm, td.pc { display: none; }\ntd.pm.show, td.pc.show { display: table-cell; }\n.pm-toggle { font-size: 0.8em; color: #888; text-decoration: underline; cursor: pointer; display: inline-block; margin: 0 8px 6px; }\n\n.audio-row { text-align: center; margin: 10px 0 1.2em; }\n.example { margin-top: 4px; }\n\n/* Vocab::Verb forms Prefixed: the forms column is shown only by its link, on the answer side */\ntable.vf-family td.vfd .cloze-inactive { visibility: hidden; }\ntd.vff { display: none; color: #666; }\ntd.vff.show { display: table-cell; }\n</style><b>-польз-</b> &nbsp;\"use, benefit\"<br><br><table style=\"margin: 0 auto; text-align: left; border-collapse: collapse;\"><tr><td style=\"padding: 2px 10px; vertical-align: top;\">benefit, usefulness</td><td class=\"pc\" style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"1\">—</span></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"1\">по́льза</span></td><td class=\"pm\" style=\"padding: 2px 10px; vertical-align: top;\"><i>(plain)</i></td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">to make use of</td><td class=\"pc\" style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"2\">—</span></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"2\">по́льзоваться / воспо́льзоваться (+inst)</span></td><td class=\"pm\" style=\"padding: 2px 10px; vertical-align: top;\"><i>(plain)</i></td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">to use, utilise</td><td class=\"pc\" style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"3\">ис-</span></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"3\">испо́льзовать (i/p) (+a)</span></td><td class=\"pm\" style=\"padding: 2px 10px; vertical-align: top;\"><i>(idiomatic)</i></td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">useful, beneficial (adj.)</td><td class=\"pc\" style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"4\">—</span></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"4\">поле́зный</span></td><td class=\"pm\" style=\"padding: 2px 10px; vertical-align: top;\"><i>(plain)</i></td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">user</td><td class=\"pc\" style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze\" data-cloze=\"—\" data-ordinal=\"5\">[...]</span></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze\" data-cloze=\"по́льзователь\" data-ordinal=\"5\">[...]</span></td><td class=\"pm\" style=\"padding: 2px 10px; vertical-align: top;\"><i>(plain)</i></td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">useless (adj.)</td><td class=\"pc\" style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"6\">бес-</span></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"6\">бесполе́зный</span></td><td class=\"pm\" style=\"padding: 2px 10px; vertical-align: top;\"><i>without</i></td></tr></table>\n<script>(function(){if(document.querySelector(\".pm-toggle\"))return;var first=document.querySelector(\"td.pc, td.pm, td.vff\");if(!first)return;var back=!!document.querySelector(\".audio-row\");var tb=first.closest(\"table\"),bar=document.createElement(\"div\");[[\"pc\",\"prefixes\"],[\"pm\",\"prefix meanings\"],[\"vff\",\"forms\"]].forEach(function(p){if(p[0]==\"vff\"&&!back)return;var cells=document.querySelectorAll(\"td.\"+p[0]);if(!cells.length)return;var t=document.createElement(\"span\");t.className=\"pm-toggle\";t.textContent=p[1];t.onclick=function(){cells.forEach(function(e){e.classList.toggle(\"show\")});};bar.appendChild(t);});tb.parentNode.insertBefore(bar,tb);})();</script>",
+"answer": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n\n.cloze {\n font-weight: bold;\n color: blue;\n}\n.nightMode .cloze {\n color: lightblue;\n}\n\ntd.pm, td.pc { display: none; }\ntd.pm.show, td.pc.show { display: table-cell; }\n.pm-toggle { font-size: 0.8em; color: #888; text-decoration: underline; cursor: pointer; display: inline-block; margin: 0 8px 6px; }\n\n.audio-row { text-align: center; margin: 10px 0 1.2em; }\n.example { margin-top: 4px; }\n\n/* Vocab::Verb forms Prefixed: the forms column is shown only by its link, on the answer side */\ntable.vf-family td.vfd .cloze-inactive { visibility: hidden; }\ntd.vff { display: none; color: #666; }\ntd.vff.show { display: table-cell; }\n</style><b>-польз-</b> &nbsp;\"use, benefit\"<br><br><table style=\"margin: 0 auto; text-align: left; border-collapse: collapse;\"><tr><td style=\"padding: 2px 10px; vertical-align: top;\">benefit, usefulness</td><td class=\"pc\" style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"1\">—</span></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"1\">по́льза</span></td><td class=\"pm\" style=\"padding: 2px 10px; vertical-align: top;\"><i>(plain)</i></td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">to make use of</td><td class=\"pc\" style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"2\">—</span></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"2\">по́льзоваться / воспо́льзоваться (+inst)</span></td><td class=\"pm\" style=\"padding: 2px 10px; vertical-align: top;\"><i>(plain)</i></td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">to use, utilise</td><td class=\"pc\" style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"3\">ис-</span></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"3\">испо́льзовать (i/p) (+a)</span></td><td class=\"pm\" style=\"padding: 2px 10px; vertical-align: top;\"><i>(idiomatic)</i></td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">useful, beneficial (adj.)</td><td class=\"pc\" style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"4\">—</span></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"4\">поле́зный</span></td><td class=\"pm\" style=\"padding: 2px 10px; vertical-align: top;\"><i>(plain)</i></td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">user</td><td class=\"pc\" style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze\" data-ordinal=\"5\">—</span></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze\" data-ordinal=\"5\">по́льзователь</span></td><td class=\"pm\" style=\"padding: 2px 10px; vertical-align: top;\"><i>(plain)</i></td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">useless (adj.)</td><td class=\"pc\" style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"6\">бес-</span></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"6\">бесполе́зный</span></td><td class=\"pm\" style=\"padding: 2px 10px; vertical-align: top;\"><i>without</i></td></tr></table>\n<div class=\"audio-row\">[anki:play:a:0]</div>\n<div class=\"example\"></div>\n<script>(function(){if(document.querySelector(\".pm-toggle\"))return;var first=document.querySelector(\"td.pc, td.pm, td.vff\");if(!first)return;var back=!!document.querySelector(\".audio-row\");var tb=first.closest(\"table\"),bar=document.createElement(\"div\");[[\"pc\",\"prefixes\"],[\"pm\",\"prefix meanings\"],[\"vff\",\"forms\"]].forEach(function(p){if(p[0]==\"vff\"&&!back)return;var cells=document.querySelectorAll(\"td.\"+p[0]);if(!cells.length)return;var t=document.createElement(\"span\");t.className=\"pm-toggle\";t.textContent=p[1];t.onclick=function(){cells.forEach(function(e){e.classList.toggle(\"show\")});};bar.appendChild(t);});tb.parentNode.insertBefore(bar,tb);})();</script>",
+"nextReviews": [
+"⁨20⁩m",
+"⁨40⁩m",
+"⁨1⁩h",
+"⁨24⁩d"
+]
+},
+{
+"cardId": 1791363621970,
+"fieldOrder": 5,
+"ord": 5,
+"factor": 0,
+"interval": 0,
+"note": 1791363621969,
+"type": 0,
+"queue": -2,
+"due": 1939567,
+"reps": 0,
+"lapses": 0,
+"left": 0,
+"mod": 1793652623,
+"flags": 0,
+"fields": {
+"Text": {
+"value": "<b>-польз-</b> &nbsp;\"use, benefit\"<br><br><table style=\"margin: 0 auto; text-align: left; border-collapse: collapse;\"><tr><td style=\"padding: 2px 10px; vertical-align: top;\">benefit, usefulness</td><td class=\"pc\" style=\"padding: 2px 10px; vertical-align: top;\">{{c1::—}}</td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c1::по́льза}}</td><td class=\"pm\" style=\"padding: 2px 10px; vertical-align: top;\"><i>(plain)</i></td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">to make use of</td><td class=\"pc\" style=\"padding: 2px 10px; vertical-align: top;\">{{c2::—}}</td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c2::по́льзоваться / воспо́льзоваться (+inst)}}</td><td class=\"pm\" style=\"padding: 2px 10px; vertical-align: top;\"><i>(plain)</i></td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">to use, utilise</td><td class=\"pc\" style=\"padding: 2px 10px; vertical-align: top;\">{{c3::ис-}}</td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c3::испо́льзовать (i/p) (+a)}}</td><td class=\"pm\" style=\"padding: 2px 10px; vertical-align: top;\"><i>(idiomatic)</i></td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">useful, beneficial (adj.)</td><td class=\"pc\" style=\"padding: 2px 10px; vertical-align: top;\">{{c4::—}}</td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c4::поле́зный}}</td><td class=\"pm\" style=\"padding: 2px 10px; vertical-align: top;\"><i>(plain)</i></td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">user</td><td class=\"pc\" style=\"padding: 2px 10px; vertical-align: top;\">{{c5::—}}</td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c5::по́льзователь}}</td><td class=\"pm\" style=\"padding: 2px 10px; vertical-align: top;\"><i>(plain)</i></td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">useless (adj.)</td><td class=\"pc\" style=\"padding: 2px 10px; vertical-align: top;\">{{c6::бес-}}</td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c6::бесполе́зный}}</td><td class=\"pm\" style=\"padding: 2px 10px; vertical-align: top;\"><i>without</i></td></tr></table>",
+"order": 0
+},
+"Back Extra": {
+"value": "",
+"order": 1
+},
+"Audio": {
+"value": "{{c1::[sound:hypertts-ba1ee0f6e4eb23bba836fbbe549779a4f49fe2087520e53f9a08a3d9.mp3]}} {{c2::[sound:hypertts-bc090a1ee068e99b9146f285eb2925ea4fa1b560b86ab9568a3b0e69.mp3]}} {{c3::[sound:hypertts-a2482e5be69f3d7070e2f7a5a44b6e0883fdef09c92911a8f214d4b5.mp3]}} {{c4::[sound:hypertts-076a3c37d6b6e7f6e9dbe18bc0c9b6d72749b1a2677c00ca878b60a0.mp3]}} {{c5::[sound:hypertts-191539dbd998e4ecfc56056c477450c48d0456f3e0bb796b6b76a03d.mp3]}} {{c6::[sound:hypertts-423b1363b80422821c20ccad2fb7de8dc1ae73dae30a0f2decaaa792.mp3]}}",
+"order": 2
+}
+},
+"modelName": "Cloze",
+"css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n\n.cloze {\n font-weight: bold;\n color: blue;\n}\n.nightMode .cloze {\n color: lightblue;\n}\n\ntd.pm, td.pc { display: none; }\ntd.pm.show, td.pc.show { display: table-cell; }\n.pm-toggle { font-size: 0.8em; color: #888; text-decoration: underline; cursor: pointer; display: inline-block; margin: 0 8px 6px; }\n\n.audio-row { text-align: center; margin: 10px 0 1.2em; }\n.example { margin-top: 4px; }\n\n/* Vocab::Verb forms Prefixed: the forms column is shown only by its link, on the answer side */\ntable.vf-family td.vfd .cloze-inactive { visibility: hidden; }\ntd.vff { display: none; color: #666; }\ntd.vff.show { display: table-cell; }\n",
+"deckName": "Vocab::Roots",
+"question": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n\n.cloze {\n font-weight: bold;\n color: blue;\n}\n.nightMode .cloze {\n color: lightblue;\n}\n\ntd.pm, td.pc { display: none; }\ntd.pm.show, td.pc.show { display: table-cell; }\n.pm-toggle { font-size: 0.8em; color: #888; text-decoration: underline; cursor: pointer; display: inline-block; margin: 0 8px 6px; }\n\n.audio-row { text-align: center; margin: 10px 0 1.2em; }\n.example { margin-top: 4px; }\n\n/* Vocab::Verb forms Prefixed: the forms column is shown only by its link, on the answer side */\ntable.vf-family td.vfd .cloze-inactive { visibility: hidden; }\ntd.vff { display: none; color: #666; }\ntd.vff.show { display: table-cell; }\n</style><b>-польз-</b> &nbsp;\"use, benefit\"<br><br><table style=\"margin: 0 auto; text-align: left; border-collapse: collapse;\"><tr><td style=\"padding: 2px 10px; vertical-align: top;\">benefit, usefulness</td><td class=\"pc\" style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"1\">—</span></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"1\">по́льза</span></td><td class=\"pm\" style=\"padding: 2px 10px; vertical-align: top;\"><i>(plain)</i></td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">to make use of</td><td class=\"pc\" style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"2\">—</span></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"2\">по́льзоваться / воспо́льзоваться (+inst)</span></td><td class=\"pm\" style=\"padding: 2px 10px; vertical-align: top;\"><i>(plain)</i></td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">to use, utilise</td><td class=\"pc\" style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"3\">ис-</span></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"3\">испо́льзовать (i/p) (+a)</span></td><td class=\"pm\" style=\"padding: 2px 10px; vertical-align: top;\"><i>(idiomatic)</i></td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">useful, beneficial (adj.)</td><td class=\"pc\" style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"4\">—</span></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"4\">поле́зный</span></td><td class=\"pm\" style=\"padding: 2px 10px; vertical-align: top;\"><i>(plain)</i></td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">user</td><td class=\"pc\" style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"5\">—</span></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"5\">по́льзователь</span></td><td class=\"pm\" style=\"padding: 2px 10px; vertical-align: top;\"><i>(plain)</i></td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">useless (adj.)</td><td class=\"pc\" style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze\" data-cloze=\"бес&#x2D;\" data-ordinal=\"6\">[...]</span></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze\" data-cloze=\"бесполе́зный\" data-ordinal=\"6\">[...]</span></td><td class=\"pm\" style=\"padding: 2px 10px; vertical-align: top;\"><i>without</i></td></tr></table>\n<script>(function(){if(document.querySelector(\".pm-toggle\"))return;var first=document.querySelector(\"td.pc, td.pm, td.vff\");if(!first)return;var back=!!document.querySelector(\".audio-row\");var tb=first.closest(\"table\"),bar=document.createElement(\"div\");[[\"pc\",\"prefixes\"],[\"pm\",\"prefix meanings\"],[\"vff\",\"forms\"]].forEach(function(p){if(p[0]==\"vff\"&&!back)return;var cells=document.querySelectorAll(\"td.\"+p[0]);if(!cells.length)return;var t=document.createElement(\"span\");t.className=\"pm-toggle\";t.textContent=p[1];t.onclick=function(){cells.forEach(function(e){e.classList.toggle(\"show\")});};bar.appendChild(t);});tb.parentNode.insertBefore(bar,tb);})();</script>",
+"answer": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n\n.cloze {\n font-weight: bold;\n color: blue;\n}\n.nightMode .cloze {\n color: lightblue;\n}\n\ntd.pm, td.pc { display: none; }\ntd.pm.show, td.pc.show { display: table-cell; }\n.pm-toggle { font-size: 0.8em; color: #888; text-decoration: underline; cursor: pointer; display: inline-block; margin: 0 8px 6px; }\n\n.audio-row { text-align: center; margin: 10px 0 1.2em; }\n.example { margin-top: 4px; }\n\n/* Vocab::Verb forms Prefixed: the forms column is shown only by its link, on the answer side */\ntable.vf-family td.vfd .cloze-inactive { visibility: hidden; }\ntd.vff { display: none; color: #666; }\ntd.vff.show { display: table-cell; }\n</style><b>-польз-</b> &nbsp;\"use, benefit\"<br><br><table style=\"margin: 0 auto; text-align: left; border-collapse: collapse;\"><tr><td style=\"padding: 2px 10px; vertical-align: top;\">benefit, usefulness</td><td class=\"pc\" style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"1\">—</span></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"1\">по́льза</span></td><td class=\"pm\" style=\"padding: 2px 10px; vertical-align: top;\"><i>(plain)</i></td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">to make use of</td><td class=\"pc\" style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"2\">—</span></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"2\">по́льзоваться / воспо́льзоваться (+inst)</span></td><td class=\"pm\" style=\"padding: 2px 10px; vertical-align: top;\"><i>(plain)</i></td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">to use, utilise</td><td class=\"pc\" style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"3\">ис-</span></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"3\">испо́льзовать (i/p) (+a)</span></td><td class=\"pm\" style=\"padding: 2px 10px; vertical-align: top;\"><i>(idiomatic)</i></td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">useful, beneficial (adj.)</td><td class=\"pc\" style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"4\">—</span></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"4\">поле́зный</span></td><td class=\"pm\" style=\"padding: 2px 10px; vertical-align: top;\"><i>(plain)</i></td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">user</td><td class=\"pc\" style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"5\">—</span></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"5\">по́льзователь</span></td><td class=\"pm\" style=\"padding: 2px 10px; vertical-align: top;\"><i>(plain)</i></td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">useless (adj.)</td><td class=\"pc\" style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze\" data-ordinal=\"6\">бес-</span></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze\" data-ordinal=\"6\">бесполе́зный</span></td><td class=\"pm\" style=\"padding: 2px 10px; vertical-align: top;\"><i>without</i></td></tr></table>\n<div class=\"audio-row\">[anki:play:a:0]</div>\n<div class=\"example\"></div>\n<script>(function(){if(document.querySelector(\".pm-toggle\"))return;var first=document.querySelector(\"td.pc, td.pm, td.vff\");if(!first)return;var back=!!document.querySelector(\".audio-row\");var tb=first.closest(\"table\"),bar=document.createElement(\"div\");[[\"pc\",\"prefixes\"],[\"pm\",\"prefix meanings\"],[\"vff\",\"forms\"]].forEach(function(p){if(p[0]==\"vff\"&&!back)return;var cells=document.querySelectorAll(\"td.\"+p[0]);if(!cells.length)return;var t=document.createElement(\"span\");t.className=\"pm-toggle\";t.textContent=p[1];t.onclick=function(){cells.forEach(function(e){e.classList.toggle(\"show\")});};bar.appendChild(t);});tb.parentNode.insertBefore(bar,tb);})();</script>",
+"nextReviews": [
+"⁨20⁩m",
+"⁨40⁩m",
+"⁨1⁩h",
+"⁨22⁩d"
+]
+},
+{
+"cardId": 1726634606716,
+"fieldOrder": 0,
+"ord": 0,
+"factor": 1300,
+"interval": 10,
+"note": 1726634605458,
+"type": 2,
+"queue": -1,
+"due": 1613,
+"reps": 36,
+"lapses": 5,
+"left": 0,
+"mod": 1789426317,
+"flags": 0,
+"fields": {
+"Front": {
+"value": "usage, utilization",
+"order": 0
+},
+"Back": {
+"value": "испо́льзование<br><br> [sound:hypertts-0ddd3b5dbde1a8ce33649760c6c5427c2b92c740fdab4ed87f96521f.mp3]",
+"order": 1
+},
+"Example": {
+"value": "Испо́льзование солнечной энергии помогает сокраща́ть расходы.",
+"order": 2
+}
+},
+"modelName": "Basic (and reversed card)",
+"css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
+"deckName": "Vocab::10000 words",
+"question": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>usage, utilization",
+"answer": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>usage, utilization\n\n<hr id=answer>\n\nиспо́льзование<br><br> [anki:play:a:0]\n<br><br><i>Испо́льзование солнечной энергии помогает сокраща́ть расходы.</i>",
+"nextReviews": [
+"⁨30⁩m",
+"⁨14⁩d",
+"⁨24⁩d",
+"⁨1.5⁩mo"
+]
+},
+{
+"cardId": 1726634606717,
+"fieldOrder": 1,
+"ord": 1,
+"factor": 1700,
+"interval": 14,
+"note": 1726634605458,
+"type": 2,
+"queue": -1,
+"due": 1610,
+"reps": 26,
+"lapses": 4,
+"left": 0,
+"mod": 1789426317,
+"flags": 0,
+"fields": {
+"Front": {
+"value": "usage, utilization",
+"order": 0
+},
+"Back": {
+"value": "испо́льзование<br><br> [sound:hypertts-0ddd3b5dbde1a8ce33649760c6c5427c2b92c740fdab4ed87f96521f.mp3]",
+"order": 1
+},
+"Example": {
+"value": "Испо́льзование солнечной энергии помогает сокраща́ть расходы.",
+"order": 2
+}
+},
+"modelName": "Basic (and reversed card)",
+"css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
+"deckName": "Vocab::10000 words",
+"question": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>испо́льзование<br><br> [anki:play:q:0]\n<br><br>\n<a class=hint href=\"#\"\nonclick=\"this.style.display='none';\ndocument.getElementById('hint29001b84ce8357f8').style.display='block';\nreturn false;\" draggable=false>\nExample</a>\n<div id=\"hint29001b84ce8357f8\" class=hint style=\"display: none\">Испо́льзование солнечной энергии помогает сокраща́ть расходы.</div>\n",
+"answer": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>испо́льзование<br><br> [anki:play:q:0]\n<br><br>\n<a class=hint href=\"#\"\nonclick=\"this.style.display='none';\ndocument.getElementById('hint29001b84ce8357f8').style.display='block';\nreturn false;\" draggable=false>\nExample</a>\n<div id=\"hint29001b84ce8357f8\" class=hint style=\"display: none\">Испо́льзование солнечной энергии помогает сокраща́ть расходы.</div>\n\n\n<hr id=answer>\n\nusage, utilization",
+"nextReviews": [
+"⁨30⁩m",
+"⁨17⁩d",
+"⁨28⁩d",
+"⁨1.6⁩mo"
+]
+},
+{
+"cardId": 1726634621548,
+"fieldOrder": 0,
+"ord": 0,
+"factor": 0,
+"interval": 0,
+"note": 1726634612874,
+"type": 0,
+"queue": 0,
+"due": 12821,
+"reps": 0,
+"lapses": 0,
+"left": 0,
+"mod": 1781060346,
+"flags": 0,
+"fields": {
+"Front": {
+"value": "use (of sth)",
+"order": 0
+},
+"Back": {
+"value": "по́льзование (+inst)<br><br> [sound:hypertts-05c259ca16439d251272f2a8391275dcc5e737c63efa1ad30d6519a1.mp3]",
+"order": 1
+},
+"Example": {
+"value": "По́льзование интерне́том стало́ неотъе́млемой ча́стью наше́й жи́зни.",
+"order": 2
+}
+},
+"modelName": "Basic (and reversed card)",
+"css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
+"deckName": "Vocab::10000 words",
+"question": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>use (of sth)",
+"answer": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>use (of sth)\n\n<hr id=answer>\n\nпо́льзование (+inst)<br><br> [anki:play:a:0]\n<br><br><i>По́льзование интерне́том стало́ неотъе́млемой ча́стью наше́й жи́зни.</i>",
+"nextReviews": [
+"⁨20⁩m",
+"⁨40⁩m",
+"⁨1⁩h",
+"⁨24⁩d"
+]
+},
+{
+"cardId": 1726634621549,
+"fieldOrder": 1,
+"ord": 1,
+"factor": 0,
+"interval": 0,
+"note": 1726634612874,
+"type": 0,
+"queue": 0,
+"due": 12822,
+"reps": 0,
+"lapses": 0,
+"left": 0,
+"mod": 1781060346,
+"flags": 0,
+"fields": {
+"Front": {
+"value": "use (of sth)",
+"order": 0
+},
+"Back": {
+"value": "по́льзование (+inst)<br><br> [sound:hypertts-05c259ca16439d251272f2a8391275dcc5e737c63efa1ad30d6519a1.mp3]",
+"order": 1
+},
+"Example": {
+"value": "По́льзование интерне́том стало́ неотъе́млемой ча́стью наше́й жи́зни.",
+"order": 2
+}
+},
+"modelName": "Basic (and reversed card)",
+"css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
+"deckName": "Vocab::10000 words",
+"question": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>по́льзование (+inst)<br><br> [anki:play:q:0]\n<br><br>\n<a class=hint href=\"#\"\nonclick=\"this.style.display='none';\ndocument.getElementById('hintf1d4675ed0ef6b72').style.display='block';\nreturn false;\" draggable=false>\nExample</a>\n<div id=\"hintf1d4675ed0ef6b72\" class=hint style=\"display: none\">По́льзование интерне́том стало́ неотъе́млемой ча́стью наше́й жи́зни.</div>\n",
+"answer": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>по́льзование (+inst)<br><br> [anki:play:q:0]\n<br><br>\n<a class=hint href=\"#\"\nonclick=\"this.style.display='none';\ndocument.getElementById('hintf1d4675ed0ef6b72').style.display='block';\nreturn false;\" draggable=false>\nExample</a>\n<div id=\"hintf1d4675ed0ef6b72\" class=hint style=\"display: none\">По́льзование интерне́том стало́ неотъе́млемой ча́стью наше́й жи́зни.</div>\n\n\n<hr id=answer>\n\nuse (of sth)",
+"nextReviews": [
+"⁨20⁩m",
+"⁨40⁩m",
+"⁨1⁩h",
+"⁨23⁩d"
+]
+},
+{
+"cardId": 1726634605716,
+"fieldOrder": 0,
+"ord": 0,
+"factor": 0,
+"interval": 0,
+"note": 1726634604958,
+"type": 0,
+"queue": 0,
+"due": 67,
+"reps": 0,
+"lapses": 0,
+"left": 0,
+"mod": 1792522405,
+"flags": 0,
+"fields": {
+"Text": {
+"value": "<div class=\"ru-pair\" data-audio=\"hypertts-0e23f98a2e78cc9880ba02425d14bb8207af2506f3075cbc003b6399.mp3\">испо́льзовать (i/p) (+a)</div><b>{{c3::to use, utilize}}</b><br><br><table class=\"aspect\" style=\"margin: 0 auto; text-align: left; border-collapse: collapse;\"><tr><td style=\"padding: 2px 10px; vertical-align: top;\">i/p <span class=\"ask\">· inf., я, ты</span></td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c1::испо́льзовать — испо́льзую, испо́льзуешь (+a)}}</td><td class=\"rl\" style=\"padding: 2px 10px; vertical-align: top;\">I · -ова-/-ева- → -у-/-ю-</td></tr></table>",
+"order": 0
+},
+"Back Extra": {
+"value": "{{c1::Мы испо́льзуем но́вые техноло́гии для реше́ния э́той пробле́мы.}} {{c3::Мы испо́льзуем но́вые техноло́гии для реше́ния э́той пробле́мы.}}",
+"order": 1
+},
+"Audio": {
+"value": "{{c1::[sound:hypertts-bbac8413938899ae4f14cb231fccea4d5bbf7fc1acab1f0e0add1299.mp3]}} [sound:hypertts-0e23f98a2e78cc9880ba02425d14bb8207af2506f3075cbc003b6399.mp3]",
+"order": 2
+}
+},
+"modelName": "Cloze Aspect",
+"css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n\n.cloze {\n font-weight: bold;\n color: blue;\n}\n.nightMode .cloze {\n color: lightblue;\n}\n\n\ntable.aspect .cloze-inactive { visibility: hidden; }\ntable.aspect.show-other .cloze-inactive { visibility: visible; }\n.oa-toggle { font-size: 0.8em; color: #888; text-decoration: underline; cursor: pointer; display: block; width: fit-content; margin: 0 auto 6px; }\n\n.audio-row { text-align: center; margin: 10px 0 1.2em; }\n.example { margin-top: 4px; }\n\n.ru-pair { display: none; font-size: 1.2em; margin: 6px 0 10px; }\nbody:has(.cloze[data-ordinal=\"3\"]) .ru-pair { display: block; }\nbody:has(.cloze[data-ordinal=\"3\"]) table.aspect, body:has(.cloze[data-ordinal=\"3\"]) .oa-toggle, body:has(.cloze[data-ordinal=\"3\"]) .rule-toggle, body:has(.cloze[data-ordinal=\"3\"]) .rule-text { display: none !important; }\n\ntable.aspect td.rl { display: none; font-size: 0.75em; color: #888; text-align: left; }\n\n.ask { font-size: 0.75em; color: #888; white-space: nowrap; }\n.rule-toggle { font-size: 0.8em; color: #888; text-decoration: underline; cursor: pointer; display: block; width: fit-content; margin: 0 auto 4px; }\n.rule-text { display: none; font-size: 0.8em; color: #888; margin: 0 auto 8px; }\n.rule-text.shown { display: block; }\n",
+"deckName": "Vocab::10000 words",
+"question": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n\n.cloze {\n font-weight: bold;\n color: blue;\n}\n.nightMode .cloze {\n color: lightblue;\n}\n\n\ntable.aspect .cloze-inactive { visibility: hidden; }\ntable.aspect.show-other .cloze-inactive { visibility: visible; }\n.oa-toggle { font-size: 0.8em; color: #888; text-decoration: underline; cursor: pointer; display: block; width: fit-content; margin: 0 auto 6px; }\n\n.audio-row { text-align: center; margin: 10px 0 1.2em; }\n.example { margin-top: 4px; }\n\n.ru-pair { display: none; font-size: 1.2em; margin: 6px 0 10px; }\nbody:has(.cloze[data-ordinal=\"3\"]) .ru-pair { display: block; }\nbody:has(.cloze[data-ordinal=\"3\"]) table.aspect, body:has(.cloze[data-ordinal=\"3\"]) .oa-toggle, body:has(.cloze[data-ordinal=\"3\"]) .rule-toggle, body:has(.cloze[data-ordinal=\"3\"]) .rule-text { display: none !important; }\n\ntable.aspect td.rl { display: none; font-size: 0.75em; color: #888; text-align: left; }\n\n.ask { font-size: 0.75em; color: #888; white-space: nowrap; }\n.rule-toggle { font-size: 0.8em; color: #888; text-decoration: underline; cursor: pointer; display: block; width: fit-content; margin: 0 auto 4px; }\n.rule-text { display: none; font-size: 0.8em; color: #888; margin: 0 auto 8px; }\n.rule-text.shown { display: block; }\n</style><div class=\"ru-pair\" data-audio=\"hypertts-0e23f98a2e78cc9880ba02425d14bb8207af2506f3075cbc003b6399.mp3\">испо́льзовать (i/p) (+a)</div><b><span class=\"cloze-inactive\" data-ordinal=\"3\">to use, utilize</span></b><br><br><table class=\"aspect\" style=\"margin: 0 auto; text-align: left; border-collapse: collapse;\"><tr><td style=\"padding: 2px 10px; vertical-align: top;\">i/p <span class=\"ask\">· inf., я, ты</span></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze\" data-cloze=\"испо́льзовать&#x20;—&#x20;испо́льзую&#x2C;&#x20;испо́льзуешь&#x20;&#x28;&#x2B;a&#x29;\" data-ordinal=\"1\">[...]</span></td><td class=\"rl\" style=\"padding: 2px 10px; vertical-align: top;\">I · -ова-/-ева- → -у-/-ю-</td></tr></table>\n<script>(function(){var t=document.querySelector(\"table.aspect\");if(!t||document.querySelector(\".oa-toggle\"))return;if(!t.querySelector(\".cloze-inactive\"))return;var b=document.createElement(\"div\");b.className=\"oa-toggle\";b.textContent=\"other aspect\";b.onclick=function(){t.classList.toggle(\"show-other\");};t.parentNode.insertBefore(b,t);})();</script>\n<script>(function(auto){if(!document.querySelector('.cloze[data-ordinal=\"3\"]'))return;var p=document.querySelector(\".ru-pair[data-audio]\");if(!p||document.querySelector(\".pa-play\"))return;var au=new Audio(p.getAttribute(\"data-audio\"));var d=document.createElement(\"div\");d.className=\"pa-play\";d.textContent=\"\\u25B6\";d.style.cssText=\"cursor:pointer;font-size:0.9em;margin:1em 0 6px;\";d.onclick=function(){au.currentTime=0;au.play().catch(function(){});};var e=p.nextElementSibling;var anchor=(e&&e.tagName===\"B\")?e:p;anchor.parentNode.insertBefore(d,anchor.nextSibling);if(auto)setTimeout(function(){au.play().catch(function(){});},50);})(true);</script>\n<script>(function(){var t=document.querySelector(\"table.aspect\");if(!t||document.querySelector(\".rule-toggle\"))return;var r=null;t.querySelectorAll(\"tr\").forEach(function(tr){if(tr.querySelector(\".cloze\")&&tr.querySelector(\"td.rl\"))r=tr.querySelector(\"td.rl\");});if(!r)return;var b=document.createElement(\"div\");b.className=\"rule-toggle\";b.textContent=\"show rule\";var d=document.createElement(\"div\");d.className=\"rule-text\";d.textContent=r.textContent;b.onclick=function(){d.classList.toggle(\"shown\");};var o=document.querySelector(\".oa-toggle\");var anchor=o||t;anchor.parentNode.insertBefore(b,o?o.nextSibling:t);b.parentNode.insertBefore(d,b.nextSibling);})();</script>",
+"answer": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n\n.cloze {\n font-weight: bold;\n color: blue;\n}\n.nightMode .cloze {\n color: lightblue;\n}\n\n\ntable.aspect .cloze-inactive { visibility: hidden; }\ntable.aspect.show-other .cloze-inactive { visibility: visible; }\n.oa-toggle { font-size: 0.8em; color: #888; text-decoration: underline; cursor: pointer; display: block; width: fit-content; margin: 0 auto 6px; }\n\n.audio-row { text-align: center; margin: 10px 0 1.2em; }\n.example { margin-top: 4px; }\n\n.ru-pair { display: none; font-size: 1.2em; margin: 6px 0 10px; }\nbody:has(.cloze[data-ordinal=\"3\"]) .ru-pair { display: block; }\nbody:has(.cloze[data-ordinal=\"3\"]) table.aspect, body:has(.cloze[data-ordinal=\"3\"]) .oa-toggle, body:has(.cloze[data-ordinal=\"3\"]) .rule-toggle, body:has(.cloze[data-ordinal=\"3\"]) .rule-text { display: none !important; }\n\ntable.aspect td.rl { display: none; font-size: 0.75em; color: #888; text-align: left; }\n\n.ask { font-size: 0.75em; color: #888; white-space: nowrap; }\n.rule-toggle { font-size: 0.8em; color: #888; text-decoration: underline; cursor: pointer; display: block; width: fit-content; margin: 0 auto 4px; }\n.rule-text { display: none; font-size: 0.8em; color: #888; margin: 0 auto 8px; }\n.rule-text.shown { display: block; }\n</style><div class=\"ru-pair\" data-audio=\"hypertts-0e23f98a2e78cc9880ba02425d14bb8207af2506f3075cbc003b6399.mp3\">испо́льзовать (i/p) (+a)</div><b><span class=\"cloze-inactive\" data-ordinal=\"3\">to use, utilize</span></b><br><br><table class=\"aspect\" style=\"margin: 0 auto; text-align: left; border-collapse: collapse;\"><tr><td style=\"padding: 2px 10px; vertical-align: top;\">i/p <span class=\"ask\">· inf., я, ты</span></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze\" data-ordinal=\"1\">испо́льзовать — испо́льзую, испо́льзуешь (+a)</span></td><td class=\"rl\" style=\"padding: 2px 10px; vertical-align: top;\">I · -ова-/-ева- → -у-/-ю-</td></tr></table>\n<div class=\"audio-row\">[anki:play:a:0]</div>\n<div class=\"example\">Мы испо́льзуем но́вые техноло́гии для реше́ния э́той пробле́мы.</div>\n<script>(function(){var t=document.querySelector(\"table.aspect\");if(!t||document.querySelector(\".oa-toggle\"))return;if(!t.querySelector(\".cloze-inactive\"))return;var b=document.createElement(\"div\");b.className=\"oa-toggle\";b.textContent=\"other aspect\";b.onclick=function(){t.classList.toggle(\"show-other\");};t.parentNode.insertBefore(b,t);})();</script>\n<script>(function(auto){if(!document.querySelector('.cloze[data-ordinal=\"3\"]'))return;var p=document.querySelector(\".ru-pair[data-audio]\");if(!p||document.querySelector(\".pa-play\"))return;var au=new Audio(p.getAttribute(\"data-audio\"));var d=document.createElement(\"div\");d.className=\"pa-play\";d.textContent=\"\\u25B6\";d.style.cssText=\"cursor:pointer;font-size:0.9em;margin:1em 0 6px;\";d.onclick=function(){au.currentTime=0;au.play().catch(function(){});};var e=p.nextElementSibling;var anchor=(e&&e.tagName===\"B\")?e:p;anchor.parentNode.insertBefore(d,anchor.nextSibling);if(auto)setTimeout(function(){au.play().catch(function(){});},50);})(false);</script>\n<script>(function(){var t=document.querySelector(\"table.aspect\");if(!t||document.querySelector(\".rule-toggle\"))return;var r=null;t.querySelectorAll(\"tr\").forEach(function(tr){if(tr.querySelector(\".cloze\")&&tr.querySelector(\"td.rl\"))r=tr.querySelector(\"td.rl\");});if(!r)return;var b=document.createElement(\"div\");b.className=\"rule-toggle\";b.textContent=\"show rule\";var d=document.createElement(\"div\");d.className=\"rule-text\";d.textContent=r.textContent;b.onclick=function(){d.classList.toggle(\"shown\");};var o=document.querySelector(\".oa-toggle\");var anchor=o||t;anchor.parentNode.insertBefore(b,o?o.nextSibling:t);b.parentNode.insertBefore(d,b.nextSibling);})();</script>",
+"nextReviews": [
+"⁨20⁩m",
+"⁨40⁩m",
+"⁨1⁩h",
+"⁨23⁩d"
+]
+},
+{
+"cardId": 1791457108890,
+"fieldOrder": 2,
+"ord": 2,
+"factor": 2500,
+"interval": 340,
+"note": 1726634604958,
+"type": 2,
+"queue": 2,
+"due": 1820,
+"reps": 7,
+"lapses": 0,
+"left": 0,
+"mod": 1791457108,
+"flags": 0,
+"fields": {
+"Text": {
+"value": "<div class=\"ru-pair\" data-audio=\"hypertts-0e23f98a2e78cc9880ba02425d14bb8207af2506f3075cbc003b6399.mp3\">испо́льзовать (i/p) (+a)</div><b>{{c3::to use, utilize}}</b><br><br><table class=\"aspect\" style=\"margin: 0 auto; text-align: left; border-collapse: collapse;\"><tr><td style=\"padding: 2px 10px; vertical-align: top;\">i/p <span class=\"ask\">· inf., я, ты</span></td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c1::испо́льзовать — испо́льзую, испо́льзуешь (+a)}}</td><td class=\"rl\" style=\"padding: 2px 10px; vertical-align: top;\">I · -ова-/-ева- → -у-/-ю-</td></tr></table>",
+"order": 0
+},
+"Back Extra": {
+"value": "{{c1::Мы испо́льзуем но́вые техноло́гии для реше́ния э́той пробле́мы.}} {{c3::Мы испо́льзуем но́вые техноло́гии для реше́ния э́той пробле́мы.}}",
+"order": 1
+},
+"Audio": {
+"value": "{{c1::[sound:hypertts-bbac8413938899ae4f14cb231fccea4d5bbf7fc1acab1f0e0add1299.mp3]}} [sound:hypertts-0e23f98a2e78cc9880ba02425d14bb8207af2506f3075cbc003b6399.mp3]",
+"order": 2
+}
+},
+"modelName": "Cloze Aspect",
+"css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n\n.cloze {\n font-weight: bold;\n color: blue;\n}\n.nightMode .cloze {\n color: lightblue;\n}\n\n\ntable.aspect .cloze-inactive { visibility: hidden; }\ntable.aspect.show-other .cloze-inactive { visibility: visible; }\n.oa-toggle { font-size: 0.8em; color: #888; text-decoration: underline; cursor: pointer; display: block; width: fit-content; margin: 0 auto 6px; }\n\n.audio-row { text-align: center; margin: 10px 0 1.2em; }\n.example { margin-top: 4px; }\n\n.ru-pair { display: none; font-size: 1.2em; margin: 6px 0 10px; }\nbody:has(.cloze[data-ordinal=\"3\"]) .ru-pair { display: block; }\nbody:has(.cloze[data-ordinal=\"3\"]) table.aspect, body:has(.cloze[data-ordinal=\"3\"]) .oa-toggle, body:has(.cloze[data-ordinal=\"3\"]) .rule-toggle, body:has(.cloze[data-ordinal=\"3\"]) .rule-text { display: none !important; }\n\ntable.aspect td.rl { display: none; font-size: 0.75em; color: #888; text-align: left; }\n\n.ask { font-size: 0.75em; color: #888; white-space: nowrap; }\n.rule-toggle { font-size: 0.8em; color: #888; text-decoration: underline; cursor: pointer; display: block; width: fit-content; margin: 0 auto 4px; }\n.rule-text { display: none; font-size: 0.8em; color: #888; margin: 0 auto 8px; }\n.rule-text.shown { display: block; }\n",
+"deckName": "Vocab::10000 words",
+"question": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n\n.cloze {\n font-weight: bold;\n color: blue;\n}\n.nightMode .cloze {\n color: lightblue;\n}\n\n\ntable.aspect .cloze-inactive { visibility: hidden; }\ntable.aspect.show-other .cloze-inactive { visibility: visible; }\n.oa-toggle { font-size: 0.8em; color: #888; text-decoration: underline; cursor: pointer; display: block; width: fit-content; margin: 0 auto 6px; }\n\n.audio-row { text-align: center; margin: 10px 0 1.2em; }\n.example { margin-top: 4px; }\n\n.ru-pair { display: none; font-size: 1.2em; margin: 6px 0 10px; }\nbody:has(.cloze[data-ordinal=\"3\"]) .ru-pair { display: block; }\nbody:has(.cloze[data-ordinal=\"3\"]) table.aspect, body:has(.cloze[data-ordinal=\"3\"]) .oa-toggle, body:has(.cloze[data-ordinal=\"3\"]) .rule-toggle, body:has(.cloze[data-ordinal=\"3\"]) .rule-text { display: none !important; }\n\ntable.aspect td.rl { display: none; font-size: 0.75em; color: #888; text-align: left; }\n\n.ask { font-size: 0.75em; color: #888; white-space: nowrap; }\n.rule-toggle { font-size: 0.8em; color: #888; text-decoration: underline; cursor: pointer; display: block; width: fit-content; margin: 0 auto 4px; }\n.rule-text { display: none; font-size: 0.8em; color: #888; margin: 0 auto 8px; }\n.rule-text.shown { display: block; }\n</style><div class=\"ru-pair\" data-audio=\"hypertts-0e23f98a2e78cc9880ba02425d14bb8207af2506f3075cbc003b6399.mp3\">испо́льзовать (i/p) (+a)</div><b><span class=\"cloze\" data-cloze=\"to&#x20;use&#x2C;&#x20;utilize\" data-ordinal=\"3\">[...]</span></b><br><br><table class=\"aspect\" style=\"margin: 0 auto; text-align: left; border-collapse: collapse;\"><tr><td style=\"padding: 2px 10px; vertical-align: top;\">i/p <span class=\"ask\">· inf., я, ты</span></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"1\">испо́льзовать — испо́льзую, испо́льзуешь (+a)</span></td><td class=\"rl\" style=\"padding: 2px 10px; vertical-align: top;\">I · -ова-/-ева- → -у-/-ю-</td></tr></table>\n<script>(function(){var t=document.querySelector(\"table.aspect\");if(!t||document.querySelector(\".oa-toggle\"))return;if(!t.querySelector(\".cloze-inactive\"))return;var b=document.createElement(\"div\");b.className=\"oa-toggle\";b.textContent=\"other aspect\";b.onclick=function(){t.classList.toggle(\"show-other\");};t.parentNode.insertBefore(b,t);})();</script>\n<script>(function(auto){if(!document.querySelector('.cloze[data-ordinal=\"3\"]'))return;var p=document.querySelector(\".ru-pair[data-audio]\");if(!p||document.querySelector(\".pa-play\"))return;var au=new Audio(p.getAttribute(\"data-audio\"));var d=document.createElement(\"div\");d.className=\"pa-play\";d.textContent=\"\\u25B6\";d.style.cssText=\"cursor:pointer;font-size:0.9em;margin:1em 0 6px;\";d.onclick=function(){au.currentTime=0;au.play().catch(function(){});};var e=p.nextElementSibling;var anchor=(e&&e.tagName===\"B\")?e:p;anchor.parentNode.insertBefore(d,anchor.nextSibling);if(auto)setTimeout(function(){au.play().catch(function(){});},50);})(true);</script>\n<script>(function(){var t=document.querySelector(\"table.aspect\");if(!t||document.querySelector(\".rule-toggle\"))return;var r=null;t.querySelectorAll(\"tr\").forEach(function(tr){if(tr.querySelector(\".cloze\")&&tr.querySelector(\"td.rl\"))r=tr.querySelector(\"td.rl\");});if(!r)return;var b=document.createElement(\"div\");b.className=\"rule-toggle\";b.textContent=\"show rule\";var d=document.createElement(\"div\");d.className=\"rule-text\";d.textContent=r.textContent;b.onclick=function(){d.classList.toggle(\"shown\");};var o=document.querySelector(\".oa-toggle\");var anchor=o||t;anchor.parentNode.insertBefore(b,o?o.nextSibling:t);b.parentNode.insertBefore(d,b.nextSibling);})();</script>",
+"answer": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n\n.cloze {\n font-weight: bold;\n color: blue;\n}\n.nightMode .cloze {\n color: lightblue;\n}\n\n\ntable.aspect .cloze-inactive { visibility: hidden; }\ntable.aspect.show-other .cloze-inactive { visibility: visible; }\n.oa-toggle { font-size: 0.8em; color: #888; text-decoration: underline; cursor: pointer; display: block; width: fit-content; margin: 0 auto 6px; }\n\n.audio-row { text-align: center; margin: 10px 0 1.2em; }\n.example { margin-top: 4px; }\n\n.ru-pair { display: none; font-size: 1.2em; margin: 6px 0 10px; }\nbody:has(.cloze[data-ordinal=\"3\"]) .ru-pair { display: block; }\nbody:has(.cloze[data-ordinal=\"3\"]) table.aspect, body:has(.cloze[data-ordinal=\"3\"]) .oa-toggle, body:has(.cloze[data-ordinal=\"3\"]) .rule-toggle, body:has(.cloze[data-ordinal=\"3\"]) .rule-text { display: none !important; }\n\ntable.aspect td.rl { display: none; font-size: 0.75em; color: #888; text-align: left; }\n\n.ask { font-size: 0.75em; color: #888; white-space: nowrap; }\n.rule-toggle { font-size: 0.8em; color: #888; text-decoration: underline; cursor: pointer; display: block; width: fit-content; margin: 0 auto 4px; }\n.rule-text { display: none; font-size: 0.8em; color: #888; margin: 0 auto 8px; }\n.rule-text.shown { display: block; }\n</style><div class=\"ru-pair\" data-audio=\"hypertts-0e23f98a2e78cc9880ba02425d14bb8207af2506f3075cbc003b6399.mp3\">испо́льзовать (i/p) (+a)</div><b><span class=\"cloze\" data-ordinal=\"3\">to use, utilize</span></b><br><br><table class=\"aspect\" style=\"margin: 0 auto; text-align: left; border-collapse: collapse;\"><tr><td style=\"padding: 2px 10px; vertical-align: top;\">i/p <span class=\"ask\">· inf., я, ты</span></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"1\">испо́льзовать — испо́льзую, испо́льзуешь (+a)</span></td><td class=\"rl\" style=\"padding: 2px 10px; vertical-align: top;\">I · -ова-/-ева- → -у-/-ю-</td></tr></table>\n<div class=\"audio-row\"></div>\n<div class=\"example\">Мы испо́льзуем но́вые техноло́гии для реше́ния э́той пробле́мы.</div>\n<script>(function(){var t=document.querySelector(\"table.aspect\");if(!t||document.querySelector(\".oa-toggle\"))return;if(!t.querySelector(\".cloze-inactive\"))return;var b=document.createElement(\"div\");b.className=\"oa-toggle\";b.textContent=\"other aspect\";b.onclick=function(){t.classList.toggle(\"show-other\");};t.parentNode.insertBefore(b,t);})();</script>\n<script>(function(auto){if(!document.querySelector('.cloze[data-ordinal=\"3\"]'))return;var p=document.querySelector(\".ru-pair[data-audio]\");if(!p||document.querySelector(\".pa-play\"))return;var au=new Audio(p.getAttribute(\"data-audio\"));var d=document.createElement(\"div\");d.className=\"pa-play\";d.textContent=\"\\u25B6\";d.style.cssText=\"cursor:pointer;font-size:0.9em;margin:1em 0 6px;\";d.onclick=function(){au.currentTime=0;au.play().catch(function(){});};var e=p.nextElementSibling;var anchor=(e&&e.tagName===\"B\")?e:p;anchor.parentNode.insertBefore(d,anchor.nextSibling);if(auto)setTimeout(function(){au.play().catch(function(){});},50);})(false);</script>\n<script>(function(){var t=document.querySelector(\"table.aspect\");if(!t||document.querySelector(\".rule-toggle\"))return;var r=null;t.querySelectorAll(\"tr\").forEach(function(tr){if(tr.querySelector(\".cloze\")&&tr.querySelector(\"td.rl\"))r=tr.querySelector(\"td.rl\");});if(!r)return;var b=document.createElement(\"div\");b.className=\"rule-toggle\";b.textContent=\"show rule\";var d=document.createElement(\"div\");d.className=\"rule-text\";d.textContent=r.textContent;b.onclick=function(){d.classList.toggle(\"shown\");};var o=document.querySelector(\".oa-toggle\");var anchor=o||t;anchor.parentNode.insertBefore(b,o?o.nextSibling:t);b.parentNode.insertBefore(d,b.nextSibling);})();</script>",
+"nextReviews": [
+"⁨30⁩m",
+"⁨11.2⁩mo",
+"⁨11.3⁩mo",
+"⁨11.8⁩mo"
+]
+},
+{
+"cardId": 1791455794278,
+"fieldOrder": 0,
+"ord": 0,
+"factor": 2150,
+"interval": 1,
+"note": 1791455794277,
+"type": 2,
+"queue": 2,
+"due": 1747,
+"reps": 8,
+"lapses": 1,
+"left": 0,
+"mod": 1793624634,
+"flags": 0,
+"fields": {
+"Text": {
+"value": "<div class=\"ru-pair\" data-audio=\"hypertts-bcd3e368c37abd9f29c6bc4cab864d618e40e80617c9e16b1f6f7ccb.mp3\">по́льзоваться / воспо́льзоваться (+inst)</div><b>{{c3::to use, make use of}}</b><br><br><table class=\"aspect\" style=\"margin: 0 auto; text-align: left; border-collapse: collapse;\"><tr><td style=\"padding: 2px 10px; vertical-align: top;\">impf <span class=\"ask\">· inf., я, ты</span></td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c1::по́льзоваться — по́льзуюсь, по́льзуешься (+inst)}}</td><td class=\"rl\" style=\"padding: 2px 10px; vertical-align: top;\">I · -ова-/-ева- → -у-/-ю-</td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">pf <span class=\"ask\">· inf., я, ты</span></td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c2::воспо́льзоваться — воспо́льзуюсь, воспо́льзуешься (+inst)}}</td><td class=\"rl\" style=\"padding: 2px 10px; vertical-align: top;\">I · -ова-/-ева- → -у-/-ю-</td></tr></table>",
+"order": 0
+},
+"Back Extra": {
+"value": "{{c1::Я ча́сто по́льзуюсь э́тим словарём.}} {{c2::Мо́жно воспо́льзоваться ва́шим телефо́ном?}} {{c3::Я ча́сто по́льзуюсь э́тим словарём.<br>Мо́жно воспо́льзоваться ва́шим телефо́ном?}}",
+"order": 1
+},
+"Audio": {
+"value": "{{c1::[sound:hypertts-279c31cbb6afb3d036ac9d416bc4521ba7df7c1f33b34408f954add4.mp3]}} {{c2::[sound:hypertts-d32ec170775112e464833aa90ced89b0024f8aa203c4b279c2c08243.mp3]}} [sound:hypertts-bcd3e368c37abd9f29c6bc4cab864d618e40e80617c9e16b1f6f7ccb.mp3]",
+"order": 2
+}
+},
+"modelName": "Cloze Aspect",
+"css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n\n.cloze {\n font-weight: bold;\n color: blue;\n}\n.nightMode .cloze {\n color: lightblue;\n}\n\n\ntable.aspect .cloze-inactive { visibility: hidden; }\ntable.aspect.show-other .cloze-inactive { visibility: visible; }\n.oa-toggle { font-size: 0.8em; color: #888; text-decoration: underline; cursor: pointer; display: block; width: fit-content; margin: 0 auto 6px; }\n\n.audio-row { text-align: center; margin: 10px 0 1.2em; }\n.example { margin-top: 4px; }\n\n.ru-pair { display: none; font-size: 1.2em; margin: 6px 0 10px; }\nbody:has(.cloze[data-ordinal=\"3\"]) .ru-pair { display: block; }\nbody:has(.cloze[data-ordinal=\"3\"]) table.aspect, body:has(.cloze[data-ordinal=\"3\"]) .oa-toggle, body:has(.cloze[data-ordinal=\"3\"]) .rule-toggle, body:has(.cloze[data-ordinal=\"3\"]) .rule-text { display: none !important; }\n\ntable.aspect td.rl { display: none; font-size: 0.75em; color: #888; text-align: left; }\n\n.ask { font-size: 0.75em; color: #888; white-space: nowrap; }\n.rule-toggle { font-size: 0.8em; color: #888; text-decoration: underline; cursor: pointer; display: block; width: fit-content; margin: 0 auto 4px; }\n.rule-text { display: none; font-size: 0.8em; color: #888; margin: 0 auto 8px; }\n.rule-text.shown { display: block; }\n",
+"deckName": "Vocab::10000 words",
+"question": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n\n.cloze {\n font-weight: bold;\n color: blue;\n}\n.nightMode .cloze {\n color: lightblue;\n}\n\n\ntable.aspect .cloze-inactive { visibility: hidden; }\ntable.aspect.show-other .cloze-inactive { visibility: visible; }\n.oa-toggle { font-size: 0.8em; color: #888; text-decoration: underline; cursor: pointer; display: block; width: fit-content; margin: 0 auto 6px; }\n\n.audio-row { text-align: center; margin: 10px 0 1.2em; }\n.example { margin-top: 4px; }\n\n.ru-pair { display: none; font-size: 1.2em; margin: 6px 0 10px; }\nbody:has(.cloze[data-ordinal=\"3\"]) .ru-pair { display: block; }\nbody:has(.cloze[data-ordinal=\"3\"]) table.aspect, body:has(.cloze[data-ordinal=\"3\"]) .oa-toggle, body:has(.cloze[data-ordinal=\"3\"]) .rule-toggle, body:has(.cloze[data-ordinal=\"3\"]) .rule-text { display: none !important; }\n\ntable.aspect td.rl { display: none; font-size: 0.75em; color: #888; text-align: left; }\n\n.ask { font-size: 0.75em; color: #888; white-space: nowrap; }\n.rule-toggle { font-size: 0.8em; color: #888; text-decoration: underline; cursor: pointer; display: block; width: fit-content; margin: 0 auto 4px; }\n.rule-text { display: none; font-size: 0.8em; color: #888; margin: 0 auto 8px; }\n.rule-text.shown { display: block; }\n</style><div class=\"ru-pair\" data-audio=\"hypertts-bcd3e368c37abd9f29c6bc4cab864d618e40e80617c9e16b1f6f7ccb.mp3\">по́льзоваться / воспо́льзоваться (+inst)</div><b><span class=\"cloze-inactive\" data-ordinal=\"3\">to use, make use of</span></b><br><br><table class=\"aspect\" style=\"margin: 0 auto; text-align: left; border-collapse: collapse;\"><tr><td style=\"padding: 2px 10px; vertical-align: top;\">impf <span class=\"ask\">· inf., я, ты</span></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze\" data-cloze=\"по́льзоваться&#x20;—&#x20;по́льзуюсь&#x2C;&#x20;по́льзуешься&#x20;&#x28;&#x2B;inst&#x29;\" data-ordinal=\"1\">[...]</span></td><td class=\"rl\" style=\"padding: 2px 10px; vertical-align: top;\">I · -ова-/-ева- → -у-/-ю-</td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">pf <span class=\"ask\">· inf., я, ты</span></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"2\">воспо́льзоваться — воспо́льзуюсь, воспо́льзуешься (+inst)</span></td><td class=\"rl\" style=\"padding: 2px 10px; vertical-align: top;\">I · -ова-/-ева- → -у-/-ю-</td></tr></table>\n<script>(function(){var t=document.querySelector(\"table.aspect\");if(!t||document.querySelector(\".oa-toggle\"))return;if(!t.querySelector(\".cloze-inactive\"))return;var b=document.createElement(\"div\");b.className=\"oa-toggle\";b.textContent=\"other aspect\";b.onclick=function(){t.classList.toggle(\"show-other\");};t.parentNode.insertBefore(b,t);})();</script>\n<script>(function(auto){if(!document.querySelector('.cloze[data-ordinal=\"3\"]'))return;var p=document.querySelector(\".ru-pair[data-audio]\");if(!p||document.querySelector(\".pa-play\"))return;var au=new Audio(p.getAttribute(\"data-audio\"));var d=document.createElement(\"div\");d.className=\"pa-play\";d.textContent=\"\\u25B6\";d.style.cssText=\"cursor:pointer;font-size:0.9em;margin:1em 0 6px;\";d.onclick=function(){au.currentTime=0;au.play().catch(function(){});};var e=p.nextElementSibling;var anchor=(e&&e.tagName===\"B\")?e:p;anchor.parentNode.insertBefore(d,anchor.nextSibling);if(auto)setTimeout(function(){au.play().catch(function(){});},50);})(true);</script>\n<script>(function(){var t=document.querySelector(\"table.aspect\");if(!t||document.querySelector(\".rule-toggle\"))return;var r=null;t.querySelectorAll(\"tr\").forEach(function(tr){if(tr.querySelector(\".cloze\")&&tr.querySelector(\"td.rl\"))r=tr.querySelector(\"td.rl\");});if(!r)return;var b=document.createElement(\"div\");b.className=\"rule-toggle\";b.textContent=\"show rule\";var d=document.createElement(\"div\");d.className=\"rule-text\";d.textContent=r.textContent;b.onclick=function(){d.classList.toggle(\"shown\");};var o=document.querySelector(\".oa-toggle\");var anchor=o||t;anchor.parentNode.insertBefore(b,o?o.nextSibling:t);b.parentNode.insertBefore(d,b.nextSibling);})();</script>",
+"answer": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n\n.cloze {\n font-weight: bold;\n color: blue;\n}\n.nightMode .cloze {\n color: lightblue;\n}\n\n\ntable.aspect .cloze-inactive { visibility: hidden; }\ntable.aspect.show-other .cloze-inactive { visibility: visible; }\n.oa-toggle { font-size: 0.8em; color: #888; text-decoration: underline; cursor: pointer; display: block; width: fit-content; margin: 0 auto 6px; }\n\n.audio-row { text-align: center; margin: 10px 0 1.2em; }\n.example { margin-top: 4px; }\n\n.ru-pair { display: none; font-size: 1.2em; margin: 6px 0 10px; }\nbody:has(.cloze[data-ordinal=\"3\"]) .ru-pair { display: block; }\nbody:has(.cloze[data-ordinal=\"3\"]) table.aspect, body:has(.cloze[data-ordinal=\"3\"]) .oa-toggle, body:has(.cloze[data-ordinal=\"3\"]) .rule-toggle, body:has(.cloze[data-ordinal=\"3\"]) .rule-text { display: none !important; }\n\ntable.aspect td.rl { display: none; font-size: 0.75em; color: #888; text-align: left; }\n\n.ask { font-size: 0.75em; color: #888; white-space: nowrap; }\n.rule-toggle { font-size: 0.8em; color: #888; text-decoration: underline; cursor: pointer; display: block; width: fit-content; margin: 0 auto 4px; }\n.rule-text { display: none; font-size: 0.8em; color: #888; margin: 0 auto 8px; }\n.rule-text.shown { display: block; }\n</style><div class=\"ru-pair\" data-audio=\"hypertts-bcd3e368c37abd9f29c6bc4cab864d618e40e80617c9e16b1f6f7ccb.mp3\">по́льзоваться / воспо́льзоваться (+inst)</div><b><span class=\"cloze-inactive\" data-ordinal=\"3\">to use, make use of</span></b><br><br><table class=\"aspect\" style=\"margin: 0 auto; text-align: left; border-collapse: collapse;\"><tr><td style=\"padding: 2px 10px; vertical-align: top;\">impf <span class=\"ask\">· inf., я, ты</span></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze\" data-ordinal=\"1\">по́льзоваться — по́льзуюсь, по́льзуешься (+inst)</span></td><td class=\"rl\" style=\"padding: 2px 10px; vertical-align: top;\">I · -ова-/-ева- → -у-/-ю-</td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">pf <span class=\"ask\">· inf., я, ты</span></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"2\">воспо́льзоваться — воспо́льзуюсь, воспо́льзуешься (+inst)</span></td><td class=\"rl\" style=\"padding: 2px 10px; vertical-align: top;\">I · -ова-/-ева- → -у-/-ю-</td></tr></table>\n<div class=\"audio-row\">[anki:play:a:0]</div>\n<div class=\"example\">Я ча́сто по́льзуюсь э́тим словарём.</div>\n<script>(function(){var t=document.querySelector(\"table.aspect\");if(!t||document.querySelector(\".oa-toggle\"))return;if(!t.querySelector(\".cloze-inactive\"))return;var b=document.createElement(\"div\");b.className=\"oa-toggle\";b.textContent=\"other aspect\";b.onclick=function(){t.classList.toggle(\"show-other\");};t.parentNode.insertBefore(b,t);})();</script>\n<script>(function(auto){if(!document.querySelector('.cloze[data-ordinal=\"3\"]'))return;var p=document.querySelector(\".ru-pair[data-audio]\");if(!p||document.querySelector(\".pa-play\"))return;var au=new Audio(p.getAttribute(\"data-audio\"));var d=document.createElement(\"div\");d.className=\"pa-play\";d.textContent=\"\\u25B6\";d.style.cssText=\"cursor:pointer;font-size:0.9em;margin:1em 0 6px;\";d.onclick=function(){au.currentTime=0;au.play().catch(function(){});};var e=p.nextElementSibling;var anchor=(e&&e.tagName===\"B\")?e:p;anchor.parentNode.insertBefore(d,anchor.nextSibling);if(auto)setTimeout(function(){au.play().catch(function(){});},50);})(false);</script>\n<script>(function(){var t=document.querySelector(\"table.aspect\");if(!t||document.querySelector(\".rule-toggle\"))return;var r=null;t.querySelectorAll(\"tr\").forEach(function(tr){if(tr.querySelector(\".cloze\")&&tr.querySelector(\"td.rl\"))r=tr.querySelector(\"td.rl\");});if(!r)return;var b=document.createElement(\"div\");b.className=\"rule-toggle\";b.textContent=\"show rule\";var d=document.createElement(\"div\");d.className=\"rule-text\";d.textContent=r.textContent;b.onclick=function(){d.classList.toggle(\"shown\");};var o=document.querySelector(\".oa-toggle\");var anchor=o||t;anchor.parentNode.insertBefore(b,o?o.nextSibling:t);b.parentNode.insertBefore(d,b.nextSibling);})();</script>",
+"nextReviews": [
+"⁨30⁩m",
+"⁨1⁩d",
+"⁨2⁩d",
+"⁨3⁩d"
+]
+},
+{
+"cardId": 1791455794279,
+"fieldOrder": 1,
+"ord": 1,
+"factor": 0,
+"interval": 0,
+"note": 1791455794277,
+"type": 0,
+"queue": 0,
+"due": -930,
+"reps": 0,
+"lapses": 0,
+"left": 0,
+"mod": 1793585369,
+"flags": 0,
+"fields": {
+"Text": {
+"value": "<div class=\"ru-pair\" data-audio=\"hypertts-bcd3e368c37abd9f29c6bc4cab864d618e40e80617c9e16b1f6f7ccb.mp3\">по́льзоваться / воспо́льзоваться (+inst)</div><b>{{c3::to use, make use of}}</b><br><br><table class=\"aspect\" style=\"margin: 0 auto; text-align: left; border-collapse: collapse;\"><tr><td style=\"padding: 2px 10px; vertical-align: top;\">impf <span class=\"ask\">· inf., я, ты</span></td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c1::по́льзоваться — по́льзуюсь, по́льзуешься (+inst)}}</td><td class=\"rl\" style=\"padding: 2px 10px; vertical-align: top;\">I · -ова-/-ева- → -у-/-ю-</td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">pf <span class=\"ask\">· inf., я, ты</span></td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c2::воспо́льзоваться — воспо́льзуюсь, воспо́льзуешься (+inst)}}</td><td class=\"rl\" style=\"padding: 2px 10px; vertical-align: top;\">I · -ова-/-ева- → -у-/-ю-</td></tr></table>",
+"order": 0
+},
+"Back Extra": {
+"value": "{{c1::Я ча́сто по́льзуюсь э́тим словарём.}} {{c2::Мо́жно воспо́льзоваться ва́шим телефо́ном?}} {{c3::Я ча́сто по́льзуюсь э́тим словарём.<br>Мо́жно воспо́льзоваться ва́шим телефо́ном?}}",
+"order": 1
+},
+"Audio": {
+"value": "{{c1::[sound:hypertts-279c31cbb6afb3d036ac9d416bc4521ba7df7c1f33b34408f954add4.mp3]}} {{c2::[sound:hypertts-d32ec170775112e464833aa90ced89b0024f8aa203c4b279c2c08243.mp3]}} [sound:hypertts-bcd3e368c37abd9f29c6bc4cab864d618e40e80617c9e16b1f6f7ccb.mp3]",
+"order": 2
+}
+},
+"modelName": "Cloze Aspect",
+"css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n\n.cloze {\n font-weight: bold;\n color: blue;\n}\n.nightMode .cloze {\n color: lightblue;\n}\n\n\ntable.aspect .cloze-inactive { visibility: hidden; }\ntable.aspect.show-other .cloze-inactive { visibility: visible; }\n.oa-toggle { font-size: 0.8em; color: #888; text-decoration: underline; cursor: pointer; display: block; width: fit-content; margin: 0 auto 6px; }\n\n.audio-row { text-align: center; margin: 10px 0 1.2em; }\n.example { margin-top: 4px; }\n\n.ru-pair { display: none; font-size: 1.2em; margin: 6px 0 10px; }\nbody:has(.cloze[data-ordinal=\"3\"]) .ru-pair { display: block; }\nbody:has(.cloze[data-ordinal=\"3\"]) table.aspect, body:has(.cloze[data-ordinal=\"3\"]) .oa-toggle, body:has(.cloze[data-ordinal=\"3\"]) .rule-toggle, body:has(.cloze[data-ordinal=\"3\"]) .rule-text { display: none !important; }\n\ntable.aspect td.rl { display: none; font-size: 0.75em; color: #888; text-align: left; }\n\n.ask { font-size: 0.75em; color: #888; white-space: nowrap; }\n.rule-toggle { font-size: 0.8em; color: #888; text-decoration: underline; cursor: pointer; display: block; width: fit-content; margin: 0 auto 4px; }\n.rule-text { display: none; font-size: 0.8em; color: #888; margin: 0 auto 8px; }\n.rule-text.shown { display: block; }\n",
+"deckName": "Vocab::10000 words",
+"question": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n\n.cloze {\n font-weight: bold;\n color: blue;\n}\n.nightMode .cloze {\n color: lightblue;\n}\n\n\ntable.aspect .cloze-inactive { visibility: hidden; }\ntable.aspect.show-other .cloze-inactive { visibility: visible; }\n.oa-toggle { font-size: 0.8em; color: #888; text-decoration: underline; cursor: pointer; display: block; width: fit-content; margin: 0 auto 6px; }\n\n.audio-row { text-align: center; margin: 10px 0 1.2em; }\n.example { margin-top: 4px; }\n\n.ru-pair { display: none; font-size: 1.2em; margin: 6px 0 10px; }\nbody:has(.cloze[data-ordinal=\"3\"]) .ru-pair { display: block; }\nbody:has(.cloze[data-ordinal=\"3\"]) table.aspect, body:has(.cloze[data-ordinal=\"3\"]) .oa-toggle, body:has(.cloze[data-ordinal=\"3\"]) .rule-toggle, body:has(.cloze[data-ordinal=\"3\"]) .rule-text { display: none !important; }\n\ntable.aspect td.rl { display: none; font-size: 0.75em; color: #888; text-align: left; }\n\n.ask { font-size: 0.75em; color: #888; white-space: nowrap; }\n.rule-toggle { font-size: 0.8em; color: #888; text-decoration: underline; cursor: pointer; display: block; width: fit-content; margin: 0 auto 4px; }\n.rule-text { display: none; font-size: 0.8em; color: #888; margin: 0 auto 8px; }\n.rule-text.shown { display: block; }\n</style><div class=\"ru-pair\" data-audio=\"hypertts-bcd3e368c37abd9f29c6bc4cab864d618e40e80617c9e16b1f6f7ccb.mp3\">по́льзоваться / воспо́льзоваться (+inst)</div><b><span class=\"cloze-inactive\" data-ordinal=\"3\">to use, make use of</span></b><br><br><table class=\"aspect\" style=\"margin: 0 auto; text-align: left; border-collapse: collapse;\"><tr><td style=\"padding: 2px 10px; vertical-align: top;\">impf <span class=\"ask\">· inf., я, ты</span></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"1\">по́льзоваться — по́льзуюсь, по́льзуешься (+inst)</span></td><td class=\"rl\" style=\"padding: 2px 10px; vertical-align: top;\">I · -ова-/-ева- → -у-/-ю-</td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">pf <span class=\"ask\">· inf., я, ты</span></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze\" data-cloze=\"воспо́льзоваться&#x20;—&#x20;воспо́льзуюсь&#x2C;&#x20;воспо́льзуешься&#x20;&#x28;&#x2B;inst&#x29;\" data-ordinal=\"2\">[...]</span></td><td class=\"rl\" style=\"padding: 2px 10px; vertical-align: top;\">I · -ова-/-ева- → -у-/-ю-</td></tr></table>\n<script>(function(){var t=document.querySelector(\"table.aspect\");if(!t||document.querySelector(\".oa-toggle\"))return;if(!t.querySelector(\".cloze-inactive\"))return;var b=document.createElement(\"div\");b.className=\"oa-toggle\";b.textContent=\"other aspect\";b.onclick=function(){t.classList.toggle(\"show-other\");};t.parentNode.insertBefore(b,t);})();</script>\n<script>(function(auto){if(!document.querySelector('.cloze[data-ordinal=\"3\"]'))return;var p=document.querySelector(\".ru-pair[data-audio]\");if(!p||document.querySelector(\".pa-play\"))return;var au=new Audio(p.getAttribute(\"data-audio\"));var d=document.createElement(\"div\");d.className=\"pa-play\";d.textContent=\"\\u25B6\";d.style.cssText=\"cursor:pointer;font-size:0.9em;margin:1em 0 6px;\";d.onclick=function(){au.currentTime=0;au.play().catch(function(){});};var e=p.nextElementSibling;var anchor=(e&&e.tagName===\"B\")?e:p;anchor.parentNode.insertBefore(d,anchor.nextSibling);if(auto)setTimeout(function(){au.play().catch(function(){});},50);})(true);</script>\n<script>(function(){var t=document.querySelector(\"table.aspect\");if(!t||document.querySelector(\".rule-toggle\"))return;var r=null;t.querySelectorAll(\"tr\").forEach(function(tr){if(tr.querySelector(\".cloze\")&&tr.querySelector(\"td.rl\"))r=tr.querySelector(\"td.rl\");});if(!r)return;var b=document.createElement(\"div\");b.className=\"rule-toggle\";b.textContent=\"show rule\";var d=document.createElement(\"div\");d.className=\"rule-text\";d.textContent=r.textContent;b.onclick=function(){d.classList.toggle(\"shown\");};var o=document.querySelector(\".oa-toggle\");var anchor=o||t;anchor.parentNode.insertBefore(b,o?o.nextSibling:t);b.parentNode.insertBefore(d,b.nextSibling);})();</script>",
+"answer": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n\n.cloze {\n font-weight: bold;\n color: blue;\n}\n.nightMode .cloze {\n color: lightblue;\n}\n\n\ntable.aspect .cloze-inactive { visibility: hidden; }\ntable.aspect.show-other .cloze-inactive { visibility: visible; }\n.oa-toggle { font-size: 0.8em; color: #888; text-decoration: underline; cursor: pointer; display: block; width: fit-content; margin: 0 auto 6px; }\n\n.audio-row { text-align: center; margin: 10px 0 1.2em; }\n.example { margin-top: 4px; }\n\n.ru-pair { display: none; font-size: 1.2em; margin: 6px 0 10px; }\nbody:has(.cloze[data-ordinal=\"3\"]) .ru-pair { display: block; }\nbody:has(.cloze[data-ordinal=\"3\"]) table.aspect, body:has(.cloze[data-ordinal=\"3\"]) .oa-toggle, body:has(.cloze[data-ordinal=\"3\"]) .rule-toggle, body:has(.cloze[data-ordinal=\"3\"]) .rule-text { display: none !important; }\n\ntable.aspect td.rl { display: none; font-size: 0.75em; color: #888; text-align: left; }\n\n.ask { font-size: 0.75em; color: #888; white-space: nowrap; }\n.rule-toggle { font-size: 0.8em; color: #888; text-decoration: underline; cursor: pointer; display: block; width: fit-content; margin: 0 auto 4px; }\n.rule-text { display: none; font-size: 0.8em; color: #888; margin: 0 auto 8px; }\n.rule-text.shown { display: block; }\n</style><div class=\"ru-pair\" data-audio=\"hypertts-bcd3e368c37abd9f29c6bc4cab864d618e40e80617c9e16b1f6f7ccb.mp3\">по́льзоваться / воспо́льзоваться (+inst)</div><b><span class=\"cloze-inactive\" data-ordinal=\"3\">to use, make use of</span></b><br><br><table class=\"aspect\" style=\"margin: 0 auto; text-align: left; border-collapse: collapse;\"><tr><td style=\"padding: 2px 10px; vertical-align: top;\">impf <span class=\"ask\">· inf., я, ты</span></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"1\">по́льзоваться — по́льзуюсь, по́льзуешься (+inst)</span></td><td class=\"rl\" style=\"padding: 2px 10px; vertical-align: top;\">I · -ова-/-ева- → -у-/-ю-</td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">pf <span class=\"ask\">· inf., я, ты</span></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze\" data-ordinal=\"2\">воспо́льзоваться — воспо́льзуюсь, воспо́льзуешься (+inst)</span></td><td class=\"rl\" style=\"padding: 2px 10px; vertical-align: top;\">I · -ова-/-ева- → -у-/-ю-</td></tr></table>\n<div class=\"audio-row\">[anki:play:a:0]</div>\n<div class=\"example\">Мо́жно воспо́льзоваться ва́шим телефо́ном?</div>\n<script>(function(){var t=document.querySelector(\"table.aspect\");if(!t||document.querySelector(\".oa-toggle\"))return;if(!t.querySelector(\".cloze-inactive\"))return;var b=document.createElement(\"div\");b.className=\"oa-toggle\";b.textContent=\"other aspect\";b.onclick=function(){t.classList.toggle(\"show-other\");};t.parentNode.insertBefore(b,t);})();</script>\n<script>(function(auto){if(!document.querySelector('.cloze[data-ordinal=\"3\"]'))return;var p=document.querySelector(\".ru-pair[data-audio]\");if(!p||document.querySelector(\".pa-play\"))return;var au=new Audio(p.getAttribute(\"data-audio\"));var d=document.createElement(\"div\");d.className=\"pa-play\";d.textContent=\"\\u25B6\";d.style.cssText=\"cursor:pointer;font-size:0.9em;margin:1em 0 6px;\";d.onclick=function(){au.currentTime=0;au.play().catch(function(){});};var e=p.nextElementSibling;var anchor=(e&&e.tagName===\"B\")?e:p;anchor.parentNode.insertBefore(d,anchor.nextSibling);if(auto)setTimeout(function(){au.play().catch(function(){});},50);})(false);</script>\n<script>(function(){var t=document.querySelector(\"table.aspect\");if(!t||document.querySelector(\".rule-toggle\"))return;var r=null;t.querySelectorAll(\"tr\").forEach(function(tr){if(tr.querySelector(\".cloze\")&&tr.querySelector(\"td.rl\"))r=tr.querySelector(\"td.rl\");});if(!r)return;var b=document.createElement(\"div\");b.className=\"rule-toggle\";b.textContent=\"show rule\";var d=document.createElement(\"div\");d.className=\"rule-text\";d.textContent=r.textContent;b.onclick=function(){d.classList.toggle(\"shown\");};var o=document.querySelector(\".oa-toggle\");var anchor=o||t;anchor.parentNode.insertBefore(b,o?o.nextSibling:t);b.parentNode.insertBefore(d,b.nextSibling);})();</script>",
+"nextReviews": [
+"⁨20⁩m",
+"⁨40⁩m",
+"⁨1⁩h",
+"⁨27⁩d"
+]
+},
+{
+"cardId": 1791455794277,
+"fieldOrder": 2,
+"ord": 2,
+"factor": 0,
+"interval": 0,
+"note": 1791455794277,
+"type": 0,
+"queue": 0,
+"due": -929,
+"reps": 0,
+"lapses": 0,
+"left": 0,
+"mod": 1793585369,
+"flags": 0,
+"fields": {
+"Text": {
+"value": "<div class=\"ru-pair\" data-audio=\"hypertts-bcd3e368c37abd9f29c6bc4cab864d618e40e80617c9e16b1f6f7ccb.mp3\">по́льзоваться / воспо́льзоваться (+inst)</div><b>{{c3::to use, make use of}}</b><br><br><table class=\"aspect\" style=\"margin: 0 auto; text-align: left; border-collapse: collapse;\"><tr><td style=\"padding: 2px 10px; vertical-align: top;\">impf <span class=\"ask\">· inf., я, ты</span></td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c1::по́льзоваться — по́льзуюсь, по́льзуешься (+inst)}}</td><td class=\"rl\" style=\"padding: 2px 10px; vertical-align: top;\">I · -ова-/-ева- → -у-/-ю-</td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">pf <span class=\"ask\">· inf., я, ты</span></td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c2::воспо́льзоваться — воспо́льзуюсь, воспо́льзуешься (+inst)}}</td><td class=\"rl\" style=\"padding: 2px 10px; vertical-align: top;\">I · -ова-/-ева- → -у-/-ю-</td></tr></table>",
+"order": 0
+},
+"Back Extra": {
+"value": "{{c1::Я ча́сто по́льзуюсь э́тим словарём.}} {{c2::Мо́жно воспо́льзоваться ва́шим телефо́ном?}} {{c3::Я ча́сто по́льзуюсь э́тим словарём.<br>Мо́жно воспо́льзоваться ва́шим телефо́ном?}}",
+"order": 1
+},
+"Audio": {
+"value": "{{c1::[sound:hypertts-279c31cbb6afb3d036ac9d416bc4521ba7df7c1f33b34408f954add4.mp3]}} {{c2::[sound:hypertts-d32ec170775112e464833aa90ced89b0024f8aa203c4b279c2c08243.mp3]}} [sound:hypertts-bcd3e368c37abd9f29c6bc4cab864d618e40e80617c9e16b1f6f7ccb.mp3]",
+"order": 2
+}
+},
+"modelName": "Cloze Aspect",
+"css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n\n.cloze {\n font-weight: bold;\n color: blue;\n}\n.nightMode .cloze {\n color: lightblue;\n}\n\n\ntable.aspect .cloze-inactive { visibility: hidden; }\ntable.aspect.show-other .cloze-inactive { visibility: visible; }\n.oa-toggle { font-size: 0.8em; color: #888; text-decoration: underline; cursor: pointer; display: block; width: fit-content; margin: 0 auto 6px; }\n\n.audio-row { text-align: center; margin: 10px 0 1.2em; }\n.example { margin-top: 4px; }\n\n.ru-pair { display: none; font-size: 1.2em; margin: 6px 0 10px; }\nbody:has(.cloze[data-ordinal=\"3\"]) .ru-pair { display: block; }\nbody:has(.cloze[data-ordinal=\"3\"]) table.aspect, body:has(.cloze[data-ordinal=\"3\"]) .oa-toggle, body:has(.cloze[data-ordinal=\"3\"]) .rule-toggle, body:has(.cloze[data-ordinal=\"3\"]) .rule-text { display: none !important; }\n\ntable.aspect td.rl { display: none; font-size: 0.75em; color: #888; text-align: left; }\n\n.ask { font-size: 0.75em; color: #888; white-space: nowrap; }\n.rule-toggle { font-size: 0.8em; color: #888; text-decoration: underline; cursor: pointer; display: block; width: fit-content; margin: 0 auto 4px; }\n.rule-text { display: none; font-size: 0.8em; color: #888; margin: 0 auto 8px; }\n.rule-text.shown { display: block; }\n",
+"deckName": "Vocab::10000 words",
+"question": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n\n.cloze {\n font-weight: bold;\n color: blue;\n}\n.nightMode .cloze {\n color: lightblue;\n}\n\n\ntable.aspect .cloze-inactive { visibility: hidden; }\ntable.aspect.show-other .cloze-inactive { visibility: visible; }\n.oa-toggle { font-size: 0.8em; color: #888; text-decoration: underline; cursor: pointer; display: block; width: fit-content; margin: 0 auto 6px; }\n\n.audio-row { text-align: center; margin: 10px 0 1.2em; }\n.example { margin-top: 4px; }\n\n.ru-pair { display: none; font-size: 1.2em; margin: 6px 0 10px; }\nbody:has(.cloze[data-ordinal=\"3\"]) .ru-pair { display: block; }\nbody:has(.cloze[data-ordinal=\"3\"]) table.aspect, body:has(.cloze[data-ordinal=\"3\"]) .oa-toggle, body:has(.cloze[data-ordinal=\"3\"]) .rule-toggle, body:has(.cloze[data-ordinal=\"3\"]) .rule-text { display: none !important; }\n\ntable.aspect td.rl { display: none; font-size: 0.75em; color: #888; text-align: left; }\n\n.ask { font-size: 0.75em; color: #888; white-space: nowrap; }\n.rule-toggle { font-size: 0.8em; color: #888; text-decoration: underline; cursor: pointer; display: block; width: fit-content; margin: 0 auto 4px; }\n.rule-text { display: none; font-size: 0.8em; color: #888; margin: 0 auto 8px; }\n.rule-text.shown { display: block; }\n</style><div class=\"ru-pair\" data-audio=\"hypertts-bcd3e368c37abd9f29c6bc4cab864d618e40e80617c9e16b1f6f7ccb.mp3\">по́льзоваться / воспо́льзоваться (+inst)</div><b><span class=\"cloze\" data-cloze=\"to&#x20;use&#x2C;&#x20;make&#x20;use&#x20;of\" data-ordinal=\"3\">[...]</span></b><br><br><table class=\"aspect\" style=\"margin: 0 auto; text-align: left; border-collapse: collapse;\"><tr><td style=\"padding: 2px 10px; vertical-align: top;\">impf <span class=\"ask\">· inf., я, ты</span></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"1\">по́льзоваться — по́льзуюсь, по́льзуешься (+inst)</span></td><td class=\"rl\" style=\"padding: 2px 10px; vertical-align: top;\">I · -ова-/-ева- → -у-/-ю-</td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">pf <span class=\"ask\">· inf., я, ты</span></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"2\">воспо́льзоваться — воспо́льзуюсь, воспо́льзуешься (+inst)</span></td><td class=\"rl\" style=\"padding: 2px 10px; vertical-align: top;\">I · -ова-/-ева- → -у-/-ю-</td></tr></table>\n<script>(function(){var t=document.querySelector(\"table.aspect\");if(!t||document.querySelector(\".oa-toggle\"))return;if(!t.querySelector(\".cloze-inactive\"))return;var b=document.createElement(\"div\");b.className=\"oa-toggle\";b.textContent=\"other aspect\";b.onclick=function(){t.classList.toggle(\"show-other\");};t.parentNode.insertBefore(b,t);})();</script>\n<script>(function(auto){if(!document.querySelector('.cloze[data-ordinal=\"3\"]'))return;var p=document.querySelector(\".ru-pair[data-audio]\");if(!p||document.querySelector(\".pa-play\"))return;var au=new Audio(p.getAttribute(\"data-audio\"));var d=document.createElement(\"div\");d.className=\"pa-play\";d.textContent=\"\\u25B6\";d.style.cssText=\"cursor:pointer;font-size:0.9em;margin:1em 0 6px;\";d.onclick=function(){au.currentTime=0;au.play().catch(function(){});};var e=p.nextElementSibling;var anchor=(e&&e.tagName===\"B\")?e:p;anchor.parentNode.insertBefore(d,anchor.nextSibling);if(auto)setTimeout(function(){au.play().catch(function(){});},50);})(true);</script>\n<script>(function(){var t=document.querySelector(\"table.aspect\");if(!t||document.querySelector(\".rule-toggle\"))return;var r=null;t.querySelectorAll(\"tr\").forEach(function(tr){if(tr.querySelector(\".cloze\")&&tr.querySelector(\"td.rl\"))r=tr.querySelector(\"td.rl\");});if(!r)return;var b=document.createElement(\"div\");b.className=\"rule-toggle\";b.textContent=\"show rule\";var d=document.createElement(\"div\");d.className=\"rule-text\";d.textContent=r.textContent;b.onclick=function(){d.classList.toggle(\"shown\");};var o=document.querySelector(\".oa-toggle\");var anchor=o||t;anchor.parentNode.insertBefore(b,o?o.nextSibling:t);b.parentNode.insertBefore(d,b.nextSibling);})();</script>",
+"answer": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n\n.cloze {\n font-weight: bold;\n color: blue;\n}\n.nightMode .cloze {\n color: lightblue;\n}\n\n\ntable.aspect .cloze-inactive { visibility: hidden; }\ntable.aspect.show-other .cloze-inactive { visibility: visible; }\n.oa-toggle { font-size: 0.8em; color: #888; text-decoration: underline; cursor: pointer; display: block; width: fit-content; margin: 0 auto 6px; }\n\n.audio-row { text-align: center; margin: 10px 0 1.2em; }\n.example { margin-top: 4px; }\n\n.ru-pair { display: none; font-size: 1.2em; margin: 6px 0 10px; }\nbody:has(.cloze[data-ordinal=\"3\"]) .ru-pair { display: block; }\nbody:has(.cloze[data-ordinal=\"3\"]) table.aspect, body:has(.cloze[data-ordinal=\"3\"]) .oa-toggle, body:has(.cloze[data-ordinal=\"3\"]) .rule-toggle, body:has(.cloze[data-ordinal=\"3\"]) .rule-text { display: none !important; }\n\ntable.aspect td.rl { display: none; font-size: 0.75em; color: #888; text-align: left; }\n\n.ask { font-size: 0.75em; color: #888; white-space: nowrap; }\n.rule-toggle { font-size: 0.8em; color: #888; text-decoration: underline; cursor: pointer; display: block; width: fit-content; margin: 0 auto 4px; }\n.rule-text { display: none; font-size: 0.8em; color: #888; margin: 0 auto 8px; }\n.rule-text.shown { display: block; }\n</style><div class=\"ru-pair\" data-audio=\"hypertts-bcd3e368c37abd9f29c6bc4cab864d618e40e80617c9e16b1f6f7ccb.mp3\">по́льзоваться / воспо́льзоваться (+inst)</div><b><span class=\"cloze\" data-ordinal=\"3\">to use, make use of</span></b><br><br><table class=\"aspect\" style=\"margin: 0 auto; text-align: left; border-collapse: collapse;\"><tr><td style=\"padding: 2px 10px; vertical-align: top;\">impf <span class=\"ask\">· inf., я, ты</span></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"1\">по́льзоваться — по́льзуюсь, по́льзуешься (+inst)</span></td><td class=\"rl\" style=\"padding: 2px 10px; vertical-align: top;\">I · -ова-/-ева- → -у-/-ю-</td></tr><tr><td style=\"padding: 2px 10px; vertical-align: top;\">pf <span class=\"ask\">· inf., я, ты</span></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"2\">воспо́льзоваться — воспо́льзуюсь, воспо́льзуешься (+inst)</span></td><td class=\"rl\" style=\"padding: 2px 10px; vertical-align: top;\">I · -ова-/-ева- → -у-/-ю-</td></tr></table>\n<div class=\"audio-row\"></div>\n<div class=\"example\">Я ча́сто по́льзуюсь э́тим словарём.<br>Мо́жно воспо́льзоваться ва́шим телефо́ном?</div>\n<script>(function(){var t=document.querySelector(\"table.aspect\");if(!t||document.querySelector(\".oa-toggle\"))return;if(!t.querySelector(\".cloze-inactive\"))return;var b=document.createElement(\"div\");b.className=\"oa-toggle\";b.textContent=\"other aspect\";b.onclick=function(){t.classList.toggle(\"show-other\");};t.parentNode.insertBefore(b,t);})();</script>\n<script>(function(auto){if(!document.querySelector('.cloze[data-ordinal=\"3\"]'))return;var p=document.querySelector(\".ru-pair[data-audio]\");if(!p||document.querySelector(\".pa-play\"))return;var au=new Audio(p.getAttribute(\"data-audio\"));var d=document.createElement(\"div\");d.className=\"pa-play\";d.textContent=\"\\u25B6\";d.style.cssText=\"cursor:pointer;font-size:0.9em;margin:1em 0 6px;\";d.onclick=function(){au.currentTime=0;au.play().catch(function(){});};var e=p.nextElementSibling;var anchor=(e&&e.tagName===\"B\")?e:p;anchor.parentNode.insertBefore(d,anchor.nextSibling);if(auto)setTimeout(function(){au.play().catch(function(){});},50);})(false);</script>\n<script>(function(){var t=document.querySelector(\"table.aspect\");if(!t||document.querySelector(\".rule-toggle\"))return;var r=null;t.querySelectorAll(\"tr\").forEach(function(tr){if(tr.querySelector(\".cloze\")&&tr.querySelector(\"td.rl\"))r=tr.querySelector(\"td.rl\");});if(!r)return;var b=document.createElement(\"div\");b.className=\"rule-toggle\";b.textContent=\"show rule\";var d=document.createElement(\"div\");d.className=\"rule-text\";d.textContent=r.textContent;b.onclick=function(){d.classList.toggle(\"shown\");};var o=document.querySelector(\".oa-toggle\");var anchor=o||t;anchor.parentNode.insertBefore(b,o?o.nextSibling:t);b.parentNode.insertBefore(d,b.nextSibling);})();</script>",
+"nextReviews": [
+"⁨20⁩m",
+"⁨40⁩m",
+"⁨1⁩h",
+"⁨23⁩d"
+]
+},
+{
+"cardId": 1782914058831,
+"fieldOrder": 0,
+"ord": 0,
+"factor": 2300,
+"interval": 2,
+"note": 1782914058831,
+"type": 2,
+"queue": 2,
+"due": 1748,
+"reps": 7,
+"lapses": 1,
+"left": 0,
+"mod": 1793624757,
+"flags": 0,
+"fields": {
+"Text": {
+"value": "<div class=\"ru-pair\" data-audio=\"hypertts-17f5205d94d6cfa03bbc05958ffb35dc71e211ffce60ade41da2bc63.mp3\">испо́льзоваться</div><b>{{c3::to be used}}</b><br><br><table class=\"aspect\" style=\"margin: 0 auto; text-align: left; border-collapse: collapse;\"><tr><td style=\"padding: 2px 10px; vertical-align: top;\">impf <span class=\"ask\">· inf., я, ты</span></td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c1::испо́льзоваться — испо́льзуюсь, испо́льзуешься}}</td><td class=\"rl\" style=\"padding: 2px 10px; vertical-align: top;\">I · -ова-/-ева- → -у-/-ю-</td></tr></table>",
+"order": 0
+},
+"Back Extra": {
+"value": "{{c1::Э́тот хэ́штег испо́льзуется миллио́нами люде́й.}} {{c3::Э́тот хэ́штег испо́льзуется миллио́нами люде́й.}}",
+"order": 1
+},
+"Audio": {
+"value": "{{c1::[sound:hypertts-e2d93ffa77ed9b779c5e771a83d4c8562a2bea9404c15bd99d66bacf.mp3]}} [sound:hypertts-17f5205d94d6cfa03bbc05958ffb35dc71e211ffce60ade41da2bc63.mp3]",
+"order": 2
+}
+},
+"modelName": "Cloze Aspect",
+"css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n\n.cloze {\n font-weight: bold;\n color: blue;\n}\n.nightMode .cloze {\n color: lightblue;\n}\n\n\ntable.aspect .cloze-inactive { visibility: hidden; }\ntable.aspect.show-other .cloze-inactive { visibility: visible; }\n.oa-toggle { font-size: 0.8em; color: #888; text-decoration: underline; cursor: pointer; display: block; width: fit-content; margin: 0 auto 6px; }\n\n.audio-row { text-align: center; margin: 10px 0 1.2em; }\n.example { margin-top: 4px; }\n\n.ru-pair { display: none; font-size: 1.2em; margin: 6px 0 10px; }\nbody:has(.cloze[data-ordinal=\"3\"]) .ru-pair { display: block; }\nbody:has(.cloze[data-ordinal=\"3\"]) table.aspect, body:has(.cloze[data-ordinal=\"3\"]) .oa-toggle, body:has(.cloze[data-ordinal=\"3\"]) .rule-toggle, body:has(.cloze[data-ordinal=\"3\"]) .rule-text { display: none !important; }\n\ntable.aspect td.rl { display: none; font-size: 0.75em; color: #888; text-align: left; }\n\n.ask { font-size: 0.75em; color: #888; white-space: nowrap; }\n.rule-toggle { font-size: 0.8em; color: #888; text-decoration: underline; cursor: pointer; display: block; width: fit-content; margin: 0 auto 4px; }\n.rule-text { display: none; font-size: 0.8em; color: #888; margin: 0 auto 8px; }\n.rule-text.shown { display: block; }\n",
+"deckName": "Vocab::Tochka Ru::B2.1",
+"question": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n\n.cloze {\n font-weight: bold;\n color: blue;\n}\n.nightMode .cloze {\n color: lightblue;\n}\n\n\ntable.aspect .cloze-inactive { visibility: hidden; }\ntable.aspect.show-other .cloze-inactive { visibility: visible; }\n.oa-toggle { font-size: 0.8em; color: #888; text-decoration: underline; cursor: pointer; display: block; width: fit-content; margin: 0 auto 6px; }\n\n.audio-row { text-align: center; margin: 10px 0 1.2em; }\n.example { margin-top: 4px; }\n\n.ru-pair { display: none; font-size: 1.2em; margin: 6px 0 10px; }\nbody:has(.cloze[data-ordinal=\"3\"]) .ru-pair { display: block; }\nbody:has(.cloze[data-ordinal=\"3\"]) table.aspect, body:has(.cloze[data-ordinal=\"3\"]) .oa-toggle, body:has(.cloze[data-ordinal=\"3\"]) .rule-toggle, body:has(.cloze[data-ordinal=\"3\"]) .rule-text { display: none !important; }\n\ntable.aspect td.rl { display: none; font-size: 0.75em; color: #888; text-align: left; }\n\n.ask { font-size: 0.75em; color: #888; white-space: nowrap; }\n.rule-toggle { font-size: 0.8em; color: #888; text-decoration: underline; cursor: pointer; display: block; width: fit-content; margin: 0 auto 4px; }\n.rule-text { display: none; font-size: 0.8em; color: #888; margin: 0 auto 8px; }\n.rule-text.shown { display: block; }\n</style><div class=\"ru-pair\" data-audio=\"hypertts-17f5205d94d6cfa03bbc05958ffb35dc71e211ffce60ade41da2bc63.mp3\">испо́льзоваться</div><b><span class=\"cloze-inactive\" data-ordinal=\"3\">to be used</span></b><br><br><table class=\"aspect\" style=\"margin: 0 auto; text-align: left; border-collapse: collapse;\"><tr><td style=\"padding: 2px 10px; vertical-align: top;\">impf <span class=\"ask\">· inf., я, ты</span></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze\" data-cloze=\"испо́льзоваться&#x20;—&#x20;испо́льзуюсь&#x2C;&#x20;испо́льзуешься\" data-ordinal=\"1\">[...]</span></td><td class=\"rl\" style=\"padding: 2px 10px; vertical-align: top;\">I · -ова-/-ева- → -у-/-ю-</td></tr></table>\n<script>(function(){var t=document.querySelector(\"table.aspect\");if(!t||document.querySelector(\".oa-toggle\"))return;if(!t.querySelector(\".cloze-inactive\"))return;var b=document.createElement(\"div\");b.className=\"oa-toggle\";b.textContent=\"other aspect\";b.onclick=function(){t.classList.toggle(\"show-other\");};t.parentNode.insertBefore(b,t);})();</script>\n<script>(function(auto){if(!document.querySelector('.cloze[data-ordinal=\"3\"]'))return;var p=document.querySelector(\".ru-pair[data-audio]\");if(!p||document.querySelector(\".pa-play\"))return;var au=new Audio(p.getAttribute(\"data-audio\"));var d=document.createElement(\"div\");d.className=\"pa-play\";d.textContent=\"\\u25B6\";d.style.cssText=\"cursor:pointer;font-size:0.9em;margin:1em 0 6px;\";d.onclick=function(){au.currentTime=0;au.play().catch(function(){});};var e=p.nextElementSibling;var anchor=(e&&e.tagName===\"B\")?e:p;anchor.parentNode.insertBefore(d,anchor.nextSibling);if(auto)setTimeout(function(){au.play().catch(function(){});},50);})(true);</script>\n<script>(function(){var t=document.querySelector(\"table.aspect\");if(!t||document.querySelector(\".rule-toggle\"))return;var r=null;t.querySelectorAll(\"tr\").forEach(function(tr){if(tr.querySelector(\".cloze\")&&tr.querySelector(\"td.rl\"))r=tr.querySelector(\"td.rl\");});if(!r)return;var b=document.createElement(\"div\");b.className=\"rule-toggle\";b.textContent=\"show rule\";var d=document.createElement(\"div\");d.className=\"rule-text\";d.textContent=r.textContent;b.onclick=function(){d.classList.toggle(\"shown\");};var o=document.querySelector(\".oa-toggle\");var anchor=o||t;anchor.parentNode.insertBefore(b,o?o.nextSibling:t);b.parentNode.insertBefore(d,b.nextSibling);})();</script>",
+"answer": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n\n.cloze {\n font-weight: bold;\n color: blue;\n}\n.nightMode .cloze {\n color: lightblue;\n}\n\n\ntable.aspect .cloze-inactive { visibility: hidden; }\ntable.aspect.show-other .cloze-inactive { visibility: visible; }\n.oa-toggle { font-size: 0.8em; color: #888; text-decoration: underline; cursor: pointer; display: block; width: fit-content; margin: 0 auto 6px; }\n\n.audio-row { text-align: center; margin: 10px 0 1.2em; }\n.example { margin-top: 4px; }\n\n.ru-pair { display: none; font-size: 1.2em; margin: 6px 0 10px; }\nbody:has(.cloze[data-ordinal=\"3\"]) .ru-pair { display: block; }\nbody:has(.cloze[data-ordinal=\"3\"]) table.aspect, body:has(.cloze[data-ordinal=\"3\"]) .oa-toggle, body:has(.cloze[data-ordinal=\"3\"]) .rule-toggle, body:has(.cloze[data-ordinal=\"3\"]) .rule-text { display: none !important; }\n\ntable.aspect td.rl { display: none; font-size: 0.75em; color: #888; text-align: left; }\n\n.ask { font-size: 0.75em; color: #888; white-space: nowrap; }\n.rule-toggle { font-size: 0.8em; color: #888; text-decoration: underline; cursor: pointer; display: block; width: fit-content; margin: 0 auto 4px; }\n.rule-text { display: none; font-size: 0.8em; color: #888; margin: 0 auto 8px; }\n.rule-text.shown { display: block; }\n</style><div class=\"ru-pair\" data-audio=\"hypertts-17f5205d94d6cfa03bbc05958ffb35dc71e211ffce60ade41da2bc63.mp3\">испо́льзоваться</div><b><span class=\"cloze-inactive\" data-ordinal=\"3\">to be used</span></b><br><br><table class=\"aspect\" style=\"margin: 0 auto; text-align: left; border-collapse: collapse;\"><tr><td style=\"padding: 2px 10px; vertical-align: top;\">impf <span class=\"ask\">· inf., я, ты</span></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze\" data-ordinal=\"1\">испо́льзоваться — испо́льзуюсь, испо́льзуешься</span></td><td class=\"rl\" style=\"padding: 2px 10px; vertical-align: top;\">I · -ова-/-ева- → -у-/-ю-</td></tr></table>\n<div class=\"audio-row\">[anki:play:a:0]</div>\n<div class=\"example\">Э́тот хэ́штег испо́льзуется миллио́нами люде́й.</div>\n<script>(function(){var t=document.querySelector(\"table.aspect\");if(!t||document.querySelector(\".oa-toggle\"))return;if(!t.querySelector(\".cloze-inactive\"))return;var b=document.createElement(\"div\");b.className=\"oa-toggle\";b.textContent=\"other aspect\";b.onclick=function(){t.classList.toggle(\"show-other\");};t.parentNode.insertBefore(b,t);})();</script>\n<script>(function(auto){if(!document.querySelector('.cloze[data-ordinal=\"3\"]'))return;var p=document.querySelector(\".ru-pair[data-audio]\");if(!p||document.querySelector(\".pa-play\"))return;var au=new Audio(p.getAttribute(\"data-audio\"));var d=document.createElement(\"div\");d.className=\"pa-play\";d.textContent=\"\\u25B6\";d.style.cssText=\"cursor:pointer;font-size:0.9em;margin:1em 0 6px;\";d.onclick=function(){au.currentTime=0;au.play().catch(function(){});};var e=p.nextElementSibling;var anchor=(e&&e.tagName===\"B\")?e:p;anchor.parentNode.insertBefore(d,anchor.nextSibling);if(auto)setTimeout(function(){au.play().catch(function(){});},50);})(false);</script>\n<script>(function(){var t=document.querySelector(\"table.aspect\");if(!t||document.querySelector(\".rule-toggle\"))return;var r=null;t.querySelectorAll(\"tr\").forEach(function(tr){if(tr.querySelector(\".cloze\")&&tr.querySelector(\"td.rl\"))r=tr.querySelector(\"td.rl\");});if(!r)return;var b=document.createElement(\"div\");b.className=\"rule-toggle\";b.textContent=\"show rule\";var d=document.createElement(\"div\");d.className=\"rule-text\";d.textContent=r.textContent;b.onclick=function(){d.classList.toggle(\"shown\");};var o=document.querySelector(\".oa-toggle\");var anchor=o||t;anchor.parentNode.insertBefore(b,o?o.nextSibling:t);b.parentNode.insertBefore(d,b.nextSibling);})();</script>",
+"nextReviews": [
+"⁨30⁩m",
+"⁨1⁩d",
+"⁨2⁩d",
+"⁨3⁩d"
+]
+},
+{
+"cardId": 1791457205213,
+"fieldOrder": 2,
+"ord": 2,
+"factor": 2300,
+"interval": 17,
+"note": 1782914058831,
+"type": 2,
+"queue": 2,
+"due": 1751,
+"reps": 13,
+"lapses": 0,
+"left": 0,
+"mod": 1793624757,
+"flags": 0,
+"fields": {
+"Text": {
+"value": "<div class=\"ru-pair\" data-audio=\"hypertts-17f5205d94d6cfa03bbc05958ffb35dc71e211ffce60ade41da2bc63.mp3\">испо́льзоваться</div><b>{{c3::to be used}}</b><br><br><table class=\"aspect\" style=\"margin: 0 auto; text-align: left; border-collapse: collapse;\"><tr><td style=\"padding: 2px 10px; vertical-align: top;\">impf <span class=\"ask\">· inf., я, ты</span></td><td style=\"padding: 2px 10px; vertical-align: top;\">{{c1::испо́льзоваться — испо́льзуюсь, испо́льзуешься}}</td><td class=\"rl\" style=\"padding: 2px 10px; vertical-align: top;\">I · -ова-/-ева- → -у-/-ю-</td></tr></table>",
+"order": 0
+},
+"Back Extra": {
+"value": "{{c1::Э́тот хэ́штег испо́льзуется миллио́нами люде́й.}} {{c3::Э́тот хэ́штег испо́льзуется миллио́нами люде́й.}}",
+"order": 1
+},
+"Audio": {
+"value": "{{c1::[sound:hypertts-e2d93ffa77ed9b779c5e771a83d4c8562a2bea9404c15bd99d66bacf.mp3]}} [sound:hypertts-17f5205d94d6cfa03bbc05958ffb35dc71e211ffce60ade41da2bc63.mp3]",
+"order": 2
+}
+},
+"modelName": "Cloze Aspect",
+"css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n\n.cloze {\n font-weight: bold;\n color: blue;\n}\n.nightMode .cloze {\n color: lightblue;\n}\n\n\ntable.aspect .cloze-inactive { visibility: hidden; }\ntable.aspect.show-other .cloze-inactive { visibility: visible; }\n.oa-toggle { font-size: 0.8em; color: #888; text-decoration: underline; cursor: pointer; display: block; width: fit-content; margin: 0 auto 6px; }\n\n.audio-row { text-align: center; margin: 10px 0 1.2em; }\n.example { margin-top: 4px; }\n\n.ru-pair { display: none; font-size: 1.2em; margin: 6px 0 10px; }\nbody:has(.cloze[data-ordinal=\"3\"]) .ru-pair { display: block; }\nbody:has(.cloze[data-ordinal=\"3\"]) table.aspect, body:has(.cloze[data-ordinal=\"3\"]) .oa-toggle, body:has(.cloze[data-ordinal=\"3\"]) .rule-toggle, body:has(.cloze[data-ordinal=\"3\"]) .rule-text { display: none !important; }\n\ntable.aspect td.rl { display: none; font-size: 0.75em; color: #888; text-align: left; }\n\n.ask { font-size: 0.75em; color: #888; white-space: nowrap; }\n.rule-toggle { font-size: 0.8em; color: #888; text-decoration: underline; cursor: pointer; display: block; width: fit-content; margin: 0 auto 4px; }\n.rule-text { display: none; font-size: 0.8em; color: #888; margin: 0 auto 8px; }\n.rule-text.shown { display: block; }\n",
+"deckName": "Vocab::Tochka Ru::B2.1",
+"question": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n\n.cloze {\n font-weight: bold;\n color: blue;\n}\n.nightMode .cloze {\n color: lightblue;\n}\n\n\ntable.aspect .cloze-inactive { visibility: hidden; }\ntable.aspect.show-other .cloze-inactive { visibility: visible; }\n.oa-toggle { font-size: 0.8em; color: #888; text-decoration: underline; cursor: pointer; display: block; width: fit-content; margin: 0 auto 6px; }\n\n.audio-row { text-align: center; margin: 10px 0 1.2em; }\n.example { margin-top: 4px; }\n\n.ru-pair { display: none; font-size: 1.2em; margin: 6px 0 10px; }\nbody:has(.cloze[data-ordinal=\"3\"]) .ru-pair { display: block; }\nbody:has(.cloze[data-ordinal=\"3\"]) table.aspect, body:has(.cloze[data-ordinal=\"3\"]) .oa-toggle, body:has(.cloze[data-ordinal=\"3\"]) .rule-toggle, body:has(.cloze[data-ordinal=\"3\"]) .rule-text { display: none !important; }\n\ntable.aspect td.rl { display: none; font-size: 0.75em; color: #888; text-align: left; }\n\n.ask { font-size: 0.75em; color: #888; white-space: nowrap; }\n.rule-toggle { font-size: 0.8em; color: #888; text-decoration: underline; cursor: pointer; display: block; width: fit-content; margin: 0 auto 4px; }\n.rule-text { display: none; font-size: 0.8em; color: #888; margin: 0 auto 8px; }\n.rule-text.shown { display: block; }\n</style><div class=\"ru-pair\" data-audio=\"hypertts-17f5205d94d6cfa03bbc05958ffb35dc71e211ffce60ade41da2bc63.mp3\">испо́льзоваться</div><b><span class=\"cloze\" data-cloze=\"to&#x20;be&#x20;used\" data-ordinal=\"3\">[...]</span></b><br><br><table class=\"aspect\" style=\"margin: 0 auto; text-align: left; border-collapse: collapse;\"><tr><td style=\"padding: 2px 10px; vertical-align: top;\">impf <span class=\"ask\">· inf., я, ты</span></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"1\">испо́льзоваться — испо́льзуюсь, испо́льзуешься</span></td><td class=\"rl\" style=\"padding: 2px 10px; vertical-align: top;\">I · -ова-/-ева- → -у-/-ю-</td></tr></table>\n<script>(function(){var t=document.querySelector(\"table.aspect\");if(!t||document.querySelector(\".oa-toggle\"))return;if(!t.querySelector(\".cloze-inactive\"))return;var b=document.createElement(\"div\");b.className=\"oa-toggle\";b.textContent=\"other aspect\";b.onclick=function(){t.classList.toggle(\"show-other\");};t.parentNode.insertBefore(b,t);})();</script>\n<script>(function(auto){if(!document.querySelector('.cloze[data-ordinal=\"3\"]'))return;var p=document.querySelector(\".ru-pair[data-audio]\");if(!p||document.querySelector(\".pa-play\"))return;var au=new Audio(p.getAttribute(\"data-audio\"));var d=document.createElement(\"div\");d.className=\"pa-play\";d.textContent=\"\\u25B6\";d.style.cssText=\"cursor:pointer;font-size:0.9em;margin:1em 0 6px;\";d.onclick=function(){au.currentTime=0;au.play().catch(function(){});};var e=p.nextElementSibling;var anchor=(e&&e.tagName===\"B\")?e:p;anchor.parentNode.insertBefore(d,anchor.nextSibling);if(auto)setTimeout(function(){au.play().catch(function(){});},50);})(true);</script>\n<script>(function(){var t=document.querySelector(\"table.aspect\");if(!t||document.querySelector(\".rule-toggle\"))return;var r=null;t.querySelectorAll(\"tr\").forEach(function(tr){if(tr.querySelector(\".cloze\")&&tr.querySelector(\"td.rl\"))r=tr.querySelector(\"td.rl\");});if(!r)return;var b=document.createElement(\"div\");b.className=\"rule-toggle\";b.textContent=\"show rule\";var d=document.createElement(\"div\");d.className=\"rule-text\";d.textContent=r.textContent;b.onclick=function(){d.classList.toggle(\"shown\");};var o=document.querySelector(\".oa-toggle\");var anchor=o||t;anchor.parentNode.insertBefore(b,o?o.nextSibling:t);b.parentNode.insertBefore(d,b.nextSibling);})();</script>",
+"answer": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n\n.cloze {\n font-weight: bold;\n color: blue;\n}\n.nightMode .cloze {\n color: lightblue;\n}\n\n\ntable.aspect .cloze-inactive { visibility: hidden; }\ntable.aspect.show-other .cloze-inactive { visibility: visible; }\n.oa-toggle { font-size: 0.8em; color: #888; text-decoration: underline; cursor: pointer; display: block; width: fit-content; margin: 0 auto 6px; }\n\n.audio-row { text-align: center; margin: 10px 0 1.2em; }\n.example { margin-top: 4px; }\n\n.ru-pair { display: none; font-size: 1.2em; margin: 6px 0 10px; }\nbody:has(.cloze[data-ordinal=\"3\"]) .ru-pair { display: block; }\nbody:has(.cloze[data-ordinal=\"3\"]) table.aspect, body:has(.cloze[data-ordinal=\"3\"]) .oa-toggle, body:has(.cloze[data-ordinal=\"3\"]) .rule-toggle, body:has(.cloze[data-ordinal=\"3\"]) .rule-text { display: none !important; }\n\ntable.aspect td.rl { display: none; font-size: 0.75em; color: #888; text-align: left; }\n\n.ask { font-size: 0.75em; color: #888; white-space: nowrap; }\n.rule-toggle { font-size: 0.8em; color: #888; text-decoration: underline; cursor: pointer; display: block; width: fit-content; margin: 0 auto 4px; }\n.rule-text { display: none; font-size: 0.8em; color: #888; margin: 0 auto 8px; }\n.rule-text.shown { display: block; }\n</style><div class=\"ru-pair\" data-audio=\"hypertts-17f5205d94d6cfa03bbc05958ffb35dc71e211ffce60ade41da2bc63.mp3\">испо́льзоваться</div><b><span class=\"cloze\" data-ordinal=\"3\">to be used</span></b><br><br><table class=\"aspect\" style=\"margin: 0 auto; text-align: left; border-collapse: collapse;\"><tr><td style=\"padding: 2px 10px; vertical-align: top;\">impf <span class=\"ask\">· inf., я, ты</span></td><td style=\"padding: 2px 10px; vertical-align: top;\"><span class=\"cloze-inactive\" data-ordinal=\"1\">испо́льзоваться — испо́льзуюсь, испо́льзуешься</span></td><td class=\"rl\" style=\"padding: 2px 10px; vertical-align: top;\">I · -ова-/-ева- → -у-/-ю-</td></tr></table>\n<div class=\"audio-row\"></div>\n<div class=\"example\">Э́тот хэ́штег испо́льзуется миллио́нами люде́й.</div>\n<script>(function(){var t=document.querySelector(\"table.aspect\");if(!t||document.querySelector(\".oa-toggle\"))return;if(!t.querySelector(\".cloze-inactive\"))return;var b=document.createElement(\"div\");b.className=\"oa-toggle\";b.textContent=\"other aspect\";b.onclick=function(){t.classList.toggle(\"show-other\");};t.parentNode.insertBefore(b,t);})();</script>\n<script>(function(auto){if(!document.querySelector('.cloze[data-ordinal=\"3\"]'))return;var p=document.querySelector(\".ru-pair[data-audio]\");if(!p||document.querySelector(\".pa-play\"))return;var au=new Audio(p.getAttribute(\"data-audio\"));var d=document.createElement(\"div\");d.className=\"pa-play\";d.textContent=\"\\u25B6\";d.style.cssText=\"cursor:pointer;font-size:0.9em;margin:1em 0 6px;\";d.onclick=function(){au.currentTime=0;au.play().catch(function(){});};var e=p.nextElementSibling;var anchor=(e&&e.tagName===\"B\")?e:p;anchor.parentNode.insertBefore(d,anchor.nextSibling);if(auto)setTimeout(function(){au.play().catch(function(){});},50);})(false);</script>\n<script>(function(){var t=document.querySelector(\"table.aspect\");if(!t||document.querySelector(\".rule-toggle\"))return;var r=null;t.querySelectorAll(\"tr\").forEach(function(tr){if(tr.querySelector(\".cloze\")&&tr.querySelector(\"td.rl\"))r=tr.querySelector(\"td.rl\");});if(!r)return;var b=document.createElement(\"div\");b.className=\"rule-toggle\";b.textContent=\"show rule\";var d=document.createElement(\"div\");d.className=\"rule-text\";d.textContent=r.textContent;b.onclick=function(){d.classList.toggle(\"shown\");};var o=document.querySelector(\".oa-toggle\");var anchor=o||t;anchor.parentNode.insertBefore(b,o?o.nextSibling:t);b.parentNode.insertBefore(d,b.nextSibling);})();</script>",
+"nextReviews": [
+"⁨30⁩m",
+"⁨17⁩d",
+"⁨29⁩d",
+"⁨1.9⁩mo"
+]
+}
+]
+}
