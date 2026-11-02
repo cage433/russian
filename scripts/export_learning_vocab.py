@@ -58,6 +58,7 @@ def clean(html):
     s = re.sub(r"\[sound:[^\]]*\]", "", html)
     s = re.sub(r"(?i)<br\s*/?>", "\n", s)
     s = re.sub(r"(?i)</?div[^>]*>", "\n", s)
+    s = re.sub(r"(?i)<li[^>]*>", "\n• ", s)            # bulleted multi-sense glosses (gloss_bullets.py)
     s = re.sub(r"<[^>]+>", "", s)
     s = s.replace("&nbsp;", " ").replace("&amp;", "&").replace("&lt;", "<").replace("&gt;", ">")
     lines = [re.sub(r"\s+", " ", ln).strip() for ln in s.split("\n")]

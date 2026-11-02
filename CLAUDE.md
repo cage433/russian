@@ -141,6 +141,10 @@ series. Words the textbooks teach that aren't already known get authored as flas
   the first repair — "to conduct, hold…" — collided with держа́ть. Both were caught only by
   running the index afterwards. It also rejected "consult" (сове́товаться) and "manage" (which
   already had four leeches on it) before those reached a card.
+- **Senses separated by semicolons go in a left-aligned bullet list** (Alex, 2026-11-03), on Basic
+  Fronts and Cloze Aspect English alike: write the gloss with `;` and run `scripts/gloss_bullets.py`
+  (idempotent; a trailing `<br>(cf. …)` line stays under the list; semicolons inside brackets don't
+  split). Not on family / near-synonym tables — rows there are too long for it.
 - NO POS descriptor `(noun)` unless there's genuine POS ambiguity (then e.g. `chocolate (noun / adj)`). NO `(idiom)`/`(proverb)` markers.
 - **Back** = Russian with stress marks (combining U+0301), ending in a trailing `<br><br>` (gap before future audio).
 - **Example** = one Russian sentence with stress.
