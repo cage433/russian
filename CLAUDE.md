@@ -71,7 +71,8 @@ series. Words the textbooks teach that aren't already known get authored as flas
   root family, one card per word, the rest of the family visible as cues. 2026-10-07: 39 notes /
   205 cards over 24 roots (глас-, каз-, -ста-, -стой-, -став-, -вод-, -мен-, зна-, -лож-, -ход-,
   -пуск-, -бир-, -польз-, -яв-, -говор-, -раз-/-раж-, -блюд-, -част-, -ним-, -держ-, -нос-, -счёт-,
-  -след-, -туп-). **Families over 7 rows are split by sense into I / II, every part keeping the
+  -след-, -туп-); -меш- I / II added 2026-11-03, replacing four "to mix" Cloze Aspect notes and four
+  Basic nouns (меша́ть / помеша́ть kept as Cloze Aspect, reglossed to "get in the way"). **Families over 7 rows are split by sense into I / II, every part keeping the
   root's full original sense in its header** (Alex: the etymological link matters even where a sense
   doesn't fit a part). Family cards teach *which word*; conjugation is the Cloze Aspect job:
   **the two most common verbs of each family also get a Cloze Aspect note** (Alex, 2026-10-08 —
