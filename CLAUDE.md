@@ -73,7 +73,8 @@ series. Words the textbooks teach that aren't already known get authored as flas
   -пуск-, -бир-, -польз-, -яв-, -говор-, -раз-/-раж-, -блюд-, -част-, -ним-, -держ-, -нос-, -счёт-,
   -след-, -туп-); -меш- I / II added 2026-11-03, replacing four "to mix" Cloze Aspect notes and four
   Basic nouns (меша́ть / помеша́ть kept as Cloze Aspect, reglossed to "get in the way"). -польз- split into I "use" / II "benefit" the same day, and its three Cloze Aspect notes retired at
-  Alex's request (regular -ова- verbs: the family card is enough) — an exception to the two-verbs rule below. **Families over 7 rows are split by sense into I / II, every part keeping the
+  Alex's request (regular -ова- verbs: the family card is enough) — an exception to the two-verbs rule below. -мен- regrouped into I "change" / II "replace, exchange" / III "apply, cancel, betray"
+  the same day (26 rows), absorbing five loose aspect notes, five Basic nouns and a duplicate меня́ть. **Families over 7 rows are split by sense into I / II, every part keeping the
   root's full original sense in its header** (Alex: the etymological link matters even where a sense
   doesn't fit a part). Family cards teach *which word*; conjugation is the Cloze Aspect job:
   **the two most common verbs of each family also get a Cloze Aspect note** (Alex, 2026-10-08 —
