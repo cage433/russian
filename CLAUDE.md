@@ -145,7 +145,10 @@ series. Words the textbooks teach that aren't already known get authored as flas
 - **Senses separated by semicolons go in a left-aligned bullet list** (Alex, 2026-11-03), on Basic
   Fronts and Cloze Aspect English alike: write the gloss with `;` and run `scripts/gloss_bullets.py`
   (idempotent; a trailing `<br>(cf. …)` line stays under the list; semicolons inside brackets don't
-  split). Not on family / near-synonym tables — rows there are too long for it.
+  split). Not on family / near-synonym tables — rows there are too long for it. The same goes for
+  **" / " between distinct meanings** («time / tense (gram.)», «to bring in / raise»), converted by
+  hand-judged list on 2026-11-03 (808 notes); a slash stays where it joins synonyms, an adv. / predicative
+  or adj. / noun pair, case pairs («(+pr) in / (+a) into»), or mirrors the impf / pf pair.
 - NO POS descriptor `(noun)` unless there's genuine POS ambiguity (then e.g. `chocolate (noun / adj)`). NO `(idiom)`/`(proverb)` markers.
 - **Back** = Russian with stress marks (combining U+0301), ending in a trailing `<br><br>` (gap before future audio).
 - **Example** = one Russian sentence with stress.
