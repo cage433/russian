@@ -1,6 +1,12 @@
 #!/usr/bin/env python3
-"""Write Obsidian notes listing the vocab currently in Anki's learning steps, split by
-part of speech.
+"""Write Obsidian notes listing the vocab Alex is weakest on, split by part of speech.
+
+Default (since 2026-11-10): the PER_GROUP (30) least stable words per group — FSRS stability,
+i.e. how long the memory currently lasts — over all studied, unsuspended Vocab cards. A word
+with several cards counts as its weakest one. See POOL / STABILITY_STEPS below.
+
+`--query` lists the cards matching a search instead; the old default, below, was the
+first-pass learning cards — which, with 20 min / 1 h steps, was only ever the day's new words.
 
 Scope: cards in the **learning** state (first pass through the learning steps), per **card**: a Cloze-family note (root family,
 near-synonym group, Cloze Aspect, Cloze Sentence) contributes only the rows whose cards are learning. — cards part-way through their
@@ -38,7 +44,16 @@ sys.path.insert(0, str(ROOT / "scripts"))
 import anki_utils as a
 a.use_venv()
 
-QUERY = "deck:Vocab::* is:learn -is:review -is:suspended"
+QUERY = "deck:Vocab::* is:learn -is:review -is:suspended"   # --query mode only
+# Default mode (Alex, 2026-11-10): the WEAKEST words per group, by FSRS stability — how long the
+# memory currently lasts. Not retrievability (prop:r): that only measures time since the last
+# review, so a list built on it is just today's due pile and empties as reviews are done.
+POOL = "deck:Vocab::* -is:suspended -is:new"
+PER_GROUP = 30
+# AnkiConnect's cardsInfo carries no FSRS memory state, so stability is bracketed with prop:s
+# searches: a card's value is the first threshold it falls under. Cards above the last one are
+# solid enough to leave out.
+STABILITY_STEPS = [0.25, 0.5, 0.75, 1, 1.5, 2, 2.5, 3, 4, 5, 6, 7, 8, 10, 12, 14, 17, 21, 30]
 VAULT = Path("/Users/alex/.obsidian-vaults/Russian")
 OUT_DIR = VAULT / "Anki learning vocab"
 
@@ -87,7 +102,7 @@ def is_group(ru):
 
 def briefly(en, ru):
     """Headword only, Russian slash-joined — the scannable form used for single entries."""
-    en = en.split("<br>")[0].strip()
+    en = en.split("<br>")[0].strip().removeprefix("• ")    # first sense of a bulleted gloss
     parts = [re.sub(r"^\d+:\s*", "", p).strip() for p in ru.split("<br>")]
     sep = "<br>" if any(" — " in p for p in parts) else " / "     # conjugation rows: one per line
     return en, sep.join(p for p in parts if p)
@@ -274,6 +289,71 @@ def fetch(query=None, cards=None):
     return sorted(out, key=lambda r: r[0].casefold())
 
 
+def stability_brackets():
+    """{cardId: upper bound on its FSRS stability in days} for the weak part of the pool."""
+    out = {}
+    for t in STABILITY_STEPS:
+        for cid in a.call("findCards", query=f"{POOL} prop:s<{t}"):
+            out.setdefault(cid, t)
+    return out
+
+
+def fetch_weakest(per_group=PER_GROUP):
+    """-> (entries, root rows): the `per_group` least stable words in each group.
+
+    Each card is resolved on its own (cloze_entry / root_table with a single ord), so a word's
+    weakness is its weakest card: a Basic note's two directions and a Cloze Aspect note's three
+    cards all fold into one entry keyed on the lowest stability among them."""
+    stab = stability_brackets()
+    cards = []
+    ids = sorted(stab)
+    for i in range(0, len(ids), 500):
+        cards += a.call("cardsInfo", cards=ids[i:i + 500])
+    by_note = {}
+    for c in cards:
+        by_note.setdefault(c["note"], {})[c["ord"] + 1] = stab[c["cardId"]]
+    keyed, roots = {}, {}
+    nids = sorted(by_note)
+    for i in range(0, len(nids), 500):
+        for n in a.call("notesInfo", notes=nids[i:i + 500]):
+            f, tags, ords = n["fields"], set(n["tags"]), by_note[n["noteId"]]
+            if "Text" in f and "root" in tags:
+                for o, k in ords.items():
+                    header, rows = root_table(f["Text"]["value"], {o})
+                    for r in rows:
+                        if r[0].startswith("**"):
+                            key = (header, tuple(r))
+                            roots[key] = min(k, roots.get(key, k))
+                continue
+            if "Text" in f:
+                for o, k in ords.items():
+                    for en, ru in cloze_entry(n["modelName"], f["Text"]["value"], {o}):
+                        if en or ru:
+                            t = pos_tags(en, tags)
+                            keyed[(en, ru)] = (min(k, keyed.get((en, ru), (k,))[0]), t)
+                continue
+            en = re.sub(r"^Verb of motion<br>", "", clean(f["Front"]["value"]), flags=re.I)
+            ru = clean(f["Back"]["value"])
+            if en or ru:
+                keyed[(en, ru)] = (min(ords.values()), tags)
+    weakest = []
+    for g, want in GROUPS:
+        if g == "Roots":
+            continue
+        claimed = [(k, en, ru, t) for (en, ru), (k, t) in keyed.items()
+                   if (want and t & want) or (not want and not t & {"noun", "verb", "adj", "adv"})]
+        claimed.sort(key=lambda x: (x[0], x[1].casefold()))
+        weakest += [(en, ru, t) for _, en, ru, t in claimed[:per_group]]
+    entries = {}
+    for en, ru, t in weakest:      # a multi-POS word picked by two groups appears in both
+        entries[(en, ru)] = t
+    out = [(en, with_forms(ru) if "verb" in t else ru, t) for (en, ru), t in entries.items()]
+    root_rows = sorted(roots.items(), key=lambda x: (x[1], x[0][0]))[:per_group]
+    for (header, row), _ in root_rows:
+        ROOT_CARDS.append((header, [list(row)]))
+    return sorted(out, key=lambda r: r[0].casefold())
+
+
 def split(entries):
     """-> {group name: [(en, ru), …]}. Multi-POS notes land in every matching group;
     anything unmatched falls to the last group."""
@@ -349,19 +429,21 @@ def render_section(pairs):
 
 def render_index(buckets, total, query, stamp, coming=None):
     coming = coming or {g: [] for g, _ in GROUPS}
-    return "\n".join(["| Group | Learning |", "|---|---|"] +
+    return "\n".join(["| Group | Words |", "|---|---|"] +
                       [f"| [[{g}]] | {sum(1 for _, rows in ROOT_CARDS for r in rows if r[0].startswith('**')) if g == 'Roots' else len(buckets[g])} |" for g, _ in GROUPS] + [""])
 
 
 if __name__ == "__main__":
     p = argparse.ArgumentParser(description=__doc__.split("\n")[0])
-    p.add_argument("--query", default=QUERY)
+    p.add_argument("--query", default=None,
+                   help=f"list the cards matching this search instead of the weakest {PER_GROUP} "
+                        f"per group (e.g. '{QUERY}' for cards in their first learning pass)")
     p.add_argument("--out-dir", type=Path, default=OUT_DIR)
     p.add_argument("--print", dest="show", action="store_true",
                    help="print to stdout instead of writing the notes")
     args = p.parse_args()
 
-    entries = fetch(args.query)
+    entries = fetch(args.query) if args.query else fetch_weakest()
     buckets = split(entries)
     coming = {g: [] for g, _ in GROUPS}
     stamp = time.strftime("%Y-%m-%d %H:%M")
