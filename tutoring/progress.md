@@ -294,3 +294,4 @@ Aspect *choice* was right in 9/10. Misses were about form, and about «without»
 - 10 войдя́ ✓: the -ти trap from 2026-08-29 is now handled.
 Incidental: в комнате → в ко́мнату (motion), звонит её маму → звони́т (свое́й) ма́ме, мы шли → пошли́/пое́хали, молчу → молча́л, он пью → пьёт, до свидание → до свида́ния.
 Offered «ещё 5 таких» on choosing the pf partner + не + gerund.
+«Ещё 5 таких» same day: **5/5** (оде́вшись, верну́вшись, не закры́в, поня́в, не отдыха́я) — pf partner chosen before the suffix every time; не + gerund used correctly twice. Also explained в + acc (into, куда́) vs в + prep (in, где) vs к + dat (towards) after Alex reasoned "accusative = towards". Incidental: ~~вышёл~~ → вы́шел, ~~дверю~~ → дверь (acc = nom for -ь fem.), ушла́ из до́ма (left home) vs вы́шла (went out).

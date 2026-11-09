@@ -16,6 +16,7 @@ import gc
 import importlib
 import re
 import sys
+import types
 
 PRESET = "Back"          # the HyperTTS preset the Basic vocab cards use (scripts/hypertts_text_processing.py)
 AUDIO_FIELD = "Audio"
@@ -159,9 +160,19 @@ def generate_basic(col, note_ids, field="Back", dry_run=False, voice=None):
     fixed = None
     if voice and not dry_run:
         fixed = [v for v in batch.voice_selection.voice_list if voice in str(v.voice_id)]
-        if len(fixed) != 1:
-            raise LookupError(f"voice {voice!r}: {len(fixed)} matches in preset {PRESET!r}")
-        fixed = fixed[0]
+        if len(fixed) == 1:
+            fixed = fixed[0]
+        else:
+            # not in the preset: any voice HyperTTS offers, matched on its exact voice name
+            # (used for one-off comparisons, e.g. the шест / шесть check with a second speaker)
+            found = [v for v in h.service_manager.full_voice_list()
+                     if isinstance(v.voice_key, dict) and v.voice_key.get("name") == voice]
+            if len(found) != 1:
+                ru = sorted(v.voice_key.get("name", "") for v in h.service_manager.full_voice_list()
+                            if isinstance(v.voice_key, dict)
+                            and str(v.voice_key.get("language_code", "")).startswith("ru"))
+                raise LookupError(f"voice {voice!r}: {len(found)} matches; Russian voices: {ru}")
+            fixed = types.SimpleNamespace(voice_id=found[0].voice_id, options={})
     results = []
     for nid in note_ids:
         note = col.get_note(int(nid))
