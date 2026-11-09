@@ -536,7 +536,7 @@ when a sentence must reach beyond it, **gloss the unfamiliar word inline** (Engl
   **vocab glosses** (esp. words `check_vocab.py` flags), and standalone **grammar-rule
   explanations**. Keep the interactive exchange — prompts, Alex's answers, corrections — **in the
   session**, not the pane. Use short markdown headers per entry; `scratch/` is gitignored.
-- Per-lesson grammar notes live in `grammar/tochka ru/<level>/<lesson>.md` (symlinked into the Obsidian vault; they link to the vault's topic notes, indexed in the vault's `grammar/_Index.md`, rather than repeating them). Evolving tutoring
+- Per-lesson grammar notes live in `grammar/tochka ru/<level>/<lesson>.md` (symlinked into the Obsidian vault; they link to the vault's topic notes, indexed in the vault's folder note `grammar/grammar.md`, rather than repeating them). Evolving tutoring
   state is version-controlled here: `tutoring/progress.md` (unit progress + TODO drills) and
   `tutoring/error-patterns.md` (Alex's recurring mistakes — turn into «ещё N таких» mini-drills).
   Read and update both when tutoring. `tutoring/suspended-backlog.md` lists cards Alex suspended
