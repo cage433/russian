@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Write Obsidian notes listing the vocab Alex is weakest on, split by part of speech.
 
-Default (since 2026-11-10): the PER_GROUP (30) least stable words per group — FSRS stability,
+Default (since 2026-11-10): the least stable words per group (PER_GROUP: 20 verbs, 5 of the rest) — FSRS stability,
 i.e. how long the memory currently lasts — over all studied, unsuspended Vocab cards. A word
 with several cards counts as its weakest one. See POOL / STABILITY_STEPS below.
 
@@ -49,7 +49,10 @@ QUERY = "deck:Vocab::* is:learn -is:review -is:suspended"   # --query mode only
 # memory currently lasts. Not retrievability (prop:r): that only measures time since the last
 # review, so a list built on it is just today's due pile and empties as reviews are done.
 POOL = "deck:Vocab::* -is:suspended -is:new"
-PER_GROUP = 30
+# Verbs get the most room (Alex, 2026-11-10): over the previous 30 days 42% of reviewed verb cards
+# had a fail, against 13% of nouns and 17% of adjectives/adverbs, and 29% of verb cards have
+# stability under a week against ~4% of the others.
+PER_GROUP = {"Roots": 5, "Nouns": 5, "Verbs": 20, "Adjectives and adverbs": 5, "Other": 5}
 # AnkiConnect's cardsInfo carries no FSRS memory state, so stability is bracketed with prop:s
 # searches: a card's value is the first threshold it falls under. Cards above the last one are
 # solid enough to leave out.
@@ -299,7 +302,7 @@ def stability_brackets():
 
 
 def fetch_weakest(per_group=PER_GROUP):
-    """-> (entries, root rows): the `per_group` least stable words in each group.
+    """-> entries (root rows go to ROOT_CARDS): the per_group[g] least stable words in each group.
 
     Each card is resolved on its own (cloze_entry / root_table with a single ord), so a word's
     weakness is its weakest card: a Basic note's two directions and a Cloze Aspect note's three
@@ -343,12 +346,12 @@ def fetch_weakest(per_group=PER_GROUP):
         claimed = [(k, en, ru, t) for (en, ru), (k, t) in keyed.items()
                    if (want and t & want) or (not want and not t & {"noun", "verb", "adj", "adv"})]
         claimed.sort(key=lambda x: (x[0], x[1].casefold()))
-        weakest += [(en, ru, t) for _, en, ru, t in claimed[:per_group]]
+        weakest += [(en, ru, t) for _, en, ru, t in claimed[:per_group[g]]]
     entries = {}
     for en, ru, t in weakest:      # a multi-POS word picked by two groups appears in both
         entries[(en, ru)] = t
     out = [(en, with_forms(ru) if "verb" in t else ru, t) for (en, ru), t in entries.items()]
-    root_rows = sorted(roots.items(), key=lambda x: (x[1], x[0][0]))[:per_group]
+    root_rows = sorted(roots.items(), key=lambda x: (x[1], x[0][0]))[:per_group["Roots"]]
     for (header, row), _ in root_rows:
         ROOT_CARDS.append((header, [list(row)]))
     return sorted(out, key=lambda r: r[0].casefold())
@@ -436,7 +439,7 @@ def render_index(buckets, total, query, stamp, coming=None):
 if __name__ == "__main__":
     p = argparse.ArgumentParser(description=__doc__.split("\n")[0])
     p.add_argument("--query", default=None,
-                   help=f"list the cards matching this search instead of the weakest {PER_GROUP} "
+                   help=f"list the cards matching this search instead of the weakest words "
                         f"per group (e.g. '{QUERY}' for cards in their first learning pass)")
     p.add_argument("--out-dir", type=Path, default=OUT_DIR)
     p.add_argument("--print", dest="show", action="store_true",
