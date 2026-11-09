@@ -24,8 +24,8 @@ The set turns over quickly — it empties as cards graduate and refills as new o
 introduced — so re-run this whenever you want the notes refreshed. Each run rewrites every
 note in the folder, so words that have graduated simply disappear.
 
-Output: one note per POS group in `<vault>/Anki learning vocab/`, plus a folder-note index
-alongside it. Cards carry POS tags (`noun`/`verb`/`adj`/`adv`/…) set when they were authored;
+Output: one note per POS group in `<vault>/Anki learning vocab/`, plus an `_Index.md` inside
+it. Cards carry POS tags (`noun`/`verb`/`adj`/`adv`/…) set when they were authored;
 a note tagged with more than one POS (e.g. an adj/adv merge, or `chocolate (noun / adj)`)
 appears in **each** group it belongs to, so per-group counts can exceed the distinct total.
 
@@ -463,8 +463,12 @@ if __name__ == "__main__":
     for g, _ in GROUPS:
         (args.out_dir / f"{g}.md").write_text(
             render_group(g, buckets[g], args.query, stamp, coming[g]), encoding="utf-8")
-    # folder note: sits beside the folder, same name, so Obsidian treats it as its index
-    (args.out_dir.parent / f"{args.out_dir.name}.md").write_text(index, encoding="utf-8")
+    # index INSIDE the folder (Alex, 2026-11-10): a same-named note beside the folder showed up as
+    # a second "Anki learning vocab" entry, since the vault has no folder-notes plugin
+    (args.out_dir / "_Index.md").write_text(index, encoding="utf-8")
+    old = args.out_dir.parent / f"{args.out_dir.name}.md"
+    if old.exists():
+        old.unlink()
 
     n_root = sum(1 for _, rows in ROOT_CARDS for r in rows if r[0].startswith("**"))
     buckets["Roots"] = [None] * n_root

@@ -226,7 +226,7 @@ series. Words the textbooks teach that aren't already known get authored as flas
   in the browser → converter rebuilds fields from the snapshot → Tools → Empty Cards for singles.
   **Rules vs tricky verbs (2026-10-20, Alex: "I have no sense even for whether the verb is 1st or 2nd
   conjugation").** `scripts/conj_classify.py` checks every conjugation row against the rules in the
-  Obsidian note `grammar/conjugations/Conjugation — from the infinitive.md` (2,320 rows predicted,
+  Obsidian note `grammar/Verbs/Conjugation/Conjugation — from the infinitive.md` (2,320 rows predicted,
   332 needing a choice — -еть, -ать after ж/ш/ч/щ — 523 not predicted). Every row carries a hidden
   `<td class="rl">` rule label, outside the cloze so it is never spoken, shown by the template's
   **"show rule"** link (next to "other aspect"). **Tricky rows were cut to the infinitive** (+ government):
@@ -536,7 +536,7 @@ when a sentence must reach beyond it, **gloss the unfamiliar word inline** (Engl
   **vocab glosses** (esp. words `check_vocab.py` flags), and standalone **grammar-rule
   explanations**. Keep the interactive exchange — prompts, Alex's answers, corrections — **in the
   session**, not the pane. Use short markdown headers per entry; `scratch/` is gitignored.
-- Per-lesson grammar notes live in `grammar/tochka ru/<level>/<lesson>.md`. Evolving tutoring
+- Per-lesson grammar notes live in `grammar/tochka ru/<level>/<lesson>.md` (symlinked into the Obsidian vault; they link to the vault's topic notes, indexed in the vault's `grammar/_Index.md`, rather than repeating them). Evolving tutoring
   state is version-controlled here: `tutoring/progress.md` (unit progress + TODO drills) and
   `tutoring/error-patterns.md` (Alex's recurring mistakes — turn into «ещё N таких» mini-drills).
   Read and update both when tutoring. `tutoring/suspended-backlog.md` lists cards Alex suspended
