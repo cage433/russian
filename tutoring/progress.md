@@ -283,3 +283,14 @@ Still missing бы́ло after modals **6 times** in one session. Highest-freque
 user turn — and then marked it correct. Alex caught it. Never produce his answers; if a turn's
 provenance is unclear, ask. Also, per his request: when correcting, name the error and the rule but
 **do not write out the corrected sentence**, or the "repeat" becomes copying.
+
+### Drill: деепричастия, translation, 2026-11-10
+
+Ten EN→RU sentences, one gerund each, carrier vocab from the studied set. **7/10 on the target.**
+Aspect *choice* was right in 9/10. Misses were about form, and about «without»:
+- 1 ~~Читав газету~~ → **Чита́я**: -в suffix on the imperfective (simultaneous action).
+- 5 ~~без сказав~~ → **не сказа́в / не попроща́вшись**: "without doing" = **не** + gerund, not без.
+- 7 ~~Просыпавшись~~ → **Просну́вшись**: right -вшись ending, but on the impf stem; pick the pf partner first.
+- 10 войдя́ ✓: the -ти trap from 2026-08-29 is now handled.
+Incidental: в комнате → в ко́мнату (motion), звонит её маму → звони́т (свое́й) ма́ме, мы шли → пошли́/пое́хали, молчу → молча́л, он пью → пьёт, до свидание → до свида́ния.
+Offered «ещё 5 таких» on choosing the pf partner + не + gerund.

@@ -147,3 +147,9 @@ mini-drills («ещё N таких») when they recur. Add to this list as new p
 - **Years**: «в 1933 году» — no ending on the digits after в … году; ~~1933-ом~~ (if you write one, it's 1933-м).
 - **Motion → в + accusative, location → в + prepositional**: ~~переехала в Франции~~ → **переехала во Фра́нцию** (родила́сь в По́льше is location, correctly prepositional). Plus **во** before в/ф + consonant (во Фра́нции / во Фра́нцию), missed twice in one homework.
 - **включа́я governs the accusative, whatever came before it**: ~~занимался науками, включая химией~~ → **включа́я хи́мию, фи́зику и эконо́мику**. It's a gerund of включа́ть (+ acc.), so the instrumental of занима́ться doesn't carry over.
+
+### Added 2026-11-10 (деепричастия translation drill)
+
+- **Gerund suffix on the wrong aspect's stem**: ~~читав~~ (impf + -в), ~~просыпавшись~~ (impf + -вшись). Decide the aspect, take *that* verb (прочита́ть, просну́ться), then add -я / -в / -вшись.
+- **"Without doing" = не + gerund, never без**: ~~уехал без сказав~~ → **уе́хал, не сказа́в**. без takes a noun (без сло́ва).
+- **звони́ть + dative**, and **свой** for the subject's own: ~~звонит её маму~~ → **звони́т свое́й ма́ме** (or just ма́ме).
