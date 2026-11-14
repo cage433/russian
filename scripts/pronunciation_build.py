@@ -86,7 +86,7 @@ CSS = """.card { font-family: arial; font-size: 24px; text-align: center; color:
 # One play button for both words (Alex, 2026-11-14): Pair audio is the word's recording, a gap,
 # then the partner's, joined by ffmpeg (see pair_audio) — the recordings themselves are unchanged.
 FRONT = '<div class="label">{{Label}}</div>\n<div class="ask">which order?</div>\n{{Pair audio}}'
-GAP = 0.6   # seconds of silence between the two words
+GAP = 0.3   # seconds of silence between the two words (0.6 was too long, Alex 2026-11-14)
 # The back replays both (they are in FrontSide) and spells out the order.
 BACK = ('{{FrontSide}}\n<hr id=answer>\n'
         '<div class="order">1. <span class="word">{{Word}}</span> <span class="gloss">{{Gloss}}</span></div>\n'
@@ -173,14 +173,14 @@ def record(ids):
 
 def pair_audio():
     """Pair audio = Audio + GAP of silence + Partner audio, as one mp3 stored in Anki's media
-    (so it syncs). Named from the two source files, so a re-run only rebuilds what changed."""
+    (so it syncs). Named from the two source files and GAP, so a re-run only rebuilds what changed."""
     media = a.call('getMediaDirPath')
     nids = a.call('findNotes', query=f'"note:{MODEL}"')
     done = 0
     for n in a.call('notesInfo', notes=nids):
         f = n['fields']
         srcs = [re.search(r'\[sound:([^\]]+)\]', f[k]['value']).group(1) for k in ('Audio', 'Partner audio')]
-        name = 'pron-pair-' + hashlib.sha1('|'.join(srcs).encode()).hexdigest()[:16] + '.mp3'
+        name = 'pron-pair-' + hashlib.sha1('|'.join(srcs + [str(GAP)]).encode()).hexdigest()[:16] + '.mp3'
         if f['Pair audio']['value'] == f'[sound:{name}]':
             continue
         with tempfile.TemporaryDirectory() as tmp:

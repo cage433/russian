@@ -61,7 +61,7 @@ series. Words the textbooks teach that aren't already known get authored as flas
   Prefixed is for later (Alex). All start paused; parent 9999.
 - `Pronunciation` (2026-10-25, `scripts/pronunciation_build.py`): listening cards, note type
   "Pronunciation" — front = the contrast and both words of the pair, alphabetical (Alex, 2026-11-01: to
-  know which sound is being tested), then **plays both recordings as one file (`Pair audio`: word, 0.6 s gap, partner, joined by ffmpeg — one play button), and
+  know which sound is being tested), then **plays both recordings as one file (`Pair audio`: word, 0.3 s gap, partner, joined by ffmpeg — one play button), and
   asks which order** (Alex, 2026-11-14 — was one recording, "which word?"); back replays both and lists
   them 1, 2 with glosses. A pair's two notes give the two orders; they're separate notes, so Anki won't
   bury one when the other is shown. Subdecks
