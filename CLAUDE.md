@@ -61,8 +61,10 @@ series. Words the textbooks teach that aren't already known get authored as flas
   Prefixed is for later (Alex). All start paused; parent 9999.
 - `Pronunciation` (2026-10-25, `scripts/pronunciation_build.py`): listening cards, note type
   "Pronunciation" — front = the contrast and both words of the pair, alphabetical (Alex, 2026-11-01: to
-  know which sound is being tested) + the recording, back = the word, gloss,
-  and its minimal-pair partner with the partner's recording (autoplays, for comparison). Subdecks
+  know which sound is being tested), then **plays both recordings, the note's word then its partner, and
+  asks which order** (Alex, 2026-11-14 — was one recording, "which word?"); back replays both and lists
+  them 1, 2 with glosses. A pair's two notes give the two orders; they're separate notes, so Anki won't
+  bury one when the other is shown. Subdecks
   `ш vs щ`, `Final ь`, `Hard vs soft`. **Minimal pairs only**: with a single known word its spelling
   gives the answer away. Audio via `generateBasicAudio` (Back preset) with **one fixed voice**, `VOICE` in the script (Alex, 2026-11-02:
   the preset's random choice of four speakers swamped шест / шесть); `--rerecord` redoes them all.

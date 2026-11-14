@@ -1,12 +1,13 @@
 #!/usr/bin/env python3
 """Build the Pronunciation deck: listening cards for sounds an English ear merges.
 
-One note per word, note type "Pronunciation": the front names the contrast and shows both words
-of the pair («ш or щ / ча́ша / ча́ща», alphabetical, so the order gives nothing away) and plays
-the recording; the back is the word, its gloss, and its minimal-pair partner
-with the partner's recording, which autoplays so the two can be compared. Words come in
-minimal pairs: with a word you know, its spelling would give the answer away, so only a
-partner that differs in the target sound alone makes the card a test of hearing.
+One note per word, note type "Pronunciation". Since 2026-11-14 (Alex) a card plays BOTH words of
+a minimal pair — the note's word, then its partner — and asks which order they came in: the front
+names the contrast and shows the pair alphabetically («ш or щ / шёлк / щёлк», so the layout gives
+nothing away); the back replays both and lists them 1, 2 with glosses. The pair's two notes give
+the two orders. (Until then a card played one word and asked which it was; comparing two is the
+easier, more useful discrimination.) Words come in minimal pairs: only a partner that differs in
+the target sound alone makes the card a test of hearing.
 
 Audio is the Back preset's HyperTTS voice via the add-on's generateBasicAudio: the word is
 written into Audio, recorded, then Audio is cut down to the bare [sound:] tag.
@@ -72,17 +73,25 @@ CSS = """.card { font-family: arial; font-size: 24px; text-align: center; color:
 .nightMode .gloss { color: #aaa; }
 .partner { margin-top: 1.5em; font-size: 0.9em; }
 .partner .pg { color: #888; font-size: 0.85em; }
+.ask { font-size: 0.7em; color: #888; margin-bottom: 0.8em; }
+.order { margin: 0.3em 0; }
+.order .word { font-size: 1.3em; }
 .pair { display: inline-block; margin-top: 0.4em; font-size: 1.4em; color: black; }
 .nightMode .pair { color: #eee; }
 """
-FRONT = '<div class="label">{{Label}}</div>\n{{Audio}}'
-BACK = ('{{FrontSide}}\n<hr id=answer>\n<div class="word">{{Word}}</div>\n<div class="gloss">{{Gloss}}</div>\n'
-        '<div class="partner">vs {{Partner}} <span class="pg">{{Partner gloss}}</span><br>{{Partner audio}}</div>')
+FRONT = '<div class="label">{{Label}}</div>\n<div class="ask">which order?</div>\n{{Audio}} {{Partner audio}}'
+# The back replays both (they are in FrontSide) and spells out the order.
+BACK = ('{{FrontSide}}\n<hr id=answer>\n'
+        '<div class="order">1. <span class="word">{{Word}}</span> <span class="gloss">{{Gloss}}</span></div>\n'
+        '<div class="order">2. <span class="word">{{Partner}}</span> <span class="gloss">{{Partner gloss}}</span></div>')
 FIELDS = ['Word', 'Gloss', 'Label', 'Audio', 'Partner', 'Partner gloss', 'Partner audio']
 
 
 def ensure_model():
     if MODEL in a.call('modelNames'):
+        # keep the templates in step with this file (the model predates the two-sound format)
+        a.call('updateModelTemplates', model={'name': MODEL, 'templates': {'Listen': {'Front': FRONT, 'Back': BACK}}})
+        a.call('updateModelStyling', model={'name': MODEL, 'css': CSS})
         return
     a.call('createModel', modelName=MODEL, inOrderFields=FIELDS, css=CSS,
            cardTemplates=[{'Name': 'Listen', 'Front': FRONT, 'Back': BACK}])
