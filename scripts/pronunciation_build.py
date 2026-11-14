@@ -11,13 +11,17 @@ the target sound alone makes the card a test of hearing.
 
 Audio is the Back preset's HyperTTS voice via the add-on's generateBasicAudio: the word is
 written into Audio, recorded, then Audio is cut down to the bare [sound:] tag.
-Idempotent: existing notes (by Word) are skipped. `--rerecord` re-records every note with VOICE. Decks start paused (Shared preset, 0/day).
+Idempotent: existing notes (by Word) are skipped. `--pair-audio` rebuilds just the joined recordings. `--rerecord` re-records every note with VOICE. Decks start paused (Shared preset, 0/day).
 """
 import sys
 sys.path.insert(0, 'scripts')
 import anki_utils as a
 a.use_venv()
+import hashlib
+import os
 import re
+import subprocess
+import tempfile
 
 ROOT = 'Pronunciation'
 # One speaker for every recording (Alex, 2026-11-02): the Back preset picks one of four voices at
@@ -79,16 +83,21 @@ CSS = """.card { font-family: arial; font-size: 24px; text-align: center; color:
 .pair { display: inline-block; margin-top: 0.4em; font-size: 1.4em; color: black; }
 .nightMode .pair { color: #eee; }
 """
-FRONT = '<div class="label">{{Label}}</div>\n<div class="ask">which order?</div>\n{{Audio}} {{Partner audio}}'
+# One play button for both words (Alex, 2026-11-14): Pair audio is the word's recording, a gap,
+# then the partner's, joined by ffmpeg (see pair_audio) — the recordings themselves are unchanged.
+FRONT = '<div class="label">{{Label}}</div>\n<div class="ask">which order?</div>\n{{Pair audio}}'
+GAP = 0.6   # seconds of silence between the two words
 # The back replays both (they are in FrontSide) and spells out the order.
 BACK = ('{{FrontSide}}\n<hr id=answer>\n'
         '<div class="order">1. <span class="word">{{Word}}</span> <span class="gloss">{{Gloss}}</span></div>\n'
         '<div class="order">2. <span class="word">{{Partner}}</span> <span class="gloss">{{Partner gloss}}</span></div>')
-FIELDS = ['Word', 'Gloss', 'Label', 'Audio', 'Partner', 'Partner gloss', 'Partner audio']
+FIELDS = ['Word', 'Gloss', 'Label', 'Audio', 'Partner', 'Partner gloss', 'Partner audio', 'Pair audio']
 
 
 def ensure_model():
     if MODEL in a.call('modelNames'):
+        if 'Pair audio' not in a.call('modelFieldNames', modelName=MODEL):
+            a.call('modelFieldAdd', modelName=MODEL, fieldName='Pair audio', index=len(FIELDS) - 1)
         # keep the templates in step with this file (the model predates the two-sound format)
         a.call('updateModelTemplates', model={'name': MODEL, 'templates': {'Listen': {'Front': FRONT, 'Back': BACK}}})
         a.call('updateModelStyling', model={'name': MODEL, 'css': CSS})
@@ -108,6 +117,10 @@ def ensure_decks():
 
 
 def main():
+    if '--pair-audio' in sys.argv:          # rebuild only the joined recordings (+ templates)
+        ensure_model()
+        pair_audio()
+        return
     if '--rerecord' in sys.argv:            # re-record every note with VOICE
         # an add-on loaded before `voice` existed would fail after Audio was blanked to the word
         assert not a.call('addonInfo')['stale'], 'restart Anki: the add-on changed since it loaded'
@@ -155,6 +168,35 @@ def record(ids):
         a.call('updateNoteFields', note={'id': n['noteId'], 'fields': {
             'Audio': tag[f['Word']['value']], 'Partner audio': tag[f['Partner']['value']]}})
     print(f'{len(notes)} notes have audio')
+    pair_audio()
+
+
+def pair_audio():
+    """Pair audio = Audio + GAP of silence + Partner audio, as one mp3 stored in Anki's media
+    (so it syncs). Named from the two source files, so a re-run only rebuilds what changed."""
+    media = a.call('getMediaDirPath')
+    nids = a.call('findNotes', query=f'"note:{MODEL}"')
+    done = 0
+    for n in a.call('notesInfo', notes=nids):
+        f = n['fields']
+        srcs = [re.search(r'\[sound:([^\]]+)\]', f[k]['value']).group(1) for k in ('Audio', 'Partner audio')]
+        name = 'pron-pair-' + hashlib.sha1('|'.join(srcs).encode()).hexdigest()[:16] + '.mp3'
+        if f['Pair audio']['value'] == f'[sound:{name}]':
+            continue
+        with tempfile.TemporaryDirectory() as tmp:
+            out = os.path.join(tmp, name)
+            subprocess.run(['ffmpeg', '-v', 'error', '-y',
+                            '-i', os.path.join(media, srcs[0]),
+                            '-f', 'lavfi', '-t', str(GAP), '-i', 'anullsrc=r=24000:cl=mono',
+                            '-i', os.path.join(media, srcs[1]),
+                            '-filter_complex', '[0:a]aformat=sample_rates=24000:channel_layouts=mono[a];'
+                            '[2:a]aformat=sample_rates=24000:channel_layouts=mono[b];'
+                            '[a][1:a][b]concat=n=3:v=0:a=1', '-c:a', 'libmp3lame', '-q:a', '4', out],
+                           check=True)
+            a.call('storeMediaFile', filename=name, path=out)
+        a.call('updateNoteFields', note={'id': n['noteId'], 'fields': {'Pair audio': f'[sound:{name}]'}})
+        done += 1
+    print(f'pair audio: {done} built')
 
 
 if __name__ == '__main__':
