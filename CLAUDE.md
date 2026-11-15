@@ -151,6 +151,14 @@ series. Words the textbooks teach that aren't already known get authored as flas
   **" / " between distinct meanings** («time / tense (gram.)», «to bring in / raise»), converted by
   hand-judged list on 2026-11-03 (808 notes); a slash stays where it joins synonyms, an adv. / predicative
   or adj. / noun pair, case pairs («(+pr) in / (+a) into»), or mirrors the impf / pf pair.
+- **Grammatical labels: bracketed, no dots, Wiktionary abbreviations** (Alex, 2026-11-16): `(m)` `(f)`
+  `(n)` `(pl)` `(m pl)` `(m/f)` `(indecl)`, aspect `(impf)` `(pf)` `(impf/pf)`, register `(coll)` `(very coll)`,
+  POS `(adj)` `(adv)` `(noun)`, `(intrans)` / `(trans)`, `(fig)`. **Every soft-sign noun carries its gender**
+  (`караме́ль (f)`, on Cloze rows inside the cloze). Government is unchanged: `(+a)` `(+d)` `(+g)` `(+inst)`
+  `(+pr)`, prepositions in Cyrillic (`с +inst`, not a Latin c). Brackets also keep labels out of the HyperTTS
+  recording. `scripts/normalise_labels.py` (dry run by default, idempotent) fixes strays — `m.`, `(i)`,
+  `(coll.)`, `(+i)`, `(+gen)`; 650 notes on 2026-11-16, backup `tutoring/retired/label-normalise-*.json`.
+  (The unbracketed Cloze Aspect row labels — `impf ·`, `pf ·`, `i/p ·` — were left as they are.)
 - NO POS descriptor `(noun)` unless there's genuine POS ambiguity (then e.g. `chocolate (noun / adj)`). NO `(idiom)`/`(proverb)` markers.
 - **Back** = Russian with stress marks (combining U+0301), ending in a trailing `<br><br>` (gap before future audio).
 - **Example** = one Russian sentence with stress.
